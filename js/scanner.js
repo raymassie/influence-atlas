@@ -1,4 +1,4 @@
-// Movie Catalog - Barcode Scanner Functionality
+// Movie Catalog - Barcode Scanner Functionality - Fixed Version
 let scanner = null;
 let scannerStream = null;
 let isScanning = false;
@@ -6,7 +6,26 @@ let isScanning = false;
 // Initialize scanner when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
     setupScanner();
+    checkBrowserSupport();
 });
+
+function checkBrowserSupport() {
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+        console.log('❌ Camera API not supported');
+        showStatus('scanner-status', '❌ Camera not supported in this browser. Please use Chrome, Edge, or Safari.', 'error');
+        return false;
+    }
+    
+    if (!('BarcodeDetector' in window)) {
+        console.log('⚠️ Native BarcodeDetector not supported');
+        showStatus('scanner-status', 'ℹ️ Advanced barcode detection not available. Manual entry is available below.', 'info');
+        startManualBarcodeInput();
+        return false;
+    }
+    
+    console.log('✅ Browser supports camera and barcode detection');
+    return true;
+}
 
 function setupScanner() {
     const startButton = document.getElementById('start-scanner');
@@ -32,23 +51,25 @@ async function startScanner() {
         const startButton = document.getElementById('start-scanner');
         const stopButton = document.getElementById('stop-scanner');
 
-        // Check if we have camera permissions
-        const permissionStatus = await navigator.permissions.query({ name: 'camera' });
-        console.log('📷 Camera permission status:', permissionStatus.state);
-
-        // Request camera access with optimal settings for barcode scanning
-        const constraints = {
+        // Request camera access with fallback constraints
+        let constraints = {
             video: { 
-                facingMode: 'environment', // Use back camera if available
+                facingMode: 'environment', // Try back camera first
                 width: { ideal: 1280, min: 640 },
-                height: { ideal: 720, min: 480 },
-                aspectRatio: { ideal: 16/9 },
-                focusMode: 'continuous'
+                height: { ideal: 720, min: 480 }
             }
         };
 
         console.log('🎥 Requesting camera access...');
-        scannerStream = await navigator.mediaDevices.getUserMedia(constraints);
+        
+        try {
+            scannerStream = await navigator.mediaDevices.getUserMedia(constraints);
+        } catch (error) {
+            // Fallback to any available camera
+            console.log('⚠️ Back camera not available, trying any camera...');
+            constraints = { video: true };
+            scannerStream = await navigator.mediaDevices.getUserMedia(constraints);
+        }
 
         video.srcObject = scannerStream;
         isScanning = true;
@@ -76,8 +97,8 @@ async function startScanner() {
             
             showStatus('scanner-status', '📱 Scanner started! Point your camera at a barcode.', 'success');
         } else {
-            console.log('⚠️ Native BarcodeDetector not supported, using fallback');
-            showStatus('scanner-status', '⚠️ Advanced barcode detection not supported in this browser. You can still enter barcodes manually below.', 'info');
+            console.log('⚠️ Native BarcodeDetector not supported');
+            showStatus('scanner-status', '⚠️ Barcode detection not supported. Use manual entry below.', 'info');
             startManualBarcodeInput();
         }
 
@@ -85,18 +106,14 @@ async function startScanner() {
         console.error('❌ Scanner error:', error);
         isScanning = false;
         
-        let errorMessage = 'Error starting scanner: ';
+        let errorMessage = 'Camera error: ';
         
         if (error.name === 'NotAllowedError') {
-            errorMessage += 'Camera permission denied. Please allow camera access and try again.';
+            errorMessage += 'Please allow camera access and try again.';
         } else if (error.name === 'NotFoundError') {
-            errorMessage += 'No camera found. Please ensure your device has a camera.';
+            errorMessage += 'No camera found on this device.';
         } else if (error.name === 'NotReadableError') {
-            errorMessage += 'Camera is already in use by another application.';
-        } else if (error.name === 'OverconstrainedError') {
-            errorMessage += 'Camera constraints could not be satisfied.';
-        } else if (error.name === 'SecurityError') {
-            errorMessage += 'Camera access blocked by security policy.';
+            errorMessage += 'Camera is being used by another application.';
         } else {
             errorMessage += error.message;
         }
@@ -109,7 +126,7 @@ async function startScanner() {
         startButton.disabled = false;
         stopButton.disabled = true;
         
-        // Offer manual input as fallback
+        // Always offer manual input as fallback
         startManualBarcodeInput();
     }
 }
@@ -139,9 +156,6 @@ function stopScanner() {
     
     // Hide result
     document.getElementById('scanner-result').style.display = 'none';
-    
-    // Remove manual input if it exists
-    removeManualBarcodeInput();
     
     showStatus('scanner-status', '⏹️ Scanner stopped.', 'info');
 }
@@ -188,7 +202,7 @@ function startManualBarcodeInput() {
         <div style="margin: 20px 0; text-align: center; padding: 20px; background: #f8f9fa; border-radius: 10px; border: 2px solid #ecf0f1;">
             <h4 style="margin-bottom: 15px; color: #2c3e50;">📝 Manual Barcode Entry</h4>
             <p style="margin-bottom: 15px; color: #7f8c8d; font-size: 14px;">
-                Camera not working? Enter the barcode number manually.
+                Enter the UPC/EAN barcode number manually.
             </p>
             <div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
                 <input type="text" 
@@ -203,6 +217,11 @@ function startManualBarcodeInput() {
             <p style="margin-top: 10px; color: #95a5a6; font-size: 12px;">
                 Look for a series of numbers under the barcode on your DVD/Blu-ray case
             </p>
+            <div style="margin-top: 15px; font-size: 12px; color: #7f8c8d;">
+                <strong>Common UPC examples:</strong><br>
+                • 12-digit: 025192354526<br>
+                • 13-digit: 0025192354526
+            </div>
         </div>
     `;
     
@@ -275,12 +294,14 @@ function handleBarcodeDetected(upc, format = 'unknown') {
     document.getElementById('scanner-result').style.display = 'block';
     
     // Stop scanner
-    stopScanner();
+    if (isScanning) {
+        stopScanner();
+    }
     
     // Fill UPC field in form
     document.getElementById('upc').value = cleanUPC;
     
-    // Try to lookup movie details
+    // Try to lookup movie details (but don't fail if it doesn't work)
     lookupMovieByUPC(cleanUPC);
     
     // Switch to add movie tab after a brief delay
@@ -294,7 +315,7 @@ function handleBarcodeDetected(upc, format = 'unknown') {
         document.getElementById('add-movie').scrollIntoView({ behavior: 'smooth' });
     }, 1500);
     
-    showStatus('scanner-status', `✅ Barcode scanned successfully: ${cleanUPC}`, 'success');
+    showStatus('scanner-status', `✅ Barcode captured: ${cleanUPC}`, 'success');
 }
 
 async function lookupMovieByUPC(upc) {
@@ -306,51 +327,65 @@ async function lookupMovieByUPC(upc) {
     try {
         showStatus('add-status', '🔍 Looking up movie details...', 'info');
         
-        // Try multiple APIs for better results
-        let movieData = await tryMultipleAPIs(upc);
+        // Try the lookup but don't fail the whole process if it doesn't work
+        let movieData = await tryLookupAPIs(upc);
         
         if (movieData) {
             fillFormWithMovieData(movieData);
             showStatus('add-status', `✅ Found: "${movieData.title}"! Please verify and complete the details.`, 'success');
             console.log('✅ Movie data found and form filled:', movieData);
         } else {
-            showStatus('add-status', '⚠️ Movie not found in database. Please enter details manually.', 'info');
-            console.log('❌ No movie data found for UPC');
+            // Don't show this as an error - just inform the user
+            showStatus('add-status', `ℹ️ UPC ${upc} captured! Movie details not found in database - please enter manually.`, 'info');
+            console.log('ℹ️ No movie data found for UPC, but that\'s okay');
+            
+            // Focus on the title field so user can start entering data
+            setTimeout(() => {
+                document.getElementById('title').focus();
+            }, 500);
         }
         
     } catch (error) {
         console.error('❌ Lookup error:', error);
-        showStatus('add-status', '❌ Could not lookup movie details. Please enter manually.', 'error');
+        showStatus('add-status', `ℹ️ UPC ${upc} captured! Unable to lookup details - please enter manually.`, 'info');
+        
+        // Focus on the title field
+        setTimeout(() => {
+            document.getElementById('title').focus();
+        }, 500);
     } finally {
         loadingDiv.style.display = 'none';
     }
 }
 
-async function tryMultipleAPIs(upc) {
+async function tryLookupAPIs(upc) {
+    // Try multiple UPC databases
     const apis = [
-        { name: 'UPC Database', func: lookupUPCDatabase },
-        { name: 'OMDb API', func: lookupOMDb }
+        { name: 'UPC Database', func: () => lookupUPCDatabase(upc) },
+        { name: 'Barcode Lookup', func: () => lookupBarcodeAPI(upc) }
     ];
     
     for (const api of apis) {
         try {
             console.log(`🌐 Trying ${api.name}...`);
-            const result = await api.func(upc);
+            const result = await api.func();
             if (result) {
                 console.log(`✅ ${api.name} returned data:`, result);
                 return result;
             }
         } catch (error) {
             console.log(`❌ ${api.name} failed:`, error.message);
+            // Continue to next API
         }
     }
     
-    console.log('❌ All APIs failed to return movie data');
+    console.log('ℹ️ All APIs tried - no movie data found');
     return null;
 }
 
 async function lookupUPCDatabase(upc) {
     try {
+        // Try the free UPC database
         const url = `https://api.upcitemdb.com/prod/trial/lookup?upc=${upc}`;
         console.log('🌐 Fetching from UPC database:', url);
         
@@ -393,15 +428,13 @@ async function lookupUPCDatabase(upc) {
         
     } catch (error) {
         console.error('❌ UPC database error:', error);
-        throw error;
+        return null; // Don't throw, just return null
     }
 }
 
-async function lookupOMDb(upc) {
-    // OMDb API integration would require a title search since it doesn't support UPC directly
-    // For now, this is a placeholder that could be implemented with a paid OMDb API key
-    
-    console.log('ℹ️ OMDb API lookup not implemented (requires title, not UPC)');
+async function lookupBarcodeAPI(upc) {
+    // Alternative API - this is just a placeholder since most require API keys
+    console.log('ℹ️ Alternative barcode lookup not implemented');
     return null;
 }
 
@@ -442,7 +475,7 @@ function extractGenreFromTitle(title) {
         'Sci-Fi': ['sci-fi', 'science fiction', 'space', 'future'],
         'Fantasy': ['fantasy', 'magic', 'wizard'],
         'Animation': ['animation', 'animated', 'cartoon'],
-        'Documentary': ['documentary', 'documentary']
+        'Documentary': ['documentary']
     };
     
     for (const [genre, keywords] of Object.entries(genreKeywords)) {
@@ -453,10 +486,3 @@ function extractGenreFromTitle(title) {
     
     return '';
 }
-
-// Prevent page from scrolling when scanner is active
-document.addEventListener('touchmove', function(e) {
-    if (isScanning) {
-        e.preventDefault();
-    }
-}, { passive: false });
