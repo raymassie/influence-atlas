@@ -1,4 +1,4 @@
-// Movie Catalog - Barcode Scanner Functionality - Fixed Version
+// Movie Catalog - Barcode Scanner Functionality - Debug Version
 let scanner = null;
 let scannerStream = null;
 let isScanning = false;
@@ -257,9 +257,12 @@ function handleManualBarcode() {
     const barcode = input.value.trim();
     
     if (barcode) {
-        if (isValidBarcode(barcode)) {
-            console.log('✅ Valid manual barcode entered:', barcode);
-            handleBarcodeDetected(barcode, 'manual');
+        // Only remove spaces and dashes that users might type, keep the actual digits
+        const cleanBarcode = barcode.replace(/[\s-]/g, '');
+        
+        if (isValidBarcode(cleanBarcode)) {
+            console.log('✅ Valid manual barcode entered:', cleanBarcode);
+            handleBarcodeDetected(cleanBarcode, 'manual');
             input.value = '';
         } else {
             alert('⚠️ Please enter a valid barcode (8-14 digits)');
@@ -278,19 +281,21 @@ function isValidBarcode(barcode) {
 }
 
 function handleBarcodeDetected(upc, format = 'unknown') {
-    console.log(`🎯 Barcode detected: ${upc} (format: ${format})`);
+    console.log(`🎯 RAW Barcode detected: "${upc}" (format: ${format})`);
+    console.log(`🔍 UPC length: ${upc.length}`);
+    console.log(`🔍 UPC characters: ${upc.split('').join(', ')}`);
     
-    // Clean up the UPC (remove any non-digit characters)
-    const cleanUPC = upc.replace(/\D/g, '');
+    // Don't modify the UPC at all - use exactly what was scanned
+    const scannedUPC = upc;
     
-    if (!isValidBarcode(cleanUPC)) {
+    if (!isValidBarcode(scannedUPC)) {
         console.log('❌ Invalid barcode format');
         showStatus('scanner-status', '❌ Invalid barcode format. Please try again.', 'error');
         return;
     }
     
-    // Display the result
-    document.getElementById('scanned-upc').textContent = cleanUPC;
+    // Display the exact scanned result
+    document.getElementById('scanned-upc').textContent = scannedUPC;
     document.getElementById('scanner-result').style.display = 'block';
     
     // Stop scanner
@@ -298,11 +303,11 @@ function handleBarcodeDetected(upc, format = 'unknown') {
         stopScanner();
     }
     
-    // Fill UPC field in form
-    document.getElementById('upc').value = cleanUPC;
+    // Fill UPC field in form with exact scanned value
+    document.getElementById('upc').value = scannedUPC;
     
-    // Try to lookup movie details (but don't fail if it doesn't work)
-    lookupMovieByUPC(cleanUPC);
+    // Try to lookup movie details
+    lookupMovieByUPC(scannedUPC);
     
     // Switch to add movie tab after a brief delay
     setTimeout(() => {
@@ -315,7 +320,7 @@ function handleBarcodeDetected(upc, format = 'unknown') {
         document.getElementById('add-movie').scrollIntoView({ behavior: 'smooth' });
     }, 1500);
     
-    showStatus('scanner-status', `✅ Barcode captured: ${cleanUPC}`, 'success');
+    showStatus('scanner-status', `✅ Barcode captured: ${scannedUPC}`, 'success');
 }
 
 async function lookupMovieByUPC(upc) {
@@ -486,3 +491,10 @@ function extractGenreFromTitle(title) {
     
     return '';
 }
+
+// Prevent page from scrolling when scanner is active
+document.addEventListener('touchmove', function(e) {
+    if (isScanning) {
+        e.preventDefault();
+    }
+}, { passive: false });
