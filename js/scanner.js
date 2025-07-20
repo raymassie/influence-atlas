@@ -283,19 +283,22 @@ function isValidBarcode(barcode) {
 function handleBarcodeDetected(upc, format = 'unknown') {
     console.log(`🎯 RAW Barcode detected: "${upc}" (format: ${format})`);
     console.log(`🔍 UPC length: ${upc.length}`);
-    console.log(`🔍 UPC characters: ${upc.split('').join(', ')}`);
     
-    // Don't modify the UPC at all - use exactly what was scanned
-    const scannedUPC = upc;
+    // Handle EAN-13 codes that are actually UPC-A with leading zero
+    let cleanUPC = upc;
+    if (format === 'ean_13' && upc.length === 13 && upc.startsWith('0')) {
+        cleanUPC = upc.substring(1); // Remove the leading zero
+        console.log(`🔄 Converted EAN-13 to UPC-A: ${upc} → ${cleanUPC}`);
+    }
     
-    if (!isValidBarcode(scannedUPC)) {
+    if (!isValidBarcode(cleanUPC)) {
         console.log('❌ Invalid barcode format');
         showStatus('scanner-status', '❌ Invalid barcode format. Please try again.', 'error');
         return;
     }
     
-    // Display the exact scanned result
-    document.getElementById('scanned-upc').textContent = scannedUPC;
+    // Display the cleaned result
+    document.getElementById('scanned-upc').textContent = cleanUPC;
     document.getElementById('scanner-result').style.display = 'block';
     
     // Stop scanner
@@ -303,11 +306,11 @@ function handleBarcodeDetected(upc, format = 'unknown') {
         stopScanner();
     }
     
-    // Fill UPC field in form with exact scanned value
-    document.getElementById('upc').value = scannedUPC;
+    // Fill UPC field in form with cleaned value
+    document.getElementById('upc').value = cleanUPC;
     
     // Try to lookup movie details
-    lookupMovieByUPC(scannedUPC);
+    lookupMovieByUPC(cleanUPC);
     
     // Switch to add movie tab after a brief delay
     setTimeout(() => {
@@ -320,7 +323,7 @@ function handleBarcodeDetected(upc, format = 'unknown') {
         document.getElementById('add-movie').scrollIntoView({ behavior: 'smooth' });
     }, 1500);
     
-    showStatus('scanner-status', `✅ Barcode captured: ${scannedUPC}`, 'success');
+    showStatus('scanner-status', `✅ Barcode captured: ${cleanUPC}`, 'success');
 }
 
 async function lookupMovieByUPC(upc) {
