@@ -53,8 +53,8 @@ function saveGoogleConfig() {
     }
 }
 
-// Tab functionality
-function showTab(tabName) {
+// Tab functionality - FIXED VERSION
+function showTab(tabName, event) {
     console.log(`🔄 Switching to tab: ${tabName}`);
     
     // Hide all tab contents
@@ -70,8 +70,22 @@ function showTab(tabName) {
     // Show selected tab content
     document.getElementById(tabName).classList.add('active');
     
-    // Add active class to clicked tab
-    event.target.classList.add('active');
+    // Add active class to clicked tab - handle both event and direct calls
+    if (event && event.target) {
+        event.target.classList.add('active');
+    } else {
+        // Find the correct tab button when called programmatically
+        const tabButtons = document.querySelectorAll('.tab');
+        const tabMap = {
+            'add-movie': 0,
+            'scanner': 1,
+            'collection': 2,
+            'spreadsheet': 3
+        };
+        if (tabMap[tabName] !== undefined) {
+            tabButtons[tabMap[tabName]].classList.add('active');
+        }
+    }
     
     // Load data when switching to collection or spreadsheet
     if (tabName === 'collection' || tabName === 'spreadsheet') {
@@ -79,6 +93,7 @@ function showTab(tabName) {
             loadMoviesFromGoogle();
         }
     }
+}
 }
 
 // Form setup
