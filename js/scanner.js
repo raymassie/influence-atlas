@@ -312,19 +312,15 @@ function handleBarcodeDetected(upc, format = 'unknown') {
     // Try to lookup movie details
     lookupMovieByUPC(cleanUPC);
     
-    // Switch to add movie tab after a brief delay
+    // Switch to add movie tab after a brief delay - FIXED VERSION
     setTimeout(() => {
-        showTab('add-movie');
-        // Update tab styling
-        document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
-        document.querySelectorAll('.tab')[0].classList.add('active');
+        // Use the global showTab function properly
+        const addMovieTab = document.getElementById('add-movie');
+        const scannerTab = document.getElementById('scanner');
         
-        // Scroll to top of form
-        document.getElementById('add-movie').scrollIntoView({ behavior: 'smooth' });
-    }, 1500);
-    
-    showStatus('scanner-status', `✅ Barcode captured: ${cleanUPC}`, 'success');
-}
+        // Hide all tab contents
+        document.querySelectorAll('.tab-content').forEach(tab => {
+            tab.classList.remo
 
 async function lookupMovieByUPC(upc) {
     const loadingDiv = document.getElementById('lookup-loading');
