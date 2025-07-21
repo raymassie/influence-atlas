@@ -1,458 +1,253 @@
-// Movie Catalog - Main Application Logic with Duplicate Prevention
 // Global variables
-let movies = [];
-let googleScriptUrl = '';
+let movieCollection = [];
+let filteredMovies = [];
+let currentSortField = 'title';
+let currentSortDirection = 'asc';
 
-// Initialize the app when DOM is loaded
+// Configuration
+const GOOGLE_SCRIPT_URL = 'YOUR_GOOGLE_SCRIPT_URL_HERE'; // Replace with your actual URL
+
+// Initialize app when page loads
 document.addEventListener('DOMContentLoaded', function() {
+    console.log('Movie Catalog app initializing...');
     initializeApp();
 });
 
 function initializeApp() {
-    console.log('🎬 Initializing Movie Catalog App...');
-    setupForm();
-    checkGoogleConfiguration();
-    loadMoviesFromMemory();
-    displayMovies();
-    updateSpreadsheet();
-    updateMovieCount();
+    setupEventListeners();
+    setupTabs();
+    loadMoviesFromLocalStorage();
+    
+    // Load Google Script URL from localStorage if available
+    const savedScriptUrl = localStorage.getItem('googleScriptUrl');
+    if (savedScriptUrl && savedScriptUrl !== 'YOUR_GOOGLE_SCRIPT_URL_HERE') {
+        window.GOOGLE_SCRIPT_URL = savedScriptUrl;
+    }
+    
+    console.log('App initialized successfully');
 }
 
-// Configuration management
-function checkGoogleConfiguration() {
-    const savedUrl = localStorage.getItem('googleScriptUrl');
-    if (savedUrl) {
-        googleScriptUrl = savedUrl;
-        showStatus('add-status', '☁️ Google integration configured. Ready to sync!', 'success');
-        console.log('✅ Google Apps Script URL loaded from storage');
-    } else {
-        console.log('⚠️ No Google configuration found');
-        // Show modal after a short delay to let the page load
-        setTimeout(showConfigModal, 1000);
+function setupEventListeners() {
+    // Add Movie form submission
+    const addMovieForm = document.getElementById('add-movie-form');
+    if (addMovieForm) {
+        addMovieForm.addEventListener('submit', handleAddMovie);
+    }
+    
+    // Search functionality
+    const searchInput = document.getElementById('search-movies');
+    if (searchInput) {
+        searchInput.addEventListener('input', handleSearch);
+    }
+    
+    // Sync from Google button
+    const syncButton = document.getElementById('sync-from-google');
+    if (syncButton) {
+        syncButton.addEventListener('click', loadMoviesFromGoogle);
+    }
+    
+    // Sort functionality
+    const sortButtons = document.querySelectorAll('[data-sort]');
+    sortButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const field = this.getAttribute('data-sort');
+            handleSort(field);
+        });
+    });
+    
+    // Google Script URL configuration
+    const configButton = document.getElementById('config-google-script');
+    if (configButton) {
+        configButton.addEventListener('click', configureGoogleScript);
     }
 }
 
-function showConfigModal() {
-    document.getElementById('config-modal').style.display = 'flex';
-}
-
-function closeConfigModal() {
-    document.getElementById('config-modal').style.display = 'none';
-}
-
-function saveGoogleConfig() {
-    const url = document.getElementById('google-script-url').value.trim();
-    if (url && url.includes('script.google.com')) {
-        googleScriptUrl = url;
-        localStorage.setItem('googleScriptUrl', url);
-        closeConfigModal();
-        showStatus('add-status', '✅ Google integration configured successfully!', 'success');
-        console.log('✅ Google Apps Script URL saved');
-    } else {
-        alert('❌ Please enter a valid Google Apps Script URL starting with https://script.google.com/');
-    }
-}
-
-// Tab functionality
-function showTab(tabName, event) {
-    console.log(`🔄 Switching to tab: ${tabName}`);
+function setupTabs() {
+    const tabButtons = document.querySelectorAll('.tab-button');
+    const tabContents = document.querySelectorAll('.tab-content');
     
-    // Hide all tab contents
-    document.querySelectorAll('.tab-content').forEach(tab => {
-        tab.classList.remove('active');
-    });
-    
-    // Remove active class from all tabs
-    document.querySelectorAll('.tab').forEach(tab => {
-        tab.classList.remove('active');
-    });
-    
-    // Show selected tab content
-    document.getElementById(tabName).classList.add('active');
-    
-    // Add active class to clicked tab - handle both event and direct calls
-    if (event && event.target) {
-        event.target.classList.add('active');
-    } else {
-        // Find the correct tab button when called programmatically
-        const tabButtons = document.querySelectorAll('.tab');
-        const tabMap = {
-            'add-movie': 0,
-            'scanner': 1,
-            'collection': 2,
-            'spreadsheet': 3
-        };
-        if (tabMap[tabName] !== undefined) {
-            tabButtons[tabMap[tabName]].classList.add('active');
-        }
-    }
-    
-    // Load data when switching to collection or spreadsheet
-    if (tabName === 'collection' || tabName === 'spreadsheet') {
-        if (googleScriptUrl) {
-            loadMoviesFromGoogle();
-        }
-    }
-}
-
-// Form setup
-function setupForm() {
-    const movieForm = document.getElementById('movieForm');
-    const format2Container = document.getElementById('format2-container');
-    const format3Container = document.getElementById('format3-container');
-    const streamingCheckbox = document.querySelector('input[value="Streaming"]');
-
-    // Show or hide additional format options based on Streaming selection
-    streamingCheckbox.addEventListener('change', function() {
-        const showAdditionalFormats = this.checked;
-        format2Container.style.display = showAdditionalFormats ? 'flex' : 'none';
-        format3Container.style.display = showAdditionalFormats ? 'flex' : 'none';
-        console.log(`🔄 Streaming formats ${showAdditionalFormats ? 'shown' : 'hidden'}`);
-    });
-
-    movieForm.addEventListener('submit', function(event) {
-        event.preventDefault();
-        addMovie();
-    });
-
-    console.log('✅ Form event listeners set up');
-}
-
-// Enhanced addMovie function with duplicate checking
-async function addMovie() {
-    const addButton = document.getElementById('addMovieButton');
-    const buttonText = addButton.querySelector('.button-text');
-    const loading = document.getElementById('add-loading');
-    
-    console.log('🎬 Starting to add movie...');
-    
-    // Show loading state
-    addButton.disabled = true;
-    buttonText.textContent = 'Adding...';
-    loading.style.display = 'inline-block';
-
-    try {
-        // Validate form
-        if (!validateForm()) {
-            return;
-        }
-
-        // Gather form data
-        const movieData = gatherFormData();
-        console.log('📝 Movie data gathered:', movieData);
-
-        // Check for duplicates BEFORE processing
-        const duplicateCheck = checkForDuplicates(movieData);
-        if (duplicateCheck.isDuplicate) {
-            const proceed = confirm(
-                `🚨 Duplicate Movie Detected!\n\n` +
-                `"${movieData.title}" (${movieData.year || 'Unknown Year'}) appears to already be in your collection.\n\n` +
-                `${duplicateCheck.reason}\n\n` +
-                `Do you want to add it anyway?`
-            );
+    tabButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const targetTab = this.getAttribute('data-tab');
             
-            if (!proceed) {
-                showStatus('add-status', '⏭️ Movie not added - duplicate detected.', 'info');
+            // Remove active class from all tabs and contents
+            tabButtons.forEach(btn => btn.classList.remove('active'));
+            tabContents.forEach(content => content.classList.remove('active'));
+            
+            // Add active class to clicked tab and corresponding content
+            this.classList.add('active');
+            const targetContent = document.getElementById(targetTab);
+            if (targetContent) {
+                targetContent.classList.add('active');
+            }
+            
+            // Special handling for different tabs
+            if (targetTab === 'collection') {
+                displayMovies();
+            } else if (targetTab === 'scanner') {
+                // Scanner tab specific initialization
+                console.log('Scanner tab activated');
+            }
+        });
+    });
+    
+    // Activate first tab by default
+    if (tabButtons.length > 0) {
+        tabButtons[0].click();
+    }
+}
+
+async function handleAddMovie(event) {
+    event.preventDefault();
+    
+    const formData = new FormData(event.target);
+    const movieData = {
+        title: formData.get('title')?.trim() || '',
+        year: formData.get('year')?.trim() || '',
+        genre: formData.get('genre')?.trim() || '',
+        director: formData.get('director')?.trim() || '',
+        studio: formData.get('studio')?.trim() || '',
+        format: formData.get('format')?.trim() || 'DVD',
+        upc: formData.get('upc')?.trim() || '',
+        notes: formData.get('notes')?.trim() || ''
+    };
+    
+    console.log('Adding movie:', movieData);
+    
+    // Validate required fields
+    if (!movieData.title) {
+        showMessage('Movie title is required', 'error');
+        return;
+    }
+    
+    try {
+        // Check for duplicates in local collection first
+        const localDuplicate = checkForLocalDuplicate(movieData);
+        if (localDuplicate) {
+            const confirmMessage = `This movie appears to already be in your local collection:\n\n` +
+                                 `"${localDuplicate.title}" (${localDuplicate.year})\n\n` +
+                                 `Do you want to add it anyway?`;
+            
+            if (!confirm(confirmMessage)) {
+                showMessage('Movie not added - duplicate found', 'warning');
                 return;
             }
         }
-
-        // Handle image upload if present
-        const imageFile = document.getElementById('image').files[0];
-        if (imageFile) {
-            console.log('🖼️ Uploading image...');
-            if (googleScriptUrl) {
-                movieData.imageUrl = await uploadImageToGoogleDrive(imageFile, movieData.title);
-                console.log('✅ Image uploaded:', movieData.imageUrl);
-            } else {
-                console.log('⚠️ No Google config - skipping image upload');
-            }
-        }
-
-        // Add to Google Sheets
-        if (googleScriptUrl) {
-            console.log('☁️ Adding movie to Google Sheets...');
+        
+        // Add timestamp
+        movieData.added = new Date().toISOString();
+        
+        // Add to local collection
+        movieCollection.push(movieData);
+        saveMoviesToLocalStorage();
+        
+        // Try to sync to Google Sheets
+        try {
             await addMovieToGoogle(movieData);
-            console.log('✅ Movie added to Google Sheets');
-        } else {
-            console.log('⚠️ No Google config - skipping Google Sheets sync');
+            showMessage('Movie added successfully and synced to Google Sheets', 'success');
+        } catch (syncError) {
+            console.error('Failed to sync to Google:', syncError);
+            showMessage('Movie added locally but failed to sync to Google Sheets', 'warning');
         }
-
-        // Add to local array
-        movies.push(movieData);
-        console.log(`📚 Movie added to local collection. Total: ${movies.length}`);
-
-        // Refresh displays
-        displayMovies();
-        updateSpreadsheet();
-        updateMovieCount();
-
-        // Clear the form
-        clearForm();
-
-        showStatus('add-status', `✅ "${movieData.title}" added successfully!`, 'success');
         
-        // Switch to collection tab to show the new movie
-        setTimeout(() => {
-            showTab('collection');
-        }, 1000);
-
+        // Clear form and refresh display
+        event.target.reset();
+        displayMovies();
+        updateMovieCount();
+        
     } catch (error) {
-        console.error('❌ Error adding movie:', error);
-        showStatus('add-status', '❌ Error adding movie: ' + error.message, 'error');
-    } finally {
-        // Reset button state
-        addButton.disabled = false;
-        buttonText.textContent = '➕ Add Movie';
-        loading.style.display = 'none';
+        console.error('Error adding movie:', error);
+        showMessage('Error adding movie: ' + error.message, 'error');
     }
 }
 
-// New function to check for duplicates
-function checkForDuplicates(newMovie) {
-    console.log('🔍 Checking for duplicates...');
+function checkForLocalDuplicate(movieData) {
+    const cleanTitle = movieData.title.toLowerCase().trim();
+    const cleanYear = movieData.year.toString().trim();
+    const cleanUPC = movieData.upc.trim();
     
-    const title = newMovie.title.toLowerCase().trim();
-    const year = newMovie.year;
-    const upc = newMovie.upc;
-    
-    // Check by UPC first (most reliable)
-    if (upc) {
-        const upcMatch = movies.find(movie => 
-            movie.upc && movie.upc === upc
-        );
-        
-        if (upcMatch) {
-            console.log('🚨 Duplicate found by UPC:', upcMatch.title);
-            return {
-                isDuplicate: true,
-                reason: `Same UPC (${upc}) already exists for "${upcMatch.title}"`
-            };
+    return movieCollection.find(movie => {
+        // Check UPC match (most reliable)
+        if (cleanUPC && movie.upc && movie.upc.trim() === cleanUPC) {
+            return true;
         }
-    }
-    
-    // Check by title and year (secondary check)
-    if (title && year) {
-        const titleYearMatch = movies.find(movie => 
-            movie.title.toLowerCase().trim() === title && 
-            movie.year === year
-        );
         
-        if (titleYearMatch) {
-            console.log('🚨 Duplicate found by title+year:', titleYearMatch.title);
-            return {
-                isDuplicate: true,
-                reason: `"${titleYearMatch.title}" (${year}) already exists in your collection`
-            };
-        }
-    }
-    
-    // Check by title only (loose check)
-    if (title) {
-        const titleMatch = movies.find(movie => 
-            movie.title.toLowerCase().trim() === title
-        );
+        // Check title + year match
+        const movieTitle = movie.title.toLowerCase().trim();
+        const movieYear = movie.year.toString().trim();
         
-        if (titleMatch) {
-            console.log('⚠️ Possible duplicate found by title:', titleMatch.title);
-            return {
-                isDuplicate: true,
-                reason: `"${titleMatch.title}" might already exist (year: ${titleMatch.year || 'Unknown'})`
-            };
+        if (cleanTitle === movieTitle && cleanYear && movieYear && cleanYear === movieYear) {
+            return true;
         }
-    }
-    
-    console.log('✅ No duplicates found');
-    return {
-        isDuplicate: false,
-        reason: null
-    };
-}
-
-function validateForm() {
-    const format1Checkboxes = Array.from(document.querySelectorAll('.format1'));
-    const format2Checkboxes = Array.from(document.querySelectorAll('.format2'));
-    const format3Checkboxes = Array.from(document.querySelectorAll('.format3'));
-    const streamingCheckbox = document.querySelector('input[value="Streaming"]');
-
-    const format1Checked = format1Checkboxes.some(cb => cb.checked);
-    const format2Checked = format2Checkboxes.some(cb => cb.checked);
-    const format3Checked = format3Checkboxes.some(cb => cb.checked);
-
-    if (!format1Checked) {
-        showStatus('add-status', '⚠️ Please select at least one format (DVD, Blu-ray, 4K, or Streaming).', 'error');
+        
         return false;
-    }
-
-    if (streamingCheckbox.checked && (!format2Checked || !format3Checked)) {
-        showStatus('add-status', '⚠️ When Streaming is selected, please choose streaming platform and quality options.', 'error');
-        return false;
-    }
-
-    const title = document.getElementById('title').value.trim();
-    if (!title) {
-        showStatus('add-status', '⚠️ Movie title is required!', 'error');
-        return false;
-    }
-
-    return true;
-}
-
-function gatherFormData() {
-    const format1Checkboxes = Array.from(document.querySelectorAll('.format1'));
-    const format2Checkboxes = Array.from(document.querySelectorAll('.format2'));
-    const format3Checkboxes = Array.from(document.querySelectorAll('.format3'));
-
-    return {
-        title: document.getElementById('title').value.trim(),
-        director: document.getElementById('director').value.trim(),
-        producer: document.getElementById('producer').value.trim(),
-        studio: document.getElementById('studio').value.trim(),
-        runtime: document.getElementById('runtime').value.trim(),
-        genre: document.getElementById('genre').value,
-        year: document.getElementById('year').value.trim(),
-        formats: [
-            ...format1Checkboxes.filter(cb => cb.checked).map(cb => cb.value),
-            ...format2Checkboxes.filter(cb => cb.checked).map(cb => cb.value),
-            ...format3Checkboxes.filter(cb => cb.checked).map(cb => cb.value)
-        ].join(', '),
-        upc: document.getElementById('upc').value.trim(),
-        asin: document.getElementById('asin').value.trim(),
-        notes: document.getElementById('notes').value.trim(),
-        dateAdded: new Date().toLocaleDateString(),
-        imageUrl: ''
-    };
-}
-
-function clearForm() {
-    document.getElementById('movieForm').reset();
-    document.getElementById('format2-container').style.display = 'none';
-    document.getElementById('format3-container').style.display = 'none';
-    console.log('✅ Form cleared');
-}
-
-// Movie management
-function loadMoviesFromMemory() {
-    // Initialize empty array - in production, this could load from localStorage as backup
-    movies = [];
-    console.log('📚 Initialized empty movie collection');
-}
-
-function displayMovies() {
-    const movieList = document.getElementById('movieList');
-    
-    if (movies.length === 0) {
-        movieList.innerHTML = `
-            <div class="empty-state">
-                <h3>📽️ Start Building Your Collection</h3>
-                <p>Add movies manually using the form above, or use the barcode scanner to get started quickly!</p>
-                <p>Your collection will sync with Google Drive automatically.</p>
-            </div>
-        `;
-        return;
-    }
-
-    console.log(`📚 Displaying ${movies.length} movies`);
-    movieList.innerHTML = '';
-
-    movies.forEach((movie, index) => {
-        const movieItem = document.createElement('div');
-        movieItem.classList.add('movie-item');
-        movieItem.innerHTML = `
-            ${movie.imageUrl ? `<img src="${movie.imageUrl}" alt="${movie.title}" style="width: 60px; height: 80px; object-fit: cover; float: right; border-radius: 6px; margin-left: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">` : ''}
-            <h3>${movie.title} ${movie.year ? `(${movie.year})` : ''}</h3>
-            <div class="movie-meta">
-                ${movie.director ? `<div><strong>🎬 Director:</strong> ${movie.director}</div>` : ''}
-                ${movie.producer ? `<div><strong>👨‍💼 Producer:</strong> ${movie.producer}</div>` : ''}
-                ${movie.studio ? `<div><strong>🏢 Studio:</strong> ${movie.studio}</div>` : ''}
-                ${movie.genre ? `<div><strong>🎭 Genre:</strong> ${movie.genre}</div>` : ''}
-                ${movie.runtime ? `<div><strong>⏱️ Runtime:</strong> ${movie.runtime}</div>` : ''}
-                ${movie.formats ? `<div><strong>💿 Formats:</strong> ${movie.formats}</div>` : ''}
-                ${movie.upc ? `<div><strong>🔢 UPC:</strong> ${movie.upc}</div>` : ''}
-                ${movie.asin ? `<div><strong>📦 ASIN:</strong> ${movie.asin}</div>` : ''}
-                ${movie.notes ? `<div><strong>📝 Notes:</strong> ${movie.notes}</div>` : ''}
-                <div><strong>📅 Added:</strong> ${movie.dateAdded}</div>
-            </div>
-            <button class="remove-button" onclick="removeMovie(${index})">🗑️ Remove</button>
-        `;
-        movieList.appendChild(movieItem);
     });
 }
 
-function removeMovie(index) {
-    const movie = movies[index];
-    const confirmMessage = `🗑️ Are you sure you want to remove "${movie.title}" from your collection?`;
+async function addMovieToGoogle(movieData) {
+    console.log('Syncing movie to Google Sheets:', movieData);
     
-    if (confirm(confirmMessage)) {
-        console.log(`🗑️ Removing movie: ${movie.title}`);
-        
-        // Remove from Google Sheets
-        if (googleScriptUrl) {
-            removeMovieFromGoogle(movie).catch(error => {
-                console.error('❌ Error removing from Google Sheets:', error);
-                showStatus('add-status', '⚠️ Movie removed locally but may still exist in Google Sheets', 'error');
-            });
-        }
-        
-        // Remove from local array
-        movies.splice(index, 1);
-        displayMovies();
-        updateSpreadsheet();
-        updateMovieCount();
-        
-        showStatus('add-status', `✅ "${movie.title}" removed successfully!`, 'success');
-        console.log(`✅ Movie removed. Remaining: ${movies.length}`);
+    const scriptUrl = getGoogleScriptUrl();
+    if (!scriptUrl) {
+        throw new Error('Google Script URL not configured');
     }
-}
-
-function filterMovies() {
-    const searchTerm = document.getElementById('search-input').value.toLowerCase();
-    const movieItems = document.querySelectorAll('.movie-item');
-    let visibleCount = 0;
     
-    movieItems.forEach(item => {
-        const text = item.textContent.toLowerCase();
-        const isVisible = text.includes(searchTerm);
-        item.style.display = isVisible ? 'block' : 'none';
-        if (isVisible) visibleCount++;
+    const response = await fetch(scriptUrl, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            action: 'addMovie',
+            title: movieData.title,
+            year: movieData.year,
+            genre: movieData.genre,
+            director: movieData.director,
+            studio: movieData.studio,
+            format: movieData.format,
+            upc: movieData.upc,
+            notes: movieData.notes
+        })
     });
-
-    console.log(`🔍 Search "${searchTerm}" - showing ${visibleCount} of ${movieItems.length} movies`);
     
-    // Update movie count with filtered results
-    if (searchTerm) {
-        document.getElementById('movie-count').textContent = `${visibleCount} of ${movies.length} movies`;
-    } else {
-        updateMovieCount();
+    if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
     }
+    
+    const result = await response.json();
+    
+    if (result.error) {
+        throw new Error(result.error);
+    }
+    
+    return result;
 }
 
-function updateMovieCount() {
-    const count = movies.length;
-    const countElement = document.getElementById('movie-count');
-    if (countElement) {
-        countElement.textContent = `${count} movie${count !== 1 ? 's' : ''}`;
-    }
-}
-
-// Enhanced loadMoviesFromGoogle with duplicate prevention
 async function loadMoviesFromGoogle() {
-    if (!googleScriptUrl) {
-        showStatus('add-status', '⚠️ Google integration not configured. Click the settings icon to set up.', 'error');
+    console.log('Loading movies from Google Sheets...');
+    
+    const scriptUrl = getGoogleScriptUrl();
+    if (!scriptUrl) {
+        showMessage('Google Script URL not configured. Please configure it in settings.', 'error');
         return;
     }
     
-    console.log('📥 Loading movies from Google Sheets...');
+    const syncButton = document.getElementById('sync-from-google');
+    if (syncButton) {
+        syncButton.disabled = true;
+        syncButton.textContent = 'Syncing...';
+    }
     
     try {
-        showStatus('add-status', '🔄 Syncing with Google Sheets...', 'info');
+        showMessage('Loading movies from Google Sheets...', 'info');
         
-        const response = await fetch(`${googleScriptUrl}?action=getMovies`, {
-            method: 'GET'
+        const response = await fetch(`${scriptUrl}?action=getMovies`, {
+            method: 'GET',
+            mode: 'cors'
         });
         
         if (!response.ok) {
-            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+            throw new Error(`HTTP error! status: ${response.status}`);
         }
         
         const result = await response.json();
@@ -461,311 +256,505 @@ async function loadMoviesFromGoogle() {
             throw new Error(result.error);
         }
         
-        const loadedMovies = result.data || [];
-        
-        // Process the loaded movies to match our format
-        const processedMovies = loadedMovies.map(movie => ({
-            title: movie.title || '',
-            year: movie.year || '',
-            director: movie.director || '',
-            producer: movie.producer || '',
-            studio: movie.studio || '',
-            genre: movie.genre || '',
-            runtime: movie.runtime || '',
-            formats: movie.formats || '',
-            upc: movie.upc || '',
-            asin: movie.asin || '',
-            notes: movie.notes || '',
-            dateAdded: movie.dateadded || movie.dateAdded || '',
-            imageUrl: movie.imageurl || movie.imageUrl || ''
-        }));
-        
-        // Merge with local movies, avoiding duplicates
-        const mergeResult = mergeMovieCollections(movies, processedMovies);
-        movies = mergeResult.movies;
-        
-        displayMovies();
-        updateSpreadsheet();
-        updateMovieCount();
-        
-        const message = `✅ Synced successfully! ${mergeResult.added} new movies loaded, ${mergeResult.duplicates} duplicates skipped.`;
-        showStatus('add-status', message, 'success');
-        console.log(`✅ ${message}`);
+        if (result.success && result.movies) {
+            console.log('Loaded movies from Google:', result.movies.length);
+            
+            // Merge with local collection, avoiding duplicates
+            const mergeResult = mergeMovieCollections(result.movies);
+            
+            saveMoviesToLocalStorage();
+            displayMovies();
+            updateMovieCount();
+            
+            const message = `Successfully synced from Google Sheets. ` +
+                          `${mergeResult.added} new movies added, ` +
+                          `${mergeResult.duplicates} duplicates skipped.`;
+            
+            showMessage(message, 'success');
+        } else {
+            showMessage('No movies found in Google Sheets', 'info');
+        }
         
     } catch (error) {
-        console.error('❌ Error loading movies from Google Sheets:', error);
-        const errorMessage = 'Failed to sync with Google Sheets. Using local data only.';
-        showStatus('add-status', `❌ ${errorMessage}`, 'error');
-        
-        // Show help for common issues
-        setTimeout(() => {
-            if (confirm('🤔 Having trouble with Google Sheets sync?\n\nCommon fixes:\n• Make sure your Google Apps Script is deployed as a web app\n• Check that the script URL is correct\n• Verify the script has proper permissions\n\nWould you like to reconfigure your Google integration?')) {
-                showConfigModal();
-            }
-        }, 2000);
+        console.error('Error loading from Google:', error);
+        showMessage('Error loading from Google Sheets: ' + error.message, 'error');
+    } finally {
+        if (syncButton) {
+            syncButton.disabled = false;
+            syncButton.textContent = 'Sync from Google';
+        }
     }
 }
 
-// Enhanced merge function with duplicate detection
-function mergeMovieCollections(localMovies, remoteMovies) {
-    console.log(`🔄 Merging collections: ${localMovies.length} local + ${remoteMovies.length} remote`);
+function mergeMovieCollections(googleMovies) {
+    console.log('Merging movie collections...');
     
-    const merged = [...localMovies];
     let addedCount = 0;
     let duplicateCount = 0;
     
-    remoteMovies.forEach(remoteMovie => {
-        // Check if movie already exists locally
-        const isDuplicate = localMovies.some(localMovie => {
-            // Primary check: UPC match
-            if (remoteMovie.upc && localMovie.upc && remoteMovie.upc === localMovie.upc) {
+    googleMovies.forEach(googleMovie => {
+        // Check if this movie already exists in local collection
+        const existsLocally = movieCollection.some(localMovie => {
+            // Check UPC match (most reliable)
+            if (googleMovie.upc && localMovie.upc && 
+                googleMovie.upc.trim() === localMovie.upc.trim()) {
                 return true;
             }
             
-            // Secondary check: Title + Year match
-            if (remoteMovie.title && localMovie.title && remoteMovie.year && localMovie.year) {
-                return remoteMovie.title.toLowerCase().trim() === localMovie.title.toLowerCase().trim() &&
-                       remoteMovie.year === localMovie.year;
-            }
+            // Check title + year match
+            const googleTitle = googleMovie.title.toLowerCase().trim();
+            const localTitle = localMovie.title.toLowerCase().trim();
+            const googleYear = googleMovie.year.toString().trim();
+            const localYear = localMovie.year.toString().trim();
             
-            // Tertiary check: Title only (if no year available)
-            if (remoteMovie.title && localMovie.title && !remoteMovie.year && !localMovie.year) {
-                return remoteMovie.title.toLowerCase().trim() === localMovie.title.toLowerCase().trim();
+            if (googleTitle === localTitle && googleYear && localYear && 
+                googleYear === localYear) {
+                return true;
             }
             
             return false;
         });
         
-        if (!isDuplicate) {
-            merged.push(remoteMovie);
+        if (!existsLocally) {
+            // Add timestamp if not present
+            if (!googleMovie.added) {
+                googleMovie.added = new Date().toISOString();
+            }
+            
+            movieCollection.push(googleMovie);
             addedCount++;
-            console.log(`➕ Added remote movie: ${remoteMovie.title}`);
+            console.log('Added new movie from Google:', googleMovie.title);
         } else {
             duplicateCount++;
-            console.log(`⏭️ Skipped duplicate: ${remoteMovie.title}`);
+            console.log('Skipped duplicate movie:', googleMovie.title);
         }
     });
     
-    console.log(`✅ Merge complete: ${merged.length} total movies (${addedCount} added, ${duplicateCount} duplicates skipped)`);
+    console.log(`Merge complete: ${addedCount} added, ${duplicateCount} duplicates skipped`);
     
     return {
-        movies: merged,
         added: addedCount,
         duplicates: duplicateCount
     };
 }
 
-// Spreadsheet management
-function updateSpreadsheet() {
-    const tbody = document.getElementById('spreadsheet-body');
-    tbody.innerHTML = '';
-
-    if (movies.length === 0) {
-        const row = document.createElement('tr');
-        row.innerHTML = `
-            <td colspan="10" class="empty-state">
-                <div>
-                    <h3>📊 No Movies Yet</h3>
-                    <p>Add some movies to see them in the spreadsheet view!</p>
-                </div>
-            </td>
-        `;
-        tbody.appendChild(row);
-        return;
+function handleSearch(event) {
+    const searchTerm = event.target.value.toLowerCase().trim();
+    
+    if (!searchTerm) {
+        filteredMovies = [...movieCollection];
+    } else {
+        filteredMovies = movieCollection.filter(movie => {
+            return movie.title.toLowerCase().includes(searchTerm) ||
+                   movie.year.toString().includes(searchTerm) ||
+                   movie.genre.toLowerCase().includes(searchTerm) ||
+                   movie.director.toLowerCase().includes(searchTerm) ||
+                   movie.studio.toLowerCase().includes(searchTerm);
+        });
     }
+    
+    displayMovies();
+}
 
-    console.log(`📊 Updating spreadsheet with ${movies.length} movies`);
+function handleSort(field) {
+    if (currentSortField === field) {
+        currentSortDirection = currentSortDirection === 'asc' ? 'desc' : 'asc';
+    } else {
+        currentSortField = field;
+        currentSortDirection = 'asc';
+    }
+    
+    filteredMovies.sort((a, b) => {
+        let valueA = a[field] || '';
+        let valueB = b[field] || '';
+        
+        // Handle numeric fields
+        if (field === 'year') {
+            valueA = parseInt(valueA) || 0;
+            valueB = parseInt(valueB) || 0;
+        } else {
+            valueA = valueA.toString().toLowerCase();
+            valueB = valueB.toString().toLowerCase();
+        }
+        
+        if (currentSortDirection === 'asc') {
+            return valueA < valueB ? -1 : valueA > valueB ? 1 : 0;
+        } else {
+            return valueA > valueB ? -1 : valueA < valueB ? 1 : 0;
+        }
+    });
+    
+    displayMovies();
+    updateSortIndicators();
+}
 
-    movies.forEach((movie, index) => {
-        const row = document.createElement('tr');
-        row.innerHTML = `
-            <td>${movie.imageUrl ? `<img src="${movie.imageUrl}" alt="${movie.title}" class="cover-image">` : '📀'}</td>
-            <td><strong>${movie.title}</strong></td>
-            <td>${movie.year}</td>
-            <td>${movie.director}</td>
-            <td>${movie.genre}</td>
-            <td>${movie.runtime}</td>
-            <td>${movie.formats}</td>
-            <td>${movie.upc}</td>
-            <td>${movie.dateAdded}</td>
-            <td><button class="remove-button" onclick="removeMovie(${index})" title="Remove ${movie.title}">🗑️</button></td>
-        `;
-        tbody.appendChild(row);
+function updateSortIndicators() {
+    const sortButtons = document.querySelectorAll('[data-sort]');
+    sortButtons.forEach(button => {
+        const field = button.getAttribute('data-sort');
+        const indicator = button.querySelector('.sort-indicator');
+        
+        if (field === currentSortField) {
+            button.classList.add('active');
+            if (indicator) {
+                indicator.textContent = currentSortDirection === 'asc' ? '↑' : '↓';
+            }
+        } else {
+            button.classList.remove('active');
+            if (indicator) {
+                indicator.textContent = '';
+            }
+        }
     });
 }
 
-function openGoogleSheet() {
-    if (!googleScriptUrl) {
-        showConfigModal();
+function displayMovies() {
+    const container = document.getElementById('movies-container');
+    if (!container) {
+        console.error('Movies container not found');
         return;
     }
     
-    // Extract the script ID from the URL to construct the spreadsheet URL
-    // This is a simplified approach - in practice, you'd store the actual sheet ID
-    const message = `
-🔗 To open your Google Sheet:
+    const moviesToDisplay = filteredMovies.length > 0 ? filteredMovies : movieCollection;
+    
+    if (moviesToDisplay.length === 0) {
+        container.innerHTML = `
+            <div class="no-movies">
+                <p>No movies in your collection yet.</p>
+                <p>Use the Scanner or Add Movie tabs to start building your collection!</p>
+            </div>
+        `;
+        return;
+    }
+    
+    container.innerHTML = moviesToDisplay.map(movie => createMovieCard(movie)).join('');
+    
+    // Add event listeners for remove buttons
+    container.querySelectorAll('.remove-movie-btn').forEach(button => {
+        button.addEventListener('click', handleRemoveMovie);
+    });
+}
 
-1. Go to Google Drive (drive.google.com)
-2. Look for the "MovieCatalog" folder
-3. Open the "Movie Collection" spreadsheet
-
-Or ask your Google Apps Script to return the sheet URL.
+function createMovieCard(movie) {
+    const formatIcon = getFormatIcon(movie.format);
+    const addedDate = movie.added ? new Date(movie.added).toLocaleDateString() : '';
+    
+    return `
+        <div class="movie-card" data-movie-id="${movie.upc || movie.title + movie.year}">
+            <div class="movie-header">
+                <h3 class="movie-title">${escapeHtml(movie.title)} ${movie.year ? `(${movie.year})` : ''}</h3>
+                <button class="remove-movie-btn" data-movie='${JSON.stringify(movie)}' title="Remove Movie">
+                    Remove
+                </button>
+            </div>
+            
+            <div class="movie-details">
+                ${movie.studio ? `<div class="movie-detail">
+                    <span class="detail-icon">🏢</span>
+                    <span class="detail-label">Studio:</span>
+                    <span class="detail-value">${escapeHtml(movie.studio)}</span>
+                </div>` : ''}
+                
+                ${movie.genre ? `<div class="movie-detail">
+                    <span class="detail-icon">🎭</span>
+                    <span class="detail-label">Genre:</span>
+                    <span class="detail-value">${escapeHtml(movie.genre)}</span>
+                </div>` : ''}
+                
+                ${movie.director ? `<div class="movie-detail">
+                    <span class="detail-icon">🎬</span>
+                    <span class="detail-label">Director:</span>
+                    <span class="detail-value">${escapeHtml(movie.director)}</span>
+                </div>` : ''}
+                
+                ${movie.format ? `<div class="movie-detail">
+                    <span class="detail-icon">${formatIcon}</span>
+                    <span class="detail-label">Formats:</span>
+                    <span class="detail-value">${escapeHtml(movie.format)}</span>
+                </div>` : ''}
+                
+                ${movie.upc ? `<div class="movie-detail">
+                    <span class="detail-icon">📊</span>
+                    <span class="detail-label">UPC:</span>
+                    <span class="detail-value">${escapeHtml(movie.upc)}</span>
+                </div>` : ''}
+                
+                ${addedDate ? `<div class="movie-detail">
+                    <span class="detail-icon">📅</span>
+                    <span class="detail-label">Added:</span>
+                    <span class="detail-value">${addedDate}</span>
+                </div>` : ''}
+                
+                ${movie.notes ? `<div class="movie-detail notes">
+                    <span class="detail-icon">📝</span>
+                    <span class="detail-label">Notes:</span>
+                    <span class="detail-value">${escapeHtml(movie.notes)}</span>
+                </div>` : ''}
+            </div>
+        </div>
     `;
-    
-    alert(message);
 }
 
-// Export functions
-function exportToCSV() {
-    if (movies.length === 0) {
-        alert('📊 No movies to export! Add some movies first.');
-        return;
-    }
-
-    console.log('📥 Exporting to CSV...');
-
-    const headers = ['Title', 'Year', 'Director', 'Producer', 'Studio', 'Genre', 'Runtime', 'Formats', 'UPC', 'ASIN', 'Notes', 'Date Added', 'Image URL'];
-    const csvContent = [
-        headers.join(','),
-        ...movies.map(movie => [
-            `"${movie.title.replace(/"/g, '""')}"`,
-            `"${movie.year}"`,
-            `"${movie.director.replace(/"/g, '""')}"`,
-            `"${movie.producer.replace(/"/g, '""')}"`,
-            `"${movie.studio.replace(/"/g, '""')}"`,
-            `"${movie.genre}"`,
-            `"${movie.runtime.replace(/"/g, '""')}"`,
-            `"${movie.formats.replace(/"/g, '""')}"`,
-            `"${movie.upc}"`,
-            `"${movie.asin}"`,
-            `"${movie.notes.replace(/"/g, '""')}"`,
-            `"${movie.dateAdded}"`,
-            `"${movie.imageUrl}"`
-        ].join(','))
-    ].join('\n');
-
-    const timestamp = new Date().toISOString().split('T')[0];
-    downloadFile(csvContent, `movie-collection-${timestamp}.csv`, 'text/csv');
+function getFormatIcon(format) {
+    if (!format) return '💿';
     
-    showStatus('add-status', '📥 CSV file downloaded successfully!', 'success');
-    console.log('✅ CSV export completed');
+    const formatLower = format.toLowerCase();
+    if (formatLower.includes('blu-ray') || formatLower.includes('bluray')) {
+        return '💙';
+    } else if (formatLower.includes('4k') || formatLower.includes('uhd')) {
+        return '🔷';
+    } else if (formatLower.includes('digital')) {
+        return '💻';
+    } else {
+        return '💿'; // DVD or other
+    }
 }
 
-function exportToJSON() {
-    if (movies.length === 0) {
-        alert('📊 No movies to export! Add some movies first.');
+function escapeHtml(text) {
+    if (!text) return '';
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+async function handleRemoveMovie(event) {
+    const movieData = JSON.parse(event.target.getAttribute('data-movie'));
+    
+    const confirmMessage = `Are you sure you want to remove "${movieData.title}" ${movieData.year ? `(${movieData.year})` : ''} from your collection?`;
+    
+    if (!confirm(confirmMessage)) {
         return;
     }
+    
+    try {
+        // Remove from local collection
+        const index = movieCollection.findIndex(movie => {
+            // Try UPC match first
+            if (movieData.upc && movie.upc && movieData.upc === movie.upc) {
+                return true;
+            }
+            // Fall back to title + year match
+            return movie.title === movieData.title && movie.year === movieData.year;
+        });
+        
+        if (index !== -1) {
+            movieCollection.splice(index, 1);
+            saveMoviesToLocalStorage();
+            
+            // Also remove from filtered movies if it exists there
+            const filteredIndex = filteredMovies.findIndex(movie => 
+                movie.title === movieData.title && movie.year === movieData.year
+            );
+            if (filteredIndex !== -1) {
+                filteredMovies.splice(filteredIndex, 1);
+            }
+            
+            displayMovies();
+            updateMovieCount();
+        }
+        
+        // Try to remove from Google Sheets
+        try {
+            await removeMovieFromGoogle(movieData);
+            showMessage('Movie removed successfully from both local and Google Sheets', 'success');
+        } catch (syncError) {
+            console.error('Failed to remove from Google:', syncError);
+            showMessage('Movie removed locally but failed to remove from Google Sheets', 'warning');
+        }
+        
+    } catch (error) {
+        console.error('Error removing movie:', error);
+        showMessage('Error removing movie: ' + error.message, 'error');
+    }
+}
 
-    console.log('📥 Exporting to JSON...');
+async function removeMovieFromGoogle(movieData) {
+    console.log('Removing movie from Google Sheets:', movieData);
+    
+    const scriptUrl = getGoogleScriptUrl();
+    if (!scriptUrl) {
+        throw new Error('Google Script URL not configured');
+    }
+    
+    const response = await fetch(scriptUrl, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            action: 'removeMovie',
+            title: movieData.title,
+            year: movieData.year,
+            upc: movieData.upc
+        })
+    });
+    
+    if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    
+    const result = await response.json();
+    
+    if (result.error) {
+        throw new Error(result.error);
+    }
+    
+    return result;
+}
 
-    const exportData = {
-        exportDate: new Date().toISOString(),
-        totalMovies: movies.length,
-        collection: movies
+function updateMovieCount() {
+    const countElement = document.getElementById('movie-count');
+    if (countElement) {
+        const count = movieCollection.length;
+        countElement.textContent = `${count} movie${count !== 1 ? 's' : ''}`;
+    }
+}
+
+function loadMoviesFromLocalStorage() {
+    try {
+        const saved = localStorage.getItem('movieCollection');
+        if (saved) {
+            movieCollection = JSON.parse(saved);
+            filteredMovies = [...movieCollection];
+            console.log('Loaded movies from localStorage:', movieCollection.length);
+        }
+    } catch (error) {
+        console.error('Error loading from localStorage:', error);
+        movieCollection = [];
+        filteredMovies = [];
+    }
+    
+    displayMovies();
+    updateMovieCount();
+}
+
+function saveMoviesToLocalStorage() {
+    try {
+        localStorage.setItem('movieCollection', JSON.stringify(movieCollection));
+        console.log('Saved movies to localStorage:', movieCollection.length);
+    } catch (error) {
+        console.error('Error saving to localStorage:', error);
+    }
+}
+
+function getGoogleScriptUrl() {
+    return window.GOOGLE_SCRIPT_URL || 
+           localStorage.getItem('googleScriptUrl') || 
+           GOOGLE_SCRIPT_URL;
+}
+
+function configureGoogleScript() {
+    const currentUrl = getGoogleScriptUrl();
+    const newUrl = prompt('Enter your Google Apps Script Web App URL:', currentUrl);
+    
+    if (newUrl && newUrl.trim() && newUrl !== currentUrl) {
+        const cleanUrl = newUrl.trim();
+        localStorage.setItem('googleScriptUrl', cleanUrl);
+        window.GOOGLE_SCRIPT_URL = cleanUrl;
+        showMessage('Google Script URL updated successfully', 'success');
+    }
+}
+
+function showMessage(message, type = 'info') {
+    console.log(`[${type.toUpperCase()}] ${message}`);
+    
+    // Look for existing message container
+    let messageContainer = document.getElementById('message-container') ||
+                          document.querySelector('.message-container');
+    
+    if (!messageContainer) {
+        // Create message container if it doesn't exist
+        messageContainer = document.createElement('div');
+        messageContainer.id = 'message-container';
+        messageContainer.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 12px 16px;
+            border-radius: 6px;
+            color: white;
+            font-weight: 500;
+            z-index: 10000;
+            max-width: 350px;
+            word-wrap: break-word;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        `;
+        document.body.appendChild(messageContainer);
+    }
+    
+    // Set message and style based on type
+    messageContainer.textContent = message;
+    
+    const colors = {
+        success: '#10b981',
+        error: '#ef4444', 
+        warning: '#f59e0b',
+        info: '#3b82f6'
     };
-
-    const jsonContent = JSON.stringify(exportData, null, 2);
-    const timestamp = new Date().toISOString().split('T')[0];
-    downloadFile(jsonContent, `movie-collection-${timestamp}.json`, 'application/json');
     
-    showStatus('add-status', '📥 JSON file downloaded successfully!', 'success');
-    console.log('✅ JSON export completed');
-}
-
-function downloadFile(content, filename, contentType) {
-    const blob = new Blob([content], { type: contentType });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = filename;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-    
-    console.log(`💾 Downloaded: ${filename}`);
-}
-
-// Status message function
-function showStatus(elementId, message, type) {
-    const statusElement = document.getElementById(elementId);
-    if (!statusElement) return;
-    
-    statusElement.textContent = message;
-    statusElement.className = `status-message status-${type}`;
-    statusElement.style.display = 'block';
-    
-    console.log(`📢 Status (${type}): ${message}`);
+    messageContainer.style.backgroundColor = colors[type] || colors.info;
+    messageContainer.style.display = 'block';
     
     // Auto-hide after 5 seconds
     setTimeout(() => {
-        statusElement.style.display = 'none';
+        if (messageContainer && messageContainer.style.display !== 'none') {
+            messageContainer.style.display = 'none';
+        }
     }, 5000);
 }
 
-// Enhanced form auto-fill with duplicate warning
+// Helper function to fill form with movie data (used by scanner)
 function fillFormWithMovieData(movieData) {
-    console.log('📝 Auto-filling form with movie data:', movieData);
+    console.log('Filling form with movie data:', movieData);
     
-    // Check if this movie might already exist
-    let duplicateCheck = { isDuplicate: false };
-    if (movieData.upc) {
-        duplicateCheck = checkForDuplicates(movieData);
-        if (duplicateCheck.isDuplicate) {
-            showStatus('add-status', 
-                `⚠️ Warning: ${duplicateCheck.reason}. Please verify before adding.`, 
-                'error'
-            );
+    const fields = {
+        'movie-title': movieData.title || '',
+        'movie-year': movieData.year || '',
+        'movie-genre': movieData.genre || '',
+        'movie-director': movieData.director || '',
+        'movie-studio': movieData.studio || '',
+        'movie-format': movieData.format || 'DVD',
+        'movie-upc': movieData.upc || '',
+        'movie-notes': movieData.notes || ''
+    };
+    
+    Object.keys(fields).forEach(fieldId => {
+        const field = document.getElementById(fieldId);
+        if (field) {
+            field.value = fields[fieldId];
+            console.log(`Set ${fieldId} to: ${fields[fieldId]}`);
+        }
+    });
+    
+    // Special handling for format dropdown
+    const formatField = document.getElementById('movie-format');
+    if (formatField && movieData.format) {
+        const options = Array.from(formatField.options);
+        const matchingOption = options.find(option => 
+            option.value.toLowerCase() === movieData.format.toLowerCase() ||
+            option.text.toLowerCase() === movieData.format.toLowerCase()
+        );
+        
+        if (matchingOption) {
+            formatField.value = matchingOption.value;
         }
     }
-    
-    if (movieData.title) {
-        document.getElementById('title').value = movieData.title;
-        console.log(`✅ Title set: ${movieData.title}`);
-    }
-    if (movieData.director) {
-        document.getElementById('director').value = movieData.director;
-        console.log(`✅ Director set: ${movieData.director}`);
-    }
-    if (movieData.year) {
-        document.getElementById('year').value = movieData.year;
-        console.log(`✅ Year set: ${movieData.year}`);
-    }
-    if (movieData.genre) {
-        const genreSelect = document.getElementById('genre');
-        for (let option of genreSelect.options) {
-            if (option.value.toLowerCase() === movieData.genre.toLowerCase()) {
-                genreSelect.value = option.value;
-                console.log(`✅ Genre set: ${option.value}`);
-                break;
-            }
-        }
-    }
-    if (movieData.runtime) {
-        document.getElementById('runtime').value = movieData.runtime;
-        console.log(`✅ Runtime set: ${movieData.runtime}`);
-    }
-    if (movieData.studio) {
-        document.getElementById('studio').value = movieData.studio;
-        console.log(`✅ Studio set: ${movieData.studio}`);
-    }
-    if (movieData.producer) {
-        document.getElementById('producer').value = movieData.producer;
-        console.log(`✅ Producer set: ${movieData.producer}`);
-    }
-    if (movieData.upc) {
-        document.getElementById('upc').value = movieData.upc;
-        console.log(`✅ UPC set: ${movieData.upc}`);
-    }
-    
-    // Focus on the first empty required field
-    const titleField = document.getElementById('title');
-    if (!titleField.value) {
-        titleField.focus();
-    }
-    
-    if (!duplicateCheck.isDuplicate) {
-        showStatus('add-status', '✨ Form auto-filled with movie data! Please review and complete any missing information.', 'success');
-    }
+}
+
+// Export functions for use by other modules
+if (typeof window !== 'undefined') {
+    window.movieCatalog = {
+        fillFormWithMovieData,
+        showMessage,
+        getGoogleScriptUrl,
+        movieCollection
+    };
+}
+
+// Initialize when DOM is ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeApp);
+} else {
+    initializeApp();
 }
