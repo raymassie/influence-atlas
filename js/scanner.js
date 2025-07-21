@@ -199,20 +199,24 @@ function updateScannerUI() {
 async function handleScannedCode(code) {
     console.log('Handling scanned code:', code);
     
-    // Clean the UPC code
-    const cleanUPC = code.trim();
+    // Clean and validate the UPC code
+    const cleanUPC = code ? code.trim() : '';
     
     if (!cleanUPC) {
-        showMessage('Invalid barcode detected', 'error');
+        showMessage('Invalid barcode detected - no code provided', 'error');
         return;
     }
+    
+    console.log('Clean UPC for processing:', cleanUPC);
     
     // Show loading message
     showMessage('Checking for duplicates...', 'info');
     
     try {
         // First, check if this UPC already exists in the collection
+        console.log('About to check for duplicate with UPC:', cleanUPC);
         const duplicateCheck = await checkForDuplicate(cleanUPC);
+        console.log('Duplicate check returned:', duplicateCheck);
         
         if (duplicateCheck.isDuplicate) {
             // Show duplicate warning with existing movie details
@@ -243,18 +247,28 @@ async function handleScannedCode(code) {
 async function checkForDuplicate(upc) {
     console.log('Checking for duplicate UPC:', upc);
     
+    // Validate UPC parameter
+    if (!upc || upc.trim() === '') {
+        console.warn('No UPC provided for duplicate check');
+        return { isDuplicate: false };
+    }
+    
     try {
         const scriptUrl = getGoogleScriptUrl();
         if (!scriptUrl) {
             throw new Error('Google Script URL not configured');
         }
         
-        const url = `${scriptUrl}?action=checkDuplicate&upc=${encodeURIComponent(upc)}`;
+        const cleanUPC = upc.trim();
+        const url = `${scriptUrl}?action=checkDuplicate&upc=${encodeURIComponent(cleanUPC)}`;
         console.log('Checking duplicate at:', url);
         
         const response = await fetch(url, {
             method: 'GET',
-            mode: 'cors'
+            mode: 'cors',
+            headers: {
+                'Accept': 'application/json'
+            }
         });
         
         if (!response.ok) {
@@ -484,7 +498,39 @@ function testScanner() {
     
     // Test with a known UPC
     const testUPC = '025192354526'; // The Shawshank Redemption
+    console.log('Testing with UPC:', testUPC);
     handleScannedCode(testUPC);
+}
+
+// Test function for duplicate checking specifically
+async function testDuplicateCheck() {
+    console.log('Testing duplicate check functionality...');
+    
+    const testUPC = '826663153750'; // The UPC that's causing duplicates
+    console.log('Testing duplicate check with UPC:', testUPC);
+    
+    try {
+        const result = await checkForDuplicate(testUPC);
+        console.log('Duplicate check test result:', result);
+        showMessage(`Duplicate check test: ${result.isDuplicate ? 'DUPLICATE FOUND' : 'NOT A DUPLICATE'}`, 'info');
+    } catch (error) {
+        console.error('Duplicate check test failed:', error);
+        showMessage('Duplicate check test failed: ' + error.message, 'error');
+    }
+}
+
+// Test function for Google Script URL
+function testGoogleScriptUrl() {
+    const url = getGoogleScriptUrl();
+    console.log('Current Google Script URL:', url);
+    
+    if (!url || url === 'YOUR_GOOGLE_SCRIPT_URL_HERE') {
+        showMessage('Google Script URL not configured!', 'error');
+    } else {
+        showMessage('Google Script URL: ' + url, 'info');
+    }
+    
+    return url;
 }
 
 // Export functions for use in other modules
@@ -494,6 +540,20 @@ if (typeof module !== 'undefined' && module.exports) {
         stopScanner,
         handleScannedCode,
         lookupMovieByUPC,
-        testScanner
+        testScanner,
+        testDuplicateCheck,
+        testGoogleScriptUrl,
+        checkForDuplicate
+    };
+}
+
+// Make functions available globally for browser console testing
+if (typeof window !== 'undefined') {
+    window.scannerTest = {
+        testScanner,
+        testDuplicateCheck,
+        testGoogleScriptUrl,
+        checkForDuplicate,
+        handleScannedCode
     };
 }
