@@ -1,4 +1,4 @@
-// Movie Catalog - Main Application Logic
+// Movie Catalog - Main Application Logic with Duplicate Prevention
 // Global variables
 let movies = [];
 let googleScriptUrl = '';
@@ -53,7 +53,7 @@ function saveGoogleConfig() {
     }
 }
 
-// Tab functionality - FIXED VERSION
+// Tab functionality
 function showTab(tabName, event) {
     console.log(`🔄 Switching to tab: ${tabName}`);
     
@@ -94,7 +94,6 @@ function showTab(tabName, event) {
         }
     }
 }
-}
 
 // Form setup
 function setupForm() {
@@ -119,7 +118,7 @@ function setupForm() {
     console.log('✅ Form event listeners set up');
 }
 
-// Add movie function
+// Enhanced addMovie function with duplicate checking
 async function addMovie() {
     const addButton = document.getElementById('addMovieButton');
     const buttonText = addButton.querySelector('.button-text');
@@ -141,6 +140,22 @@ async function addMovie() {
         // Gather form data
         const movieData = gatherFormData();
         console.log('📝 Movie data gathered:', movieData);
+
+        // Check for duplicates BEFORE processing
+        const duplicateCheck = checkForDuplicates(movieData);
+        if (duplicateCheck.isDuplicate) {
+            const proceed = confirm(
+                `🚨 Duplicate Movie Detected!\n\n` +
+                `"${movieData.title}" (${movieData.year || 'Unknown Year'}) appears to already be in your collection.\n\n` +
+                `${duplicateCheck.reason}\n\n` +
+                `Do you want to add it anyway?`
+            );
+            
+            if (!proceed) {
+                showStatus('add-status', '⏭️ Movie not added - duplicate detected.', 'info');
+                return;
+            }
+        }
 
         // Handle image upload if present
         const imageFile = document.getElementById('image').files[0];
@@ -180,8 +195,6 @@ async function addMovie() {
         // Switch to collection tab to show the new movie
         setTimeout(() => {
             showTab('collection');
-            document.querySelector('.tab').classList.remove('active');
-            document.querySelectorAll('.tab')[2].classList.add('active'); // Collection tab
         }, 1000);
 
     } catch (error) {
@@ -193,6 +206,67 @@ async function addMovie() {
         buttonText.textContent = '➕ Add Movie';
         loading.style.display = 'none';
     }
+}
+
+// New function to check for duplicates
+function checkForDuplicates(newMovie) {
+    console.log('🔍 Checking for duplicates...');
+    
+    const title = newMovie.title.toLowerCase().trim();
+    const year = newMovie.year;
+    const upc = newMovie.upc;
+    
+    // Check by UPC first (most reliable)
+    if (upc) {
+        const upcMatch = movies.find(movie => 
+            movie.upc && movie.upc === upc
+        );
+        
+        if (upcMatch) {
+            console.log('🚨 Duplicate found by UPC:', upcMatch.title);
+            return {
+                isDuplicate: true,
+                reason: `Same UPC (${upc}) already exists for "${upcMatch.title}"`
+            };
+        }
+    }
+    
+    // Check by title and year (secondary check)
+    if (title && year) {
+        const titleYearMatch = movies.find(movie => 
+            movie.title.toLowerCase().trim() === title && 
+            movie.year === year
+        );
+        
+        if (titleYearMatch) {
+            console.log('🚨 Duplicate found by title+year:', titleYearMatch.title);
+            return {
+                isDuplicate: true,
+                reason: `"${titleYearMatch.title}" (${year}) already exists in your collection`
+            };
+        }
+    }
+    
+    // Check by title only (loose check)
+    if (title) {
+        const titleMatch = movies.find(movie => 
+            movie.title.toLowerCase().trim() === title
+        );
+        
+        if (titleMatch) {
+            console.log('⚠️ Possible duplicate found by title:', titleMatch.title);
+            return {
+                isDuplicate: true,
+                reason: `"${titleMatch.title}" might already exist (year: ${titleMatch.year || 'Unknown'})`
+            };
+        }
+    }
+    
+    console.log('✅ No duplicates found');
+    return {
+        isDuplicate: false,
+        reason: null
+    };
 }
 
 function validateForm() {
@@ -219,19 +293,6 @@ function validateForm() {
     if (!title) {
         showStatus('add-status', '⚠️ Movie title is required!', 'error');
         return false;
-    }
-
-    // Check for duplicates
-    const isDuplicate = movies.some(movie => 
-        movie.title.toLowerCase() === title.toLowerCase() &&
-        movie.year === document.getElementById('year').value.trim()
-    );
-
-    if (isDuplicate) {
-        const proceed = confirm(`🤔 "${title}" might already be in your collection. Add anyway?`);
-        if (!proceed) {
-            return false;
-        }
     }
 
     return true;
@@ -372,6 +433,126 @@ function updateMovieCount() {
     if (countElement) {
         countElement.textContent = `${count} movie${count !== 1 ? 's' : ''}`;
     }
+}
+
+// Enhanced loadMoviesFromGoogle with duplicate prevention
+async function loadMoviesFromGoogle() {
+    if (!googleScriptUrl) {
+        showStatus('add-status', '⚠️ Google integration not configured. Click the settings icon to set up.', 'error');
+        return;
+    }
+    
+    console.log('📥 Loading movies from Google Sheets...');
+    
+    try {
+        showStatus('add-status', '🔄 Syncing with Google Sheets...', 'info');
+        
+        const response = await fetch(`${googleScriptUrl}?action=getMovies`, {
+            method: 'GET'
+        });
+        
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        }
+        
+        const result = await response.json();
+        
+        if (result.error) {
+            throw new Error(result.error);
+        }
+        
+        const loadedMovies = result.data || [];
+        
+        // Process the loaded movies to match our format
+        const processedMovies = loadedMovies.map(movie => ({
+            title: movie.title || '',
+            year: movie.year || '',
+            director: movie.director || '',
+            producer: movie.producer || '',
+            studio: movie.studio || '',
+            genre: movie.genre || '',
+            runtime: movie.runtime || '',
+            formats: movie.formats || '',
+            upc: movie.upc || '',
+            asin: movie.asin || '',
+            notes: movie.notes || '',
+            dateAdded: movie.dateadded || movie.dateAdded || '',
+            imageUrl: movie.imageurl || movie.imageUrl || ''
+        }));
+        
+        // Merge with local movies, avoiding duplicates
+        const mergeResult = mergeMovieCollections(movies, processedMovies);
+        movies = mergeResult.movies;
+        
+        displayMovies();
+        updateSpreadsheet();
+        updateMovieCount();
+        
+        const message = `✅ Synced successfully! ${mergeResult.added} new movies loaded, ${mergeResult.duplicates} duplicates skipped.`;
+        showStatus('add-status', message, 'success');
+        console.log(`✅ ${message}`);
+        
+    } catch (error) {
+        console.error('❌ Error loading movies from Google Sheets:', error);
+        const errorMessage = 'Failed to sync with Google Sheets. Using local data only.';
+        showStatus('add-status', `❌ ${errorMessage}`, 'error');
+        
+        // Show help for common issues
+        setTimeout(() => {
+            if (confirm('🤔 Having trouble with Google Sheets sync?\n\nCommon fixes:\n• Make sure your Google Apps Script is deployed as a web app\n• Check that the script URL is correct\n• Verify the script has proper permissions\n\nWould you like to reconfigure your Google integration?')) {
+                showConfigModal();
+            }
+        }, 2000);
+    }
+}
+
+// Enhanced merge function with duplicate detection
+function mergeMovieCollections(localMovies, remoteMovies) {
+    console.log(`🔄 Merging collections: ${localMovies.length} local + ${remoteMovies.length} remote`);
+    
+    const merged = [...localMovies];
+    let addedCount = 0;
+    let duplicateCount = 0;
+    
+    remoteMovies.forEach(remoteMovie => {
+        // Check if movie already exists locally
+        const isDuplicate = localMovies.some(localMovie => {
+            // Primary check: UPC match
+            if (remoteMovie.upc && localMovie.upc && remoteMovie.upc === localMovie.upc) {
+                return true;
+            }
+            
+            // Secondary check: Title + Year match
+            if (remoteMovie.title && localMovie.title && remoteMovie.year && localMovie.year) {
+                return remoteMovie.title.toLowerCase().trim() === localMovie.title.toLowerCase().trim() &&
+                       remoteMovie.year === localMovie.year;
+            }
+            
+            // Tertiary check: Title only (if no year available)
+            if (remoteMovie.title && localMovie.title && !remoteMovie.year && !localMovie.year) {
+                return remoteMovie.title.toLowerCase().trim() === localMovie.title.toLowerCase().trim();
+            }
+            
+            return false;
+        });
+        
+        if (!isDuplicate) {
+            merged.push(remoteMovie);
+            addedCount++;
+            console.log(`➕ Added remote movie: ${remoteMovie.title}`);
+        } else {
+            duplicateCount++;
+            console.log(`⏭️ Skipped duplicate: ${remoteMovie.title}`);
+        }
+    });
+    
+    console.log(`✅ Merge complete: ${merged.length} total movies (${addedCount} added, ${duplicateCount} duplicates skipped)`);
+    
+    return {
+        movies: merged,
+        added: addedCount,
+        duplicates: duplicateCount
+    };
 }
 
 // Spreadsheet management
@@ -523,9 +704,21 @@ function showStatus(elementId, message, type) {
     }, 5000);
 }
 
-// Auto-fill form from movie data (used by scanner)
+// Enhanced form auto-fill with duplicate warning
 function fillFormWithMovieData(movieData) {
     console.log('📝 Auto-filling form with movie data:', movieData);
+    
+    // Check if this movie might already exist
+    let duplicateCheck = { isDuplicate: false };
+    if (movieData.upc) {
+        duplicateCheck = checkForDuplicates(movieData);
+        if (duplicateCheck.isDuplicate) {
+            showStatus('add-status', 
+                `⚠️ Warning: ${duplicateCheck.reason}. Please verify before adding.`, 
+                'error'
+            );
+        }
+    }
     
     if (movieData.title) {
         document.getElementById('title').value = movieData.title;
@@ -541,7 +734,6 @@ function fillFormWithMovieData(movieData) {
     }
     if (movieData.genre) {
         const genreSelect = document.getElementById('genre');
-        // Try to match the genre with available options
         for (let option of genreSelect.options) {
             if (option.value.toLowerCase() === movieData.genre.toLowerCase()) {
                 genreSelect.value = option.value;
@@ -562,6 +754,10 @@ function fillFormWithMovieData(movieData) {
         document.getElementById('producer').value = movieData.producer;
         console.log(`✅ Producer set: ${movieData.producer}`);
     }
+    if (movieData.upc) {
+        document.getElementById('upc').value = movieData.upc;
+        console.log(`✅ UPC set: ${movieData.upc}`);
+    }
     
     // Focus on the first empty required field
     const titleField = document.getElementById('title');
@@ -569,5 +765,7 @@ function fillFormWithMovieData(movieData) {
         titleField.focus();
     }
     
-    showStatus('add-status', '✨ Form auto-filled with movie data! Please review and complete any missing information.', 'success');
+    if (!duplicateCheck.isDuplicate) {
+        showStatus('add-status', '✨ Form auto-filled with movie data! Please review and complete any missing information.', 'success');
+    }
 }
