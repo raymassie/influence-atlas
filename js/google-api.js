@@ -9,7 +9,7 @@ async function addMovieToGoogle(movieData) {
     console.log('☁️ Adding movie to Google Sheets:', movieData.title);
     
     try {
-        const response = await fetch(googleScriptUrl, {
+        const response = await fetch(getGoogleScriptUrl(), {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
