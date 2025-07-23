@@ -758,3 +758,12 @@ if (document.readyState === 'loading') {
 } else {
     initializeApp();
 }
+function saveGoogleConfig() {
+    const urlInput = document.getElementById('google-script-url');
+    if (urlInput && urlInput.value.trim()) {
+        const url = urlInput.value.trim();
+        localStorage.setItem('googleScriptUrl', url);
+        window.GOOGLE_SCRIPT_URL = url;
+        showMessage('Google Script URL saved successfully', 'success');
+    }
+}
