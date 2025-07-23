@@ -423,7 +423,7 @@ function stopAutoSync() {
 document.addEventListener('DOMContentLoaded', function() {
     // Start auto-sync after a delay to let the app initialize
     setTimeout(() => {
-        if (googleScriptUrl) {
+        if (window.GOOGLE_SCRIPT_URL && window.GOOGLE_SCRIPT_URL !== '1J4cLx-JQfCUhJYEgRUDGsWYo4qTbJQMjAW0WVXlcseo') {
             startAutoSync();
         }
     }, 10000); // Wait 10 seconds after page load
@@ -435,7 +435,7 @@ document.addEventListener('visibilitychange', function() {
         stopAutoSync();
         console.log('📱 Page hidden - stopping auto-sync');
     } else {
-        if (googleScriptUrl) {
+        if (window.GOOGLE_SCRIPT_URL && window.GOOGLE_SCRIPT_URL !== '1J4cLx-JQfCUhJYEgRUDGsWYo4qTbJQMjAW0WVXlcseo') {
             startAutoSync();
             console.log('📱 Page visible - resuming auto-sync');
         }
@@ -521,7 +521,7 @@ function debugGoogleIntegration() {
     console.log('📊 Local Movies:', movies.length);
     console.log('🔄 Auto-sync Active:', !!autoSyncInterval);
     
-    if (googleScriptUrl) {
+        if (window.GOOGLE_SCRIPT_URL && window.GOOGLE_SCRIPT_URL !== '1J4cLx-JQfCUhJYEgRUDGsWYo4qTbJQMjAW0WVXlcseo') {
         testGoogleConnection().then(result => {
             console.log('🧪 Connection Test:', result);
         });
