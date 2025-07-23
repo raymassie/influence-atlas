@@ -2,7 +2,7 @@
 
 // Add movie to Google Sheets
 async function addMovieToGoogle(movieData) {
-    if (!googleScriptUrl) {
+    if (window.GOOGLE_SCRIPT_URL && window.GOOGLE_SCRIPT_URL !== '1J4cLx-JQfCUhJYEgRUDGsWYo4qTbJQMjAW0WVXlcseo') {
         throw new Error('Google Apps Script URL not configured');
     }
     
@@ -34,7 +34,7 @@ async function addMovieToGoogle(movieData) {
 
 // Load movies from Google Sheets
 async function loadMoviesFromGoogle() {
-    if (!googleScriptUrl) {
+    if (window.GOOGLE_SCRIPT_URL && window.GOOGLE_SCRIPT_URL !== '1J4cLx-JQfCUhJYEgRUDGsWYo4qTbJQMjAW0WVXlcseo') {
         showStatus('add-status', '⚠️ Google integration not configured. Click the settings icon to set up.', 'error');
         return;
     }
