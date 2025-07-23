@@ -140,9 +140,6 @@ function startScanner() {
         if (result) {
             console.log('Scanned code:', result.text);
             handleScannedCode(result.text);
-            
-            // Optional: Auto-stop after successful scan
-            // stopScanner();
         }
         
         if (err && !(err instanceof ZXing.NotFoundException)) {
@@ -196,7 +193,7 @@ function updateScannerUI() {
     }
 }
 
-async function handleScannedCode(code) {
+function handleScannedCode(code) {
     console.log('Handling scanned code:', code);
     
     // Clean and validate the UPC code
@@ -209,160 +206,51 @@ async function handleScannedCode(code) {
     
     console.log('Clean UPC for processing:', cleanUPC);
     
-    // Show loading message
-    showMessage('Checking for duplicates...', 'info');
+    // Check for duplicates in local collection
+    const duplicate = checkLocalDuplicate(cleanUPC);
     
-    try {
-        // First, check if this UPC already exists in the collection
-        console.log('About to check for duplicate with UPC:', cleanUPC);
-        const duplicateCheck = await checkForDuplicate(cleanUPC);
-        console.log('Duplicate check returned:', duplicateCheck);
+    if (duplicate) {
+        const message = `⚠️ Duplicate UPC Found!\n\nThis movie is already in your collection:\n\n` +
+                      `Title: ${duplicate.title}\n` +
+                      `Year: ${duplicate.year}\n` +
+                      `Format: ${duplicate.format || 'Unknown'}\n` +
+                      `UPC: ${duplicate.upc}\n\n` +
+                      `Do you want to add it anyway?`;
         
-        if (duplicateCheck.isDuplicate) {
-            // Show duplicate warning with existing movie details
-            const existingMovie = duplicateCheck.existingMovie;
-            const message = `⚠️ Duplicate UPC Found!\n\nThis movie is already in your collection:\n\n` +
-                          `Title: ${existingMovie.title}\n` +
-                          `Year: ${existingMovie.year}\n` +
-                          `Format: ${existingMovie.format}\n` +
-                          `UPC: ${existingMovie.upc}\n\n` +
-                          `Do you want to add it anyway?`;
-            
-            if (!confirm(message)) {
-                showMessage('Duplicate UPC scan cancelled', 'warning');
-                return;
-            }
+        if (!confirm(message)) {
+            showMessage('Duplicate UPC scan cancelled', 'warning');
+            return;
         }
-        
-        // If not a duplicate (or user chose to add anyway), proceed with UPC lookup
-        showMessage('Looking up movie information...', 'info');
-        await lookupMovieByUPC(cleanUPC);
-        
-    } catch (error) {
-        console.error('Error handling scanned code:', error);
-        showMessage('Error processing barcode: ' + error.message, 'error');
     }
+    
+    // Fill the form with the UPC and switch to add movie tab
+    fillFormWithMovieData({ upc: cleanUPC });
+    switchToAddMovieTab();
+    showMessage(`UPC scanned: ${cleanUPC}. Please enter movie details.`, 'success');
 }
 
-async function checkForDuplicate(upc) {
-    console.log('Checking for duplicate UPC:', upc);
-    
-    // Validate UPC parameter
-    if (!upc || upc.trim() === '') {
-        console.warn('No UPC provided for duplicate check');
-        return { isDuplicate: false };
+function checkLocalDuplicate(upc) {
+    // Check if movieCollection exists (from app.js)
+    if (typeof movieCollection !== 'undefined' && Array.isArray(movieCollection)) {
+        return movieCollection.find(movie => 
+            movie.upc && movie.upc.toString().trim() === upc.toString().trim()
+        );
     }
     
+    // Fallback: check localStorage directly
     try {
-        const scriptUrl = getGoogleScriptUrl();
-        if (!scriptUrl) {
-            throw new Error('Google Script URL not configured');
+        const stored = localStorage.getItem('movieCollection');
+        if (stored) {
+            const movies = JSON.parse(stored);
+            return movies.find(movie => 
+                movie.upc && movie.upc.toString().trim() === upc.toString().trim()
+            );
         }
-        
-        const cleanUPC = upc.trim();
-        const url = `${scriptUrl}?action=checkDuplicate&upc=${encodeURIComponent(cleanUPC)}`;
-        console.log('Checking duplicate at:', url);
-        
-        const response = await fetch(url, {
-            method: 'GET',
-            mode: 'cors',
-            headers: {
-                'Accept': 'application/json'
-            }
-        });
-        
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        
-        const result = await response.json();
-        console.log('Duplicate check result:', result);
-        
-        if (result.error) {
-            console.error('Duplicate check error:', result.error);
-            // If there's an error checking, assume it's not a duplicate and proceed
-            return { isDuplicate: false };
-        }
-        
-        return {
-            isDuplicate: result.isDuplicate || false,
-            existingMovie: result.existingMovie || null
-        };
-        
     } catch (error) {
-        console.error('Error checking for duplicate:', error);
-        // If there's an error, assume it's not a duplicate and let the process continue
-        return { isDuplicate: false };
-    }
-}
-
-async function lookupMovieByUPC(upc) {
-    console.log('Looking up UPC:', upc);
-    
-    try {
-        showMessage('Searching movie database...', 'info');
-        
-        // Try the enhanced UPC lookup first
-        const result = await lookupMovieByUPCViaScript(upc);
-        
-        if (result.success && result.data) {
-            console.log('Movie found:', result.data);
-            
-            // Fill the form with the movie data
-            fillFormWithMovieData(result.data);
-            
-            // Switch to Add Movie tab
-            switchToAddMovieTab();
-            
-            showMessage(`Movie found: ${result.data.title} (${result.data.year})`, 'success');
-        } else {
-            console.log('Movie not found, using manual entry');
-            
-            // Pre-fill just the UPC and let user enter details manually
-            fillFormWithMovieData({ upc: upc });
-            
-            // Switch to Add Movie tab
-            switchToAddMovieTab();
-            
-            showMessage('Movie not found in database. Please enter details manually.', 'warning');
-        }
-        
-    } catch (error) {
-        console.error('Error looking up movie:', error);
-        
-        // Pre-fill just the UPC in case of error
-        fillFormWithMovieData({ upc: upc });
-        switchToAddMovieTab();
-        
-        showMessage('Error looking up movie. Please enter details manually.', 'error');
-    }
-}
-
-async function lookupMovieByUPCViaScript(upc) {
-    console.log('Looking up via Google Script:', upc);
-    
-    const scriptUrl = getGoogleScriptUrl();
-    if (!scriptUrl) {
-        throw new Error('Google Script URL not configured');
+        console.error('Error checking local storage for duplicates:', error);
     }
     
-    // Try the new lookup method first
-    const url = `${scriptUrl}?action=lookupUPCNew&upc=${encodeURIComponent(upc)}`;
-    console.log('Fetching from:', url);
-    
-    const response = await fetch(url, {
-        method: 'GET',
-        mode: 'cors'
-    });
-    
-    if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    
-    const result = await response.json();
-    console.log('Script lookup result:', result);
-    
-    return result;
+    return null;
 }
 
 function fillFormWithMovieData(movieData) {
@@ -429,21 +317,6 @@ function switchToAddMovieTab() {
     }
 }
 
-function getGoogleScriptUrl() {
-    // This should match your actual Google Apps Script web app URL
-    // You'll need to update this with your actual script URL
-    const scriptUrl = localStorage.getItem('googleScriptUrl') || 
-                     window.GOOGLE_SCRIPT_URL ||
-                     'YOUR_GOOGLE_SCRIPT_URL_HERE';
-    
-    if (scriptUrl === 'YOUR_GOOGLE_SCRIPT_URL_HERE') {
-        console.error('Google Script URL not configured');
-        return null;
-    }
-    
-    return scriptUrl;
-}
-
 function showMessage(message, type = 'info') {
     console.log(`[${type.toUpperCase()}] ${message}`);
     
@@ -492,68 +365,18 @@ function showMessage(message, type = 'info') {
     }, 5000);
 }
 
-// Utility function to test scanner functionality
+// Test functions
 function testScanner() {
     console.log('Testing scanner functionality...');
-    
-    // Test with a known UPC
-    const testUPC = '025192354526'; // The Shawshank Redemption
-    console.log('Testing with UPC:', testUPC);
+    const testUPC = '826663153750'; // Your duplicate UPC
     handleScannedCode(testUPC);
 }
 
-// Test function for duplicate checking specifically
-async function testDuplicateCheck() {
-    console.log('Testing duplicate check functionality...');
-    
-    const testUPC = '826663153750'; // The UPC that's causing duplicates
-    console.log('Testing duplicate check with UPC:', testUPC);
-    
-    try {
-        const result = await checkForDuplicate(testUPC);
-        console.log('Duplicate check test result:', result);
-        showMessage(`Duplicate check test: ${result.isDuplicate ? 'DUPLICATE FOUND' : 'NOT A DUPLICATE'}`, 'info');
-    } catch (error) {
-        console.error('Duplicate check test failed:', error);
-        showMessage('Duplicate check test failed: ' + error.message, 'error');
-    }
-}
-
-// Test function for Google Script URL
-function testGoogleScriptUrl() {
-    const url = getGoogleScriptUrl();
-    console.log('Current Google Script URL:', url);
-    
-    if (!url || url === 'YOUR_GOOGLE_SCRIPT_URL_HERE') {
-        showMessage('Google Script URL not configured!', 'error');
-    } else {
-        showMessage('Google Script URL: ' + url, 'info');
-    }
-    
-    return url;
-}
-
-// Export functions for use in other modules
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = {
-        startScanner,
-        stopScanner,
-        handleScannedCode,
-        lookupMovieByUPC,
-        testScanner,
-        testDuplicateCheck,
-        testGoogleScriptUrl,
-        checkForDuplicate
-    };
-}
-
-// Make functions available globally for browser console testing
+// Make functions available globally for testing
 if (typeof window !== 'undefined') {
     window.scannerTest = {
         testScanner,
-        testDuplicateCheck,
-        testGoogleScriptUrl,
-        checkForDuplicate,
-        handleScannedCode
+        handleScannedCode,
+        checkLocalDuplicate
     };
 }
