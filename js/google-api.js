@@ -1,15 +1,23 @@
 // Movie Catalog - Google Apps Script Integration - Complete Version
 
+// Helper function to get Google Script URL
+function getGoogleScriptUrl() {
+    return window.GOOGLE_SCRIPT_URL || 
+           localStorage.getItem('googleScriptUrl') || 
+           'YOUR_GOOGLE_SCRIPT_URL_HERE';
+}
+
 // Add movie to Google Sheets
 async function addMovieToGoogle(movieData) {
-    if (window.GOOGLE_SCRIPT_URL && window.GOOGLE_SCRIPT_URL !== '1J4cLx-JQfCUhJYEgRUDGsWYo4qTbJQMjAW0WVXlcseo') {
+    const scriptUrl = getGoogleScriptUrl();
+    if (!scriptUrl || scriptUrl === 'YOUR_GOOGLE_SCRIPT_URL_HERE') {
         throw new Error('Google Apps Script URL not configured');
     }
     
     console.log('☁️ Adding movie to Google Sheets:', movieData.title);
     
     try {
-        const response = await fetch(getGoogleScriptUrl(), {
+        const response = await fetch(scriptUrl, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -34,7 +42,8 @@ async function addMovieToGoogle(movieData) {
 
 // Load movies from Google Sheets
 async function loadMoviesFromGoogle() {
-    if (window.GOOGLE_SCRIPT_URL && window.GOOGLE_SCRIPT_URL !== '1J4cLx-JQfCUhJYEgRUDGsWYo4qTbJQMjAW0WVXlcseo') {
+    const scriptUrl = getGoogleScriptUrl();
+    if (!scriptUrl || scriptUrl === 'YOUR_GOOGLE_SCRIPT_URL_HERE') {
         showStatus('add-status', '⚠️ Google integration not configured. Click the settings icon to set up.', 'error');
         return;
     }
@@ -45,7 +54,7 @@ async function loadMoviesFromGoogle() {
         showStatus('add-status', '🔄 Syncing with Google Sheets...', 'info');
         
         // Use a simple GET request for loading movies
-        const response = await fetch(`${googleScriptUrl}?action=getMovies`, {
+        const response = await fetch(`${scriptUrl}?action=getMovies`, {
             method: 'GET'
         });
         
@@ -106,7 +115,8 @@ async function loadMoviesFromGoogle() {
 
 // Remove movie from Google Sheets
 async function removeMovieFromGoogle(movieData) {
-    if (!googleScriptUrl) {
+    const scriptUrl = getGoogleScriptUrl();
+    if (!scriptUrl || scriptUrl === 'YOUR_GOOGLE_SCRIPT_URL_HERE') {
         console.log('⚠️ No Google config - skipping Google Sheets removal');
         return;
     }
@@ -114,7 +124,7 @@ async function removeMovieFromGoogle(movieData) {
     console.log('🗑️ Removing movie from Google Sheets:', movieData.title);
     
     try {
-        const response = await fetch(googleScriptUrl, {
+        const response = await fetch(scriptUrl, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -137,7 +147,8 @@ async function removeMovieFromGoogle(movieData) {
 
 // Upload image to Google Drive
 async function uploadImageToGoogleDrive(file, movieTitle) {
-    if (!googleScriptUrl) {
+    const scriptUrl = getGoogleScriptUrl();
+    if (!scriptUrl || scriptUrl === 'YOUR_GOOGLE_SCRIPT_URL_HERE') {
         console.log('⚠️ No Google config - skipping image upload');
         return '';
     }
@@ -153,7 +164,7 @@ async function uploadImageToGoogleDrive(file, movieTitle) {
         const cleanTitle = movieTitle.replace(/[^a-zA-Z0-9\s]/g, '').replace(/\s+/g, '_');
         const fileName = `${cleanTitle}_cover.${fileExtension}`;
         
-        const response = await fetch(googleScriptUrl, {
+        const response = await fetch(scriptUrl, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -184,7 +195,8 @@ async function uploadImageToGoogleDrive(file, movieTitle) {
 
 // Enhanced UPC lookup using Google Apps Script
 async function lookupMovieByUPCViaScript(upc) {
-    if (!googleScriptUrl) {
+    const scriptUrl = getGoogleScriptUrl();
+    if (!scriptUrl || scriptUrl === 'YOUR_GOOGLE_SCRIPT_URL_HERE') {
         console.log('⚠️ No Google config - skipping UPC lookup');
         return null;
     }
@@ -192,7 +204,7 @@ async function lookupMovieByUPCViaScript(upc) {
     try {
         console.log(`🔍 Looking up UPC via Google Apps Script: ${upc}`);
         
-        const response = await fetch(`${googleScriptUrl}?action=lookupUPC&upc=${upc}`, {
+        const response = await fetch(`${scriptUrl}?action=lookupUPC&upc=${upc}`, {
             method: 'GET'
         });
         
@@ -257,14 +269,15 @@ function mergeMovieCollections(localMovies, remoteMovies) {
 
 // Test Google Apps Script connection
 async function testGoogleConnection() {
-    if (!googleScriptUrl) {
+    const scriptUrl = getGoogleScriptUrl();
+    if (!scriptUrl || scriptUrl === 'YOUR_GOOGLE_SCRIPT_URL_HERE') {
         return { success: false, error: 'No Google Apps Script URL configured' };
     }
     
     console.log('🧪 Testing Google Apps Script connection...');
     
     try {
-        const response = await fetch(googleScriptUrl + '?action=test', {
+        const response = await fetch(scriptUrl + '?action=test', {
             method: 'GET'
         });
         
@@ -289,7 +302,8 @@ async function testGoogleConnection() {
 
 // Initialize Google Drive folder structure
 async function initializeGoogleDrive() {
-    if (!googleScriptUrl) {
+    const scriptUrl = getGoogleScriptUrl();
+    if (!scriptUrl || scriptUrl === 'YOUR_GOOGLE_SCRIPT_URL_HERE') {
         console.log('⚠️ Cannot initialize Google Drive - no script URL configured');
         return;
     }
@@ -297,7 +311,7 @@ async function initializeGoogleDrive() {
     console.log('📁 Initializing Google Drive folder structure...');
     
     try {
-        const response = await fetch(googleScriptUrl, {
+        const response = await fetch(scriptUrl, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -319,7 +333,8 @@ async function initializeGoogleDrive() {
 
 // Export collection to Google Sheets
 async function exportCollectionToGoogle() {
-    if (!googleScriptUrl) {
+    const scriptUrl = getGoogleScriptUrl();
+    if (!scriptUrl || scriptUrl === 'YOUR_GOOGLE_SCRIPT_URL_HERE') {
         showStatus('add-status', '⚠️ Google integration not configured', 'error');
         return;
     }
@@ -333,7 +348,7 @@ async function exportCollectionToGoogle() {
     showStatus('add-status', '📤 Exporting collection to Google Sheets...', 'info');
     
     try {
-        const response = await fetch(googleScriptUrl, {
+        const response = await fetch(scriptUrl, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -356,14 +371,15 @@ async function exportCollectionToGoogle() {
 
 // Get Google Drive folder information
 async function getGoogleDriveFolderInfo() {
-    if (!googleScriptUrl) {
+    const scriptUrl = getGoogleScriptUrl();
+    if (!scriptUrl || scriptUrl === 'YOUR_GOOGLE_SCRIPT_URL_HERE') {
         return null;
     }
     
     console.log('📁 Getting Google Drive folder information...');
     
     try {
-        const response = await fetch(googleScriptUrl + '?action=getFolderInfo', {
+        const response = await fetch(scriptUrl + '?action=getFolderInfo', {
             method: 'GET'
         });
         
@@ -384,7 +400,8 @@ async function getGoogleDriveFolderInfo() {
 
 // Auto-sync function (could be called periodically)
 async function autoSync() {
-    if (!googleScriptUrl || movies.length === 0) {
+    const scriptUrl = getGoogleScriptUrl();
+    if (!scriptUrl || scriptUrl === 'YOUR_GOOGLE_SCRIPT_URL_HERE' || movies.length === 0) {
         return;
     }
     
@@ -423,7 +440,8 @@ function stopAutoSync() {
 document.addEventListener('DOMContentLoaded', function() {
     // Start auto-sync after a delay to let the app initialize
     setTimeout(() => {
-        if (window.GOOGLE_SCRIPT_URL && window.GOOGLE_SCRIPT_URL !== '1J4cLx-JQfCUhJYEgRUDGsWYo4qTbJQMjAW0WVXlcseo') {
+        const scriptUrl = getGoogleScriptUrl();
+        if (scriptUrl && scriptUrl !== 'YOUR_GOOGLE_SCRIPT_URL_HERE') {
             startAutoSync();
         }
     }, 10000); // Wait 10 seconds after page load
@@ -435,7 +453,8 @@ document.addEventListener('visibilitychange', function() {
         stopAutoSync();
         console.log('📱 Page hidden - stopping auto-sync');
     } else {
-        if (window.GOOGLE_SCRIPT_URL && window.GOOGLE_SCRIPT_URL !== '1J4cLx-JQfCUhJYEgRUDGsWYo4qTbJQMjAW0WVXlcseo') {
+        const scriptUrl = getGoogleScriptUrl();
+        if (scriptUrl && scriptUrl !== 'YOUR_GOOGLE_SCRIPT_URL_HERE') {
             startAutoSync();
             console.log('📱 Page visible - resuming auto-sync');
         }
@@ -469,8 +488,8 @@ function saveGoogleConfigEnhanced() {
         return;
     }
     
-    googleScriptUrl = url;
     localStorage.setItem('googleScriptUrl', url);
+    window.GOOGLE_SCRIPT_URL = url;
     closeConfigModal();
     
     // Test the connection
@@ -515,13 +534,14 @@ function handleGoogleApiError(error, operation) {
 
 // Debug function to check Google integration status
 function debugGoogleIntegration() {
+    const scriptUrl = getGoogleScriptUrl();
     console.log('🔍 Google Integration Debug Info:');
-    console.log('📝 Script URL:', googleScriptUrl || 'Not configured');
+    console.log('📝 Script URL:', scriptUrl || 'Not configured');
     console.log('💾 Stored URL:', localStorage.getItem('googleScriptUrl') || 'Not stored');
     console.log('📊 Local Movies:', movies.length);
     console.log('🔄 Auto-sync Active:', !!autoSyncInterval);
     
-        if (window.GOOGLE_SCRIPT_URL && window.GOOGLE_SCRIPT_URL !== '1J4cLx-JQfCUhJYEgRUDGsWYo4qTbJQMjAW0WVXlcseo') {
+    if (scriptUrl && scriptUrl !== 'YOUR_GOOGLE_SCRIPT_URL_HERE') {
         testGoogleConnection().then(result => {
             console.log('🧪 Connection Test:', result);
         });
@@ -530,7 +550,8 @@ function debugGoogleIntegration() {
 
 // Enhanced Google Drive integration status
 async function checkGoogleDriveIntegration() {
-    if (!googleScriptUrl) {
+    const scriptUrl = getGoogleScriptUrl();
+    if (!scriptUrl || scriptUrl === 'YOUR_GOOGLE_SCRIPT_URL_HERE') {
         return {
             configured: false,
             message: 'Google Apps Script not configured'
