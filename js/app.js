@@ -767,3 +767,12 @@ function saveGoogleConfig() {
         showMessage('Google Script URL saved successfully', 'success');
     }
 }
+function closeConfigModal() {
+    const modal = document.getElementById('config-modal') || 
+                  document.querySelector('.config-modal') || 
+                  document.querySelector('[style*="position: fixed"]');
+    if (modal) {
+        modal.style.display = 'none';
+        modal.remove();
+    }
+}
