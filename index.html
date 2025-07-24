@@ -208,24 +208,15 @@
   </div>
 
   <!-- Configuration Modal -->
-  <div id="config-modal" class="modal">
-    <div class="modal-content">
-      <h3>⚙️ Google Integration Setup</h3>
-      <p>To sync your collection with Google Drive, you'll need to set up Google Apps Script first.</p>
-      <div class="setup-steps">
-        <a href="docs/google-setup.md" target="_blank" class="setup-link">
-          📖 View Setup Guide
-        </a>
-      </div>
-      <p>Once you've deployed your Google Apps Script, enter the Web App URL here:</p>
-      <input type="url" id="google-script-url" placeholder="https://script.google.com/macros/s/.../exec">
-      <div class="modal-buttons">
-        <button onclick="saveGoogleConfig()">💾 Save Configuration</button>
-        <button onclick="closeConfigModal()" class="secondary">❌ Skip for Now</button>
-      </div>
-      <p class="note">You can always configure this later by refreshing the page.</p>
+<div id="config-modal" class="modal" style="display: none;">
+  <div class="modal-content">
+    <h3>⚙️ Configuration</h3>
+    <p>Movie catalog is ready to use!</p>
+    <div class="modal-buttons">
+      <button onclick="closeConfigModal()">✅ Continue</button>
     </div>
   </div>
+</div>
 
   <script src="js/app.js"></script>
   <script src="js/scanner.js"></script>
