@@ -26,7 +26,26 @@ function initializeApp() {
     
     console.log('App initialized successfully');
 }
-
+function showTab(tabName, event) {
+    // Hide all tab contents
+    const tabContents = document.querySelectorAll('.tab-content');
+    tabContents.forEach(content => content.classList.remove('active'));
+    
+    // Remove active class from all tabs
+    const tabs = document.querySelectorAll('.tab');
+    tabs.forEach(tab => tab.classList.remove('active'));
+    
+    // Show selected tab content
+    const selectedTab = document.getElementById(tabName);
+    if (selectedTab) {
+        selectedTab.classList.add('active');
+    }
+    
+    // Add active class to clicked tab
+    if (event && event.target) {
+        event.target.classList.add('active');
+    }
+}
 function setupEventListeners() {
     // Add Movie form submission
     const addMovieForm = document.getElementById('add-movie-form');
