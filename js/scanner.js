@@ -256,16 +256,18 @@ function checkLocalDuplicate(upc) {
 function fillFormWithMovieData(movieData) {
     console.log('Filling form with movie data:', movieData);
     
-    // Fill form fields if they exist
+    // Use correct field IDs that match your HTML
     const fields = {
-        'movie-title': movieData.title || '',
-        'movie-year': movieData.year || '',
-        'movie-genre': movieData.genre || '',
-        'movie-director': movieData.director || '',
-        'movie-studio': movieData.studio || '',
-        'movie-format': movieData.format || 'DVD',
-        'movie-upc': movieData.upc || '',
-        'movie-notes': movieData.notes || ''
+        'title': movieData.title || '',
+        'year': movieData.year || '',
+        'genre': movieData.genre || '',
+        'director': movieData.director || '',
+        'producer': movieData.producer || '',
+        'studio': movieData.studio || '',
+        'runtime': movieData.runtime || '',
+        'upc': movieData.upc || '',
+        'asin': movieData.asin || '',
+        'notes': movieData.notes || ''
     };
     
     Object.keys(fields).forEach(fieldId => {
@@ -278,19 +280,14 @@ function fillFormWithMovieData(movieData) {
         }
     });
     
-    // Special handling for format dropdown
-    const formatField = document.getElementById('movie-format');
-    if (formatField && movieData.format) {
-        // Try to match the format value
-        const options = Array.from(formatField.options);
-        const matchingOption = options.find(option => 
-            option.value.toLowerCase() === movieData.format.toLowerCase() ||
-            option.text.toLowerCase() === movieData.format.toLowerCase()
-        );
-        
-        if (matchingOption) {
-            formatField.value = matchingOption.value;
-        }
+    // Special handling for format checkboxes
+    if (movieData.format) {
+        const formatValue = movieData.format.toLowerCase();
+        document.querySelectorAll('.format1, .format2, .format3').forEach(checkbox => {
+            if (checkbox.value.toLowerCase() === formatValue) {
+                checkbox.checked = true;
+            }
+        });
     }
 }
 
