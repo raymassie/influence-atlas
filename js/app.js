@@ -45,10 +45,22 @@ function showTab(tabName, event) {
 }
 
 function setupEventListeners() {
+    console.log('🔧 Setting up event listeners...');
+    
     // Add Movie form submission - matches HTML id="movieForm"
     const addMovieForm = document.getElementById('movieForm');
+    console.log('📝 Movie form found:', !!addMovieForm);
+    
     if (addMovieForm) {
         addMovieForm.addEventListener('submit', handleAddMovie);
+        console.log('✅ Form submit event listener attached');
+        
+        // Test if the form is working
+        addMovieForm.addEventListener('submit', function(e) {
+            console.log('🎯 Form submit event triggered!');
+        });
+    } else {
+        console.error('❌ Movie form not found!');
     }
     
     // Search functionality - matches HTML id="search-input"
