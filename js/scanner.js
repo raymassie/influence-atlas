@@ -202,7 +202,7 @@ async function lookupMovieByUPC(upc) {
     
     try {
         // Use UPCitemdb API to get product info
-        const response = await fetch(`https://api.upcitemdb.com/prod/trial/lookup?upc=${upc}`);
+        const response = await fetch(`https://cors-anywhere.herokuapp.com/https://api.upcitemdb.com/prod/trial/lookup?upc=${upc}`);
         
         if (response.ok) {
             const data = await response.json();
@@ -212,7 +212,7 @@ async function lookupMovieByUPC(upc) {
                 const title = item.title || "";
                 
                 // Extract year from title if it contains a year
-                const yearMatch = title.match(/((d{4}))/);
+                const yearMatch = title.match(/(d{4})/);
                 const year = yearMatch ? yearMatch[1] : "";
                 
                 // Extract movie title (remove year and format info)
@@ -268,7 +268,7 @@ async function lookupMovieByUPC(upc) {
     
     try {
         // Use UPCitemdb API to get product info
-        const response = await fetch(`https://api.upcitemdb.com/prod/trial/lookup?upc=${upc}`);
+        const response = await fetch(`https://cors-anywhere.herokuapp.com/https://api.upcitemdb.com/prod/trial/lookup?upc=${upc}`);
         
         if (response.ok) {
             const data = await response.json();
@@ -278,7 +278,7 @@ async function lookupMovieByUPC(upc) {
                 const title = item.title || "";
                 
                 // Extract year from title if it contains a year
-                const yearMatch = title.match(/((d{4}))/);
+                const yearMatch = title.match(/(d{4})/);
                 const year = yearMatch ? yearMatch[1] : "";
                 
                 // Extract movie title (remove year and format info)
