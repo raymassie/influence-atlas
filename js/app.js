@@ -12,7 +12,15 @@ document.addEventListener('DOMContentLoaded', function() {
 function initializeApp() {
     console.log('🚀 Starting app initialization...');
     console.log('📋 DOM ready, setting up event listeners...');
-    setupEventListeners();
+    
+    try {
+        console.log('🔧 About to call setupEventListeners...');
+        setupEventListeners();
+        console.log('✅ setupEventListeners completed successfully');
+    } catch (error) {
+        console.error('❌ Error in setupEventListeners:', error);
+    }
+    
     console.log('📊 Data manager is already initialized and loaded');
     displayMovies();
     updateMovieCount();
@@ -47,13 +55,14 @@ function showTab(tabName, event) {
 }
 
 function setupEventListeners() {
-    console.log('🔧 Setting up event listeners...');
-    console.log('🔍 Looking for movie form...');
-    
-    // Add Movie form submission - matches HTML id="movieForm"
-    const addMovieForm = document.getElementById('movieForm');
-    console.log('📝 Movie form found:', !!addMovieForm);
-    console.log('📋 Form element:', addMovieForm);
+    try {
+        console.log('🔧 Setting up event listeners...');
+        console.log('🔍 Looking for movie form...');
+        
+        // Add Movie form submission - matches HTML id="movieForm"
+        const addMovieForm = document.getElementById('movieForm');
+        console.log('📝 Movie form found:', !!addMovieForm);
+        console.log('📋 Form element:', addMovieForm);
     
     if (addMovieForm) {
         console.log('✅ Found movie form, attaching event listeners...');
@@ -106,6 +115,10 @@ function setupEventListeners() {
                 stopScanner();
             }
         });
+    }
+    } catch (error) {
+        console.error('❌ Error in setupEventListeners:', error);
+        console.error('❌ Error stack:', error.stack);
     }
 }
 
