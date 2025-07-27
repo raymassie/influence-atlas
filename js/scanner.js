@@ -1,462 +1,383 @@
-// Movie Catalog - Barcode Scanner Functionality
-let scanner = null;
-let scannerStream = null;
-let isScanning = false;
+let scannerActive = false;
+let codeReader = null;
+let selectedDeviceId = null;
 
-// Initialize scanner when DOM is loaded
+// Initialize scanner when page loads
 document.addEventListener('DOMContentLoaded', function() {
-    setupScanner();
+    initializeScanner();
+    setupEventListeners();
 });
 
-function setupScanner() {
-    const startButton = document.getElementById('start-scanner');
-    const stopButton = document.getElementById('stop-scanner');
+function initializeScanner() {
+    console.log('Initializing scanner...');
+    codeReader = new ZXing.BrowserBarcodeReader();
+    
+    // Get available cameras
+    codeReader.listVideoInputDevices().then((videoInputDevices) => {
+        console.log('Found cameras:', videoInputDevices.length);
+        
+        if (videoInputDevices.length > 0) {
+            // Prefer back camera if available
+            const backCamera = videoInputDevices.find(device => 
+                device.label.toLowerCase().includes('back') || 
+                device.label.toLowerCase().includes('rear') ||
+                device.label.toLowerCase().includes('environment')
+            );
+            
+            selectedDeviceId = backCamera ? backCamera.deviceId : videoInputDevices[0].deviceId;
+            console.log('Selected camera:', selectedDeviceId);
+            
+            // Update camera selection dropdown if it exists
+            updateCameraSelection(videoInputDevices);
+        } else {
+            console.error('No cameras found');
+            showMessage('No cameras found on this device', 'error');
+        }
+    }).catch(err => {
+        console.error('Error listing cameras:', err);
+        showMessage('Error accessing cameras: ' + err.message, 'error');
+    });
+}
 
-    if (startButton && stopButton) {
-        startButton.addEventListener('click', startScanner);
-        stopButton.addEventListener('click', stopScanner);
-        console.log('✅ Scanner event listeners set up');
+function updateCameraSelection(devices) {
+    const cameraSelect = document.getElementById('cameraSelect');
+    if (cameraSelect) {
+        cameraSelect.innerHTML = '';
+        devices.forEach((device, index) => {
+            const option = document.createElement('option');
+            option.value = device.deviceId;
+            option.text = device.label || `Camera ${index + 1}`;
+            if (device.deviceId === selectedDeviceId) {
+                option.selected = true;
+            }
+            cameraSelect.appendChild(option);
+        });
     }
 }
 
-async function startScanner() {
-    if (isScanning) {
-        console.log('⚠️ Scanner already running');
+function setupEventListeners() {
+    // Start scanner button - check multiple possible IDs for compatibility
+    const startBtn = document.getElementById('startScanner') || 
+                     document.getElementById('start-scanner');
+    if (startBtn) {
+        startBtn.addEventListener('click', startScanner);
+    }
+    
+    // Stop scanner button - check multiple possible IDs for compatibility
+    const stopBtn = document.getElementById('stopScanner') || 
+                    document.getElementById('stop-scanner');
+    if (stopBtn) {
+        stopBtn.addEventListener('click', stopScanner);
+    }
+    
+    // Camera selection
+    const cameraSelect = document.getElementById('cameraSelect');
+    if (cameraSelect) {
+        cameraSelect.addEventListener('change', function() {
+            selectedDeviceId = this.value;
+            if (scannerActive) {
+                stopScanner();
+                setTimeout(startScanner, 500); // Restart with new camera
+            }
+        });
+    }
+    
+    // Manual UPC input
+    const manualInput = document.getElementById('manualUPC');
+    if (manualInput) {
+        manualInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                const upc = this.value.trim();
+                if (upc) {
+                    handleScannedCode(upc);
+                    this.value = '';
+                }
+            }
+        });
+    }
+    
+    // Manual UPC submit button
+    const manualBtn = document.getElementById('submitManualUPC');
+    if (manualBtn) {
+        manualBtn.addEventListener('click', function() {
+            const manualInput = document.getElementById('manualUPC');
+            if (manualInput) {
+                const upc = manualInput.value.trim();
+                if (upc) {
+                    handleScannedCode(upc);
+                    manualInput.value = '';
+                }
+            }
+        });
+    }
+}
+
+function startScanner() {
+    console.log('Starting scanner...');
+    
+    if (!codeReader) {
+        console.error('Scanner not initialized');
+        showMessage('Scanner not initialized', 'error');
         return;
     }
-
-    console.log('📱 Starting barcode scanner...');
-
-    try {
-        const video = document.getElementById('scanner-video');
-        const startButton = document.getElementById('start-scanner');
-        const stopButton = document.getElementById('stop-scanner');
-
-        // Check if we have camera permissions
-        const permissionStatus = await navigator.permissions.query({ name: 'camera' });
-        console.log('📷 Camera permission status:', permissionStatus.state);
-
-        // Request camera access with optimal settings for barcode scanning
-        const constraints = {
-            video: { 
-                facingMode: 'environment', // Use back camera if available
-                width: { ideal: 1280, min: 640 },
-                height: { ideal: 720, min: 480 },
-                aspectRatio: { ideal: 16/9 },
-                focusMode: 'continuous'
-            }
-        };
-
-        console.log('🎥 Requesting camera access...');
-        scannerStream = await navigator.mediaDevices.getUserMedia(constraints);
-
-        video.srcObject = scannerStream;
-        isScanning = true;
-        
-        // Update button states
-        startButton.disabled = true;
-        stopButton.disabled = false;
-
-        // Start barcode detection
-        if ('BarcodeDetector' in window) {
-            console.log('✅ Native BarcodeDetector available');
-            scanner = new BarcodeDetector({ 
-                formats: [
-                    'ean_13', 'ean_8', 'upc_a', 'upc_e', 
-                    'code_128', 'code_39', 'code_93',
-                    'codabar', 'itf'
-                ] 
-            });
-            
-            // Wait for video to be ready
-            video.addEventListener('loadedmetadata', () => {
-                console.log('📹 Video metadata loaded, starting barcode detection');
-                scanForBarcodes();
-            });
-            
-            showStatus('scanner-status', '📱 Scanner started! Point your camera at a barcode.', 'success');
-        } else {
-            console.log('⚠️ Native BarcodeDetector not supported, using fallback');
-            showStatus('scanner-status', '⚠️ Advanced barcode detection not supported in this browser. You can still enter barcodes manually below.', 'info');
-            startManualBarcodeInput();
-        }
-
-    } catch (error) {
-        console.error('❌ Scanner error:', error);
-        isScanning = false;
-        
-        let errorMessage = 'Error starting scanner: ';
-        
-        if (error.name === 'NotAllowedError') {
-            errorMessage += 'Camera permission denied. Please allow camera access and try again.';
-        } else if (error.name === 'NotFoundError') {
-            errorMessage += 'No camera found. Please ensure your device has a camera.';
-        } else if (error.name === 'NotReadableError') {
-            errorMessage += 'Camera is already in use by another application.';
-        } else if (error.name === 'OverconstrainedError') {
-            errorMessage += 'Camera constraints could not be satisfied.';
-        } else if (error.name === 'SecurityError') {
-            errorMessage += 'Camera access blocked by security policy.';
-        } else {
-            errorMessage += error.message;
-        }
-        
-        showStatus('scanner-status', errorMessage, 'error');
-        
-        // Reset button states
-        const startButton = document.getElementById('start-scanner');
-        const stopButton = document.getElementById('stop-scanner');
-        startButton.disabled = false;
-        stopButton.disabled = true;
-        
-        // Offer manual input as fallback
-        startManualBarcodeInput();
+    
+    if (!selectedDeviceId) {
+        console.error('No camera selected');
+        showMessage('No camera available', 'error');
+        return;
     }
+    
+    const videoElement = document.getElementById('scanner-video');
+    if (!videoElement) {
+        console.error('Video element not found');
+        showMessage('Video element not found', 'error');
+        return;
+    }
+    
+    scannerActive = true;
+    updateScannerUI();
+    
+    // Start decoding from video device
+    codeReader.decodeFromVideoDevice(selectedDeviceId, videoElement, (result, err) => {
+        if (result) {
+            console.log('Scanned code:', result.text);
+            handleScannedCode(result.text);
+        }
+        
+        if (err && !(err instanceof ZXing.NotFoundException)) {
+            console.error('Scanner error:', err);
+        }
+    }).catch(err => {
+        console.error('Error starting scanner:', err);
+        showMessage('Error starting scanner: ' + err.message, 'error');
+        scannerActive = false;
+        updateScannerUI();
+    });
+    
+    showMessage('Scanner started. Point camera at barcode.', 'success');
 }
 
 function stopScanner() {
-    console.log('⏹️ Stopping scanner...');
+    console.log('Stopping scanner...');
     
-    const video = document.getElementById('scanner-video');
-    const startButton = document.getElementById('start-scanner');
-    const stopButton = document.getElementById('stop-scanner');
-
-    if (scannerStream) {
-        scannerStream.getTracks().forEach(track => {
-            track.stop();
-            console.log('🔌 Camera track stopped');
-        });
-        video.srcObject = null;
-        scannerStream = null;
+    if (codeReader) {
+        codeReader.reset();
     }
-
-    scanner = null;
-    isScanning = false;
-
-    // Update button states
-    startButton.disabled = false;
-    stopButton.disabled = true;
     
-    // Hide result
-    document.getElementById('scanner-result').style.display = 'none';
+    scannerActive = false;
+    updateScannerUI();
     
-    // Remove manual input if it exists
-    removeManualBarcodeInput();
+    // Clear video stream
+    const videoElement = document.getElementById('scanner-video');
+    if (videoElement) {
+        videoElement.srcObject = null;
+    }
     
-    showStatus('scanner-status', '⏹️ Scanner stopped.', 'info');
+    showMessage('Scanner stopped.', 'info');
 }
 
-async function scanForBarcodes() {
-    if (!scanner || !scannerStream || !isScanning) {
-        return;
-    }
-
-    const video = document.getElementById('scanner-video');
+function updateScannerUI() {
+    const startBtn = document.getElementById('startScanner') || 
+                     document.getElementById('start-scanner');
+    const stopBtn = document.getElementById('stopScanner') || 
+                    document.getElementById('stop-scanner');
+    const videoElement = document.getElementById('scanner-video');
     
-    try {
-        // Make sure video is ready
-        if (video.readyState === video.HAVE_ENOUGH_DATA) {
-            const barcodes = await scanner.detect(video);
-            
-            if (barcodes.length > 0) {
-                const barcode = barcodes[0];
-                console.log('🎯 Barcode detected:', barcode);
-                handleBarcodeDetected(barcode.rawValue, barcode.format);
-                return; // Stop scanning once we find a barcode
-            }
-        }
-    } catch (error) {
-        console.error('❌ Barcode detection error:', error);
-        // Don't stop scanning for detection errors, just log them
+    if (startBtn) {
+        startBtn.disabled = scannerActive;
+        startBtn.textContent = scannerActive ? 'Scanner Running...' : 'Start Scanner';
     }
-
-    // Continue scanning if still active
-    if (isScanning && scanner) {
-        requestAnimationFrame(scanForBarcodes);
+    
+    if (stopBtn) {
+        stopBtn.disabled = !scannerActive;
+    }
+    
+    if (videoElement) {
+        videoElement.style.display = scannerActive ? 'block' : 'none';
     }
 }
 
-function startManualBarcodeInput() {
-    // Remove existing manual input first
-    removeManualBarcodeInput();
+function handleScannedCode(code) {
+    console.log('Handling scanned code:', code);
     
-    console.log('⌨️ Starting manual barcode input');
+    // Clean and validate the UPC code
+    const cleanUPC = code ? code.trim() : '';
     
-    const manualInputContainer = document.createElement('div');
-    manualInputContainer.id = 'manual-barcode-container';
-    manualInputContainer.innerHTML = `
-        <div style="margin: 20px 0; text-align: center; padding: 20px; background: #f8f9fa; border-radius: 10px; border: 2px solid #ecf0f1;">
-            <h4 style="margin-bottom: 15px; color: #2c3e50;">📝 Manual Barcode Entry</h4>
-            <p style="margin-bottom: 15px; color: #7f8c8d; font-size: 14px;">
-                Camera not working? Enter the barcode number manually.
-            </p>
-            <div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
-                <input type="text" 
-                       id="manual-barcode" 
-                       placeholder="Enter UPC/EAN barcode..." 
-                       style="padding: 12px 16px; font-size: 16px; width: 250px; border: 2px solid #ecf0f1; border-radius: 8px; text-align: center;">
-                <button onclick="handleManualBarcode()" 
-                        style="padding: 12px 20px; background: linear-gradient(135deg, #27ae60, #2ecc71); border: none; color: white; border-radius: 8px; cursor: pointer; font-weight: 600;">
-                    ✅ Submit
-                </button>
-            </div>
-            <p style="margin-top: 10px; color: #95a5a6; font-size: 12px;">
-                Look for a series of numbers under the barcode on your DVD/Blu-ray case
-            </p>
-        </div>
-    `;
-    
-    const scannerContainer = document.querySelector('.scanner-container');
-    scannerContainer.appendChild(manualInputContainer);
-    
-    // Focus on the input field
-    setTimeout(() => {
-        const input = document.getElementById('manual-barcode');
-        if (input) {
-            input.focus();
-            
-            // Allow Enter key to submit
-            input.addEventListener('keypress', function(e) {
-                if (e.key === 'Enter') {
-                    handleManualBarcode();
-                }
-            });
-        }
-    }, 100);
-}
-
-function removeManualBarcodeInput() {
-    const existingContainer = document.getElementById('manual-barcode-container');
-    if (existingContainer) {
-        existingContainer.remove();
-        console.log('🗑️ Removed manual barcode input');
-    }
-}
-
-function handleManualBarcode() {
-    const input = document.getElementById('manual-barcode');
-    const barcode = input.value.trim();
-    
-    if (barcode) {
-        if (isValidBarcode(barcode)) {
-            console.log('✅ Valid manual barcode entered:', barcode);
-            handleBarcodeDetected(barcode, 'manual');
-            input.value = '';
-        } else {
-            alert('⚠️ Please enter a valid barcode (8-14 digits)');
-            input.focus();
-        }
-    } else {
-        alert('⚠️ Please enter a barcode number');
-        input.focus();
-    }
-}
-
-function isValidBarcode(barcode) {
-    // Check if it's a valid UPC/EAN barcode (8, 12, 13, or 14 digits)
-    const cleanBarcode = barcode.replace(/\D/g, ''); // Remove non-digits
-    return cleanBarcode.length >= 8 && cleanBarcode.length <= 14;
-}
-
-function handleBarcodeDetected(upc, format = 'unknown') {
-    console.log(`🎯 Barcode detected: ${upc} (format: ${format})`);
-    
-    // Clean up the UPC (remove any non-digit characters)
-    const cleanUPC = upc.replace(/\D/g, '');
-    
-    if (!isValidBarcode(cleanUPC)) {
-        console.log('❌ Invalid barcode format');
-        showStatus('scanner-status', '❌ Invalid barcode format. Please try again.', 'error');
+    if (!cleanUPC) {
+        showMessage('Invalid barcode detected - no code provided', 'error');
         return;
     }
     
-    // Display the result
-    document.getElementById('scanned-upc').textContent = cleanUPC;
-    document.getElementById('scanner-result').style.display = 'block';
+    console.log('Clean UPC for processing:', cleanUPC);
     
-    // Stop scanner
-    stopScanner();
+    // Check for duplicates in local collection
+    const duplicate = checkLocalDuplicate(cleanUPC);
     
-    // Fill UPC field in form
-    document.getElementById('upc').value = cleanUPC;
-    
-    // Try to lookup movie details
-    lookupMovieByUPC(cleanUPC);
-    
-    // Switch to add movie tab after a brief delay
-    setTimeout(() => {
-        showTab('add-movie');
-        // Update tab styling
-        document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
-        document.querySelectorAll('.tab')[0].classList.add('active');
+    if (duplicate) {
+        const message = `⚠️ Duplicate UPC Found!\n\nThis movie is already in your collection:\n\n` +
+                      `Title: ${duplicate.title}\n` +
+                      `Year: ${duplicate.year}\n` +
+                      `Format: ${duplicate.format || 'Unknown'}\n` +
+                      `UPC: ${duplicate.upc}\n\n` +
+                      `Do you want to add it anyway?`;
         
-        // Scroll to top of form
-        document.getElementById('add-movie').scrollIntoView({ behavior: 'smooth' });
-    }, 1500);
+        if (!confirm(message)) {
+            showMessage('Duplicate UPC scan cancelled', 'warning');
+            return;
+        }
+    }
     
-    showStatus('scanner-status', `✅ Barcode scanned successfully: ${cleanUPC}`, 'success');
+    // Fill the form with the UPC and switch to add movie tab
+    fillFormWithMovieData({ upc: cleanUPC });
+    switchToAddMovieTab();
+    showMessage(`UPC scanned: ${cleanUPC}. Please enter movie details.`, 'success');
 }
 
-async function lookupMovieByUPC(upc) {
-    const loadingDiv = document.getElementById('lookup-loading');
-    loadingDiv.style.display = 'block';
+function checkLocalDuplicate(upc) {
+    // Check if movieCollection exists (from app.js)
+    if (typeof movieCollection !== 'undefined' && Array.isArray(movieCollection)) {
+        return movieCollection.find(movie => 
+            movie.upc && movie.upc.toString().trim() === upc.toString().trim()
+        );
+    }
     
-    console.log(`🔍 Looking up movie details for UPC: ${upc}`);
-    
+    // Fallback: check localStorage directly
     try {
-        showStatus('add-status', '🔍 Looking up movie details...', 'info');
-        
-        // Try multiple APIs for better results
-        let movieData = await tryMultipleAPIs(upc);
-        
-        if (movieData) {
-            fillFormWithMovieData(movieData);
-            showStatus('add-status', `✅ Found: "${movieData.title}"! Please verify and complete the details.`, 'success');
-            console.log('✅ Movie data found and form filled:', movieData);
-        } else {
-            showStatus('add-status', '⚠️ Movie not found in database. Please enter details manually.', 'info');
-            console.log('❌ No movie data found for UPC');
+        const stored = localStorage.getItem('movieCollection');
+        if (stored) {
+            const movies = JSON.parse(stored);
+            return movies.find(movie => 
+                movie.upc && movie.upc.toString().trim() === upc.toString().trim()
+            );
         }
-        
     } catch (error) {
-        console.error('❌ Lookup error:', error);
-        showStatus('add-status', '❌ Could not lookup movie details. Please enter manually.', 'error');
-    } finally {
-        loadingDiv.style.display = 'none';
-    }
-}
-
-async function tryMultipleAPIs(upc) {
-    const apis = [
-        { name: 'UPC Database', func: lookupUPCDatabase },
-        { name: 'OMDb API', func: lookupOMDb }
-    ];
-    
-    for (const api of apis) {
-        try {
-            console.log(`🌐 Trying ${api.name}...`);
-            const result = await api.func(upc);
-            if (result) {
-                console.log(`✅ ${api.name} returned data:`, result);
-                return result;
-            }
-        } catch (error) {
-            console.log(`❌ ${api.name} failed:`, error.message);
-        }
+        console.error('Error checking local storage for duplicates:', error);
     }
     
-    console.log('❌ All APIs failed to return movie data');
     return null;
 }
 
-async function lookupUPCDatabase(upc) {
-    try {
-        const url = `https://api.upcitemdb.com/prod/trial/lookup?upc=${upc}`;
-        console.log('🌐 Fetching from UPC database:', url);
-        
-        const response = await fetch(url);
-        
-        if (!response.ok) {
-            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-        }
-        
-        const data = await response.json();
-        console.log('📦 UPC Database response:', data);
-        
-        if (data.items && data.items.length > 0) {
-            const item = data.items[0];
-            
-            // Extract movie title from product name
-            let title = item.title || item.brand || '';
-            
-            if (!title) {
-                console.log('❌ No title found in UPC data');
-                return null;
-            }
-            
-            // Clean up title (remove common DVD/Blu-ray text)
-            title = cleanMovieTitle(title);
-            
-            const movieData = {
-                title: title,
-                year: extractYearFromTitle(title),
-                studio: item.brand || '',
-                genre: extractGenreFromTitle(title)
-            };
-            
-            console.log('✅ Extracted movie data from UPC:', movieData);
-            return movieData;
-        }
-        
-        console.log('❌ No items found in UPC database response');
-        return null;
-        
-    } catch (error) {
-        console.error('❌ UPC database error:', error);
-        throw error;
-    }
-}
-
-async function lookupOMDb(upc) {
-    // OMDb API integration would require a title search since it doesn't support UPC directly
-    // For now, this is a placeholder that could be implemented with a paid OMDb API key
+function fillFormWithMovieData(movieData) {
+    console.log('Filling form with movie data:', movieData);
     
-    console.log('ℹ️ OMDb API lookup not implemented (requires title, not UPC)');
-    return null;
-}
-
-function cleanMovieTitle(title) {
-    // Remove common DVD/Blu-ray indicators and clean up the title
-    return title
-        .replace(/\(DVD\)/gi, '')
-        .replace(/\(Blu-ray\)/gi, '')
-        .replace(/\(4K\)/gi, '')
-        .replace(/\(UHD\)/gi, '')
-        .replace(/- DVD$/gi, '')
-        .replace(/- Blu-ray$/gi, '')
-        .replace(/- 4K$/gi, '')
-        .replace(/DVD$/gi, '')
-        .replace(/Blu-ray$/gi, '')
-        .replace(/\[.*?\]/g, '') // Remove anything in square brackets
-        .replace(/\s+/g, ' ') // Replace multiple spaces with single space
-        .trim();
-}
-
-function extractYearFromTitle(title) {
-    // Look for a 4-digit year in parentheses or at the end
-    const yearMatch = title.match(/\((\d{4})\)|(\d{4})$/);
-    return yearMatch ? (yearMatch[1] || yearMatch[2]) : '';
-}
-
-function extractGenreFromTitle(title) {
-    // Simple genre detection based on keywords in title
-    const lowerTitle = title.toLowerCase();
-    
-    const genreKeywords = {
-        'Action': ['action', 'fight', 'battle', 'war', 'combat'],
-        'Comedy': ['comedy', 'funny', 'laugh', 'humor'],
-        'Drama': ['drama', 'story'],
-        'Horror': ['horror', 'scary', 'fear', 'terror'],
-        'Thriller': ['thriller', 'suspense'],
-        'Romance': ['romance', 'love'],
-        'Sci-Fi': ['sci-fi', 'science fiction', 'space', 'future'],
-        'Fantasy': ['fantasy', 'magic', 'wizard'],
-        'Animation': ['animation', 'animated', 'cartoon'],
-        'Documentary': ['documentary', 'documentary']
+    // Use correct field IDs that match your HTML
+    const fields = {
+        'title': movieData.title || '',
+        'year': movieData.year || '',
+        'genre': movieData.genre || '',
+        'director': movieData.director || '',
+        'producer': movieData.producer || '',
+        'studio': movieData.studio || '',
+        'runtime': movieData.runtime || '',
+        'upc': movieData.upc || '',
+        'asin': movieData.asin || '',
+        'notes': movieData.notes || ''
     };
     
-    for (const [genre, keywords] of Object.entries(genreKeywords)) {
-        if (keywords.some(keyword => lowerTitle.includes(keyword))) {
-            return genre;
+    Object.keys(fields).forEach(fieldId => {
+        const field = document.getElementById(fieldId);
+        if (field) {
+            field.value = fields[fieldId];
+            console.log(`Set ${fieldId} to: ${fields[fieldId]}`);
+        } else {
+            console.warn(`Field ${fieldId} not found`);
         }
-    }
+    });
     
-    return '';
+    // Special handling for format checkboxes
+    if (movieData.format) {
+        const formatValue = movieData.format.toLowerCase();
+        document.querySelectorAll('.format1, .format2, .format3').forEach(checkbox => {
+            if (checkbox.value.toLowerCase() === formatValue) {
+                checkbox.checked = true;
+            }
+        });
+    }
 }
 
-// Prevent page from scrolling when scanner is active
-document.addEventListener('touchmove', function(e) {
-    if (isScanning) {
-        e.preventDefault();
+function switchToAddMovieTab() {
+    console.log('Switching to Add Movie tab');
+    
+    // Look for tab switching mechanism
+    const addMovieTab = document.querySelector('[data-tab="add-movie"]') || 
+                       document.querySelector('a[href="#add-movie"]') ||
+                       document.getElementById('add-movie-tab');
+    
+    if (addMovieTab) {
+        addMovieTab.click();
+    } else {
+        // Try to find and activate the add movie section
+        const addMovieSection = document.getElementById('add-movie') ||
+                               document.querySelector('.add-movie-section');
+        
+        if (addMovieSection) {
+            // Show the section
+            addMovieSection.style.display = 'block';
+            addMovieSection.scrollIntoView({ behavior: 'smooth' });
+        }
     }
-}, { passive: false });
+}
+
+function showMessage(message, type = 'info') {
+    console.log(`[${type.toUpperCase()}] ${message}`);
+    
+    // Look for message container
+    let messageContainer = document.getElementById('scanner-message') ||
+                          document.getElementById('message-container') ||
+                          document.querySelector('.message-container');
+    
+    if (!messageContainer) {
+        // Create message container if it doesn't exist
+        messageContainer = document.createElement('div');
+        messageContainer.id = 'scanner-message';
+        messageContainer.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+            z-index: 10000;
+            max-width: 300px;
+            word-wrap: break-word;
+        `;
+        document.body.appendChild(messageContainer);
+    }
+    
+    // Set message and style based on type
+    messageContainer.textContent = message;
+    
+    const colors = {
+        success: '#28a745',
+        error: '#dc3545',
+        warning: '#ffc107',
+        info: '#17a2b8'
+    };
+    
+    messageContainer.style.backgroundColor = colors[type] || colors.info;
+    messageContainer.style.display = 'block';
+    
+    // Auto-hide after 5 seconds
+    setTimeout(() => {
+        if (messageContainer) {
+            messageContainer.style.display = 'none';
+        }
+    }, 5000);
+}
+
+// Test functions
+function testScanner() {
+    console.log('Testing scanner functionality...');
+    const testUPC = '826663153750'; // Your duplicate UPC
+    handleScannedCode(testUPC);
+}
+
+// Make functions available globally for testing
+if (typeof window !== 'undefined') {
+    window.scannerTest = {
+        testScanner,
+        handleScannedCode,
+        checkLocalDuplicate
+    };
+}
