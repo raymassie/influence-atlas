@@ -55,8 +55,9 @@ function setupEventListeners() {
         searchInput.addEventListener('input', handleSearch);
     }
     
-    // Scanner button listeners
-    const startBtn = document.getElementById('start-scanner');
+    // Scanner button listeners - check multiple possible IDs for compatibility
+    const startBtn = document.getElementById('start-scanner') || 
+                     document.getElementById('startScanner');
     if (startBtn) {
         startBtn.addEventListener('click', function() {
             if (typeof startScanner === 'function') {
@@ -65,7 +66,8 @@ function setupEventListeners() {
         });
     }
     
-    const stopBtn = document.getElementById('stop-scanner');
+    const stopBtn = document.getElementById('stop-scanner') || 
+                    document.getElementById('stopScanner');
     if (stopBtn) {
         stopBtn.addEventListener('click', function() {
             if (typeof stopScanner === 'function') {
@@ -217,7 +219,7 @@ function createMovieCard(movie) {
         <div class="movie-card" data-movie-id="${movie.upc || movie.title + movie.year}">
             <div class="movie-header">
                 <h3 class="movie-title">${escapeHtml(movie.title)} ${movie.year ? `(${movie.year})` : ''}</h3>
-                <button class="remove-movie-btn" data-movie='${JSON.stringify(movie)}' title="Remove Movie">
+                <button class="remove-movie-btn" data-movie-title="${escapeHtml(movie.title)}" data-movie-year="${escapeHtml(movie.year)}" data-movie-upc="${escapeHtml(movie.upc)}" title="Remove Movie">
                     🗑️ Remove
                 </button>
             </div>
@@ -277,7 +279,11 @@ function escapeHtml(text) {
 }
 
 function handleRemoveMovie(event) {
-    const movieData = JSON.parse(event.target.getAttribute('data-movie'));
+    const movieData = {
+        title: event.target.getAttribute('data-movie-title') || '',
+        year: event.target.getAttribute('data-movie-year') || '',
+        upc: event.target.getAttribute('data-movie-upc') || ''
+    };
     
     const confirmMessage = `Are you sure you want to remove "${movieData.title}" ${movieData.year ? `(${movieData.year})` : ''} from your collection?`;
     

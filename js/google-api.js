@@ -419,8 +419,10 @@ async function autoSync() {
 let autoSyncInterval;
 
 function startAutoSync() {
+    // Always clear any existing interval first to prevent multiple intervals
     if (autoSyncInterval) {
         clearInterval(autoSyncInterval);
+        autoSyncInterval = null;
     }
     
     // Auto-sync every 5 minutes
@@ -459,6 +461,12 @@ document.addEventListener('visibilitychange', function() {
             console.log('📱 Page visible - resuming auto-sync');
         }
     }
+});
+
+// Clean up intervals when page is being unloaded
+window.addEventListener('beforeunload', function() {
+    stopAutoSync();
+    console.log('🧹 Cleaning up auto-sync interval before page unload');
 });
 
 // Google Sheets URL helper
