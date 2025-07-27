@@ -257,6 +257,66 @@ function getGenreName(genreId) {
 }
 }
 
+// Movie lookup function using free APIs
+async function lookupMovieByUPC(upc) {
+    console.log("🔍 Looking up movie for UPC:", upc);
+    
+    try {
+        // Try multiple free APIs for movie data
+        const apis = [
+            `https://api.themoviedb.org/3/find/${upc}?api_key=1b7c076a0e4849aeefd1f3c429c79d3&external_source=imdb_id`,
+            `https://api.themoviedb.org/3/search/movie?api_key=1b7c076a0e4849aeefd1f3c429c79d3&query=${encodeURIComponent(upc)}`
+        ];
+        
+        for (const apiUrl of apis) {
+            try {
+                const response = await fetch(apiUrl);
+                if (response.ok) {
+                    const data = await response.json();
+                    
+                    if (data.movie_results && data.movie_results.length > 0) {
+                        const movie = data.movie_results[0];
+                        return {
+                            title: movie.title,
+                            year: movie.release_date ? movie.release_date.split("-")[0] : "",
+                            director: "", // Would need additional API call
+                            genre: movie.genre_ids ? getGenreName(movie.genre_ids[0]) : "",
+                            studio: "",
+                            runtime: movie.runtime ? `${movie.runtime} min` : "",
+                            upc: upc,
+                            asin: "",
+                            notes: `Found via TMDB API`
+                        };
+                    }
+                }
+            } catch (error) {
+                console.warn("API attempt failed:", error);
+                continue;
+            }
+        }
+        
+        // Fallback: try to search by UPC on Google (limited)
+        console.log("No movie data found for UPC:", upc);
+        return null;
+        
+    } catch (error) {
+        console.error("Error in movie lookup:", error);
+        return null;
+    }
+}
+
+// Helper function to get genre name from ID
+function getGenreName(genreId) {
+    const genres = {
+        28: "Action", 12: "Adventure", 16: "Animation", 35: "Comedy",
+        80: "Crime", 99: "Documentary", 18: "Drama", 10751: "Family",
+        14: "Fantasy", 36: "History", 27: "Horror", 10402: "Music",
+        9648: "Mystery", 10749: "Romance", 878: "Sci-Fi", 10770: "TV Movie",
+        53: "Thriller", 10752: "War", 37: "Western"
+    };
+    return genres[genreId] || "";
+}
+
 function handleScannedCode(code) {
     console.log('Handling scanned code:', code);
     
