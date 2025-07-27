@@ -195,6 +195,66 @@ function updateScannerUI() {
     if (videoElement) {
         videoElement.style.display = scannerActive ? 'block' : 'none';
     }
+
+// Movie lookup function using free APIs
+async function lookupMovieByUPC(upc) {
+    console.log("🔍 Looking up movie for UPC:", upc);
+    
+    try {
+        // Try multiple free APIs for movie data
+        const apis = [
+            `https://api.themoviedb.org/3/find/${upc}?api_key=1b7c076a0e4849aeefd1f3c429c79d3&external_source=imdb_id`,
+            `https://api.themoviedb.org/3/search/movie?api_key=1b7c076a0e4849aeefd1f3c429c79d3&query=${encodeURIComponent(upc)}`
+        ];
+        
+        for (const apiUrl of apis) {
+            try {
+                const response = await fetch(apiUrl);
+                if (response.ok) {
+                    const data = await response.json();
+                    
+                    if (data.movie_results && data.movie_results.length > 0) {
+                        const movie = data.movie_results[0];
+                        return {
+                            title: movie.title,
+                            year: movie.release_date ? movie.release_date.split("-")[0] : "",
+                            director: "", // Would need additional API call
+                            genre: movie.genre_ids ? getGenreName(movie.genre_ids[0]) : "",
+                            studio: "",
+                            runtime: movie.runtime ? `${movie.runtime} min` : "",
+                            upc: upc,
+                            asin: "",
+                            notes: `Found via TMDB API`
+                        };
+                    }
+                }
+            } catch (error) {
+                console.warn("API attempt failed:", error);
+                continue;
+            }
+        }
+        
+        // Fallback: try to search by UPC on Google (limited)
+        console.log("No movie data found for UPC:", upc);
+        return null;
+        
+    } catch (error) {
+        console.error("Error in movie lookup:", error);
+        return null;
+    }
+}
+
+// Helper function to get genre name from ID
+function getGenreName(genreId) {
+    const genres = {
+        28: "Action", 12: "Adventure", 16: "Animation", 35: "Comedy",
+        80: "Crime", 99: "Documentary", 18: "Drama", 10751: "Family",
+        14: "Fantasy", 36: "History", 27: "Horror", 10402: "Music",
+        9648: "Mystery", 10749: "Romance", 878: "Sci-Fi", 10770: "TV Movie",
+        53: "Thriller", 10752: "War", 37: "Western"
+    };
+    return genres[genreId] || "";
+}
 }
 
 function handleScannedCode(code) {
@@ -227,144 +287,15 @@ function handleScannedCode(code) {
         }
     }
     
-    // Fill the form with the UPC and switch to add movie tab
-    fillFormWithMovieData({ upc: cleanUPC });
-    switchToAddMovieTab();
-    showMessage(`UPC scanned: ${cleanUPC}. Please enter movie details.`, 'success');
-}
-
-function checkLocalDuplicate(upc) {
-    // Use data manager to check for duplicates
-    if (window.dataManager) {
-        return window.dataManager.getAllMovies().find(movie => 
-            movie.upc && movie.upc.toString().trim() === upc.toString().trim()
-        );
-    }
+    // Show loading message
+    showMessage("🔍 Looking up movie details...", "info");
     
-    return null;
-}
-
-function fillFormWithMovieData(movieData) {
-    console.log('Filling form with movie data:', movieData);
-    
-    // Use correct field IDs that match your HTML
-    const fields = {
-        'title': movieData.title || '',
-        'year': movieData.year || '',
-        'genre': movieData.genre || '',
-        'director': movieData.director || '',
-        'producer': movieData.producer || '',
-        'studio': movieData.studio || '',
-        'runtime': movieData.runtime || '',
-        'upc': movieData.upc || '',
-        'asin': movieData.asin || '',
-        'notes': movieData.notes || ''
-    };
-    
-    Object.keys(fields).forEach(fieldId => {
-        const field = document.getElementById(fieldId);
-        if (field) {
-            field.value = fields[fieldId];
-            console.log(`Set ${fieldId} to: ${fields[fieldId]}`);
+    // Try to fetch movie details from UPC
+    lookupMovieByUPC(cleanUPC).then(movieData => {
+        if (movieData && movieData.title) {
+            // Fill form with fetched data
+            fillFormWithMovieData(movieData);
+            switchToAddMovieTab();
+            showMessage(`✅ Found: ${movieData.title} (${movieData.year || "Unknown year"})`, "success");
         } else {
-            console.warn(`Field ${fieldId} not found`);
-        }
-    });
-    
-    // Special handling for format checkboxes
-    if (movieData.format) {
-        const formatValue = movieData.format.toLowerCase();
-        document.querySelectorAll('.format1, .format2, .format3').forEach(checkbox => {
-            if (checkbox.value.toLowerCase() === formatValue) {
-                checkbox.checked = true;
-            }
-        });
-    }
-}
-
-function switchToAddMovieTab() {
-    console.log('Switching to Add Movie tab');
-    
-    // Look for tab switching mechanism
-    const addMovieTab = document.querySelector('[data-tab="add-movie"]') || 
-                       document.querySelector('a[href="#add-movie"]') ||
-                       document.getElementById('add-movie-tab');
-    
-    if (addMovieTab) {
-        addMovieTab.click();
-    } else {
-        // Try to find and activate the add movie section
-        const addMovieSection = document.getElementById('add-movie') ||
-                               document.querySelector('.add-movie-section');
-        
-        if (addMovieSection) {
-            // Show the section
-            addMovieSection.style.display = 'block';
-            addMovieSection.scrollIntoView({ behavior: 'smooth' });
-        }
-    }
-}
-
-function showMessage(message, type = 'info') {
-    console.log(`[${type.toUpperCase()}] ${message}`);
-    
-    // Look for message container
-    let messageContainer = document.getElementById('scanner-message') ||
-                          document.getElementById('message-container') ||
-                          document.querySelector('.message-container');
-    
-    if (!messageContainer) {
-        // Create message container if it doesn't exist
-        messageContainer = document.createElement('div');
-        messageContainer.id = 'scanner-message';
-        messageContainer.style.cssText = `
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            padding: 10px 15px;
-            border-radius: 5px;
-            color: white;
-            font-weight: bold;
-            z-index: 10000;
-            max-width: 300px;
-            word-wrap: break-word;
-        `;
-        document.body.appendChild(messageContainer);
-    }
-    
-    // Set message and style based on type
-    messageContainer.textContent = message;
-    
-    const colors = {
-        success: '#28a745',
-        error: '#dc3545',
-        warning: '#ffc107',
-        info: '#17a2b8'
-    };
-    
-    messageContainer.style.backgroundColor = colors[type] || colors.info;
-    messageContainer.style.display = 'block';
-    
-    // Auto-hide after 5 seconds
-    setTimeout(() => {
-        if (messageContainer) {
-            messageContainer.style.display = 'none';
-        }
-    }, 5000);
-}
-
-// Test functions
-function testScanner() {
-    console.log('Testing scanner functionality...');
-    const testUPC = '826663153750'; // Your duplicate UPC
-    handleScannedCode(testUPC);
-}
-
-// Make functions available globally for testing
-if (typeof window !== 'undefined') {
-    window.scannerTest = {
-        testScanner,
-        handleScannedCode,
-        checkLocalDuplicate
-    };
-}
+            // Fallback to just UPC
