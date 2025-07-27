@@ -58,6 +58,8 @@ function setupEventListeners() {
     try {
         console.log('🔧 Setting up event listeners...');
         console.log('🔍 Looking for movie form...');
+        console.log('🧪 TEST: This should appear if function is executing');
+        alert('TEST: setupEventListeners is executing!');
         
         // Add Movie form submission - matches HTML id="movieForm"
         const addMovieForm = document.getElementById('movieForm');
