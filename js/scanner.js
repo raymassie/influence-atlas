@@ -253,7 +253,7 @@ async function lookupMovieByUPC(upc) {
     return genres[genreId] || "";
 }
 
-function handleScannedCode(code) {
+async function handleScannedCode(code) {
     console.log('Handling scanned code:', code);
     
     // Clean and validate the UPC code
