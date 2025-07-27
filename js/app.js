@@ -298,8 +298,9 @@ function handleRemoveMovie(event) {
         return;
     }
     
-    // Remove from local collection
-    const index = movieCollection.findIndex(movie => {
+    // Find the movie to remove
+    const movies = window.dataManager.getAllMovies();
+    const movieToRemove = movies.find(movie => {
         // Try UPC match first
         if (movieData.upc && movie.upc && movieData.upc === movie.upc) {
             return true;
@@ -308,21 +309,24 @@ function handleRemoveMovie(event) {
         return movie.title === movieData.title && movie.year === movieData.year;
     });
     
-    if (index !== -1) {
-        movieCollection.splice(index, 1);
-        saveMoviesToLocalStorage();
+    if (movieToRemove) {
+        // Remove using data manager
+        const removed = window.dataManager.removeMovie(movieToRemove.id);
         
-        // Also remove from filtered movies if it exists there
-        const filteredIndex = filteredMovies.findIndex(movie => 
-            movie.title === movieData.title && movie.year === movieData.year
-        );
-        if (filteredIndex !== -1) {
-            filteredMovies.splice(filteredIndex, 1);
+        if (removed) {
+            // Also remove from filtered movies if it exists there
+            const filteredIndex = filteredMovies.findIndex(movie => 
+                movie.title === movieData.title && movie.year === movieData.year
+            );
+            if (filteredIndex !== -1) {
+                filteredMovies.splice(filteredIndex, 1);
+            }
+            
+            displayMovies();
+            updateSpreadsheet();
+            updateMovieCount();
+            showMessage('Movie removed successfully', 'success');
         }
-        
-        displayMovies();
-        updateMovieCount();
-        showMessage('Movie removed successfully', 'success');
     }
 }
 
@@ -499,6 +503,6 @@ if (typeof window !== 'undefined') {
     window.movieCatalog = {
         fillFormWithMovieData,
         showMessage,
-        movieCollection
+        getMovieCollection: () => window.dataManager.getAllMovies()
     };
 }

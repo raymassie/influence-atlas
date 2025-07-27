@@ -234,24 +234,11 @@ function handleScannedCode(code) {
 }
 
 function checkLocalDuplicate(upc) {
-    // Check if movieCollection exists (from app.js)
-    if (typeof movieCollection !== 'undefined' && Array.isArray(movieCollection)) {
-        return movieCollection.find(movie => 
+    // Use data manager to check for duplicates
+    if (window.dataManager) {
+        return window.dataManager.getAllMovies().find(movie => 
             movie.upc && movie.upc.toString().trim() === upc.toString().trim()
         );
-    }
-    
-    // Fallback: check localStorage directly
-    try {
-        const stored = localStorage.getItem('movieCollection');
-        if (stored) {
-            const movies = JSON.parse(stored);
-            return movies.find(movie => 
-                movie.upc && movie.upc.toString().trim() === upc.toString().trim()
-            );
-        }
-    } catch (error) {
-        console.error('Error checking local storage for duplicates:', error);
     }
     
     return null;
