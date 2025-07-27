@@ -82,6 +82,9 @@ function setupEventListeners() {
 function handleAddMovie(event) {
     event.preventDefault();
     
+    console.log('🎬 Adding movie...');
+    console.log('Data manager available:', !!window.dataManager);
+    
     // Get form data using correct field IDs from HTML
     const movieData = {
         title: document.getElementById('title')?.value?.trim() || '',
@@ -95,6 +98,8 @@ function handleAddMovie(event) {
         asin: document.getElementById('asin')?.value?.trim() || '',
         notes: document.getElementById('notes')?.value?.trim() || ''
     };
+    
+    console.log('📝 Movie data:', movieData);
     
     // Get selected formats
     const selectedFormats = [];
@@ -135,13 +140,17 @@ function handleAddMovie(event) {
     
     // Add movie using data manager
     try {
+        console.log('➕ Adding movie to data manager...');
         const addedMovie = window.dataManager.addMovie(movieData);
+        console.log('✅ Movie added:', addedMovie);
+        
         showMessage(`✅ "${addedMovie.title}" added successfully!`, 'success');
         
         // Reset form
         event.target.reset();
         
         // Update displays
+        console.log('🔄 Updating displays...');
         displayMovies();
         updateSpreadsheet();
         updateMovieCount();
@@ -152,6 +161,7 @@ function handleAddMovie(event) {
         }, 1000);
         
     } catch (error) {
+        console.error('❌ Error adding movie:', error);
         showMessage('Error adding movie: ' + error.message, 'error');
     }
 }
@@ -192,6 +202,8 @@ function handleSearch(event) {
 }
 
 function displayMovies() {
+    console.log('🎬 Displaying movies...');
+    
     // Use correct container ID from HTML
     const container = document.getElementById('movieList');
     if (!container) {
@@ -199,7 +211,12 @@ function displayMovies() {
         return;
     }
     
-    const moviesToDisplay = filteredMovies.length > 0 ? filteredMovies : window.dataManager.getAllMovies();
+    const allMovies = window.dataManager.getAllMovies();
+    const moviesToDisplay = filteredMovies.length > 0 ? filteredMovies : allMovies;
+    
+    console.log('📊 Total movies:', allMovies.length);
+    console.log('📋 Movies to display:', moviesToDisplay.length);
+    console.log('🎭 Movies data:', moviesToDisplay);
     
     if (moviesToDisplay.length === 0) {
         container.innerHTML = `
