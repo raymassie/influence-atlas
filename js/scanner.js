@@ -56,14 +56,16 @@ function updateCameraSelection(devices) {
 }
 
 function setupEventListeners() {
-    // Start scanner button
-    const startBtn = document.getElementById('startScanner');
+    // Start scanner button - check multiple possible IDs for compatibility
+    const startBtn = document.getElementById('startScanner') || 
+                     document.getElementById('start-scanner');
     if (startBtn) {
         startBtn.addEventListener('click', startScanner);
     }
     
-    // Stop scanner button
-    const stopBtn = document.getElementById('stopScanner');
+    // Stop scanner button - check multiple possible IDs for compatibility
+    const stopBtn = document.getElementById('stopScanner') || 
+                    document.getElementById('stop-scanner');
     if (stopBtn) {
         stopBtn.addEventListener('click', stopScanner);
     }
@@ -175,8 +177,10 @@ function stopScanner() {
 }
 
 function updateScannerUI() {
-    const startBtn = document.getElementById('startScanner');
-    const stopBtn = document.getElementById('stopScanner');
+    const startBtn = document.getElementById('startScanner') || 
+                     document.getElementById('start-scanner');
+    const stopBtn = document.getElementById('stopScanner') || 
+                    document.getElementById('stop-scanner');
     const videoElement = document.getElementById('scanner-video');
     
     if (startBtn) {
