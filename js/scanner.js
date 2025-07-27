@@ -299,3 +299,150 @@ function handleScannedCode(code) {
             showMessage(`✅ Found: ${movieData.title} (${movieData.year || "Unknown year"})`, "success");
         } else {
             // Fallback to just UPC
+            fillFormWithMovieData({ upc: cleanUPC });
+            switchToAddMovieTab();
+            showMessage(`UPC scanned: ${cleanUPC}. Please enter movie details manually.`, "warning");
+        }
+    }).catch(error => {
+        console.error("Error looking up movie:", error);
+        // Fallback to just UPC
+        fillFormWithMovieData({ upc: cleanUPC });
+        switchToAddMovieTab();
+        showMessage(`UPC scanned: ${cleanUPC}. Please enter movie details manually.`, "warning");
+    });
+}
+function checkLocalDuplicate(upc) {
+    // Use data manager to check for duplicates
+    if (window.dataManager) {
+        return window.dataManager.getAllMovies().find(movie => 
+            movie.upc && movie.upc.toString().trim() === upc.toString().trim()
+        );
+    }
+    
+    return null;
+}
+
+function fillFormWithMovieData(movieData) {
+    console.log('Filling form with movie data:', movieData);
+    
+    // Use correct field IDs that match your HTML
+    const fields = {
+        'title': movieData.title || '',
+        'year': movieData.year || '',
+        'genre': movieData.genre || '',
+        'director': movieData.director || '',
+        'producer': movieData.producer || '',
+        'studio': movieData.studio || '',
+        'runtime': movieData.runtime || '',
+        'upc': movieData.upc || '',
+        'asin': movieData.asin || '',
+        'notes': movieData.notes || ''
+    };
+    
+    Object.keys(fields).forEach(fieldId => {
+        const field = document.getElementById(fieldId);
+        if (field) {
+            field.value = fields[fieldId];
+            console.log(`Set ${fieldId} to: ${fields[fieldId]}`);
+        } else {
+            console.warn(`Field ${fieldId} not found`);
+        }
+    });
+    
+    // Special handling for format checkboxes
+    if (movieData.format) {
+        const formatValue = movieData.format.toLowerCase();
+        document.querySelectorAll('.format1, .format2, .format3').forEach(checkbox => {
+            if (checkbox.value.toLowerCase() === formatValue) {
+                checkbox.checked = true;
+            }
+        });
+    }
+}
+
+function switchToAddMovieTab() {
+    console.log('Switching to Add Movie tab');
+    
+    // Look for tab switching mechanism
+    const addMovieTab = document.querySelector('[data-tab="add-movie"]') || 
+                       document.querySelector('a[href="#add-movie"]') ||
+                       document.getElementById('add-movie-tab');
+    
+    if (addMovieTab) {
+        addMovieTab.click();
+    } else {
+        // Try to find and activate the add movie section
+        const addMovieSection = document.getElementById('add-movie') ||
+                               document.querySelector('.add-movie-section');
+        
+        if (addMovieSection) {
+            // Show the section
+            addMovieSection.style.display = 'block';
+            addMovieSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+}
+
+function showMessage(message, type = 'info') {
+    console.log(`[${type.toUpperCase()}] ${message}`);
+    
+    // Look for message container
+    let messageContainer = document.getElementById('scanner-message') ||
+                          document.getElementById('message-container') ||
+                          document.querySelector('.message-container');
+    
+    if (!messageContainer) {
+        // Create message container if it doesn't exist
+        messageContainer = document.createElement('div');
+        messageContainer.id = 'scanner-message';
+        messageContainer.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+            z-index: 10000;
+            max-width: 300px;
+            word-wrap: break-word;
+        `;
+        document.body.appendChild(messageContainer);
+    }
+    
+    // Set message and style based on type
+    messageContainer.textContent = message;
+    
+    const colors = {
+        success: '#28a745',
+        error: '#dc3545',
+        warning: '#ffc107',
+        info: '#17a2b8'
+    };
+    
+    messageContainer.style.backgroundColor = colors[type] || colors.info;
+    messageContainer.style.display = 'block';
+    
+    // Auto-hide after 5 seconds
+    setTimeout(() => {
+        if (messageContainer) {
+            messageContainer.style.display = 'none';
+        }
+    }, 5000);
+}
+
+// Test functions
+function testScanner() {
+    console.log('Testing scanner functionality...');
+    const testUPC = '826663153750'; // Your duplicate UPC
+    handleScannedCode(testUPC);
+}
+
+// Make functions available globally for testing
+if (typeof window !== 'undefined') {
+    window.scannerTest = {
+        testScanner,
+        handleScannedCode,
+        checkLocalDuplicate
+    };
+}
