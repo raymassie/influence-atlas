@@ -733,6 +733,37 @@ button:disabled {
 }
 
 /* Modal */
+/* Google Search Button styles */
+.google-search-section {
+    margin: 15px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+}
+
+.google-search-btn {
+    background: #4285f4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.google-search-btn:hover {
+    background: #3367d6;
+}
+
+.google-search-section small {
+    display: block;
+    margin-top: 5px;
+    color: #6c757d;
+    font-size: 12px;
+}
+
 .modal {
   position: fixed;
   top: 0;
