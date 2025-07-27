@@ -529,3 +529,7 @@ document.addEventListener("DOMContentLoaded", function() {
         scannerControls.appendChild(testBtn);
     }
 });
+// Add debugging to see what cameras are available
+console.log("🔍 Debugging camera selection...");
+console.log("Selected device ID:", selectedDeviceId);
+console.log("Code reader available:", !!codeReader);
