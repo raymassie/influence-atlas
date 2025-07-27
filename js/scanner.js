@@ -254,17 +254,17 @@ async function lookupMovieByUPC(upc) {
 }
 
 async function handleScannedCode(code) {
-    console.log('Handling scanned code:', code);
+    console.log("Handling scanned code:", code);
     
     // Clean and validate the UPC code
-    const cleanUPC = code ? code.trim() : '';
+    const cleanUPC = code ? code.trim() : "";
     
     if (!cleanUPC) {
-        showMessage('Invalid barcode detected - no code provided', 'error');
+        showMessage("Invalid barcode detected - no code provided", "error");
         return;
     }
     
-    console.log('Clean UPC for processing:', cleanUPC);
+    console.log("Clean UPC for processing:", cleanUPC);
     
     // Check for duplicates in local collection
     const duplicate = checkLocalDuplicate(cleanUPC);
@@ -273,12 +273,12 @@ async function handleScannedCode(code) {
         const message = `⚠️ Duplicate UPC Found!\n\nThis movie is already in your collection:\n\n` +
                       `Title: ${duplicate.title}\n` +
                       `Year: ${duplicate.year}\n` +
-                      `Format: ${duplicate.format || 'Unknown'}\n` +
+                      `Format: ${duplicate.format || "Unknown"}\n` +
                       `UPC: ${duplicate.upc}\n\n` +
                       `Do you want to add it anyway?`;
         
         if (!confirm(message)) {
-            showMessage('Duplicate UPC scan cancelled', 'warning');
+            showMessage("Duplicate UPC scan cancelled", "warning");
             return;
         }
     }
@@ -286,7 +286,7 @@ async function handleScannedCode(code) {
     // Show loading message
     showMessage("🔍 Looking up movie details...", "info");
     
-    // Try to fetch movie details from UPC
+    // Get movie data and fill form
     const movieData = await lookupMovieByUPC(cleanUPC);
     fillFormWithMovieData(movieData);
     switchToAddMovieTab();
@@ -294,18 +294,8 @@ async function handleScannedCode(code) {
     // Open Google search for the UPC
     searchUPCOnGoogle(cleanUPC);
     
-    showMessage(`✅ UPC scanned: ${cleanUPC}. Google search opened for details.`, "success");            switchToAddMovieTab();
-            showMessage(`UPC scanned: ${cleanUPC}. Please enter movie details manually.`, "warning");
-        }
-    }).catch(error => {
-        console.error("Error looking up movie:", error);
-        // Fallback to just UPC
-        fillFormWithMovieData({ upc: cleanUPC });
-        switchToAddMovieTab();
-        showMessage(`UPC scanned: ${cleanUPC}. Please enter movie details manually.`, "warning");
-    });
-}
-function checkLocalDuplicate(upc) {
+    showMessage(`✅ UPC scanned: ${cleanUPC}. Google search opened for details.`, "success");
+}function checkLocalDuplicate(upc) {
     // Use data manager to check for duplicates
     if (window.dataManager) {
         return window.dataManager.getAllMovies().find(movie => 
