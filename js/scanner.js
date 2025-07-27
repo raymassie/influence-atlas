@@ -287,16 +287,14 @@ function handleScannedCode(code) {
     showMessage("🔍 Looking up movie details...", "info");
     
     // Try to fetch movie details from UPC
-    lookupMovieByUPC(cleanUPC).then(movieData => {
-        if (movieData && movieData.title) {
-            // Fill form with fetched data
-            fillFormWithMovieData(movieData);
-            switchToAddMovieTab();
-            showMessage(`✅ Found: ${movieData.title} (${movieData.year || "Unknown year"})`, "success");
-        } else {
-            // Fallback to just UPC
-            fillFormWithMovieData({ upc: cleanUPC });
-            switchToAddMovieTab();
+    const movieData = await lookupMovieByUPC(cleanUPC);
+    fillFormWithMovieData(movieData);
+    switchToAddMovieTab();
+    
+    // Open Google search for the UPC
+    searchUPCOnGoogle(cleanUPC);
+    
+    showMessage(`✅ UPC scanned: ${cleanUPC}. Google search opened for details.`, "success");            switchToAddMovieTab();
             showMessage(`UPC scanned: ${cleanUPC}. Please enter movie details manually.`, "warning");
         }
     }).catch(error => {
