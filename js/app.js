@@ -158,9 +158,9 @@ function handleAddMovie(event) {
 }
 
 function checkForLocalDuplicate(movieData) {
-    const cleanTitle = movieData.title.toLowerCase().trim();
-    const cleanYear = movieData.year.toString().trim();
-    const cleanUPC = movieData.upc.trim();
+    const cleanTitle = movieData.title ? movieData.title.toLowerCase().trim() : "";
+    const cleanYear = movieData.year ? movieData.year.toString().trim() : "";
+    const cleanUPC = movieData.upc ? movieData.upc.trim() : "";
     
     return window.dataManager.getAllMovies().find(movie => {
         // Check UPC match (most reliable)
@@ -169,10 +169,10 @@ function checkForLocalDuplicate(movieData) {
         }
         
         // Check title + year match
-        const movieTitle = movie.title.toLowerCase().trim();
-        const movieYear = movie.year.toString().trim();
+        const movieTitle = movie.title ? movie.title.toLowerCase().trim() : "";
+        const movieYear = movie.year ? movie.year.toString().trim() : "";
         
-        if (cleanTitle === movieTitle && cleanYear && movieYear && cleanYear === movieYear) {
+        if (cleanTitle && cleanYear && movieTitle && movieYear && cleanTitle === movieTitle && cleanYear === movieYear) {
             return true;
         }
         
