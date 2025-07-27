@@ -10,8 +10,10 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function initializeApp() {
+    console.log('🚀 Starting app initialization...');
+    console.log('📋 DOM ready, setting up event listeners...');
     setupEventListeners();
-    // Data manager is already initialized and loaded
+    console.log('📊 Data manager is already initialized and loaded');
     displayMovies();
     updateMovieCount();
     updateSpreadsheet();
@@ -46,12 +48,15 @@ function showTab(tabName, event) {
 
 function setupEventListeners() {
     console.log('🔧 Setting up event listeners...');
+    console.log('🔍 Looking for movie form...');
     
     // Add Movie form submission - matches HTML id="movieForm"
     const addMovieForm = document.getElementById('movieForm');
     console.log('📝 Movie form found:', !!addMovieForm);
+    console.log('📋 Form element:', addMovieForm);
     
     if (addMovieForm) {
+        console.log('✅ Found movie form, attaching event listeners...');
         addMovieForm.addEventListener('submit', handleAddMovie);
         console.log('✅ Form submit event listener attached');
         
@@ -59,8 +64,21 @@ function setupEventListeners() {
         addMovieForm.addEventListener('submit', function(e) {
             console.log('🎯 Form submit event triggered!');
         });
+        
+        // Also test button click
+        const addButton = document.getElementById('addMovieButton');
+        if (addButton) {
+            console.log('🔘 Add button found:', addButton);
+            addButton.addEventListener('click', function(e) {
+                console.log('🔘 Add button clicked!');
+            });
+        } else {
+            console.log('❌ Add button not found');
+        }
     } else {
         console.error('❌ Movie form not found!');
+        console.log('🔍 Available forms:', document.querySelectorAll('form'));
+        console.log('🔍 Available elements with "movie" in ID:', document.querySelectorAll('[id*="movie"]'));
     }
     
     // Search functionality - matches HTML id="search-input"
