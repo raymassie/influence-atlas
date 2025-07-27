@@ -200,43 +200,7 @@ function updateScannerUI() {
 async function lookupMovieByUPC(upc) {
     console.log("🔍 Looking up movie for UPC:", upc);
     
-    try {
-        // Use UPCitemdb API to get product info
-        const response = await fetch(`https://cors-anywhere.herokuapp.com/https://api.upcitemdb.com/prod/trial/lookup?upc=${upc}`);
-        
-        if (response.ok) {
-            const data = await response.json();
-            
-            if (data.items && data.items.length > 0) {
-                const item = data.items[0];
-                const title = item.title || "";
-                
-                // Extract year from title if it contains a year
-                const yearMatch = title.match(/(d{4})/);
-                const year = yearMatch ? yearMatch[1] : "";
-                
-                // Extract movie title (remove year and format info)
-                const cleanTitle = title.replace(/([^)]*)/g, "").replace(/DVD|Blu-ray|4K|UHD/gi, "").trim();
-                
-                return {
-                    upc: upc,
-                    title: cleanTitle,
-                    year: year,
-                    genre: "",
-                    runtime: "",
-                    director: "",
-                    producer: "",
-                    studio: item.brand || "",
-                    asin: "",
-                    notes: "Found via UPC database"
-                };
-            }
-        }
-    } catch (error) {
-        console.warn("UPC API failed:", error);
-    }
-    
-    // Fallback: return just UPC
+    // Simple approach: just return the UPC and open Google search
     return {
         upc: upc,
         title: "",
@@ -247,10 +211,9 @@ async function lookupMovieByUPC(upc) {
         producer: "",
         studio: "",
         asin: "",
-        notes: "UPC scanned - please enter movie details manually"
+        notes: "UPC scanned - Google search opened for details"
     };
-}// Helper function to get genre name from ID
-function getGenreName(genreId) {
+}function getGenreName(genreId) {
     const genres = {
         28: "Action", 12: "Adventure", 16: "Animation", 35: "Comedy",
         80: "Crime", 99: "Documentary", 18: "Drama", 10751: "Family",
@@ -266,43 +229,7 @@ function getGenreName(genreId) {
 async function lookupMovieByUPC(upc) {
     console.log("🔍 Looking up movie for UPC:", upc);
     
-    try {
-        // Use UPCitemdb API to get product info
-        const response = await fetch(`https://cors-anywhere.herokuapp.com/https://api.upcitemdb.com/prod/trial/lookup?upc=${upc}`);
-        
-        if (response.ok) {
-            const data = await response.json();
-            
-            if (data.items && data.items.length > 0) {
-                const item = data.items[0];
-                const title = item.title || "";
-                
-                // Extract year from title if it contains a year
-                const yearMatch = title.match(/(d{4})/);
-                const year = yearMatch ? yearMatch[1] : "";
-                
-                // Extract movie title (remove year and format info)
-                const cleanTitle = title.replace(/([^)]*)/g, "").replace(/DVD|Blu-ray|4K|UHD/gi, "").trim();
-                
-                return {
-                    upc: upc,
-                    title: cleanTitle,
-                    year: year,
-                    genre: "",
-                    runtime: "",
-                    director: "",
-                    producer: "",
-                    studio: item.brand || "",
-                    asin: "",
-                    notes: "Found via UPC database"
-                };
-            }
-        }
-    } catch (error) {
-        console.warn("UPC API failed:", error);
-    }
-    
-    // Fallback: return just UPC
+    // Simple approach: just return the UPC and open Google search
     return {
         upc: upc,
         title: "",
@@ -313,10 +240,9 @@ async function lookupMovieByUPC(upc) {
         producer: "",
         studio: "",
         asin: "",
-        notes: "UPC scanned - please enter movie details manually"
+        notes: "UPC scanned - Google search opened for details"
     };
-}// Helper function to get genre name from ID
-function getGenreName(genreId) {
+}function getGenreName(genreId) {
     const genres = {
         28: "Action", 12: "Adventure", 16: "Animation", 35: "Comedy",
         80: "Crime", 99: "Documentary", 18: "Drama", 10751: "Family",
