@@ -43,51 +43,43 @@ function showTab(tabName, event) {
 }
 
 function setupAppEventListeners() {
-    try {
-        // Add Movie form submission - matches HTML id="movieForm"
-        const addMovieForm = document.getElementById('movieForm');
-        
-        if (addMovieForm) {
-            addMovieForm.addEventListener('submit', handleAddMovie);
-        }
-        
-        // Search functionality - matches HTML id="search-input"
-        const searchInput = document.getElementById('search-input');
-        if (searchInput) {
-            searchInput.addEventListener('input', handleSearch);
-        }
-        
-        // Scanner button listeners - check multiple possible IDs for compatibility
-        const startBtn = document.getElementById('start-scanner') || 
-                         document.getElementById('startScanner');
-        if (startBtn) {
-            startBtn.addEventListener('click', function() {
-                if (typeof startScanner === 'function') {
-                    startScanner();
-                }
-            });
-        }
-        
-        const stopBtn = document.getElementById('stop-scanner') || 
-                        document.getElementById('stopScanner');
-        if (stopBtn) {
-            stopBtn.addEventListener('click', function() {
-                if (typeof stopScanner === 'function') {
-                    stopScanner();
-                }
-            });
-        }
-    } catch (error) {
-        console.error('❌ Error in setupAppEventListeners:', error);
-        console.error('❌ Error stack:', error.stack);
+    // Add Movie form submission - matches HTML id="movieForm"
+    const addMovieForm = document.getElementById('movieForm');
+    
+    if (addMovieForm) {
+        addMovieForm.addEventListener('submit', handleAddMovie);
+    }
+    
+    // Search functionality - matches HTML id="search-input"
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) {
+        searchInput.addEventListener('input', handleSearch);
+    }
+    
+    // Scanner button listeners - check multiple possible IDs for compatibility
+    const startBtn = document.getElementById('start-scanner') || 
+                     document.getElementById('startScanner');
+    if (startBtn) {
+        startBtn.addEventListener('click', function() {
+            if (typeof startScanner === 'function') {
+                startScanner();
+            }
+        });
+    }
+    
+    const stopBtn = document.getElementById('stop-scanner') || 
+                    document.getElementById('stopScanner');
+    if (stopBtn) {
+        stopBtn.addEventListener('click', function() {
+            if (typeof stopScanner === 'function') {
+                stopScanner();
+            }
+        });
     }
 }
 
 function handleAddMovie(event) {
     event.preventDefault();
-    
-    console.log('🎬 Adding movie...');
-    console.log('Data manager available:', !!window.dataManager);
     
     // Get form data using correct field IDs from HTML
     const movieData = {
@@ -102,8 +94,6 @@ function handleAddMovie(event) {
         asin: document.getElementById('asin')?.value?.trim() || '',
         notes: document.getElementById('notes')?.value?.trim() || ''
     };
-    
-    console.log('📝 Movie data:', movieData);
     
     // Get selected formats
     const selectedFormats = [];
