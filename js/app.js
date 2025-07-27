@@ -14,11 +14,11 @@ function initializeApp() {
     console.log('📋 DOM ready, setting up event listeners...');
     
     try {
-        console.log('🔧 About to call setupEventListeners...');
-        setupEventListeners();
-        console.log('✅ setupEventListeners completed successfully');
+        console.log('🔧 About to call setupAppEventListeners...');
+        setupAppEventListeners();
+        console.log('✅ setupAppEventListeners completed successfully');
     } catch (error) {
-        console.error('❌ Error in setupEventListeners:', error);
+        console.error('❌ Error in setupAppEventListeners:', error);
     }
     
     console.log('📊 Data manager is already initialized and loaded');
@@ -54,72 +54,72 @@ function showTab(tabName, event) {
     }
 }
 
-function setupEventListeners() {
+function setupAppEventListeners() {
     try {
-        console.log('🔧 Setting up event listeners...');
+        console.log('🔧 Setting up APP event listeners...');
         console.log('🔍 Looking for movie form...');
         console.log('🧪 TEST: This should appear if function is executing');
-        alert('TEST: setupEventListeners is executing!');
+        alert('TEST: setupAppEventListeners is executing!');
         
         // Add Movie form submission - matches HTML id="movieForm"
         const addMovieForm = document.getElementById('movieForm');
         console.log('📝 Movie form found:', !!addMovieForm);
         console.log('📋 Form element:', addMovieForm);
-    
-    if (addMovieForm) {
-        console.log('✅ Found movie form, attaching event listeners...');
-        addMovieForm.addEventListener('submit', handleAddMovie);
-        console.log('✅ Form submit event listener attached');
         
-        // Test if the form is working
-        addMovieForm.addEventListener('submit', function(e) {
-            console.log('🎯 Form submit event triggered!');
-        });
-        
-        // Also test button click
-        const addButton = document.getElementById('addMovieButton');
-        if (addButton) {
-            console.log('🔘 Add button found:', addButton);
-            addButton.addEventListener('click', function(e) {
-                console.log('🔘 Add button clicked!');
+        if (addMovieForm) {
+            console.log('✅ Found movie form, attaching event listeners...');
+            addMovieForm.addEventListener('submit', handleAddMovie);
+            console.log('✅ Form submit event listener attached');
+            
+            // Test if the form is working
+            addMovieForm.addEventListener('submit', function(e) {
+                console.log('🎯 Form submit event triggered!');
             });
+            
+            // Also test button click
+            const addButton = document.getElementById('addMovieButton');
+            if (addButton) {
+                console.log('🔘 Add button found:', addButton);
+                addButton.addEventListener('click', function(e) {
+                    console.log('🔘 Add button clicked!');
+                });
+            } else {
+                console.log('❌ Add button not found');
+            }
         } else {
-            console.log('❌ Add button not found');
+            console.error('❌ Movie form not found!');
+            console.log('🔍 Available forms:', document.querySelectorAll('form'));
+            console.log('🔍 Available elements with "movie" in ID:', document.querySelectorAll('[id*="movie"]'));
         }
-    } else {
-        console.error('❌ Movie form not found!');
-        console.log('🔍 Available forms:', document.querySelectorAll('form'));
-        console.log('🔍 Available elements with "movie" in ID:', document.querySelectorAll('[id*="movie"]'));
-    }
-    
-    // Search functionality - matches HTML id="search-input"
-    const searchInput = document.getElementById('search-input');
-    if (searchInput) {
-        searchInput.addEventListener('input', handleSearch);
-    }
-    
-    // Scanner button listeners - check multiple possible IDs for compatibility
-    const startBtn = document.getElementById('start-scanner') || 
-                     document.getElementById('startScanner');
-    if (startBtn) {
-        startBtn.addEventListener('click', function() {
-            if (typeof startScanner === 'function') {
-                startScanner();
-            }
-        });
-    }
-    
-    const stopBtn = document.getElementById('stop-scanner') || 
-                    document.getElementById('stopScanner');
-    if (stopBtn) {
-        stopBtn.addEventListener('click', function() {
-            if (typeof stopScanner === 'function') {
-                stopScanner();
-            }
-        });
-    }
+        
+        // Search functionality - matches HTML id="search-input"
+        const searchInput = document.getElementById('search-input');
+        if (searchInput) {
+            searchInput.addEventListener('input', handleSearch);
+        }
+        
+        // Scanner button listeners - check multiple possible IDs for compatibility
+        const startBtn = document.getElementById('start-scanner') || 
+                         document.getElementById('startScanner');
+        if (startBtn) {
+            startBtn.addEventListener('click', function() {
+                if (typeof startScanner === 'function') {
+                    startScanner();
+                }
+            });
+        }
+        
+        const stopBtn = document.getElementById('stop-scanner') || 
+                        document.getElementById('stopScanner');
+        if (stopBtn) {
+            stopBtn.addEventListener('click', function() {
+                if (typeof stopScanner === 'function') {
+                    stopScanner();
+                }
+            });
+        }
     } catch (error) {
-        console.error('❌ Error in setupEventListeners:', error);
+        console.error('❌ Error in setupAppEventListeners:', error);
         console.error('❌ Error stack:', error.stack);
     }
 }
