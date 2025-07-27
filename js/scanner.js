@@ -200,50 +200,23 @@ function updateScannerUI() {
 async function lookupMovieByUPC(upc) {
     console.log("🔍 Looking up movie for UPC:", upc);
     
-    try {
-        // Try multiple free APIs for movie data
-        const apis = [
-            `https://api.themoviedb.org/3/find/${upc}?api_key=1b7c076a0e4849aeefd1f3c429c79d3&external_source=imdb_id`,
-            `https://api.themoviedb.org/3/search/movie?api_key=1b7c076a0e4849aeefd1f3c429c79d3&query=${encodeURIComponent(upc)}`
-        ];
-        
-        for (const apiUrl of apis) {
-            try {
-                const response = await fetch(apiUrl);
-                if (response.ok) {
-                    const data = await response.json();
-                    
-                    if (data.movie_results && data.movie_results.length > 0) {
-                        const movie = data.movie_results[0];
-                        return {
-                            title: movie.title,
-                            year: movie.release_date ? movie.release_date.split("-")[0] : "",
-                            director: "", // Would need additional API call
-                            genre: movie.genre_ids ? getGenreName(movie.genre_ids[0]) : "",
-                            studio: "",
-                            runtime: movie.runtime ? `${movie.runtime} min` : "",
-                            upc: upc,
-                            asin: "",
-                            notes: `Found via TMDB API`
-                        };
-                    }
-                }
-            } catch (error) {
-                console.warn("API attempt failed:", error);
-                continue;
-            }
-        }
-        
-        // Fallback: try to search by UPC on Google (limited)
-        console.log("No movie data found for UPC:", upc);
-        return null;
-        
-    } catch (error) {
-        console.error("Error in movie lookup:", error);
-        return null;
-    }
+    // For now, we will just return the UPC since UPC codes are not directly searchable
+    // in free movie APIs. In a production app, you would need a UPC-to-movie database.
+    console.log("UPC lookup not implemented - UPC codes require specialized database");
+    
+    return {
+        upc: upc,
+        title: "",
+        year: "",
+        genre: "",
+        runtime: "",
+        director: "",
+        producer: "",
+        studio: "",
+        asin: "",
+        notes: "UPC scanned - please enter movie details manually"
+    };
 }
-
 // Helper function to get genre name from ID
 function getGenreName(genreId) {
     const genres = {
@@ -261,50 +234,23 @@ function getGenreName(genreId) {
 async function lookupMovieByUPC(upc) {
     console.log("🔍 Looking up movie for UPC:", upc);
     
-    try {
-        // Try multiple free APIs for movie data
-        const apis = [
-            `https://api.themoviedb.org/3/find/${upc}?api_key=1b7c076a0e4849aeefd1f3c429c79d3&external_source=imdb_id`,
-            `https://api.themoviedb.org/3/search/movie?api_key=1b7c076a0e4849aeefd1f3c429c79d3&query=${encodeURIComponent(upc)}`
-        ];
-        
-        for (const apiUrl of apis) {
-            try {
-                const response = await fetch(apiUrl);
-                if (response.ok) {
-                    const data = await response.json();
-                    
-                    if (data.movie_results && data.movie_results.length > 0) {
-                        const movie = data.movie_results[0];
-                        return {
-                            title: movie.title,
-                            year: movie.release_date ? movie.release_date.split("-")[0] : "",
-                            director: "", // Would need additional API call
-                            genre: movie.genre_ids ? getGenreName(movie.genre_ids[0]) : "",
-                            studio: "",
-                            runtime: movie.runtime ? `${movie.runtime} min` : "",
-                            upc: upc,
-                            asin: "",
-                            notes: `Found via TMDB API`
-                        };
-                    }
-                }
-            } catch (error) {
-                console.warn("API attempt failed:", error);
-                continue;
-            }
-        }
-        
-        // Fallback: try to search by UPC on Google (limited)
-        console.log("No movie data found for UPC:", upc);
-        return null;
-        
-    } catch (error) {
-        console.error("Error in movie lookup:", error);
-        return null;
-    }
+    // For now, we will just return the UPC since UPC codes are not directly searchable
+    // in free movie APIs. In a production app, you would need a UPC-to-movie database.
+    console.log("UPC lookup not implemented - UPC codes require specialized database");
+    
+    return {
+        upc: upc,
+        title: "",
+        year: "",
+        genre: "",
+        runtime: "",
+        director: "",
+        producer: "",
+        studio: "",
+        asin: "",
+        notes: "UPC scanned - please enter movie details manually"
+    };
 }
-
 // Helper function to get genre name from ID
 function getGenreName(genreId) {
     const genres = {
