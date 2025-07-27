@@ -1,5 +1,4 @@
 // Global variables
-let movieCollection = [];
 let filteredMovies = [];
 let currentSortField = 'title';
 let currentSortDirection = 'asc';
@@ -12,7 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function initializeApp() {
     setupEventListeners();
-    loadMoviesFromLocalStorage();
+    // Data manager is already initialized and loaded
+    displayMovies();
+    updateMovieCount();
+    updateSpreadsheet();
     console.log('App initialized successfully');
 }
 
@@ -99,48 +101,59 @@ function handleAddMovie(event) {
     document.querySelectorAll('.format1:checked').forEach(checkbox => {
         selectedFormats.push(checkbox.value);
     });
+    
     document.querySelectorAll('.format2:checked').forEach(checkbox => {
         selectedFormats.push(checkbox.value);
     });
+    
     document.querySelectorAll('.format3:checked').forEach(checkbox => {
         selectedFormats.push(checkbox.value);
     });
-    movieData.formats = selectedFormats.join(', ');
     
-    console.log('Adding movie:', movieData);
+    movieData.formats = selectedFormats.join(', ');
     
     // Validate required fields
     if (!movieData.title) {
-        showMessage('Movie title is required', 'error');
+        showMessage('Please enter a movie title', 'error');
         return;
     }
     
-    // Check for duplicates in local collection
+    // Check for duplicates
     const duplicate = checkForLocalDuplicate(movieData);
     if (duplicate) {
-        const confirmMessage = `This movie appears to already be in your collection:\n\n` +
-                             `"${duplicate.title}" (${duplicate.year})\n\n` +
-                             `Do you want to add it anyway?`;
+        const message = `⚠️ Duplicate Found!\n\nThis movie is already in your collection:\n\n` +
+                      `Title: ${duplicate.title}\n` +
+                      `Year: ${duplicate.year}\n` +
+                      `Format: ${duplicate.formats || 'Unknown'}\n` +
+                      `UPC: ${duplicate.upc}\n\n` +
+                      `Do you want to add it anyway?`;
         
-        if (!confirm(confirmMessage)) {
-            showMessage('Movie not added - duplicate found', 'warning');
+        if (!confirm(message)) {
             return;
         }
     }
     
-    // Add timestamp
-    movieData.dateAdded = new Date().toISOString();
-    
-    // Add to local collection
-    movieCollection.push(movieData);
-    saveMoviesToLocalStorage();
-    
-    // Clear form and refresh display
-    event.target.reset();
-    displayMovies();
-    updateMovieCount();
-    
-    showMessage('Movie added successfully', 'success');
+    // Add movie using data manager
+    try {
+        const addedMovie = window.dataManager.addMovie(movieData);
+        showMessage(`✅ "${addedMovie.title}" added successfully!`, 'success');
+        
+        // Reset form
+        event.target.reset();
+        
+        // Update displays
+        displayMovies();
+        updateSpreadsheet();
+        updateMovieCount();
+        
+        // Switch to collection tab to show the new movie
+        setTimeout(() => {
+            showTab('collection');
+        }, 1000);
+        
+    } catch (error) {
+        showMessage('Error adding movie: ' + error.message, 'error');
+    }
 }
 
 function checkForLocalDuplicate(movieData) {
@@ -148,7 +161,7 @@ function checkForLocalDuplicate(movieData) {
     const cleanYear = movieData.year.toString().trim();
     const cleanUPC = movieData.upc.trim();
     
-    return movieCollection.find(movie => {
+    return window.dataManager.getAllMovies().find(movie => {
         // Check UPC match (most reliable)
         if (cleanUPC && movie.upc && movie.upc.trim() === cleanUPC) {
             return true;
@@ -170,15 +183,9 @@ function handleSearch(event) {
     const searchTerm = event.target.value.toLowerCase().trim();
     
     if (!searchTerm) {
-        filteredMovies = [...movieCollection];
+        filteredMovies = [];
     } else {
-        filteredMovies = movieCollection.filter(movie => {
-            return movie.title.toLowerCase().includes(searchTerm) ||
-                   movie.year.toString().includes(searchTerm) ||
-                   movie.genre.toLowerCase().includes(searchTerm) ||
-                   movie.director.toLowerCase().includes(searchTerm) ||
-                   movie.studio.toLowerCase().includes(searchTerm);
-        });
+        filteredMovies = window.dataManager.searchMovies(searchTerm);
     }
     
     displayMovies();
@@ -192,7 +199,7 @@ function displayMovies() {
         return;
     }
     
-    const moviesToDisplay = filteredMovies.length > 0 ? filteredMovies : movieCollection;
+    const moviesToDisplay = filteredMovies.length > 0 ? filteredMovies : window.dataManager.getAllMovies();
     
     if (moviesToDisplay.length === 0) {
         container.innerHTML = `
@@ -322,35 +329,78 @@ function handleRemoveMovie(event) {
 function updateMovieCount() {
     const countElement = document.getElementById('movie-count');
     if (countElement) {
-        const count = movieCollection.length;
+        const count = window.dataManager.getAllMovies().length;
         countElement.textContent = `${count} movie${count !== 1 ? 's' : ''}`;
     }
 }
 
-function loadMoviesFromLocalStorage() {
-    try {
-        const saved = localStorage.getItem('movieCollection');
-        if (saved) {
-            movieCollection = JSON.parse(saved);
-            filteredMovies = [...movieCollection];
-            console.log('Loaded movies from localStorage:', movieCollection.length);
-        }
-    } catch (error) {
-        console.error('Error loading from localStorage:', error);
-        movieCollection = [];
-        filteredMovies = [];
+// These functions are now handled by the DataManager
+// loadMoviesFromLocalStorage() and saveMoviesToLocalStorage() are no longer needed
+
+// Function to filter movies (called from HTML)
+function filterMovies() {
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) {
+        handleSearch({ target: searchInput });
     }
-    
-    displayMovies();
-    updateMovieCount();
 }
 
-function saveMoviesToLocalStorage() {
-    try {
-        localStorage.setItem('movieCollection', JSON.stringify(movieCollection));
-        console.log('Saved movies to localStorage:', movieCollection.length);
-    } catch (error) {
-        console.error('Error saving to localStorage:', error);
+// Function to refresh spreadsheet (called from HTML)
+function refreshSpreadsheet() {
+    updateSpreadsheet();
+}
+
+// Function to update spreadsheet view
+function updateSpreadsheet() {
+    const tbody = document.getElementById('spreadsheet-body');
+    if (!tbody) return;
+    
+    const movies = window.dataManager.getAllMovies();
+    
+    if (movies.length === 0) {
+        tbody.innerHTML = `
+            <tr>
+                <td colspan="10" class="empty-state">
+                    <div>
+                        <h3>📊 No Data Yet</h3>
+                        <p>Add some movies to see them in the spreadsheet!</p>
+                    </div>
+                </td>
+            </tr>
+        `;
+        return;
+    }
+    
+    tbody.innerHTML = movies.map(movie => `
+        <tr>
+            <td>
+                ${movie.imageUrl ? `<img src="${movie.imageUrl}" alt="${movie.title}" class="cover-image" width="50">` : '📽️'}
+            </td>
+            <td>${escapeHtml(movie.title)}</td>
+            <td>${movie.year || ''}</td>
+            <td>${escapeHtml(movie.director || '')}</td>
+            <td>${escapeHtml(movie.genre || '')}</td>
+            <td>${escapeHtml(movie.runtime || '')}</td>
+            <td>${escapeHtml(movie.formats || '')}</td>
+            <td>${movie.upc || ''}</td>
+            <td>${movie.dateAdded ? new Date(movie.dateAdded).toLocaleDateString() : ''}</td>
+            <td>
+                <button onclick="removeMovie('${movie.id}')" class="remove-button">🗑️</button>
+            </td>
+        </tr>
+    `).join('');
+}
+
+// Function to remove movie (called from spreadsheet)
+function removeMovie(movieId) {
+    if (confirm('Are you sure you want to remove this movie?')) {
+        const removed = window.dataManager.removeMovie(movieId);
+        if (removed) {
+            displayMovies();
+            updateSpreadsheet();
+            updateMovieCount();
+            showMessage(`Removed "${removed.title}" from collection`, 'success');
+        }
     }
 }
 

@@ -19,6 +19,7 @@
   <button class="tab active" onclick="showTab('add-movie', event)">➕ Add Movie</button>
   <button class="tab" onclick="showTab('scanner', event)">📱 Scanner</button>
   <button class="tab" onclick="showTab('collection', event)">📚 Collection</button>
+  <button class="tab" onclick="showTab('import-export', event)">📁 Import/Export</button>
   <button class="tab" onclick="showTab('spreadsheet', event)">📊 Spreadsheet</button>
   </nav>
 
@@ -154,8 +155,7 @@
     <div id="collection" class="tab-content">
       <h2>📚 Your Movie Collection</h2>
       <div class="collection-controls">
-        <button onclick="loadMoviesFromGoogle()">🔄 Sync from Google</button>
-        <input type="text" id="search-input" placeholder="🔍 Search movies...">
+        <input type="text" id="search-input" placeholder="🔍 Search movies..." onkeyup="filterMovies()">
         <div class="collection-stats">
           <span id="movie-count">0 movies</span>
         </div>
@@ -168,14 +168,73 @@
       </div>
     </div>
 
+    <!-- Import/Export Tab -->
+    <div id="import-export" class="tab-content">
+      <h2>📁 Import & Export</h2>
+      
+      <!-- Import Section -->
+      <div class="import-section">
+        <h3>📥 Import Your Collection</h3>
+        <p>Import movies from CSV, JSON, or Excel files. Perfect for users with existing spreadsheets!</p>
+        
+        <div class="import-options">
+          <button id="import-csv" class="btn btn-primary">📄 Import CSV</button>
+          <button id="import-json" class="btn btn-primary">📄 Import JSON</button>
+          <button onclick="window.importExportManager.importFromClipboard()" class="btn btn-secondary">📋 Paste from Clipboard</button>
+        </div>
+        
+        <div class="import-tips">
+          <h4>💡 Import Tips:</h4>
+          <ul>
+            <li>CSV files should have headers: Title, Year, Director, Genre, etc.</li>
+            <li>Duplicate movies (by UPC) will be skipped automatically</li>
+            <li>You can import multiple files to build your collection</li>
+            <li>Supported formats: CSV, JSON, Excel (.xls, .xlsx)</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Export Section -->
+      <div class="export-section">
+        <h3>📤 Export Your Collection</h3>
+        <p>Export your collection to use in any spreadsheet application or backup your data.</p>
+        
+        <div class="export-options">
+          <button id="export-csv" class="btn btn-success">📄 Export CSV</button>
+          <button id="export-json" class="btn btn-success">📄 Export JSON</button>
+          <button id="export-excel" class="btn btn-success">📊 Export Excel</button>
+          <button onclick="window.importExportManager.exportToClipboard('csv')" class="btn btn-secondary">📋 Copy CSV to Clipboard</button>
+        </div>
+      </div>
+
+      <!-- Backup Section -->
+      <div class="backup-section">
+        <h3>💾 Backup & Restore</h3>
+        <p>Create local backups of your collection for safekeeping.</p>
+        
+        <div class="backup-options">
+          <button id="create-backup" class="btn btn-info">💾 Create Backup</button>
+          <button id="restore-backup" class="btn btn-warning">🔄 Restore Backup</button>
+        </div>
+      </div>
+
+      <!-- Collection Stats -->
+      <div class="collection-stats-section">
+        <h3>📊 Collection Statistics</h3>
+        <div id="collection-stats" class="stats-grid">
+          <!-- Stats will be populated by JavaScript -->
+        </div>
+      </div>
+    </div>
+
     <!-- Spreadsheet Tab -->
     <div id="spreadsheet" class="tab-content">
       <h2>📊 Collection Spreadsheet</h2>
       <div class="spreadsheet-controls">
-        <button onclick="loadMoviesFromGoogle()">🔄 Refresh</button>
-        <button onclick="exportToCSV()">📥 Export CSV</button>
-        <button onclick="exportToJSON()">📥 Export JSON</button>
-        <button onclick="openGoogleSheet()" class="google-button">📊 Open in Google Sheets</button>
+        <button onclick="refreshSpreadsheet()">🔄 Refresh</button>
+        <button onclick="window.importExportManager.exportToCSV()">📥 Export CSV</button>
+        <button onclick="window.importExportManager.exportToJSON()">📥 Export JSON</button>
+        <button onclick="window.importExportManager.exportToExcel()">📊 Export Excel</button>
       </div>
       <div class="spreadsheet-container">
         <table class="spreadsheet" id="spreadsheet-table">
@@ -219,8 +278,9 @@
   </div>
 </div>
 
+  <script src="js/data-manager.js"></script>
+  <script src="js/import-export.js"></script>
   <script src="js/app.js"></script>
   <script src="js/scanner.js"></script>
-  <script src="js/google-api.js"></script>
 </body>
 </html>
