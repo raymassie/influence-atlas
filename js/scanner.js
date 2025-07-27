@@ -200,10 +200,43 @@ function updateScannerUI() {
 async function lookupMovieByUPC(upc) {
     console.log("🔍 Looking up movie for UPC:", upc);
     
-    // For now, we will just return the UPC since UPC codes are not directly searchable
-    // in free movie APIs. In a production app, you would need a UPC-to-movie database.
-    console.log("UPC lookup not implemented - UPC codes require specialized database");
+    try {
+        // Use UPCitemdb API to get product info
+        const response = await fetch(`https://api.upcitemdb.com/prod/trial/lookup?upc=${upc}`);
+        
+        if (response.ok) {
+            const data = await response.json();
+            
+            if (data.items && data.items.length > 0) {
+                const item = data.items[0];
+                const title = item.title || "";
+                
+                // Extract year from title if it contains a year
+                const yearMatch = title.match(/((d{4}))/);
+                const year = yearMatch ? yearMatch[1] : "";
+                
+                // Extract movie title (remove year and format info)
+                const cleanTitle = title.replace(/([^)]*)/g, "").replace(/DVD|Blu-ray|4K|UHD/gi, "").trim();
+                
+                return {
+                    upc: upc,
+                    title: cleanTitle,
+                    year: year,
+                    genre: "",
+                    runtime: "",
+                    director: "",
+                    producer: "",
+                    studio: item.brand || "",
+                    asin: "",
+                    notes: "Found via UPC database"
+                };
+            }
+        }
+    } catch (error) {
+        console.warn("UPC API failed:", error);
+    }
     
+    // Fallback: return just UPC
     return {
         upc: upc,
         title: "",
@@ -216,8 +249,7 @@ async function lookupMovieByUPC(upc) {
         asin: "",
         notes: "UPC scanned - please enter movie details manually"
     };
-}
-// Helper function to get genre name from ID
+}// Helper function to get genre name from ID
 function getGenreName(genreId) {
     const genres = {
         28: "Action", 12: "Adventure", 16: "Animation", 35: "Comedy",
@@ -234,10 +266,43 @@ function getGenreName(genreId) {
 async function lookupMovieByUPC(upc) {
     console.log("🔍 Looking up movie for UPC:", upc);
     
-    // For now, we will just return the UPC since UPC codes are not directly searchable
-    // in free movie APIs. In a production app, you would need a UPC-to-movie database.
-    console.log("UPC lookup not implemented - UPC codes require specialized database");
+    try {
+        // Use UPCitemdb API to get product info
+        const response = await fetch(`https://api.upcitemdb.com/prod/trial/lookup?upc=${upc}`);
+        
+        if (response.ok) {
+            const data = await response.json();
+            
+            if (data.items && data.items.length > 0) {
+                const item = data.items[0];
+                const title = item.title || "";
+                
+                // Extract year from title if it contains a year
+                const yearMatch = title.match(/((d{4}))/);
+                const year = yearMatch ? yearMatch[1] : "";
+                
+                // Extract movie title (remove year and format info)
+                const cleanTitle = title.replace(/([^)]*)/g, "").replace(/DVD|Blu-ray|4K|UHD/gi, "").trim();
+                
+                return {
+                    upc: upc,
+                    title: cleanTitle,
+                    year: year,
+                    genre: "",
+                    runtime: "",
+                    director: "",
+                    producer: "",
+                    studio: item.brand || "",
+                    asin: "",
+                    notes: "Found via UPC database"
+                };
+            }
+        }
+    } catch (error) {
+        console.warn("UPC API failed:", error);
+    }
     
+    // Fallback: return just UPC
     return {
         upc: upc,
         title: "",
@@ -250,8 +315,7 @@ async function lookupMovieByUPC(upc) {
         asin: "",
         notes: "UPC scanned - please enter movie details manually"
     };
-}
-// Helper function to get genre name from ID
+}// Helper function to get genre name from ID
 function getGenreName(genreId) {
     const genres = {
         28: "Action", 12: "Adventure", 16: "Animation", 35: "Comedy",
