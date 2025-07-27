@@ -506,3 +506,26 @@ if (typeof window !== 'undefined') {
         checkLocalDuplicate
     };
 }
+// Test camera access
+function testCameraAccess() {
+    navigator.mediaDevices.getUserMedia({ video: true })
+        .then(stream => {
+            console.log("✅ Camera access granted");
+            showMessage("Camera access granted", "success");
+        })
+        .catch(error => {
+            console.error("❌ Camera access denied:", error);
+            showMessage("Camera access denied: " + error.message, "error");
+        });
+}
+
+// Add test button to scanner
+document.addEventListener("DOMContentLoaded", function() {
+    const scannerControls = document.querySelector(".scanner-controls");
+    if (scannerControls) {
+        const testBtn = document.createElement("button");
+        testBtn.textContent = "🔍 Test Camera";
+        testBtn.onclick = testCameraAccess;
+        scannerControls.appendChild(testBtn);
+    }
+});
