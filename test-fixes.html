@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Catalog - Bug Fix Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test-result { padding: 10px; margin: 10px 0; border-radius: 5px; }
+        .pass { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .fail { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+        .info { background-color: #d1ecf1; color: #0c5460; border: 1px solid #bee5eb; }
+    </style>
+</head>
+<body>
+    <h1>🎬 Movie Catalog - Bug Fix Verification</h1>
+    
+    <div id="test-results">
+        <h2>Testing Bug Fixes...</h2>
+        <div id="test-output"></div>
+    </div>
+
+    <script>
+        // Test results
+        const testResults = [];
+        
+        function addTestResult(testName, passed, message) {
+            const result = { testName, passed, message };
+            testResults.push(result);
+            
+            const output = document.getElementById('test-output');
+            const div = document.createElement('div');
+            div.className = `test-result ${passed ? 'pass' : 'fail'}`;
+            div.innerHTML = `<strong>${passed ? '✅ PASS' : '❌ FAIL'}</strong>: ${testName}<br>${message}`;
+            output.appendChild(div);
+        }
+        
+        // Test 1: ZXing Library Availability
+        function testZXingLibrary() {
+            try {
+                if (typeof ZXing !== 'undefined') {
+                    addTestResult('ZXing Library', true, 'ZXing library is properly loaded');
+                } else {
+                    addTestResult('ZXing Library', false, 'ZXing library is not available');
+                }
+            } catch (error) {
+                addTestResult('ZXing Library', false, `Error: ${error.message}`);
+            }
+        }
+        
+        // Test 2: Data Manager Initialization
+        function testDataManager() {
+            try {
+                if (typeof DataManager !== 'undefined') {
+                    const dm = new DataManager();
+                    addTestResult('Data Manager', true, 'Data manager initializes successfully');
+                } else {
+                    addTestResult('Data Manager', false, 'DataManager class not found');
+                }
+            } catch (error) {
+                addTestResult('Data Manager', false, `Error: ${error.message}`);
+            }
+        }
+        
+        // Test 3: DOM Elements Availability
+        function testDOMElements() {
+            const requiredElements = [
+                'movieForm',
+                'search-input', 
+                'start-scanner',
+                'stop-scanner',
+                'movieList'
+            ];
+            
+            let allFound = true;
+            const missingElements = [];
+            
+            requiredElements.forEach(id => {
+                const element = document.getElementById(id);
+                if (!element) {
+                    allFound = false;
+                    missingElements.push(id);
+                }
+            });
+            
+            if (allFound) {
+                addTestResult('DOM Elements', true, 'All required DOM elements are present');
+            } else {
+                addTestResult('DOM Elements', false, `Missing elements: ${missingElements.join(', ')}`);
+            }
+        }
+        
+        // Run tests when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Running bug fix tests...');
+            
+            // Wait a bit for any async loading
+            setTimeout(() => {
+                testZXingLibrary();
+                testDataManager();
+                testDOMElements();
+                
+                // Summary
+                const passed = testResults.filter(r => r.passed).length;
+                const total = testResults.length;
+                
+                const summary = document.createElement('div');
+                summary.className = 'test-result info';
+                summary.innerHTML = `<strong>📊 Test Summary:</strong> ${passed}/${total} tests passed`;
+                document.getElementById('test-output').appendChild(summary);
+                
+                console.log(`Tests completed: ${passed}/${total} passed`);
+            }, 1000);
+        });
+    </script>
+    
+    <!-- Load the actual app scripts -->
+    <script src="js/data-manager.js"></script>
+    <script src="js/import-export.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/scanner.js"></script>
+</body>
+</html> 
