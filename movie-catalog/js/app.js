@@ -1183,25 +1183,18 @@ function reconnectSpreadsheet() {
     }
 }
 
-// Auto-reconnect to spreadsheet on page load
+// Auto-reconnect to spreadsheet on page load (only if previously connected)
 function autoReconnectSpreadsheet() {
-    console.log('🔄 Auto-reconnecting to spreadsheet...');
+    console.log('🔄 Checking for previous spreadsheet connection...');
     
-    // Try to reconnect to the last used spreadsheet
-    if (spreadsheetManager) {
-        spreadsheetManager.selectSpreadsheet().then(success => {
-            if (success) {
-                console.log('✅ Auto-reconnected to spreadsheet successfully');
-                displayMovies();
-                updateMovieCount();
-                showMessage('✅ Reconnected to spreadsheet - your data is restored!', 'success');
-            } else {
-                console.log('❌ Auto-reconnect failed, using local storage');
-                showMessage('⚠️ Could not auto-reconnect. Click "📁 Select Spreadsheet" to restore your data.', 'warning');
-            }
-        }).catch(error => {
-            console.log('❌ Auto-reconnect error:', error);
-            showMessage('⚠️ Auto-reconnect failed. Click "📁 Select Spreadsheet" to restore your data.', 'warning');
-        });
+    // Only try to auto-reconnect if there was a previous connection
+    // For now, just use local storage and let user manually connect
+    if (dataManager) {
+        const movies = dataManager.getAllMovies();
+        if (movies.length > 0) {
+            console.log('✅ Using local storage with', movies.length, 'movies');
+            displayMovies();
+            updateMovieCount();
+        }
     }
 }
