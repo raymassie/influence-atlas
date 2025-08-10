@@ -128,9 +128,8 @@ function setupAppEventListeners() {
         console.warn('Search input not found');
     }
     
-    // Scanner button listeners - check multiple possible IDs for compatibility
-    const startBtn = document.getElementById('start-scanner') || 
-                     document.getElementById('startScanner');
+    // Scanner button listeners - using correct IDs from HTML
+    const startBtn = document.getElementById('start-scanner-btn');
     if (startBtn) {
         startBtn.addEventListener('click', function() {
             if (typeof startScanner === 'function') {
@@ -143,8 +142,7 @@ function setupAppEventListeners() {
         console.warn('Start scanner button not found');
     }
     
-    const stopBtn = document.getElementById('stop-scanner') || 
-                    document.getElementById('stopScanner');
+    const stopBtn = document.getElementById('stop-scanner-btn');
     if (stopBtn) {
         stopBtn.addEventListener('click', function() {
             if (typeof stopScanner === 'function') {
@@ -773,9 +771,55 @@ function closeConfigModal() {
     }
 }
 
-function saveGoogleConfig() {
-    // Placeholder for Google Apps Script configuration
-    console.log('Google config saved');
+// Google API integration removed - using local storage only
+
+// Import/Export functions
+function importFromCSV() {
+    if (window.importExportManager) {
+        window.importExportManager.importFromCSV();
+    } else {
+        showMessage('Import/Export manager not available', 'error');
+    }
+}
+
+function importFromJSON() {
+    if (window.importExportManager) {
+        window.importExportManager.importFromJSON();
+    } else {
+        showMessage('Import/Export manager not available', 'error');
+    }
+}
+
+function exportToCSV() {
+    if (window.dataManager) {
+        const csv = window.dataManager.exportToCSV();
+        const blob = new Blob([csv], { type: 'text/csv' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'movie-collection.csv';
+        a.click();
+        URL.revokeObjectURL(url);
+        showMessage('CSV exported successfully', 'success');
+    } else {
+        showMessage('Data manager not available', 'error');
+    }
+}
+
+function exportToJSON() {
+    if (window.dataManager) {
+        const json = window.dataManager.exportToJSON();
+        const blob = new Blob([json], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'movie-collection.json';
+        a.click();
+        URL.revokeObjectURL(url);
+        showMessage('JSON exported successfully', 'success');
+    } else {
+        showMessage('Data manager not available', 'error');
+    }
 }
 
 // Handle Search for Details button

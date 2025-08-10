@@ -461,7 +461,7 @@ body {
   margin: 0;
 }
 
-.format-options label:has(input:checked) {
+.format-options label input:checked + span {
   background: #007bff;
   color: white;
   border-color: #007bff;

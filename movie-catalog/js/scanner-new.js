@@ -41,7 +41,7 @@ function setupEventListeners() {
     console.log('Setting up scanner event listeners...');
     
     // Start scanner button
-    const startBtn = document.getElementById('start-scanner');
+    const startBtn = document.getElementById('start-scanner-btn');
     if (startBtn) {
         startBtn.addEventListener('click', startScanner);
     } else {
@@ -49,7 +49,7 @@ function setupEventListeners() {
     }
     
     // Stop scanner button
-    const stopBtn = document.getElementById('stop-scanner');
+    const stopBtn = document.getElementById('stop-scanner-btn');
     if (stopBtn) {
         stopBtn.addEventListener('click', stopScanner);
     } else {
@@ -57,7 +57,7 @@ function setupEventListeners() {
     }
     
     // Camera selection
-    const cameraSelect = document.getElementById('cameraSelect');
+    const cameraSelect = document.getElementById('camera-select');
     if (cameraSelect) {
         cameraSelect.addEventListener('change', function() {
             selectedDeviceId = this.value;
@@ -69,7 +69,7 @@ function setupEventListeners() {
     }
     
     // Manual UPC input
-    const manualInput = document.getElementById('manualUPC');
+    const manualInput = document.getElementById('manual-upc-input');
     if (manualInput) {
         manualInput.addEventListener('keypress', function(e) {
             if (e.key === 'Enter') {
@@ -83,13 +83,13 @@ function setupEventListeners() {
     }
     
     // Manual UPC submit button
-    const manualBtn = document.getElementById('submitManualUPC');
+    const manualBtn = document.querySelector('.manual-input-group button');
     if (manualBtn) {
         manualBtn.addEventListener('click', function() {
-            const upc = document.getElementById('manualUPC')?.value?.trim();
+            const upc = document.getElementById('manual-upc-input')?.value?.trim();
             if (upc) {
                 handleScannedCode(upc);
-                document.getElementById('manualUPC').value = '';
+                document.getElementById('manual-upc-input').value = '';
             }
         });
     }
@@ -450,9 +450,9 @@ async function handleScannedCode(code) {
     console.log('Clean UPC for processing:', cleanUPC);
     
     // Update the scanner result display
-    const scannedUpcSpan = document.getElementById('scanned-upc');
-    if (scannedUpcSpan) {
-        scannedUpcSpan.textContent = cleanUPC;
+    const scannerResult = document.getElementById('scanner-result');
+    if (scannerResult) {
+        scannerResult.innerHTML = `<strong>Scanned UPC:</strong> ${cleanUPC}`;
     }
     
     // Check for duplicates in local collection
@@ -847,6 +847,17 @@ function showMessage(message, type = 'info') {
             statusElement.textContent = '';
             statusElement.className = 'status-message';
         }, 5000);
+    }
+}
+
+// Handle manual UPC input
+function handleManualUPC() {
+    const upcInput = document.getElementById('manual-upc-input');
+    if (upcInput && upcInput.value.trim()) {
+        handleScannedCode(upcInput.value.trim());
+        upcInput.value = '';
+    } else {
+        showMessage('Please enter a UPC code', 'warning');
     }
 }
 
