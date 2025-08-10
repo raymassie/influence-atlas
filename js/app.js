@@ -2,6 +2,59 @@
 let filteredMovies = [];
 let currentSortField = 'title';
 let currentSortDirection = 'asc';
+let dataManager = null;
+
+// Auto-save functionality
+let autoSaveEnabled = false;
+let autoSaveFile = null;
+
+function enableAutoSave() {
+    autoSaveEnabled = true;
+    showMessage('Auto-save enabled - scanned movies will be saved to file automatically', 'success');
+}
+
+function disableAutoSave() {
+    autoSaveEnabled = false;
+    showMessage('Auto-save disabled', 'info');
+}
+
+function autoSaveMovie(movieData) {
+    if (!autoSaveEnabled) return;
+    
+    try {
+        // Create a timestamp for the filename
+        const now = new Date();
+        const timestamp = now.toISOString().replace(/[:.]/g, '-').slice(0, 19);
+        const filename = `scanned-movie-${timestamp}.json`;
+        
+        // Create the movie data object
+        const movieToSave = {
+            ...movieData,
+            scannedAt: now.toISOString(),
+            source: 'barcode-scanner'
+        };
+        
+        // Create and download the file
+        const blob = new Blob([JSON.stringify(movieToSave, null, 2)], {
+            type: 'application/json'
+        });
+        
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        
+        console.log(`Auto-saved movie: ${movieData.title} to ${filename}`);
+        
+    } catch (error) {
+        console.error('Auto-save failed:', error);
+        showMessage('Auto-save failed', 'error');
+    }
+}
 
 // Initialize app when page loads
 document.addEventListener('DOMContentLoaded', function() {
@@ -10,10 +63,25 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function initializeApp() {
+    // Initialize data manager first
+    try {
+        dataManager = new DataManager();
+        window.dataManager = dataManager; // Make it globally accessible
+        console.log('✅ Data manager initialized successfully');
+    } catch (error) {
+        console.error('❌ Failed to initialize data manager:', error);
+        showMessage('Failed to initialize data storage. Please refresh the page.', 'error');
+        return;
+    }
+    
+    // Initialize spreadsheet manager
+    spreadsheetManager = new SpreadsheetManager();
+    window.spreadsheetManager = spreadsheetManager;
+    console.log('✅ Spreadsheet manager initialized');
+    
     setupAppEventListeners();
     displayMovies();
     updateMovieCount();
-    updateSpreadsheet();
 }
 
 function showTab(tabName, event) {
@@ -48,12 +116,16 @@ function setupAppEventListeners() {
     
     if (addMovieForm) {
         addMovieForm.addEventListener('submit', handleAddMovie);
+    } else {
+        console.warn('Movie form not found');
     }
     
     // Search functionality - matches HTML id="search-input"
     const searchInput = document.getElementById('search-input');
     if (searchInput) {
         searchInput.addEventListener('input', handleSearch);
+    } else {
+        console.warn('Search input not found');
     }
     
     // Scanner button listeners - check multiple possible IDs for compatibility
@@ -63,8 +135,12 @@ function setupAppEventListeners() {
         startBtn.addEventListener('click', function() {
             if (typeof startScanner === 'function') {
                 startScanner();
+            } else {
+                console.warn('startScanner function not available');
             }
         });
+    } else {
+        console.warn('Start scanner button not found');
     }
     
     const stopBtn = document.getElementById('stop-scanner') || 
@@ -73,13 +149,41 @@ function setupAppEventListeners() {
         stopBtn.addEventListener('click', function() {
             if (typeof stopScanner === 'function') {
                 stopScanner();
+            } else {
+                console.warn('stopScanner function not available');
             }
         });
+    } else {
+        console.warn('Stop scanner button not found');
+    }
+    
+    // Initialize import/export manager
+    try {
+        if (typeof ImportExportManager !== 'undefined') {
+            window.importExportManager = new ImportExportManager();
+            console.log('✅ Import/Export manager initialized');
+        } else {
+            console.warn('ImportExportManager not available');
+        }
+    } catch (error) {
+        console.error('❌ Failed to initialize import/export manager:', error);
+    }
+    
+    // Search for Details button
+    const searchDetailsBtn = document.getElementById('searchDetailsButton');
+    if (searchDetailsBtn) {
+        searchDetailsBtn.addEventListener('click', handleSearchDetails);
     }
 }
 
-function handleAddMovie(event) {
+async function handleAddMovie(event) {
     event.preventDefault();
+    
+    // Check if data manager is available
+    if (!dataManager) {
+        showMessage('Data manager not initialized. Please refresh the page.', 'error');
+        return;
+    }
     
     // Get form data using correct field IDs from HTML
     const movieData = {
@@ -111,10 +215,13 @@ function handleAddMovie(event) {
     
     movieData.formats = selectedFormats.join(', ');
     
-    // Validate required fields
-    if (!movieData.title) {
-        showMessage('Please enter a movie title', 'error');
-        return;
+    // Validate required fields (all except genre)
+    const requiredFields = ['title', 'year', 'director', 'producer', 'studio', 'runtime', 'upc', 'asin', 'notes', 'image'];
+    for (const field of requiredFields) {
+        if (!movieData[field] || String(movieData[field]).trim() === '') {
+            showMessage(`Please enter a value for ${field}`, 'error');
+            return;
+        }
     }
     
     // Check for duplicates
@@ -132,24 +239,36 @@ function handleAddMovie(event) {
         }
     }
     
-    // Add movie using data manager
+    // Add movie using appropriate manager
     try {
-        const addedMovie = window.dataManager.addMovie(movieData);
+        let addedMovie;
+        
+        if (spreadsheetManager && spreadsheetManager.getConnectionStatus()) {
+            // Use spreadsheet manager
+            addedMovie = await spreadsheetManager.addMovie(movieData);
+            if (!addedMovie) {
+                showMessage('Movie already exists in spreadsheet', 'warning');
+                return;
+            }
+        } else {
+            // Fall back to data manager
+            addedMovie = dataManager.addMovie(movieData);
+        }
         
         showMessage(`✅ "${addedMovie.title}" added successfully!`, 'success');
+        
+        // Auto-save if enabled
+        autoSaveMovie(addedMovie);
         
         // Reset form
         event.target.reset();
         
         // Update displays
         displayMovies();
-        updateSpreadsheet();
         updateMovieCount();
         
-        // Switch to collection tab to show the new movie
-        setTimeout(() => {
-            showTab('collection');
-        }, 1000);
+        // Close modal
+        hideAddMovieForm();
         
     } catch (error) {
         console.error('❌ Error adding movie:', error);
@@ -158,11 +277,16 @@ function handleAddMovie(event) {
 }
 
 function checkForLocalDuplicate(movieData) {
+    if (!dataManager) {
+        console.warn('Data manager not available for duplicate check');
+        return null;
+    }
+    
     const cleanTitle = movieData.title ? movieData.title.toLowerCase().trim() : "";
     const cleanYear = movieData.year ? movieData.year.toString().trim() : "";
     const cleanUPC = movieData.upc ? movieData.upc.trim() : "";
     
-    return window.dataManager.getAllMovies().find(movie => {
+    return dataManager.getAllMovies().find(movie => {
         // Check UPC match (most reliable)
         if (cleanUPC && movie.upc && movie.upc.trim() === cleanUPC) {
             return true;
@@ -180,45 +304,165 @@ function checkForLocalDuplicate(movieData) {
     });
 }
 
-function handleSearch(event) {
-    const searchTerm = event.target.value.toLowerCase().trim();
+// Sorting functions
+function updateSorting() {
+    const sortField = document.getElementById('sort-field').value;
+    currentSortField = sortField;
+    displayMovies();
+}
+
+function toggleSortDirection() {
+    const sortBtn = document.getElementById('sort-direction');
+    currentSortDirection = currentSortDirection === 'asc' ? 'desc' : 'asc';
     
-    if (!searchTerm) {
-        filteredMovies = [];
+    if (currentSortDirection === 'asc') {
+        sortBtn.textContent = '↑ Ascending';
+        sortBtn.classList.add('active');
     } else {
-        filteredMovies = window.dataManager.searchMovies(searchTerm);
+        sortBtn.textContent = '↓ Descending';
+        sortBtn.classList.add('active');
     }
     
     displayMovies();
 }
 
-function displayMovies() {
-    // Use correct container ID from HTML
-    const container = document.getElementById('movieList');
-    if (!container) {
-        console.error('Movie list container not found');
-        return;
-    }
+// View switching functions
+function switchToCardView() {
+    console.log('Switching to card view...');
     
-    const allMovies = window.dataManager.getAllMovies();
-    const moviesToDisplay = filteredMovies.length > 0 ? filteredMovies : allMovies;
+    // Update button states
+    document.getElementById('card-view-btn').classList.add('active');
+    document.getElementById('list-view-btn').classList.remove('active');
     
-    if (moviesToDisplay.length === 0) {
-        container.innerHTML = `
+    // Update CSS classes for proper display
+    const movieList = document.getElementById('movieList');
+    const movieTable = document.getElementById('movieTable');
+    
+    movieList.classList.remove('list-view');
+    movieList.classList.add('card-view');
+    movieTable.classList.remove('card-view');
+    movieTable.classList.add('list-view');
+    
+    // Refresh the display using the enhanced displayMovies function
+    displayMovies();
+}
+
+function switchToListView() {
+    console.log('Switching to list view...');
+    
+    // Update button states
+    document.getElementById('list-view-btn').classList.add('active');
+    document.getElementById('card-view-btn').classList.remove('active');
+    
+    // Update CSS classes for proper display
+    const movieList = document.getElementById('movieList');
+    const movieTable = document.getElementById('movieTable');
+    
+    movieList.classList.remove('card-view');
+    movieList.classList.add('list-view');
+    movieTable.classList.remove('list-view');
+    movieTable.classList.add('card-view');
+    
+    // Refresh the display using the enhanced displayMovies function
+    displayMovies();
+}
+
+
+
+// Display movies as cards (existing functionality)
+function displayMoviesAsCards(movies) {
+    const movieList = document.getElementById('movieList');
+    
+    console.log('🎬 Displaying movies as cards:', movies);
+    console.log('🎬 Number of movies:', movies.length);
+    
+    if (movies.length === 0) {
+        movieList.innerHTML = `
             <div class="empty-state">
-                <h3>📽️ Start Building Your Collection</h3>
-                <p>Add movies manually or use the barcode scanner to get started!</p>
+                <h3>📽️ No Movies Found</h3>
+                <p>Try adjusting your search or add some movies to get started!</p>
             </div>
         `;
         return;
     }
     
-    container.innerHTML = moviesToDisplay.map(movie => createMovieCard(movie)).join('');
+    const cardsHTML = movies.map(movie => {
+        console.log('🎬 Creating card for movie:', movie);
+        return `
+            <div class="movie-card" data-id="${movie.id || movie.upc || 'unknown'}">
+                <div class="movie-cover">
+                    ${movie.image ? `<img src="${movie.image}" alt="${movie.title}">` : '<div class="no-image">🎬</div>'}
+                </div>
+                <div class="movie-info">
+                    <h3 class="movie-title">${movie.title || 'Unknown Title'}</h3>
+                    <p class="movie-year">${movie.year || ''}</p>
+                    <p class="movie-director">${movie.director || ''}</p>
+                    <p class="movie-genre">${movie.genre || ''}</p>
+                    <p class="movie-runtime">${movie.runtime || ''}</p>
+                    <div class="movie-formats">
+                        ${movie.formats ? movie.formats.split(',').map(format => 
+                            `<span class="format-tag">${format.trim()}</span>`
+                        ).join('') : ''}
+                    </div>
+                    <p class="movie-upc">UPC: ${movie.upc || ''}</p>
+                    <p class="movie-added">Added: ${movie.added || ''}</p>
+                </div>
+                <div class="movie-actions">
+                    <button class="edit-btn" onclick="editMovie('${movie.id || movie.upc || 'unknown'}')">✏️ Edit</button>
+                    <button class="delete-btn" onclick="removeMovie('${movie.id || movie.upc || 'unknown'}')">🗑️ Delete</button>
+                </div>
+            </div>
+        `;
+    }).join('');
     
-    // Add event listeners for remove buttons
-    container.querySelectorAll('.remove-movie-btn').forEach(button => {
-        button.addEventListener('click', handleRemoveMovie);
-    });
+    console.log('🎬 Generated cards HTML length:', cardsHTML.length);
+    movieList.innerHTML = cardsHTML;
+}
+
+// Display movies as table (new functionality)
+function displayMoviesAsTable(movies) {
+    const tableBody = document.getElementById('movie-table-body');
+    
+    if (movies.length === 0) {
+        tableBody.innerHTML = `
+            <tr>
+                <td colspan="10" class="empty-state">
+                    <div>
+                        <h3>📊 No Movies Found</h3>
+                        <p>Try adjusting your search or add some movies to get started!</p>
+                    </div>
+                </td>
+            </tr>
+        `;
+        return;
+    }
+    
+    tableBody.innerHTML = movies.map(movie => `
+        <tr data-id="${movie.id}">
+            <td>
+                ${movie.image ? 
+                    `<img src="${movie.image}" alt="${movie.title}" class="movie-cover">` : 
+                    '<div class="movie-cover no-image">🎬</div>'
+                }
+            </td>
+            <td class="movie-title">${movie.title}</td>
+            <td class="movie-year">${movie.year}</td>
+            <td class="movie-director">${movie.director}</td>
+            <td class="movie-genre">${movie.genre}</td>
+            <td class="movie-runtime">${movie.runtime}</td>
+            <td class="movie-formats">
+                ${movie.formats ? movie.formats.split(',').map(format => 
+                    `<span class="format-tag">${format.trim()}</span>`
+                ).join('') : ''}
+            </td>
+            <td class="movie-upc">${movie.upc}</td>
+            <td class="movie-added">${movie.added}</td>
+            <td class="movie-actions">
+                <button class="action-btn edit-btn" onclick="editMovie('${movie.id}')" title="Edit">✏️</button>
+                <button class="action-btn delete-btn" onclick="removeMovie('${movie.id}')" title="Delete">🗑️</button>
+            </td>
+        </tr>
+    `).join('');
 }
 
 function createMovieCard(movie) {
@@ -332,11 +576,22 @@ function handleRemoveMovie(event) {
     }
 }
 
-function updateMovieCount() {
+// Function to update movie count
+function updateMovieCount(count) {
     const countElement = document.getElementById('movie-count');
     if (countElement) {
-        const count = window.dataManager.getAllMovies().length;
-        countElement.textContent = `${count} movie${count !== 1 ? 's' : ''}`;
+        if (count !== undefined) {
+            countElement.textContent = `${count} movies`;
+        } else {
+            // Get count from current data source
+            let movies = [];
+            if (spreadsheetManager && spreadsheetManager.getConnectionStatus()) {
+                movies = spreadsheetManager.getAllMovies();
+            } else if (dataManager) {
+                movies = dataManager.getAllMovies();
+            }
+            countElement.textContent = `${movies.length} movies`;
+        }
     }
 }
 
@@ -398,15 +653,39 @@ function updateSpreadsheet() {
 }
 
 // Function to remove movie (called from spreadsheet)
-function removeMovie(movieId) {
-    if (confirm('Are you sure you want to remove this movie?')) {
-        const removed = window.dataManager.removeMovie(movieId);
-        if (removed) {
-            displayMovies();
-            updateSpreadsheet();
-            updateMovieCount();
-            showMessage(`Removed "${removed.title}" from collection`, 'success');
+async function removeMovie(movieId) {
+    try {
+        console.log('[DEBUG] Attempting to remove movie with ID:', movieId);
+        if (spreadsheetManager && spreadsheetManager.getConnectionStatus()) {
+            // Use spreadsheet manager
+            const allMovies = spreadsheetManager.getAllMovies();
+            console.log('[DEBUG] Spreadsheet movies before delete:', allMovies.map(m => m.id));
+            const success = await spreadsheetManager.removeMovie(movieId);
+            const afterMovies = spreadsheetManager.getAllMovies();
+            console.log('[DEBUG] Spreadsheet movies after delete:', afterMovies.map(m => m.id));
+            if (success) {
+                showMessage('Movie removed from spreadsheet', 'success');
+                displayMovies();
+                updateMovieCount();
+            } else {
+                showMessage('Movie not found in spreadsheet', 'error');
+            }
+        } else if (dataManager) {
+            // Fall back to data manager
+            const removedMovie = dataManager.removeMovie(movieId);
+            if (removedMovie) {
+                showMessage(`🗑️ "${removedMovie.title}" removed from collection`, 'success');
+                displayMovies();
+                updateMovieCount();
+            } else {
+                showMessage('Movie not found', 'error');
+            }
+        } else {
+            showMessage('No data manager available', 'error');
         }
+    } catch (error) {
+        console.error('Error removing movie:', error);
+        showMessage('Error removing movie: ' + error.message, 'error');
     }
 }
 
@@ -495,9 +774,33 @@ function closeConfigModal() {
 }
 
 function saveGoogleConfig() {
-    // No-op for agnostic version
-    showMessage('Configuration saved', 'success');
-    closeConfigModal();
+    // Placeholder for Google Apps Script configuration
+    console.log('Google config saved');
+}
+
+// Handle Search for Details button
+function handleSearchDetails() {
+    const upc = document.getElementById('upc')?.value?.trim();
+    const title = document.getElementById('title')?.value?.trim();
+    
+    if (!upc && !title) {
+        showMessage('Please enter a UPC code or movie title first', 'warning');
+        return;
+    }
+    
+    // Create search query
+    let searchQuery = '';
+    if (upc) {
+        searchQuery = upc;
+    } else if (title) {
+        searchQuery = title;
+    }
+    
+    // Open Google search in new tab
+    const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(searchQuery + ' movie')}`;
+    window.open(searchUrl, '_blank');
+    
+    showMessage('🔍 Opened Google search for movie details', 'success');
 }
 
 // For external access
@@ -507,4 +810,354 @@ if (typeof window !== 'undefined') {
         showMessage,
         getMovieCollection: () => window.dataManager.getAllMovies()
     };
+}
+
+// Modal functions
+function showAddMovieForm() {
+    const modal = document.getElementById('add-movie-modal');
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden'; // Prevent background scrolling
+}
+
+function hideAddMovieForm() {
+    const modal = document.getElementById('add-movie-modal');
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto'; // Restore scrolling
+}
+
+// Enhanced openScanner function
+function openScanner() {
+    const scannerModal = document.getElementById('scanner-modal');
+    scannerModal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+    
+    // Initialize and start scanner when modal opens
+    if (typeof initializeScanner === 'function') {
+        initializeScanner();
+        
+        // Auto-start the scanner after a brief delay
+        setTimeout(() => {
+            if (typeof startScanner === 'function') {
+                console.log('Auto-starting camera...');
+                startScanner();
+            }
+        }, 500);
+    }
+}
+
+// Enhanced closeScannerModal function
+function closeScannerModal() {
+    const scannerModal = document.getElementById('scanner-modal');
+    scannerModal.style.display = 'none';
+    document.body.style.overflow = 'auto';
+    
+    // Stop scanner when modal closes
+    if (typeof stopScanner === 'function') {
+        console.log('Auto-stopping camera...');
+        stopScanner();
+    }
+}
+
+// Close modal when clicking outside
+window.addEventListener('click', function(event) {
+    const scannerModal = document.getElementById('scanner-modal');
+    if (event.target === scannerModal) {
+        closeScannerModal();
+    }
+});
+
+function toggleAutoSave() {
+    const toggleBtn = document.getElementById('auto-save-toggle');
+    
+    if (autoSaveEnabled) {
+        disableAutoSave();
+        toggleBtn.textContent = '💾 Auto-Save: OFF';
+        toggleBtn.classList.remove('active');
+    } else {
+        enableAutoSave();
+        toggleBtn.textContent = '💾 Auto-Save: ON';
+        toggleBtn.classList.add('active');
+    }
+}
+
+// Spreadsheet integration functions
+function selectSpreadsheet() {
+    if (!spreadsheetManager) {
+        spreadsheetManager = new SpreadsheetManager();
+    }
+    
+    spreadsheetManager.selectSpreadsheet().then(success => {
+        if (success) {
+            displayMovies();
+            updateMovieCount();
+        }
+    });
+}
+
+function createNewSpreadsheet() {
+    if (!spreadsheetManager) {
+        spreadsheetManager = new SpreadsheetManager();
+    }
+    
+    spreadsheetManager.createNewSpreadsheet().then(success => {
+        if (success) {
+            displayMovies();
+            updateMovieCount();
+        }
+    });
+}
+
+function promptSpreadsheetAction() {
+    const action = confirm('No spreadsheet selected. Would you like to:\n\nOK = Select existing spreadsheet\nCancel = Create new spreadsheet');
+    
+    if (action) {
+        selectSpreadsheet();
+    } else {
+        createNewSpreadsheet();
+    }
+}
+
+// Enhanced displayMovies function to use spreadsheet data
+function displayMovies() {
+    // Use spreadsheet manager if connected, otherwise fall back to data manager
+    let movies = [];
+    let dataSource = 'none';
+    
+    if (spreadsheetManager && spreadsheetManager.getConnectionStatus()) {
+        movies = spreadsheetManager.getAllMovies();
+        dataSource = 'spreadsheet';
+        console.log('📊 Using spreadsheet data:', movies.length, 'movies');
+    } else if (dataManager) {
+        movies = dataManager.getAllMovies();
+        dataSource = 'local storage';
+        console.log('📊 Using local storage data:', movies.length, 'movies');
+    } else {
+        console.error('No data source available');
+        return;
+    }
+    
+    console.log('📊 Data source:', dataSource, 'Movies:', movies.length);
+    
+    const searchTerm = document.getElementById('search-input')?.value?.toLowerCase() || '';
+    
+    // Filter movies based on search term
+    let filteredMovies = movies.filter(movie => {
+        if (!searchTerm) return true;
+        return (
+            movie.title?.toLowerCase().includes(searchTerm) ||
+            movie.director?.toLowerCase().includes(searchTerm) ||
+            movie.genre?.toLowerCase().includes(searchTerm) ||
+            movie.year?.toString().includes(searchTerm) ||
+            movie.upc?.toLowerCase().includes(searchTerm)
+        );
+    });
+    
+    // Sort movies
+    filteredMovies.sort((a, b) => {
+        let aValue = a[currentSortField] || '';
+        let bValue = b[currentSortField] || '';
+        
+        // Handle numeric fields
+        if (currentSortField === 'year') {
+            aValue = parseInt(aValue) || 0;
+            bValue = parseInt(bValue) || 0;
+        }
+        
+        // Handle string fields
+        if (typeof aValue === 'string') {
+            aValue = aValue.toLowerCase();
+            bValue = bValue.toLowerCase();
+        }
+        
+        // Sort based on direction
+        if (currentSortDirection === 'asc') {
+            return aValue > bValue ? 1 : -1;
+        } else {
+            return aValue < bValue ? 1 : -1;
+        }
+    });
+    
+    // Update movie count
+    updateMovieCount(filteredMovies.length);
+    
+    // Check which view is active
+    const isCardView = document.getElementById('card-view-btn').classList.contains('active');
+    
+    if (isCardView) {
+        displayMoviesAsCards(filteredMovies);
+    } else {
+        displayMoviesAsTable(filteredMovies);
+    }
+}
+
+// Function to edit movie
+function editMovie(movieId) {
+    console.log('🎬 Edit movie called with ID:', movieId);
+    
+    // Get the movie data
+    let movie = null;
+    
+    if (spreadsheetManager && spreadsheetManager.getConnectionStatus()) {
+        console.log('🎬 Looking in spreadsheet manager...');
+        const movies = spreadsheetManager.getAllMovies();
+        console.log('🎬 All spreadsheet movies:', movies);
+        movie = movies.find(m => m.id === movieId);
+        console.log('🎬 Found movie in spreadsheet:', movie);
+    } else if (dataManager) {
+        console.log('🎬 Looking in data manager...');
+        const movies = dataManager.getAllMovies();
+        console.log('🎬 All data manager movies:', movies);
+        movie = movies.find(m => m.id === movieId);
+        console.log('🎬 Found movie in data manager:', movie);
+    }
+    
+    if (!movie) {
+        console.error('🎬 Movie not found for ID:', movieId);
+        showMessage('Movie not found', 'error');
+        return;
+    }
+    
+    console.log('🎬 Movie found, filling form with:', movie);
+    
+    // Fill the form with movie data
+    fillFormWithMovieData(movie);
+    
+    // Show the add movie modal
+    showAddMovieForm();
+    
+    // Update the form title to indicate editing
+    const modalTitle = document.querySelector('#add-movie-modal .modal-header h2');
+    if (modalTitle) {
+        modalTitle.textContent = '✏️ Edit Movie';
+    }
+    
+    // Change the submit button text
+    const submitBtn = document.querySelector('#add-movie-modal .submit-btn');
+    if (submitBtn) {
+        submitBtn.textContent = 'Update Movie';
+    }
+    
+    showMessage(`Editing: ${movie.title}`, 'info');
+}
+
+// Test function to check all functionality
+function testAllFunctions() {
+    console.log('🧪 Testing all functions...');
+    
+    // Test 1: Check if all managers are initialized
+    console.log('✅ Data Manager:', dataManager ? 'Initialized' : 'Missing');
+    console.log('✅ Spreadsheet Manager:', spreadsheetManager ? 'Initialized' : 'Missing');
+    
+    // Test 2: Check if DOM elements exist
+    const elements = [
+        'movieList', 'movieTable', 'search-input', 'card-view-btn', 
+        'list-view-btn', 'sort-field', 'sort-direction', 'movie-count',
+        'add-movie-modal', 'scanner-modal', 'movieForm'
+    ];
+    
+    elements.forEach(id => {
+        const element = document.getElementById(id);
+        console.log(`✅ ${id}:`, element ? 'Found' : 'Missing');
+    });
+    
+    // Test 3: Check if functions exist
+    const functions = [
+        'displayMovies', 'switchToCardView', 'switchToListView',
+        'updateSorting', 'toggleSortDirection', 'filterMovies',
+        'showAddMovieForm', 'hideAddMovieForm', 'editMovie',
+        'removeMovie', 'openScanner', 'closeScannerModal',
+        'selectSpreadsheet', 'createNewSpreadsheet'
+    ];
+    
+    functions.forEach(funcName => {
+        const func = window[funcName];
+        console.log(`✅ ${funcName}:`, typeof func === 'function' ? 'Exists' : 'Missing');
+    });
+    
+    // Test 4: Check current data sources
+    if (spreadsheetManager && spreadsheetManager.getConnectionStatus()) {
+        const movies = spreadsheetManager.getAllMovies();
+        console.log('✅ Spreadsheet movies:', movies.length);
+    }
+    
+    if (dataManager) {
+        const movies = dataManager.getAllMovies();
+        console.log('✅ Local storage movies:', movies.length);
+    }
+    
+    console.log('🧪 Testing complete!');
+}
+
+// Call test function on page load
+document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(testAllFunctions, 1000); // Wait for initialization
+    
+    // Auto-reconnect to spreadsheet after a short delay
+    setTimeout(() => {
+        autoReconnectSpreadsheet();
+    }, 1500);
+});
+
+// Function to handle search
+function handleSearch(event) {
+    const searchTerm = event.target.value.toLowerCase();
+    console.log('🔍 Searching for:', searchTerm);
+    
+    // Trigger display update with search filter
+    displayMovies();
+}
+
+// Function to check spreadsheet connection status
+function checkSpreadsheetStatus() {
+    if (spreadsheetManager && spreadsheetManager.getConnectionStatus()) {
+        const movies = spreadsheetManager.getAllMovies();
+        console.log('✅ Spreadsheet connected with', movies.length, 'movies');
+        showMessage(`Connected to spreadsheet (${movies.length} movies)`, 'success');
+        return true;
+    } else {
+        console.log('❌ No spreadsheet connected');
+        showMessage('No spreadsheet connected. Click "📁 Select Spreadsheet" to reconnect.', 'warning');
+        return false;
+    }
+}
+
+// Function to reconnect to spreadsheet
+function reconnectSpreadsheet() {
+    console.log('🔄 Attempting to reconnect to spreadsheet...');
+    if (spreadsheetManager) {
+        spreadsheetManager.selectSpreadsheet().then(success => {
+            if (success) {
+                displayMovies();
+                updateMovieCount();
+                showMessage('Successfully reconnected to spreadsheet!', 'success');
+            } else {
+                showMessage('Failed to reconnect. Please try selecting the spreadsheet again.', 'error');
+            }
+        });
+    } else {
+        showMessage('Spreadsheet manager not initialized. Please refresh the page.', 'error');
+    }
+}
+
+// Auto-reconnect to spreadsheet on page load
+function autoReconnectSpreadsheet() {
+    console.log('🔄 Auto-reconnecting to spreadsheet...');
+    
+    // Try to reconnect to the last used spreadsheet
+    if (spreadsheetManager) {
+        spreadsheetManager.selectSpreadsheet().then(success => {
+            if (success) {
+                console.log('✅ Auto-reconnected to spreadsheet successfully');
+                displayMovies();
+                updateMovieCount();
+                showMessage('✅ Reconnected to spreadsheet - your data is restored!', 'success');
+            } else {
+                console.log('❌ Auto-reconnect failed, using local storage');
+                showMessage('⚠️ Could not auto-reconnect. Click "📁 Select Spreadsheet" to restore your data.', 'warning');
+            }
+        }).catch(error => {
+            console.log('❌ Auto-reconnect error:', error);
+            showMessage('⚠️ Auto-reconnect failed. Click "📁 Select Spreadsheet" to restore your data.', 'warning');
+        });
+    }
 }
