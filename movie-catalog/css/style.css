@@ -396,6 +396,54 @@ body {
   color: #495057;
 }
 
+/* Scanner Modal Styles */
+.scanner-modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  align-items: center;
+  justify-content: center;
+}
+
+.scanner-modal .modal-content {
+  background-color: white;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 12px;
+  width: 95%;
+  max-width: 800px;
+  max-height: 95vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
+
+.scanner-modal .modal-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 12px 12px 0 0;
+  border-bottom: none;
+}
+
+.scanner-modal .modal-header h3 {
+  color: white;
+  font-size: 1.5em;
+}
+
+.scanner-modal .close-btn {
+  color: white;
+  background: rgba(255,255,255,0.2);
+}
+
+.scanner-modal .close-btn:hover {
+  background: rgba(255,255,255,0.3);
+  color: white;
+}
+
 /* Form Styles */
 .form-group {
   margin-bottom: 20px;
@@ -551,10 +599,12 @@ body {
 
 .scanner-controls {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 15px;
-  margin-bottom: 20px;
-  flex-wrap: wrap;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin: 20px 0;
 }
 
 .camera-selection {
@@ -564,15 +614,16 @@ body {
 }
 
 .camera-selection label {
-  font-size: 14px;
-  color: #6c757d;
+  font-weight: 500;
+  color: #2c3e50;
 }
 
 .camera-selection select {
-  padding: 6px 12px;
+  padding: 8px 12px;
   border: 1px solid #dee2e6;
-  border-radius: 4px;
-  font-size: 14px;
+  border-radius: 6px;
+  background: white;
+  min-width: 200px;
 }
 
 .camera-selection select:focus {
@@ -581,28 +632,125 @@ body {
   box-shadow: 0 0 0 3px rgba(0,123,255,0.1);
 }
 
+/* Scanner Status */
+.scanner-status {
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  min-height: 20px;
+  transition: all 0.3s ease;
+}
+
+.scanner-status.status-message.info {
+  background: #e3f2fd;
+  color: #1976d2;
+  border: 1px solid #bbdefb;
+}
+
+.scanner-status.status-message.success {
+  background: #e8f5e8;
+  color: #2e7d32;
+  border: 1px solid #c8e6c9;
+}
+
+.scanner-status.status-message.warning {
+  background: #fff3e0;
+  color: #f57c00;
+  border: 1px solid #ffcc02;
+}
+
+.scanner-status.status-message.error {
+  background: #ffebee;
+  color: #c62828;
+  border: 1px solid #ffcdd2;
+}
+
+/* Scanner Control Buttons */
+.scanner-controls button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  min-width: 120px;
+}
+
+.scanner-controls button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#start-scanner-btn {
+  background: #28a745;
+  color: white;
+}
+
+#start-scanner-btn:hover {
+  background: #218838;
+}
+
+#stop-scanner-btn {
+  background: #dc3545;
+  color: white;
+}
+
+#stop-scanner-btn:hover {
+  background: #c82333;
+}
+
+#debug-camera {
+  background: #17a2b8;
+  color: white;
+}
+
+#debug-camera:hover {
+  background: #138496;
+}
+
+#test-camera {
+  background: #6f42c1;
+  color: white;
+}
+
+#test-camera:hover {
+  background: #5a32a3;
+}
+
 .manual-upc {
-  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 2px dashed #dee2e6;
 }
 
 .manual-upc label {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   font-weight: 500;
   color: #2c3e50;
+  font-size: 16px;
 }
 
 .manual-input-group {
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 
 .manual-input-group input {
   flex: 1;
-  padding: 8px 12px;
-  border: 1px solid #dee2e6;
-  border-radius: 4px;
-  font-size: 14px;
+  padding: 12px 16px;
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 1px;
+  transition: all 0.2s ease;
 }
 
 .manual-input-group input:focus {
@@ -612,18 +760,22 @@ body {
 }
 
 .manual-input-group button {
-  padding: 8px 16px;
+  padding: 12px 20px;
   background: #007bff;
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
   cursor: pointer;
-  font-size: 14px;
-  transition: background-color 0.2s;
+  transition: all 0.2s ease;
+  white-space: nowrap;
 }
 
 .manual-input-group button:hover {
   background: #0056b3;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 #scanner-result {

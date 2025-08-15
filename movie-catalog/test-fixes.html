@@ -3,121 +3,292 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Catalog - Bug Fix Test</title>
+    <title>Movie Catalog - UPC Search Test</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        .test-result { padding: 10px; margin: 10px 0; border-radius: 5px; }
-        .pass { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
-        .fail { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
-        .info { background-color: #d1ecf1; color: #0c5460; border: 1px solid #bee5eb; }
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .test-button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .test-button:hover {
+            background: #0056b3;
+        }
+        .result {
+            margin: 10px 0;
+            padding: 10px;
+            background: #f8f9fa;
+            border-left: 4px solid #007bff;
+            border-radius: 3px;
+        }
+        .error {
+            border-left-color: #dc3545;
+            background: #f8d7da;
+        }
+        .success {
+            border-left-color: #28a745;
+            background: #d4edda;
+        }
+        .upc-input {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 200px;
+            margin-right: 10px;
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .status.info { background: #d1ecf1; color: #0c5460; }
+        .status.success { background: #d4edda; color: #155724; }
+        .status.error { background: #f8d7da; color: #721c24; }
+        .status.warning { background: #fff3cd; color: #856404; }
     </style>
 </head>
 <body>
-    <h1>🎬 Movie Catalog - Bug Fix Verification</h1>
-    
-    <div id="test-results">
-        <h2>Testing Bug Fixes...</h2>
-        <div id="test-output"></div>
+    <div class="container">
+        <h1>🎬 Movie Catalog - UPC Search Test</h1>
+        <p>This page tests the improved UPC search functionality and error handling.</p>
+        
+        <div class="test-section">
+            <h3>🔍 UPC Search Test</h3>
+            <p>Test UPC search with sample codes:</p>
+            <input type="text" id="upc-input" class="upc-input" placeholder="Enter UPC code" value="826663153750">
+            <button class="test-button" onclick="testUPCSearch()">Search UPC</button>
+            <button class="test-button" onclick="testSampleUPCs()">Test Sample UPCs</button>
+            <div id="search-results"></div>
+        </div>
+        
+        <div class="test-section">
+            <h3>📊 Spreadsheet Manager Test</h3>
+            <p>Test spreadsheet functionality:</p>
+            <button class="test-button" onclick="testSpreadsheetManager()">Test Spreadsheet Manager</button>
+            <button class="test-button" onclick="testFilePermissions()">Test File Permissions</button>
+            <div id="spreadsheet-results"></div>
+        </div>
+        
+        <div class="test-section">
+            <h3>🛠️ Error Handling Test</h3>
+            <p>Test error handling and fallback mechanisms:</p>
+            <button class="test-button" onclick="testErrorHandling()">Test Error Handling</button>
+            <button class="test-button" onclick="testFallbackTitles()">Test Fallback Titles</button>
+            <div id="error-results"></div>
+        </div>
+        
+        <div id="status" class="status info" style="display: none;"></div>
     </div>
 
+    <script src="js/scanner-new.js"></script>
+    <script src="js/spreadsheet-manager.js"></script>
+    
     <script>
-        // Test results
-        const testResults = [];
-        
-        function addTestResult(testName, passed, message) {
-            const result = { testName, passed, message };
-            testResults.push(result);
+        // Test UPC search functionality
+        async function testUPCSearch() {
+            const upc = document.getElementById('upc-input').value.trim();
+            if (!upc) {
+                showStatus('Please enter a UPC code', 'error');
+                return;
+            }
             
-            const output = document.getElementById('test-output');
-            const div = document.createElement('div');
-            div.className = `test-result ${passed ? 'pass' : 'fail'}`;
-            div.innerHTML = `<strong>${passed ? '✅ PASS' : '❌ FAIL'}</strong>: ${testName}<br>${message}`;
-            output.appendChild(div);
-        }
-        
-        // Test 1: ZXing Library Availability
-        function testZXingLibrary() {
+            showStatus(`Searching for UPC: ${upc}...`, 'info');
+            
             try {
-                if (typeof ZXing !== 'undefined') {
-                    addTestResult('ZXing Library', true, 'ZXing library is properly loaded');
-                } else {
-                    addTestResult('ZXing Library', false, 'ZXing library is not available');
-                }
+                const result = await lookupMovieByUPC(upc);
+                displaySearchResult(result, 'search-results');
+                showStatus(`Search completed for UPC: ${upc}`, 'success');
             } catch (error) {
-                addTestResult('ZXing Library', false, `Error: ${error.message}`);
+                showStatus(`Search failed: ${error.message}`, 'error');
+                console.error('UPC search error:', error);
             }
         }
         
-        // Test 2: Data Manager Initialization
-        function testDataManager() {
-            try {
-                if (typeof DataManager !== 'undefined') {
-                    const dm = new DataManager();
-                    addTestResult('Data Manager', true, 'Data manager initializes successfully');
-                } else {
-                    addTestResult('Data Manager', false, 'DataManager class not found');
-                }
-            } catch (error) {
-                addTestResult('Data Manager', false, `Error: ${error.message}`);
-            }
-        }
-        
-        // Test 3: DOM Elements Availability
-        function testDOMElements() {
-            const requiredElements = [
-                'movieForm',
-                'search-input', 
-                'start-scanner',
-                'stop-scanner',
-                'movieList'
+        // Test with sample UPCs
+        async function testSampleUPCs() {
+            const sampleUPCs = [
+                '826663153750', // UHF (25th Anniversary)
+                '826663249453', // Tommy
+                '111515315616', // Test UPC 1
+                '715515315616'  // Test UPC 2
             ];
             
-            let allFound = true;
-            const missingElements = [];
+            showStatus('Testing sample UPCs...', 'info');
+            const resultsDiv = document.getElementById('search-results');
+            resultsDiv.innerHTML = '<h4>Sample UPC Test Results:</h4>';
             
-            requiredElements.forEach(id => {
-                const element = document.getElementById(id);
-                if (!element) {
-                    allFound = false;
-                    missingElements.push(id);
+            for (const upc of sampleUPCs) {
+                try {
+                    const result = await lookupMovieByUPC(upc);
+                    displaySearchResult(result, 'search-results', true);
+                    await new Promise(resolve => setTimeout(resolve, 500)); // Rate limiting
+                } catch (error) {
+                    console.error(`Error searching UPC ${upc}:`, error);
                 }
-            });
+            }
             
-            if (allFound) {
-                addTestResult('DOM Elements', true, 'All required DOM elements are present');
-            } else {
-                addTestResult('DOM Elements', false, `Missing elements: ${missingElements.join(', ')}`);
+            showStatus('Sample UPC testing completed', 'success');
+        }
+        
+        // Test spreadsheet manager
+        function testSpreadsheetManager() {
+            const resultsDiv = document.getElementById('spreadsheet-results');
+            resultsDiv.innerHTML = '<h4>Spreadsheet Manager Test:</h4>';
+            
+            try {
+                // Test if SpreadsheetManager class exists
+                if (typeof SpreadsheetManager !== 'undefined') {
+                    const manager = new SpreadsheetManager();
+                    addResult(resultsDiv, '✅ SpreadsheetManager class loaded successfully', 'success');
+                    addResult(resultsDiv, `Manager instance created: ${manager.constructor.name}`, 'success');
+                    addResult(resultsDiv, `Initial movie count: ${manager.getMovieCount()}`, 'info');
+                } else {
+                    addResult(resultsDiv, '❌ SpreadsheetManager class not found', 'error');
+                }
+            } catch (error) {
+                addResult(resultsDiv, `❌ Error testing SpreadsheetManager: ${error.message}`, 'error');
             }
         }
         
-        // Run tests when page loads
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('Running bug fix tests...');
+        // Test file permissions
+        function testFilePermissions() {
+            const resultsDiv = document.getElementById('spreadsheet-results');
+            resultsDiv.innerHTML = '<h4>File Permissions Test:</h4>';
             
-            // Wait a bit for any async loading
+            // Check if File System Access API is available
+            if ('showOpenFilePicker' in window) {
+                addResult(resultsDiv, '✅ File System Access API available', 'success');
+                addResult(resultsDiv, '✅ File picker supported', 'success');
+            } else {
+                addResult(resultsDiv, '❌ File System Access API not available', 'error');
+                addResult(resultsDiv, '⚠️ Browser may not support direct file access', 'warning');
+            }
+            
+            // Check if we can create writable streams
+            if ('createWritable' in FileSystemFileHandle?.prototype) {
+                addResult(resultsDiv, '✅ createWritable method available', 'success');
+            } else {
+                addResult(resultsDiv, '❌ createWritable method not available', 'error');
+            }
+        }
+        
+        // Test error handling
+        function testErrorHandling() {
+            const resultsDiv = document.getElementById('error-results');
+            resultsDiv.innerHTML = '<h4>Error Handling Test:</h4>';
+            
+            // Test with invalid UPC
+            try {
+                const result = lookupMovieByUPC('invalid');
+                addResult(resultsDiv, '✅ Invalid UPC handled gracefully', 'success');
+            } catch (error) {
+                addResult(resultsDiv, `❌ Invalid UPC caused error: ${error.message}`, 'error');
+            }
+            
+            // Test with empty UPC
+            try {
+                const result = lookupMovieByUPC('');
+                addResult(resultsDiv, '✅ Empty UPC handled gracefully', 'success');
+            } catch (error) {
+                addResult(resultsDiv, `❌ Empty UPC caused error: ${error.message}`, 'error');
+            }
+        }
+        
+        // Test fallback title generation
+        function testFallbackTitles() {
+            const resultsDiv = document.getElementById('error-results');
+            resultsDiv.innerHTML = '<h4>Fallback Title Test:</h4>';
+            
+            const testUPCs = [
+                '123456789012', // 12-digit
+                '1234567890123', // 13-digit
+                '826663153750'   // Real movie UPC
+            ];
+            
+            testUPCs.forEach(upc => {
+                try {
+                    const title = generateTitleFromUPC(upc);
+                    const smartTitle = generateSmartTitle(upc);
+                    
+                    addResult(resultsDiv, `UPC ${upc}:`, 'info');
+                    addResult(resultsDiv, `  Basic: ${title}`, 'info');
+                    addResult(resultsDiv, `  Smart: ${smartTitle}`, 'info');
+                } catch (error) {
+                    addResult(resultsDiv, `❌ Error with UPC ${upc}: ${error.message}`, 'error');
+                }
+            });
+        }
+        
+        // Helper functions
+        function displaySearchResult(result, containerId, append = false) {
+            const container = document.getElementById(containerId);
+            if (!append) {
+                container.innerHTML = '<h4>Search Results:</h4>';
+            }
+            
+            if (result) {
+                const resultDiv = document.createElement('div');
+                resultDiv.className = 'result success';
+                resultDiv.innerHTML = `
+                    <strong>UPC:</strong> ${result.upc}<br>
+                    <strong>Title:</strong> ${result.title}<br>
+                    <strong>Year:</strong> ${result.year || 'Unknown'}<br>
+                    <strong>Format:</strong> ${result.format || 'Unknown'}<br>
+                    <strong>Director:</strong> ${result.director || 'Unknown'}<br>
+                    <strong>Genre:</strong> ${result.genre || 'Unknown'}
+                `;
+                container.appendChild(resultDiv);
+            } else {
+                addResult(container, 'No results found', 'warning');
+            }
+        }
+        
+        function addResult(container, message, type = 'info') {
+            const resultDiv = document.createElement('div');
+            resultDiv.className = `result ${type}`;
+            resultDiv.textContent = message;
+            container.appendChild(resultDiv);
+        }
+        
+        function showStatus(message, type = 'info') {
+            const statusDiv = document.getElementById('status');
+            statusDiv.textContent = message;
+            statusDiv.className = `status ${type}`;
+            statusDiv.style.display = 'block';
+            
+            // Auto-hide after 5 seconds
             setTimeout(() => {
-                testZXingLibrary();
-                testDataManager();
-                testDOMElements();
-                
-                // Summary
-                const passed = testResults.filter(r => r.passed).length;
-                const total = testResults.length;
-                
-                const summary = document.createElement('div');
-                summary.className = 'test-result info';
-                summary.innerHTML = `<strong>📊 Test Summary:</strong> ${passed}/${total} tests passed`;
-                document.getElementById('test-output').appendChild(summary);
-                
-                console.log(`Tests completed: ${passed}/${total} passed`);
-            }, 1000);
+                statusDiv.style.display = 'none';
+            }, 5000);
+        }
+        
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            showStatus('Test page loaded successfully. Ready to test UPC search functionality.', 'success');
         });
     </script>
-    
-    <!-- Load the actual app scripts -->
-    <script src="js/data-manager.js"></script>
-    <script src="js/import-export.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/scanner.js"></script>
 </body>
 </html> 

@@ -16,11 +16,72 @@ class DataManager {
             if (stored) {
                 this.movies = JSON.parse(stored);
                 console.log(`📥 Loaded ${this.movies.length} movies from local storage`);
-            }
-        } catch (error) {
-            console.error('❌ Error loading from storage:', error);
+                    } else {
+            // No data exists - start with empty collection
             this.movies = [];
+            console.log('📚 Starting with empty movie collection');
         }
+    } catch (error) {
+        console.error('❌ Error loading from storage:', error);
+        this.movies = [];
+        console.log('📚 Starting with empty movie collection');
+    }
+    }
+    
+    // Add demo movies for testing - DISABLED in v1.0
+    addDemoMovies() {
+        // Demo movies removed - app now starts with empty collection
+        return;
+        const demoMovies = [
+            {
+                title: "The Matrix (demo)",
+                year: 1999,
+                director: "Wachowski Sisters",
+                genre: "Sci-Fi",
+                runtime: 136,
+                formats: ["DVD", "Blu-ray"],
+                upc: "1234567890123",
+                image: "",
+                dateAdded: new Date().toISOString()
+            },
+            {
+                title: "Inception (demo)",
+                year: 2010,
+                director: "Christopher Nolan",
+                genre: "Sci-Fi",
+                runtime: 148,
+                formats: ["Blu-ray", "4K"],
+                upc: "2345678901234",
+                image: "",
+                dateAdded: new Date().toISOString()
+            },
+            {
+                title: "Pulp Fiction (demo)",
+                year: 1994,
+                director: "Quentin Tarantino",
+                genre: "Crime",
+                runtime: 154,
+                formats: ["DVD"],
+                upc: "3456789012345",
+                image: "",
+                dateAdded: new Date().toISOString()
+            },
+            {
+                title: "The Shawshank Redemption (demo)",
+                year: 1994,
+                director: "Frank Darabont",
+                genre: "Drama",
+                runtime: 142,
+                formats: ["Blu-ray"],
+                upc: "4567890123456",
+                image: "",
+                dateAdded: new Date().toISOString()
+            }
+        ];
+        
+        this.movies = demoMovies;
+        this.saveToStorage();
+        console.log('📚 Added demo movies for testing');
     }
 
     // Save movies to localStorage
@@ -266,6 +327,13 @@ class DataManager {
         localStorage.removeItem(this.storageKey);
         console.log('🗑️ All data cleared');
     }
+    
+    // Clear demo data and reset to empty
+    clearDemoData() {
+        this.movies = [];
+        localStorage.removeItem(this.storageKey);
+        console.log('🗑️ Demo data cleared, localStorage reset');
+    }
 
     // Get collection statistics
     getStats() {
@@ -292,9 +360,19 @@ class DataManager {
 
             // Format stats
             if (movie.formats) {
-                const formats = movie.formats.split(',').map(f => f.trim());
-                formats.forEach(format => {
-                    stats.byFormat[format] = (stats.byFormat[format] || 0) + 1;
+                let formatsArray;
+                if (Array.isArray(movie.formats)) {
+                    formatsArray = movie.formats;
+                } else if (typeof movie.formats === 'string') {
+                    formatsArray = movie.formats.split(',').map(f => f.trim());
+                } else {
+                    formatsArray = [];
+                }
+                
+                formatsArray.forEach(format => {
+                    if (format) {
+                        stats.byFormat[format] = (stats.byFormat[format] || 0) + 1;
+                    }
                 });
             }
         });

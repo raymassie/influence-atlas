@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPC Scanner Test</title>
+    <script src="https://unpkg.com/@zxing/library@latest/umd/index.min.js"></script>
+</head>
+<body>
+    <h1>UPC Scanner Test</h1>
+    <p>Testing the improved UPC lookup functionality...</p>
+    
+    <div>
+        <label for="test-upc">Test UPC:</label>
+        <input type="text" id="test-upc" value="715515315616" placeholder="Enter UPC to test">
+        <button onclick="testUPCLookup()">Test UPC Lookup</button>
+    </div>
+    
+    <div id="results"></div>
+    
+    <script>
+        // Import the functions from scanner-new.js
+        async function testUPCLookup() {
+            const upc = document.getElementById('test-upc').value.trim();
+            const resultsDiv = document.getElementById('results');
+            
+            if (!upc) {
+                resultsDiv.innerHTML = '<p style="color: red;">Please enter a UPC</p>';
+                return;
+            }
+            
+            resultsDiv.innerHTML = '<p>Testing UPC: ' + upc + '...</p>';
+            
+            try {
+                // Test the title validation
+                const testTitles = ["Google Search", "DOCTYPE html", "The Matrix", upc];
+                resultsDiv.innerHTML += '<h3>Title Validation Test:</h3>';
+                
+                testTitles.forEach(title => {
+                    const isValid = isValidTitle(title);
+                    const status = isValid ? "✅ VALID" : "❌ REJECTED";
+                    resultsDiv.innerHTML += `<p>${status}: "${title}"</p>`;
+                });
+                
+                // Test UPC-based title generation
+                resultsDiv.innerHTML += '<h3>UPC Title Generation Test:</h3>';
+                const generatedTitle = generateSmartTitle(upc);
+                resultsDiv.innerHTML += `<p>Generated title: <strong>${generatedTitle}</strong></p>`;
+                
+                // Test the full lookup simulation
+                resultsDiv.innerHTML += '<h3>Full Lookup Simulation:</h3>';
+                
+                // Simulate poor search results (like what was happening before)
+                const poorSearchResults = [
+                    { title: "Google Search", score: 5 },
+                    { title: "DOCTYPE html", score: 3 }
+                ];
+                
+                resultsDiv.innerHTML += '<p>Poor search results that should be rejected:</p>';
+                poorSearchResults.forEach(result => {
+                    const isValid = isValidTitle(result.title);
+                    resultsDiv.innerHTML += `<p>"${result.title}" - ${isValid ? "VALID" : "REJECTED"}</p>`;
+                });
+                
+                // Test the fallback logic
+                const bestResult = poorSearchResults[0];
+                if (bestResult && bestResult.title && isValidTitle(bestResult.title)) {
+                    resultsDiv.innerHTML += '<p>✅ Using search result: ' + bestResult.title + '</p>';
+                } else {
+                    resultsDiv.innerHTML += '<p>❌ Search result rejected: ' + bestResult?.title + '</p>';
+                    resultsDiv.innerHTML += '<p>💡 Generating fallback title...</p>';
+                    const fallbackTitle = generateSmartTitle(upc);
+                    resultsDiv.innerHTML += '<p>✅ Fallback title: <strong>' + fallbackTitle + '</strong></p>';
+                }
+                
+            } catch (error) {
+                resultsDiv.innerHTML += '<p style="color: red;">Error: ' + error.message + '</p>';
+            }
+        }
+        
+        // Copy the functions from scanner-new.js
+        function isValidTitle(title) {
+            if (!title || title.length < 5 || title.length > 200) return false;
+            
+            // Reject titles that contain JavaScript code or HTML
+            if (title.includes('<') || title.includes('>') || title.includes('{') || title.includes('}')) return false;
+            if (title.includes('function') || title.includes('var ') || title.includes('google.')) return false;
+            if (title.includes('script') || title.includes('onclick') || title.includes('onload')) return false;
+            
+            // Reject generic HTML and browser content
+            if (title.toLowerCase().includes('doctype') || title.toLowerCase().includes('html')) return false;
+            if (title.toLowerCase().includes('google search') || title.toLowerCase().includes('bing search')) return false;
+            if (title.toLowerCase().includes('search results') || title.toLowerCase().includes('search engine')) return false;
+            if (title.toLowerCase().includes('webpage') || title.toLowerCase().includes('page not found')) return false;
+            
+            // CRITICAL: Reject generic copyright and company names
+            if (title.toLowerCase().includes('copyright') || title.toLowerCase().includes('llc')) return false;
+            if (title.toLowerCase().includes('google') || title.toLowerCase().includes('bing')) return false;
+            if (title.toLowerCase().includes('duckduckgo') || title.toLowerCase().includes('privacy')) return false;
+            if (title.toLowerCase().includes('intelligent search') || title.toLowerCase().includes('makes it easier')) return false;
+            
+            // CRITICAL: Reject technical/component terms that are clearly not movie titles
+            if (title.toLowerCase().includes('component') || title.toLowerCase().includes('state')) return false;
+            if (title.toLowerCase().includes('invalid') || title.toLowerCase().includes('error')) return false;
+            if (title.toLowerCase().includes('webfont') || title.toLowerCase().includes('font')) return false;
+            if (title.toLowerCase().includes('rsontop') || title.toLowerCase().includes('wflare')) return false;
+            
+            // Reject titles that are just random characters or technical gibberish
+            if (/^[A-Za-z0-9]{20,}$/.test(title)) return false;
+            if (/^[A-Z][a-z]+[A-Z][a-z]+[A-Z][a-z]+/.test(title)) return false; // camelCase patterns
+            
+            // Reject titles that are just punctuation or numbers
+            if (/^[^A-Za-z]*$/.test(title)) return false;
+            
+            // Must contain at least some letters
+            if (!/[A-Za-z]/.test(title)) return false;
+            
+            // Must look like a movie title (not just generic text)
+            if (title.length < 8) return false; // Too short to be a real movie title
+            
+            // Reject titles that are clearly not movie titles
+            if (title.toLowerCase().includes('search') || title.toLowerCase().includes('browser')) return false;
+            if (title.toLowerCase().includes('simplified') || title.toLowerCase().includes('quickly find')) return false;
+            
+            // CRITICAL: Must contain spaces or look like a real movie title
+            if (!title.includes(' ') && title.length < 15) return false; // Single words are rarely movie titles
+            
+            return true;
+        }
+                   
+                   // Reject titles that are just random characters
+                   if (/^[A-Za-z0-9]{20,}$/.test(title)) return false;
+                   
+                   // Reject titles that are just punctuation or numbers
+                   if (/^[^A-Za-z]*$/.test(title)) return false;
+                   
+                   // Must contain at least some letters
+                   if (!/[A-Za-z]/.test(title)) return false;
+                   
+                   // Must look like a movie title (not just generic text)
+                   if (title.length < 8) return false; // Too short to be a real movie title
+                   
+                   // Reject titles that are clearly not movie titles
+                   if (title.toLowerCase().includes('search') || title.toLowerCase().includes('browser')) return false;
+                   if (title.toLowerCase().includes('simplified') || title.toLowerCase().includes('quickly find')) return false;
+                   
+                   return true;
+               }
+        
+        function generateSmartTitle(upc) {
+            const upcStr = upc.toString();
+            
+            if (upcStr.length === 12 || upcStr.length === 13) {
+                const moviePatterns = [
+                    { prefix: '0', format: 'DVD', description: 'Standard DVD' },
+                    { prefix: '1', format: 'Blu-ray', description: 'Blu-ray Disc' },
+                    { prefix: '2', format: 'Blu-ray', description: 'Blu-ray Disc' },
+                    { prefix: '3', format: 'Blu-ray', description: 'Blu-ray Disc' },
+                    { prefix: '5', format: '4K', description: '4K Ultra HD' },
+                    { prefix: '6', format: '4K', description: '4K Ultra HD' },
+                    { prefix: '7', format: 'DVD', description: 'Standard DVD' },
+                    { prefix: '8', format: 'Blu-ray', description: 'Blu-ray Disc' },
+                    { prefix: '9', format: 'DVD', description: 'Standard DVD' }
+                ];
+                
+                const firstDigit = upcStr[0];
+                const pattern = moviePatterns.find(p => p.prefix === firstDigit);
+                
+                if (pattern) {
+                    return `Unknown ${pattern.description} Movie [UPC: ${upc}]`;
+                }
+            }
+            
+            return `Unknown Movie [UPC: ${upc}]`;
+        }
+        
+        // Auto-test when page loads
+        window.onload = function() {
+            setTimeout(() => {
+                testUPCLookup();
+            }, 1000);
+        };
+    </script>
+</body>
+</html>

@@ -8,6 +8,26 @@ let dataManager = null;
 let autoSaveEnabled = false;
 let autoSaveFile = null;
 
+// Helper function to safely handle formats (convert string to array if needed)
+function getFormatsArray(formats) {
+    if (!formats) return [];
+    if (Array.isArray(formats)) return formats;
+    if (typeof formats === 'string') {
+        return formats.split(',').map(f => f.trim()).filter(f => f);
+    }
+    return [];
+}
+
+// Helper function to safely display formats
+function displayFormats(formats) {
+    const formatsArray = getFormatsArray(formats);
+    if (formatsArray.length === 0) return '';
+    
+    return formatsArray.map(format => 
+        `<span class="format-tag">${escapeHtml(format)}</span>`
+    ).join('');
+}
+
 function enableAutoSave() {
     autoSaveEnabled = true;
     showMessage('Auto-save enabled - scanned movies will be saved to file automatically', 'success');
@@ -398,9 +418,7 @@ function displayMoviesAsCards(movies) {
                     <p class="movie-genre">${movie.genre || ''}</p>
                     <p class="movie-runtime">${movie.runtime || ''}</p>
                     <div class="movie-formats">
-                        ${movie.formats ? movie.formats.split(',').map(format => 
-                            `<span class="format-tag">${format.trim()}</span>`
-                        ).join('') : ''}
+                        ${displayFormats(movie.formats)}
                     </div>
                     <p class="movie-upc">UPC: ${movie.upc || ''}</p>
                     <p class="movie-added">Added: ${movie.added || ''}</p>
@@ -449,9 +467,7 @@ function displayMoviesAsTable(movies) {
             <td class="movie-genre">${movie.genre}</td>
             <td class="movie-runtime">${movie.runtime}</td>
             <td class="movie-formats">
-                ${movie.formats ? movie.formats.split(',').map(format => 
-                    `<span class="format-tag">${format.trim()}</span>`
-                ).join('') : ''}
+                ${displayFormats(movie.formats)}
             </td>
             <td class="movie-upc">${movie.upc}</td>
             <td class="movie-added">${movie.added}</td>
@@ -739,28 +755,82 @@ function showMessage(message, type = 'info') {
 // Helper function to fill form with movie data (used by scanner)
 function fillFormWithMovieData(movieData) {
     console.log('Filling form with movie data:', movieData);
+    console.log('Movie data keys:', Object.keys(movieData));
+    console.log('Movie data values:', Object.values(movieData));
     
-    // Use correct field IDs from HTML
+    // First clear all form fields (but skip title reset since we'll set it for editing)
+    clearAddMovieForm(true);
+    
+    // Use correct field IDs from HTML (only fields that actually exist)
     const fields = {
         'title': movieData.title || '',
         'year': movieData.year || '',
         'genre': movieData.genre || '',
         'director': movieData.director || '',
-        'producer': movieData.producer || '',
-        'studio': movieData.studio || '',
         'runtime': movieData.runtime || '',
-        'upc': movieData.upc || '',
-        'asin': movieData.asin || '',
-        'notes': movieData.notes || ''
+        'upc': movieData.upc || ''
     };
     
     Object.keys(fields).forEach(fieldId => {
         const field = document.getElementById(fieldId);
         if (field) {
             field.value = fields[fieldId];
-            console.log(`Set ${fieldId} to: ${fields[fieldId]}`);
+            console.log(`✅ Set ${fieldId} to: ${fields[fieldId]}`);
+        } else {
+            console.log(`❌ Field not found: ${fieldId}`);
         }
     });
+    
+    // Handle format checkboxes specially
+    const formatCheckboxes = document.querySelectorAll('input[name="formats"]');
+    formatCheckboxes.forEach(checkbox => {
+        checkbox.checked = false; // Clear all first
+    });
+    
+    // Set the correct format based on movie data
+    if (movieData.format) {
+        const formatValue = movieData.format;
+        const matchingCheckbox = document.querySelector(`input[name="formats"][value="${formatValue}"]`);
+        if (matchingCheckbox) {
+            matchingCheckbox.checked = true;
+            console.log(`Set format to: ${formatValue}`);
+        } else {
+            console.log(`Format not found: ${formatValue}`);
+        }
+    }
+}
+
+// Clear the add movie form
+function clearAddMovieForm(skipTitleReset = false) {
+    console.log('Clearing add movie form, skipTitleReset:', skipTitleReset);
+    
+    // Clear all text inputs (only existing fields)
+    const textFields = ['title', 'year', 'genre', 'director', 'runtime', 'upc'];
+    textFields.forEach(fieldId => {
+        const field = document.getElementById(fieldId);
+        if (field) {
+            field.value = '';
+        }
+    });
+    
+    // Clear all format checkboxes
+    const formatCheckboxes = document.querySelectorAll('input[name="formats"]');
+    formatCheckboxes.forEach(checkbox => {
+        checkbox.checked = false;
+    });
+    
+    // Reset modal title and button text (only if not editing)
+    if (!skipTitleReset) {
+        const modalTitle = document.querySelector('#addMovieModal .modal-header h2');
+        if (modalTitle) {
+            modalTitle.textContent = '➕ Add New Movie';
+        }
+        
+        const submitBtn = document.querySelector('#addMovieModal .submit-btn');
+        if (submitBtn) {
+            submitBtn.textContent = 'Add Movie';
+        }
+    }
 }
 
 // Functions to maintain compatibility
@@ -768,6 +838,30 @@ function closeConfigModal() {
     const modal = document.getElementById('config-modal');
     if (modal) {
         modal.style.display = 'none';
+    }
+}
+
+// Clear demo data and reset to empty state
+function clearDemoData() {
+    if (confirm('Are you sure you want to clear all demo data? This will reset the app to an empty state.')) {
+        try {
+            if (dataManager) {
+                dataManager.clearDemoData();
+                console.log('✅ Demo data cleared');
+                showMessage('Demo data cleared successfully', 'success');
+                
+                // Refresh the display
+                displayMovies();
+                updateMovieCount();
+            } else {
+                console.error('Data manager not available');
+                showMessage('Data manager not available', 'error');
+            }
+        } catch (error) {
+            console.error('Failed to clear demo data:', error);
+            showMessage('Failed to clear demo data: ' + error.message, 'error');
+            showMessage('Failed to clear demo data: ' + error.message, 'error');
+        }
     }
 }
 
@@ -857,36 +951,70 @@ if (typeof window !== 'undefined') {
 }
 
 // Modal functions
-function showAddMovieForm() {
-    const modal = document.getElementById('add-movie-modal');
-    modal.style.display = 'flex';
-    document.body.style.overflow = 'hidden'; // Prevent background scrolling
+function showAddMovieForm(isEdit = false) {
+    // Clear the form when opening for manual add (but not when editing)
+    if (!isEdit) { // No argument means it's a manual add, not an edit
+        clearAddMovieForm();
+    }
+    
+    const modal = document.getElementById('addMovieModal');
+    if (modal) {
+        modal.style.display = 'flex';
+        document.body.style.overflow = 'hidden'; // Prevent background scrolling
+    } else {
+        console.error('Modal not found: addMovieModal');
+    }
 }
 
 function hideAddMovieForm() {
-    const modal = document.getElementById('add-movie-modal');
-    modal.style.display = 'none';
-    document.body.style.overflow = 'auto'; // Restore scrolling
+    const modal = document.getElementById('addMovieModal');
+    if (modal) {
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto'; // Restore scrolling
+    }
 }
 
-// Enhanced openScanner function
+// Enhanced openScanner function - starts scanner immediately
 function openScanner() {
+    console.log('Opening scanner modal...');
     const scannerModal = document.getElementById('scanner-modal');
-    scannerModal.style.display = 'flex';
-    document.body.style.overflow = 'hidden';
     
-    // Initialize and start scanner when modal opens
-    if (typeof initializeScanner === 'function') {
-        initializeScanner();
-        
-        // Auto-start the scanner after a brief delay
-        setTimeout(() => {
-            if (typeof startScanner === 'function') {
-                console.log('Auto-starting camera...');
-                startScanner();
-            }
-        }, 500);
+    if (!scannerModal) {
+        console.error('Scanner modal not found');
+        showMessage('Scanner modal not found', 'error');
+        return;
     }
+    
+    scannerModal.style.display = 'flex';
+    document.body.style.overflow = 'auto';
+    
+    console.log('Scanner modal opened, checking scanner status...');
+    
+    // Wait a moment for the modal to be fully visible, then check scanner status
+    setTimeout(() => {
+        // Check if scanner is already initialized and active
+        if (typeof startScanner === 'function') {
+            console.log('Scanner ready, starting...');
+            startScanner();
+        } else if (typeof initializeScanner === 'function') {
+            console.log('Scanner not initialized, initializing first...');
+            initializeScanner();
+            
+            // Start scanner after initialization
+            setTimeout(() => {
+                if (typeof startScanner === 'function') {
+                    console.log('Starting scanner...');
+                    startScanner();
+                } else {
+                    console.error('startScanner function not available');
+                    showMessage('Scanner function not available', 'error');
+                }
+            }, 1000); // Give scanner time to initialize
+        } else {
+            console.error('Scanner functions not available');
+            showMessage('Scanner initialization failed - please refresh the page', 'error');
+        }
+    }, 100);
 }
 
 // Enhanced closeScannerModal function
@@ -963,14 +1091,26 @@ function promptSpreadsheetAction() {
 
 // Enhanced displayMovies function to use spreadsheet data
 function displayMovies() {
-    // Use spreadsheet manager if connected, otherwise fall back to data manager
     let movies = [];
     let dataSource = 'none';
     
     if (spreadsheetManager && spreadsheetManager.getConnectionStatus()) {
-        movies = spreadsheetManager.getAllMovies();
-        dataSource = 'spreadsheet';
-        console.log('📊 Using spreadsheet data:', movies.length, 'movies');
+        // Refresh from file to ensure synchronization
+        spreadsheetManager.refreshFromFile().then(() => {
+            movies = spreadsheetManager.getAllMovies();
+            dataSource = 'spreadsheet';
+            console.log('📊 Using spreadsheet data:', movies.length, 'movies');
+            
+            // Continue with display after refresh
+            continueDisplayMovies(movies, dataSource);
+        }).catch(error => {
+            console.error('Failed to refresh spreadsheet:', error);
+            // Fall back to current data
+            movies = spreadsheetManager.getAllMovies();
+            dataSource = 'spreadsheet';
+            continueDisplayMovies(movies, dataSource);
+        });
+        return; // Exit early, continueDisplayMovies will be called after refresh
     } else if (dataManager) {
         movies = dataManager.getAllMovies();
         dataSource = 'local storage';
@@ -980,6 +1120,12 @@ function displayMovies() {
         return;
     }
     
+    // If we get here, continue with display immediately
+    continueDisplayMovies(movies, dataSource);
+}
+
+// Helper function to continue displaying movies after data is ready
+function continueDisplayMovies(movies, dataSource) {
     console.log('📊 Data source:', dataSource, 'Movies:', movies.length);
     
     const searchTerm = document.getElementById('search-input')?.value?.toLowerCase() || '';
@@ -1037,6 +1183,8 @@ function displayMovies() {
 // Function to edit movie
 function editMovie(movieId) {
     console.log('🎬 Edit movie called with ID:', movieId);
+    console.log('🎬 movieId type:', typeof movieId);
+    console.log('🎬 movieId value:', JSON.stringify(movieId));
     
     // Get the movie data
     let movie = null;
@@ -1051,6 +1199,8 @@ function editMovie(movieId) {
         console.log('🎬 Looking in data manager...');
         const movies = dataManager.getAllMovies();
         console.log('🎬 All data manager movies:', movies);
+        console.log('🎬 Searching for movieId:', movieId);
+        console.log('🎬 Movie IDs in collection:', movies.map(m => m.id));
         movie = movies.find(m => m.id === movieId);
         console.log('🎬 Found movie in data manager:', movie);
     }
@@ -1066,17 +1216,17 @@ function editMovie(movieId) {
     // Fill the form with movie data
     fillFormWithMovieData(movie);
     
-    // Show the add movie modal
-    showAddMovieForm();
+    // Show the add movie modal (pass true to indicate this is an edit)
+    showAddMovieForm(true);
     
     // Update the form title to indicate editing
-    const modalTitle = document.querySelector('#add-movie-modal .modal-header h2');
+    const modalTitle = document.querySelector('#addMovieModal .modal-header h2');
     if (modalTitle) {
         modalTitle.textContent = '✏️ Edit Movie';
     }
     
     // Change the submit button text
-    const submitBtn = document.querySelector('#add-movie-modal .submit-btn');
+    const submitBtn = document.querySelector('#addMovieModal .submit-btn');
     if (submitBtn) {
         submitBtn.textContent = 'Update Movie';
     }
@@ -1198,3 +1348,9 @@ function autoReconnectSpreadsheet() {
         }
     }
 }
+
+// Make key functions globally available
+window.displayMovies = displayMovies;
+window.showMessage = showMessage;
+window.getFormatsArray = getFormatsArray;
+window.displayFormats = displayFormats;

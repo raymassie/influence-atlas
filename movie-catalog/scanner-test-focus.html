@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scanner Test - Focused</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 1000px; margin: 0 auto; padding: 20px; }
+        .test-section { margin: 20px 0; padding: 15px; border: 1px solid #ddd; border-radius: 5px; }
+        .result { margin: 10px 0; padding: 10px; background: #f8f9fa; border-left: 4px solid #007bff; }
+        .error { border-left-color: #dc3545; background: #f8d7da; }
+        .success { border-left-color: #28a745; background: #d4edda; }
+        .warning { border-left-color: #ffc107; background: #fff3cd; }
+        button { background: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; margin: 5px; }
+        input { padding: 8px; border: 1px solid #ddd; border-radius: 4px; width: 200px; margin-right: 10px; }
+        .log { background: #000; color: #0f0; padding: 10px; border-radius: 5px; font-family: monospace; max-height: 400px; overflow-y: auto; }
+    </style>
+</head>
+<body>
+    <h1>🔍 Scanner Test - Focused Analysis</h1>
+    
+    <div class="test-section">
+        <h3>UPC Search Test</h3>
+        <input type="text" id="upc-input" placeholder="Enter UPC code" value="826663153750">
+        <button onclick="testUPCSearch()">Test UPC Search</button>
+        <button onclick="testCORSProxies()">Test CORS Proxies</button>
+        <button onclick="clearLog()">Clear Log</button>
+    </div>
+    
+    <div class="test-section">
+        <h3>Results</h3>
+        <div id="results"></div>
+    </div>
+    
+    <div class="test-section">
+        <h3>Console Log</h3>
+        <div id="log" class="log"></div>
+    </div>
+
+    <script src="js/scanner-new.js"></script>
+    
+    <script>
+        // Capture console output
+        const originalLog = console.log;
+        const originalError = console.error;
+        const originalWarn = console.warn;
+        
+        function addToLog(message, type = 'log') {
+            const logDiv = document.getElementById('log');
+            const timestamp = new Date().toLocaleTimeString();
+            const color = type === 'error' ? '#ff6b6b' : type === 'warn' ? '#ffd93d' : '#6bcf7f';
+            logDiv.innerHTML += `<div style="color: ${color}">[${timestamp}] ${message}</div>`;
+            logDiv.scrollTop = logDiv.scrollHeight;
+        }
+        
+        console.log = function(...args) {
+            originalLog.apply(console, args);
+            addToLog(args.join(' '), 'log');
+        };
+        
+        console.error = function(...args) {
+            originalError.apply(console, args);
+            addToLog('ERROR: ' + args.join(' '), 'error');
+        };
+        
+        console.warn = function(...args) {
+            originalWarn.apply(console, args);
+            addToLog('WARN: ' + args.join(' '), 'warn');
+        };
+        
+        // Test UPC search
+        async function testUPCSearch() {
+            const upc = document.getElementById('upc-input').value.trim();
+            const resultsDiv = document.getElementById('results');
+            
+            if (!upc) {
+                resultsDiv.innerHTML = '<div class="result error">Please enter a UPC</div>';
+                return;
+            }
+            
+            resultsDiv.innerHTML = '<div class="result">Testing UPC: ' + upc + '...</div>';
+            addToLog(`Starting UPC search for: ${upc}`);
+            
+            try {
+                const startTime = Date.now();
+                const result = await lookupMovieByUPC(upc);
+                const endTime = Date.now();
+                
+                if (result) {
+                    resultsDiv.innerHTML += `
+                        <div class="result success">
+                            <h4>✅ Search Successful</h4>
+                            <p><strong>UPC:</strong> ${result.upc}</p>
+                            <p><strong>Title:</strong> ${result.title}</p>
+                            <p><strong>Year:</strong> ${result.year || 'Unknown'}</p>
+                            <p><strong>Format:</strong> ${result.format || 'Unknown'}</p>
+                            <p><strong>Director:</strong> ${result.director || 'Unknown'}</p>
+                            <p><strong>Genre:</strong> ${result.genre || 'Unknown'}</p>
+                            <p><strong>Search Time:</strong> ${endTime - startTime}ms</p>
+                        </div>
+                    `;
+                } else {
+                    resultsDiv.innerHTML += '<div class="result warning">❌ No results found</div>';
+                }
+            } catch (error) {
+                resultsDiv.innerHTML += `<div class="result error">❌ Search failed: ${error.message}</div>`;
+                addToLog(`Search error: ${error.message}`, 'error');
+            }
+        }
+        
+        // Test CORS proxies directly
+        async function testCORSProxies() {
+            const upc = document.getElementById('upc-input').value.trim();
+            const resultsDiv = document.getElementById('results');
+            
+            if (!upc) {
+                resultsDiv.innerHTML = '<div class="result error">Please enter a UPC</div>';
+                return;
+            }
+            
+            resultsDiv.innerHTML = '<div class="result">Testing CORS proxies for UPC: ' + upc + '...</div>';
+            
+            const proxies = [
+                `https://corsproxy.io/?https://www.google.com/search?q=${upc}`,
+                `https://api.allorigins.win/raw?url=${encodeURIComponent(`https://www.google.com/search?q=${upc}`)}`,
+                `https://cors-anywhere.herokuapp.com/https://www.google.com/search?q=${upc}`
+            ];
+            
+            for (let i = 0; i < proxies.length; i++) {
+                const proxy = proxies[i];
+                const proxyName = proxy.split('//')[1].split('/')[0];
+                
+                try {
+                    addToLog(`Testing proxy ${i + 1}: ${proxyName}`);
+                    resultsDiv.innerHTML += `<div class="result">Testing ${proxyName}...</div>`;
+                    
+                    const response = await fetch(proxy);
+                    if (response.ok) {
+                        const html = await response.text();
+                        const title = extractTitleFromHTML(html);
+                        
+                        if (title) {
+                            resultsDiv.innerHTML += `<div class="result success">✅ ${proxyName}: Found title "${title}"</div>`;
+                        } else {
+                            resultsDiv.innerHTML += `<div class="result warning">⚠️ ${proxyName}: No title found</div>`;
+                        }
+                    } else {
+                        resultsDiv.innerHTML += `<div class="result error">❌ ${proxyName}: HTTP ${response.status}</div>`;
+                    }
+                } catch (error) {
+                    resultsDiv.innerHTML += `<div class="result error">❌ ${proxyName}: ${error.message}</div>`;
+                    addToLog(`Proxy ${proxyName} failed: ${error.message}`, 'error');
+                }
+                
+                // Rate limiting
+                await new Promise(resolve => setTimeout(resolve, 1000));
+            }
+        }
+        
+        function clearLog() {
+            document.getElementById('log').innerHTML = '';
+            document.getElementById('results').innerHTML = '';
+        }
+        
+        // Helper function to extract title from HTML
+        function extractTitleFromHTML(html) {
+            try {
+                // Look for Google search result titles
+                const titleMatches = html.match(/<h3[^>]*class="[^"]*LC20lb[^"]*"[^>]*>([^<]+)<\/h3>/i);
+                if (titleMatches && titleMatches[1]) {
+                    return titleMatches[1].trim();
+                }
+                
+                // Fallback: look for any h3 tags
+                const fallbackMatches = html.match(/<h3[^>]*>([^<]+)<\/h3>/i);
+                if (fallbackMatches && fallbackMatches[1]) {
+                    return fallbackMatches[1].trim();
+                }
+                
+                return null;
+            } catch (error) {
+                return null;
+            }
+        }
+        
+        // Auto-test when page loads
+        window.onload = function() {
+            addToLog('Scanner test page loaded. Ready to test UPC search functionality.');
+        };
+    </script>
+</body>
+</html>

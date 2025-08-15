@@ -1,10 +1,11 @@
 // Spreadsheet Manager
 class SpreadsheetManager {
     constructor() {
-        this.selectedFile = null;
-        this.fileHandle = null;
         this.movies = [];
+        this.fileHandle = null;
+        this.selectedFile = null;
         this.isConnected = false;
+        this.statusElement = null; // Add status element as class property
     }
 
     async selectSpreadsheet() {
@@ -52,6 +53,11 @@ class SpreadsheetManager {
                 return false;
             }
         } catch (error) {
+            // Handle user cancellation gracefully
+            if (error.name === 'AbortError') {
+                console.log('User cancelled file selection');
+                return false;
+            }
             console.error('Failed to select spreadsheet:', error);
             showMessage('Failed to select spreadsheet. Please try again.', 'error');
             return false;
@@ -225,52 +231,91 @@ class SpreadsheetManager {
     }
 
     async saveToSpreadsheet() {
-        if (!this.fileHandle || !this.isConnected) {
-            console.error('No spreadsheet connected');
-            return false;
-        }
-
         try {
-            // Read current file content to preserve any data not in memory
-            const file = await this.fileHandle.getFile();
-            const currentContent = await file.text();
-            const currentMovies = this.parseCSV(currentContent);
+            console.log('🔄 Starting save to spreadsheet...');
+            console.log('📁 File handle:', this.fileHandle);
+            console.log('📊 Movies to save:', this.movies.length);
             
-            // Merge current movies with in-memory movies (avoid duplicates)
-            const allMovies = [...currentMovies];
+            if (!this.fileHandle) {
+                throw new Error('No spreadsheet selected');
+            }
             
-            this.movies.forEach(newMovie => {
-                const exists = allMovies.find(existing => 
-                    existing.upc === newMovie.upc || 
-                    (existing.title.toLowerCase() === newMovie.title.toLowerCase() && 
-                     existing.year === newMovie.year)
-                );
-                
-                if (!exists) {
-                    allMovies.push(newMovie);
+            // Check if we have permission to write to the file
+            console.log('🔐 Checking file permissions...');
+            const permission = await this.fileHandle.queryPermission({ mode: 'readwrite' });
+            console.log('🔐 Current permission:', permission);
+            
+            if (permission === 'denied') {
+                console.log('🔐 Permission denied, requesting access...');
+                // Request permission from user
+                const newPermission = await this.fileHandle.requestPermission({ mode: 'readwrite' });
+                console.log('🔐 New permission result:', newPermission);
+                if (newPermission !== 'granted') {
+                    throw new Error('Permission denied for file write access');
                 }
-            });
+            }
             
             // Generate CSV with all movies
-            const csvContent = this.generateCSV(allMovies);
+            console.log('📝 Generating CSV content...');
+            const csvContent = this.generateCSV(this.movies);
+            console.log('📝 CSV content length:', csvContent.length);
+            console.log('📝 CSV preview:', csvContent.substring(0, 200) + '...');
             
-            const writable = await this.fileHandle.createWritable();
+            // Create writable stream with proper error handling
+            console.log('✍️ Creating writable stream...');
+            let writable;
+            try {
+                writable = await this.fileHandle.createWritable();
+                console.log('✍️ Writable stream created successfully');
+            } catch (error) {
+                console.error('✍️ Failed to create writable stream:', error);
+                if (error.name === 'SecurityError' && error.message.includes('User activation is required')) {
+                    // This error occurs when the user hasn't interacted with the page
+                    // We need to show a message asking them to try again
+                    throw new Error('Please click the save button again to confirm file access');
+                }
+                throw error;
+            }
+            
+            console.log('✍️ Writing content to file...');
             await writable.write(csvContent);
+            console.log('✍️ Content written, closing stream...');
             await writable.close();
+            console.log('✍️ Stream closed successfully');
             
-            // Update in-memory movies to match what's in the file
-            this.movies = allMovies;
-            
-            console.log('✅ Saved to spreadsheet (preserved existing data)');
+            console.log('✅ Saved to spreadsheet successfully');
             return true;
+            
         } catch (error) {
-            console.error('Failed to save to spreadsheet:', error);
-            showMessage('Failed to save to spreadsheet. Please try again.', 'error');
+            console.error('❌ Failed to save to spreadsheet:', error);
+            console.error('❌ Error details:', {
+                name: error.name,
+                message: error.message,
+                stack: error.stack
+            });
+            
+            // Provide user-friendly error messages
+            let userMessage = 'Failed to save to spreadsheet. ';
+            if (error.message.includes('Permission denied')) {
+                userMessage += 'Please grant file access permission and try again.';
+            } else if (error.message.includes('User activation is required')) {
+                userMessage += 'Please click the save button again to confirm file access.';
+            } else if (error.message.includes('No spreadsheet selected')) {
+                userMessage += 'Please select a spreadsheet first.';
+            } else {
+                userMessage += 'Please try again.';
+            }
+            
+            showMessage(userMessage, 'error');
             return false;
         }
     }
 
     async addMovie(movieData) {
+        console.log('🎬 addMovie called with data:', movieData);
+        console.log('📊 Current movies count:', this.movies.length);
+        console.log('📁 File handle available:', !!this.fileHandle);
+        
         // Check for duplicates
         const existingMovie = this.movies.find(movie => 
             movie.upc === movieData.upc || 
@@ -279,7 +324,7 @@ class SpreadsheetManager {
         );
         
         if (existingMovie) {
-            console.log('Duplicate movie found, not adding');
+            console.log('⚠️ Duplicate movie found, not adding:', existingMovie);
             return false;
         }
 
@@ -290,16 +335,42 @@ class SpreadsheetManager {
             added: new Date().toLocaleDateString()
         };
         
+        console.log('🎬 New movie object created:', newMovie);
         this.movies.push(newMovie);
+        console.log('📊 Movies count after push:', this.movies.length);
         
-        // Save to spreadsheet
-        const success = await this.saveToSpreadsheet();
-        if (success) {
-            console.log(`✅ Added movie to spreadsheet: ${newMovie.title}`);
-            return newMovie;
+        // Try to save to spreadsheet with retry logic
+        let retryCount = 0;
+        const maxRetries = 3;
+        
+        while (retryCount < maxRetries) {
+            try {
+                console.log(`🔄 Save attempt ${retryCount + 1}/${maxRetries}...`);
+                const success = await this.saveToSpreadsheet();
+                if (success) {
+                    console.log(`✅ Added movie to spreadsheet: ${newMovie.title}`);
+                    return newMovie;
+                } else {
+                    console.log(`❌ Save attempt ${retryCount + 1} returned false`);
+                }
+            } catch (error) {
+                console.log(`❌ Save attempt ${retryCount + 1} failed:`, error.message);
+            }
+            
+            retryCount++;
+            if (retryCount < maxRetries) {
+                console.log(`⏳ Waiting before retry ${retryCount + 1}...`);
+                // Wait a bit before retrying
+                await new Promise(resolve => setTimeout(resolve, 1000));
+            }
         }
         
-        return false;
+        // If all retries failed, show error but keep movie in memory
+        console.warn(`❌ Failed to save movie after ${maxRetries} attempts, keeping in memory`);
+        showMessage(`Movie added to memory but failed to save to file. Please try saving manually.`, 'warning');
+        
+        // Return the movie object so it can still be used
+        return newMovie;
     }
 
     async removeMovie(movieId) {
@@ -323,24 +394,140 @@ class SpreadsheetManager {
     }
 
     updateStatus() {
-        const statusElement = document.getElementById('spreadsheet-status');
+        // Get status element and store as class property for use in other methods
+        this.statusElement = document.getElementById('spreadsheet-status');
         const selectionElement = document.querySelector('.spreadsheet-selection');
         
+        // Safety check - ensure elements exist before proceeding
+        if (!this.statusElement || !selectionElement) {
+            console.warn('Status elements not found, skipping status update');
+            return;
+        }
+        
         if (this.isConnected && this.fileHandle) {
-            statusElement.textContent = `Connected: ${this.fileHandle.name} (${this.movies.length} movies)`;
+            const statusText = `Connected: ${this.fileHandle.name} (${this.movies.length} movies)`;
+            this.statusElement.textContent = statusText;
             selectionElement.classList.add('connected');
+            
+            // Add a save button if there are unsaved changes
+            this.addSaveButton();
         } else {
-            statusElement.textContent = 'No spreadsheet selected';
+            this.statusElement.textContent = 'No spreadsheet selected';
             selectionElement.classList.remove('connected');
         }
     }
+    
+    // Add a manual save button to the UI
+    addSaveButton() {
+        // Safety check - ensure status element exists
+        if (!this.statusElement) {
+            console.warn('Status element not available, cannot add save button');
+            return;
+        }
+        
+        // Remove existing save button if it exists
+        const existingButton = document.getElementById('manual-save-btn');
+        if (existingButton) {
+            existingButton.remove();
+        }
+        
+        // Create save button
+        const saveButton = document.createElement('button');
+        saveButton.id = 'manual-save-btn';
+        saveButton.textContent = '💾 Save Changes';
+        saveButton.className = 'btn btn-primary';
+        saveButton.style.marginLeft = '10px';
+        
+        // Add click handler
+        saveButton.addEventListener('click', async () => {
+            try {
+                const success = await this.saveToSpreadsheet();
+                if (success) {
+                    showMessage('Changes saved successfully!', 'success');
+                    this.updateStatus();
+                } else {
+                    showMessage('Failed to save changes', 'error');
+                }
+            } catch (error) {
+                console.error('Manual save failed:', error);
+                showMessage('Save failed: ' + error.message, 'error');
+            }
+        });
+        
+        // Add to status area - use class property
+        if (this.statusElement && this.statusElement.parentNode) {
+            const statusContainer = this.statusElement.parentNode;
+            statusContainer.appendChild(saveButton);
+        }
+    }
 
-    isConnected() {
-        return this.isConnected;
+    // Refresh movies array from the actual spreadsheet file
+    async refreshFromFile() {
+        if (!this.fileHandle) {
+            console.warn('No file handle available for refresh');
+            return false;
+        }
+        
+        try {
+            console.log('🔄 Refreshing movies from spreadsheet file...');
+            const file = await this.fileHandle.getFile();
+            const content = await file.text();
+            
+            // Parse the CSV content
+            const newMovies = this.parseCSV(content);
+            
+            // Update the in-memory array
+            this.movies = newMovies;
+            
+            console.log(`✅ Refreshed ${this.movies.length} movies from file`);
+            this.updateStatus();
+            return true;
+        } catch (error) {
+            console.error('Failed to refresh from file:', error);
+            return false;
+        }
+    }
+
+    checkConnection() {
+        return this.isConnected && this.fileHandle !== null;
     }
     
     getConnectionStatus() {
-        return this.isConnected;
+        return this.isConnected && this.fileHandle !== null;
+    }
+    
+    // Check if there are unsaved changes
+    hasUnsavedChanges() {
+        // For now, we'll assume any movies in memory might be unsaved
+        // In a more sophisticated implementation, we could track changes
+        return this.movies.length > 0;
+    }
+    
+    // Get the number of movies in memory
+    getMovieCount() {
+        return this.movies.length;
+    }
+    
+    // Force a save attempt (useful for manual saves)
+    async forceSave() {
+        if (!this.fileHandle) {
+            throw new Error('No spreadsheet selected');
+        }
+        
+        try {
+            const success = await this.saveToSpreadsheet();
+            if (success) {
+                showMessage('All changes saved successfully!', 'success');
+                return true;
+            } else {
+                showMessage('Failed to save changes. Please try again.', 'error');
+                return false;
+            }
+        } catch (error) {
+            console.error('Force save failed:', error);
+            showMessage('Save failed: ' + error.message, 'error');
+            return false;
+        }
     }
 }
 
