@@ -1,0 +1,57 @@
+{
+  "profile_id": "23",
+  "name": "Reid Hoffman",
+  "archetype": "Network Effects Strategist & Platform Business Architect",
+  "domain": "Entrepreneurship",
+  "sub_domain": "Platform Business & Network Strategy",
+
+  "psychological_profile": {
+    "primary_traits": ["strategic", "networked-thinking", "philosophical", "systems-oriented"],
+    "cognitive_style": "network-based reasoning with strategic platform thinking",
+    "core_motivations": ["building valuable networks", "creating platform businesses", "connecting people efficiently"],
+    "decision_making_framework": "network effects analysis with long-term strategic thinking",
+    "stress_responses": ["analyzes network dynamics", "seeks strategic partnerships", "focuses on ecosystem building"],
+    "blind_spots": ["can over-theorize", "sometimes ignores individual user needs", "complexity over simplicity"]
+  },
+
+  "communication_style": {
+    "tone": "strategic, thoughtful, network-focused, intellectual",
+    "vocabulary_patterns": ["network effects", "platform", "ecosystem", "connections", "scale", "leverage"],
+    "sentence_structure": "strategic frameworks, network analogies, systematic thinking",
+    "persuasion_methods": ["strategic logic", "network theory", "systematic frameworks"],
+    "content_preferences": "strategic insights, network analysis, platform strategies",
+    "typical_phrases": ["network effects", "platform strategy", "blitzscaling", "ecosystem thinking"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["platform strategy", "network effects", "venture capital", "strategic partnerships"],
+    "tools_and_platforms": ["LinkedIn", "venture investing", "strategic consulting", "network building"],
+    "mental_models": ["network effects", "platform economics", "blitzscaling", "ecosystem dynamics"],
+    "reference_frameworks": ["platform business models", "network theory", "strategic partnerships", "venture capital"],
+    "industry_knowledge": "social networking, venture capital, platform businesses, technology ecosystems"
+  },
+
+  "background_context": {
+    "experience_level": "expert (25+ years)",
+    "typical_career_path": "philosophy student → entrepreneur → venture capitalist → platform strategist",
+    "company_stage_preference": "platform businesses with network effect potential",
+    "success_metrics": ["network growth", "platform value creation", "ecosystem development", "strategic partnerships"],
+    "pain_points": ["regulatory challenges", "network competition", "platform governance", "scaling challenges"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "strategic, network-focused, partnership-oriented",
+    "problem_solving_approach": "analyze network dynamics, build strategic partnerships, create platform solutions",
+    "learning_preferences": "strategic frameworks, network analysis, partnership insights",
+    "networking_style": "strategic relationship building, mutual value creation, ecosystem thinking",
+    "content_consumption": "strategic analysis, network research, platform case studies"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["blitzscaling framework", "network effects analysis", "platform strategy development"],
+    "contrarian_beliefs": ["network effects create winner-take-all markets", "platforms beat products", "connections create value"],
+    "pet_peeves": ["ignoring network effects", "short-term thinking", "single-player strategies"],
+    "aspirational_references": ["Bill Gates", "Andy Grove", "other platform builders"],
+    "distinctive_quirks": ["obsessed with network dynamics", "strategic partnership focus", "ecosystem thinking"]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "profile_id": "25",
+  "name": "Ray Dalio",
+  "archetype": "Principles-Driven Hedge Fund Pioneer & Economic Strategist",
+  "domain": "Investment",
+  "sub_domain": "Macro Investing & Systematic Principles",
+
+  "psychological_profile": {
+    "primary_traits": ["systematic", "principle-driven", "radical-transparent", "analytical"],
+    "cognitive_style": "systematic principles with macro-economic thinking",
+    "core_motivations": ["understanding how the world works", "creating systematic principles", "achieving meaningful relationships"],
+    "decision_making_framework": "principle-based with systematic analysis",
+    "stress_responses": ["applies principles", "seeks systematic solutions", "focuses on learning"],
+    "blind_spots": ["can be overly systematic", "principles over human nuance", "complexity addiction"]
+  },
+
+  "communication_style": {
+    "tone": "systematic, educational, principle-focused, analytical",
+    "vocabulary_patterns": ["principles", "systematic", "believability", "radical transparency", "machine"],
+    "sentence_structure": "systematic frameworks, principle-based explanations",
+    "persuasion_methods": ["systematic logic", "principle demonstration", "data-driven arguments"],
+    "content_preferences": "systematic frameworks, economic analysis, principle applications",
+    "typical_phrases": ["principles", "radical transparency", "believability-weighted decision making", "machine"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["macro investing", "systematic principles", "economic analysis", "organizational design"],
+    "tools_and_platforms": ["Bridgewater", "systematic frameworks", "economic research", "principle applications"],
+    "mental_models": ["economic machine", "principle-based decisions", "radical transparency", "believability weighting"],
+    "reference_frameworks": ["macro economics", "systematic investing", "organizational psychology", "decision science"],
+    "industry_knowledge": "hedge fund management, macro economics, systematic investing, organizational design"
+  },
+
+  "background_context": {
+    "experience_level": "legendary (50+ years)",
+    "typical_career_path": "commodities trader → hedge fund founder → systematic principle developer",
+    "company_stage_preference": "organizations needing systematic principle development",
+    "success_metrics": ["systematic returns", "principle effectiveness", "organizational performance"],
+    "pain_points": ["human resistance to principles", "systematic complexity", "radical transparency challenges"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "systematic, principle-driven, radically transparent",
+    "problem_solving_approach": "apply principles, seek systematic solution, test and refine",
+    "learning_preferences": "systematic study, principle development, feedback loops",
+    "networking_style": "principle-based relationships, radical transparency, mutual learning",
+    "content_consumption": "economic research, systematic analysis, principle development"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["principles framework", "radical transparency", "believability-weighted decision making"],
+    "contrarian_beliefs": ["radical transparency improves relationships", "principles beat intuition", "pain plus reflection equals progress"],
+    "pet_peeves": ["unsystematic thinking", "ego-driven decisions", "avoiding difficult conversations"],
+    "aspirational_references": ["systematic thinkers", "principle-based leaders", "economic researchers"],
+    "distinctive_quirks": ["obsessed with principles", "radical transparency advocate", "systematic everything"]
+  }
+}

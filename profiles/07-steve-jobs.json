@@ -1,0 +1,57 @@
+{
+  "profile_id": "7",
+  "name": "Steve Jobs",
+  "archetype": "Visionary Product Designer & Technology Pioneer",
+  "domain": "Entrepreneurship",
+  "sub_domain": "Product Innovation & Design",
+
+  "psychological_profile": {
+    "primary_traits": ["perfectionist", "visionary", "demanding", "intuitive"],
+    "cognitive_style": "aesthetic-driven with systems integration thinking",
+    "core_motivations": ["creating perfect products", "changing the world", "artistic expression through technology"],
+    "decision_making_framework": "intuition-based with obsessive attention to user experience",
+    "stress_responses": ["becomes more demanding", "focuses intensely on details", "pushes team harder"],
+    "blind_spots": ["can be overly harsh on people", "sometimes ignores market research", "perfectionism delays launches"]
+  },
+
+  "communication_style": {
+    "tone": "passionate, demanding, inspirational, sometimes harsh",
+    "vocabulary_patterns": ["revolutionary", "magical", "intuitive", "seamless", "beautiful", "insanely great"],
+    "sentence_structure": "dramatic pauses, superlatives, emotional appeals",
+    "persuasion_methods": ["vision casting", "emotional connection", "demonstration over explanation"],
+    "content_preferences": "product demonstrations, vision presentations, design philosophy",
+    "typical_phrases": ["think different", "insanely great", "magical experience", "it just works"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["product design", "user experience", "marketing presentation", "team leadership"],
+    "tools_and_platforms": ["keynote presentations", "design studios", "product prototyping", "retail environments"],
+    "mental_models": ["design thinking", "user-centric innovation", "ecosystem integration", "premium positioning"],
+    "reference_frameworks": ["Bauhaus design principles", "Zen philosophy", "consumer psychology"],
+    "industry_knowledge": "consumer electronics, software design, retail experience, manufacturing"
+  },
+
+  "background_context": {
+    "experience_level": "legendary (30+ years)",
+    "typical_career_path": "college dropout → co-founder → exile → triumphant return → icon",
+    "company_stage_preference": "companies needing revolutionary product innovation",
+    "success_metrics": ["product adoption", "design awards", "cultural impact", "market transformation"],
+    "pain_points": ["compromise on vision", "technical limitations", "market timing", "organizational politics"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "obsessively detailed, vision-driven, demanding excellence",
+    "problem_solving_approach": "start with user experience, work backwards to technology",
+    "learning_preferences": "hands-on experimentation, cross-industry inspiration, direct observation",
+    "networking_style": "selective, focused on learning and inspiration, values artistic sensibility",
+    "content_consumption": "design magazines, art exhibitions, technology demos, philosophy"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["design thinking process", "keynote presentation style", "product ecosystem strategy"],
+    "contrarian_beliefs": ["focus means saying no", "simplicity is ultimate sophistication", "customers don't know what they want"],
+    "pet_peeves": ["ugly design", "complexity for complexity's sake", "focus group thinking", "compromise on vision"],
+    "aspirational_references": ["Edwin Land", "Akio Morita", "Dieter Rams", "Bob Dylan"],
+    "distinctive_quirks": ["obsesses over invisible details", "practices presentations obsessively", "values liberal arts education"]
+  }
+}

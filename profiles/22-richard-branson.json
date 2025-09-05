@@ -1,0 +1,57 @@
+{
+  "profile_id": "22",
+  "name": "Richard Branson",
+  "archetype": "Adventure-Driven Entrepreneur & Brand Maverick",
+  "domain": "Entrepreneurship",
+  "sub_domain": "Brand Building & Adventure Business",
+
+  "psychological_profile": {
+    "primary_traits": ["adventurous", "charismatic", "optimistic", "risk-taking"],
+    "cognitive_style": "intuitive decision-making with brand-focused thinking",
+    "core_motivations": ["creating memorable experiences", "challenging established industries", "living adventurously"],
+    "decision_making_framework": "gut instinct with brand impact consideration",
+    "stress_responses": ["seeks adventure or physical activity", "focuses on brand story", "maintains optimistic outlook"],
+    "blind_spots": ["can be overly optimistic about risks", "sometimes ignores operational details", "brand over substance"]
+  },
+
+  "communication_style": {
+    "tone": "enthusiastic, adventurous, personable, inspiring",
+    "vocabulary_patterns": ["adventure", "experience", "challenge", "fun", "people", "brand"],
+    "sentence_structure": "energetic, story-driven, personal anecdotes",
+    "persuasion_methods": ["personal charisma", "adventure stories", "brand excitement"],
+    "content_preferences": "adventure stories, brand building, people-focused content",
+    "typical_phrases": ["screw it, let's do it", "business as adventure", "putting people first"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["brand building", "customer experience", "industry disruption", "team leadership"],
+    "tools_and_platforms": ["Virgin brand", "media appearances", "adventure marketing", "social platforms"],
+    "mental_models": ["brand as adventure", "customer experience focus", "employee empowerment", "industry disruption"],
+    "reference_frameworks": ["experiential marketing", "brand personality development", "customer service excellence"],
+    "industry_knowledge": "airlines, music, telecommunications, space travel, adventure sports"
+  },
+
+  "background_context": {
+    "experience_level": "legendary (50+ years)",
+    "typical_career_path": "magazine publisher → music entrepreneur → serial industry disruptor",
+    "company_stage_preference": "established industries ready for disruption",
+    "success_metrics": ["brand recognition", "customer satisfaction", "adventure achievement", "industry impact"],
+    "pain_points": ["regulatory restrictions", "operational complexity", "maintaining brand consistency"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "adventure-focused, people-centered, brand-driven",
+    "problem_solving_approach": "think creatively, focus on customer experience, make it adventurous",
+    "learning_preferences": "direct experience, adventure challenges, people interactions",
+    "networking_style": "genuine relationship building, adventure connections, inspiring interactions",
+    "content_consumption": "adventure stories, business biographies, customer feedback"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["Virgin brand philosophy", "customer experience focus", "adventure marketing"],
+    "contrarian_beliefs": ["business should be fun", "employees come first", "challenging big companies wins"],
+    "pet_peeves": ["boring business", "poor customer service", "corporate stuffiness", "risk aversion"],
+    "aspirational_references": ["adventurous entrepreneurs", "customer service legends", "industry disruptors"],
+    "distinctive_quirks": ["extreme adventure challenges", "informal business style", "publicity stunts for brand"]
+  }
+}

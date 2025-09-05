@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPC Scanner Test - Real Lookup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .scanner-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 2px solid #007bff;
+            border-radius: 8px;
+            background-color: #f8f9fa;
+        }
+        .results-section {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+        }
+        .success { color: #28a745; font-weight: bold; }
+        .error { color: #dc3545; font-weight: bold; }
+        .info { color: #17a2b8; font-weight: bold; }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        button:disabled {
+            background-color: #6c757d;
+            cursor: not-allowed;
+        }
+        input[type="text"] {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 200px;
+            margin: 5px;
+        }
+        .log {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            padding: 10px;
+            margin: 10px 0;
+            font-family: monospace;
+            white-space: pre-wrap;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>UPC Scanner Test - Real Lookup</h1>
+        <p>This page tests the actual UPC scanner functionality with real lookups.</p>
+        
+        <div class="scanner-section">
+            <h2>📱 Camera Scanner</h2>
+            <p>Use your device's camera to scan a UPC barcode:</p>
+            <button id="startScanBtn">Start Camera Scanner</button>
+            <button id="stopScanBtn" disabled>Stop Scanner</button>
+            <div id="scannerStatus"></div>
+            <div id="scanResults"></div>
+        </div>
+
+        <div class="scanner-section">
+            <h2>🔍 Manual UPC Entry</h2>
+            <p>Or manually enter a UPC to test:</p>
+            <input type="text" id="manualUPC" placeholder="Enter UPC (e.g., 715515315616)" maxlength="13">
+            <button id="lookupBtn">Lookup UPC</button>
+            <div id="manualResults"></div>
+        </div>
+
+        <div class="scanner-section">
+            <h2>📊 Test Results</h2>
+            <div id="testResults"></div>
+        </div>
+
+        <div class="scanner-section">
+            <h2>📝 Console Log</h2>
+            <div id="consoleLog" class="log"></div>
+            <button id="clearLogBtn">Clear Log</button>
+        </div>
+    </div>
+
+    <!-- Include ZXing library for barcode scanning -->
+    <script src="https://unpkg.com/@zxing/library@latest/umd/index.min.js"></script>
+    
+    <script>
+        // Copy the real functions from scanner-new.js
+        function isValidTitle(title) {
+            if (!title || title.length < 5 || title.length > 200) return false;
+            
+            // Reject titles that contain JavaScript code or HTML
+            if (title.includes('<') || title.includes('>') || title.includes('{') || title.includes('}')) return false;
+            if (title.includes('function') || title.includes('var ') || title.includes('google.')) return false;
+            if (title.includes('script') || title.includes('onclick') || title.includes('onload')) return false;
+            
+            // Reject generic HTML and browser content
+            if (title.toLowerCase().includes('doctype') || title.toLowerCase().includes('html')) return false;
+            if (title.toLowerCase().includes('google search') || title.toLowerCase().includes('bing search')) return false;
+            if (title.toLowerCase().includes('search results') || title.toLowerCase().includes('search engine')) return false;
+            if (title.toLowerCase().includes('webpage') || title.toLowerCase().includes('page not found')) return false;
+            
+            // CRITICAL: Reject generic copyright and company names
+            if (title.toLowerCase().includes('copyright') || title.toLowerCase().includes('llc')) return false;
+            if (title.toLowerCase().includes('google') || title.toLowerCase().includes('bing')) return false;
+            if (title.toLowerCase().includes('duckduckgo') || title.toLowerCase().includes('privacy')) return false;
+            if (title.toLowerCase().includes('intelligent search') || title.toLowerCase().includes('makes it easier')) return false;
+            
+            // Reject titles that are just random characters
+            if (/^[A-Za-z0-9]{20,}$/.test(title)) return false;
+            
+            // Reject titles that are just punctuation or numbers
+            if (/^[^A-Za-z]*$/.test(title)) return false;
+            
+            // Must contain at least some letters
+            if (!/[A-Za-z]/.test(title)) return false;
+            
+            // Must look like a movie title (not just generic text)
+            if (title.length < 8) return false; // Too short to be a real movie title
+            
+            // Reject titles that are clearly not movie titles
+            if (title.toLowerCase().includes('search') || title.toLowerCase().includes('browser')) return false;
+            if (title.toLowerCase().includes('simplified') || title.toLowerCase().includes('quickly find')) return false;
+            
+            return true;
+        }
+
+        function generateSmartTitle(upc, searchResults = []) {
+            log(`🔍 Generating smart title for UPC: ${upc}`);
+            
+            // Check if we have any good search results first
+            if (searchResults && searchResults.length > 0) {
+                const bestResult = searchResults[0];
+                if (bestResult && bestResult.title && isValidTitle(bestResult.title)) {
+                    log(`✅ Using good search result: ${bestResult.title}`);
+                    return bestResult.title;
+                }
+            }
+            
+            // Determine format based on UPC patterns
+            const moviePatterns = [
+                { prefix: '0', format: 'DVD' },
+                { prefix: '1', format: 'DVD' },
+                { prefix: '2', format: 'DVD' },
+                { prefix: '3', format: 'DVD' },
+                { prefix: '4', format: 'DVD' },
+                { prefix: '5', format: 'DVD' },
+                { prefix: '6', format: 'DVD' },
+                { prefix: '7', format: 'DVD' },
+                { prefix: '8', format: 'DVD' },
+                { prefix: '9', format: 'DVD' }
+            ];
+            
+            const firstDigit = upc.charAt(0);
+            const pattern = moviePatterns.find(p => p.prefix === firstDigit);
+            const format = pattern ? pattern.format : 'Movie';
+            
+            log(`📀 Detected format: ${format} (UPC starts with ${firstDigit})`);
+            
+            return `Unknown ${format} Movie [UPC: ${upc}]`;
+        }
+
+        async function searchOnlineDatabases(upc) {
+            log(`🌐 Searching online databases for UPC: ${upc}`);
+            
+            const corsProxies = [
+                'https://corsproxy.io/?',
+                'https://api.allorigins.win/raw?url=',
+                'https://cors-anywhere.herokuapp.com/'
+            ];
+            
+            const searchQueries = [
+                `${upc} movie`,
+                `${upc} DVD`,
+                `${upc} Blu-ray`,
+                `${upc} film`
+            ];
+            
+            let allResults = [];
+            let currentProxyIndex = 0;
+            
+            for (const query of searchQueries) {
+                if (currentProxyIndex >= corsProxies.length) {
+                    log(`⚠️ All proxies exhausted for query: ${query}`);
+                    break;
+                }
+                
+                const proxy = corsProxies[currentProxyIndex];
+                const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+                
+                try {
+                    log(`🔍 Trying proxy ${currentProxyIndex + 1}/${corsProxies.length}: ${proxy}`);
+                    
+                    const response = await fetch(proxy + searchUrl, {
+                        method: 'GET',
+                        headers: {
+                            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+                        }
+                    });
+                    
+                    if (!response.ok) {
+                        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                    }
+                    
+                    const html = await response.text();
+                    log(`✅ Got response for: ${query}`);
+                    
+                    // Extract title from HTML
+                    const titleMatch = html.match(/<title[^>]*>([^<]+)<\/title>/i);
+                    if (titleMatch && titleMatch[1]) {
+                        const title = titleMatch[1].trim();
+                        log(`📝 Extracted title: "${title}"`);
+                        
+                        if (isValidTitle(title)) {
+                            log(`✅ Valid title found: ${title}`);
+                            allResults.push({ title, source: query, html });
+                        } else {
+                            log(`❌ Invalid title rejected: ${title}`);
+                        }
+                    } else {
+                        log(`⚠️ No title found in HTML for: ${query}`);
+                    }
+                    
+                    // Success with this proxy, move to next query
+                    currentProxyIndex = 0;
+                    
+                } catch (error) {
+                    log(`❌ Error with proxy ${currentProxyIndex + 1}: ${error.message}`);
+                    currentProxyIndex++;
+                    
+                    if (currentProxyIndex >= corsProxies.length) {
+                        log(`⚠️ All proxies failed for query: ${query}`);
+                    }
+                }
+                
+                // Small delay between requests
+                await new Promise(resolve => setTimeout(resolve, 1000));
+            }
+            
+            log(`📊 Total results found: ${allResults.length}`);
+            return allResults;
+        }
+
+        async function lookupMovieByUPC(upc) {
+            log(`🎬 Starting movie lookup for UPC: ${upc}`);
+            
+            try {
+                // Search online databases
+                const searchResults = await searchOnlineDatabases(upc);
+                
+                if (searchResults && searchResults.length > 0) {
+                    const bestResult = searchResults[0];
+                    log(`✅ Found valid movie data online: ${JSON.stringify(bestResult, null, 2)}`);
+                    
+                    if (isValidTitle(bestResult.title)) {
+                        return {
+                            upc: upc,
+                            title: bestResult.title,
+                            source: 'online_search',
+                            timestamp: new Date().toISOString()
+                        };
+                    } else {
+                        log(`⚠️ Online result has poor title quality: ${bestResult.title}`);
+                    }
+                } else {
+                    log(`⚠️ No valid online results found`);
+                }
+                
+                // Fallback to generated title
+                log(`💡 Generating fallback title...`);
+                const fallbackTitle = generateSmartTitle(upc, searchResults);
+                
+                return {
+                    upc: upc,
+                    title: fallbackTitle,
+                    source: 'fallback_generated',
+                    timestamp: new Date().toISOString()
+                };
+                
+            } catch (error) {
+                log(`❌ Error in movie lookup: ${error.message}`);
+                
+                // Final fallback
+                const fallbackTitle = generateSmartTitle(upc);
+                return {
+                    upc: upc,
+                    title: fallbackTitle,
+                    source: 'error_fallback',
+                    timestamp: new Date().toISOString(),
+                    error: error.message
+                };
+            }
+        }
+
+        // Utility function to log messages
+        function log(message) {
+            const timestamp = new Date().toLocaleTimeString();
+            const logElement = document.getElementById('consoleLog');
+            logElement.textContent += `[${timestamp}] ${message}\n`;
+            logElement.scrollTop = logElement.scrollHeight;
+            console.log(message);
+        }
+
+        // Scanner functionality
+        let codeReader = null;
+        let isScanning = false;
+
+        async function startScanner() {
+            try {
+                log('📱 Starting camera scanner...');
+                
+                codeReader = new ZXing.BrowserMultiFormatReader();
+                const videoElement = document.createElement('video');
+                videoElement.id = 'scanner-video';
+                videoElement.style.width = '100%';
+                videoElement.style.maxWidth = '400px';
+                videoElement.style.height = 'auto';
+                
+                document.getElementById('scanResults').innerHTML = '';
+                document.getElementById('scanResults').appendChild(videoElement);
+                
+                await codeReader.decodeFromVideoDevice(null, videoElement, (result, err) => {
+                    if (result) {
+                        log(`📱 Scanned UPC: ${result.text}`);
+                        stopScanner();
+                        processScannedUPC(result.text);
+                    }
+                    if (err && !(err instanceof ZXing.NotFoundException)) {
+                        log(`❌ Scanner error: ${err.message}`);
+                    }
+                });
+                
+                isScanning = true;
+                document.getElementById('startScanBtn').disabled = true;
+                document.getElementById('stopScanBtn').disabled = false;
+                document.getElementById('scannerStatus').innerHTML = '<span class="success">Scanner active - point camera at UPC barcode</span>';
+                
+            } catch (error) {
+                log(`❌ Failed to start scanner: ${error.message}`);
+                document.getElementById('scannerStatus').innerHTML = '<span class="error">Failed to start scanner</span>';
+            }
+        }
+
+        function stopScanner() {
+            if (codeReader) {
+                codeReader.reset();
+                codeReader = null;
+            }
+            isScanning = false;
+            document.getElementById('startScanBtn').disabled = false;
+            document.getElementById('stopScanBtn').disabled = true;
+            document.getElementById('scannerStatus').innerHTML = '<span class="info">Scanner stopped</span>';
+            
+            const videoElement = document.getElementById('scanner-video');
+            if (videoElement) {
+                videoElement.remove();
+            }
+        }
+
+        async function processScannedUPC(upc) {
+            log(`🎯 Processing scanned UPC: ${upc}`);
+            
+            const resultsDiv = document.getElementById('scanResults');
+            resultsDiv.innerHTML = `<h3>Scanning UPC: ${upc}</h3><p>Looking up movie information...</p>`;
+            
+            try {
+                const movieData = await lookupMovieByUPC(upc);
+                
+                resultsDiv.innerHTML = `
+                    <h3>✅ Scan Complete!</h3>
+                    <div class="results-section">
+                        <p><strong>UPC:</strong> ${movieData.upc}</p>
+                        <p><strong>Title:</strong> ${movieData.title}</p>
+                        <p><strong>Source:</strong> ${movieData.source}</p>
+                        <p><strong>Timestamp:</strong> ${movieData.timestamp}</p>
+                        ${movieData.error ? `<p><strong>Error:</strong> ${movieData.error}</p>` : ''}
+                    </div>
+                `;
+                
+                // Add to test results
+                addTestResult(movieData);
+                
+            } catch (error) {
+                log(`❌ Error processing scanned UPC: ${error.message}`);
+                resultsDiv.innerHTML = `
+                    <h3>❌ Scan Failed</h3>
+                    <p>Error: ${error.message}</p>
+                `;
+            }
+        }
+
+        async function processManualUPC() {
+            const upc = document.getElementById('manualUPC').value.trim();
+            if (!upc) {
+                alert('Please enter a UPC');
+                return;
+            }
+            
+            log(`🔍 Manual UPC lookup: ${upc}`);
+            
+            const resultsDiv = document.getElementById('manualResults');
+            resultsDiv.innerHTML = `<h3>Looking up UPC: ${upc}</h3><p>Searching online databases...</p>`;
+            
+            try {
+                const movieData = await lookupMovieByUPC(upc);
+                
+                resultsDiv.innerHTML = `
+                    <h3>✅ Lookup Complete!</h3>
+                    <div class="results-section">
+                        <p><strong>UPC:</strong> ${movieData.upc}</p>
+                        <p><strong>Title:</strong> ${movieData.title}</p>
+                        <p><strong>Source:</strong> ${movieData.source}</p>
+                        <p><strong>Timestamp:</strong> ${movieData.timestamp}</p>
+                        ${movieData.error ? `<p><strong>Error:</strong> ${movieData.error}</p>` : ''}
+                    </div>
+                `;
+                
+                // Add to test results
+                addTestResult(movieData);
+                
+            } catch (error) {
+                log(`❌ Error in manual lookup: ${error.message}`);
+                resultsDiv.innerHTML = `
+                    <h3>❌ Lookup Failed</h3>
+                    <p>Error: ${error.message}</p>
+                `;
+            }
+        }
+
+        function addTestResult(movieData) {
+            const resultsDiv = document.getElementById('testResults');
+            const resultElement = document.createElement('div');
+            resultElement.className = 'results-section';
+            resultElement.innerHTML = `
+                <h4>Test Result - ${new Date().toLocaleTimeString()}</h4>
+                <p><strong>UPC:</strong> ${movieData.upc}</p>
+                <p><strong>Title:</strong> ${movieData.title}</p>
+                <p><strong>Source:</strong> ${movieData.source}</p>
+                <p><strong>Quality:</strong> ${isValidTitle(movieData.title) ? '✅ Good' : '❌ Poor'}</p>
+            `;
+            resultsDiv.appendChild(resultElement);
+        }
+
+        // Event listeners
+        document.getElementById('startScanBtn').addEventListener('click', startScanner);
+        document.getElementById('stopScanBtn').addEventListener('click', stopScanner);
+        document.getElementById('lookupBtn').addEventListener('click', processManualUPC);
+        document.getElementById('clearLogBtn').addEventListener('click', () => {
+            document.getElementById('consoleLog').textContent = '';
+        });
+
+        // Initialize
+        log('🚀 UPC Scanner Test initialized');
+        log('📱 Use camera scanner or manual entry to test real UPC lookups');
+    </script>
+</body>
+</html>

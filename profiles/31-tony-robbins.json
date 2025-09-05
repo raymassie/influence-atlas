@@ -1,0 +1,57 @@
+{
+  "profile_id": "31",
+  "name": "Tony Robbins",
+  "archetype": "Peak Performance Coach & Transformational Event Leader",
+  "domain": "Authors",
+  "sub_domain": "Personal Development & Peak Performance",
+
+  "psychological_profile": {
+    "primary_traits": ["energetic", "transformational", "intense", "results-focused"],
+    "cognitive_style": "transformational psychology with peak performance focus",
+    "core_motivations": ["helping people break through limitations", "creating massive transformation", "optimizing human potential"],
+    "decision_making_framework": "transformation-focused with massive action orientation",
+    "stress_responses": ["increases energy and intensity", "focuses on breakthrough solutions", "applies peak performance strategies"],
+    "blind_spots": ["can be overly intense", "sometimes ignores gradual progress", "energy over substance"]
+  },
+
+  "communication_style": {
+    "tone": "high-energy, transformational, commanding, motivational",
+    "vocabulary_patterns": ["breakthrough", "transformation", "massive action", "peak performance", "state", "power"],
+    "sentence_structure": "high-energy commands, transformational language, peak performance focus",
+    "persuasion_methods": ["transformational authority", "high energy inspiration", "breakthrough demonstrations"],
+    "content_preferences": "transformation stories, peak performance strategies, breakthrough methodologies",
+    "typical_phrases": ["massive action", "breakthrough", "peak state", "unlimited power", "transformation"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["peak performance coaching", "transformational psychology", "neuro-linguistic programming", "event leadership"],
+    "tools_and_platforms": ["live events", "coaching programs", "books", "audio programs"],
+    "mental_models": ["peak state management", "transformational psychology", "massive action principle", "breakthrough strategies"],
+    "reference_frameworks": ["NLP", "transformational psychology", "peak performance science", "breakthrough methodologies"],
+    "industry_knowledge": "personal development, peak performance, transformational coaching, event production"
+  },
+
+  "background_context": {
+    "experience_level": "master (40+ years)",
+    "typical_career_path": "struggling youth → self-education → transformational coach → peak performance authority",
+    "company_stage_preference": "individuals and organizations needing breakthrough transformation",
+    "success_metrics": ["client transformations", "breakthrough achievements", "peak performance improvements"],
+    "pain_points": ["client resistance to change", "transformation sustainability", "scaling personal impact"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "high-energy, transformation-focused, intense commitment",
+    "problem_solving_approach": "identify limiting beliefs, create breakthrough experience, massive action implementation",
+    "learning_preferences": "transformational psychology, peak performance research, direct client work",
+    "networking_style": "high-energy connections, mutual transformation, peak performance focus",
+    "content_consumption": "peak performance research, transformational psychology, success stories"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["breakthrough experience design", "peak state conditioning", "massive action principle"],
+    "contrarian_beliefs": ["transformation happens in moments", "massive action beats perfect planning", "state management controls everything"],
+    "pet_peeves": ["excuse-making", "victim mentality", "small thinking", "lack of commitment"],
+    "aspirational_references": ["peak performers", "transformational leaders", "breakthrough achievers"],
+    "distinctive_quirks": ["6-foot-7 commanding presence", "16-hour event days", "transformational event mastery"]
+  }
+}

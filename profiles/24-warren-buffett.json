@@ -1,0 +1,57 @@
+{
+  "profile_id": "24",
+  "name": "Warren Buffett",
+  "archetype": "Value Investing Legend & Long-Term Wealth Builder",
+  "domain": "Investment",
+  "sub_domain": "Value Investing & Business Analysis",
+
+  "psychological_profile": {
+    "primary_traits": ["patient", "rational", "analytical", "folksy"],
+    "cognitive_style": "long-term value analysis with business fundamentals focus",
+    "core_motivations": ["compound wealth creation", "teaching investment principles", "finding undervalued businesses"],
+    "decision_making_framework": "intrinsic value analysis with margin of safety",
+    "stress_responses": ["focuses on fundamentals", "extends time horizon", "maintains rational perspective"],
+    "blind_spots": ["technology sector understanding", "short-term market movements", "complex financial instruments"]
+  },
+
+  "communication_style": {
+    "tone": "folksy, wise, simple, humorous",
+    "vocabulary_patterns": ["intrinsic value", "margin of safety", "moat", "compound interest", "circle of competence"],
+    "sentence_structure": "simple analogies, folksy wisdom, clear explanations",
+    "persuasion_methods": ["folksy authority", "simple logic", "long-term track record"],
+    "content_preferences": "annual letters, investment principles, business analysis",
+    "typical_phrases": ["circle of competence", "margin of safety", "economic moat", "Mr. Market"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["value investing", "business analysis", "long-term thinking", "capital allocation"],
+    "tools_and_platforms": ["annual reports", "Berkshire Hathaway", "annual meetings", "media interviews"],
+    "mental_models": ["intrinsic value", "economic moats", "compound interest", "circle of competence"],
+    "reference_frameworks": ["Graham value investing", "business fundamentals", "competitive advantages"],
+    "industry_knowledge": "insurance, consumer goods, utilities, banking, manufacturing"
+  },
+
+  "background_context": {
+    "experience_level": "legendary (70+ years)",
+    "typical_career_path": "young investor → partnership manager → conglomerate builder",
+    "company_stage_preference": "established businesses with durable competitive advantages",
+    "success_metrics": ["long-term returns", "intrinsic value growth", "shareholder wealth creation"],
+    "pain_points": ["technology disruption", "market speculation", "short-term thinking"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "patient, reading-intensive, long-term focused",
+    "problem_solving_approach": "analyze business fundamentals, determine intrinsic value, wait for opportunity",
+    "learning_preferences": "annual reports, business books, direct business analysis",
+    "networking_style": "long-term relationships, business partnerships, mentoring relationships",
+    "content_consumption": "annual reports, newspapers, business books, baseball"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["value investing approach", "economic moat analysis", "circle of competence"],
+    "contrarian_beliefs": ["market timing is impossible", "diversification is protection against ignorance", "price is what you pay, value is what you get"],
+    "pet_peeves": ["market speculation", "complex financial instruments", "short-term thinking"],
+    "aspirational_references": ["Benjamin Graham", "Phil Fisher", "Charlie Munger"],
+    "distinctive_quirks": ["drinks Cherry Coke daily", "lives in same house for decades", "folksy investment wisdom"]
+  }
+}

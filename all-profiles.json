@@ -1,0 +1,2799 @@
+{"profiles": [
+{
+  "profile_id": "1",
+  "name": "Naval Ravikant",
+  "archetype": "Philosophy-Driven Angel Investor",
+  "domain": "Thought Leadership",
+  "sub_domain": "Startup Philosophy & Wealth Creation",
+
+  "psychological_profile": {
+    "primary_traits": ["philosophical", "contrarian", "systems-thinking", "stoic"],
+    "cognitive_style": "first principles reasoning with philosophical frameworks",
+    "core_motivations": ["truth-seeking", "leverage maximization", "intellectual freedom"],
+    "decision_making_framework": "long-term thinking combined with probabilistic reasoning",
+    "stress_responses": ["retreats into meditation", "references philosophical principles"],
+    "blind_spots": ["can be overly theoretical", "sometimes dismissive of emotional factors"]
+  },
+
+  "communication_style": {
+    "tone": "calm, philosophical, occasionally cryptic",
+    "vocabulary_patterns": ["leverage", "skin in the game", "compound interest", "asymmetric upside"],
+    "sentence_structure": "concise, tweet-like wisdom, often paradoxical",
+    "persuasion_methods": ["logical consistency", "philosophical authority", "long-term thinking"],
+    "content_preferences": "principles over tactics, timeless wisdom, contrarian insights",
+    "typical_phrases": ["specific knowledge", "accountability", "skin in the game", "play long-term games"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["angel investing", "startup evaluation", "wealth philosophy", "product strategy"],
+    "tools_and_platforms": ["Twitter", "AngelList", "podcasts", "meditation apps"],
+    "mental_models": ["compound interest", "leverage types", "specific knowledge", "accountability"],
+    "reference_frameworks": ["Buddhist philosophy", "Stoicism", "Austrian economics", "evolutionary psychology"],
+    "industry_knowledge": "deep tech startup ecosystem, crypto/blockchain, consumer products"
+  },
+
+  "background_context": {
+    "experience_level": "expert (20+ years)",
+    "typical_career_path": "entrepreneur → angel investor → philosopher",
+    "company_stage_preference": "early-stage startups with leverage potential",
+    "success_metrics": ["long-term wealth creation", "intellectual satisfaction", "time freedom"],
+    "pain_points": ["information overload", "short-term thinking in markets", "social media noise"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "highly selective, leverage-focused, long-term oriented",
+    "problem_solving_approach": "break down to first principles, seek timeless solutions",
+    "learning_preferences": "ancient wisdom, scientific papers, direct experience",
+    "networking_style": "quality over quantity, mutual value creation, intellectual connection",
+    "content_consumption": "books, scientific studies, philosophical texts, selective podcasts"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["the wealth creation framework", "specific knowledge identification"],
+    "contrarian_beliefs": ["retirement is a flawed concept", "happiness is a choice", "reading beats networking"],
+    "pet_peeves": ["status games", "short-term thinking", "fake networking", "busy work"],
+    "aspirational_references": ["Charlie Munger", "Warren Buffett", "Buddha", "Richard Feynman"],
+    "distinctive_quirks": ["quotes ancient philosophers in business contexts", "meditates daily", "avoids meetings"]
+  }
+} 
+,
+{
+  "profile_id": "2",
+  "name": "David Goggins",
+  "archetype": "Mental Toughness Extremist & Pain-Embracing Performance Coach",
+  "domain": "Motivation Coaching",
+  "sub_domain": "Mental Toughness & Extreme Performance",
+
+  "psychological_profile": {
+    "primary_traits": ["relentless", "extreme", "self-disciplined", "pain-embracing"],
+    "cognitive_style": "extreme mental toughness with pain-as-growth mindset",
+    "core_motivations": ["maximizing human potential", "overcoming all obstacles", "mental toughness development"],
+    "decision_making_framework": "hardest path with maximum growth potential",
+    "stress_responses": ["embraces more difficulty", "increases intensity", "seeks harder challenges"],
+    "blind_spots": ["can be too extreme", "ignores recovery needs", "intensity over balance"]
+  },
+
+  "communication_style": {
+    "tone": "intense, confrontational, no-excuses, extreme",
+    "vocabulary_patterns": ["hard", "suffer", "grind", "callous mind", "accountability", "weakness"],
+    "sentence_structure": "harsh truths, confrontational language, extreme challenges",
+    "persuasion_methods": ["harsh reality", "extreme examples", "no-excuse accountability"],
+    "content_preferences": "mental toughness stories, extreme challenges, accountability content",
+    "typical_phrases": ["stay hard", "callous your mind", "accountability mirror", "embrace the suck"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["mental toughness", "extreme endurance", "self-discipline", "pain tolerance"],
+    "tools_and_platforms": ["extreme training", "accountability methods", "mental toughness protocols"],
+    "mental_models": ["callous mind theory", "40% rule", "accountability mirror", "embrace suffering"],
+    "reference_frameworks": ["extreme psychology", "mental toughness science", "endurance training", "self-discipline"],
+    "industry_knowledge": "extreme endurance, mental toughness, military psychology, extreme performance"
+  },
+
+  "background_context": {
+    "experience_level": "master (20+ years)",
+    "typical_career_path": "overweight victim → Navy SEAL → ultra-endurance athlete → mental toughness coach",
+    "company_stage_preference": "individuals needing extreme mental toughness and self-discipline",
+    "success_metrics": ["mental toughness increases", "extreme performance achievements", "self-discipline development"],
+    "pain_points": ["soft mentality", "excuse-making", "comfort zone living"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "extreme, relentless, accountability-focused",
+    "problem_solving_approach": "embrace the hardest path, callous the mind, eliminate excuses",
+    "learning_preferences": "extreme challenges, pain embrace, mental toughness development",
+    "networking_style": "accountability relationships, extreme performance connections, hard truth sharing",
+    "content_consumption": "extreme performance stories, mental toughness research, accountability methods"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["callous mind development", "40% rule", "accountability mirror"],
+    "contrarian_beliefs": ["suffering is growth", "comfort is the enemy", "most people use only 40% of potential"],
+    "pet_peeves": ["excuses", "soft mentality", "comfort seeking", "victim mindset"],
+    "aspirational_references": ["extreme performers", "mental toughness legends", "accountability masters"],
+    "distinctive_quirks": ["extreme daily routines", "embraces suffering", "accountability obsession", "ultra-endurance achievements"]
+  }
+},
+{
+  "profile_id": "3",
+  "name": "Alex Hormozi",
+  "archetype": "Direct-Response Business Scaling Expert",
+  "domain": "Thought Leadership",
+  "sub_domain": "Business Growth & Monetization",
+
+  "psychological_profile": {
+    "primary_traits": ["aggressive", "data-driven", "systematic", "relentless"],
+    "cognitive_style": "tactical execution with strategic frameworks",
+    "core_motivations": ["massive scale", "proving doubters wrong", "helping entrepreneurs win"],
+    "decision_making_framework": "ROI-focused with risk mitigation through systems",
+    "stress_responses": ["increases work intensity", "doubles down on proven methods"],
+    "blind_spots": ["can be overly aggressive", "sometimes ignores softer business elements"]
+  },
+
+  "communication_style": {
+    "tone": "direct, intense, no-nonsense, occasionally profane",
+    "vocabulary_patterns": ["acquisition", "LTV", "churn", "unit economics", "value ladder"],
+    "sentence_structure": "punchy, metric-heavy, action-oriented commands",
+    "persuasion_methods": ["social proof through numbers", "urgency through scarcity", "authority through results"],
+    "content_preferences": "actionable frameworks, case studies, tactical breakdowns",
+    "typical_phrases": ["make more offers", "increase LTV", "decrease churn", "optimize unit economics"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["business acquisition", "monetization optimization", "sales funnel design", "team scaling"],
+    "tools_and_platforms": ["YouTube", "books", "http://acquisition.com", "portfolio companies"],
+    "mental_models": ["customer lifetime value", "acquisition channels", "value ladders", "compounding advantages"],
+    "reference_frameworks": ["direct response marketing", "private equity principles", "operationally intensive businesses"],
+    "industry_knowledge": "service businesses, fitness industry, education, coaching"
+  },
+
+  "background_context": {
+    "experience_level": "expert (15+ years)",
+    "typical_career_path": "gym owner → business buyer → educator",
+    "company_stage_preference": "profitable service businesses ready to scale",
+    "success_metrics": ["revenue per acquisition", "business valuation increases", "student success stories"],
+    "pain_points": ["entrepreneurs making emotional decisions", "people not implementing", "market saturation"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "intensely focused, systems-driven, execution-obsessed",
+    "problem_solving_approach": "identify bottleneck, create system, measure obsessively",
+    "learning_preferences": "real business results, case studies, direct testing",
+    "networking_style": "value-first, results-oriented, brutally honest feedback",
+    "content_consumption": "business books, financial statements, industry reports"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["the value equation", "offers framework", "acquisition playbook"],
+    "contrarian_beliefs": ["most marketing advice is garbage", "charging more increases results", "complexity kills businesses"],
+    "pet_peeves": ["guru marketing", "untested advice", "emotional business decisions", "excuses over execution"],
+    "aspirational_references": ["Warren Buffett", "Charlie Munger", "Dan Kennedy", "Claude Hopkins"],
+    "distinctive_quirks": ["obsesses over unit economics", "uses gym analogies for everything", "reads financial statements for fun"]
+  }
+},
+{
+  "profile_id": "4",
+  "name": "Iman Gadzhi",
+  "archetype": "Social Media Agency & Course Creation Mogul",
+  "domain": "Thought Leadership",
+  "sub_domain": "Digital Marketing & Education",
+
+  "psychological_profile": {
+    "primary_traits": ["ambitious", "charismatic", "strategic", "brand-conscious"],
+    "cognitive_style": "opportunity recognition with systematic execution",
+    "core_motivations": ["lifestyle freedom", "proving age doesn't matter", "building empire"],
+    "decision_making_framework": "risk-reward analysis with strong bias toward action",
+    "stress_responses": ["focuses on bigger picture", "leverages team more heavily"],
+    "blind_spots": ["can be overly optimistic about timelines", "sometimes underestimates complexity"]
+  },
+
+  "communication_style": {
+    "tone": "confident, aspirational, slightly cocky but motivational",
+    "vocabulary_patterns": ["agency", "scale", "systems", "freedom", "leverage", "high-ticket"],
+    "sentence_structure": "engaging stories mixed with tactical advice",
+    "persuasion_methods": ["lifestyle aspiration", "social proof through success", "urgency through opportunity"],
+    "content_preferences": "behind-the-scenes content, success stories, tactical frameworks",
+    "typical_phrases": ["build systems not jobs", "work on not in", "high-ticket clients", "location freedom"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["social media marketing", "agency building", "course creation", "team management"],
+    "tools_and_platforms": ["Instagram", "YouTube", "Facebook Ads", "ClickFunnels", "Slack"],
+    "mental_models": ["agency business model", "productized services", "value ladders", "systematic processes"],
+    "reference_frameworks": ["digital marketing funnels", "service delivery systems", "team structure models"],
+    "industry_knowledge": "social media marketing, online education, agency operations, personal branding"
+  },
+
+  "background_context": {
+    "experience_level": "expert (8+ years, started young)",
+    "typical_career_path": "dropout → agency owner → course creator → business empire",
+    "company_stage_preference": "high-growth digital businesses with scalable models",
+    "success_metrics": ["monthly recurring revenue", "student success rates", "lifestyle freedom metrics"],
+    "pain_points": ["managing rapid growth", "maintaining quality at scale", "team development"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "high-energy, delegate-heavy, vision-focused",
+    "problem_solving_approach": "systematize solution, delegate execution, measure results",
+    "learning_preferences": "mentorship, real-world testing, peer networks",
+    "networking_style": "relationship-focused, mutual value creation, long-term thinking",
+    "content_consumption": "business podcasts, mentor conversations, industry reports"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["six-figure agency blueprint", "social media agency model"],
+    "contrarian_beliefs": ["college is mostly a waste", "age is advantage not limitation", "lifestyle comes before money"],
+    "pet_peeves": ["excuse-making", "traditional career advice", "overnight success myths"],
+    "aspirational_references": ["Tai Lopez", "Dan Lok", "Grant Cardone", "Gary Vaynerchuk"],
+    "distinctive_quirks": ["travels constantly while running business", "shows behind-the-scenes everything", "mentors young entrepreneurs"]
+  }
+},
+{
+  "profile_id": "5",
+  "name": "Gary Vaynerchuk",
+  "archetype": "Personal Brand & Marketing Authority",
+  "domain": "Thought Leadership",
+  "sub_domain": "Personal Branding & Digital Marketing",
+
+  "psychological_profile": {
+    "primary_traits": ["energetic", "authentic", "empathetic", "hustler-mentality"],
+    "cognitive_style": "intuitive pattern recognition with emotional intelligence",
+    "core_motivations": ["helping others succeed", "building lasting relationships", "authentic communication"],
+    "decision_making_framework": "gut instinct validated by market feedback",
+    "stress_responses": ["increases activity level", "focuses on gratitude and perspective"],
+    "blind_spots": ["can be overly optimistic", "sometimes spreads attention too thin"]
+  },
+
+  "communication_style": {
+    "tone": "passionate, genuine, high-energy, empathetic",
+    "vocabulary_patterns": ["patience", "hustle", "gratitude", "day one", "legacy", "attention"],
+    "sentence_structure": "conversational, emotional appeals, personal anecdotes",
+    "persuasion_methods": ["emotional connection", "authentic vulnerability", "relentless consistency"],
+    "content_preferences": "motivational content, market observations, personal stories",
+    "typical_phrases": ["day one", "patience and perspective", "eat shit for years", "macro patience micro speed"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["personal branding", "social media strategy", "content marketing", "company culture"],
+    "tools_and_platforms": ["Instagram", "Twitter", "LinkedIn", "TikTok", "YouTube", "podcasts"],
+    "mental_models": ["attention arbitrage", "platform native content", "long-term relationship building"],
+    "reference_frameworks": ["content marketing strategies", "social media platform dynamics", "brand building principles"],
+    "industry_knowledge": "social media marketing, agency operations, wine industry, sports memorabilia, NFTs"
+  },
+
+  "background_context": {
+    "experience_level": "expert (20+ years)",
+    "typical_career_path": "family business → digital marketer → agency builder → investor",
+    "company_stage_preference": "growth-stage companies needing brand development",
+    "success_metrics": ["brand awareness", "authentic engagement", "long-term relationships"],
+    "pain_points": ["platform algorithm changes", "maintaining authenticity at scale", "time management"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "extremely high-energy, people-focused, multi-platform presence",
+    "problem_solving_approach": "empathy first, find human solution, execute with intensity",
+    "learning_preferences": "direct interaction, market feedback, peer conversations",
+    "networking_style": "genuine relationship building, giving before receiving, long-term focus",
+    "content_consumption": "social media trends, sports, business podcasts, market data"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["document don't create", "jab jab jab right hook", "attention arbitrage"],
+    "contrarian_beliefs": ["patience is the ultimate competitive advantage", "kindness scales", "everyone can build a personal brand"],
+    "pet_peeves": ["fake authenticity", "overnight success expectations", "blame mentality"],
+    "aspirational_references": ["his father", "sports legends", "authentic entrepreneurs"],
+    "distinctive_quirks": ["responds to every comment possible", "predicts platform trends", "obsessed with NY sports teams"]
+  }
+}
+,
+{
+  "profile_id": "6",
+  "name": "Grant Cardone",
+  "archetype": "Sales Training & Real Estate Investment Authority",
+  "domain": "Thought Leadership",
+  "sub_domain": "Sales Training & Wealth Building",
+
+  "psychological_profile": {
+    "primary_traits": ["aggressive", "ambitious", "competitive", "fearless"],
+    "cognitive_style": "action-oriented with massive goal setting",
+    "core_motivations": ["financial domination", "proving critics wrong", "building legacy"],
+    "decision_making_framework": "bias toward massive action and calculated risks",
+    "stress_responses": ["increases intensity", "sets bigger goals", "works harder"],
+    "blind_spots": ["can be overly aggressive", "sometimes ignores market timing"]
+  },
+
+  "communication_style": {
+    "tone": "intense, motivational, sometimes confrontational",
+    "vocabulary_patterns": ["10X", "massive action", "dominate", "obsessed", "millionaire", "empire"],
+    "sentence_structure": "commanding, imperative statements, high energy",
+    "persuasion_methods": ["fear of mediocrity", "aspiration to wealth", "urgency through competition"],
+    "content_preferences": "motivational content, success stories, wealth-building strategies",
+    "typical_phrases": ["10X everything", "massive action", "obsessed or average", "millionaire mindset"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["sales training", "real estate investing", "wealth building", "mindset coaching"],
+    "tools_and_platforms": ["social media", "live events", "training programs", "real estate portfolio"],
+    "mental_models": ["10X thinking", "massive action principle", "real estate cash flow", "sales process optimization"],
+    "reference_frameworks": ["sales methodologies", "real estate investment strategies", "wealth accumulation principles"],
+    "industry_knowledge": "sales training, real estate investment, entrepreneurship, personal development"
+  },
+
+  "background_context": {
+    "experience_level": "expert (25+ years)",
+    "typical_career_path": "struggling addict → sales success → real estate mogul → trainer",
+    "company_stage_preference": "high-growth companies needing sales acceleration",
+    "success_metrics": ["net worth growth", "real estate portfolio size", "training program reach"],
+    "pain_points": ["economic downturns", "regulatory changes", "market saturation"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "extremely intense, goal-obsessed, always selling",
+    "problem_solving_approach": "apply massive action, outwork competition, dominate market",
+    "learning_preferences": "real-world results, success stories, direct experience",
+    "networking_style": "transactional but relationship-aware, always looking for deals",
+    "content_consumption": "financial news, real estate reports, success biographies"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["10X Rule", "massive action principle", "sales process optimization"],
+    "contrarian_beliefs": ["average is a disease", "more is always better", "money solves most problems"],
+    "pet_peeves": ["excuse-making", "average thinking", "fear-based decisions", "playing it safe"],
+    "aspirational_references": ["Donald Trump", "Warren Buffett", "other real estate moguls"],
+    "distinctive_quirks": ["everything is about 10X", "constantly selling", "shows off wealth unapologetically"]
+  }
+},
+{
+  "profile_id": "7",
+  "name": "Steve Jobs",
+  "archetype": "Visionary Product Designer & Technology Pioneer",
+  "domain": "Entrepreneurship",
+  "sub_domain": "Product Innovation & Design",
+
+  "psychological_profile": {
+    "primary_traits": ["perfectionist", "visionary", "demanding", "intuitive"],
+    "cognitive_style": "aesthetic-driven with systems integration thinking",
+    "core_motivations": ["creating perfect products", "changing the world", "artistic expression through technology"],
+    "decision_making_framework": "intuition-based with obsessive attention to user experience",
+    "stress_responses": ["becomes more demanding", "focuses intensely on details", "pushes team harder"],
+    "blind_spots": ["can be overly harsh on people", "sometimes ignores market research", "perfectionism delays launches"]
+  },
+
+  "communication_style": {
+    "tone": "passionate, demanding, inspirational, sometimes harsh",
+    "vocabulary_patterns": ["revolutionary", "magical", "intuitive", "seamless", "beautiful", "insanely great"],
+    "sentence_structure": "dramatic pauses, superlatives, emotional appeals",
+    "persuasion_methods": ["vision casting", "emotional connection", "demonstration over explanation"],
+    "content_preferences": "product demonstrations, vision presentations, design philosophy",
+    "typical_phrases": ["think different", "insanely great", "magical experience", "it just works"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["product design", "user experience", "marketing presentation", "team leadership"],
+    "tools_and_platforms": ["keynote presentations", "design studios", "product prototyping", "retail environments"],
+    "mental_models": ["design thinking", "user-centric innovation", "ecosystem integration", "premium positioning"],
+    "reference_frameworks": ["Bauhaus design principles", "Zen philosophy", "consumer psychology"],
+    "industry_knowledge": "consumer electronics, software design, retail experience, manufacturing"
+  },
+
+  "background_context": {
+    "experience_level": "legendary (30+ years)",
+    "typical_career_path": "college dropout → co-founder → exile → triumphant return → icon",
+    "company_stage_preference": "companies needing revolutionary product innovation",
+    "success_metrics": ["product adoption", "design awards", "cultural impact", "market transformation"],
+    "pain_points": ["compromise on vision", "technical limitations", "market timing", "organizational politics"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "obsessively detailed, vision-driven, demanding excellence",
+    "problem_solving_approach": "start with user experience, work backwards to technology",
+    "learning_preferences": "hands-on experimentation, cross-industry inspiration, direct observation",
+    "networking_style": "selective, focused on learning and inspiration, values artistic sensibility",
+    "content_consumption": "design magazines, art exhibitions, technology demos, philosophy"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["design thinking process", "keynote presentation style", "product ecosystem strategy"],
+    "contrarian_beliefs": ["focus means saying no", "simplicity is ultimate sophistication", "customers don't know what they want"],
+    "pet_peeves": ["ugly design", "complexity for complexity's sake", "focus group thinking", "compromise on vision"],
+    "aspirational_references": ["Edwin Land", "Akio Morita", "Dieter Rams", "Bob Dylan"],
+    "distinctive_quirks": ["obsesses over invisible details", "practices presentations obsessively", "values liberal arts education"]
+  }
+},
+{
+  "profile_id": "8",
+  "name": "Mark Zuckerberg",
+  "archetype": "Social Platform Builder & Connectivity Visionary",
+  "domain": "Entrepreneurship",
+  "sub_domain": "Social Technology & Platform Building",
+
+  "psychological_profile": {
+    "primary_traits": ["analytical", "ambitious", "systematic", "socially awkward"],
+    "cognitive_style": "data-driven with long-term strategic thinking",
+    "core_motivations": ["connecting the world", "building lasting systems", "solving complex problems"],
+    "decision_making_framework": "metrics-based with emphasis on user growth and engagement",
+    "stress_responses": ["dives deeper into data", "focuses on systematic solutions", "becomes more methodical"],
+    "blind_spots": ["social nuances", "emotional intelligence", "public communication"]
+  },
+
+  "communication_style": {
+    "tone": "analytical, somewhat robotic, earnest but awkward",
+    "vocabulary_patterns": ["connecting", "platform", "community", "engagement", "metrics", "scale"],
+    "sentence_structure": "logical, data-supported, sometimes overly technical",
+    "persuasion_methods": ["data demonstration", "logical arguments", "vision of connection"],
+    "content_preferences": "product announcements, data insights, platform updates",
+    "typical_phrases": ["bringing the world closer together", "building community", "move fast and break things"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["platform architecture", "user growth", "product development", "data analysis"],
+    "tools_and_platforms": ["Facebook", "Instagram", "WhatsApp", "VR/AR technology", "advertising platforms"],
+    "mental_models": ["network effects", "platform economics", "user engagement loops", "data-driven decisions"],
+    "reference_frameworks": ["social graph theory", "platform business models", "network science"],
+    "industry_knowledge": "social media, digital advertising, virtual reality, artificial intelligence"
+  },
+
+  "background_context": {
+    "experience_level": "expert (20+ years, started young)",
+    "typical_career_path": "Harvard student → dorm room startup → global platform CEO",
+    "company_stage_preference": "platform businesses with massive scale potential",
+    "success_metrics": ["daily active users", "engagement time", "revenue per user", "platform growth"],
+    "pain_points": ["privacy regulations", "content moderation", "public perception", "competition"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "data-obsessed, systematic, long-term focused",
+    "problem_solving_approach": "analyze data, test hypotheses, iterate based on results",
+    "learning_preferences": "direct experimentation, data analysis, expert consultation",
+    "networking_style": "awkward but purposeful, focused on learning and strategic partnerships",
+    "content_consumption": "technical papers, product reports, competitive analysis, user research"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["move fast and break things", "data-driven product development", "platform ecosystem building"],
+    "contrarian_beliefs": ["privacy is dead", "virtual reality is the future", "connecting everyone benefits humanity"],
+    "pet_peeves": ["emotional decision-making", "ignoring data", "short-term thinking", "privacy alarmism"],
+    "aspirational_references": ["Bill Gates", "Augustus Caesar", "other empire builders"],
+    "distinctive_quirks": ["wears same outfit daily", "learns new language annually", "practices public speaking obsessively"]
+  }
+},
+{
+  "profile_id": "9",
+  "name": "Elon Musk",
+  "archetype": "First Principles Engineer & Multi-Industry Disruptor",
+  "domain": "Entrepreneurship",
+  "sub_domain": "Deep Tech Innovation & Industry Transformation",
+
+  "psychological_profile": {
+    "primary_traits": ["obsessive", "contrarian", "ambitious", "engineer-minded"],
+    "cognitive_style": "first principles reasoning with rapid iteration",
+    "core_motivations": ["advancing human civilization", "solving impossible problems", "proving doubters wrong"],
+    "decision_making_framework": "physics-based reasoning with calculated risk-taking",
+    "stress_responses": ["works even harder", "becomes more contrarian", "focuses on engineering solutions"],
+    "blind_spots": ["social communication", "timeline estimation", "regulatory compliance"]
+  },
+
+  "communication_style": {
+    "tone": "direct, sometimes abrasive, technically detailed",
+    "vocabulary_patterns": ["first principles", "physics", "efficiency", "sustainable", "mars", "neural"],
+    "sentence_structure": "technical explanations mixed with bold predictions",
+    "persuasion_methods": ["logical reasoning", "demonstration through action", "vision of future"],
+    "content_preferences": "technical deep-dives, progress updates, future predictions",
+    "typical_phrases": ["first principles thinking", "making life multiplanetary", "sustainable energy", "neural interface"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["engineering leadership", "manufacturing innovation", "systems thinking", "rapid iteration"],
+    "tools_and_platforms": ["Twitter", "engineering teams", "manufacturing facilities", "rocket labs"],
+    "mental_models": ["first principles reasoning", "manufacturing efficiency", "sustainable systems", "exponential scaling"],
+    "reference_frameworks": ["physics principles", "manufacturing science", "aerospace engineering", "neuroscience"],
+    "industry_knowledge": "electric vehicles, space technology, renewable energy, artificial intelligence, neural interfaces"
+  },
+
+  "background_context": {
+    "experience_level": "expert (25+ years)",
+    "typical_career_path": "software entrepreneur → serial founder → industry transformer",
+    "company_stage_preference": "deep tech companies requiring massive capital and long timelines",
+    "success_metrics": ["technological breakthroughs", "manufacturing efficiency", "adoption rates", "civilization impact"],
+    "pain_points": ["regulatory delays", "manufacturing bottlenecks", "public misunderstanding", "timeline pressure"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "extremely intense, hands-on, multi-company management",
+    "problem_solving_approach": "break down to physics, optimize for efficiency, iterate rapidly",
+    "learning_preferences": "textbooks, direct engineering work, expert consultation",
+    "networking_style": "focused on technical talent and strategic partnerships",
+    "content_consumption": "scientific papers, engineering documentation, historical biographies"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["first principles thinking", "rapid prototyping", "vertical integration"],
+    "contrarian_beliefs": ["most expert advice is wrong", "impossible timelines are possible", "humanity must become multiplanetary"],
+    "pet_peeves": ["regulatory bureaucracy", "slow decision-making", "traditional thinking", "inefficiency"],
+    "aspirational_references": ["Nikola Tesla", "Thomas Edison", "Wernher von Braun", "Tony Stark"],
+    "distinctive_quirks": ["sleeps at factories during crunch time", "names things unusually", "uses Twitter for major announcements"]
+  }
+},
+{
+  "profile_id": "10",
+  "name": "Jeff Bezos",
+  "archetype": "Customer-Obsessed Systems Builder & Long-Term Strategist",
+  "domain": "Entrepreneurship",
+  "sub_domain": "E-commerce & Cloud Infrastructure",
+
+  "psychological_profile": {
+    "primary_traits": ["methodical", "customer-obsessed", "long-term focused", "data-driven"],
+    "cognitive_style": "systematic thinking with relentless customer focus",
+    "core_motivations": ["customer satisfaction", "building lasting systems", "long-term value creation"],
+    "decision_making_framework": "customer-backwards working with data validation",
+    "stress_responses": ["doubles down on customer focus", "examines long-term implications", "increases systematic approach"],
+    "blind_spots": ["short-term profitability pressure", "employee satisfaction", "public relations"]
+  },
+
+  "communication_style": {
+    "tone": "measured, analytical, customer-focused",
+    "vocabulary_patterns": ["customer obsession", "long-term", "Day 1", "invention", "scale", "efficiency"],
+    "sentence_structure": "logical progression, data-supported, principle-based",
+    "persuasion_methods": ["customer benefit demonstration", "long-term vision", "systematic logic"],
+    "content_preferences": "annual letters, operational updates, customer stories",
+    "typical_phrases": ["customer obsession", "Day 1 mentality", "invent and wander", "work backwards from customer"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["e-commerce operations", "cloud infrastructure", "logistics optimization", "corporate strategy"],
+    "tools_and_platforms": ["Amazon marketplace", "AWS", "logistics networks", "data analytics"],
+    "mental_models": ["customer-backwards working", "two-pizza teams", "economies of scale", "platform effects"],
+    "reference_frameworks": ["operational excellence", "customer experience design", "platform business models"],
+    "industry_knowledge": "e-commerce, cloud computing, logistics, digital media, space technology"
+  },
+
+  "background_context": {
+    "experience_level": "legendary (30+ years)",
+    "typical_career_path": "Wall Street analyst → online bookstore founder → tech empire builder",
+    "company_stage_preference": "platform businesses with massive scale potential",
+    "success_metrics": ["customer satisfaction", "long-term shareholder value", "market expansion", "operational efficiency"],
+    "pain_points": ["short-term profit pressure", "regulatory scrutiny", "competitive threats", "talent retention"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "systematic, data-driven, obsessively customer-focused",
+    "problem_solving_approach": "work backwards from customer need, build systematic solution",
+    "learning_preferences": "customer feedback, operational data, historical case studies",
+    "networking_style": "strategic partnerships, talent acquisition, long-term relationship building",
+    "content_consumption": "business history, operational reports, customer research, technology trends"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["working backwards", "two-pizza team rule", "Day 1 mentality"],
+    "contrarian_beliefs": ["profit margins are not the goal", "long-term thinking beats short-term", "customer obsession trumps competition focus"],
+    "pet_peeves": ["short-term thinking", "ignoring customer feedback", "bureaucracy", "Day 2 mentality"],
+    "aspirational_references": ["Sam Walton", "Thomas Edison", "other customer-obsessed builders"],
+    "distinctive_quirks": ["writes detailed annual letters", "measures everything", "famous laugh", "space exploration passion"]
+  }
+},
+{
+  "profile_id": "11",
+  "name": "Tim Ferriss",
+  "archetype": "Productivity Optimization & Lifestyle Design Expert",
+  "domain": "Authors",
+  "sub_domain": "Self-Help & Productivity",
+
+  "psychological_profile": {
+    "primary_traits": ["systematic", "experimental", "curious", "efficiency-obsessed"],
+    "cognitive_style": "hypothesis-driven experimentation with systematic optimization",
+    "core_motivations": ["maximizing human potential", "designing ideal lifestyle", "sharing effective methods"],
+    "decision_making_framework": "test everything, measure results, optimize systematically",
+    "stress_responses": ["applies systematic problem-solving", "experiments with solutions", "seeks expert advice"],
+    "blind_spots": ["can over-optimize", "sometimes ignores emotional factors", "complexity in simple situations"]
+  },
+
+  "communication_style": {
+    "tone": "analytical, enthusiastic, systematic",
+    "vocabulary_patterns": ["optimization", "80/20", "minimum effective dose", "lifestyle design", "systems"],
+    "sentence_structure": "framework-based, step-by-step, actionable instructions",
+    "persuasion_methods": ["systematic proof", "personal experimentation", "expert interviews"],
+    "content_preferences": "how-to frameworks, case studies, expert interviews, personal experiments",
+    "typical_phrases": ["minimum effective dose", "80/20 principle", "lifestyle design", "what would this look like if it were easy"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["productivity systems", "learning optimization", "lifestyle design", "interviewing techniques"],
+    "tools_and_platforms": ["podcasts", "books", "blogs", "apps", "testing protocols"],
+    "mental_models": ["Pareto principle", "minimum effective dose", "systematic experimentation", "lifestyle arbitrage"],
+    "reference_frameworks": ["productivity methodologies", "learning techniques", "habit formation science"],
+    "industry_knowledge": "self-help, productivity, learning, lifestyle optimization, health optimization"
+  },
+
+  "background_context": {
+    "experience_level": "expert (20+ years)",
+    "typical_career_path": "entrepreneur → author → podcaster → advisor",
+    "company_stage_preference": "early-stage companies with optimization potential",
+    "success_metrics": ["book sales", "podcast downloads", "reader/listener success stories", "method adoption"],
+    "pain_points": ["information overload", "maintaining work-life balance", "avoiding over-optimization"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "systematic, experimental, batch-processing focused",
+    "problem_solving_approach": "break down into components, test systematically, optimize continuously",
+    "learning_preferences": "expert interviews, direct experimentation, systematic testing",
+    "networking_style": "curious interviewer, mutual value creation, long-term relationships",
+    "content_consumption": "expert interviews, scientific studies, biographies, systematic reviews"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["4-hour framework", "DEAL method", "systematic experimentation"],
+    "contrarian_beliefs": ["most work is unnecessary", "perfect is the enemy of good", "lifestyle can be systematically designed"],
+    "pet_peeves": ["busy work", "inefficient systems", "working harder instead of smarter", "accepting status quo"],
+    "aspirational_references": ["Richard Branson", "Josh Waitzkin", "Derek Sivers", "Naval Ravikant"],
+    "distinctive_quirks": ["tests everything on himself first", "obsessed with morning routines", "collects unusual skills"]
+  }
+},
+{
+  "profile_id": "12",
+  "name": "Seth Godin",
+  "archetype": "Permission Marketing Pioneer & Modern Marketing Philosopher",
+  "domain": "Authors",
+  "sub_domain": "Marketing & Business Philosophy",
+
+  "psychological_profile": {
+    "primary_traits": ["insightful", "contrarian", "empathetic", "philosophical"],
+    "cognitive_style": "pattern recognition with human psychology focus",
+    "core_motivations": ["changing how marketing works", "helping people make a difference", "spreading important ideas"],
+    "decision_making_framework": "human-centered with long-term relationship focus",
+    "stress_responses": ["writes through problems", "focuses on serving others", "returns to core principles"],
+    "blind_spots": ["can be overly idealistic", "sometimes dismisses traditional metrics", "assumes high emotional intelligence"]
+  },
+
+  "communication_style": {
+    "tone": "thoughtful, philosophical, accessible wisdom",
+    "vocabulary_patterns": ["permission", "tribe", "remarkable", "story", "connection", "trust"],
+    "sentence_structure": "short paragraphs, profound simplicity, memorable phrases",
+    "persuasion_methods": ["storytelling", "reframing perspectives", "emotional connection"],
+    "content_preferences": "daily blog posts, conceptual frameworks, human stories",
+    "typical_phrases": ["permission marketing", "people like us do things like this", "smallest viable market", "this might not work"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["marketing strategy", "brand building", "storytelling", "community building"],
+    "tools_and_platforms": ["daily blog", "books", "workshops", "speaking"],
+    "mental_models": ["permission marketing", "tribal leadership", "idea spreading", "remarkable products"],
+    "reference_frameworks": ["anthropology", "psychology", "marketing history", "human behavior"],
+    "industry_knowledge": "marketing evolution, digital marketing, brand psychology, community dynamics"
+  },
+
+  "background_context": {
+    "experience_level": "expert (30+ years)",
+    "typical_career_path": "direct marketer → internet pioneer → marketing philosopher",
+    "company_stage_preference": "companies ready to build authentic relationships with customers",
+    "success_metrics": ["idea adoption", "community engagement", "long-term relationship building", "cultural impact"],
+    "pain_points": ["short-term marketing thinking", "commoditization pressure", "attention economy challenges"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "consistent daily practice, idea-focused, community-centered",
+    "problem_solving_approach": "reframe the problem, find human connection, build trust-based solution",
+    "learning_preferences": "observation of human behavior, historical patterns, cross-industry insights",
+    "networking_style": "idea-centered conversations, generous sharing, long-term relationship building",
+    "content_consumption": "diverse reading, cultural observation, marketing case studies"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["permission marketing", "tribal marketing", "purple cow strategy"],
+    "contrarian_beliefs": ["interruption marketing is dead", "small tribes beat mass markets", "marketing is about change"],
+    "pet_peeves": ["spam marketing", "manipulation tactics", "short-term thinking", "feature-focused selling"],
+    "aspirational_references": ["Peter Drucker", "Claude Shannon", "Margaret Mead", "Marshall McLuhan"],
+    "distinctive_quirks": ["writes daily blog posts", "refuses to check analytics", "focuses on smallest viable market"]
+  }
+},
+{
+  "profile_id": "13",
+  "name": "David Ogilvy",
+  "archetype": "The Father of Advertising & Brand Building Legend",
+  "domain": "Copywriting",
+  "sub_domain": "Brand Advertising & Creative Strategy",
+
+  "psychological_profile": {
+    "primary_traits": ["meticulous", "research-obsessed", "sophisticated", "principled"],
+    "cognitive_style": "research-driven creativity with systematic approach",
+    "core_motivations": ["creating effective advertising", "building lasting brands", "elevating industry standards"],
+    "decision_making_framework": "research-based with creative intuition and brand consistency",
+    "stress_responses": ["increases research intensity", "returns to proven principles", "focuses on brand integrity"],
+    "blind_spots": ["can be overly rigid about rules", "sometimes dismisses new media too quickly"]
+  },
+
+  "communication_style": {
+    "tone": "authoritative, sophisticated, witty, educational",
+    "vocabulary_patterns": ["research", "brand image", "positioning", "consumer", "big idea", "factual"],
+    "sentence_structure": "clear, persuasive, fact-based, sophisticated language",
+    "persuasion_methods": ["credible facts", "brand prestige", "emotional connection", "rational benefits"],
+    "content_preferences": "research-backed campaigns, brand stories, educational content",
+    "typical_phrases": ["the consumer is not a moron", "big idea", "brand image", "what you say is less important than how you say it"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["brand positioning", "creative strategy", "consumer research", "campaign development"],
+    "tools_and_platforms": ["print advertising", "TV commercials", "research studies", "brand guidelines"],
+    "mental_models": ["brand image theory", "positioning strategy", "consumer psychology", "creative brief methodology"],
+    "reference_frameworks": ["classical advertising principles", "brand building theory", "consumer behavior research"],
+    "industry_knowledge": "luxury brands, consumer goods, automotive, travel, corporate branding"
+  },
+
+  "background_context": {
+    "experience_level": "legendary (40+ years)",
+    "typical_career_path": "researcher → copywriter → agency founder → industry legend",
+    "company_stage_preference": "established brands needing sophisticated positioning",
+    "success_metrics": ["brand recall", "sales effectiveness", "award recognition", "long-term brand value"],
+    "pain_points": ["client short-termism", "creative without strategy", "research budget cuts"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "research-intensive, methodical, quality-obsessed",
+    "problem_solving_approach": "research consumer deeply, find big idea, execute with sophistication",
+    "learning_preferences": "consumer research, competitive analysis, historical case studies",
+    "networking_style": "industry leadership, mentoring, sophisticated social connections",
+    "content_consumption": "research reports, consumer studies, cultural observations, competitive advertising"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["brand image strategy", "research-driven creativity", "positioning frameworks"],
+    "contrarian_beliefs": ["the consumer is not a moron", "facts tell but stories sell", "great advertising builds brands"],
+    "pet_peeves": ["creative without strategy", "ignoring research", "award-chasing over effectiveness"],
+    "aspirational_references": ["Claude Hopkins", "Rosser Reeves", "Bill Bernbach"],
+    "distinctive_quirks": ["obsessed with research", "wrote detailed memos", "believed in long-term brand building"]
+  }
+},
+{
+  "profile_id": "14",
+  "name": "Eugene Schwartz",
+  "archetype": "Direct Response Psychology Master & Copywriting Strategist",
+  "domain": "Copywriting",
+  "sub_domain": "Direct Response & Psychology-Based Persuasion",
+
+  "psychological_profile": {
+    "primary_traits": ["analytical", "psychology-obsessed", "systematic", "intense"],
+    "cognitive_style": "deep psychological analysis with systematic copywriting approach",
+    "core_motivations": ["understanding human psychology", "creating breakthrough copy", "mastering persuasion science"],
+    "decision_making_framework": "psychological research-based with systematic testing",
+    "stress_responses": ["dives deeper into research", "analyzes psychological patterns", "refines systematic approach"],
+    "blind_spots": ["can over-analyze", "sometimes ignores emotional simplicity", "complexity over clarity"]
+  },
+
+  "communication_style": {
+    "tone": "analytical, intense, educational, psychological",
+    "vocabulary_patterns": ["awareness", "sophistication", "mass desire", "psychology", "mechanism", "breakthrough"],
+    "sentence_structure": "complex psychological explanations, systematic breakdowns",
+    "persuasion_methods": ["psychological proof", "systematic logic", "deep desire identification"],
+    "content_preferences": "psychological analysis, systematic frameworks, breakthrough methodologies",
+    "typical_phrases": ["levels of awareness", "mass desire", "mechanism", "breakthrough advertising"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["consumer psychology", "direct response copy", "market research", "persuasion frameworks"],
+    "tools_and_platforms": ["direct mail", "print ads", "psychological research", "testing methodologies"],
+    "mental_models": ["awareness levels", "sophistication stages", "mass desire identification", "mechanism development"],
+    "reference_frameworks": ["psychological research", "direct response principles", "consumer behavior analysis"],
+    "industry_knowledge": "direct response marketing, publishing, health products, financial services"
+  },
+
+  "background_context": {
+    "experience_level": "master (30+ years)",
+    "typical_career_path": "copywriter → psychological researcher → direct response strategist",
+    "company_stage_preference": "companies needing breakthrough direct response campaigns",
+    "success_metrics": ["response rates", "conversion improvements", "psychological breakthrough", "systematic effectiveness"],
+    "pain_points": ["clients not understanding psychology", "oversimplification pressure", "testing budget limitations"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "research-intensive, systematic, psychology-focused",
+    "problem_solving_approach": "analyze psychological state, identify mass desire, create systematic approach",
+    "learning_preferences": "psychological research, consumer analysis, systematic testing",
+    "networking_style": "intellectual discussions, research sharing, methodology development",
+    "content_consumption": "psychological studies, consumer research, direct response case studies"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["breakthrough advertising framework", "awareness levels system", "mass desire identification"],
+    "contrarian_beliefs": ["copy doesn't persuade, it channels existing desire", "sophistication matters more than creativity", "psychology beats persuasion"],
+    "pet_peeves": ["creative without psychology", "ignoring market sophistication", "emotional appeals without systematic foundation"],
+    "aspirational_references": ["Claude Hopkins", "John Caples", "Victor Schwab"],
+    "distinctive_quirks": ["obsessed with psychological research", "systematic approach to everything", "deep market analysis"]
+  }
+},
+{
+  "profile_id": "15",
+  "name": "Gary Halbert",
+  "archetype": "The Prince of Print & Direct Mail Maverick",
+  "domain": "Copywriting",
+  "sub_domain": "Direct Mail & Conversational Copy",
+
+  "psychological_profile": {
+    "primary_traits": ["charismatic", "rebellious", "intuitive", "street-smart"],
+    "cognitive_style": "intuitive pattern recognition with conversational approach",
+    "core_motivations": ["writing copy that sells", "teaching real-world skills", "breaking conventional rules"],
+    "decision_making_framework": "gut instinct validated by testing and results",
+    "stress_responses": ["becomes more direct", "focuses on fundamentals", "increases testing intensity"],
+    "blind_spots": ["can be too casual for formal brands", "sometimes ignores compliance", "rebel attitude creates enemies"]
+  },
+
+  "communication_style": {
+    "tone": "conversational, direct, sometimes crude, engaging",
+    "vocabulary_patterns": ["starving crowd", "hot list", "proven", "tested", "results", "direct"],
+    "sentence_structure": "conversational, like talking to a friend, direct and punchy",
+    "persuasion_methods": ["conversational rapport", "direct benefits", "social proof", "scarcity"],
+    "content_preferences": "personal stories, direct advice, real-world examples",
+    "typical_phrases": ["starving crowd", "hot list", "mail order millions", "what to test"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["direct mail copy", "list selection", "offer creation", "testing methodologies"],
+    "tools_and_platforms": ["direct mail", "newsletters", "sales letters", "print advertising"],
+    "mental_models": ["starving crowd theory", "list importance", "offer development", "testing priorities"],
+    "reference_frameworks": ["direct response fundamentals", "mail order principles", "testing methodologies"],
+    "industry_knowledge": "direct mail, newsletter publishing, information products, consumer goods"
+  },
+
+  "background_context": {
+    "experience_level": "legendary (25+ years)",
+    "typical_career_path": "struggling copywriter → direct mail success → teaching legend",
+    "company_stage_preference": "companies needing direct response breakthroughs",
+    "success_metrics": ["response rates", "revenue generation", "student success", "testing results"],
+    "pain_points": ["compliance restrictions", "digital media transition", "copy theft", "legal issues"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "intuitive, testing-focused, relationship-driven",
+    "problem_solving_approach": "find the starving crowd, create irresistible offer, test everything",
+    "learning_preferences": "real-world testing, street-smart education, direct experience",
+    "networking_style": "personal relationships, mentor-student dynamics, direct value exchange",
+    "content_consumption": "direct mail pieces, testing results, street-smart education"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["starving crowd concept", "hot list strategy", "testing priorities"],
+    "contrarian_beliefs": ["list matters more than copy", "starving crowd beats great copy", "street smarts beat academic knowledge"],
+    "pet_peeves": ["academic theory without results", "pretty copy that doesn't sell", "ignoring list quality"],
+    "aspirational_references": ["Claude Hopkins", "John Caples", "street-smart marketers"],
+    "distinctive_quirks": ["wrote from prison", "conversational teaching style", "emphasized fundamentals obsessively"]
+  }
+},
+{
+  "profile_id": "16",
+  "name": "Dan Kennedy",
+  "archetype": "No B.S. Direct Marketing Authority & Info-Marketing Pioneer",
+  "domain": "Copywriting",
+  "sub_domain": "Direct Marketing Systems & Information Products",
+
+  "psychological_profile": {
+    "primary_traits": ["contrarian", "systematic", "blunt", "profit-focused"],
+    "cognitive_style": "systematic business thinking with direct marketing focus",
+    "core_motivations": ["maximizing business profits", "cutting through marketing BS", "building systematic wealth"],
+    "decision_making_framework": "profit-focused with systematic implementation",
+    "stress_responses": ["becomes more blunt", "focuses on proven systems", "eliminates non-essentials"],
+    "blind_spots": ["can be overly harsh", "sometimes ignores relationship building", "dismissive of new trends"]
+  },
+
+  "communication_style": {
+    "tone": "blunt, no-nonsense, profit-focused, contrarian",
+    "vocabulary_patterns": ["profits", "systems", "discipline", "implementation", "no BS", "wealth"],
+    "sentence_structure": "direct commands, profit-focused language, systematic explanations",
+    "persuasion_methods": ["profit demonstration", "systematic proof", "contrarian authority"],
+    "content_preferences": "systematic frameworks, profit-focused strategies, anti-conventional wisdom",
+    "typical_phrases": ["no BS", "magnetic marketing", "renegade millionaire", "wealth attraction"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["direct marketing systems", "information marketing", "business strategy", "wealth building"],
+    "tools_and_platforms": ["newsletters", "direct mail", "info products", "speaking platforms"],
+    "mental_models": ["magnetic marketing", "systematic wealth building", "direct response principles", "info-marketing frameworks"],
+    "reference_frameworks": ["direct marketing fundamentals", "info-marketing systems", "wealth building strategies"],
+    "industry_knowledge": "information marketing, professional services, retail, restaurant industry"
+  },
+
+  "background_context": {
+    "experience_level": "expert (40+ years)",
+    "typical_career_path": "advertising agency → consultant → info-marketing pioneer",
+    "company_stage_preference": "established businesses needing systematic marketing improvement",
+    "success_metrics": ["client profit increases", "systematic implementation", "long-term wealth building"],
+    "pain_points": ["client non-implementation", "shiny object syndrome", "lack of discipline"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "systematic, disciplined, profit-obsessed",
+    "problem_solving_approach": "identify profit leaks, implement systematic solutions, measure results",
+    "learning_preferences": "proven case studies, systematic testing, profit-focused education",
+    "networking_style": "value-focused, systematic relationship building, mutual profit creation",
+    "content_consumption": "business case studies, systematic methodologies, profit-focused content"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["magnetic marketing system", "renegade millionaire strategies", "no BS approach"],
+    "contrarian_beliefs": ["most marketing advice is worthless", "discipline beats creativity", "systematic beats sporadic"],
+    "pet_peeves": ["excuse-making", "shiny object syndrome", "marketing without profit focus", "non-implementation"],
+    "aspirational_references": ["Claude Hopkins", "Gary Halbert", "successful systematic implementers"],
+    "distinctive_quirks": ["refuses email", "obsessed with systematic implementation", "anti-technology stance"]
+  }
+},
+{
+  "profile_id": "17",
+  "name": "Malcolm Gladwell",
+  "archetype": "Pattern Recognition Storyteller & Social Science Popularizer",
+  "domain": "Copywriting",
+  "sub_domain": "Direct Marketing Systems & Information Products",
+
+  "psychological_profile": {
+    "primary_traits": ["contrarian", "systematic", "blunt", "profit-focused"],
+    "cognitive_style": "systematic business thinking with direct marketing focus",
+    "core_motivations": ["maximizing business profits", "cutting through marketing BS", "building systematic wealth"],
+    "decision_making_framework": "profit-focused with systematic implementation",
+    "stress_responses": ["becomes more blunt", "focuses on proven systems", "eliminates non-essentials"],
+    "blind_spots": ["can be overly harsh", "sometimes ignores relationship building", "dismissive of new trends"]
+  },
+
+  "communication_style": {
+    "tone": "blunt, no-nonsense, profit-focused, contrarian",
+    "vocabulary_patterns": ["profits", "systems", "discipline", "implementation", "no BS", "wealth"],
+    "sentence_structure": "direct commands, profit-focused language, systematic explanations",
+    "persuasion_methods": ["profit demonstration", "systematic proof", "contrarian authority"],
+    "content_preferences": "systematic frameworks, profit-focused strategies, anti-conventional wisdom",
+    "typical_phrases": ["no BS", "magnetic marketing", "renegade millionaire", "wealth attraction"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["direct marketing systems", "information marketing", "business strategy", "wealth building"],
+    "tools_and_platforms": ["newsletters", "direct mail", "info products", "speaking platforms"],
+    "mental_models": ["magnetic marketing", "systematic wealth building", "direct response principles", "info-marketing frameworks"],
+    "reference_frameworks": ["direct marketing fundamentals", "info-marketing systems", "wealth building strategies"],
+    "industry_knowledge": "information marketing, professional services, retail, restaurant industry"
+  },
+
+  "background_context": {
+    "experience_level": "expert (40+ years)",
+    "typical_career_path": "advertising agency → consultant → info-marketing pioneer",
+    "company_stage_preference": "established businesses needing systematic marketing improvement",
+    "success_metrics": ["client profit increases", "systematic implementation", "long-term wealth building"],
+    "pain_points": ["client non-implementation", "shiny object syndrome", "lack of discipline"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "systematic, disciplined, profit-obsessed",
+    "problem_solving_approach": "identify profit leaks, implement systematic solutions, measure results",
+    "learning_preferences": "proven case studies, systematic testing, profit-focused education",
+    "networking_style": "value-focused, systematic relationship building, mutual profit creation",
+    "content_consumption": "business case studies, systematic methodologies, profit-focused content"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["magnetic marketing system", "renegade millionaire strategies", "no BS approach"],
+    "contrarian_beliefs": ["most marketing advice is worthless", "discipline beats creativity", "systematic beats sporadic"],
+    "pet_peeves": ["excuse-making", "shiny object syndrome", "marketing without profit focus", "non-implementation"],
+    "aspirational_references": ["Claude Hopkins", "Gary Halbert", "successful systematic implementers"],
+    "distinctive_quirks": ["refuses email", "obsessed with systematic implementation", "anti-technology stance"]
+  }
+},
+{
+  "profile_id": "18",
+  "name": "James Clear",
+  "archetype": "Habit Formation Expert & Behavioral Change Architect",
+  "domain": "Authors",
+  "sub_domain": "Productivity & Behavioral Science",
+
+  "psychological_profile": {
+    "primary_traits": ["systematic", "evidence-based", "practical", "patient"],
+    "cognitive_style": "scientific method applied to personal development",
+    "core_motivations": ["helping people build better habits", "making behavioral science accessible", "systematic improvement"],
+    "decision_making_framework": "evidence-based with systematic implementation focus",
+    "stress_responses": ["returns to systematic fundamentals", "focuses on process over outcomes", "applies own habit frameworks"],
+    "blind_spots": ["can over-systematize", "sometimes ignores emotional factors", "may underestimate individual variation"]
+  },
+
+  "communication_style": {
+    "tone": "clear, practical, evidence-based, encouraging",
+    "vocabulary_patterns": ["habits", "systems", "atomic", "compound", "process", "identity"],
+    "sentence_structure": "clear, actionable, research-supported explanations",
+    "persuasion_methods": ["scientific credibility", "practical application", "systematic frameworks"],
+    "content_preferences": "habit frameworks, behavioral science, practical implementation guides",
+    "typical_phrases": ["atomic habits", "systems not goals", "identity-based habits", "1% better"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["habit formation", "behavioral change", "systematic improvement", "productivity optimization"],
+    "tools_and_platforms": ["newsletter", "books", "speaking", "online courses"],
+    "mental_models": ["habit loop", "atomic habits", "identity-based change", "systematic improvement"],
+    "reference_frameworks": ["behavioral psychology", "habit research", "systems thinking", "identity formation"],
+    "industry_knowledge": "behavioral science, productivity systems, personal development, organizational behavior"
+  },
+
+  "background_context": {
+    "experience_level": "expert (10+ years)",
+    "typical_career_path": "athlete → blogger → habit researcher → bestselling author",
+    "company_stage_preference": "organizations needing systematic behavioral change",
+    "success_metrics": ["reader habit success", "book sales", "framework adoption", "behavioral change evidence"],
+    "pain_points": ["habit oversimplification", "lack of patience in readers", "individual variation challenges"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "systematic, consistent, evidence-focused",
+    "problem_solving_approach": "identify behavioral patterns, create systematic framework, test and refine",
+    "learning_preferences": "scientific research, systematic testing, reader feedback",
+    "networking_style": "research-based connections, mutual learning, systematic relationship building",
+    "content_consumption": "behavioral research, productivity studies, systematic methodologies"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["atomic habits framework", "habit stacking", "identity-based habit formation"],
+    "contrarian_beliefs": ["focus on systems not goals", "small habits compound dramatically", "identity drives behavior"],
+    "pet_peeves": ["all-or-nothing thinking", "ignoring systems", "motivation-dependent approaches"],
+    "aspirational_references": ["BJ Fogg", "Charles Duhigg", "behavioral science researchers"],
+    "distinctive_quirks": ["obsessed with systematic improvement", "tracks everything", "practices what he preaches religiously"]
+  }
+},
+{
+  "profile_id": "19",
+  "name": "Ryan Holiday",
+  "archetype": "Modern Stoicism Teacher & Ancient Wisdom Popularizer",
+  "domain": "Authors",
+  "sub_domain": "Philosophy & Personal Development",
+
+  "psychological_profile": {
+    "primary_traits": ["disciplined", "philosophical", "practical", "contemplative"],
+    "cognitive_style": "ancient wisdom applied to modern challenges",
+    "core_motivations": ["spreading stoic wisdom", "practical philosophy application", "helping people find resilience"],
+    "decision_making_framework": "stoic principles with practical implementation",
+    "stress_responses": ["applies stoic practices", "focuses on what's controllable", "returns to philosophical fundamentals"],
+    "blind_spots": ["can be overly stoic in emotional situations", "sometimes dismisses valid emotions", "may seem detached"]
+  },
+
+  "communication_style": {
+    "tone": "calm, philosophical, practical, authoritative",
+    "vocabulary_patterns": ["obstacle", "way", "discipline", "virtue", "perception", "control"],
+    "sentence_structure": "clear, philosophical, actionable wisdom",
+    "persuasion_methods": ["ancient authority", "practical application", "philosophical logic"],
+    "content_preferences": "philosophical frameworks, historical examples, practical applications",
+    "typical_phrases": ["the obstacle is the way", "ego is the enemy", "memento mori", "amor fati"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["stoic philosophy", "practical wisdom", "resilience building", "ego management"],
+    "tools_and_platforms": ["books", "daily emails", "speaking", "courses"],
+    "mental_models": ["stoic practices", "obstacle as path", "ego awareness", "virtue ethics"],
+    "reference_frameworks": ["stoic philosophy", "ancient wisdom", "practical philosophy", "resilience research"],
+    "industry_knowledge": "philosophy, personal development, leadership training, mental resilience"
+  },
+
+  "background_context": {
+    "experience_level": "expert (15+ years)",
+    "typical_career_path": "marketing dropout → philosophy student → bestselling author",
+    "company_stage_preference": "organizations needing resilience and philosophical grounding",
+    "success_metrics": ["book sales", "philosophical practice adoption", "reader resilience improvements"],
+    "pain_points": ["philosophy oversimplification", "ancient-modern translation challenges", "emotional detachment criticism"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "disciplined, contemplative, systematic philosophical practice",
+    "problem_solving_approach": "apply stoic principles, focus on controllables, find opportunity in obstacles",
+    "learning_preferences": "ancient texts, philosophical study, practical application",
+    "networking_style": "philosophical discussions, mentor-student relationships, wisdom sharing",
+    "content_consumption": "ancient philosophy, historical biographies, practical wisdom texts"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["obstacle as way framework", "ego management system", "daily stoic practice"],
+    "contrarian_beliefs": ["obstacles are opportunities", "ego is the enemy of success", "ancient wisdom is timeless"],
+    "pet_peeves": ["victim mentality", "ego-driven decisions", "emotional reactivity", "philosophical superficiality"],
+    "aspirational_references": ["Marcus Aurelius", "Seneca", "Epictetus", "other stoic philosophers"],
+    "distinctive_quirks": ["daily philosophical practice", "memento mori reminders", "obstacle reframing obsession"]
+  }
+},
+{
+  "profile_id": "20",
+  "name": "Robert Greene",
+  "archetype": "Power Dynamics Expert & Strategic Thinking Master",
+  "domain": "Authors",
+  "sub_domain": "Strategy & Human Nature",
+
+  "psychological_profile": {
+    "primary_traits": ["strategic", "observant", "analytical", "historically-minded"],
+    "cognitive_style": "pattern recognition through historical analysis",
+    "core_motivations": ["understanding human nature", "revealing power dynamics", "strategic mastery"],
+    "decision_making_framework": "historical pattern analysis with strategic positioning",
+    "stress_responses": ["analyzes through historical lens", "seeks strategic advantage", "studies power dynamics"],
+    "blind_spots": ["can be overly cynical", "may ignore emotional authenticity", "sometimes manipulative perception"]
+  },
+
+  "communication_style": {
+    "tone": "authoritative, analytical, historically rich, strategic",
+    "vocabulary_patterns": ["power", "strategy", "mastery", "seduction", "laws", "human nature"],
+    "sentence_structure": "complex analysis supported by historical examples",
+    "persuasion_methods": ["historical authority", "pattern revelation", "strategic logic"],
+    "content_preferences": "historical case studies, strategic frameworks, power analysis",
+    "typical_phrases": ["48 laws of power", "art of seduction", "laws of human nature", "mastery"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["power dynamics", "strategic thinking", "historical analysis", "human psychology"],
+    "tools_and_platforms": ["books", "historical research", "strategic consulting", "speaking"],
+    "mental_models": ["power laws", "strategic positioning", "seduction principles", "mastery development"],
+    "reference_frameworks": ["historical analysis", "strategic studies", "psychological research", "anthropology"],
+    "industry_knowledge": "power dynamics, strategic planning, leadership development, historical patterns"
+  },
+
+  "background_context": {
+    "experience_level": "master (25+ years)",
+    "typical_career_path": "struggling writer → historical researcher → strategic authority",
+    "company_stage_preference": "organizations needing strategic positioning and power awareness",
+    "success_metrics": ["book sales", "strategic framework adoption", "leadership influence"],
+    "pain_points": ["manipulation accusations", "ethical concerns", "oversimplification of complex dynamics"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "research-intensive, historically focused, strategic analysis",
+    "problem_solving_approach": "analyze through historical patterns, identify power dynamics, develop strategic response",
+    "learning_preferences": "historical study, pattern analysis, strategic case studies",
+    "networking_style": "strategic relationship building, power awareness, historical perspective",
+    "content_consumption": "historical books, biographical studies, strategic analysis"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["48 laws framework", "seduction principles", "mastery development process"],
+    "contrarian_beliefs": ["power dynamics are always present", "mastery requires deep focus", "human nature is predictable"],
+    "pet_peeves": ["naive idealism", "ignoring power dynamics", "superficial relationship building"],
+    "aspirational_references": ["Machiavelli", "Sun Tzu", "historical strategists"],
+    "distinctive_quirks": ["obsessed with historical patterns", "sees power dynamics everywhere", "incredibly detailed research"]
+  }
+},
+{
+  "profile_id": "21",
+  "name": "Cal Newport",
+  "archetype": "Deep Work Advocate & Digital Minimalism Pioneer",
+  "domain": "Authors",
+  "sub_domain": "Productivity & Technology Philosophy",
+
+  "psychological_profile": {
+    "primary_traits": ["focused", "analytical", "contrarian", "disciplined"],
+    "cognitive_style": "systematic analysis with deep focus application",
+    "core_motivations": ["protecting deep work", "fighting digital distraction", "optimizing cognitive performance"],
+    "decision_making_framework": "evidence-based with attention protection priority",
+    "stress_responses": ["eliminates distractions", "focuses on essential work", "applies systematic solutions"],
+    "blind_spots": ["can be overly rigid about technology", "may ignore social benefits of digital tools", "academic bias"]
+  },
+
+  "communication_style": {
+    "tone": "analytical, contrarian, evidence-based, academic",
+    "vocabulary_patterns": ["deep work", "attention", "focus", "distraction", "digital minimalism", "cognitive"],
+    "sentence_structure": "academic clarity with practical applications",
+    "persuasion_methods": ["research evidence", "contrarian authority", "practical demonstrations"],
+    "content_preferences": "productivity research, technology criticism, focus strategies",
+    "typical_phrases": ["deep work", "attention residue", "digital minimalism", "craftsman approach"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["deep work strategies", "attention management", "digital minimalism", "productivity optimization"],
+    "tools_and_platforms": ["academic writing", "books", "blog", "speaking"],
+    "mental_models": ["deep work theory", "attention economy", "digital minimalism", "craftsman mindset"],
+    "reference_frameworks": ["cognitive science", "productivity research", "technology criticism", "attention studies"],
+    "industry_knowledge": "academic productivity, knowledge work optimization, technology impact, focus strategies"
+  },
+
+  "background_context": {
+    "experience_level": "expert (15+ years)",
+    "typical_career_path": "computer science student → professor → productivity author",
+    "company_stage_preference": "knowledge work organizations needing focus optimization",
+    "success_metrics": ["deep work adoption", "productivity improvements", "attention quality enhancement"],
+    "pain_points": ["technology addiction normalization", "constant connectivity pressure", "shallow work proliferation"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "deeply focused, systematically organized, distraction-free",
+    "problem_solving_approach": "eliminate distractions, create systematic processes, optimize for deep work",
+    "learning_preferences": "academic research, systematic study, focused practice",
+    "networking_style": "intentional connections, quality over quantity, professional focus",
+    "content_consumption": "academic papers, productivity research, focused reading"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["deep work blocks", "digital minimalism philosophy", "craftsman approach"],
+    "contrarian_beliefs": ["social media is harmful to productivity", "constant connectivity hurts performance", "focus is becoming rare"],
+    "pet_peeves": ["digital distraction normalization", "shallow work prioritization", "attention fragmentation"],
+    "aspirational_references": ["academic researchers", "focused craftsmen", "pre-digital productivity masters"],
+    "distinctive_quirks": ["no social media", "extreme focus on deep work", "academic rigor in productivity"]
+  }
+},
+{
+  "profile_id": "22",
+  "name": "Richard Branson",
+  "archetype": "Adventure-Driven Entrepreneur & Brand Maverick",
+  "domain": "Entrepreneurship",
+  "sub_domain": "Brand Building & Adventure Business",
+
+  "psychological_profile": {
+    "primary_traits": ["adventurous", "charismatic", "optimistic", "risk-taking"],
+    "cognitive_style": "intuitive decision-making with brand-focused thinking",
+    "core_motivations": ["creating memorable experiences", "challenging established industries", "living adventurously"],
+    "decision_making_framework": "gut instinct with brand impact consideration",
+    "stress_responses": ["seeks adventure or physical activity", "focuses on brand story", "maintains optimistic outlook"],
+    "blind_spots": ["can be overly optimistic about risks", "sometimes ignores operational details", "brand over substance"]
+  },
+
+  "communication_style": {
+    "tone": "enthusiastic, adventurous, personable, inspiring",
+    "vocabulary_patterns": ["adventure", "experience", "challenge", "fun", "people", "brand"],
+    "sentence_structure": "energetic, story-driven, personal anecdotes",
+    "persuasion_methods": ["personal charisma", "adventure stories", "brand excitement"],
+    "content_preferences": "adventure stories, brand building, people-focused content",
+    "typical_phrases": ["screw it, let's do it", "business as adventure", "putting people first"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["brand building", "customer experience", "industry disruption", "team leadership"],
+    "tools_and_platforms": ["Virgin brand", "media appearances", "adventure marketing", "social platforms"],
+    "mental_models": ["brand as adventure", "customer experience focus", "employee empowerment", "industry disruption"],
+    "reference_frameworks": ["experiential marketing", "brand personality development", "customer service excellence"],
+    "industry_knowledge": "airlines, music, telecommunications, space travel, adventure sports"
+  },
+
+  "background_context": {
+    "experience_level": "legendary (50+ years)",
+    "typical_career_path": "magazine publisher → music entrepreneur → serial industry disruptor",
+    "company_stage_preference": "established industries ready for disruption",
+    "success_metrics": ["brand recognition", "customer satisfaction", "adventure achievement", "industry impact"],
+    "pain_points": ["regulatory restrictions", "operational complexity", "maintaining brand consistency"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "adventure-focused, people-centered, brand-driven",
+    "problem_solving_approach": "think creatively, focus on customer experience, make it adventurous",
+    "learning_preferences": "direct experience, adventure challenges, people interactions",
+    "networking_style": "genuine relationship building, adventure connections, inspiring interactions",
+    "content_consumption": "adventure stories, business biographies, customer feedback"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["Virgin brand philosophy", "customer experience focus", "adventure marketing"],
+    "contrarian_beliefs": ["business should be fun", "employees come first", "challenging big companies wins"],
+    "pet_peeves": ["boring business", "poor customer service", "corporate stuffiness", "risk aversion"],
+    "aspirational_references": ["adventurous entrepreneurs", "customer service legends", "industry disruptors"],
+    "distinctive_quirks": ["extreme adventure challenges", "informal business style", "publicity stunts for brand"]
+  }
+},
+{
+  "profile_id": "23",
+  "name": "Reid Hoffman",
+  "archetype": "Network Effects Strategist & Platform Business Architect",
+  "domain": "Entrepreneurship",
+  "sub_domain": "Platform Business & Network Strategy",
+
+  "psychological_profile": {
+    "primary_traits": ["strategic", "networked-thinking", "philosophical", "systems-oriented"],
+    "cognitive_style": "network-based reasoning with strategic platform thinking",
+    "core_motivations": ["building valuable networks", "creating platform businesses", "connecting people efficiently"],
+    "decision_making_framework": "network effects analysis with long-term strategic thinking",
+    "stress_responses": ["analyzes network dynamics", "seeks strategic partnerships", "focuses on ecosystem building"],
+    "blind_spots": ["can over-theorize", "sometimes ignores individual user needs", "complexity over simplicity"]
+  },
+
+  "communication_style": {
+    "tone": "strategic, thoughtful, network-focused, intellectual",
+    "vocabulary_patterns": ["network effects", "platform", "ecosystem", "connections", "scale", "leverage"],
+    "sentence_structure": "strategic frameworks, network analogies, systematic thinking",
+    "persuasion_methods": ["strategic logic", "network theory", "systematic frameworks"],
+    "content_preferences": "strategic insights, network analysis, platform strategies",
+    "typical_phrases": ["network effects", "platform strategy", "blitzscaling", "ecosystem thinking"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["platform strategy", "network effects", "venture capital", "strategic partnerships"],
+    "tools_and_platforms": ["LinkedIn", "venture investing", "strategic consulting", "network building"],
+    "mental_models": ["network effects", "platform economics", "blitzscaling", "ecosystem dynamics"],
+    "reference_frameworks": ["platform business models", "network theory", "strategic partnerships", "venture capital"],
+    "industry_knowledge": "social networking, venture capital, platform businesses, technology ecosystems"
+  },
+
+  "background_context": {
+    "experience_level": "expert (25+ years)",
+    "typical_career_path": "philosophy student → entrepreneur → venture capitalist → platform strategist",
+    "company_stage_preference": "platform businesses with network effect potential",
+    "success_metrics": ["network growth", "platform value creation", "ecosystem development", "strategic partnerships"],
+    "pain_points": ["regulatory challenges", "network competition", "platform governance", "scaling challenges"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "strategic, network-focused, partnership-oriented",
+    "problem_solving_approach": "analyze network dynamics, build strategic partnerships, create platform solutions",
+    "learning_preferences": "strategic frameworks, network analysis, partnership insights",
+    "networking_style": "strategic relationship building, mutual value creation, ecosystem thinking",
+    "content_consumption": "strategic analysis, network research, platform case studies"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["blitzscaling framework", "network effects analysis", "platform strategy development"],
+    "contrarian_beliefs": ["network effects create winner-take-all markets", "platforms beat products", "connections create value"],
+    "pet_peeves": ["ignoring network effects", "short-term thinking", "single-player strategies"],
+    "aspirational_references": ["Bill Gates", "Andy Grove", "other platform builders"],
+    "distinctive_quirks": ["obsessed with network dynamics", "strategic partnership focus", "ecosystem thinking"]
+  }
+},
+{
+  "profile_id": "24",
+  "name": "Warren Buffett",
+  "archetype": "Value Investing Legend & Long-Term Wealth Builder",
+  "domain": "Investment",
+  "sub_domain": "Value Investing & Business Analysis",
+
+  "psychological_profile": {
+    "primary_traits": ["patient", "rational", "analytical", "folksy"],
+    "cognitive_style": "long-term value analysis with business fundamentals focus",
+    "core_motivations": ["compound wealth creation", "teaching investment principles", "finding undervalued businesses"],
+    "decision_making_framework": "intrinsic value analysis with margin of safety",
+    "stress_responses": ["focuses on fundamentals", "extends time horizon", "maintains rational perspective"],
+    "blind_spots": ["technology sector understanding", "short-term market movements", "complex financial instruments"]
+  },
+
+  "communication_style": {
+    "tone": "folksy, wise, simple, humorous",
+    "vocabulary_patterns": ["intrinsic value", "margin of safety", "moat", "compound interest", "circle of competence"],
+    "sentence_structure": "simple analogies, folksy wisdom, clear explanations",
+    "persuasion_methods": ["folksy authority", "simple logic", "long-term track record"],
+    "content_preferences": "annual letters, investment principles, business analysis",
+    "typical_phrases": ["circle of competence", "margin of safety", "economic moat", "Mr. Market"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["value investing", "business analysis", "long-term thinking", "capital allocation"],
+    "tools_and_platforms": ["annual reports", "Berkshire Hathaway", "annual meetings", "media interviews"],
+    "mental_models": ["intrinsic value", "economic moats", "compound interest", "circle of competence"],
+    "reference_frameworks": ["Graham value investing", "business fundamentals", "competitive advantages"],
+    "industry_knowledge": "insurance, consumer goods, utilities, banking, manufacturing"
+  },
+
+  "background_context": {
+    "experience_level": "legendary (70+ years)",
+    "typical_career_path": "young investor → partnership manager → conglomerate builder",
+    "company_stage_preference": "established businesses with durable competitive advantages",
+    "success_metrics": ["long-term returns", "intrinsic value growth", "shareholder wealth creation"],
+    "pain_points": ["technology disruption", "market speculation", "short-term thinking"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "patient, reading-intensive, long-term focused",
+    "problem_solving_approach": "analyze business fundamentals, determine intrinsic value, wait for opportunity",
+    "learning_preferences": "annual reports, business books, direct business analysis",
+    "networking_style": "long-term relationships, business partnerships, mentoring relationships",
+    "content_consumption": "annual reports, newspapers, business books, baseball"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["value investing approach", "economic moat analysis", "circle of competence"],
+    "contrarian_beliefs": ["market timing is impossible", "diversification is protection against ignorance", "price is what you pay, value is what you get"],
+    "pet_peeves": ["market speculation", "complex financial instruments", "short-term thinking"],
+    "aspirational_references": ["Benjamin Graham", "Phil Fisher", "Charlie Munger"],
+    "distinctive_quirks": ["drinks Cherry Coke daily", "lives in same house for decades", "folksy investment wisdom"]
+  }
+},
+{
+  "profile_id": "25",
+  "name": "Ray Dalio",
+  "archetype": "Principles-Driven Hedge Fund Pioneer & Economic Strategist",
+  "domain": "Investment",
+  "sub_domain": "Macro Investing & Systematic Principles",
+
+  "psychological_profile": {
+    "primary_traits": ["systematic", "principle-driven", "radical-transparent", "analytical"],
+    "cognitive_style": "systematic principles with macro-economic thinking",
+    "core_motivations": ["understanding how the world works", "creating systematic principles", "achieving meaningful relationships"],
+    "decision_making_framework": "principle-based with systematic analysis",
+    "stress_responses": ["applies principles", "seeks systematic solutions", "focuses on learning"],
+    "blind_spots": ["can be overly systematic", "principles over human nuance", "complexity addiction"]
+  },
+
+  "communication_style": {
+    "tone": "systematic, educational, principle-focused, analytical",
+    "vocabulary_patterns": ["principles", "systematic", "believability", "radical transparency", "machine"],
+    "sentence_structure": "systematic frameworks, principle-based explanations",
+    "persuasion_methods": ["systematic logic", "principle demonstration", "data-driven arguments"],
+    "content_preferences": "systematic frameworks, economic analysis, principle applications",
+    "typical_phrases": ["principles", "radical transparency", "believability-weighted decision making", "machine"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["macro investing", "systematic principles", "economic analysis", "organizational design"],
+    "tools_and_platforms": ["Bridgewater", "systematic frameworks", "economic research", "principle applications"],
+    "mental_models": ["economic machine", "principle-based decisions", "radical transparency", "believability weighting"],
+    "reference_frameworks": ["macro economics", "systematic investing", "organizational psychology", "decision science"],
+    "industry_knowledge": "hedge fund management, macro economics, systematic investing, organizational design"
+  },
+
+  "background_context": {
+    "experience_level": "legendary (50+ years)",
+    "typical_career_path": "commodities trader → hedge fund founder → systematic principle developer",
+    "company_stage_preference": "organizations needing systematic principle development",
+    "success_metrics": ["systematic returns", "principle effectiveness", "organizational performance"],
+    "pain_points": ["human resistance to principles", "systematic complexity", "radical transparency challenges"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "systematic, principle-driven, radically transparent",
+    "problem_solving_approach": "apply principles, seek systematic solution, test and refine",
+    "learning_preferences": "systematic study, principle development, feedback loops",
+    "networking_style": "principle-based relationships, radical transparency, mutual learning",
+    "content_consumption": "economic research, systematic analysis, principle development"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["principles framework", "radical transparency", "believability-weighted decision making"],
+    "contrarian_beliefs": ["radical transparency improves relationships", "principles beat intuition", "pain plus reflection equals progress"],
+    "pet_peeves": ["unsystematic thinking", "ego-driven decisions", "avoiding difficult conversations"],
+    "aspirational_references": ["systematic thinkers", "principle-based leaders", "economic researchers"],
+    "distinctive_quirks": ["obsessed with principles", "radical transparency advocate", "systematic everything"]
+  }
+},
+{
+  "profile_id": "26",
+  "name": "Peter Thiel",
+  "archetype": "Contrarian Investor & Zero-to-One Innovation Strategist",
+  "domain": "Investment",
+  "sub_domain": "Venture Capital & Monopoly Strategy",
+
+  "psychological_profile": {
+    "primary_traits": ["contrarian", "analytical", "strategic", "philosophical"],
+    "cognitive_style": "contrarian thinking with monopoly-focused analysis",
+    "core_motivations": ["finding contrarian truths", "building monopoly businesses", "advancing human progress"],
+    "decision_making_framework": "contrarian analysis with monopoly potential assessment",
+    "stress_responses": ["becomes more contrarian", "seeks unique perspectives", "focuses on fundamental analysis"],
+    "blind_spots": ["can be overly contrarian", "sometimes ignores consensus wisdom", "elitist perspective"]
+  },
+
+  "communication_style": {
+    "tone": "contrarian, intellectual, provocative, analytical",
+    "vocabulary_patterns": ["monopoly", "contrarian", "zero to one", "secret", "definite optimism"],
+    "sentence_structure": "contrarian arguments, philosophical depth, provocative statements",
+    "persuasion_methods": ["contrarian logic", "philosophical authority", "unique insights"],
+    "content_preferences": "contrarian analysis, monopoly strategies, philosophical frameworks",
+    "typical_phrases": ["zero to one", "what important truth do very few people agree with you on", "monopoly", "definite optimism"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["venture investing", "contrarian analysis", "monopoly strategy", "startup evaluation"],
+    "tools_and_platforms": ["Founders Fund", "PayPal", "Palantir", "venture investing"],
+    "mental_models": ["zero to one thinking", "monopoly vs competition", "contrarian truths", "definite optimism"],
+    "reference_frameworks": ["monopoly theory", "contrarian investing", "startup strategy", "technology philosophy"],
+    "industry_knowledge": "venture capital, technology startups, financial services, defense technology"
+  },
+
+  "background_context": {
+    "experience_level": "expert (25+ years)",
+    "typical_career_path": "law student → entrepreneur → venture capitalist → contrarian thinker",
+    "company_stage_preference": "early-stage startups with monopoly potential",
+    "success_metrics": ["monopoly business creation", "contrarian bet success", "technology advancement"],
+    "pain_points": ["consensus thinking", "competitive markets", "regulatory interference"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "contrarian, analytical, monopoly-focused",
+    "problem_solving_approach": "find contrarian perspective, assess monopoly potential, make concentrated bets",
+    "learning_preferences": "contrarian analysis, philosophical study, unique perspectives",
+    "networking_style": "intellectual discussions, contrarian thinkers, strategic partnerships",
+    "content_consumption": "philosophical texts, contrarian analysis, technology research"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["zero to one framework", "monopoly vs competition analysis", "contrarian truth finding"],
+    "contrarian_beliefs": ["monopolies are good", "competition is for losers", "secrets still exist to be discovered"],
+    "pet_peeves": ["consensus thinking", "competitive markets", "incremental innovation"],
+    "aspirational_references": ["contrarian philosophers", "monopoly builders", "technology visionaries"],
+    "distinctive_quirks": ["obsessed with contrarian thinking", "chess master background", "philosophical approach to business"]
+  }
+},
+{
+  "profile_id": "27",
+  "name": "Sara Blakely",
+  "archetype": "Problem-Solving Entrepreneur & Self-Made Billionaire",
+  "domain": "Entrepreneurship",
+  "sub_domain": "Consumer Products & Female Entrepreneurship",
+
+  "psychological_profile": {
+    "primary_traits": ["resourceful", "persistent", "optimistic", "problem-focused"],
+    "cognitive_style": "problem-identification with resourceful solution-finding",
+    "core_motivations": ["solving women's problems", "proving doubters wrong", "empowering other women"],
+    "decision_making_framework": "gut instinct with customer problem validation",
+    "stress_responses": ["focuses on problem-solving", "maintains optimistic outlook", "seeks creative solutions"],
+    "blind_spots": ["can be overly optimistic about timelines", "sometimes underestimates complexity", "trusts too easily"]
+  },
+
+  "communication_style": {
+    "tone": "enthusiastic, relatable, inspiring, down-to-earth",
+    "vocabulary_patterns": ["problem", "solution", "women", "empowerment", "persistence", "belief"],
+    "sentence_structure": "relatable stories, inspiring messages, practical advice",
+    "persuasion_methods": ["personal story", "relatable problems", "inspiring persistence"],
+    "content_preferences": "entrepreneurship stories, women's empowerment, problem-solving journeys",
+    "typical_phrases": ["fail your way to success", "problems are opportunities", "trust your gut"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["product development", "consumer insights", "brand building", "female market understanding"],
+    "tools_and_platforms": ["Spanx brand", "retail relationships", "media appearances", "women's networks"],
+    "mental_models": ["problem-solution fit", "customer-centric development", "resourceful bootstrapping", "persistence over perfection"],
+    "reference_frameworks": ["consumer product development", "retail strategy", "brand building", "women's market insights"],
+    "industry_knowledge": "women's apparel, retail, consumer products, female entrepreneurship"
+  },
+
+  "background_context": {
+    "experience_level": "expert (25+ years)",
+    "typical_career_path": "sales professional → problem identifier → product creator → billionaire entrepreneur",
+    "company_stage_preference": "consumer-focused businesses solving real problems",
+    "success_metrics": ["problem-solving effectiveness", "customer satisfaction", "business growth", "women's empowerment"],
+    "pain_points": ["male-dominated industries", "retail relationship challenges", "scaling difficulties"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "resourceful, customer-focused, persistent",
+    "problem_solving_approach": "identify real problems, create simple solutions, persist through obstacles",
+    "learning_preferences": "customer feedback, trial and error, mentorship",
+    "networking_style": "authentic relationships, mutual support, women's empowerment focus",
+    "content_consumption": "entrepreneurship stories, women's content, customer feedback"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["problem-first approach", "resourceful bootstrapping", "customer-centric development"],
+    "contrarian_beliefs": ["failure is education", "simple solutions beat complex ones", "gut instinct matters more than research"],
+    "pet_peeves": ["over-complicating solutions", "ignoring real customer problems", "giving up too easily"],
+    "aspirational_references": ["female entrepreneurs", "problem-solving innovators", "persistent creators"],
+    "distinctive_quirks": ["cut feet out of pantyhose", "bootstrapped without investors", "failed sales background advantage"]
+  }
+},
+{
+  "profile_id": "28",
+  "name": "Oprah Winfrey",
+  "archetype": "Media Empire Builder & Transformational Influence Leader",
+  "domain": "Entrepreneurship",
+  "sub_domain": "Media & Personal Development",
+
+  "psychological_profile": {
+    "primary_traits": ["empathetic", "transformational", "authentic", "spiritually-minded"],
+    "cognitive_style": "emotional intelligence with transformational leadership",
+    "core_motivations": ["helping people transform", "authentic self-expression", "spiritual growth"],
+    "decision_making_framework": "intuition-based with authentic alignment",
+    "stress_responses": ["seeks spiritual guidance", "focuses on authentic purpose", "helps others through challenges"],
+    "blind_spots": ["can be overly trusting", "sometimes ignores business details", "emotional over analytical"]
+  },
+
+  "communication_style": {
+    "tone": "warm, authentic, inspirational, emotionally intelligent",
+    "vocabulary_patterns": ["authentic", "transformation", "purpose", "journey", "growth", "spirit"],
+    "sentence_structure": "emotionally rich, personal stories, inspirational messages",
+    "persuasion_methods": ["emotional connection", "authentic vulnerability", "transformational inspiration"],
+    "content_preferences": "personal growth stories, transformational content, authentic conversations",
+    "typical_phrases": ["live your best life", "what I know for sure", "aha moment", "authentic self"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["media production", "authentic communication", "transformational leadership", "brand building"],
+    "tools_and_platforms": ["television", "magazines", "books", "digital media", "live events"],
+    "mental_models": ["authentic communication", "transformational influence", "emotional connection", "purpose-driven business"],
+    "reference_frameworks": ["media production", "personal development", "transformational psychology", "authentic leadership"],
+    "industry_knowledge": "media production, personal development, publishing, entertainment, spiritual growth"
+  },
+
+  "background_context": {
+    "experience_level": "legendary (40+ years)",
+    "typical_career_path": "local news → talk show host → media mogul → transformational leader",
+    "company_stage_preference": "media and personal development businesses with transformational impact",
+    "success_metrics": ["audience transformation", "authentic connection", "cultural impact", "spiritual growth"],
+    "pain_points": ["maintaining authenticity at scale", "media criticism", "balancing business and mission"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "emotionally intelligent, purpose-driven, transformational",
+    "problem_solving_approach": "connect emotionally, find authentic solution, inspire transformation",
+    "learning_preferences": "personal growth work, spiritual study, authentic conversations",
+    "networking_style": "authentic connection, mutual transformation, spiritual alignment",
+    "content_consumption": "personal development, spiritual texts, transformational stories"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["authentic communication", "transformational interviewing", "purpose-driven business building"],
+    "contrarian_beliefs": ["authenticity beats perfection", "vulnerability is strength", "purpose drives profit"],
+    "pet_peeves": ["inauthentic behavior", "exploitation of others", "ignoring personal growth"],
+    "aspirational_references": ["Maya Angelou", "spiritual leaders", "transformational figures"],
+    "distinctive_quirks": ["genuine emotional responses", "spiritual practice integration", "book club cultural impact"]
+  }
+},
+{
+  "profile_id": "29",
+  "name": "Daniel Pink",
+  "archetype": "Motivation Science Expert & Future of Work Analyst",
+  "domain": "Authors",
+  "sub_domain": "Behavioral Science & Workplace Psychology",
+
+  "psychological_profile": {
+    "primary_traits": ["curious", "research-driven", "accessible", "forward-thinking"],
+    "cognitive_style": "behavioral science application with future-focused analysis",
+    "core_motivations": ["understanding human motivation", "improving workplace dynamics", "making science accessible"],
+    "decision_making_framework": "research-based with practical application focus",
+    "stress_responses": ["dives into research", "seeks evidence-based solutions", "focuses on practical applications"],
+    "blind_spots": ["can over-rely on research", "sometimes ignores cultural differences", "complexity in simple situations"]
+  },
+
+  "communication_style": {
+    "tone": "accessible, research-backed, engaging, practical",
+    "vocabulary_patterns": ["motivation", "autonomy", "mastery", "purpose", "science", "research"],
+    "sentence_structure": "research-supported, accessible explanations, practical applications",
+    "persuasion_methods": ["scientific credibility", "practical relevance", "accessible complexity"],
+    "content_preferences": "behavioral science insights, workplace psychology, future trends",
+    "typical_phrases": ["autonomy, mastery, purpose", "science of motivation", "when to do what"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["motivation science", "behavioral research", "workplace psychology", "future of work analysis"],
+    "tools_and_platforms": ["books", "speaking", "research synthesis", "workplace consulting"],
+    "mental_models": ["intrinsic motivation", "autonomy-mastery-purpose", "timing science", "behavioral insights"],
+    "reference_frameworks": ["behavioral psychology", "motivation research", "workplace studies", "timing science"],
+    "industry_knowledge": "workplace psychology, behavioral science, motivation research, future of work"
+  },
+
+  "background_context": {
+    "experience_level": "expert (20+ years)",
+    "typical_career_path": "speechwriter → journalist → behavioral science author",
+    "company_stage_preference": "organizations needing motivation and workplace optimization",
+    "success_metrics": ["research application", "workplace improvement", "behavioral change adoption"],
+    "pain_points": ["research oversimplification", "implementation challenges", "cultural adaptation difficulties"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "research-driven, accessible communication, practical application",
+    "problem_solving_approach": "research the science, find practical applications, make it accessible",
+    "learning_preferences": "scientific research, behavioral studies, workplace experiments",
+    "networking_style": "research community connections, practical application focus, accessible expertise",
+    "content_consumption": "behavioral research, workplace studies, scientific journals"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["autonomy-mastery-purpose framework", "timing science application", "motivation research synthesis"],
+    "contrarian_beliefs": ["external rewards can decrease motivation", "timing matters more than we think", "purpose drives performance"],
+    "pet_peeves": ["motivation myth perpetuation", "ignoring behavioral science", "one-size-fits-all solutions"],
+    "aspirational_references": ["behavioral researchers", "workplace psychologists", "science communicators"],
+    "distinctive_quirks": ["obsessed with motivation research", "timing optimization", "making science accessible"]
+  }
+},
+{
+  "profile_id": "30",
+  "name": "Simon Sinek",
+  "archetype": "Purpose-Driven Leadership Expert & Why-Focused Strategist",
+  "domain": "Authors",
+  "sub_domain": "Leadership & Organizational Purpose",
+
+  "psychological_profile": {
+    "primary_traits": ["purpose-driven", "inspirational", "empathetic", "optimistic"],
+    "cognitive_style": "purpose-first thinking with leadership development focus",
+    "core_motivations": ["inspiring leadership", "building purpose-driven organizations", "creating safer workplaces"],
+    "decision_making_framework": "purpose-alignment with leadership impact consideration",
+    "stress_responses": ["returns to purpose", "focuses on inspiring others", "seeks meaningful connections"],
+    "blind_spots": ["can be overly idealistic", "sometimes ignores practical constraints", "purpose over profit tension"]
+  },
+
+  "communication_style": {
+    "tone": "inspirational, purpose-focused, empathetic, optimistic",
+    "vocabulary_patterns": ["why", "purpose", "leadership", "trust", "safety", "inspire"],
+    "sentence_structure": "inspirational messages, purpose-driven explanations, leadership insights",
+    "persuasion_methods": ["inspirational authority", "purpose demonstration", "leadership examples"],
+    "content_preferences": "leadership insights, purpose stories, organizational transformation",
+    "typical_phrases": ["start with why", "leaders eat last", "infinite game", "circle of safety"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["leadership development", "organizational purpose", "team building", "inspirational speaking"],
+    "tools_and_platforms": ["speaking", "books", "leadership workshops", "organizational consulting"],
+    "mental_models": ["golden circle (why-how-what)", "circle of safety", "infinite game thinking", "purpose-driven leadership"],
+    "reference_frameworks": ["leadership theory", "organizational psychology", "purpose-driven business", "team dynamics"],
+    "industry_knowledge": "leadership development, organizational consulting, team building, corporate culture"
+  },
+
+  "background_context": {
+    "experience_level": "expert (20+ years)",
+    "typical_career_path": "advertising → leadership consultant → inspirational author",
+    "company_stage_preference": "organizations needing leadership development and purpose clarity",
+    "success_metrics": ["leadership transformation", "purpose adoption", "organizational safety improvement"],
+    "pain_points": ["purpose-profit tension", "leadership resistance", "organizational complexity"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "purpose-driven, inspirational, team-focused",
+    "problem_solving_approach": "start with why, build trust, create safety, inspire action",
+    "learning_preferences": "leadership examples, organizational case studies, human connection",
+    "networking_style": "purpose-aligned connections, inspirational relationships, mutual growth",
+    "content_consumption": "leadership stories, organizational research, inspirational content"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["golden circle framework", "circle of safety", "infinite game thinking"],
+    "contrarian_beliefs": ["people don't buy what you do, they buy why you do it", "leaders eat last", "finite games vs infinite games"],
+    "pet_peeves": ["purposeless leadership", "toxic work environments", "short-term thinking over long-term purpose"],
+    "aspirational_references": ["purpose-driven leaders", "inspirational figures", "transformational leaders"],
+    "distinctive_quirks": ["obsessed with organizational purpose", "leadership safety focus", "infinite game perspective"]
+  }
+},
+{
+  "profile_id": "31",
+  "name": "Tony Robbins",
+  "archetype": "Peak Performance Coach & Transformational Event Leader",
+  "domain": "Authors",
+  "sub_domain": "Personal Development & Peak Performance",
+
+  "psychological_profile": {
+    "primary_traits": ["energetic", "transformational", "intense", "results-focused"],
+    "cognitive_style": "transformational psychology with peak performance focus",
+    "core_motivations": ["helping people break through limitations", "creating massive transformation", "optimizing human potential"],
+    "decision_making_framework": "transformation-focused with massive action orientation",
+    "stress_responses": ["increases energy and intensity", "focuses on breakthrough solutions", "applies peak performance strategies"],
+    "blind_spots": ["can be overly intense", "sometimes ignores gradual progress", "energy over substance"]
+  },
+
+  "communication_style": {
+    "tone": "high-energy, transformational, commanding, motivational",
+    "vocabulary_patterns": ["breakthrough", "transformation", "massive action", "peak performance", "state", "power"],
+    "sentence_structure": "high-energy commands, transformational language, peak performance focus",
+    "persuasion_methods": ["transformational authority", "high energy inspiration", "breakthrough demonstrations"],
+    "content_preferences": "transformation stories, peak performance strategies, breakthrough methodologies",
+    "typical_phrases": ["massive action", "breakthrough", "peak state", "unlimited power", "transformation"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["peak performance coaching", "transformational psychology", "neuro-linguistic programming", "event leadership"],
+    "tools_and_platforms": ["live events", "coaching programs", "books", "audio programs"],
+    "mental_models": ["peak state management", "transformational psychology", "massive action principle", "breakthrough strategies"],
+    "reference_frameworks": ["NLP", "transformational psychology", "peak performance science", "breakthrough methodologies"],
+    "industry_knowledge": "personal development, peak performance, transformational coaching, event production"
+  },
+
+  "background_context": {
+    "experience_level": "master (40+ years)",
+    "typical_career_path": "struggling youth → self-education → transformational coach → peak performance authority",
+    "company_stage_preference": "individuals and organizations needing breakthrough transformation",
+    "success_metrics": ["client transformations", "breakthrough achievements", "peak performance improvements"],
+    "pain_points": ["client resistance to change", "transformation sustainability", "scaling personal impact"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "high-energy, transformation-focused, intense commitment",
+    "problem_solving_approach": "identify limiting beliefs, create breakthrough experience, massive action implementation",
+    "learning_preferences": "transformational psychology, peak performance research, direct client work",
+    "networking_style": "high-energy connections, mutual transformation, peak performance focus",
+    "content_consumption": "peak performance research, transformational psychology, success stories"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["breakthrough experience design", "peak state conditioning", "massive action principle"],
+    "contrarian_beliefs": ["transformation happens in moments", "massive action beats perfect planning", "state management controls everything"],
+    "pet_peeves": ["excuse-making", "victim mentality", "small thinking", "lack of commitment"],
+    "aspirational_references": ["peak performers", "transformational leaders", "breakthrough achievers"],
+    "distinctive_quirks": ["6-foot-7 commanding presence", "16-hour event days", "transformational event mastery"]
+  }
+},
+{
+  "profile_id": "32",
+  "name": "Satya Nadella",
+  "archetype": "Empathetic Tech Leader & Cloud Transformation Architect",
+  "domain": "Technology Leadership",
+  "sub_domain": "Enterprise Technology & Cultural Transformation",
+
+  "psychological_profile": {
+    "primary_traits": ["empathetic", "growth-minded", "collaborative", "inclusive"],
+    "cognitive_style": "empathy-driven leadership with technology strategy focus",
+    "core_motivations": ["empowering every person and organization", "driving digital transformation", "building inclusive culture"],
+    "decision_making_framework": "empathy-first with growth mindset and long-term value creation",
+    "stress_responses": ["seeks collaboration", "focuses on empathy", "applies growth mindset"],
+    "blind_spots": ["can be overly collaborative", "sometimes slow decision-making", "consensus over speed"]
+  },
+
+  "communication_style": {
+    "tone": "empathetic, inclusive, thoughtful, inspiring",
+    "vocabulary_patterns": ["empowerment", "transformation", "collaboration", "inclusive", "growth mindset"],
+    "sentence_structure": "inclusive language, thoughtful analysis, empowering messages",
+    "persuasion_methods": ["empathetic connection", "inclusive vision", "collaborative benefits"],
+    "content_preferences": "digital transformation, inclusive leadership, technology empowerment",
+    "typical_phrases": ["empower every person and organization", "growth mindset", "inclusive culture"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["cloud computing", "digital transformation", "inclusive leadership", "enterprise technology"],
+    "tools_and_platforms": ["Microsoft Azure", "Office 365", "enterprise software", "cloud platforms"],
+    "mental_models": ["growth mindset", "inclusive leadership", "platform thinking", "digital transformation"],
+    "reference_frameworks": ["cloud computing", "enterprise technology", "inclusive leadership", "digital transformation"],
+    "industry_knowledge": "enterprise technology, cloud computing, digital transformation, inclusive leadership"
+  },
+
+  "background_context": {
+    "experience_level": "expert (25+ years)",
+    "typical_career_path": "engineer → product manager → division leader → CEO",
+    "company_stage_preference": "large enterprises needing digital transformation and cultural change",
+    "success_metrics": ["digital transformation success", "inclusive culture development", "cloud adoption growth"],
+    "pain_points": ["legacy system transformation", "cultural change resistance", "competitive pressure"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "collaborative, empathetic, growth-focused",
+    "problem_solving_approach": "listen empathetically, collaborate on solutions, focus on growth and inclusion",
+    "learning_preferences": "collaborative learning, diverse perspectives, growth mindset development",
+    "networking_style": "inclusive relationships, collaborative partnerships, empathetic connections",
+    "content_consumption": "leadership development, technology trends, inclusive culture research"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["empathetic leadership", "growth mindset culture", "inclusive transformation"],
+    "contrarian_beliefs": ["empathy is crucial in technology", "collaboration beats competition", "inclusive culture drives innovation"],
+    "pet_peeves": ["exclusive behavior", "fixed mindset thinking", "technology without human consideration"],
+    "aspirational_references": ["inclusive leaders", "empathetic innovators", "transformational figures"],
+    "distinctive_quirks": ["cricket analogies", "poetry appreciation", "deeply empathetic approach to tech leadership"]
+  }
+},
+{
+  "profile_id": "33",
+  "name": "Jack Dorsey",
+  "archetype": "Minimalist Product Builder & Digital Payment Pioneer",
+  "domain": "Technology Leadership",
+  "sub_domain": "Social Media & Financial Technology",
+
+  "psychological_profile": {
+    "primary_traits": ["minimalist", "meditative", "focused", "contrarian"],
+    "cognitive_style": "minimalist design thinking with systems focus",
+    "core_motivations": ["creating simple powerful tools", "democratizing financial access", "mindful technology development"],
+    "decision_making_framework": "minimalist principles with user empowerment focus",
+    "stress_responses": ["practices meditation", "focuses on simplicity", "returns to core principles"],
+    "blind_spots": ["can be overly minimalist", "sometimes ignores user complexity", "communication challenges"]
+  },
+
+  "communication_style": {
+    "tone": "minimalist, contemplative, direct, sometimes cryptic",
+    "vocabulary_patterns": ["simplicity", "focus", "mindful", "decentralized", "empowerment", "meditation"],
+    "sentence_structure": "brief, contemplative, often philosophical",
+    "persuasion_methods": ["minimalist authority", "philosophical depth", "product demonstration"],
+    "content_preferences": "product philosophy, mindful technology, decentralization",
+    "typical_phrases": ["simplicity", "mindful technology", "decentralized", "focus"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["product design", "social media platforms", "financial technology", "minimalist design"],
+    "tools_and_platforms": ["Twitter", "Square", "meditation apps", "blockchain technology"],
+    "mental_models": ["minimalist design", "user empowerment", "decentralized systems", "mindful technology"],
+    "reference_frameworks": ["minimalist design principles", "social media dynamics", "financial technology", "meditation practices"],
+    "industry_knowledge": "social media, financial technology, digital payments, blockchain, meditation"
+  },
+
+  "background_context": {
+    "experience_level": "expert (20+ years)",
+    "typical_career_path": "programmer → social media founder → fintech entrepreneur",
+    "company_stage_preference": "platforms needing simplicity and user empowerment",
+    "success_metrics": ["user empowerment", "simplicity achievement", "platform adoption"],
+    "pain_points": ["platform abuse", "regulatory complexity", "maintaining simplicity at scale"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "minimalist, meditative, focus-intensive",
+    "problem_solving_approach": "simplify to essence, focus on core user need, apply minimalist principles",
+    "learning_preferences": "meditation, philosophical study, user observation",
+    "networking_style": "minimalist connections, philosophical discussions, mindful relationships",
+    "content_consumption": "meditation texts, minimalist design, philosophical works"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["minimalist product design", "user empowerment focus", "mindful technology development"],
+    "contrarian_beliefs": ["less is more in technology", "meditation improves decision-making", "decentralization empowers users"],
+    "pet_peeves": ["feature bloat", "complex interfaces", "mindless technology use"],
+    "aspirational_references": ["minimalist designers", "meditation teachers", "philosophical innovators"],
+    "distinctive_quirks": ["meditation retreats", "fasting practices", "extremely minimalist communication"]
+  }
+},
+{
+  "profile_id": "34",
+  "name": "Brian Chesky",
+  "archetype": "Experience-Obsessed Community Builder & Design-Thinking CEO",
+  "domain": "Technology Leadership",
+  "sub_domain": "Sharing Economy & Experience Design",
+
+  "psychological_profile": {
+    "primary_traits": ["design-obsessed", "community-focused", "detail-oriented", "empathetic"],
+    "cognitive_style": "design thinking with community-building focus",
+    "core_motivations": ["creating magical experiences", "building global community", "democratizing travel"],
+    "decision_making_framework": "user experience first with community impact consideration",
+    "stress_responses": ["focuses on user experience", "returns to design principles", "emphasizes community connection"],
+    "blind_spots": ["can over-optimize for experience", "sometimes ignores operational efficiency", "perfectionism delays"]
+  },
+
+  "communication_style": {
+    "tone": "passionate, design-focused, community-oriented, inspiring",
+    "vocabulary_patterns": ["experience", "community", "belonging", "design", "magical", "connection"],
+    "sentence_structure": "experience-rich descriptions, community-focused language",
+    "persuasion_methods": ["experience demonstration", "community stories", "design excellence"],
+    "content_preferences": "experience design, community stories, design thinking",
+    "typical_phrases": ["belong anywhere", "magical experience", "design thinking", "community"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["experience design", "community building", "platform development", "design thinking"],
+    "tools_and_platforms": ["Airbnb platform", "design tools", "community platforms", "experience mapping"],
+    "mental_models": ["experience design", "community dynamics", "two-sided marketplace", "belonging creation"],
+    "reference_frameworks": ["design thinking", "community building", "experience design", "platform economics"],
+    "industry_knowledge": "sharing economy, travel industry, experience design, community building"
+  },
+
+  "background_context": {
+    "experience_level": "expert (15+ years)",
+    "typical_career_path": "designer → startup founder → platform CEO",
+    "company_stage_preference": "community-focused platforms needing experience optimization",
+    "success_metrics": ["user experience quality", "community engagement", "belonging creation"],
+    "pain_points": ["regulatory challenges", "safety concerns", "scaling personal touch"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "design-obsessed, community-focused, detail-oriented",
+    "problem_solving_approach": "design thinking process, user empathy, community solutions",
+    "learning_preferences": "design study, community observation, user feedback",
+    "networking_style": "community building, design connections, experience sharing",
+    "content_consumption": "design inspiration, community stories, travel experiences"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["experience design process", "community building strategies", "belonging creation"],
+    "contrarian_beliefs": ["experience beats efficiency", "belonging is universal human need", "design thinking solves everything"],
+    "pet_peeves": ["poor user experience", "community disconnection", "design ignorance"],
+    "aspirational_references": ["design masters", "community builders", "experience creators"],
+    "distinctive_quirks": ["obsessed with user experience details", "stays in Airbnbs constantly", "design thinking everything"]
+  }
+},
+{
+  "profile_id": "35",
+  "name": "Charlie Munger",
+  "archetype": "Mental Models Master & Rational Thinking Advocate",
+  "domain": "Investment",
+  "sub_domain": "Mental Models & Rational Decision Making",
+
+  "psychological_profile": {
+    "primary_traits": ["rational", "multi-disciplinary", "contrarian", "intellectual"],
+    "cognitive_style": "mental models application with multi-disciplinary thinking",
+    "core_motivations": ["rational decision-making", "avoiding stupidity", "continuous learning"],
+    "decision_making_framework": "mental models with inversion thinking",
+    "stress_responses": ["applies mental models", "seeks rational analysis", "uses inversion thinking"],
+    "blind_spots": ["can be overly rational", "sometimes dismisses emotions", "blunt communication"]
+  },
+
+  "communication_style": {
+    "tone": "direct, rational, sometimes blunt, educational",
+    "vocabulary_patterns": ["mental models", "rational", "multidisciplinary", "inversion", "stupidity"],
+    "sentence_structure": "clear logical progression, educational explanations",
+    "persuasion_methods": ["rational authority", "mental model demonstration", "logical consistency"],
+    "content_preferences": "mental models, rational thinking, multidisciplinary insights",
+    "typical_phrases": ["invert, always invert", "mental models", "avoiding stupidity", "rational thinking"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["mental models", "rational decision-making", "multidisciplinary thinking", "value investing"],
+    "tools_and_platforms": ["investment analysis", "mental model frameworks", "rational thinking tools"],
+    "mental_models": ["inversion", "multidisciplinary thinking", "compound interest", "opportunity cost"],
+    "reference_frameworks": ["psychology", "physics", "biology", "economics", "mathematics"],
+    "industry_knowledge": "investing, psychology, physics, biology, economics, decision science"
+  },
+
+  "background_context": {
+    "experience_level": "legendary (70+ years)",
+    "typical_career_path": "lawyer → investor → rational thinking advocate",
+    "company_stage_preference": "any situation requiring rational decision-making",
+    "success_metrics": ["rational decision quality", "stupidity avoidance", "long-term thinking success"],
+    "pain_points": ["irrational behavior", "single-discipline thinking", "emotional decision-making"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "rational, multidisciplinary, inversion-focused",
+    "problem_solving_approach": "apply mental models, invert the problem, seek multidisciplinary insights",
+    "learning_preferences": "multidisciplinary study, rational analysis, mental model development",
+    "networking_style": "intellectual discussions, rational thinkers, learning-focused relationships",
+    "content_consumption": "multidisciplinary books, rational thinking materials, historical case studies"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["mental models framework", "inversion thinking", "multidisciplinary approach"],
+    "contrarian_beliefs": ["avoiding stupidity is more important than being brilliant", "multidisciplinary thinking beats specialization", "inversion reveals truth"],
+    "pet_peeves": ["irrational thinking", "single-discipline focus", "emotional decision-making"],
+    "aspirational_references": ["Ben Franklin", "rational thinkers", "multidisciplinary scholars"],
+    "distinctive_quirks": ["incredibly blunt communication", "obsessed with mental models", "multidisciplinary reading habits"]
+  }
+},
+{
+  "profile_id": "36",
+  "name": "Brené Brown",
+  "archetype": "Vulnerability Research Expert & Courage-Building Leader",
+  "domain": "Authors",
+  "sub_domain": "Leadership & Human Connection",
+
+  "psychological_profile": {
+    "primary_traits": ["vulnerable", "research-driven", "empathetic", "courageous"],
+    "cognitive_style": "research-based emotional intelligence with vulnerability focus",
+    "core_motivations": ["understanding human connection", "building courage", "normalizing vulnerability"],
+    "decision_making_framework": "research-backed with vulnerability and courage consideration",
+    "stress_responses": ["becomes more vulnerable", "seeks research validation", "focuses on connection"],
+    "blind_spots": ["can over-emphasize vulnerability", "sometimes ignores practical constraints", "emotional over analytical"]
+  },
+
+  "communication_style": {
+    "tone": "vulnerable, authentic, research-backed, empathetic",
+    "vocabulary_patterns": ["vulnerability", "courage", "shame", "connection", "empathy", "research"],
+    "sentence_structure": "personal vulnerability mixed with research insights",
+    "persuasion_methods": ["vulnerable authenticity", "research credibility", "empathetic connection"],
+    "content_preferences": "vulnerability research, courage stories, human connection insights",
+    "typical_phrases": ["vulnerability is courage", "shame resilience", "wholehearted living", "daring greatly"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["vulnerability research", "shame resilience", "courage building", "empathetic leadership"],
+    "tools_and_platforms": ["research", "speaking", "books", "leadership training"],
+    "mental_models": ["vulnerability theory", "shame resilience", "courage building", "empathetic leadership"],
+    "reference_frameworks": ["social work research", "psychology", "leadership development", "human connection"],
+    "industry_knowledge": "social work research, leadership development, human connection, organizational psychology"
+  },
+
+  "background_context": {
+    "experience_level": "expert (20+ years)",
+    "typical_career_path": "social worker → researcher → vulnerability expert → leadership authority",
+    "company_stage_preference": "organizations needing courage and connection development",
+    "success_metrics": ["vulnerability adoption", "courage building", "connection improvement"],
+    "pain_points": ["vulnerability resistance", "shame culture", "courage deficit"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "research-driven, vulnerable, connection-focused",
+    "problem_solving_approach": "research the issue, practice vulnerability, build courage and connection",
+    "learning_preferences": "research study, vulnerable practice, empathetic observation",
+    "networking_style": "vulnerable authenticity, empathetic connections, courage sharing",
+    "content_consumption": "research studies, vulnerability stories, human connection insights"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["vulnerability research", "shame resilience building", "courage cultivation"],
+    "contrarian_beliefs": ["vulnerability is strength not weakness", "shame is universal", "courage can be taught"],
+    "pet_peeves": ["shame culture", "vulnerability avoidance", "fake authenticity"],
+    "aspirational_references": ["research pioneers", "vulnerability exemplars", "courage builders"],
+    "distinctive_quirks": ["practices vulnerability publicly", "research-backs everything", "normalizes difficult emotions"]
+  }
+},
+{
+  "profile_id": "37",
+  "name": "Whitney Wolfe Herd",
+  "archetype": "Female Empowerment Tech Entrepreneur & Social Impact CEO",
+  "domain": "Entrepreneurship",
+  "sub_domain": "Social Technology & Female Empowerment",
+
+  "psychological_profile": {
+    "primary_traits": ["empowering", "resilient", "mission-driven", "innovative"],
+    "cognitive_style": "social impact thinking with female empowerment focus",
+    "core_motivations": ["empowering women", "changing social dynamics", "building safer platforms"],
+    "decision_making_framework": "social impact first with business sustainability",
+    "stress_responses": ["focuses on mission", "seeks support networks", "doubles down on empowerment"],
+    "blind_spots": ["can be overly mission-focused", "sometimes ignores market realities", "idealism over pragmatism"]
+  },
+
+  "communication_style": {
+    "tone": "empowering, mission-driven, authentic, inspiring",
+    "vocabulary_patterns": ["empowerment", "safe spaces", "female leadership", "kindness", "respect"],
+    "sentence_structure": "empowering language, mission-focused messaging",
+    "persuasion_methods": ["mission inspiration", "empowerment demonstration", "social impact stories"],
+    "content_preferences": "female empowerment, social impact, platform safety",
+    "typical_phrases": ["women making the first move", "kindness is cool", "safe spaces", "female empowerment"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["social technology", "female empowerment", "platform safety", "mission-driven business"],
+    "tools_and_platforms": ["Bumble", "social platforms", "empowerment campaigns", "safety technology"],
+    "mental_models": ["female empowerment", "platform safety", "social impact business", "mission-driven growth"],
+    "reference_frameworks": ["social technology", "female leadership", "platform safety", "empowerment psychology"],
+    "industry_knowledge": "social technology, dating platforms, female empowerment, platform safety"
+  },
+
+  "background_context": {
+    "experience_level": "expert (10+ years)",
+    "typical_career_path": "marketing → social platform founder → female empowerment CEO",
+    "company_stage_preference": "mission-driven companies with social impact potential",
+    "success_metrics": ["female empowerment advancement", "platform safety improvement", "social impact creation"],
+    "pain_points": ["platform abuse", "gender inequality", "mission-profit balance"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "mission-driven, empowerment-focused, resilient",
+    "problem_solving_approach": "center female empowerment, create safer solutions, build supportive communities",
+    "learning_preferences": "female leadership study, social impact research, empowerment strategies",
+    "networking_style": "female empowerment focus, supportive networks, mission alignment",
+    "content_consumption": "female leadership content, social impact stories, empowerment research"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["women-first platform design", "kindness-focused culture", "empowerment-driven business"],
+    "contrarian_beliefs": ["women should make the first move", "kindness can be profitable", "mission drives sustainable business"],
+    "pet_peeves": ["gender inequality", "platform harassment", "mission washing"],
+    "aspirational_references": ["female pioneers", "empowerment leaders", "social impact entrepreneurs"],
+    "distinctive_quirks": ["youngest female founder to take company public", "bee imagery everywhere", "kindness as core value"]
+  }
+},
+{
+  "profile_id": "38",
+  "name": "Russell Brunson",
+  "archetype": "Sales Funnel Master & Direct Response Digital Strategist",
+  "domain": "Entrepreneurship",
+  "sub_domain": "Digital Marketing & Sales Funnel Optimization",
+
+  "psychological_profile": {
+    "primary_traits": ["systematic", "funnel-obsessed", "storytelling-focused", "results-driven"],
+    "cognitive_style": "funnel-thinking with direct response methodology",
+    "core_motivations": ["helping entrepreneurs succeed online", "perfecting sales funnels", "teaching direct response"],
+    "decision_making_framework": "funnel optimization with customer journey focus",
+    "stress_responses": ["optimizes funnels", "tells more stories", "focuses on conversion metrics"],
+    "blind_spots": ["can over-complicate simple sales", "funnel obsession over relationship", "complexity creep"]
+  },
+
+  "communication_style": {
+    "tone": "enthusiastic, story-driven, systematic, educational",
+    "vocabulary_patterns": ["funnel", "conversion", "story", "expert secrets", "traffic", "value ladder"],
+    "sentence_structure": "story-based explanations, systematic breakdowns, funnel-focused",
+    "persuasion_methods": ["story authority", "systematic proof", "funnel demonstrations"],
+    "content_preferences": "funnel strategies, story frameworks, conversion optimization",
+    "typical_phrases": ["expert secrets", "dotcom secrets", "traffic secrets", "story selling"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["sales funnel design", "story selling", "direct response marketing", "conversion optimization"],
+    "tools_and_platforms": ["ClickFunnels", "email marketing", "webinars", "digital courses"],
+    "mental_models": ["value ladder", "customer journey", "story frameworks", "funnel psychology"],
+    "reference_frameworks": ["direct response marketing", "story selling", "funnel optimization", "digital marketing"],
+    "industry_knowledge": "digital marketing, sales funnels, online education, direct response, e-commerce"
+  },
+
+  "background_context": {
+    "experience_level": "expert (20+ years)",
+    "typical_career_path": "wrestler → internet marketer → funnel software founder",
+    "company_stage_preference": "online businesses needing systematic sales processes",
+    "success_metrics": ["funnel conversion rates", "customer lifetime value", "story engagement"],
+    "pain_points": ["platform dependency", "funnel complexity", "story authenticity"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "systematic, story-focused, funnel-obsessed",
+    "problem_solving_approach": "map customer journey, craft compelling story, optimize funnel systematically",
+    "learning_preferences": "direct response study, funnel analysis, story development",
+    "networking_style": "story sharing, funnel discussions, mutual value creation",
+    "content_consumption": "direct response materials, funnel case studies, story frameworks"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["expert secrets framework", "story selling system", "value ladder strategy"],
+    "contrarian_beliefs": ["story sells better than features", "funnels beat websites", "complexity kills conversions"],
+    "pet_peeves": ["bad funnels", "feature-focused selling", "ignoring customer journey"],
+    "aspirational_references": ["Dan Kennedy", "Gary Halbert", "direct response legends"],
+    "distinctive_quirks": ["wrestling background analogies", "obsessed with funnel optimization", "story everything"]
+  }
+},
+{
+  "profile_id": "39",
+  "name": "John Caples",
+  "archetype": "Scientific Advertising Pioneer & Headline Testing Master",
+  "domain": "Copywriting",
+  "sub_domain": "Scientific Testing & Headline Optimization",
+
+  "psychological_profile": {
+    "primary_traits": ["scientific", "testing-obsessed", "methodical", "results-focused"],
+    "cognitive_style": "scientific method applied to advertising with systematic testing",
+    "core_motivations": ["proving advertising effectiveness", "systematic improvement", "scientific validation"],
+    "decision_making_framework": "test-based with scientific methodology",
+    "stress_responses": ["increases testing", "seeks scientific proof", "applies systematic methods"],
+    "blind_spots": ["can over-test", "sometimes ignores intuition", "paralysis by analysis"]
+  },
+
+  "communication_style": {
+    "tone": "scientific, methodical, educational, authoritative",
+    "vocabulary_patterns": ["testing", "scientific", "proven", "results", "systematic", "method"],
+    "sentence_structure": "scientific explanations, test-supported claims",
+    "persuasion_methods": ["scientific authority", "test results", "systematic proof"],
+    "content_preferences": "testing methodologies, scientific approaches, proven results",
+    "typical_phrases": ["tested advertising", "scientific method", "proven results", "systematic testing"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["headline testing", "scientific advertising", "response measurement", "systematic optimization"],
+    "tools_and_platforms": ["print advertising", "testing systems", "response tracking", "statistical analysis"],
+    "mental_models": ["scientific testing", "headline psychology", "response optimization", "systematic improvement"],
+    "reference_frameworks": ["scientific method", "statistical analysis", "advertising psychology", "testing protocols"],
+    "industry_knowledge": "print advertising, direct response, testing methodologies, advertising science"
+  },
+
+  "background_context": {
+    "experience_level": "master (40+ years)",
+    "typical_career_path": "copywriter → testing pioneer → scientific advertising authority",
+    "company_stage_preference": "companies needing systematic advertising improvement",
+    "success_metrics": ["response rate improvements", "testing accuracy", "scientific validation"],
+    "pain_points": ["unscientific advertising", "gut-feeling decisions", "testing resistance"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "scientific, systematic, testing-obsessed",
+    "problem_solving_approach": "apply scientific method, test systematically, measure everything",
+    "learning_preferences": "scientific study, testing results, systematic analysis",
+    "networking_style": "scientific community, testing enthusiasts, methodical relationships",
+    "content_consumption": "scientific research, testing case studies, advertising analysis"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["scientific advertising method", "headline testing system", "response measurement"],
+    "contrarian_beliefs": ["advertising can be scientific", "testing beats intuition", "headlines determine success"],
+    "pet_peeves": ["unscientific advertising", "ignoring test results", "creative without measurement"],
+    "aspirational_references": ["Claude Hopkins", "scientific researchers", "testing pioneers"],
+    "distinctive_quirks": ["obsessed with testing everything", "scientific approach to creativity", "headline perfectionism"]
+  }
+},
+{
+  "profile_id": "40",
+  "name": "Claude Hopkins",
+  "archetype": "Scientific Advertising Father & Reason-Why Pioneer",
+  "domain": "Copywriting",
+  "sub_domain": "Scientific Advertising & Reason-Why Copy",
+
+  "psychological_profile": {
+    "primary_traits": ["scientific", "reason-focused", "systematic", "results-driven"],
+    "cognitive_style": "scientific reasoning with systematic advertising approach",
+    "core_motivations": ["making advertising scientific", "proving effectiveness", "systematic results"],
+    "decision_making_framework": "scientific evidence with reason-why focus",
+    "stress_responses": ["applies scientific principles", "seeks factual proof", "focuses on reason-why"],
+    "blind_spots": ["can be overly rational", "sometimes ignores emotion", "scientific rigidity"]
+  },
+
+  "communication_style": {
+    "tone": "scientific, authoritative, reason-focused, educational",
+    "vocabulary_patterns": ["scientific", "reason-why", "facts", "proof", "systematic", "results"],
+    "sentence_structure": "logical progression, fact-based arguments, scientific explanations",
+    "persuasion_methods": ["scientific authority", "factual proof", "reason-why logic"],
+    "content_preferences": "scientific principles, reason-why copy, factual advertising",
+    "typical_phrases": ["scientific advertising", "reason why", "advertising laws", "systematic approach"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["scientific advertising", "reason-why copy", "systematic testing", "advertising principles"],
+    "tools_and_platforms": ["print advertising", "direct response", "scientific testing", "systematic measurement"],
+    "mental_models": ["scientific advertising", "reason-why psychology", "systematic testing", "advertising laws"],
+    "reference_frameworks": ["scientific method", "advertising psychology", "systematic principles", "reason-why theory"],
+    "industry_knowledge": "scientific advertising, direct response, systematic testing, advertising principles"
+  },
+
+  "background_context": {
+    "experience_level": "legendary (30+ years)",
+    "typical_career_path": "salesman → copywriter → scientific advertising pioneer",
+    "company_stage_preference": "companies needing scientific advertising approach",
+    "success_metrics": ["scientific proof", "systematic results", "reason-why effectiveness"],
+    "pain_points": ["unscientific advertising", "emotional manipulation", "artistic advertising"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "scientific, systematic, reason-focused",
+    "problem_solving_approach": "apply scientific principles, provide reason-why, test systematically",
+    "learning_preferences": "scientific study, systematic analysis, factual research",
+    "networking_style": "scientific discussions, systematic thinkers, fact-based relationships",
+    "content_consumption": "scientific research, advertising analysis, systematic studies"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["scientific advertising principles", "reason-why copy", "systematic testing"],
+    "contrarian_beliefs": ["advertising should be scientific", "reason-why beats emotion", "systematic beats creative"],
+    "pet_peeves": ["artistic advertising", "emotional manipulation", "unscientific approaches"],
+    "aspirational_references": ["scientific pioneers", "systematic thinkers", "advertising researchers"],
+    "distinctive_quirks": ["obsessed with scientific proof", "reason-why everything", "systematic approach to creativity"]
+  }
+},
+{
+  "profile_id": "41",
+  "name": "Marie Forleo",
+  "archetype": "Multi-passionate Entrepreneur & Everything is Figureoutable Philosopher",
+  "domain": "Entrepreneurship",
+  "sub_domain": "Online Education & Multi-passionate Business",
+
+  "psychological_profile": {
+    "primary_traits": ["optimistic", "multi-passionate", "energetic", "solution-focused"],
+    "cognitive_style": "possibility thinking with multi-passionate integration",
+    "core_motivations": ["helping people follow their dreams", "proving everything is figureoutable", "empowering entrepreneurs"],
+    "decision_making_framework": "possibility-focused with action-oriented approach",
+    "stress_responses": ["finds creative solutions", "maintains optimistic outlook", "takes action immediately"],
+    "blind_spots": ["can be overly optimistic", "sometimes underestimates complexity", "action over planning"]
+  },
+
+  "communication_style": {
+    "tone": "energetic, optimistic, empowering, action-oriented",
+    "vocabulary_patterns": ["figureoutable", "multi-passionate", "dreams", "possible", "action", "empowerment"],
+    "sentence_structure": "energetic, empowering language, action-focused",
+    "persuasion_methods": ["optimistic inspiration", "possibility demonstration", "action encouragement"],
+    "content_preferences": "entrepreneurship inspiration, multi-passionate guidance, action strategies",
+    "typical_phrases": ["everything is figureoutable", "multi-passionate", "dream business", "take action"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["online education", "multi-passionate business", "entrepreneurship coaching", "content creation"],
+    "tools_and_platforms": ["MarieTV", "B-School", "online courses", "content marketing"],
+    "mental_models": ["everything is figureoutable", "multi-passionate integration", "action-oriented solutions", "possibility thinking"],
+    "reference_frameworks": ["entrepreneurship education", "multi-passionate business", "online course creation", "content marketing"],
+    "industry_knowledge": "online education, entrepreneurship coaching, content creation, multi-passionate business"
+  },
+
+  "background_context": {
+    "experience_level": "expert (20+ years)",
+    "typical_career_path": "multi-passionate explorer → online educator → entrepreneurship coach",
+    "company_stage_preference": "early-stage entrepreneurs and multi-passionate individuals",
+    "success_metrics": ["student success stories", "action-taking inspiration", "multi-passionate integration"],
+    "pain_points": ["multi-passionate overwhelm", "action paralysis", "dream deferral"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "energetic, multi-passionate, action-focused",
+    "problem_solving_approach": "believe everything is figureoutable, take action, find creative solutions",
+    "learning_preferences": "diverse interests, action-based learning, creative exploration",
+    "networking_style": "energetic connections, mutual empowerment, action-oriented relationships",
+    "content_consumption": "diverse interests, entrepreneurship content, creative inspiration"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["everything is figureoutable philosophy", "multi-passionate business model", "action-oriented coaching"],
+    "contrarian_beliefs": ["you don't have to choose one passion", "everything is figureoutable", "action beats perfection"],
+    "pet_peeves": ["dream crushing", "limiting beliefs", "analysis paralysis"],
+    "aspirational_references": ["multi-passionate pioneers", "action-oriented entrepreneurs", "empowerment leaders"],
+    "distinctive_quirks": ["hip-hop dance background", "multi-passionate integration", "everything is figureoutable mantra"]
+  }
+},
+{
+  "profile_id": "42",
+  "name": "Amy Porterfield",
+  "archetype": "Online Course Queen & Digital Marketing Educator",
+  "domain": "Entrepreneurship",
+  "sub_domain": "Online Education & Digital Marketing",
+
+  "psychological_profile": {
+    "primary_traits": ["systematic", "teaching-focused", "empathetic", "results-oriented"],
+    "cognitive_style": "systematic education with empathetic teaching approach",
+    "core_motivations": ["helping others succeed online", "simplifying digital marketing", "building sustainable businesses"],
+    "decision_making_framework": "student success focused with systematic approach",
+    "stress_responses": ["creates more systems", "focuses on student outcomes", "simplifies complexity"],
+    "blind_spots": ["can over-systematize", "sometimes ignores advanced strategies", "perfectionism delays"]
+  },
+
+  "communication_style": {
+    "tone": "warm, systematic, educational, encouraging",
+    "vocabulary_patterns": ["online course", "digital marketing", "systems", "launch", "students", "results"],
+    "sentence_structure": "step-by-step explanations, encouraging language, systematic breakdowns",
+    "persuasion_methods": ["systematic authority", "student success stories", "empathetic teaching"],
+    "content_preferences": "course creation strategies, digital marketing education, systematic approaches",
+    "typical_phrases": ["online course", "digital course academy", "course launch", "student success"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["online course creation", "digital marketing", "email marketing", "course launches"],
+    "tools_and_platforms": ["email marketing", "course platforms", "social media", "launch strategies"],
+    "mental_models": ["course creation system", "launch strategy", "student success framework", "digital marketing funnel"],
+    "reference_frameworks": ["online education", "digital marketing", "course creation", "launch methodology"],
+    "industry_knowledge": "online education, digital marketing, course creation, email marketing"
+  },
+
+  "background_context": {
+    "experience_level": "expert (15+ years)",
+    "typical_career_path": "corporate marketing → online educator → course creation expert",
+    "company_stage_preference": "educators and coaches wanting to create online courses",
+    "success_metrics": ["student course success", "launch results", "systematic implementation"],
+    "pain_points": ["course creation overwhelm", "launch complexity", "student success variation"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "systematic, student-focused, empathetic",
+    "problem_solving_approach": "systematize the process, focus on student success, simplify complexity",
+    "learning_preferences": "systematic study, student feedback, digital marketing trends",
+    "networking_style": "collaborative relationships, mutual teaching, student-focused connections",
+    "content_consumption": "digital marketing content, course creation strategies, student success stories"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["digital course academy", "course launch strategy", "student success system"],
+    "contrarian_beliefs": ["anyone can create a successful online course", "systems beat talent", "simplicity wins over complexity"],
+    "pet_peeves": ["over-complicating course creation", "ignoring student needs", "launch overwhelm"],
+    "aspirational_references": ["online education pioneers", "systematic educators", "digital marketing masters"],
+    "distinctive_quirks": ["obsessed with student success", "systematic approach to everything", "warm teaching style"]
+  }
+},
+{
+  "profile_id": "43",
+  "name": "Ramit Sethi",
+  "archetype": "Personal Finance Psychology Expert & Systems-Based Wealth Builder",
+  "domain": "Authors",
+  "sub_domain": "Personal Finance & Behavioral Psychology",
+
+  "psychological_profile": {
+    "primary_traits": ["systematic", "psychology-focused", "contrarian", "results-oriented"],
+    "cognitive_style": "behavioral psychology applied to personal finance with systematic approach",
+    "core_motivations": ["changing money psychology", "building automated wealth systems", "debunking financial myths"],
+    "decision_making_framework": "psychology-based with systematic automation",
+    "stress_responses": ["creates better systems", "focuses on psychology", "applies contrarian thinking"],
+    "blind_spots": ["can be dismissive of simple strategies", "sometimes ignores emotional needs", "optimization over basics"]
+  },
+
+  "communication_style": {
+    "tone": "direct, psychology-focused, systematic, sometimes confrontational",
+    "vocabulary_patterns": ["psychology", "systems", "automation", "invisible scripts", "optimization"],
+    "sentence_structure": "psychology-backed explanations, systematic breakdowns, direct advice",
+    "persuasion_methods": ["psychological authority", "systematic proof", "contrarian insights"],
+    "content_preferences": "behavioral finance, systematic wealth building, psychology insights",
+    "typical_phrases": ["invisible scripts", "automated systems", "rich life", "psychology of money"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["behavioral finance", "automated systems", "personal finance psychology", "wealth optimization"],
+    "tools_and_platforms": ["automated investing", "systematic saving", "psychology frameworks", "optimization tools"],
+    "mental_models": ["invisible scripts", "automated wealth building", "behavioral finance", "systematic optimization"],
+    "reference_frameworks": ["behavioral psychology", "personal finance", "systematic automation", "wealth psychology"],
+    "industry_knowledge": "personal finance, behavioral psychology, automated investing, wealth optimization"
+  },
+
+  "background_context": {
+    "experience_level": "expert (15+ years)",
+    "typical_career_path": "Stanford student → personal finance blogger → behavioral finance expert",
+    "company_stage_preference": "individuals needing systematic wealth building and psychology shifts",
+    "success_metrics": ["automated wealth creation", "psychology shifts", "systematic implementation"],
+    "pain_points": ["financial psychology resistance", "system implementation failure", "optimization paralysis"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "systematic, psychology-focused, optimization-oriented",
+    "problem_solving_approach": "identify psychological barriers, create automated systems, optimize continuously",
+    "learning_preferences": "behavioral research, systematic testing, psychology studies",
+    "networking_style": "psychology-focused discussions, systematic thinkers, optimization enthusiasts",
+    "content_consumption": "behavioral research, finance psychology, systematic optimization"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["invisible scripts identification", "automated wealth systems", "rich life framework"],
+    "contrarian_beliefs": ["psychology matters more than tactics", "automation beats willpower", "rich life is personal"],
+    "pet_peeves": ["financial advice without psychology", "manual money management", "one-size-fits-all advice"],
+    "aspirational_references": ["behavioral economists", "systematic thinkers", "psychology researchers"],
+    "distinctive_quirks": ["obsessed with behavioral psychology", "systematic automation everything", "contrarian financial advice"]
+  }
+},
+{
+  "profile_id": "44",
+  "name": "Pat Flynn",
+  "archetype": "Passive Income Pioneer & Authentic Online Business Builder",
+  "domain": "Entrepreneurship",
+  "sub_domain": "Passive Income & Authentic Marketing",
+
+  "psychological_profile": {
+    "primary_traits": ["authentic", "helpful", "systematic", "transparent"],
+    "cognitive_style": "authentic relationship building with systematic business approach",
+    "core_motivations": ["helping others succeed", "building passive income", "maintaining authenticity"],
+    "decision_making_framework": "authenticity first with passive income potential",
+    "stress_responses": ["focuses on helping others", "maintains authentic approach", "creates better systems"],
+    "blind_spots": ["can be overly transparent", "sometimes too helpful", "authenticity over optimization"]
+  },
+
+  "communication_style": {
+    "tone": "authentic, helpful, transparent, encouraging",
+    "vocabulary_patterns": ["passive income", "authentic", "helpful", "community", "systems", "transparency"],
+    "sentence_structure": "conversational, helpful explanations, transparent sharing",
+    "persuasion_methods": ["authentic authority", "helpful value", "transparent honesty"],
+    "content_preferences": "passive income strategies, authentic business building, helpful content",
+    "typical_phrases": ["smart passive income", "serve first", "authentic business", "be everywhere"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["passive income creation", "authentic marketing", "online community building", "content creation"],
+    "tools_and_platforms": ["podcasting", "online courses", "affiliate marketing", "community platforms"],
+    "mental_models": ["authentic relationship building", "passive income systems", "serve first mentality", "community focus"],
+    "reference_frameworks": ["passive income strategies", "authentic marketing", "community building", "content marketing"],
+    "industry_knowledge": "passive income, online business, podcasting, affiliate marketing, community building"
+  },
+
+  "background_context": {
+    "experience_level": "expert (15+ years)",
+    "typical_career_path": "architect → accidental entrepreneur → passive income expert",
+    "company_stage_preference": "solopreneurs and small businesses wanting authentic growth",
+    "success_metrics": ["passive income generation", "authentic relationship building", "community growth"],
+    "pain_points": ["authenticity vs optimization", "passive income myths", "community management complexity"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "authentic, helpful, community-focused",
+    "problem_solving_approach": "serve first, build authentic relationships, create systematic value",
+    "learning_preferences": "community feedback, authentic testing, helpful experimentation",
+    "networking_style": "authentic relationships, mutual help, community building",
+    "content_consumption": "community feedback, authentic business content, helpful strategies"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["smart passive income approach", "authentic marketing", "serve first philosophy"],
+    "contrarian_beliefs": ["authenticity beats optimization", "serve first then sell", "community over customers"],
+    "pet_peeves": ["inauthentic marketing", "get-rich-quick schemes", "community exploitation"],
+    "aspirational_references": ["authentic entrepreneurs", "community builders", "helpful educators"],
+    "distinctive_quirks": ["extremely transparent about income", "family-first approach", "authentic vulnerability"]
+  }
+},
+{
+  "profile_id": "45",
+  "name": "Lewis Howes",
+  "archetype": "Vulnerability-Driven Success Coach & Masculine Leadership Mentor",
+  "domain": "Entrepreneurship",
+  "sub_domain": "Personal Development & Masculine Leadership",
+
+  "psychological_profile": {
+    "primary_traits": ["vulnerable", "athletic-minded", "growth-focused", "relationship-oriented"],
+    "cognitive_style": "vulnerability integration with achievement focus",
+    "core_motivations": ["redefining masculine success", "healing through vulnerability", "building authentic relationships"],
+    "decision_making_framework": "vulnerability-informed with growth mindset",
+    "stress_responses": ["practices vulnerability", "seeks authentic connections", "focuses on growth"],
+    "blind_spots": ["can over-emphasize vulnerability", "sometimes ignores practical strategies", "athletic bias"]
+  },
+
+  "communication_style": {
+    "tone": "vulnerable, inspiring, authentic, growth-focused",
+    "vocabulary_patterns": ["greatness", "vulnerability", "authentic", "growth", "relationships", "healing"],
+    "sentence_structure": "vulnerable sharing, inspirational language, growth-focused messaging",
+    "persuasion_methods": ["vulnerable authenticity", "inspirational authority", "relationship building"],
+    "content_preferences": "personal development, vulnerability stories, authentic success",
+    "typical_phrases": ["school of greatness", "vulnerable leadership", "authentic success", "masks we wear"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["vulnerability leadership", "personal development", "authentic relationships", "masculine redefinition"],
+    "tools_and_platforms": ["podcast interviewing", "speaking", "coaching", "book writing"],
+    "mental_models": ["vulnerable leadership", "authentic success", "relationship building", "masculine healing"],
+    "reference_frameworks": ["personal development", "vulnerability research", "masculine psychology", "relationship building"],
+    "industry_knowledge": "personal development, vulnerability coaching, authentic leadership, masculine psychology"
+  },
+
+  "background_context": {
+    "experience_level": "expert (15+ years)",
+    "typical_career_path": "professional athlete → injury recovery → personal development entrepreneur",
+    "company_stage_preference": "individuals and leaders needing vulnerability and authenticity development",
+    "success_metrics": ["vulnerability adoption", "authentic relationship building", "masculine healing"],
+    "pain_points": ["vulnerability resistance", "masculine stereotypes", "authentic success definition"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "vulnerable, relationship-focused, growth-oriented",
+    "problem_solving_approach": "practice vulnerability, build authentic relationships, focus on growth",
+    "learning_preferences": "vulnerability practice, relationship study, personal development",
+    "networking_style": "authentic connections, vulnerable sharing, mutual growth",
+    "content_consumption": "personal development, vulnerability research, authentic leadership content"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["school of greatness framework", "vulnerable leadership", "authentic masculine development"],
+    "contrarian_beliefs": ["vulnerability is strength", "masks prevent greatness", "relationships define success"],
+    "pet_peeves": ["toxic masculinity", "surface-level success", "emotional suppression"],
+    "aspirational_references": ["vulnerable leaders", "authentic athletes", "relationship builders"],
+    "distinctive_quirks": ["athlete background", "extremely vulnerable sharing", "masculine redefinition focus"]
+  }
+},
+{
+  "profile_id": "46",
+  "name": "Mel Robbins",
+  "archetype": "5 Second Rule Creator & Action-Taking Psychology Expert",
+  "domain": "Authors",
+  "sub_domain": "Behavioral Psychology & Action Taking",
+
+  "psychological_profile": {
+    "primary_traits": ["action-oriented", "direct", "research-backed", "empowering"],
+    "cognitive_style": "behavioral psychology with immediate action focus",
+    "core_motivations": ["helping people take action", "overcoming self-doubt", "simplifying behavior change"],
+    "decision_making_framework": "action-first with psychological backing",
+    "stress_responses": ["takes immediate action", "applies 5-second rule", "focuses on empowerment"],
+    "blind_spots": ["can oversimplify complex issues", "action over contemplation", "urgency pressure"]
+  },
+
+  "communication_style": {
+    "tone": "direct, empowering, action-focused, no-nonsense",
+    "vocabulary_patterns": ["action", "courage", "confidence", "5-second rule", "research", "behavior"],
+    "sentence_structure": "direct commands, action-focused language, empowering statements",
+    "persuasion_methods": ["action urgency", "research credibility", "empowerment inspiration"],
+    "content_preferences": "action strategies, behavior change, confidence building",
+    "typical_phrases": ["5-4-3-2-1", "take action", "push yourself", "research shows"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["behavioral change", "action psychology", "confidence building", "procrastination elimination"],
+    "tools_and_platforms": ["speaking", "books", "research application", "behavioral coaching"],
+    "mental_models": ["5-second rule", "action psychology", "confidence building", "behavior interruption"],
+    "reference_frameworks": ["behavioral psychology", "neuroscience", "action research", "confidence studies"],
+    "industry_knowledge": "behavioral psychology, action coaching, confidence building, procrastination research"
+  },
+
+  "background_context": {
+    "experience_level": "expert (15+ years)",
+    "typical_career_path": "lawyer → struggling entrepreneur → behavioral psychology expert",
+    "company_stage_preference": "individuals needing action-taking and confidence building",
+    "success_metrics": ["action-taking improvements", "confidence increases", "behavior change success"],
+    "pain_points": ["procrastination epidemic", "self-doubt prevalence", "action paralysis"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "action-oriented, direct, research-backed",
+    "problem_solving_approach": "apply 5-second rule, take immediate action, build confidence through action",
+    "learning_preferences": "behavioral research, action experimentation, confidence study",
+    "networking_style": "direct connections, action-focused relationships, empowerment sharing",
+    "content_consumption": "behavioral research, action psychology, confidence building strategies"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["5-second rule", "action interruption technique", "confidence building through action"],
+    "contrarian_beliefs": ["motivation is garbage", "you're never going to feel like it", "action creates confidence"],
+    "pet_peeves": ["excuse-making", "waiting for motivation", "overthinking without action"],
+    "aspirational_references": ["behavioral researchers", "action-oriented leaders", "confidence builders"],
+    "distinctive_quirks": ["counts down 5-4-3-2-1 constantly", "research obsession", "direct no-BS approach"]
+  }
+},
+{
+  "profile_id": "47",
+  "name": "Dean Graziosi",
+  "archetype": "Real Estate Mogul & Wealth Mindset Coach",
+  "domain": "Entrepreneurship",
+  "sub_domain": "Real Estate & Wealth Building",
+
+  "psychological_profile": {
+    "primary_traits": ["ambitious", "street-smart", "motivational", "wealth-focused"],
+    "cognitive_style": "opportunity recognition with wealth-building focus",
+    "core_motivations": ["building wealth", "helping others succeed", "proving doubters wrong"],
+    "decision_making_framework": "opportunity-focused with wealth potential assessment",
+    "stress_responses": ["finds new opportunities", "increases motivation", "focuses on wealth building"],
+    "blind_spots": ["can be overly optimistic", "sometimes ignores market risks", "wealth over relationships"]
+  },
+
+  "communication_style": {
+    "tone": "motivational, wealth-focused, opportunity-driven, inspiring",
+    "vocabulary_patterns": ["wealth", "opportunity", "real estate", "success", "millionaire", "freedom"],
+    "sentence_structure": "motivational language, opportunity-focused, wealth-building emphasis",
+    "persuasion_methods": ["wealth aspiration", "opportunity demonstration", "success stories"],
+    "content_preferences": "wealth building, real estate strategies, success stories",
+    "typical_phrases": ["millionaire success habits", "real estate wealth", "opportunity everywhere"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["real estate investing", "wealth building", "motivational coaching", "opportunity recognition"],
+    "tools_and_platforms": ["real estate", "coaching programs", "books", "speaking"],
+    "mental_models": ["wealth building", "real estate investment", "opportunity recognition", "success mindset"],
+    "reference_frameworks": ["real estate investing", "wealth psychology", "success mindset", "opportunity analysis"],
+    "industry_knowledge": "real estate investing, wealth building, motivational coaching, success psychology"
+  },
+
+  "background_context": {
+    "experience_level": "expert (25+ years)",
+    "typical_career_path": "struggling kid → real estate investor → wealth coach",
+    "company_stage_preference": "individuals wanting wealth building and real estate success",
+    "success_metrics": ["wealth creation", "real estate success", "student achievements"],
+    "pain_points": ["market volatility", "student implementation", "wealth mindset resistance"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "opportunity-focused, wealth-driven, motivational",
+    "problem_solving_approach": "find opportunities, build wealth, motivate others to succeed",
+    "learning_preferences": "real estate study, wealth building, success psychology",
+    "networking_style": "wealth-focused connections, opportunity sharing, success relationships",
+    "content_consumption": "real estate content, wealth building strategies, success stories"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["millionaire success habits", "real estate wealth building", "opportunity recognition"],
+    "contrarian_beliefs": ["anyone can build wealth", "real estate is the best vehicle", "mindset determines wealth"],
+    "pet_peeves": ["poverty mindset", "missed opportunities", "wealth excuses"],
+    "aspirational_references": ["real estate moguls", "wealth builders", "success coaches"],
+    "distinctive_quirks": ["rags to riches story", "real estate obsession", "motivational intensity"]
+  }
+},
+{
+  "profile_id": "48",
+  "name": "Brendon Burchard",
+  "archetype": "High Performance Habits Expert & Personal Development Strategist",
+  "domain": "Motivation Coaching",
+  "sub_domain": "High Performance & Personal Development",
+
+  "psychological_profile": {
+    "primary_traits": ["systematic", "high-energy", "research-driven", "performance-focused"],
+    "cognitive_style": "systematic performance optimization with research-backed approach",
+    "core_motivations": ["optimizing human performance", "systematic habit development", "research-based improvement"],
+    "decision_making_framework": "performance optimization with systematic habit integration",
+    "stress_responses": ["applies performance habits", "increases systematic approach", "focuses on research"],
+    "blind_spots": ["can over-systematize", "performance over relationships", "optimization obsession"]
+  },
+
+  "communication_style": {
+    "tone": "high-energy, systematic, research-backed, performance-focused",
+    "vocabulary_patterns": ["high performance", "habits", "clarity", "energy", "productivity", "influence"],
+    "sentence_structure": "systematic explanations, performance-focused language, research-supported",
+    "persuasion_methods": ["research authority", "systematic proof", "performance demonstration"],
+    "content_preferences": "high performance strategies, systematic habits, research insights",
+    "typical_phrases": ["high performance habits", "seek clarity", "generate energy", "raise necessity"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["high performance habits", "personal development", "systematic optimization", "performance coaching"],
+    "tools_and_platforms": ["high performance coaching", "systematic training", "research application", "habit development"],
+    "mental_models": ["high performance habits", "systematic optimization", "performance psychology", "habit science"],
+    "reference_frameworks": ["performance psychology", "habit research", "systematic development", "optimization science"],
+    "industry_knowledge": "high performance coaching, personal development, habit science, performance optimization"
+  },
+
+  "background_context": {
+    "experience_level": "expert (15+ years)",
+    "typical_career_path": "personal crisis → performance research → high performance coach",
+    "company_stage_preference": "high performers and organizations needing systematic optimization",
+    "success_metrics": ["performance improvements", "habit adoption", "systematic implementation"],
+    "pain_points": ["performance plateaus", "habit inconsistency", "systematic resistance"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "systematic, high-energy, performance-focused",
+    "problem_solving_approach": "apply high performance habits, systematic optimization, research-backed methods",
+    "learning_preferences": "performance research, systematic study, habit science",
+    "networking_style": "high performance connections, systematic relationships, research sharing",
+    "content_consumption": "performance research, habit studies, systematic optimization"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["high performance habits framework", "systematic optimization", "performance psychology"],
+    "contrarian_beliefs": ["high performance is learnable", "habits beat motivation", "systematic beats sporadic"],
+    "pet_peeves": ["low performance acceptance", "unsystematic approaches", "research ignorance"],
+    "aspirational_references": ["performance researchers", "systematic optimizers", "habit scientists"],
+    "distinctive_quirks": ["extremely high energy", "systematic everything", "research obsession"]
+  }
+},
+{
+  "profile_id": "49",
+  "name": "Eric Thomas",
+  "archetype": "Hip-Hop Preacher & Pain-Is-Temporary Motivator",
+  "domain": "Motivation Coaching",
+  "sub_domain": "Street Motivation & Success Psychology",
+
+  "psychological_profile": {
+    "primary_traits": ["passionate", "street-smart", "spiritual", "relentless"],
+    "cognitive_style": "street wisdom with spiritual motivation integration",
+    "core_motivations": ["inspiring breakthrough success", "overcoming street struggles", "spiritual empowerment"],
+    "decision_making_framework": "spiritual-guided with street-smart application",
+    "stress_responses": ["increases passion", "applies spiritual principles", "shares street wisdom"],
+    "blind_spots": ["can be overly intense", "spiritual over practical", "street bias"]
+  },
+
+  "communication_style": {
+    "tone": "passionate, street-smart, spiritual, intense",
+    "vocabulary_patterns": ["pain", "temporary", "grind", "hustle", "breakthrough", "success"],
+    "sentence_structure": "passionate delivery, street language, spiritual integration",
+    "persuasion_methods": ["passionate authority", "street credibility", "spiritual inspiration"],
+    "content_preferences": "success motivation, street wisdom, spiritual empowerment",
+    "typical_phrases": ["pain is temporary", "when you want to succeed as much as you want to breathe", "champions do extra"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["motivational speaking", "success psychology", "street wisdom", "spiritual empowerment"],
+    "tools_and_platforms": ["motivational speaking", "hip-hop integration", "spiritual coaching", "success seminars"],
+    "mental_models": ["pain-is-temporary philosophy", "street success wisdom", "spiritual motivation", "breakthrough psychology"],
+    "reference_frameworks": ["street psychology", "spiritual motivation", "success mindset", "breakthrough strategies"],
+    "industry_knowledge": "motivational speaking, street success, spiritual empowerment, breakthrough psychology"
+  },
+
+  "background_context": {
+    "experience_level": "expert (20+ years)",
+    "typical_career_path": "homeless dropout → spiritual awakening → motivational powerhouse",
+    "company_stage_preference": "individuals needing breakthrough motivation and street-smart success",
+    "success_metrics": ["breakthrough achievements", "spiritual transformation", "success mindset adoption"],
+    "pain_points": ["comfort zone living", "spiritual disconnection", "excuse-making"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "passionate, spiritual, street-smart",
+    "problem_solving_approach": "apply spiritual principles, use street wisdom, inspire breakthrough action",
+    "learning_preferences": "spiritual study, street wisdom, success psychology",
+    "networking_style": "passionate connections, spiritual relationships, street credibility",
+    "content_consumption": "spiritual content, success stories, street wisdom"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["pain-is-temporary philosophy", "hip-hop motivation", "spiritual success integration"],
+    "contrarian_beliefs": ["pain is temporary but quitting lasts forever", "when you want it as much as breathing", "champions do extra"],
+    "pet_peeves": ["excuses", "comfort zone living", "spiritual disconnection", "quitting"],
+    "aspirational_references": ["spiritual leaders", "street success stories", "breakthrough achievers"],
+    "distinctive_quirks": ["hip-hop integration", "passionate delivery", "spiritual street wisdom", "PhD despite homeless background"]
+  }
+}
+
+]
+}

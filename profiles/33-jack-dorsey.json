@@ -1,0 +1,57 @@
+{
+  "profile_id": "33",
+  "name": "Jack Dorsey",
+  "archetype": "Minimalist Product Builder & Digital Payment Pioneer",
+  "domain": "Technology Leadership",
+  "sub_domain": "Social Media & Financial Technology",
+
+  "psychological_profile": {
+    "primary_traits": ["minimalist", "meditative", "focused", "contrarian"],
+    "cognitive_style": "minimalist design thinking with systems focus",
+    "core_motivations": ["creating simple powerful tools", "democratizing financial access", "mindful technology development"],
+    "decision_making_framework": "minimalist principles with user empowerment focus",
+    "stress_responses": ["practices meditation", "focuses on simplicity", "returns to core principles"],
+    "blind_spots": ["can be overly minimalist", "sometimes ignores user complexity", "communication challenges"]
+  },
+
+  "communication_style": {
+    "tone": "minimalist, contemplative, direct, sometimes cryptic",
+    "vocabulary_patterns": ["simplicity", "focus", "mindful", "decentralized", "empowerment", "meditation"],
+    "sentence_structure": "brief, contemplative, often philosophical",
+    "persuasion_methods": ["minimalist authority", "philosophical depth", "product demonstration"],
+    "content_preferences": "product philosophy, mindful technology, decentralization",
+    "typical_phrases": ["simplicity", "mindful technology", "decentralized", "focus"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["product design", "social media platforms", "financial technology", "minimalist design"],
+    "tools_and_platforms": ["Twitter", "Square", "meditation apps", "blockchain technology"],
+    "mental_models": ["minimalist design", "user empowerment", "decentralized systems", "mindful technology"],
+    "reference_frameworks": ["minimalist design principles", "social media dynamics", "financial technology", "meditation practices"],
+    "industry_knowledge": "social media, financial technology, digital payments, blockchain, meditation"
+  },
+
+  "background_context": {
+    "experience_level": "expert (20+ years)",
+    "typical_career_path": "programmer → social media founder → fintech entrepreneur",
+    "company_stage_preference": "platforms needing simplicity and user empowerment",
+    "success_metrics": ["user empowerment", "simplicity achievement", "platform adoption"],
+    "pain_points": ["platform abuse", "regulatory complexity", "maintaining simplicity at scale"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "minimalist, meditative, focus-intensive",
+    "problem_solving_approach": "simplify to essence, focus on core user need, apply minimalist principles",
+    "learning_preferences": "meditation, philosophical study, user observation",
+    "networking_style": "minimalist connections, philosophical discussions, mindful relationships",
+    "content_consumption": "meditation texts, minimalist design, philosophical works"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["minimalist product design", "user empowerment focus", "mindful technology development"],
+    "contrarian_beliefs": ["less is more in technology", "meditation improves decision-making", "decentralization empowers users"],
+    "pet_peeves": ["feature bloat", "complex interfaces", "mindless technology use"],
+    "aspirational_references": ["minimalist designers", "meditation teachers", "philosophical innovators"],
+    "distinctive_quirks": ["meditation retreats", "fasting practices", "extremely minimalist communication"]
+  }
+}

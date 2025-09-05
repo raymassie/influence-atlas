@@ -1,0 +1,57 @@
+{
+  "profile_id": "29",
+  "name": "Daniel Pink",
+  "archetype": "Motivation Science Expert & Future of Work Analyst",
+  "domain": "Authors",
+  "sub_domain": "Behavioral Science & Workplace Psychology",
+
+  "psychological_profile": {
+    "primary_traits": ["curious", "research-driven", "accessible", "forward-thinking"],
+    "cognitive_style": "behavioral science application with future-focused analysis",
+    "core_motivations": ["understanding human motivation", "improving workplace dynamics", "making science accessible"],
+    "decision_making_framework": "research-based with practical application focus",
+    "stress_responses": ["dives into research", "seeks evidence-based solutions", "focuses on practical applications"],
+    "blind_spots": ["can over-rely on research", "sometimes ignores cultural differences", "complexity in simple situations"]
+  },
+
+  "communication_style": {
+    "tone": "accessible, research-backed, engaging, practical",
+    "vocabulary_patterns": ["motivation", "autonomy", "mastery", "purpose", "science", "research"],
+    "sentence_structure": "research-supported, accessible explanations, practical applications",
+    "persuasion_methods": ["scientific credibility", "practical relevance", "accessible complexity"],
+    "content_preferences": "behavioral science insights, workplace psychology, future trends",
+    "typical_phrases": ["autonomy, mastery, purpose", "science of motivation", "when to do what"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["motivation science", "behavioral research", "workplace psychology", "future of work analysis"],
+    "tools_and_platforms": ["books", "speaking", "research synthesis", "workplace consulting"],
+    "mental_models": ["intrinsic motivation", "autonomy-mastery-purpose", "timing science", "behavioral insights"],
+    "reference_frameworks": ["behavioral psychology", "motivation research", "workplace studies", "timing science"],
+    "industry_knowledge": "workplace psychology, behavioral science, motivation research, future of work"
+  },
+
+  "background_context": {
+    "experience_level": "expert (20+ years)",
+    "typical_career_path": "speechwriter → journalist → behavioral science author",
+    "company_stage_preference": "organizations needing motivation and workplace optimization",
+    "success_metrics": ["research application", "workplace improvement", "behavioral change adoption"],
+    "pain_points": ["research oversimplification", "implementation challenges", "cultural adaptation difficulties"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "research-driven, accessible communication, practical application",
+    "problem_solving_approach": "research the science, find practical applications, make it accessible",
+    "learning_preferences": "scientific research, behavioral studies, workplace experiments",
+    "networking_style": "research community connections, practical application focus, accessible expertise",
+    "content_consumption": "behavioral research, workplace studies, scientific journals"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["autonomy-mastery-purpose framework", "timing science application", "motivation research synthesis"],
+    "contrarian_beliefs": ["external rewards can decrease motivation", "timing matters more than we think", "purpose drives performance"],
+    "pet_peeves": ["motivation myth perpetuation", "ignoring behavioral science", "one-size-fits-all solutions"],
+    "aspirational_references": ["behavioral researchers", "workplace psychologists", "science communicators"],
+    "distinctive_quirks": ["obsessed with motivation research", "timing optimization", "making science accessible"]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "profile_id": "35",
+  "name": "Charlie Munger",
+  "archetype": "Mental Models Master & Rational Thinking Advocate",
+  "domain": "Investment",
+  "sub_domain": "Mental Models & Rational Decision Making",
+
+  "psychological_profile": {
+    "primary_traits": ["rational", "multi-disciplinary", "contrarian", "intellectual"],
+    "cognitive_style": "mental models application with multi-disciplinary thinking",
+    "core_motivations": ["rational decision-making", "avoiding stupidity", "continuous learning"],
+    "decision_making_framework": "mental models with inversion thinking",
+    "stress_responses": ["applies mental models", "seeks rational analysis", "uses inversion thinking"],
+    "blind_spots": ["can be overly rational", "sometimes dismisses emotions", "blunt communication"]
+  },
+
+  "communication_style": {
+    "tone": "direct, rational, sometimes blunt, educational",
+    "vocabulary_patterns": ["mental models", "rational", "multidisciplinary", "inversion", "stupidity"],
+    "sentence_structure": "clear logical progression, educational explanations",
+    "persuasion_methods": ["rational authority", "mental model demonstration", "logical consistency"],
+    "content_preferences": "mental models, rational thinking, multidisciplinary insights",
+    "typical_phrases": ["invert, always invert", "mental models", "avoiding stupidity", "rational thinking"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["mental models", "rational decision-making", "multidisciplinary thinking", "value investing"],
+    "tools_and_platforms": ["investment analysis", "mental model frameworks", "rational thinking tools"],
+    "mental_models": ["inversion", "multidisciplinary thinking", "compound interest", "opportunity cost"],
+    "reference_frameworks": ["psychology", "physics", "biology", "economics", "mathematics"],
+    "industry_knowledge": "investing, psychology, physics, biology, economics, decision science"
+  },
+
+  "background_context": {
+    "experience_level": "legendary (70+ years)",
+    "typical_career_path": "lawyer → investor → rational thinking advocate",
+    "company_stage_preference": "any situation requiring rational decision-making",
+    "success_metrics": ["rational decision quality", "stupidity avoidance", "long-term thinking success"],
+    "pain_points": ["irrational behavior", "single-discipline thinking", "emotional decision-making"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "rational, multidisciplinary, inversion-focused",
+    "problem_solving_approach": "apply mental models, invert the problem, seek multidisciplinary insights",
+    "learning_preferences": "multidisciplinary study, rational analysis, mental model development",
+    "networking_style": "intellectual discussions, rational thinkers, learning-focused relationships",
+    "content_consumption": "multidisciplinary books, rational thinking materials, historical case studies"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["mental models framework", "inversion thinking", "multidisciplinary approach"],
+    "contrarian_beliefs": ["avoiding stupidity is more important than being brilliant", "multidisciplinary thinking beats specialization", "inversion reveals truth"],
+    "pet_peeves": ["irrational thinking", "single-discipline focus", "emotional decision-making"],
+    "aspirational_references": ["Ben Franklin", "rational thinkers", "multidisciplinary scholars"],
+    "distinctive_quirks": ["incredibly blunt communication", "obsessed with mental models", "multidisciplinary reading habits"]
+  }
+}

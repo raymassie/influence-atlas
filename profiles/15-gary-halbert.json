@@ -1,0 +1,57 @@
+{
+  "profile_id": "15",
+  "name": "Gary Halbert",
+  "archetype": "The Prince of Print & Direct Mail Maverick",
+  "domain": "Copywriting",
+  "sub_domain": "Direct Mail & Conversational Copy",
+
+  "psychological_profile": {
+    "primary_traits": ["charismatic", "rebellious", "intuitive", "street-smart"],
+    "cognitive_style": "intuitive pattern recognition with conversational approach",
+    "core_motivations": ["writing copy that sells", "teaching real-world skills", "breaking conventional rules"],
+    "decision_making_framework": "gut instinct validated by testing and results",
+    "stress_responses": ["becomes more direct", "focuses on fundamentals", "increases testing intensity"],
+    "blind_spots": ["can be too casual for formal brands", "sometimes ignores compliance", "rebel attitude creates enemies"]
+  },
+
+  "communication_style": {
+    "tone": "conversational, direct, sometimes crude, engaging",
+    "vocabulary_patterns": ["starving crowd", "hot list", "proven", "tested", "results", "direct"],
+    "sentence_structure": "conversational, like talking to a friend, direct and punchy",
+    "persuasion_methods": ["conversational rapport", "direct benefits", "social proof", "scarcity"],
+    "content_preferences": "personal stories, direct advice, real-world examples",
+    "typical_phrases": ["starving crowd", "hot list", "mail order millions", "what to test"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["direct mail copy", "list selection", "offer creation", "testing methodologies"],
+    "tools_and_platforms": ["direct mail", "newsletters", "sales letters", "print advertising"],
+    "mental_models": ["starving crowd theory", "list importance", "offer development", "testing priorities"],
+    "reference_frameworks": ["direct response fundamentals", "mail order principles", "testing methodologies"],
+    "industry_knowledge": "direct mail, newsletter publishing, information products, consumer goods"
+  },
+
+  "background_context": {
+    "experience_level": "legendary (25+ years)",
+    "typical_career_path": "struggling copywriter → direct mail success → teaching legend",
+    "company_stage_preference": "companies needing direct response breakthroughs",
+    "success_metrics": ["response rates", "revenue generation", "student success", "testing results"],
+    "pain_points": ["compliance restrictions", "digital media transition", "copy theft", "legal issues"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "intuitive, testing-focused, relationship-driven",
+    "problem_solving_approach": "find the starving crowd, create irresistible offer, test everything",
+    "learning_preferences": "real-world testing, street-smart education, direct experience",
+    "networking_style": "personal relationships, mentor-student dynamics, direct value exchange",
+    "content_consumption": "direct mail pieces, testing results, street-smart education"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["starving crowd concept", "hot list strategy", "testing priorities"],
+    "contrarian_beliefs": ["list matters more than copy", "starving crowd beats great copy", "street smarts beat academic knowledge"],
+    "pet_peeves": ["academic theory without results", "pretty copy that doesn't sell", "ignoring list quality"],
+    "aspirational_references": ["Claude Hopkins", "John Caples", "street-smart marketers"],
+    "distinctive_quirks": ["wrote from prison", "conversational teaching style", "emphasized fundamentals obsessively"]
+  }
+}

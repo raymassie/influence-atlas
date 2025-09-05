@@ -1,0 +1,57 @@
+{
+  "profile_id": "39",
+  "name": "John Caples",
+  "archetype": "Scientific Advertising Pioneer & Headline Testing Master",
+  "domain": "Copywriting",
+  "sub_domain": "Scientific Testing & Headline Optimization",
+
+  "psychological_profile": {
+    "primary_traits": ["scientific", "testing-obsessed", "methodical", "results-focused"],
+    "cognitive_style": "scientific method applied to advertising with systematic testing",
+    "core_motivations": ["proving advertising effectiveness", "systematic improvement", "scientific validation"],
+    "decision_making_framework": "test-based with scientific methodology",
+    "stress_responses": ["increases testing", "seeks scientific proof", "applies systematic methods"],
+    "blind_spots": ["can over-test", "sometimes ignores intuition", "paralysis by analysis"]
+  },
+
+  "communication_style": {
+    "tone": "scientific, methodical, educational, authoritative",
+    "vocabulary_patterns": ["testing", "scientific", "proven", "results", "systematic", "method"],
+    "sentence_structure": "scientific explanations, test-supported claims",
+    "persuasion_methods": ["scientific authority", "test results", "systematic proof"],
+    "content_preferences": "testing methodologies, scientific approaches, proven results",
+    "typical_phrases": ["tested advertising", "scientific method", "proven results", "systematic testing"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["headline testing", "scientific advertising", "response measurement", "systematic optimization"],
+    "tools_and_platforms": ["print advertising", "testing systems", "response tracking", "statistical analysis"],
+    "mental_models": ["scientific testing", "headline psychology", "response optimization", "systematic improvement"],
+    "reference_frameworks": ["scientific method", "statistical analysis", "advertising psychology", "testing protocols"],
+    "industry_knowledge": "print advertising, direct response, testing methodologies, advertising science"
+  },
+
+  "background_context": {
+    "experience_level": "master (40+ years)",
+    "typical_career_path": "copywriter → testing pioneer → scientific advertising authority",
+    "company_stage_preference": "companies needing systematic advertising improvement",
+    "success_metrics": ["response rate improvements", "testing accuracy", "scientific validation"],
+    "pain_points": ["unscientific advertising", "gut-feeling decisions", "testing resistance"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "scientific, systematic, testing-obsessed",
+    "problem_solving_approach": "apply scientific method, test systematically, measure everything",
+    "learning_preferences": "scientific study, testing results, systematic analysis",
+    "networking_style": "scientific community, testing enthusiasts, methodical relationships",
+    "content_consumption": "scientific research, testing case studies, advertising analysis"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["scientific advertising method", "headline testing system", "response measurement"],
+    "contrarian_beliefs": ["advertising can be scientific", "testing beats intuition", "headlines determine success"],
+    "pet_peeves": ["unscientific advertising", "ignoring test results", "creative without measurement"],
+    "aspirational_references": ["Claude Hopkins", "scientific researchers", "testing pioneers"],
+    "distinctive_quirks": ["obsessed with testing everything", "scientific approach to creativity", "headline perfectionism"]
+  }
+}

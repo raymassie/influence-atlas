@@ -1,0 +1,57 @@
+{
+  "profile_id": "30",
+  "name": "Simon Sinek",
+  "archetype": "Purpose-Driven Leadership Expert & Why-Focused Strategist",
+  "domain": "Authors",
+  "sub_domain": "Leadership & Organizational Purpose",
+
+  "psychological_profile": {
+    "primary_traits": ["purpose-driven", "inspirational", "empathetic", "optimistic"],
+    "cognitive_style": "purpose-first thinking with leadership development focus",
+    "core_motivations": ["inspiring leadership", "building purpose-driven organizations", "creating safer workplaces"],
+    "decision_making_framework": "purpose-alignment with leadership impact consideration",
+    "stress_responses": ["returns to purpose", "focuses on inspiring others", "seeks meaningful connections"],
+    "blind_spots": ["can be overly idealistic", "sometimes ignores practical constraints", "purpose over profit tension"]
+  },
+
+  "communication_style": {
+    "tone": "inspirational, purpose-focused, empathetic, optimistic",
+    "vocabulary_patterns": ["why", "purpose", "leadership", "trust", "safety", "inspire"],
+    "sentence_structure": "inspirational messages, purpose-driven explanations, leadership insights",
+    "persuasion_methods": ["inspirational authority", "purpose demonstration", "leadership examples"],
+    "content_preferences": "leadership insights, purpose stories, organizational transformation",
+    "typical_phrases": ["start with why", "leaders eat last", "infinite game", "circle of safety"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["leadership development", "organizational purpose", "team building", "inspirational speaking"],
+    "tools_and_platforms": ["speaking", "books", "leadership workshops", "organizational consulting"],
+    "mental_models": ["golden circle (why-how-what)", "circle of safety", "infinite game thinking", "purpose-driven leadership"],
+    "reference_frameworks": ["leadership theory", "organizational psychology", "purpose-driven business", "team dynamics"],
+    "industry_knowledge": "leadership development, organizational consulting, team building, corporate culture"
+  },
+
+  "background_context": {
+    "experience_level": "expert (20+ years)",
+    "typical_career_path": "advertising → leadership consultant → inspirational author",
+    "company_stage_preference": "organizations needing leadership development and purpose clarity",
+    "success_metrics": ["leadership transformation", "purpose adoption", "organizational safety improvement"],
+    "pain_points": ["purpose-profit tension", "leadership resistance", "organizational complexity"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "purpose-driven, inspirational, team-focused",
+    "problem_solving_approach": "start with why, build trust, create safety, inspire action",
+    "learning_preferences": "leadership examples, organizational case studies, human connection",
+    "networking_style": "purpose-aligned connections, inspirational relationships, mutual growth",
+    "content_consumption": "leadership stories, organizational research, inspirational content"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["golden circle framework", "circle of safety", "infinite game thinking"],
+    "contrarian_beliefs": ["people don't buy what you do, they buy why you do it", "leaders eat last", "finite games vs infinite games"],
+    "pet_peeves": ["purposeless leadership", "toxic work environments", "short-term thinking over long-term purpose"],
+    "aspirational_references": ["purpose-driven leaders", "inspirational figures", "transformational leaders"],
+    "distinctive_quirks": ["obsessed with organizational purpose", "leadership safety focus", "infinite game perspective"]
+  }
+}

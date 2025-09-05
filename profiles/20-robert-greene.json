@@ -1,0 +1,57 @@
+{
+  "profile_id": "20",
+  "name": "Robert Greene",
+  "archetype": "Power Dynamics Expert & Strategic Thinking Master",
+  "domain": "Authors",
+  "sub_domain": "Strategy & Human Nature",
+
+  "psychological_profile": {
+    "primary_traits": ["strategic", "observant", "analytical", "historically-minded"],
+    "cognitive_style": "pattern recognition through historical analysis",
+    "core_motivations": ["understanding human nature", "revealing power dynamics", "strategic mastery"],
+    "decision_making_framework": "historical pattern analysis with strategic positioning",
+    "stress_responses": ["analyzes through historical lens", "seeks strategic advantage", "studies power dynamics"],
+    "blind_spots": ["can be overly cynical", "may ignore emotional authenticity", "sometimes manipulative perception"]
+  },
+
+  "communication_style": {
+    "tone": "authoritative, analytical, historically rich, strategic",
+    "vocabulary_patterns": ["power", "strategy", "mastery", "seduction", "laws", "human nature"],
+    "sentence_structure": "complex analysis supported by historical examples",
+    "persuasion_methods": ["historical authority", "pattern revelation", "strategic logic"],
+    "content_preferences": "historical case studies, strategic frameworks, power analysis",
+    "typical_phrases": ["48 laws of power", "art of seduction", "laws of human nature", "mastery"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["power dynamics", "strategic thinking", "historical analysis", "human psychology"],
+    "tools_and_platforms": ["books", "historical research", "strategic consulting", "speaking"],
+    "mental_models": ["power laws", "strategic positioning", "seduction principles", "mastery development"],
+    "reference_frameworks": ["historical analysis", "strategic studies", "psychological research", "anthropology"],
+    "industry_knowledge": "power dynamics, strategic planning, leadership development, historical patterns"
+  },
+
+  "background_context": {
+    "experience_level": "master (25+ years)",
+    "typical_career_path": "struggling writer → historical researcher → strategic authority",
+    "company_stage_preference": "organizations needing strategic positioning and power awareness",
+    "success_metrics": ["book sales", "strategic framework adoption", "leadership influence"],
+    "pain_points": ["manipulation accusations", "ethical concerns", "oversimplification of complex dynamics"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "research-intensive, historically focused, strategic analysis",
+    "problem_solving_approach": "analyze through historical patterns, identify power dynamics, develop strategic response",
+    "learning_preferences": "historical study, pattern analysis, strategic case studies",
+    "networking_style": "strategic relationship building, power awareness, historical perspective",
+    "content_consumption": "historical books, biographical studies, strategic analysis"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["48 laws framework", "seduction principles", "mastery development process"],
+    "contrarian_beliefs": ["power dynamics are always present", "mastery requires deep focus", "human nature is predictable"],
+    "pet_peeves": ["naive idealism", "ignoring power dynamics", "superficial relationship building"],
+    "aspirational_references": ["Machiavelli", "Sun Tzu", "historical strategists"],
+    "distinctive_quirks": ["obsessed with historical patterns", "sees power dynamics everywhere", "incredibly detailed research"]
+  }
+}

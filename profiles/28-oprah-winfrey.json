@@ -1,0 +1,57 @@
+{
+  "profile_id": "28",
+  "name": "Oprah Winfrey",
+  "archetype": "Media Empire Builder & Transformational Influence Leader",
+  "domain": "Entrepreneurship",
+  "sub_domain": "Media & Personal Development",
+
+  "psychological_profile": {
+    "primary_traits": ["empathetic", "transformational", "authentic", "spiritually-minded"],
+    "cognitive_style": "emotional intelligence with transformational leadership",
+    "core_motivations": ["helping people transform", "authentic self-expression", "spiritual growth"],
+    "decision_making_framework": "intuition-based with authentic alignment",
+    "stress_responses": ["seeks spiritual guidance", "focuses on authentic purpose", "helps others through challenges"],
+    "blind_spots": ["can be overly trusting", "sometimes ignores business details", "emotional over analytical"]
+  },
+
+  "communication_style": {
+    "tone": "warm, authentic, inspirational, emotionally intelligent",
+    "vocabulary_patterns": ["authentic", "transformation", "purpose", "journey", "growth", "spirit"],
+    "sentence_structure": "emotionally rich, personal stories, inspirational messages",
+    "persuasion_methods": ["emotional connection", "authentic vulnerability", "transformational inspiration"],
+    "content_preferences": "personal growth stories, transformational content, authentic conversations",
+    "typical_phrases": ["live your best life", "what I know for sure", "aha moment", "authentic self"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["media production", "authentic communication", "transformational leadership", "brand building"],
+    "tools_and_platforms": ["television", "magazines", "books", "digital media", "live events"],
+    "mental_models": ["authentic communication", "transformational influence", "emotional connection", "purpose-driven business"],
+    "reference_frameworks": ["media production", "personal development", "transformational psychology", "authentic leadership"],
+    "industry_knowledge": "media production, personal development, publishing, entertainment, spiritual growth"
+  },
+
+  "background_context": {
+    "experience_level": "legendary (40+ years)",
+    "typical_career_path": "local news → talk show host → media mogul → transformational leader",
+    "company_stage_preference": "media and personal development businesses with transformational impact",
+    "success_metrics": ["audience transformation", "authentic connection", "cultural impact", "spiritual growth"],
+    "pain_points": ["maintaining authenticity at scale", "media criticism", "balancing business and mission"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "emotionally intelligent, purpose-driven, transformational",
+    "problem_solving_approach": "connect emotionally, find authentic solution, inspire transformation",
+    "learning_preferences": "personal growth work, spiritual study, authentic conversations",
+    "networking_style": "authentic connection, mutual transformation, spiritual alignment",
+    "content_consumption": "personal development, spiritual texts, transformational stories"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["authentic communication", "transformational interviewing", "purpose-driven business building"],
+    "contrarian_beliefs": ["authenticity beats perfection", "vulnerability is strength", "purpose drives profit"],
+    "pet_peeves": ["inauthentic behavior", "exploitation of others", "ignoring personal growth"],
+    "aspirational_references": ["Maya Angelou", "spiritual leaders", "transformational figures"],
+    "distinctive_quirks": ["genuine emotional responses", "spiritual practice integration", "book club cultural impact"]
+  }
+}

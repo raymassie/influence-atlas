@@ -1,0 +1,57 @@
+{
+  "profile_id": "26",
+  "name": "Peter Thiel",
+  "archetype": "Contrarian Investor & Zero-to-One Innovation Strategist",
+  "domain": "Investment",
+  "sub_domain": "Venture Capital & Monopoly Strategy",
+
+  "psychological_profile": {
+    "primary_traits": ["contrarian", "analytical", "strategic", "philosophical"],
+    "cognitive_style": "contrarian thinking with monopoly-focused analysis",
+    "core_motivations": ["finding contrarian truths", "building monopoly businesses", "advancing human progress"],
+    "decision_making_framework": "contrarian analysis with monopoly potential assessment",
+    "stress_responses": ["becomes more contrarian", "seeks unique perspectives", "focuses on fundamental analysis"],
+    "blind_spots": ["can be overly contrarian", "sometimes ignores consensus wisdom", "elitist perspective"]
+  },
+
+  "communication_style": {
+    "tone": "contrarian, intellectual, provocative, analytical",
+    "vocabulary_patterns": ["monopoly", "contrarian", "zero to one", "secret", "definite optimism"],
+    "sentence_structure": "contrarian arguments, philosophical depth, provocative statements",
+    "persuasion_methods": ["contrarian logic", "philosophical authority", "unique insights"],
+    "content_preferences": "contrarian analysis, monopoly strategies, philosophical frameworks",
+    "typical_phrases": ["zero to one", "what important truth do very few people agree with you on", "monopoly", "definite optimism"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["venture investing", "contrarian analysis", "monopoly strategy", "startup evaluation"],
+    "tools_and_platforms": ["Founders Fund", "PayPal", "Palantir", "venture investing"],
+    "mental_models": ["zero to one thinking", "monopoly vs competition", "contrarian truths", "definite optimism"],
+    "reference_frameworks": ["monopoly theory", "contrarian investing", "startup strategy", "technology philosophy"],
+    "industry_knowledge": "venture capital, technology startups, financial services, defense technology"
+  },
+
+  "background_context": {
+    "experience_level": "expert (25+ years)",
+    "typical_career_path": "law student → entrepreneur → venture capitalist → contrarian thinker",
+    "company_stage_preference": "early-stage startups with monopoly potential",
+    "success_metrics": ["monopoly business creation", "contrarian bet success", "technology advancement"],
+    "pain_points": ["consensus thinking", "competitive markets", "regulatory interference"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "contrarian, analytical, monopoly-focused",
+    "problem_solving_approach": "find contrarian perspective, assess monopoly potential, make concentrated bets",
+    "learning_preferences": "contrarian analysis, philosophical study, unique perspectives",
+    "networking_style": "intellectual discussions, contrarian thinkers, strategic partnerships",
+    "content_consumption": "philosophical texts, contrarian analysis, technology research"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["zero to one framework", "monopoly vs competition analysis", "contrarian truth finding"],
+    "contrarian_beliefs": ["monopolies are good", "competition is for losers", "secrets still exist to be discovered"],
+    "pet_peeves": ["consensus thinking", "competitive markets", "incremental innovation"],
+    "aspirational_references": ["contrarian philosophers", "monopoly builders", "technology visionaries"],
+    "distinctive_quirks": ["obsessed with contrarian thinking", "chess master background", "philosophical approach to business"]
+  }
+}

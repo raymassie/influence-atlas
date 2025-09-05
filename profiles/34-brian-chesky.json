@@ -1,0 +1,57 @@
+{
+  "profile_id": "34",
+  "name": "Brian Chesky",
+  "archetype": "Experience-Obsessed Community Builder & Design-Thinking CEO",
+  "domain": "Technology Leadership",
+  "sub_domain": "Sharing Economy & Experience Design",
+
+  "psychological_profile": {
+    "primary_traits": ["design-obsessed", "community-focused", "detail-oriented", "empathetic"],
+    "cognitive_style": "design thinking with community-building focus",
+    "core_motivations": ["creating magical experiences", "building global community", "democratizing travel"],
+    "decision_making_framework": "user experience first with community impact consideration",
+    "stress_responses": ["focuses on user experience", "returns to design principles", "emphasizes community connection"],
+    "blind_spots": ["can over-optimize for experience", "sometimes ignores operational efficiency", "perfectionism delays"]
+  },
+
+  "communication_style": {
+    "tone": "passionate, design-focused, community-oriented, inspiring",
+    "vocabulary_patterns": ["experience", "community", "belonging", "design", "magical", "connection"],
+    "sentence_structure": "experience-rich descriptions, community-focused language",
+    "persuasion_methods": ["experience demonstration", "community stories", "design excellence"],
+    "content_preferences": "experience design, community stories, design thinking",
+    "typical_phrases": ["belong anywhere", "magical experience", "design thinking", "community"]
+  },
+
+  "domain_expertise": {
+    "core_competencies": ["experience design", "community building", "platform development", "design thinking"],
+    "tools_and_platforms": ["Airbnb platform", "design tools", "community platforms", "experience mapping"],
+    "mental_models": ["experience design", "community dynamics", "two-sided marketplace", "belonging creation"],
+    "reference_frameworks": ["design thinking", "community building", "experience design", "platform economics"],
+    "industry_knowledge": "sharing economy, travel industry, experience design, community building"
+  },
+
+  "background_context": {
+    "experience_level": "expert (15+ years)",
+    "typical_career_path": "designer → startup founder → platform CEO",
+    "company_stage_preference": "community-focused platforms needing experience optimization",
+    "success_metrics": ["user experience quality", "community engagement", "belonging creation"],
+    "pain_points": ["regulatory challenges", "safety concerns", "scaling personal touch"]
+  },
+
+  "behavioral_patterns": {
+    "work_style": "design-obsessed, community-focused, detail-oriented",
+    "problem_solving_approach": "design thinking process, user empathy, community solutions",
+    "learning_preferences": "design study, community observation, user feedback",
+    "networking_style": "community building, design connections, experience sharing",
+    "content_consumption": "design inspiration, community stories, travel experiences"
+  },
+
+  "unique_identifiers": {
+    "signature_methodologies": ["experience design process", "community building strategies", "belonging creation"],
+    "contrarian_beliefs": ["experience beats efficiency", "belonging is universal human need", "design thinking solves everything"],
+    "pet_peeves": ["poor user experience", "community disconnection", "design ignorance"],
+    "aspirational_references": ["design masters", "community builders", "experience creators"],
+    "distinctive_quirks": ["obsessed with user experience details", "stays in Airbnbs constantly", "design thinking everything"]
+  }
+}
