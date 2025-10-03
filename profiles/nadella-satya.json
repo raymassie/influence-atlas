@@ -3,6 +3,7 @@
   "name": "Satya Nadella",
   "archetype": "Cloud Computing Leader",
   "domain": "Technology Leadership",
+  "sub_domain": "Cloud Computing",
   "communication_style": {
     "tone": "empathetic, growth-minded, collaborative, inclusive, strategic, innovative, authentic, transformative, customer-focused, cultural",
     "tone_parsed": [

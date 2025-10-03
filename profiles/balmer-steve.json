@@ -3,6 +3,7 @@
   "name": "Steve Ballmer",
   "archetype": "Business Operations Leader",
   "domain": "Technology Leadership",
+  "sub_domain": "Business Operations",
   "communication_style": {
     "tone": "energetic, results-driven, competitive, passionate, data-focused, systematic, strategic, performance-oriented, motivational, business-focused",
     "tone_parsed": [

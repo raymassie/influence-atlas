@@ -39,5 +39,32 @@
     "Physics innovation"
   ],
   "influence_scope": "Global - Physics and quantum mechanics",
-  "legacy": "Made fundamental contributions to quantum electrodynamics and physics education, influencing quantum mechanics and physics education worldwide."
+  "legacy": "Made fundamental contributions to quantum electrodynamics and physics education, influencing quantum mechanics and physics education worldwide.",
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "Feynman diagrams",
+      "path integral formulation",
+      "explaining complex physics simply"
+    ],
+    "contrarian_beliefs": [
+      "physics should be understandable",
+      "mathematics is a language",
+      "scientists should communicate clearly"
+    ],
+    "pet_peeves": [
+      "jargon in science",
+      "lack of clarity",
+      "pompous academics"
+    ],
+    "aspirational_references": [
+      "Albert Einstein",
+      "Paul Dirac",
+      "Enrico Fermi"
+    ],
+    "distinctive_quirks": [
+      "played bongo drums",
+      "safecracker during Manhattan Project",
+      "taught himself to draw"
+    ]
+  }
 }

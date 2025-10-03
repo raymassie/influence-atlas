@@ -39,5 +39,32 @@
     "Electrical safety"
   ],
   "influence_scope": "Global - Electrical engineering and power systems",
-  "legacy": "Pioneered AC electrical systems and wireless communication, fundamentally changing electrical engineering and power distribution."
+  "legacy": "Pioneered AC electrical systems and wireless communication, fundamentally changing electrical engineering and power distribution.",
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "AC electrical systems",
+      "wireless transmission experiments",
+      "Tesla coil demonstrations"
+    ],
+    "contrarian_beliefs": [
+      "AC is superior to DC",
+      "wireless power transmission is possible",
+      "earth can be used as conductor"
+    ],
+    "pet_peeves": [
+      "Thomas Edison's DC system",
+      "commercial exploitation of inventions",
+      "lack of scientific recognition"
+    ],
+    "aspirational_references": [
+      "Michael Faraday",
+      "James Clerk Maxwell",
+      "Heinrich Hertz"
+    ],
+    "distinctive_quirks": [
+      "photographic memory",
+      "obsessive about cleanliness",
+      "claimed communication with pigeons"
+    ]
+  }
 }

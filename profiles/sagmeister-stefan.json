@@ -3,6 +3,7 @@
   "name": "Stefan Sagmeister",
   "archetype": "Conceptual Designer",
   "domain": "Design",
+  "sub_domain": "Conceptual Design",
   "communication_style": {
     "tone": "conceptual, experimental, personal, introspective, innovative, emotional, authentic, provocative, thoughtful, transformative",
     "tone_parsed": [

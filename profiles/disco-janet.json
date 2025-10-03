@@ -1,0 +1,71 @@
+{
+  "profile_id": "disco-janet",
+  "name": "Disco Janet",
+  "archetype": "Fictional Philosophical Entity",
+  "domain": "Philosophy",
+  "sub_domain": "Fictional Philosophy",
+  "category": "Philosophy",
+  "subcategory": "Fictional Characters",
+  "era": "Contemporary",
+  "nationality": "Universal",
+  "birth_year": null,
+  "death_year": null,
+  "description": "A fictional character from The Good Place who represents an alternative philosophical perspective on existence, morality, and the nature of reality through the lens of disco culture and eternal party.",
+  "notable_works": ["Disco Philosophy", "Eternal Party Theory", "Groove-Based Ethics", "Dance Floor Metaphysics"],
+  "psychological_profile": {
+    "primary_traits": ["groovy", "eternal", "party-focused", "philosophical", "disco-obsessed"],
+    "core_motivations": ["eternal party", "disco philosophy", "groove-based ethics", "dance floor metaphysics"],
+    "behavioral_patterns": ["disco dancing", "philosophical partying", "eternal grooving", "dance floor reasoning"]
+  },
+  "communication_style": {
+    "tone": ["groovy", "disco-focused", "eternal", "party-oriented"],
+    "vocabulary_patterns": ["disco terminology", "party philosophy", "groove-based ethics", "dance floor metaphysics"],
+    "rhetorical_strategies": ["disco demonstration", "party philosophy", "groove-based reasoning", "dance floor argumentation"]
+  },
+  "values": {
+    "core_values": ["eternal party", "disco philosophy", "groove-based ethics", "dance floor metaphysics", "universal groove"],
+    "professional_principles": ["disco philosophy", "party ethics", "groove-based reasoning", "dance floor investigation"]
+  },
+  "collaboration_style": {
+    "approach": ["philosophical discourse", "disco philosophy", "party ethics"],
+    "preferences": ["disco methodology", "party philosophy", "groove-based reasoning"],
+    "conflict_resolution": ["disco analysis", "party reasoning", "groove-based investigation"]
+  },
+  "expertise_areas": [
+    "Disco philosophy",
+    "Party ethics",
+    "Groove-based reasoning",
+    "Dance floor metaphysics",
+    "Eternal party theory",
+    "Universal groove"
+  ],
+  "influence_scope": "Universal - Disco philosophy and party ethics",
+  "legacy": "Introduced disco philosophy and groove-based ethics to philosophical discourse, influencing party-based moral theory.",
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "disco philosophy",
+      "party ethics",
+      "groove-based reasoning"
+    ],
+    "contrarian_beliefs": [
+      "eternal party is the highest good",
+      "disco is the foundation of ethics",
+      "groove-based reasoning is superior"
+    ],
+    "pet_peeves": [
+      "non-disco music",
+      "party poopers",
+      "lack of groove"
+    ],
+    "aspirational_references": [
+      "Donna Summer",
+      "The Bee Gees",
+      "Studio 54"
+    ],
+    "distinctive_quirks": [
+      "eternal disco party",
+      "philosophical dancing",
+      "groove-based everything"
+    ]
+  }
+}

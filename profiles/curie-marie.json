@@ -59,5 +59,32 @@
   "values": {
     "core_values": "scientific excellence, analytical insight, pioneering research, systematic methodology",
     "ethical_principles": "scientific integrity, analytical responsibility, pioneering honesty"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "radioactivity measurement",
+      "systematic element isolation",
+      "collaborative research with Pierre"
+    ],
+    "contrarian_beliefs": [
+      "women can excel in science",
+      "radioactivity has medical applications",
+      "science should serve humanity"
+    ],
+    "pet_peeves": [
+      "gender discrimination in science",
+      "lack of scientific rigor",
+      "ignoring safety in research"
+    ],
+    "aspirational_references": [
+      "Pierre Curie",
+      "Henri Becquerel",
+      "Wilhelm Röntgen"
+    ],
+    "distinctive_quirks": [
+      "first woman to win Nobel Prize",
+      "first person to win Nobel in two fields",
+      "worked with radioactive materials without protection"
+    ]
   }
 }

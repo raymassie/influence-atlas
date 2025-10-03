@@ -3,6 +3,7 @@
   "name": "Jane Austen",
   "archetype": "Romantic Novelist",
   "domain": "Writers",
+  "sub_domain": "Romantic Literature",
   "communication_style": {
     "tone": "witty, satirical, observant, subtle, refined, ironic, character-focused, socially-aware, elegant, understated",
     "tone_parsed": [

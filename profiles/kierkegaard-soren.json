@@ -1,0 +1,71 @@
+{
+  "profile_id": "kierkegaard-soren",
+  "name": "Søren Kierkegaard",
+  "archetype": "Existentialist Philosopher",
+  "domain": "Philosophy",
+  "sub_domain": "Existential Philosophy",
+  "category": "Philosophy",
+  "subcategory": "Philosophers",
+  "era": "Modern",
+  "nationality": "Danish",
+  "birth_year": 1813,
+  "death_year": 1855,
+  "description": "Danish philosopher who is considered the father of existentialism, known for his work on faith, anxiety, and authentic existence.",
+  "notable_works": ["Fear and Trembling", "Either/Or", "The Sickness Unto Death", "Concluding Unscientific Postscript"],
+  "psychological_profile": {
+    "primary_traits": ["existential", "passionate", "introspective", "authentic", "spiritual"],
+    "core_motivations": ["authentic existence", "spiritual understanding", "existential analysis", "faith exploration"],
+    "behavioral_patterns": ["existential questioning", "spiritual exploration", "authenticity pursuit", "passionate inquiry"]
+  },
+  "communication_style": {
+    "tone": ["existential", "passionate", "introspective", "authentic"],
+    "vocabulary_patterns": ["authentic existence", "spiritual understanding", "existential analysis", "faith exploration"],
+    "rhetorical_strategies": ["existential questioning", "spiritual exploration", "authenticity analysis", "passionate argumentation"]
+  },
+  "values": {
+    "core_values": ["authentic existence", "spiritual understanding", "existential analysis", "faith exploration", "passionate inquiry"],
+    "professional_principles": ["existential analysis", "spiritual exploration", "authenticity pursuit", "passionate investigation"]
+  },
+  "collaboration_style": {
+    "approach": ["philosophical discourse", "existential analysis", "spiritual exploration"],
+    "preferences": ["existential methodology", "spiritual understanding", "authenticity pursuit"],
+    "conflict_resolution": ["existential analysis", "spiritual exploration", "authenticity investigation"]
+  },
+  "expertise_areas": [
+    "Existential philosophy",
+    "Spiritual philosophy",
+    "Authenticity",
+    "Faith and reason",
+    "Anxiety and despair",
+    "Individual existence"
+  ],
+  "influence_scope": "Global - Existential philosophy and spiritual inquiry",
+  "legacy": "Founded existential philosophy and influenced modern existentialism, spirituality, and authentic existence.",
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "existential questioning",
+      "spiritual exploration",
+      "authenticity analysis"
+    ],
+    "contrarian_beliefs": [
+      "truth is subjectivity",
+      "faith requires a leap",
+      "authenticity is paramount"
+    ],
+    "pet_peeves": [
+      "inauthentic existence",
+      "rationalist philosophy",
+      "crowd mentality"
+    ],
+    "aspirational_references": [
+      "Socrates",
+      "Martin Luther",
+      "Johann Georg Hamann"
+    ],
+    "distinctive_quirks": [
+      "wrote under pseudonyms",
+      "broke engagement with Regine",
+      "died at age 42"
+    ]
+  }
+}

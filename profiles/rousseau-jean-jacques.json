@@ -3,7 +3,7 @@
   "name": "Jean-Jacques Rousseau",
   "archetype": "Enlightenment Philosopher",
   "domain": "Philosophy",
-  "subdomain": "Political Philosophy",
+  "sub_domain": "Political Philosophy",
   "era": "Enlightenment",
   "birth_year": 1712,
   "death_year": 1778,

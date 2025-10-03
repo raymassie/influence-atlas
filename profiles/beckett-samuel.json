@@ -3,6 +3,7 @@
   "name": "Samuel Beckett",
   "archetype": "Absurdist Playwright",
   "domain": "Writers",
+  "sub_domain": "Absurdist Literature",
   "communication_style": {
     "tone": "minimalist, absurdist, existential, darkly-comic, philosophical, experimental, sparse, profound, enigmatic, innovative",
     "tone_parsed": [

@@ -59,5 +59,32 @@
   "values": {
     "core_values": "customer obsession, innovation, long-term thinking, data-driven excellence",
     "ethical_principles": "customer integrity, innovation responsibility, long-term sustainability"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "two-pizza team rule",
+      "customer obsession metrics",
+      "day 1 philosophy"
+    ],
+    "contrarian_beliefs": [
+      "customer satisfaction over profits",
+      "long-term thinking beats quarterly results",
+      "failure is necessary for innovation"
+    ],
+    "pet_peeves": [
+      "short-term thinking",
+      "customer-unfriendly policies",
+      "lack of innovation"
+    ],
+    "aspirational_references": [
+      "Walt Disney",
+      "Steve Jobs",
+      "Werner von Braun"
+    ],
+    "distinctive_quirks": [
+      "laughs loudly and frequently",
+      "reads voraciously",
+      "founded Blue Origin"
+    ]
   }
 }

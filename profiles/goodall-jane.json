@@ -3,7 +3,7 @@
   "name": "Jane Goodall",
   "archetype": "Primatologist",
   "domain": "Science",
-  "subdomain": "Primatology",
+  "sub_domain": "Primatology",
   "era": "Modern",
   "birth_year": 1934,
   "death_year": null,

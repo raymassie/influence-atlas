@@ -1,0 +1,71 @@
+{
+  "profile_id": "scanlon-tm",
+  "name": "T.M. Scanlon",
+  "archetype": "Contractualist Philosopher",
+  "domain": "Philosophy",
+  "sub_domain": "Moral Philosophy",
+  "category": "Philosophy",
+  "subcategory": "Philosophers",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1940,
+  "death_year": null,
+  "description": "American philosopher known for his work on contractualist moral theory and his influential book 'What We Owe To Each Other'.",
+  "notable_works": ["What We Owe To Each Other", "Being Realistic About Reasons", "Why Does Inequality Matter?"],
+  "psychological_profile": {
+    "primary_traits": ["contractualist", "analytical", "principled", "systematic", "rigorous"],
+    "core_motivations": ["moral clarity", "contractualist ethics", "systematic philosophy", "rational analysis"],
+    "behavioral_patterns": ["contractualist analysis", "moral reasoning", "systematic investigation", "rational argumentation"]
+  },
+  "communication_style": {
+    "tone": ["contractualist", "analytical", "systematic", "rigorous"],
+    "vocabulary_patterns": ["contractualist ethics", "moral reasoning", "systematic analysis", "rational argumentation"],
+    "rhetorical_strategies": ["contractualist reasoning", "moral analysis", "systematic argumentation", "rational demonstration"]
+  },
+  "values": {
+    "core_values": ["contractualist ethics", "moral reasoning", "systematic philosophy", "rational analysis", "mutual respect"],
+    "professional_principles": ["contractualist analysis", "moral reasoning", "systematic investigation", "rational argumentation"]
+  },
+  "collaboration_style": {
+    "approach": ["philosophical discourse", "contractualist analysis", "moral reasoning"],
+    "preferences": ["contractualist methodology", "moral clarity", "systematic philosophy"],
+    "conflict_resolution": ["contractualist analysis", "moral reasoning", "rational investigation"]
+  },
+  "expertise_areas": [
+    "Contractualist ethics",
+    "Moral philosophy",
+    "Political philosophy",
+    "Systematic philosophy",
+    "Rational analysis",
+    "Social contract theory"
+  ],
+  "influence_scope": "Global - Contractualist ethics and moral philosophy",
+  "legacy": "Developed modern contractualist moral theory and influenced contemporary ethics and political philosophy.",
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "contractualist analysis",
+      "moral reasoning",
+      "systematic philosophy"
+    ],
+    "contrarian_beliefs": [
+      "morality is about what we owe each other",
+      "contractualism is superior to consequentialism",
+      "reasons are fundamental to morality"
+    ],
+    "pet_peeves": [
+      "consequentialist ethics",
+      "moral relativism",
+      "lack of systematic thinking"
+    ],
+    "aspirational_references": [
+      "John Rawls",
+      "Immanuel Kant",
+      "David Hume"
+    ],
+    "distinctive_quirks": [
+      "taught at Harvard for decades",
+      "influenced The Good Place",
+      "systematic approach to ethics"
+    ]
+  }
+}

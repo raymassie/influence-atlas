@@ -3,7 +3,7 @@
   "name": "Confucius",
   "archetype": "Moral Philosopher",
   "domain": "Philosophy",
-  "subdomain": "Ethics",
+  "sub_domain": "Ethics",
   "era": "Ancient",
   "birth_year": -551,
   "death_year": -479,

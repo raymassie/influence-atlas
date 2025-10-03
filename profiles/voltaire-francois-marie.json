@@ -3,7 +3,7 @@
   "name": "Voltaire",
   "archetype": "Enlightenment Philosopher",
   "domain": "Philosophy",
-  "subdomain": "Enlightenment Philosophy",
+  "sub_domain": "Enlightenment Philosophy",
   "era": "Enlightenment",
   "birth_year": 1694,
   "death_year": 1778,

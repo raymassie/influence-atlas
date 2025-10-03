@@ -3,7 +3,7 @@
   "name": "Peter Lynch",
   "archetype": "Mutual Fund Manager",
   "domain": "Investment",
-  "subdomain": "Mutual Fund Management",
+  "sub_domain": "Mutual Fund Management",
   "era": "Modern",
   "birth_year": 1944,
   "death_year": null,

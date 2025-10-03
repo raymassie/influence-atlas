@@ -3,7 +3,7 @@
   "name": "E.O. Wilson",
   "archetype": "Biologist",
   "domain": "Science",
-  "subdomain": "Biology",
+  "sub_domain": "Biology",
   "era": "Modern",
   "birth_year": 1929,
   "death_year": 2021,

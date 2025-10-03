@@ -3,7 +3,7 @@
   "name": "George Soros",
   "archetype": "Hedge Fund Manager",
   "domain": "Investment",
-  "subdomain": "Hedge Fund Management",
+  "sub_domain": "Hedge Fund Management",
   "era": "Modern",
   "birth_year": 1930,
   "death_year": null,

@@ -59,5 +59,32 @@
   "values": {
     "core_values": "musical perfection, artistic innovation, technical excellence",
     "ethical_principles": "artistic integrity, musical innovation, cultural refinement"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "perfect pitch composition",
+      "counterpoint mastery",
+      "operatic innovation"
+    ],
+    "contrarian_beliefs": [
+      "music should serve the drama",
+      "composers deserve fair pay",
+      "artistic freedom over patronage"
+    ],
+    "pet_peeves": [
+      "mediocre musicians",
+      "unfair payment",
+      "artistic constraints"
+    ],
+    "aspirational_references": [
+      "Johann Sebastian Bach",
+      "Joseph Haydn",
+      "Christoph Willibald Gluck"
+    ],
+    "distinctive_quirks": [
+      "child prodigy",
+      "composed entire works in his head",
+      "loved wordplay and humor"
+    ]
   }
 }

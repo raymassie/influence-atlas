@@ -3,6 +3,7 @@
   "name": "Eric Schmidt",
   "archetype": "Technology Executive",
   "domain": "Technology Leadership",
+  "sub_domain": "Technology Strategy",
   "communication_style": {
     "tone": "strategic, analytical, systematic, innovative, data-driven, scalable, methodical, transformative, collaborative, growth-focused",
     "tone_parsed": [

@@ -3,7 +3,7 @@
   "name": "Wassily Kandinsky",
   "archetype": "Abstract Artist",
   "domain": "Art",
-  "subdomain": "Abstract Art",
+  "sub_domain": "Abstract Art",
   "era": "Modern",
   "birth_year": 1866,
   "death_year": 1944,

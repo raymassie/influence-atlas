@@ -3,7 +3,7 @@
   "name": "Jackson Pollock",
   "archetype": "Abstract Expressionist",
   "domain": "Art",
-  "subdomain": "Abstract Expressionism",
+  "sub_domain": "Abstract Expressionism",
   "era": "Modern",
   "birth_year": 1912,
   "death_year": 1956,

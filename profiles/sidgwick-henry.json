@@ -1,0 +1,71 @@
+{
+  "profile_id": "sidgwick-henry",
+  "name": "Henry Sidgwick",
+  "archetype": "Utilitarian Philosopher",
+  "domain": "Philosophy",
+  "sub_domain": "Moral Philosophy",
+  "category": "Philosophy",
+  "subcategory": "Philosophers",
+  "era": "Victorian",
+  "nationality": "British",
+  "birth_year": 1838,
+  "death_year": 1900,
+  "description": "British philosopher and economist who made significant contributions to utilitarian ethics and moral philosophy, known for his systematic approach to ethics.",
+  "notable_works": ["The Methods of Ethics", "The Elements of Politics", "Practical Ethics"],
+  "psychological_profile": {
+    "primary_traits": ["systematic", "utilitarian", "analytical", "rigorous", "principled"],
+    "core_motivations": ["moral clarity", "utilitarian analysis", "systematic ethics", "practical morality"],
+    "behavioral_patterns": ["systematic reasoning", "utilitarian analysis", "moral methodology", "ethical investigation"]
+  },
+  "communication_style": {
+    "tone": ["systematic", "utilitarian", "analytical", "rigorous"],
+    "vocabulary_patterns": ["utilitarian analysis", "moral methodology", "systematic ethics", "practical morality"],
+    "rhetorical_strategies": ["systematic argumentation", "utilitarian reasoning", "moral analysis", "ethical demonstration"]
+  },
+  "values": {
+    "core_values": ["utilitarian ethics", "systematic morality", "practical ethics", "moral clarity", "analytical rigor"],
+    "professional_principles": ["utilitarian analysis", "systematic reasoning", "moral methodology", "ethical investigation"]
+  },
+  "collaboration_style": {
+    "approach": ["philosophical discourse", "utilitarian analysis", "systematic ethics"],
+    "preferences": ["systematic methodology", "utilitarian reasoning", "moral clarity"],
+    "conflict_resolution": ["systematic reasoning", "utilitarian analysis", "moral investigation"]
+  },
+  "expertise_areas": [
+    "Utilitarian ethics",
+    "Moral philosophy",
+    "Systematic ethics",
+    "Practical ethics",
+    "Political philosophy",
+    "Economic theory"
+  ],
+  "influence_scope": "Global - Utilitarian ethics and moral philosophy",
+  "legacy": "Developed systematic utilitarian ethics and influenced modern consequentialist moral philosophy.",
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "systematic ethics",
+      "utilitarian analysis",
+      "moral methodology"
+    ],
+    "contrarian_beliefs": [
+      "utilitarianism is the best ethical system",
+      "morality should be systematic",
+      "practical ethics matters most"
+    ],
+    "pet_peeves": [
+      "intuitive ethics",
+      "unsystematic morality",
+      "deontological ethics"
+    ],
+    "aspirational_references": [
+      "Jeremy Bentham",
+      "John Stuart Mill",
+      "Immanuel Kant"
+    ],
+    "distinctive_quirks": [
+      "founded Newnham College",
+      "struggled with religious doubt",
+      "systematic approach to everything"
+    ]
+  }
+}

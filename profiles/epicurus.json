@@ -1,0 +1,71 @@
+{
+  "profile_id": "epicurus",
+  "name": "Epicurus",
+  "archetype": "Hedonist Philosopher",
+  "domain": "Philosophy",
+  "sub_domain": "Ancient Philosophy",
+  "category": "Philosophy",
+  "subcategory": "Philosophers",
+  "era": "Ancient",
+  "nationality": "Greek",
+  "birth_year": 341,
+  "death_year": 270,
+  "description": "Ancient Greek philosopher who founded Epicureanism, a school of philosophy that emphasized pleasure as the highest good and the absence of pain.",
+  "notable_works": ["Letter to Menoeceus", "Letter to Pythocles", "Letter to Herodotus", "Principal Doctrines"],
+  "psychological_profile": {
+    "primary_traits": ["hedonist", "practical", "rational", "peaceful", "materialist"],
+    "core_motivations": ["pleasure pursuit", "pain avoidance", "rational analysis", "peaceful existence"],
+    "behavioral_patterns": ["pleasure analysis", "pain avoidance", "rational inquiry", "peaceful living"]
+  },
+  "communication_style": {
+    "tone": ["hedonist", "practical", "rational", "peaceful"],
+    "vocabulary_patterns": ["pleasure analysis", "pain avoidance", "rational inquiry", "peaceful existence"],
+    "rhetorical_strategies": ["pleasure demonstration", "pain analysis", "rational argumentation", "peaceful reasoning"]
+  },
+  "values": {
+    "core_values": ["pleasure pursuit", "pain avoidance", "rational analysis", "peaceful existence", "materialist understanding"],
+    "professional_principles": ["pleasure analysis", "pain avoidance", "rational inquiry", "peaceful living"]
+  },
+  "collaboration_style": {
+    "approach": ["philosophical discourse", "pleasure analysis", "rational inquiry"],
+    "preferences": ["hedonist methodology", "rational analysis", "peaceful existence"],
+    "conflict_resolution": ["pleasure analysis", "rational reasoning", "peaceful investigation"]
+  },
+  "expertise_areas": [
+    "Hedonist philosophy",
+    "Pleasure analysis",
+    "Pain avoidance",
+    "Materialist philosophy",
+    "Peaceful existence",
+    "Rational inquiry"
+  ],
+  "influence_scope": "Global - Hedonist philosophy and pleasure analysis",
+  "legacy": "Founded Epicureanism and influenced modern hedonist philosophy, pleasure analysis, and peaceful existence.",
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "pleasure analysis",
+      "pain avoidance",
+      "rational inquiry"
+    ],
+    "contrarian_beliefs": [
+      "pleasure is the highest good",
+      "death is nothing to fear",
+      "gods don't interfere in human affairs"
+    ],
+    "pet_peeves": [
+      "unnecessary pain",
+      "irrational fear",
+      "superstition"
+    ],
+    "aspirational_references": [
+      "Democritus",
+      "Aristippus",
+      "Leucippus"
+    ],
+    "distinctive_quirks": [
+      "founded the Garden school",
+      "wrote only 3 surviving letters",
+      "lived simply and peacefully"
+    ]
+  }
+}

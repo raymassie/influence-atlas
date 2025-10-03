@@ -59,5 +59,32 @@
   "values": {
     "core_values": "theoretical excellence, cosmological understanding, innovative insight, accessible communication",
     "ethical_principles": "scientific integrity, theoretical responsibility, accessible honesty"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "black hole radiation theory",
+      "accessible science communication",
+      "mathematical cosmology"
+    ],
+    "contrarian_beliefs": [
+      "black holes emit radiation",
+      "time has a beginning",
+      "science should be accessible to all"
+    ],
+    "pet_peeves": [
+      "pseudoscience",
+      "lack of scientific rigor",
+      "inaccessible academic writing"
+    ],
+    "aspirational_references": [
+      "Albert Einstein",
+      "Isaac Newton",
+      "Galileo Galilei"
+    ],
+    "distinctive_quirks": [
+      "communicated through voice synthesizer",
+      "wheelchair-bound from ALS",
+      "wrote best-selling science books"
+    ]
   }
 }

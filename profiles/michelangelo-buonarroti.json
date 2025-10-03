@@ -42,11 +42,31 @@
     "content_consumption": "artistic expression, emotional communication, creative exploration, visual experimentation, artistic innovation, passionate reasoning"
   },
   "unique_identifiers": {
-    "signature_methodologies": "artistic expression, emotional communication, creative exploration, visual experimentation, artistic innovation, passionate reasoning",
-    "contrarian_beliefs": "artistic expression over conventional representation, emotional communication over intellectual analysis, visual experimentation over traditional methods",
-    "pet_peeves": "artistic dogmatism, emotional communication resistance, visual experimentation rejection, passionate reasoning dismissal, creative innovation resistance",
-    "aspirational_references": "creative artists, emotional communicators, visual experimenters, artistic innovators, passionate thinkers",
-    "distinctive_quirks": "obsessed with emotional expression, passionate thinking, artistic expression focus, visual experimentation fascination, creative exploration"
+    "signature_methodologies": [
+      "fresco painting technique",
+      "marble sculpture mastery",
+      "anatomical study"
+    ],
+    "contrarian_beliefs": [
+      "sculpture liberates the soul",
+      "art should express divine beauty",
+      "artist is divinely inspired"
+    ],
+    "pet_peeves": [
+      "incompetent assistants",
+      "artistic interference",
+      "lack of divine inspiration"
+    ],
+    "aspirational_references": [
+      "Donatello",
+      "Giotto",
+      "Classical sculpture"
+    ],
+    "distinctive_quirks": [
+      "worked lying down",
+      "perfectionist about anatomy",
+      "claimed divine inspiration"
+    ]
   },
   "temporal_context": {
     "career_evolution": "artistic-training, creative-exploration, visual-experimentation, artistic-innovation, emotional-expression",

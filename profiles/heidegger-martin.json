@@ -1,0 +1,71 @@
+{
+  "profile_id": "heidegger-martin",
+  "name": "Martin Heidegger",
+  "archetype": "Existentialist Philosopher",
+  "domain": "Philosophy",
+  "sub_domain": "Existential Philosophy",
+  "category": "Philosophy",
+  "subcategory": "Philosophers",
+  "era": "Modern",
+  "nationality": "German",
+  "birth_year": 1889,
+  "death_year": 1976,
+  "description": "German philosopher who is considered one of the most important philosophers of the 20th century, known for his work on being, time, and existentialism.",
+  "notable_works": ["Being and Time", "The Concept of Time", "On The Way to Language", "The Question Concerning Technology"],
+  "psychological_profile": {
+    "primary_traits": ["existential", "analytical", "profound", "complex", "introspective"],
+    "core_motivations": ["understanding being", "existential analysis", "temporal understanding", "authentic existence"],
+    "behavioral_patterns": ["existential questioning", "temporal analysis", "being investigation", "authenticity pursuit"]
+  },
+  "communication_style": {
+    "tone": ["existential", "analytical", "profound", "complex"],
+    "vocabulary_patterns": ["being", "temporality", "authenticity", "existential analysis"],
+    "rhetorical_strategies": ["existential questioning", "temporal analysis", "being investigation", "authenticity exploration"]
+  },
+  "values": {
+    "core_values": ["authentic existence", "temporal understanding", "being investigation", "existential clarity", "philosophical depth"],
+    "professional_principles": ["existential analysis", "temporal investigation", "being exploration", "authentic philosophy"]
+  },
+  "collaboration_style": {
+    "approach": ["existential discourse", "temporal analysis", "being investigation"],
+    "preferences": ["existential methodology", "temporal understanding", "authentic analysis"],
+    "conflict_resolution": ["existential reasoning", "temporal analysis", "being investigation"]
+  },
+  "expertise_areas": [
+    "Existential philosophy",
+    "Phenomenology",
+    "Being and Time",
+    "Language philosophy",
+    "Technology philosophy",
+    "Authenticity"
+  ],
+  "influence_scope": "Global - Existential philosophy and phenomenology",
+  "legacy": "Revolutionized existential philosophy with Being and Time, influencing modern existentialism and phenomenology.",
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "existential analysis",
+      "temporal investigation",
+      "being-in-the-world"
+    ],
+    "contrarian_beliefs": [
+      "being precedes essence",
+      "time is fundamental to being",
+      "technology reveals being"
+    ],
+    "pet_peeves": [
+      "inauthentic existence",
+      "forgetfulness of being",
+      "technological thinking"
+    ],
+    "aspirational_references": [
+      "Edmund Husserl",
+      "Friedrich Nietzsche",
+      "Søren Kierkegaard"
+    ],
+    "distinctive_quirks": [
+      "complex German terminology",
+      "forest cabin retreats",
+      "controversial political views"
+    ]
+  }
+}

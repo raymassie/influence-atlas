@@ -1,43 +1,71 @@
 {
+  "profile_id": "mill-john-stuart",
   "name": "John Stuart Mill",
-  "archetype": "Political Philosopher",
-  "domain": "Public Policy",
-  "sub_domain": "Political Theory",
-  "category": "Public Policy",
-  "subcategory": "Political Philosophers",
-  "era": "Modern",
+  "archetype": "Utilitarian Philosopher",
+  "domain": "Philosophy",
+  "sub_domain": "Political Philosophy",
+  "category": "Philosophy",
+  "subcategory": "Philosophers",
+  "era": "Victorian",
   "nationality": "British",
   "birth_year": 1806,
   "death_year": 1873,
-  "description": "British philosopher who developed utilitarian ethics and liberal political theory, influencing modern liberalism and individual rights.",
-  "notable_works": ["On Liberty", "Utilitarianism", "The Subjection of Women", "Political economy"],
+  "description": "British philosopher and political economist who was a leading advocate of utilitarianism and individual liberty, known for his work on ethics, politics, and economics.",
+  "notable_works": ["Utilitarianism", "On Liberty", "The Subjection of Women", "Principles of Political Economy"],
   "psychological_profile": {
-    "primary_traits": ["liberal", "utilitarian", "analytical", "progressive", "principled"],
-    "core_motivations": ["individual liberty", "utilitarian ethics", "political progress", "social reform"],
-    "behavioral_patterns": ["liberal advocacy", "utilitarian analysis", "political reform", "individual rights"]
+    "primary_traits": ["utilitarian", "liberal", "analytical", "principled", "progressive"],
+    "core_motivations": ["individual liberty", "utilitarian ethics", "social progress", "rational analysis"],
+    "behavioral_patterns": ["utilitarian analysis", "liberal reasoning", "social progress advocacy", "rational investigation"]
   },
   "communication_style": {
-    "tone": ["liberal", "utilitarian", "analytical", "progressive"],
-    "vocabulary_patterns": ["liberal concepts", "utilitarian terminology", "individual rights", "political reform"],
-    "rhetorical_strategies": ["liberal advocacy", "utilitarian argument", "individual rights", "political reform"]
+    "tone": ["utilitarian", "liberal", "analytical", "progressive"],
+    "vocabulary_patterns": ["utilitarian ethics", "individual liberty", "social progress", "rational analysis"],
+    "rhetorical_strategies": ["utilitarian reasoning", "liberal argumentation", "social progress advocacy", "rational demonstration"]
   },
   "values": {
-    "core_values": ["individual liberty", "utilitarian ethics", "political progress", "social reform", "liberal democracy"],
-    "professional_principles": ["liberal advocacy", "utilitarian analysis", "individual rights", "political reform"]
+    "core_values": ["individual liberty", "utilitarian ethics", "social progress", "rational analysis", "human happiness"],
+    "professional_principles": ["utilitarian analysis", "liberal reasoning", "social progress advocacy", "rational investigation"]
   },
   "collaboration_style": {
-    "approach": ["liberal collaboration", "utilitarian partnerships", "political reform"],
-    "preferences": ["liberal advocacy", "utilitarian analysis", "individual rights"],
-    "conflict_resolution": ["utilitarian analysis", "liberal reasoning", "individual rights"]
+    "approach": ["philosophical discourse", "utilitarian analysis", "liberal reasoning"],
+    "preferences": ["utilitarian methodology", "liberal principles", "social progress"],
+    "conflict_resolution": ["utilitarian analysis", "liberal reasoning", "rational investigation"]
   },
   "expertise_areas": [
-    "Political philosophy",
     "Utilitarian ethics",
-    "Liberal theory",
-    "Individual rights",
-    "Political economy",
-    "Social reform"
+    "Political philosophy",
+    "Individual liberty",
+    "Social progress",
+    "Economic theory",
+    "Women's rights"
   ],
-  "influence_scope": "Global - Political philosophy and liberal theory",
-  "legacy": "Developed utilitarian ethics and liberal political theory, influencing modern liberalism, individual rights, and political philosophy."
+  "influence_scope": "Global - Utilitarian ethics and liberal political philosophy",
+  "legacy": "Developed modern utilitarianism and liberal political philosophy, influencing modern ethics and political theory.",
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "utilitarian analysis",
+      "liberal reasoning",
+      "social progress advocacy"
+    ],
+    "contrarian_beliefs": [
+      "happiness is the only intrinsic good",
+      "individual liberty is fundamental",
+      "women should have equal rights"
+    ],
+    "pet_peeves": [
+      "tyranny of majority",
+      "restrictions on liberty",
+      "inequality and injustice"
+    ],
+    "aspirational_references": [
+      "Jeremy Bentham",
+      "Harriet Taylor Mill",
+      "Adam Smith"
+    ],
+    "distinctive_quirks": [
+      "educated by father from age 3",
+      "had mental breakdown at 20",
+      "married feminist Harriet Taylor"
+    ]
+  }
 }

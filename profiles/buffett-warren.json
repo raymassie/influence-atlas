@@ -59,5 +59,32 @@
   "values": {
     "core_values": "integrity, patience, humility, long-term thinking, value creation",
     "ethical_principles": "honest business practices, shareholder value, philanthropic giving"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "circle of competence",
+      "intrinsic value calculation",
+      "annual shareholder letters"
+    ],
+    "contrarian_beliefs": [
+      "be greedy when others are fearful",
+      "time in market beats timing market",
+      "invest in what you understand"
+    ],
+    "pet_peeves": [
+      "high fees",
+      "short-term thinking",
+      "complex financial instruments"
+    ],
+    "aspirational_references": [
+      "Benjamin Graham",
+      "Charlie Munger",
+      "Phil Fisher"
+    ],
+    "distinctive_quirks": [
+      "lives in same house since 1958",
+      "drinks 5 Cokes daily",
+      "plays bridge"
+    ]
   }
 }

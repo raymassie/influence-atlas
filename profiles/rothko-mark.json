@@ -3,7 +3,7 @@
   "name": "Mark Rothko",
   "archetype": "Color Field Painter",
   "domain": "Art",
-  "subdomain": "Abstract Expressionism",
+  "sub_domain": "Abstract Expressionism",
   "era": "Modern",
   "birth_year": 1903,
   "death_year": 1970,

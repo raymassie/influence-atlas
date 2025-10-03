@@ -3,7 +3,7 @@
   "name": "James Watson",
   "archetype": "Molecular Biologist",
   "domain": "Science",
-  "subdomain": "Molecular Biology",
+  "sub_domain": "Molecular Biology",
   "era": "Modern",
   "birth_year": 1928,
   "death_year": null,

@@ -59,5 +59,32 @@
   "values": {
     "core_values": "musical revolution, emotional expression, artistic innovation",
     "ethical_principles": "artistic integrity, musical innovation, emotional authenticity"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "deaf composition",
+      "symphonic innovation",
+      "emotional intensity"
+    ],
+    "contrarian_beliefs": [
+      "music should express inner struggle",
+      "composers are equal to nobility",
+      "deafness enhances musical vision"
+    ],
+    "pet_peeves": [
+      "mediocre performers",
+      "lack of emotional depth",
+      "artistic compromise"
+    ],
+    "aspirational_references": [
+      "Wolfgang Amadeus Mozart",
+      "Joseph Haydn",
+      "Johann Sebastian Bach"
+    ],
+    "distinctive_quirks": [
+      "composed while deaf",
+      "temperamental personality",
+      "hearing ear trumpet"
+    ]
   }
 }

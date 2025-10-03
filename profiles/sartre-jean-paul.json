@@ -3,7 +3,7 @@
   "name": "Jean-Paul Sartre",
   "archetype": "Existentialist Philosopher",
   "domain": "Philosophy",
-  "subdomain": "Existentialism",
+  "sub_domain": "Existentialism",
   "era": "Modern",
   "birth_year": 1905,
   "death_year": 1980,

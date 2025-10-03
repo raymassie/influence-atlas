@@ -3,7 +3,7 @@
   "name": "Yuval Noah Harari",
   "archetype": "Philosophical Historian",
   "domain": "History",
-  "subdomain": "Human Development",
+  "sub_domain": "Human Development",
   "era": "Modern",
   "birth_year": 1976,
   "death_year": null,

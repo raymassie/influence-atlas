@@ -3,6 +3,7 @@
   "name": "Sergey Brin",
   "archetype": "Algorithmic Innovation Leader",
   "domain": "Technology Leadership",
+  "sub_domain": "Search Algorithms",
   "communication_style": {
     "tone": "mathematical, algorithmic, innovative, precise, data-driven, systematic, technical, analytical, collaborative, research-focused",
     "tone_parsed": [

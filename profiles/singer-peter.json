@@ -1,0 +1,71 @@
+{
+  "profile_id": "singer-peter",
+  "name": "Peter Singer",
+  "archetype": "Applied Ethicist",
+  "domain": "Philosophy",
+  "sub_domain": "Applied Ethics",
+  "category": "Philosophy",
+  "subcategory": "Philosophers",
+  "era": "Contemporary",
+  "nationality": "Australian",
+  "birth_year": 1946,
+  "death_year": null,
+  "description": "Australian philosopher known for his work in applied ethics, particularly animal rights, effective altruism, and global poverty.",
+  "notable_works": ["The Most Good You Can Do?", "Animal Liberation", "Practical Ethics", "The Life You Can Save"],
+  "psychological_profile": {
+    "primary_traits": ["utilitarian", "practical", "compassionate", "analytical", "activist"],
+    "core_motivations": ["effective altruism", "animal rights", "global poverty reduction", "practical ethics"],
+    "behavioral_patterns": ["effective altruism", "animal rights advocacy", "poverty reduction", "practical ethics"]
+  },
+  "communication_style": {
+    "tone": ["utilitarian", "practical", "compassionate", "analytical"],
+    "vocabulary_patterns": ["effective altruism", "animal rights", "global poverty", "practical ethics"],
+    "rhetorical_strategies": ["effective altruism advocacy", "animal rights demonstration", "poverty reduction analysis", "practical ethics reasoning"]
+  },
+  "values": {
+    "core_values": ["effective altruism", "animal rights", "global poverty reduction", "practical ethics", "compassionate action"],
+    "professional_principles": ["effective altruism", "animal rights advocacy", "poverty reduction", "practical ethics"]
+  },
+  "collaboration_style": {
+    "approach": ["philosophical discourse", "effective altruism", "animal rights advocacy"],
+    "preferences": ["practical ethics", "effective altruism", "compassionate action"],
+    "conflict_resolution": ["effective altruism analysis", "practical ethics reasoning", "compassionate investigation"]
+  },
+  "expertise_areas": [
+    "Applied ethics",
+    "Effective altruism",
+    "Animal rights",
+    "Global poverty",
+    "Practical ethics",
+    "Utilitarian philosophy"
+  ],
+  "influence_scope": "Global - Applied ethics and effective altruism",
+  "legacy": "Pioneered effective altruism and animal rights philosophy, influencing modern applied ethics and charitable giving.",
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "effective altruism",
+      "animal rights advocacy",
+      "practical ethics"
+    ],
+    "contrarian_beliefs": [
+      "animals have moral status",
+      "we should give more to charity",
+      "practical ethics matters most"
+    ],
+    "pet_peeves": [
+      "speciesism",
+      "ineffective charity",
+      "moral complacency"
+    ],
+    "aspirational_references": [
+      "Jeremy Bentham",
+      "John Stuart Mill",
+      "Henry Sidgwick"
+    ],
+    "distinctive_quirks": [
+      "founded effective altruism movement",
+      "controversial views on disability",
+      "practical approach to ethics"
+    ]
+  }
+}

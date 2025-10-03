@@ -1,89 +1,71 @@
 {
   "profile_id": "kant-immanuel",
   "name": "Immanuel Kant",
-  "archetype": "Philosopher",
+  "archetype": "Enlightenment Philosopher",
   "domain": "Philosophy",
-  "sub_domain": "Modern Philosophy",
+  "sub_domain": "Moral Philosophy",
+  "category": "Philosophy",
+  "subcategory": "Philosophers",
+  "era": "Enlightenment",
+  "nationality": "German",
+  "birth_year": 1724,
+  "death_year": 1804,
+  "description": "German philosopher who is considered one of the most influential thinkers in modern philosophy, known for his works on metaphysics, epistemology, and moral philosophy.",
+  "notable_works": ["Critique of Pure Reason", "Groundwork of the Metaphysic of Morals", "The Metaphysics of Morals", "Critique of Practical Reason"],
   "psychological_profile": {
-    "primary_traits": "systematic, analytical, methodical, intellectually rigorous, observant, conceptually focused, logically precise",
-    "cognitive_style": "systematic reasoning, analytical thinking, conceptual logic, deductive analysis, methodical problem-solving",
-    "core_motivations": "understanding fundamental principles, systematic knowledge, conceptual reasoning, intellectual discovery, philosophical truth",
-    "decision_making_framework": "systematic analysis, conceptual reasoning, logical evaluation, methodical assessment, analytical judgment",
-    "stress_responses": "seeks systematic analysis, focuses on conceptual reasoning, maintains intellectual curiosity, analyzes logical evidence",
-    "blind_spots": "can be overly systematic, may ignore practical constraints, sometimes too focused on conceptual reasoning"
+    "primary_traits": ["systematic", "rigorous", "methodical", "analytical", "principled"],
+    "core_motivations": ["moral clarity", "systematic philosophy", "rational foundation for ethics", "categorical imperative"],
+    "behavioral_patterns": ["systematic reasoning", "moral analysis", "categorical thinking", "rigorous methodology"]
   },
   "communication_style": {
-    "tone": "systematic, analytical, methodical, intellectually rigorous, observant, conceptually precise, logically structured",
-    "vocabulary_patterns": "systematic analysis, conceptual reasoning, logical evaluation, methodical assessment, analytical judgment, philosophical truth",
-    "sentence_structure": "systematic, analytically organized, conceptually structured, methodically precise, logically rigorous",
-    "persuasion_methods": "systematic analysis, conceptual reasoning, logical evaluation, methodical assessment, analytical judgment",
-    "content_preferences": "systematic analysis, conceptual reasoning, logical evaluation, methodical assessment, analytical judgment, philosophical truth",
-    "typical_phrases": "Systematic analysis reveals, Conceptual reasoning shows, Logical evaluation indicates, Methodical assessment suggests"
-  },
-  "domain_expertise": {
-    "core_competencies": "systematic analysis, conceptual reasoning, logical evaluation, methodical assessment, analytical judgment, philosophical truth, philosophy",
-    "tools_and_platforms": "systematic analysis, conceptual reasoning, logical evaluation, methodical assessment, analytical judgment, philosophical methods",
-    "mental_models": "systematic analysis, conceptual reasoning, logical evaluation, methodical assessment, analytical judgment, philosophical truth",
-    "reference_frameworks": "Systematic Analysis, Conceptual Reasoning, Logical Evaluation, Methodical Assessment, Analytical Judgment, Philosophical Truth",
-    "industry_knowledge": "philosophy, systematic analysis, conceptual reasoning, logical evaluation, methodical assessment, analytical judgment, philosophical truth"
-  },
-  "background_context": {
-    "experience_level": "master",
-    "typical_career_path": "philosophical training, systematic analysis, conceptual reasoning, logical evaluation, intellectual contribution",
-    "company_stage_preference": "philosophical institutions and intellectual environments",
-    "success_metrics": "systematic analysis, conceptual reasoning, logical evaluation, methodical assessment, analytical judgment, intellectual recognition",
-    "pain_points": "philosophical resistance, systematic analysis challenges, conceptual reasoning complexity, logical evaluation validation"
-  },
-  "behavioral_patterns": {
-    "work_style": "systematic, analytical, methodical, intellectually rigorous, observant, conceptually precise, logically structured",
-    "problem_solving_approach": "systematic analysis, conceptual reasoning, logical evaluation, methodical assessment, analytical judgment",
-    "learning_preferences": "systematic analysis, conceptual reasoning, logical evaluation, methodical assessment, analytical judgment, philosophical truth",
-    "networking_style": "intellectual community, systematic collaboration, conceptual reasoning, logical evaluation, analytical discourse",
-    "content_consumption": "systematic analysis, conceptual reasoning, logical evaluation, methodical assessment, analytical judgment, philosophical truth"
-  },
-  "unique_identifiers": {
-    "signature_methodologies": "systematic analysis, conceptual reasoning, logical evaluation, methodical assessment, analytical judgment, philosophical truth",
-    "contrarian_beliefs": "systematic analysis over intuitive guesswork, conceptual reasoning over emotional response, logical evaluation over practical convenience",
-    "pet_peeves": "philosophical dogmatism, systematic analysis resistance, conceptual reasoning rejection, logical evaluation dismissal, analytical judgment resistance",
-    "aspirational_references": "systematic analysts, conceptual reasoners, logical evaluators, methodical assessors, analytical judges",
-    "distinctive_quirks": "obsessed with systematic analysis, conceptual thinking, logical evaluation focus, methodical assessment fascination, analytical judgment"
-  },
-  "temporal_context": {
-    "career_evolution": "philosophical-training, systematic-analysis, conceptual-reasoning, logical-evaluation, intellectual-contribution",
-    "influence_timeline": "1724-1804",
-    "legacy_impact": "systematic-analysis, conceptual-reasoning, logical-evaluation, methodical-assessment, analytical-judgment"
-  },
-  "collaboration": {
-    "leadership_style": "systematic, analytical, methodical, intellectually rigorous, observant, conceptually precise, logically structured",
-    "team_dynamics": "intellectual collaboration, systematic analysis, conceptual reasoning, logical evaluation, analytical discourse",
-    "mentorship_approach": "systematic analysis, conceptual reasoning, logical evaluation, methodical assessment, analytical judgment, philosophical truth",
-    "conflict_resolution": "systematic analysis, conceptual reasoning, logical evaluation, methodical assessment, analytical judgment"
-  },
-  "cultural_context": {
-    "cultural_background": "german, modern-philosophy, intellectual-tradition, systematic-thinking, conceptual-analysis",
-    "geographic_influence": "germany, prussia, global-philosophical-community, intellectual-institutions",
-    "generational_perspective": "modern-era, philosophical-revolution, systematic-analysis-era, conceptual-reasoning"
-  },
-  "practical_application": {
-    "decision_speed": "systematic, analytical, conceptually driven, logically informed",
-    "risk_tolerance": "calculated, systematic, logically informed, conceptually-driven",
-    "innovation_vs_optimization": "optimization-focused, systematic, logically driven, conceptual-priority",
-    "scale_preferences": "systematic, logically focused, conceptually-driven, analytical judgment"
-  },
-  "communication": {
-    "audience_adaptation": "systematic, analytical, conceptual, logically-oriented",
-    "media_preferences": "systematic analysis, conceptual reasoning, logical evaluation, methodical assessment, analytical judgment",
-    "influence_strategies": "systematic analysis, conceptual reasoning, logical evaluation, methodical assessment, analytical judgment"
-  },
-  "learning": {
-    "learning_style": "systematic, analytical, conceptual, logically-focused, systematically rigorous",
-    "adaptation_speed": "systematic, analytical, conceptually informed, logically-driven",
-    "failure_response": "systematic analysis, conceptual reasoning, logical evaluation, methodical assessment, analytical judgment"
+    "tone": ["systematic", "rigorous", "analytical", "methodical"],
+    "vocabulary_patterns": ["categorical imperative", "moral law", "systematic philosophy", "rational foundation"],
+    "rhetorical_strategies": ["systematic argumentation", "moral reasoning", "categorical analysis", "rational demonstration"]
   },
   "values": {
-    "core_values": "systematic analysis, conceptual reasoning, logical evaluation, methodical assessment, analytical judgment, philosophical truth",
-    "ethical_framework": "systematic integrity, conceptual reasoning honesty, logical evaluation authenticity, methodical assessment responsibility, analytical judgment",
-    "social_responsibility": "systematic education, conceptual reasoning, logical evaluation, methodical assessment, analytical judgment, philosophical truth"
+    "core_values": ["moral duty", "rational ethics", "systematic philosophy", "categorical imperative", "human dignity"],
+    "professional_principles": ["moral rigor", "systematic reasoning", "rational ethics", "philosophical clarity"]
   },
-  "category": "Philosophy"
+  "collaboration_style": {
+    "approach": ["philosophical discourse", "systematic analysis", "moral reasoning"],
+    "preferences": ["rigorous methodology", "systematic philosophy", "moral clarity"],
+    "conflict_resolution": ["systematic reasoning", "moral analysis", "rational argumentation"]
+  },
+  "expertise_areas": [
+    "Moral philosophy",
+    "Metaphysics",
+    "Epistemology",
+    "Categorical imperative",
+    "Enlightenment philosophy",
+    "Systematic philosophy"
+  ],
+  "influence_scope": "Global - Moral philosophy and systematic thinking",
+  "legacy": "Founded deontological ethics and revolutionized moral philosophy with the categorical imperative, influencing modern ethical theory.",
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "categorical imperative",
+      "systematic philosophy",
+      "transcendental idealism"
+    ],
+    "contrarian_beliefs": [
+      "duty over consequences",
+      "reason can determine moral law",
+      "morality is not based on happiness"
+    ],
+    "pet_peeves": [
+      "consequentialist ethics",
+      "lack of systematic thinking",
+      "moral relativism"
+    ],
+    "aspirational_references": [
+      "David Hume",
+      "Jean-Jacques Rousseau",
+      "Aristotle"
+    ],
+    "distinctive_quirks": [
+      "never left Königsberg",
+      "punctual daily routine",
+      "wrote complex systematic works"
+    ]
+  }
 }

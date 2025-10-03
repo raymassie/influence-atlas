@@ -3,7 +3,7 @@
   "name": "Carl Jung",
   "archetype": "Analytical Psychologist",
   "domain": "Psychology",
-  "subdomain": "Analytical Psychology",
+  "sub_domain": "Analytical Psychology",
   "era": "Modern",
   "birth_year": 1875,
   "death_year": 1961,

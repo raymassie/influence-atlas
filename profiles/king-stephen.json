@@ -3,7 +3,7 @@
   "name": "Stephen King",
   "archetype": "Horror Writer",
   "domain": "Authors",
-  "subdomain": "Horror Fiction",
+  "sub_domain": "Horror Fiction",
   "era": "Modern",
   "birth_year": 1947,
   "death_year": null,

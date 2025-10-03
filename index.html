@@ -63,7 +63,6 @@
                             <button class="super-filter-btn" onclick="applySuperFilter('business')">Business</button>
                             <button class="super-filter-btn" onclick="applySuperFilter('design')">Design</button>
                             <button class="super-filter-btn" onclick="applySuperFilter('economics')">Economics</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('education')">Education</button>
                             <button class="super-filter-btn" onclick="applySuperFilter('entrepreneurial')">Entrepreneurial</button>
                             <button class="super-filter-btn" onclick="applySuperFilter('environmental')">Environmental</button>
                             <button class="super-filter-btn" onclick="applySuperFilter('history')">History</button>
@@ -374,7 +373,7 @@
             try {
                 console.log('🔄 Loading profiles from all-profiles.json...');
                 
-                const response = await fetch('all-profiles.json?v=5.6');
+                const response = await fetch('all-profiles.json?v=5.9');
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
@@ -1056,7 +1055,7 @@
                     'domain-filter': ['Science']
                 },
                 'philosophy': {
-                    'archetype-filter': ['Enlightenment Philosopher', 'Existentialist Philosopher', 'Idealist Philosopher', 'Moral Philosopher', 'Philosopher', 'Postmodern Philosopher'],
+                    'archetype-filter': ['Applied Ethicist', 'Contractualist Philosopher', 'Empiricist Philosopher', 'Enlightenment Philosopher', 'Existentialist Philosopher', 'Fictional Philosophical Entity', 'Hedonist Philosopher', 'Idealist Philosopher', 'Moral Philosopher', 'Philosopher', 'Postmodern Philosopher', 'Utilitarian Philosopher'],
                     'domain-filter': ['Philosophy']
                 },
                 'psychology': {
@@ -1066,10 +1065,6 @@
                 'business': {
                     'archetype-filter': ['Business Leader', 'Value Investor', 'Innovation Theorist'],
                     'domain-filter': ['Business', 'Business Strategy']
-                },
-                'education': {
-                    'archetype-filter': ['Educator', 'Professor', 'Teacher', 'Academic', 'Education Researcher'],
-                    'domain-filter': ['Education', 'Academic', 'Teaching', 'Learning']
                 },
                 'marketing': {
                     'archetype-filter': ['Advertising Creative', 'Advertising Executive', 'Brand Strategist', 'Direct Response Copywriter', 'Marketing Expert', 'Marketing Guru', 'Marketing Strategist', 'Marketing Theorist', 'No B.S. Direct Marketing Authority & Info-Marketing Pioneer', 'Performance Marketing Expert', 'Sales Copywriter', 'Scientific Advertising Father & Reason-Why Pioneer', 'Scientific Advertising Pioneer & Headline Testing Master', 'Social Media Marketing Expert', 'Social Media Marketing Pioneer'],

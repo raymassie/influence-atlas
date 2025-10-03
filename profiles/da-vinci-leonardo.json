@@ -42,11 +42,31 @@
     "content_consumption": "systematic observation, analytical reasoning, creative exploration, intellectual curiosity, scientific discovery, artistic expression"
   },
   "unique_identifiers": {
-    "signature_methodologies": "systematic observation, analytical reasoning, creative exploration, intellectual curiosity, scientific discovery, artistic expression",
-    "contrarian_beliefs": "systematic observation over intuitive guesswork, analytical reasoning over emotional response, creative exploration over established methods",
-    "pet_peeves": "artistic dogmatism, systematic observation resistance, analytical reasoning rejection, intellectual curiosity dismissal, creative exploration resistance",
-    "aspirational_references": "systematic observers, analytical reasoners, creative explorers, intellectual innovators, scientific discoverers",
-    "distinctive_quirks": "obsessed with systematic observation, analytical thinking, creative exploration focus, intellectual curiosity fascination, scientific discovery"
+    "signature_methodologies": [
+      "mirror writing",
+      "anatomical dissection",
+      "perspective drawing"
+    ],
+    "contrarian_beliefs": [
+      "art and science are unified",
+      "observation is superior to theory",
+      "left-handed approach to everything"
+    ],
+    "pet_peeves": [
+      "unfinished work",
+      "lack of curiosity",
+      "ignoring nature's patterns"
+    ],
+    "aspirational_references": [
+      "Vitruvius",
+      "Aristotle",
+      "Pliny the Elder"
+    ],
+    "distinctive_quirks": [
+      "wrote backwards",
+      "dissected corpses",
+      "invented flying machines"
+    ]
   },
   "temporal_context": {
     "career_evolution": "artistic-training, systematic-observation, analytical-reasoning, creative-exploration, intellectual-contribution",

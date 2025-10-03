@@ -3,6 +3,7 @@
   "name": "Charles Dickens",
   "archetype": "Victorian Novelist",
   "domain": "Writers",
+  "sub_domain": "Victorian Literature",
   "communication_style": {
     "tone": "dramatic, sentimental, satirical, descriptive, emotional, moralistic, vivid, character-driven, socially-conscious, narrative-rich",
     "tone_parsed": [

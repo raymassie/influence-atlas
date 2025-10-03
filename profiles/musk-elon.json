@@ -39,5 +39,32 @@
     "Tunnel construction"
   ],
   "influence_scope": "Global - Space technology and sustainable energy",
-  "legacy": "Revolutionized space exploration with SpaceX, electric vehicles with Tesla, and advanced sustainable energy and AI technologies."
+  "legacy": "Revolutionized space exploration with SpaceX, electric vehicles with Tesla, and advanced sustainable energy and AI technologies.",
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "first principles thinking",
+      "rapid iteration",
+      "vertical integration"
+    ],
+    "contrarian_beliefs": [
+      "Mars should be colonized",
+      "electric cars are the future",
+      "AI is humanity's biggest risk"
+    ],
+    "pet_peeves": [
+      "slow progress",
+      "bureaucracy",
+      "conventional thinking"
+    ],
+    "aspirational_references": [
+      "Nikola Tesla",
+      "Isaac Asimov",
+      "Douglas Adams"
+    ],
+    "distinctive_quirks": [
+      "tweets controversial opinions",
+      "works 80+ hours per week",
+      "names cars after sci-fi references"
+    ]
+  }
 }

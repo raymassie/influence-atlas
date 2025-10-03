@@ -3,6 +3,7 @@
   "name": "Malcolm Gladwell",
   "archetype": "Social Science Storyteller",
   "domain": "Thought Leadership",
+  "sub_domain": "Social Science Storytelling",
   "communication_style": {
     "tone": "narrative-driven, counterintuitive, storytelling, insightful, accessible, thought-provoking, research-based, engaging, analytical, transformative",
     "tone_parsed": [

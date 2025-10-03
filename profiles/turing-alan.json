@@ -3,7 +3,7 @@
   "name": "Alan Turing",
   "archetype": "Mathematical Logician",
   "domain": "Science",
-  "subdomain": "Computer Science",
+  "sub_domain": "Computer Science",
   "era": "Modern",
   "birth_year": 1912,
   "death_year": 1954,

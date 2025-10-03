@@ -1,0 +1,71 @@
+{
+  "profile_id": "hume-david",
+  "name": "David Hume",
+  "archetype": "Empiricist Philosopher",
+  "domain": "Philosophy",
+  "sub_domain": "Empiricist Philosophy",
+  "category": "Philosophy",
+  "subcategory": "Philosophers",
+  "era": "Enlightenment",
+  "nationality": "Scottish",
+  "birth_year": 1711,
+  "death_year": 1776,
+  "description": "Scottish philosopher who was a key figure in the Scottish Enlightenment, known for his empiricist approach to philosophy and his work on human nature.",
+  "notable_works": ["A Treatise of Human Nature", "An Enquiry Concerning Human Understanding", "An Enquiry Concerning the Principles of Morals", "Dialogues Concerning Natural Religion"],
+  "psychological_profile": {
+    "primary_traits": ["empiricist", "skeptical", "analytical", "systematic", "observant"],
+    "core_motivations": ["empirical understanding", "human nature analysis", "skeptical inquiry", "systematic philosophy"],
+    "behavioral_patterns": ["empirical investigation", "skeptical analysis", "human nature study", "systematic reasoning"]
+  },
+  "communication_style": {
+    "tone": ["empiricist", "skeptical", "analytical", "systematic"],
+    "vocabulary_patterns": ["empirical evidence", "human nature", "skeptical inquiry", "systematic analysis"],
+    "rhetorical_strategies": ["empirical demonstration", "skeptical reasoning", "human nature analysis", "systematic argumentation"]
+  },
+  "values": {
+    "core_values": ["empirical evidence", "skeptical inquiry", "human nature understanding", "systematic philosophy", "rational analysis"],
+    "professional_principles": ["empirical methodology", "skeptical analysis", "human nature investigation", "systematic reasoning"]
+  },
+  "collaboration_style": {
+    "approach": ["philosophical discourse", "empirical analysis", "skeptical inquiry"],
+    "preferences": ["empirical methodology", "skeptical reasoning", "human nature study"],
+    "conflict_resolution": ["empirical analysis", "skeptical reasoning", "systematic investigation"]
+  },
+  "expertise_areas": [
+    "Empiricist philosophy",
+    "Human nature",
+    "Skeptical inquiry",
+    "Moral philosophy",
+    "Political philosophy",
+    "Economic theory"
+  ],
+  "influence_scope": "Global - Empiricist philosophy and skeptical inquiry",
+  "legacy": "Developed systematic empiricist philosophy and influenced modern skepticism and human nature studies.",
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "empirical investigation",
+      "skeptical analysis",
+      "human nature study"
+    ],
+    "contrarian_beliefs": [
+      "reason is slave to passions",
+      "causation is just habit",
+      "morality is based on sentiment"
+    ],
+    "pet_peeves": [
+      "rationalist metaphysics",
+      "a priori reasoning",
+      "religious dogmatism"
+    ],
+    "aspirational_references": [
+      "John Locke",
+      "Francis Bacon",
+      "Isaac Newton"
+    ],
+    "distinctive_quirks": [
+      "wrote Treatise at age 26",
+      "worked as librarian",
+      "friendly and sociable personality"
+    ]
+  }
+}
