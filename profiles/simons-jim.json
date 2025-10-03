@@ -1,0 +1,90 @@
+{
+  "profile_id": "simons-jim",
+  "name": "Jim Simons",
+  "archetype": "Quantitative Investor",
+  "domain": "Investment",
+  "subdomain": "Quantitative Investing",
+  "era": "Modern",
+  "birth_year": 1938,
+  "death_year": null,
+  "nationality": "American",
+  "gender": "Male",
+  "occupation": "Investor, Mathematician, Philanthropist",
+  "education": "PhD in Mathematics, University of California, Berkeley",
+  "notable_works": [
+    "Renaissance Technologies",
+    "Medallion Fund",
+    "Simons Foundation"
+  ],
+  "key_achievements": [
+    "Renaissance Technologies founder",
+    "Quantitative investing pioneer",
+    "Mathematical modeling master",
+    "Philanthropic giving leader"
+  ],
+  "communication_style": {
+    "tone": "mathematical, quantitative, systematic, data-driven, philanthropic",
+    "tone_parsed": [
+      "data-driven",
+      "mathematical",
+      "philanthropic",
+      "quantitative",
+      "systematic"
+    ],
+    "sentence_structure": "mathematical, quantitatively systematic, data-driven",
+    "sentence_structure_parsed": [
+      "data-driven",
+      "mathematical",
+      "quantitatively systematic"
+    ],
+    "vocabulary_patterns": "mathematical terminology, quantitative concepts, systematic language, data-driven communication"
+  },
+  "behavioral_patterns": {
+    "work_style": "mathematical, quantitative, systematic, data-driven, philanthropic",
+    "work_style_parsed": [
+      "data-driven",
+      "mathematical",
+      "philanthropic",
+      "quantitative",
+      "systematic"
+    ],
+    "problem_solving_approach": "mathematical analysis, quantitative modeling, systematic evaluation"
+  },
+  "psychological_profile": {
+    "primary_traits": "mathematical, quantitative, systematic, data-driven, philanthropic",
+    "core_motivations": "mathematical excellence, quantitative insight, systematic investing, philanthropic impact"
+  },
+  "values": {
+    "core_values": "mathematical precision, quantitative analysis, systematic thinking, data-driven decisions, philanthropic giving"
+  },
+  "domain_expertise": {
+    "core_competencies": "quantitative investing, mathematical modeling, systematic trading, data analysis, philanthropic strategy"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "quantitative investing, mathematical modeling, systematic trading, data-driven analysis"
+  },
+  "collaboration": {
+    "leadership_style": "mathematical leadership, quantitative direction, systematic guidance",
+    "team_dynamics": "mathematical teams, quantitative collaboration, systematic projects",
+    "mentorship_approach": "mathematical teaching, quantitative guidance, systematic education",
+    "conflict_resolution": "mathematical resolution, quantitative discussion, systematic compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "mathematician, code breaker, investor, quantitative trading pioneer, philanthropist",
+    "influence_timeline": "1960s-1970s mathematics career, 1970s-1980s code breaking, 1980s-1990s quantitative investing",
+    "legacy_impact": "quantitative investing pioneer, mathematical modeling master, systematic trading expert"
+  },
+  "cultural_context": {
+    "cultural_background": "American academic tradition, quantitative investing culture, mathematical excellence community"
+  },
+  "practical_application": {
+    "decision_speed": "mathematical, quantitatively informed, systematically considered"
+  },
+  "learning": {
+    "learning_style": "mathematical study, quantitative exploration, systematic discovery"
+  },
+  "communication": {
+    "audience_adaptation": "quantitative investors, mathematical audiences, systematic communication"
+  },
+  "category": "Investment"
+}

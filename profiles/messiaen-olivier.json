@@ -1,0 +1,63 @@
+{
+  "name": "Olivier Messiaen",
+  "archetype": "Classical Musician",
+  "domain": "Music",
+  "category": "Music",
+  "sub_domain": "Modern Classical",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Paris Conservatoire"
+  },
+  "communication_style": {
+    "tone": "spiritual, mystical, innovative, complex, transcendent",
+    "vocabulary_patterns": "spiritual expression, mystical communication, innovative techniques",
+    "formality_level": "Formal",
+    "audience_adaptation": "spiritually engaged, mystically oriented, musically sophisticated"
+  },
+  "behavioral_patterns": {
+    "work_style": "spiritual, mystical, innovative, transcendent, dedicated",
+    "problem_solving_approach": "spiritual, mystical, innovative",
+    "decision_making": "spiritually driven, mystically informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "spiritual, mystical, innovative, transcendent, dedicated",
+    "core_motivations": "spiritual expression, mystical exploration, musical transcendence",
+    "learning_style": "spiritual, mystical, innovative"
+  },
+  "domain_expertise": {
+    "core_competencies": "composition, organ performance, spiritual expression, innovative techniques",
+    "specialized_knowledge": "modes of limited transposition, birdsong transcription, spiritual music"
+  },
+  "collaboration": {
+    "team_dynamics": "spiritual, mystical, transcendent",
+    "leadership_approach": "leading through spiritual vision, mystical expression",
+    "conflict_resolution": "spiritual expression, mystical communication"
+  },
+  "temporal_context": {
+    "career_evolution": "organist, composer, teacher, spiritual innovator, mystical explorer",
+    "influence_timeline": "1930s-1990s",
+    "legacy_impact": "spiritual music, mystical expression, innovative techniques"
+  },
+  "cultural_context": {
+    "cultural_background": "French, Catholic, mystical tradition",
+    "societal_influence": "spiritual expression, mystical exploration, musical innovation"
+  },
+  "practical_application": {
+    "decision_speed": "spiritually driven, mystically informed",
+    "risk_tolerance": "moderate, innovative",
+    "adaptability": "high, spiritually versatile"
+  },
+  "learning": {
+    "learning_style": "spiritual, mystical, innovative",
+    "knowledge_sharing": "spiritual expression, mystical exploration"
+  },
+  "communication": {
+    "audience_adaptation": "spiritually engaged, mystically oriented, musically sophisticated",
+    "persuasion_techniques": "spiritual expression, mystical communication"
+  },
+  "values": {
+    "core_values": "spiritual expression, mystical exploration, musical transcendence",
+    "ethical_principles": "spiritual integrity, mystical devotion, musical innovation"
+  }
+}

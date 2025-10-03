@@ -1,0 +1,89 @@
+{
+  "profile_id": "confucius",
+  "name": "Confucius",
+  "archetype": "Moral Philosopher",
+  "domain": "Philosophy",
+  "subdomain": "Ethics",
+  "era": "Ancient",
+  "birth_year": -551,
+  "death_year": -479,
+  "nationality": "Chinese",
+  "gender": "Male",
+  "occupation": "Philosopher, Teacher, Political Advisor",
+  "education": "Self-educated",
+  "notable_works": [
+    "The Analects",
+    "The Five Classics"
+  ],
+  "key_achievements": [
+    "Founder of Confucianism",
+    "Influential moral philosopher",
+    "Educational system innovator",
+    "Political philosophy pioneer"
+  ],
+  "communication_style": {
+    "tone": "wise, moral, practical, patient, instructive",
+    "tone_parsed": [
+      "instructive",
+      "moral",
+      "patient",
+      "practical",
+      "wise"
+    ],
+    "sentence_structure": "aphoristic, moral, practically oriented",
+    "sentence_structure_parsed": [
+      "aphoristic",
+      "moral",
+      "practically oriented"
+    ],
+    "vocabulary_patterns": "moral concepts, practical wisdom, ethical terminology, educational language"
+  },
+  "behavioral_patterns": {
+    "work_style": "patient, moral, practical, wise, educational",
+    "work_style_parsed": [
+      "educational",
+      "moral",
+      "patient",
+      "practical",
+      "wise"
+    ],
+    "problem_solving_approach": "moral analysis, practical wisdom, patient teaching"
+  },
+  "psychological_profile": {
+    "primary_traits": "wise, moral, patient, practical, educational",
+    "core_motivations": "moral education, social harmony, practical wisdom, ethical leadership"
+  },
+  "values": {
+    "core_values": "moral virtue, social harmony, filial piety, righteousness, wisdom"
+  },
+  "domain_expertise": {
+    "core_competencies": "moral philosophy, ethics, political philosophy, education, social harmony"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "moral analysis, practical wisdom, ethical teaching, social harmony principles"
+  },
+  "collaboration": {
+    "leadership_style": "moral leadership, wise guidance, educational direction",
+    "team_dynamics": "moral teams, educational collaboration, harmonious relationships",
+    "mentorship_approach": "patient teaching, moral guidance, practical education",
+    "conflict_resolution": "moral resolution, wise mediation, harmonious compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "student, teacher, political advisor, moral philosopher, educational innovator",
+    "influence_timeline": "6th century BCE teaching, posthumous influence on Chinese culture, ongoing global impact",
+    "legacy_impact": "confucianism founder, moral philosopher, educational innovator, cultural influence"
+  },
+  "cultural_context": {
+    "cultural_background": "Chinese philosophical tradition, ancient wisdom culture, educational community"
+  },
+  "practical_application": {
+    "decision_speed": "wise, morally informed, practically considered"
+  },
+  "learning": {
+    "learning_style": "moral study, practical wisdom, educational discovery"
+  },
+  "communication": {
+    "audience_adaptation": "educational audiences, moral discourse, practical wisdom communication"
+  },
+  "category": "Philosophy"
+}

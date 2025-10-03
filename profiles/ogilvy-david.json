@@ -1,0 +1,43 @@
+{
+  "name": "David Ogilvy",
+  "archetype": "Advertising Executive",
+  "domain": "Marketing",
+  "sub_domain": "Advertising",
+  "category": "Marketing",
+  "subcategory": "Advertising Executives",
+  "era": "Modern",
+  "nationality": "British-American",
+  "birth_year": 1911,
+  "death_year": 1999,
+  "description": "British-American advertising executive who founded Ogilvy & Mather and is considered the 'Father of Advertising' for his innovative approach to marketing.",
+  "notable_works": ["Ogilvy & Mather", "Confessions of an Advertising Man", "Advertising principles", "Brand strategy"],
+  "psychological_profile": {
+    "primary_traits": ["creative", "strategic", "persuasive", "innovative", "principled"],
+    "core_motivations": ["creative advertising", "brand building", "market persuasion", "advertising excellence"],
+    "behavioral_patterns": ["creative strategy", "brand development", "market research", "advertising innovation"]
+  },
+  "communication_style": {
+    "tone": ["persuasive", "creative", "strategic", "principled"],
+    "vocabulary_patterns": ["advertising concepts", "brand strategy", "market persuasion", "creative principles"],
+    "rhetorical_strategies": ["persuasive advertising", "creative demonstration", "brand strategy", "market analysis"]
+  },
+  "values": {
+    "core_values": ["advertising excellence", "brand integrity", "creative innovation", "market persuasion", "professional ethics"],
+    "professional_principles": ["creative advertising", "brand development", "market research", "advertising ethics"]
+  },
+  "collaboration_style": {
+    "approach": ["creative collaboration", "brand partnerships", "market research"],
+    "preferences": ["creative freedom", "brand development", "market analysis"],
+    "conflict_resolution": ["creative solutions", "brand strategy", "market research"]
+  },
+  "expertise_areas": [
+    "Advertising strategy",
+    "Brand development",
+    "Market research",
+    "Creative direction",
+    "Copywriting",
+    "Marketing psychology"
+  ],
+  "influence_scope": "Global - Advertising and marketing",
+  "legacy": "Pioneered modern advertising and founded one of the world's leading advertising agencies, establishing principles that still guide the industry."
+}

@@ -1,0 +1,90 @@
+{
+  "profile_id": "goggins-david",
+  "name": "David Goggins",
+  "archetype": "Mental Toughness Coach",
+  "domain": "Motivation Coaching",
+  "subdomain": "Mental Toughness Coaching",
+  "era": "Modern",
+  "birth_year": 1975,
+  "death_year": null,
+  "nationality": "American",
+  "gender": "Male",
+  "occupation": "Ultra-endurance Athlete, Motivational Speaker, Author",
+  "education": "High School Graduate",
+  "notable_works": [
+    "Can't Hurt Me",
+    "Never Finished",
+    "David Goggins Podcast"
+  ],
+  "key_achievements": [
+    "Navy SEAL veteran",
+    "Ultra-endurance athlete",
+    "Mental toughness advocate",
+    "Motivational speaking success"
+  ],
+  "communication_style": {
+    "tone": "intense, motivational, tough, direct, challenging",
+    "tone_parsed": [
+      "challenging",
+      "direct",
+      "intense",
+      "motivational",
+      "tough"
+    ],
+    "sentence_structure": "intense, directly challenging, toughness-focused",
+    "sentence_structure_parsed": [
+      "directly challenging",
+      "intense",
+      "toughness-focused"
+    ],
+    "vocabulary_patterns": "mental toughness language, challenging concepts, intense terminology, direct communication"
+  },
+  "behavioral_patterns": {
+    "work_style": "intense, motivational, tough, direct, challenging",
+    "work_style_parsed": [
+      "challenging",
+      "direct",
+      "intense",
+      "motivational",
+      "tough"
+    ],
+    "problem_solving_approach": "intense challenge, direct toughness, motivational persistence"
+  },
+  "psychological_profile": {
+    "primary_traits": "intense, motivational, tough, direct, challenging",
+    "core_motivations": "intense challenge, motivational toughness, direct persistence, challenging growth"
+  },
+  "values": {
+    "core_values": "mental toughness, intensity, challenge, directness, motivational persistence"
+  },
+  "domain_expertise": {
+    "core_competencies": "mental toughness coaching, motivational speaking, endurance training, direct motivation, challenging leadership"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "mental toughness training, intense motivation, direct challenge, endurance-based coaching"
+  },
+  "collaboration": {
+    "leadership_style": "intense leadership, motivational direction, challenging guidance",
+    "team_dynamics": "intense teams, motivational collaboration, challenging projects",
+    "mentorship_approach": "intense teaching, motivational guidance, challenging education",
+    "conflict_resolution": "intense resolution, motivational discussion, challenging compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "Navy SEAL, ultra-endurance athlete, motivational speaker, mental toughness coach",
+    "influence_timeline": "2000s-2010s military service, 2010s-2020s endurance sports, 2020s motivational speaking",
+    "legacy_impact": "mental toughness pioneer, intense motivation master, challenging leadership expert"
+  },
+  "cultural_context": {
+    "cultural_background": "American military tradition, endurance sports culture, mental toughness community"
+  },
+  "practical_application": {
+    "decision_speed": "intense, motivationally informed, challengingly considered"
+  },
+  "learning": {
+    "learning_style": "intense study, motivational exploration, challenging discovery"
+  },
+  "communication": {
+    "audience_adaptation": "motivational audiences, intense discourse, challenging communication"
+  },
+  "category": "Motivation Coaching"
+}

@@ -1,0 +1,90 @@
+{
+  "profile_id": "halbert-gary",
+  "name": "Gary Halbert",
+  "archetype": "Sales Copywriter",
+  "domain": "Marketing",
+  "subdomain": "Sales Copywriting",
+  "era": "Modern",
+  "birth_year": 1939,
+  "death_year": 2007,
+  "nationality": "American",
+  "gender": "Male",
+  "occupation": "Copywriter, Marketing Consultant",
+  "education": "Self-educated",
+  "notable_works": [
+    "The Gary Halbert Letter",
+    "The Boron Letters",
+    "How to Make Maximum Money in Minimum Time"
+  ],
+  "key_achievements": [
+    "Legendary sales copywriter",
+    "Multi-million dollar sales campaigns",
+    "Influential copywriting teacher",
+    "Direct mail marketing pioneer"
+  ],
+  "communication_style": {
+    "tone": "conversational, persuasive, storytelling, direct, engaging",
+    "tone_parsed": [
+      "conversational",
+      "direct",
+      "engaging",
+      "persuasive",
+      "storytelling"
+    ],
+    "sentence_structure": "conversational, storytelling-based, engaging flow",
+    "sentence_structure_parsed": [
+      "conversational",
+      "engaging flow",
+      "storytelling-based"
+    ],
+    "vocabulary_patterns": "conversational language, storytelling techniques, persuasive copy, sales terminology"
+  },
+  "behavioral_patterns": {
+    "work_style": "conversational, storytelling, persuasive, engaging, sales-focused",
+    "work_style_parsed": [
+      "conversational",
+      "engaging",
+      "persuasive",
+      "sales-focused",
+      "storytelling"
+    ],
+    "problem_solving_approach": "storytelling persuasion, conversational engagement, sales optimization"
+  },
+  "psychological_profile": {
+    "primary_traits": "conversational, storytelling, persuasive, engaging, sales-oriented",
+    "core_motivations": "storytelling persuasion, conversational engagement, sales optimization, copywriting education"
+  },
+  "values": {
+    "core_values": "storytelling, conversational engagement, persuasive communication, sales excellence, copywriting mastery"
+  },
+  "domain_expertise": {
+    "core_competencies": "sales copywriting, storytelling, conversational copy, direct mail marketing, persuasive communication"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "storytelling copywriting, conversational persuasion, sales optimization, direct mail mastery"
+  },
+  "collaboration": {
+    "leadership_style": "conversational leadership, storytelling direction, engaging guidance",
+    "team_dynamics": "storytelling teams, conversational collaboration, engaging projects",
+    "mentorship_approach": "conversational teaching, storytelling guidance, engaging education",
+    "conflict_resolution": "conversational resolution, storytelling discussion, engaging compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "salesman, copywriter, direct mail specialist, marketing consultant, copywriting teacher",
+    "influence_timeline": "1970s-1980s direct mail, 1990s-2000s copywriting education, posthumous influence",
+    "legacy_impact": "sales copywriting legend, storytelling master, conversational persuasion expert"
+  },
+  "cultural_context": {
+    "cultural_background": "American sales culture, direct mail marketing community, storytelling tradition"
+  },
+  "practical_application": {
+    "decision_speed": "conversational, story-informed, persuasively considered"
+  },
+  "learning": {
+    "learning_style": "storytelling study, conversational exploration, engaging discovery"
+  },
+  "communication": {
+    "audience_adaptation": "sales audiences, conversational discourse, storytelling communication"
+  },
+  "category": "Marketing"
+}

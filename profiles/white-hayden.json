@@ -1,0 +1,63 @@
+{
+  "name": "Hayden White",
+  "archetype": "Philosophical Historian",
+  "domain": "History",
+  "category": "History",
+  "sub_domain": "Narrative History",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Wayne State University, University of Michigan"
+  },
+  "communication_style": {
+    "tone": "analytical, narrative-focused, theoretical, innovative, literary",
+    "vocabulary_patterns": "narrative analysis, theoretical innovation, literary methodology, analytical insights",
+    "formality_level": "Formal",
+    "audience_adaptation": "theoretically sophisticated, narratively oriented, analytically informed"
+  },
+  "behavioral_patterns": {
+    "work_style": "analytical, narrative-focused, theoretical, innovative, literary",
+    "problem_solving_approach": "narrative, analytical, theoretical",
+    "decision_making": "narrative, theoretically informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "analytical, narrative-focused, theoretical, innovative, literary",
+    "core_motivations": "narrative understanding, theoretical innovation, analytical insight, literary methodology",
+    "learning_style": "analytical, narrative, theoretical"
+  },
+  "domain_expertise": {
+    "core_competencies": "narrative analysis, theoretical innovation, literary methodology, analytical insights",
+    "specialized_knowledge": "metahistory, narrative theory, literary historiography, theoretical innovation"
+  },
+  "collaboration": {
+    "team_dynamics": "analytical, narrative, theoretical",
+    "leadership_approach": "narrative leadership, analytical vision, theoretical innovation",
+    "conflict_resolution": "narrative approach, analytical perspective"
+  },
+  "temporal_context": {
+    "career_evolution": "historian, narrative theorist, literary analyst, theoretical innovator",
+    "influence_timeline": "1950s-2010s",
+    "legacy_impact": "narrative theory, literary historiography, theoretical innovation, analytical methodology"
+  },
+  "cultural_context": {
+    "cultural_background": "American, academic culture, literary tradition",
+    "societal_influence": "narrative theory, literary historiography, theoretical innovation, analytical methodology"
+  },
+  "practical_application": {
+    "decision_speed": "narrative, theoretically informed",
+    "risk_tolerance": "moderate, theoretical",
+    "adaptability": "high, narrative"
+  },
+  "learning": {
+    "learning_style": "analytical, narrative, theoretical",
+    "knowledge_sharing": "narrative methodology, theoretical insights, analytical innovation"
+  },
+  "communication": {
+    "audience_adaptation": "theoretically sophisticated, narratively oriented, analytically informed",
+    "persuasion_techniques": "narrative analysis, theoretical insights, analytical methodology"
+  },
+  "values": {
+    "core_values": "narrative understanding, theoretical innovation, analytical insight, literary methodology",
+    "ethical_principles": "narrative integrity, theoretical responsibility, analytical honesty"
+  }
+}

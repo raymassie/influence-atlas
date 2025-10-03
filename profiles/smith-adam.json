@@ -1,0 +1,43 @@
+{
+  "name": "Adam Smith",
+  "archetype": "Economist",
+  "domain": "Economics",
+  "sub_domain": "Classical Economics",
+  "category": "Economics",
+  "subcategory": "Economists",
+  "era": "Enlightenment",
+  "nationality": "Scottish",
+  "birth_year": 1723,
+  "death_year": 1790,
+  "description": "Scottish economist and philosopher who is considered the father of modern economics and authored 'The Wealth of Nations'.",
+  "notable_works": ["The Wealth of Nations", "The Theory of Moral Sentiments", "Free market theory", "Division of labor"],
+  "psychological_profile": {
+    "primary_traits": ["analytical", "systematic", "philosophical", "observant", "principled"],
+    "core_motivations": ["economic understanding", "free market theory", "moral philosophy", "economic efficiency"],
+    "behavioral_patterns": ["economic analysis", "philosophical reasoning", "systematic observation", "free market advocacy"]
+  },
+  "communication_style": {
+    "tone": ["analytical", "systematic", "philosophical", "observant"],
+    "vocabulary_patterns": ["economic concepts", "philosophical terminology", "moral language", "economic analysis"],
+    "rhetorical_strategies": ["economic analysis", "philosophical argument", "moral reasoning", "systematic observation"]
+  },
+  "values": {
+    "core_values": ["economic efficiency", "free markets", "moral philosophy", "systematic analysis", "division of labor"],
+    "professional_principles": ["economic analysis", "philosophical reasoning", "free market advocacy", "moral philosophy"]
+  },
+  "collaboration_style": {
+    "approach": ["academic collaboration", "philosophical partnerships", "economic alliances"],
+    "preferences": ["economic analysis", "philosophical reasoning", "moral philosophy"],
+    "conflict_resolution": ["economic analysis", "philosophical reasoning", "moral philosophy"]
+  },
+  "expertise_areas": [
+    "Classical economics",
+    "Free market theory",
+    "Division of labor",
+    "Moral philosophy",
+    "Economic analysis",
+    "Political economy"
+  ],
+  "influence_scope": "Global - Economics and political economy",
+  "legacy": "Founded modern economics with 'The Wealth of Nations' and established the foundation for free market theory and classical economics."
+}

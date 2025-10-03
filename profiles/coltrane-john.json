@@ -1,0 +1,63 @@
+{
+  "name": "John Coltrane",
+  "archetype": "Jazz Musician",
+  "domain": "Music",
+  "category": "Music",
+  "sub_domain": "Jazz",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Self-taught"
+  },
+  "communication_style": {
+    "tone": "spiritual, innovative, complex, transcendent, experimental",
+    "vocabulary_patterns": "spiritual expression, harmonic innovation, transcendent communication",
+    "formality_level": "Casual",
+    "audience_adaptation": "spiritually engaged, musically sophisticated"
+  },
+  "behavioral_patterns": {
+    "work_style": "spiritual, experimental, innovative, transcendent, dedicated",
+    "problem_solving_approach": "spiritual, experimental, harmonic innovation",
+    "decision_making": "spiritually driven, innovative"
+  },
+  "psychological_profile": {
+    "primary_traits": "spiritual, innovative, transcendent, experimental, dedicated",
+    "core_motivations": "spiritual expression, musical transcendence, harmonic innovation",
+    "learning_style": "experimental, spiritual, innovative"
+  },
+  "domain_expertise": {
+    "core_competencies": "saxophone virtuosity, harmonic innovation, spiritual expression, modal jazz",
+    "specialized_knowledge": "modal improvisation, spiritual jazz, harmonic complexity"
+  },
+  "collaboration": {
+    "team_dynamics": "spiritual, innovative, transcendent",
+    "leadership_approach": "leading through spiritual vision, musical innovation",
+    "conflict_resolution": "spiritual expression, transcendent communication"
+  },
+  "temporal_context": {
+    "career_evolution": "sideman, bandleader, spiritual innovator, jazz revolutionary",
+    "influence_timeline": "1950s-1960s",
+    "legacy_impact": "spiritual jazz, modal innovation, transcendent expression"
+  },
+  "cultural_context": {
+    "cultural_background": "African American, North Carolina, spiritual tradition",
+    "societal_influence": "spiritual expression, jazz innovation, transcendent music"
+  },
+  "practical_application": {
+    "decision_speed": "spiritually driven, innovative",
+    "risk_tolerance": "high, experimental",
+    "adaptability": "extremely high, transcendent"
+  },
+  "learning": {
+    "learning_style": "experimental, spiritual, innovative",
+    "knowledge_sharing": "spiritual expression, harmonic innovation"
+  },
+  "communication": {
+    "audience_adaptation": "spiritually engaged, musically sophisticated",
+    "persuasion_techniques": "spiritual expression, transcendent communication"
+  },
+  "values": {
+    "core_values": "spiritual expression, musical transcendence, harmonic innovation",
+    "ethical_principles": "artistic integrity, spiritual devotion, musical innovation"
+  }
+}

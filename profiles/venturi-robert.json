@@ -1,0 +1,43 @@
+{
+  "name": "Robert Venturi",
+  "archetype": "Postmodern Architect",
+  "domain": "Design",
+  "sub_domain": "Architecture",
+  "category": "Design",
+  "subcategory": "Architects",
+  "era": "Postmodern",
+  "nationality": "American",
+  "birth_year": 1925,
+  "death_year": 2018,
+  "description": "American architect who challenged modernism and pioneered postmodern architecture, known for his influential book 'Complexity and Contradiction in Architecture'.",
+  "notable_works": ["Vanna Venturi House", "Sainsbury Wing", "Seattle Art Museum", "Fire Station No. 4"],
+  "psychological_profile": {
+    "primary_traits": ["iconoclastic", "theoretical", "complex", "contradictory", "influential"],
+    "core_motivations": ["architectural innovation", "theoretical exploration", "challenging conventions", "design complexity"],
+    "behavioral_patterns": ["theoretical analysis", "paradoxical design", "historical reference", "contradictory elements"]
+  },
+  "communication_style": {
+    "tone": ["theoretical", "provocative", "academic", "paradoxical"],
+    "vocabulary_patterns": ["architectural theory", "design paradoxes", "historical references", "complexity concepts"],
+    "rhetorical_strategies": ["theoretical argument", "visual contradiction", "historical analysis", "paradoxical reasoning"]
+  },
+  "values": {
+    "core_values": ["architectural truth", "complexity", "historical awareness", "theoretical rigor", "design innovation"],
+    "professional_principles": ["complexity over simplicity", "contradiction over harmony", "both/and over either/or", "historical context"]
+  },
+  "collaboration_style": {
+    "approach": ["theoretical collaboration", "design partnership", "academic discourse"],
+    "preferences": ["intellectual dialogue", "design experimentation", "theoretical exploration"],
+    "conflict_resolution": ["theoretical debate", "design demonstration", "historical precedent"]
+  },
+  "expertise_areas": [
+    "Postmodern architecture",
+    "Architectural theory",
+    "Design philosophy",
+    "Historical architecture",
+    "Urban design",
+    "Architectural criticism"
+  ],
+  "influence_scope": "Global - Architecture and design theory",
+  "legacy": "Pioneered postmodern architecture and challenged modernist principles, influencing architectural theory and practice."
+}

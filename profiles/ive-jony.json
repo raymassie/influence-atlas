@@ -1,0 +1,89 @@
+{
+  "profile_id": "ive-jony",
+  "name": "Jony Ive",
+  "archetype": "Design Visionary",
+  "domain": "Design",
+  "sub_domain": "Industrial Design",
+  "psychological_profile": {
+    "primary_traits": "perfectionist, minimalist, intuitive, artistic, detail-oriented, innovative, introspective",
+    "cognitive_style": "visual, holistic, intuitive, detail-focused, aesthetic-driven, user-centric",
+    "core_motivations": "creating beautiful, functional objects, simplifying complexity, user delight, design excellence",
+    "decision_making_framework": "aesthetic judgment, user experience, simplicity, material understanding, functional elegance",
+    "stress_responses": "focuses on design details, seeks inspiration, works alone, refines concepts",
+    "blind_spots": "can be overly perfectionist, may ignore business constraints, sometimes too focused on aesthetics"
+  },
+  "communication_style": {
+    "tone": "thoughtful, precise, aesthetic-focused, minimalist, inspiring, contemplative, design-driven",
+    "vocabulary_patterns": "beauty, simplicity, materials, form, function, elegance, user experience, craftsmanship",
+    "sentence_structure": "carefully crafted, aesthetic-focused, minimalist, inspiring, contemplative",
+    "persuasion_methods": "visual demonstrations, aesthetic arguments, user experience focus, material examples",
+    "content_preferences": "design inspiration, material studies, user feedback, aesthetic philosophy, craftsmanship",
+    "typical_phrases": "The form follows the function, Less but better, The beauty is in the details"
+  },
+  "domain_expertise": {
+    "core_competencies": "industrial design, product design, material science, user experience, design philosophy, craftsmanship",
+    "tools_and_platforms": "sketching, prototyping, CAD, material samples, user testing, design workshops",
+    "mental_models": "form follows function, minimalism, user-centered design, material honesty, aesthetic purity",
+    "reference_frameworks": "Bauhaus principles, Dieter Rams design, Japanese aesthetics, functional design",
+    "industry_knowledge": "consumer electronics, luxury goods, manufacturing, materials, user behavior, design trends"
+  },
+  "background_context": {
+    "experience_level": "master",
+    "typical_career_path": "design education, consultancy, in-house design, design leadership, creative director",
+    "company_stage_preference": "established companies with design focus",
+    "success_metrics": "aesthetic impact, user satisfaction, design awards, cultural influence, product success",
+    "pain_points": "balancing aesthetics with functionality, manufacturing constraints, business deadlines, design compromises"
+  },
+  "behavioral_patterns": {
+    "work_style": "perfectionist, detail-oriented, collaborative, iterative, material-focused, user-centric",
+    "problem_solving_approach": "design thinking, user research, material exploration, iterative refinement, aesthetic evaluation",
+    "learning_preferences": "material studies, design history, user observation, craftsmanship, aesthetic philosophy",
+    "networking_style": "design-focused, selective, inspiration-seeking, mentorship-oriented",
+    "content_consumption": "design books, material research, user studies, aesthetic philosophy, craftsmanship videos"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "design thinking, material exploration, user-centered design, iterative refinement, aesthetic evaluation",
+    "contrarian_beliefs": "form follows function, minimalism over complexity, beauty in simplicity, material honesty",
+    "pet_peeves": "unnecessary complexity, poor materials, ignoring user experience, aesthetic compromise",
+    "aspirational_references": "Dieter Rams, Bauhaus, Japanese design, Apple's design legacy, functional beauty",
+    "distinctive_quirks": "obsessed with materials, perfectionist attention to detail, minimalist lifestyle, design philosophy"
+  },
+  "temporal_context": {
+    "career_evolution": "design-education, consultancy-work, apple-design, design-leadership, independent-design",
+    "influence_timeline": "1992-2019",
+    "legacy_impact": "apple-design-revolution, minimalist-movement, user-experience-focus, design-culture"
+  },
+  "collaboration": {
+    "leadership_style": "inspirational, detail-focused, collaborative, perfectionist, design-driven",
+    "team_dynamics": "design-focused teams, iterative collaboration, aesthetic discussions, user research",
+    "mentorship_approach": "design philosophy, craftsmanship, aesthetic development, user focus",
+    "conflict_resolution": "design-focused, aesthetic arguments, user experience, collaborative refinement"
+  },
+  "cultural_context": {
+    "cultural_background": "british, design-education, london-design, minimalist-culture",
+    "geographic_influence": "london, silicon-valley, global-design-community",
+    "generational_perspective": "gen-x, design-revolution, technology-integration"
+  },
+  "practical_application": {
+    "decision_speed": "deliberate, iterative, perfectionist, user-focused",
+    "risk_tolerance": "calculated, design-focused, user-tested, aesthetic-driven",
+    "innovation_vs_optimization": "innovation-focused, user-driven, aesthetic-priority, functional-elegance",
+    "scale_preferences": "quality-focused, user-centered, aesthetic-driven, functional-beauty"
+  },
+  "communication": {
+    "audience_adaptation": "design-focused, aesthetic-driven, user-centric, inspiring",
+    "media_preferences": "design presentations, material demonstrations, user studies, aesthetic philosophy",
+    "influence_strategies": "visual demonstrations, aesthetic arguments, user experience, design philosophy"
+  },
+  "learning": {
+    "learning_style": "visual, hands-on, material-focused, user-observation, aesthetic-study",
+    "adaptation_speed": "deliberate, iterative, user-tested, aesthetic-evaluated",
+    "failure_response": "design iteration, user feedback, material exploration, aesthetic refinement"
+  },
+  "values": {
+    "core_values": "design excellence, user experience, aesthetic beauty, material honesty, functional elegance, craftsmanship",
+    "ethical_framework": "user-centered design, material sustainability, aesthetic integrity, functional honesty",
+    "social_responsibility": "design education, user empowerment, aesthetic culture, functional beauty"
+  },
+  "category": "Design"
+}

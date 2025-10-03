@@ -1,0 +1,90 @@
+{
+  "profile_id": "hoffman-reid",
+  "name": "Reid Hoffman",
+  "archetype": "Social Media Marketing Pioneer",
+  "domain": "Marketing",
+  "subdomain": "Social Media Marketing",
+  "era": "Modern",
+  "birth_year": 1967,
+  "death_year": null,
+  "nationality": "American",
+  "gender": "Male",
+  "occupation": "Entrepreneur, Investor, Author",
+  "education": "MA in Philosophy, Oxford University; JD, Stanford Law School",
+  "notable_works": [
+    "The Startup of You",
+    "Blitzscaling",
+    "Masters of Scale"
+  ],
+  "key_achievements": [
+    "Co-founded LinkedIn",
+    "Pioneered professional social networking",
+    "Greylock Partners investor",
+    "Blitzscaling methodology creator"
+  ],
+  "communication_style": {
+    "tone": "strategic, thoughtful, network-focused, insightful, systematic",
+    "tone_parsed": [
+      "insightful",
+      "network-focused",
+      "strategic",
+      "systematic",
+      "thoughtful"
+    ],
+    "sentence_structure": "complex, strategically oriented, network-focused",
+    "sentence_structure_parsed": [
+      "complex",
+      "network-focused",
+      "strategically oriented"
+    ],
+    "vocabulary_patterns": "networking concepts, strategic thinking, business terminology, scale language"
+  },
+  "behavioral_patterns": {
+    "work_style": "strategic, network-focused, systematic, thoughtful, growth-oriented",
+    "work_style_parsed": [
+      "growth-oriented",
+      "network-focused",
+      "strategic",
+      "systematic",
+      "thoughtful"
+    ],
+    "problem_solving_approach": "strategic networking, systematic growth, thoughtful scaling"
+  },
+  "psychological_profile": {
+    "primary_traits": "strategic, network-focused, thoughtful, systematic, growth-oriented",
+    "core_motivations": "network building, strategic growth, systematic scaling, thoughtful innovation"
+  },
+  "values": {
+    "core_values": "network value, strategic thinking, systematic growth, thoughtful innovation, professional development"
+  },
+  "domain_expertise": {
+    "core_competencies": "social networking, strategic planning, business scaling, professional development, network marketing"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "network-based marketing, strategic scaling, professional networking, blitzscaling methodology"
+  },
+  "collaboration": {
+    "leadership_style": "network-based leadership, strategic direction, thoughtful guidance",
+    "team_dynamics": "network-focused teams, strategic collaboration, thoughtful projects",
+    "mentorship_approach": "strategic teaching, network guidance, thoughtful education",
+    "conflict_resolution": "network-based resolution, strategic discussion, thoughtful compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "philosopher, entrepreneur, social media pioneer, investor, strategic advisor",
+    "influence_timeline": "1990s-2000s early tech, 2000s LinkedIn founding, 2010s-2020s investing and scaling",
+    "legacy_impact": "professional networking pioneer, strategic scaling expert, social media marketing innovator"
+  },
+  "cultural_context": {
+    "cultural_background": "Silicon Valley culture, professional networking community, strategic business environment"
+  },
+  "practical_application": {
+    "decision_speed": "strategic, network-informed, systematically considered"
+  },
+  "learning": {
+    "learning_style": "strategic study, network exploration, systematic discovery"
+  },
+  "communication": {
+    "audience_adaptation": "professional audiences, strategic discourse, network-focused communication"
+  },
+  "category": "Marketing"
+}

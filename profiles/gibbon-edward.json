@@ -1,0 +1,63 @@
+{
+  "name": "Edward Gibbon",
+  "archetype": "Philosophical Historian",
+  "domain": "History",
+  "category": "History",
+  "sub_domain": "Classical History",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Oxford University"
+  },
+  "communication_style": {
+    "tone": "scholarly, eloquent, analytical, ironic, comprehensive",
+    "vocabulary_patterns": "classical references, historical analysis, ironic commentary, scholarly methodology",
+    "formality_level": "Formal",
+    "audience_adaptation": "scholarly, classically educated, historically informed"
+  },
+  "behavioral_patterns": {
+    "work_style": "scholarly, comprehensive, analytical, methodical, eloquent",
+    "problem_solving_approach": "analytical, scholarly, methodical",
+    "decision_making": "analytical, scholarly, methodical"
+  },
+  "psychological_profile": {
+    "primary_traits": "scholarly, comprehensive, analytical, methodical, eloquent",
+    "core_motivations": "historical understanding, scholarly excellence, classical analysis, methodological rigor",
+    "learning_style": "scholarly, analytical, methodical"
+  },
+  "domain_expertise": {
+    "core_competencies": "classical history, Roman studies, historical methodology, scholarly analysis",
+    "specialized_knowledge": "Roman Empire, classical civilization, historical methodology, scholarly writing"
+  },
+  "collaboration": {
+    "team_dynamics": "scholarly, analytical, methodical",
+    "leadership_approach": "scholarly leadership, analytical vision, methodological rigor",
+    "conflict_resolution": "analytical approach, scholarly perspective"
+  },
+  "temporal_context": {
+    "career_evolution": "scholar, historian, classical analyst, methodological pioneer",
+    "influence_timeline": "1760s-1790s",
+    "legacy_impact": "historical methodology, Roman studies, scholarly excellence"
+  },
+  "cultural_context": {
+    "cultural_background": "British, Enlightenment culture, classical education",
+    "societal_influence": "historical scholarship, classical studies, methodological advancement"
+  },
+  "practical_application": {
+    "decision_speed": "analytical, scholarly",
+    "risk_tolerance": "moderate, scholarly",
+    "adaptability": "high, analytical"
+  },
+  "learning": {
+    "learning_style": "scholarly, analytical, methodical",
+    "knowledge_sharing": "historical methodology, classical studies, scholarly analysis"
+  },
+  "communication": {
+    "audience_adaptation": "scholarly, classically educated, historically informed",
+    "persuasion_techniques": "analytical insights, scholarly methodology, classical references"
+  },
+  "values": {
+    "core_values": "scholarly excellence, historical accuracy, methodological rigor, classical understanding",
+    "ethical_principles": "scholarly integrity, historical responsibility, methodological honesty"
+  }
+}

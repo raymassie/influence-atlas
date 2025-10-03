@@ -1,0 +1,43 @@
+{
+  "name": "Paul Rand",
+  "archetype": "Graphic Design Pioneer",
+  "domain": "Design",
+  "sub_domain": "Graphic Design",
+  "category": "Design",
+  "subcategory": "Graphic Designers",
+  "era": "Modern",
+  "nationality": "American",
+  "birth_year": 1914,
+  "death_year": 1996,
+  "description": "American graphic designer who revolutionized corporate identity design and is considered one of the most influential designers of the 20th century.",
+  "notable_works": ["IBM logo", "UPS logo", "ABC logo", "NeXT logo", "Design books"],
+  "psychological_profile": {
+    "primary_traits": ["innovative", "systematic", "bold", "precise", "influential"],
+    "core_motivations": ["design excellence", "visual communication", "brand identity", "creative innovation"],
+    "behavioral_patterns": ["methodical approach", "bold experimentation", "systematic thinking", "teaching through design"]
+  },
+  "communication_style": {
+    "tone": ["authoritative", "educational", "direct", "philosophical"],
+    "vocabulary_patterns": ["design theory", "visual principles", "brand strategy", "creative process"],
+    "rhetorical_strategies": ["visual demonstration", "theoretical explanation", "case study analysis", "principled argument"]
+  },
+  "values": {
+    "core_values": ["design integrity", "visual clarity", "creative excellence", "professionalism", "innovation"],
+    "professional_principles": ["form follows function", "design for purpose", "visual hierarchy", "brand consistency"]
+  },
+  "collaboration_style": {
+    "approach": ["client education", "collaborative problem-solving", "design leadership"],
+    "preferences": ["creative autonomy", "client trust", "design authority"],
+    "conflict_resolution": ["design rationale", "visual demonstration", "professional expertise"]
+  },
+  "expertise_areas": [
+    "Corporate identity",
+    "Logo design",
+    "Brand strategy",
+    "Typography",
+    "Design theory",
+    "Visual communication"
+  ],
+  "influence_scope": "Global - Graphic design and branding industry",
+  "legacy": "Pioneered modern corporate identity design and established design as a strategic business tool."
+}

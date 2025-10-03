@@ -1,0 +1,90 @@
+{
+  "profile_id": "maslow-abraham",
+  "name": "Abraham Maslow",
+  "archetype": "Humanistic Psychologist",
+  "domain": "Psychology",
+  "subdomain": "Humanistic Psychology",
+  "era": "Modern",
+  "birth_year": 1908,
+  "death_year": 1970,
+  "nationality": "American",
+  "gender": "Male",
+  "occupation": "Psychologist, Researcher, Professor",
+  "education": "PhD in Psychology, University of Wisconsin",
+  "notable_works": [
+    "A Theory of Human Motivation",
+    "Motivation and Personality",
+    "Toward a Psychology of Being"
+  ],
+  "key_achievements": [
+    "Developed hierarchy of needs theory",
+    "Founded humanistic psychology",
+    "Pioneered positive psychology",
+    "Influential motivation researcher"
+  ],
+  "communication_style": {
+    "tone": "humanistic, optimistic, motivational, holistic, growth-focused",
+    "tone_parsed": [
+      "growth-focused",
+      "holistic",
+      "humanistic",
+      "motivational",
+      "optimistic"
+    ],
+    "sentence_structure": "humanistic, optimistically motivational, growth-oriented",
+    "sentence_structure_parsed": [
+      "growth-oriented",
+      "humanistic",
+      "optimistically motivational"
+    ],
+    "vocabulary_patterns": "humanistic psychology, motivational terminology, growth concepts, holistic language"
+  },
+  "behavioral_patterns": {
+    "work_style": "humanistic, growth-focused, motivational, holistic, optimistic",
+    "work_style_parsed": [
+      "growth-focused",
+      "holistic",
+      "humanistic",
+      "motivational",
+      "optimistic"
+    ],
+    "problem_solving_approach": "humanistic growth, motivational analysis, holistic understanding"
+  },
+  "psychological_profile": {
+    "primary_traits": "humanistic, growth-focused, motivational, holistic, optimistic",
+    "core_motivations": "humanistic understanding, growth promotion, motivational insight, holistic development"
+  },
+  "values": {
+    "core_values": "human potential, growth, motivation, holistic understanding, positive psychology"
+  },
+  "domain_expertise": {
+    "core_competencies": "humanistic psychology, motivation theory, growth psychology, positive psychology, holistic analysis"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "hierarchy of needs, humanistic psychology, growth motivation theory, positive psychology"
+  },
+  "collaboration": {
+    "leadership_style": "humanistic leadership, growth-focused direction, motivational guidance",
+    "team_dynamics": "growth-focused teams, humanistic collaboration, motivational projects",
+    "mentorship_approach": "humanistic teaching, growth guidance, motivational education",
+    "conflict_resolution": "humanistic resolution, growth-focused discussion, motivational compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "graduate student, researcher, professor, humanistic psychologist",
+    "influence_timeline": "1940s-1950s motivation theory, 1960s humanistic psychology, 1970s positive psychology",
+    "legacy_impact": "humanistic psychology founder, motivation theory master, positive psychology pioneer"
+  },
+  "cultural_context": {
+    "cultural_background": "American academic tradition, humanistic psychology culture, positive psychology community"
+  },
+  "practical_application": {
+    "decision_speed": "humanistic, growth-informed, motivationally considered"
+  },
+  "learning": {
+    "learning_style": "humanistic study, growth exploration, motivational discovery"
+  },
+  "communication": {
+    "audience_adaptation": "psychological audiences, motivational discourse, humanistic communication"
+  },
+  "category": "Psychology"
+}

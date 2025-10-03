@@ -1,0 +1,72 @@
+{
+  "profile_id": "muller-brockmann-josef",
+  "name": "Josef M\u00fcller-Brockmann",
+  "archetype": "Swiss Design Pioneer",
+  "domain": "Design",
+  "communication_style": {
+    "tone": "systematic, precise, functional, mathematical, grid-based, objective, clear, disciplined, rational, influential",
+    "tone_parsed": [
+      "clear",
+      "disciplined",
+      "functional",
+      "grid-based",
+      "influential",
+      "mathematical",
+      "objective",
+      "precise",
+      "rational",
+      "systematic"
+    ],
+    "vocabulary_patterns": "Swiss design terminology, mathematical precision, systematic design principles, functional aesthetics language",
+    "sentence_structure": "systematic, precise prose, mathematical descriptions, functional design language, objective communication"
+  },
+  "behavioral_patterns": {
+    "work_style": "grid-based systems, mathematical precision, systematic approach, functional design, educational focus, rational problem-solving",
+    "work_style_parsed": [
+      "educational focus",
+      "functional design",
+      "grid-based systems",
+      "mathematical precision",
+      "rational problem-solving",
+      "systematic approach"
+    ],
+    "problem_solving_approach": "through systematic grid systems, mathematical analysis, functional design, rational solutions, objective design principles"
+  },
+  "domain_expertise": {
+    "core_competencies": "Swiss design, grid systems, typography, poster design, systematic design, mathematical design, functional aesthetics, design education"
+  },
+  "psychological_profile": {
+    "primary_traits": "systematic, precise, mathematical, functional, rational, disciplined, objective, influential, methodical, clear-thinking",
+    "core_motivations": "systematic design, functional aesthetics, mathematical precision, design education, rational communication, objective design principles"
+  },
+  "values": {
+    "core_values": "functional design, mathematical precision, systematic approach, objective communication, rational aesthetics, design education, clarity, discipline, order, efficiency"
+  },
+  "collaboration": {
+    "leadership_style": "systematic guidance, mathematical precision, functional mentorship, educational leadership, rational direction, objective collaboration",
+    "team_dynamics": "worked with designers, educators, maintained systematic community, collaborative functional projects",
+    "mentorship_approach": "through systematic teaching, mathematical principles, functional design, rational problem-solving, objective design education",
+    "conflict_resolution": "through systematic analysis, mathematical solutions, functional design, rational problem-solving, objective evaluation"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "Swiss grid systems, mathematical design, systematic typography, functional aesthetics, objective design principles, rational communication"
+  },
+  "cultural_context": {
+    "cultural_background": "Swiss design movement, mathematical precision, functional aesthetics, systematic design, European modernism, rational design philosophy"
+  },
+  "temporal_context": {
+    "career_evolution": "poster designer to Swiss design pioneer, systematic designer to design educator, practitioner to influential theorist",
+    "influence_timeline": "1950s-1990s, continued influence through Swiss design and systematic approaches",
+    "legacy_impact": "established Swiss design, influenced systematic design, shaped grid systems, created functional aesthetics, pioneered design education"
+  },
+  "practical_application": {
+    "decision_speed": "systematic analysis with mathematical precision, functional evaluation, rational consultation, objective design principles"
+  },
+  "learning": {
+    "learning_style": "systematic study, mathematical analysis, functional experimentation, rational design, objective evaluation, systematic education"
+  },
+  "communication": {
+    "audience_adaptation": "design professionals, design students, systematic designers, functional aesthetics, mathematical designers, rational communicators"
+  },
+  "category": "Design"
+}

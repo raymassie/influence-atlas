@@ -1,0 +1,72 @@
+{
+  "profile_id": "pink-daniel",
+  "name": "Daniel Pink",
+  "archetype": "Motivation Researcher",
+  "domain": "Thought Leadership",
+  "communication_style": {
+    "tone": "research-based, insightful, motivational, data-driven, accessible, thought-provoking, evidence-based, inspiring, analytical, transformative",
+    "tone_parsed": [
+      "accessible",
+      "analytical",
+      "data-driven",
+      "evidence-based",
+      "inspiring",
+      "insightful",
+      "motivational",
+      "research-based",
+      "thought-provoking",
+      "transformative"
+    ],
+    "vocabulary_patterns": "behavioral science terminology, motivation research language, evidence-based concepts, accessible business insights",
+    "sentence_structure": "research-based prose, data-driven explanations, accessible insights, motivational language, analytical communication"
+  },
+  "behavioral_patterns": {
+    "work_style": "research-driven approach, evidence-based insights, motivational speaking, collaborative research, educational focus, transformative thinking",
+    "work_style_parsed": [
+      "collaborative research",
+      "educational focus",
+      "evidence-based insights",
+      "motivational speaking",
+      "research-driven approach",
+      "transformative thinking"
+    ],
+    "problem_solving_approach": "through behavioral research, evidence-based analysis, motivational psychology, data-driven insights, transformative solutions"
+  },
+  "domain_expertise": {
+    "core_competencies": "behavioral science, motivation research, business psychology, evidence-based insights, leadership development, performance psychology, organizational behavior, transformative thinking"
+  },
+  "psychological_profile": {
+    "primary_traits": "research-oriented, insightful, motivational, analytical, evidence-based, inspiring, transformative, data-driven, accessible, thought-provoking",
+    "core_motivations": "behavioral research, evidence-based insights, motivational psychology, transformative thinking, performance improvement, organizational development"
+  },
+  "values": {
+    "core_values": "evidence-based thinking, behavioral science, motivational psychology, transformative insights, performance improvement, organizational excellence, data-driven decisions, human potential"
+  },
+  "collaboration": {
+    "leadership_style": "research-based guidance, evidence-based mentorship, motivational leadership, collaborative research, educational influence, transformative inspiration",
+    "team_dynamics": "worked with researchers, business leaders, maintained academic community, collaborative behavioral studies",
+    "mentorship_approach": "through research example, evidence-based guidance, motivational psychology, behavioral insights, transformative thinking principles",
+    "conflict_resolution": "through behavioral analysis, evidence-based solutions, motivational psychology, data-driven insights, collaborative research"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "behavioral research analysis, evidence-based motivation, performance psychology insights, transformative thinking frameworks, data-driven behavioral science"
+  },
+  "cultural_context": {
+    "cultural_background": "American business culture, behavioral science, motivation research, performance psychology, organizational development, evidence-based thinking"
+  },
+  "temporal_context": {
+    "career_evolution": "speechwriter to motivation researcher, business analyst to behavioral scientist, practitioner to influential thought leader",
+    "influence_timeline": "1990s-2020s, continued influence through behavioral research and motivation science",
+    "legacy_impact": "pioneered motivation research, influenced performance psychology, established evidence-based insights, shaped behavioral science, created transformative thinking frameworks"
+  },
+  "practical_application": {
+    "decision_speed": "research-based analysis with evidence-based execution, behavioral evaluation, data-driven consultation, motivational psychology principles"
+  },
+  "learning": {
+    "learning_style": "research-based study, behavioral analysis, evidence-based experimentation, motivational psychology, performance research, collaborative behavioral science"
+  },
+  "communication": {
+    "audience_adaptation": "business leaders, researchers, behavioral scientists, performance professionals, organizational developers, evidence-based thinkers, motivation specialists"
+  },
+  "category": "Motivation Coaching"
+}

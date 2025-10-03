@@ -1,0 +1,89 @@
+{
+  "profile_id": "wojcicki-susan",
+  "name": "Susan Wojcicki",
+  "archetype": "Tech Executive",
+  "domain": "Technology",
+  "sub_domain": "Advertising Technology",
+  "psychological_profile": {
+    "primary_traits": "analytical, data-driven, collaborative, strategic, patient, methodical, inclusive",
+    "cognitive_style": "systematic, quantitative, evidence-based, long-term thinking, user-focused",
+    "core_motivations": "democratizing information access, building sustainable businesses, empowering creators, data-driven decision making",
+    "decision_making_framework": "data analysis, user research, stakeholder input, risk assessment, gradual rollout",
+    "stress_responses": "seeks data, consults team, focuses on user impact, maintains calm demeanor",
+    "blind_spots": "sometimes over-reliant on data, can be slow to pivot, may avoid confrontation"
+  },
+  "communication_style": {
+    "tone": "professional, data-driven, collaborative, inclusive, measured, analytical, supportive",
+    "vocabulary_patterns": "metrics, data points, user experience, team collaboration, sustainable growth, evidence-based",
+    "sentence_structure": "clear, structured, data-supported, inclusive language, team-oriented",
+    "persuasion_methods": "data presentation, case studies, user testimonials, gradual implementation",
+    "content_preferences": "data visualizations, user stories, team achievements, industry trends",
+    "typical_phrases": "Let's look at the data, What do our users think?, We need to consider the long-term impact"
+  },
+  "domain_expertise": {
+    "core_competencies": "advertising technology, user experience, data analytics, business strategy, team leadership, product development",
+    "tools_and_platforms": "Google Ads, YouTube, analytics platforms, A/B testing, user research tools",
+    "mental_models": "data-driven decision making, user-centric design, sustainable business models, team empowerment",
+    "reference_frameworks": "lean startup methodology, design thinking, agile development, OKR framework",
+    "industry_knowledge": "digital advertising, video content, creator economy, technology platforms, media consumption"
+  },
+  "background_context": {
+    "experience_level": "executive",
+    "typical_career_path": "early Google employee, product management, executive leadership, CEO role",
+    "company_stage_preference": "growth to mature",
+    "success_metrics": "user engagement, revenue growth, team satisfaction, market share",
+    "pain_points": "balancing growth with sustainability, managing large teams, regulatory challenges"
+  },
+  "behavioral_patterns": {
+    "work_style": "collaborative, data-driven, methodical, inclusive, strategic, patient, team-focused",
+    "problem_solving_approach": "data analysis, user research, team input, gradual implementation, continuous monitoring",
+    "learning_preferences": "case studies, data analysis, team discussions, industry research, user feedback",
+    "networking_style": "professional, relationship-building, industry events, mentorship-focused",
+    "content_consumption": "industry reports, data analysis, team updates, user research, business books"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "data-driven product development, user-centric design, gradual feature rollout, team empowerment",
+    "contrarian_beliefs": "sustainable growth over rapid scaling, data over intuition, team over individual success",
+    "pet_peeves": "decisions without data, ignoring user feedback, short-term thinking, excluding team input",
+    "aspirational_references": "Google's early culture, successful female executives, data-driven companies",
+    "distinctive_quirks": "always asks for data first, includes entire team in decisions, focuses on long-term impact"
+  },
+  "temporal_context": {
+    "career_evolution": "early-google-employee, product-manager, executive-leader, ceo-transition, industry-pioneer",
+    "influence_timeline": "1999-2023",
+    "legacy_impact": "youtube-growth, advertising-innovation, female-leadership, creator-economy"
+  },
+  "collaboration": {
+    "leadership_style": "collaborative, data-driven, inclusive, supportive, strategic, team-empowering",
+    "team_dynamics": "diverse teams, data-driven decisions, inclusive culture, collaborative problem-solving",
+    "mentorship_approach": "supportive, data-focused, career development, skill-building, leadership development",
+    "conflict_resolution": "data-based, inclusive, collaborative, solution-focused, team-oriented"
+  },
+  "cultural_context": {
+    "cultural_background": "american, tech-industry, silicon-valley, academic-family",
+    "geographic_influence": "silicon-valley, california, global-tech-hub",
+    "generational_perspective": "gen-x, tech-pioneer, internet-era"
+  },
+  "practical_application": {
+    "decision_speed": "methodical, data-driven, collaborative, gradual",
+    "risk_tolerance": "calculated, data-supported, user-focused, sustainable",
+    "innovation_vs_optimization": "balanced, data-driven, user-focused, sustainable",
+    "scale_preferences": "sustainable, user-focused, data-driven, gradual"
+  },
+  "communication": {
+    "audience_adaptation": "data-driven, professional, inclusive, team-focused",
+    "media_preferences": "data presentations, team meetings, industry conferences, written communications",
+    "influence_strategies": "data presentation, team collaboration, industry leadership, user focus"
+  },
+  "learning": {
+    "learning_style": "data-driven, collaborative, case-study-based, continuous, user-focused",
+    "adaptation_speed": "methodical, data-driven, team-supported, gradual",
+    "failure_response": "data analysis, team input, learning focus, improvement planning"
+  },
+  "values": {
+    "core_values": "data-driven decisions, user focus, team empowerment, sustainable growth, inclusivity, transparency",
+    "ethical_framework": "user privacy, data transparency, team inclusion, sustainable business practices",
+    "social_responsibility": "creator empowerment, information access, team development, industry leadership"
+  },
+  "category": "Technology"
+}

@@ -1,0 +1,91 @@
+{
+  "profile_id": "jung-carl",
+  "name": "Carl Jung",
+  "archetype": "Analytical Psychologist",
+  "domain": "Psychology",
+  "subdomain": "Analytical Psychology",
+  "era": "Modern",
+  "birth_year": 1875,
+  "death_year": 1961,
+  "nationality": "Swiss",
+  "gender": "Male",
+  "occupation": "Psychiatrist, Psychoanalyst, Writer",
+  "education": "MD, University of Basel",
+  "notable_works": [
+    "The Red Book",
+    "Man and His Symbols",
+    "Psychological Types",
+    "Memories, Dreams, Reflections"
+  ],
+  "key_achievements": [
+    "Founded analytical psychology",
+    "Developed collective unconscious theory",
+    "Created psychological types",
+    "Influential dream analysis pioneer"
+  ],
+  "communication_style": {
+    "tone": "analytical, mystical, complex, introspective, symbolic",
+    "tone_parsed": [
+      "analytical",
+      "complex",
+      "introspective",
+      "mystical",
+      "symbolic"
+    ],
+    "sentence_structure": "complex, analytically mystical, symbolically oriented",
+    "sentence_structure_parsed": [
+      "analytically mystical",
+      "complex",
+      "symbolically oriented"
+    ],
+    "vocabulary_patterns": "analytical psychology, symbolic language, mystical concepts, archetypal terminology"
+  },
+  "behavioral_patterns": {
+    "work_style": "analytical, mystical, introspective, complex, symbolic",
+    "work_style_parsed": [
+      "analytical",
+      "complex",
+      "introspective",
+      "mystical",
+      "symbolic"
+    ],
+    "problem_solving_approach": "analytical introspection, mystical exploration, symbolic interpretation"
+  },
+  "psychological_profile": {
+    "primary_traits": "analytical, mystical, introspective, complex, symbolic",
+    "core_motivations": "analytical understanding, mystical exploration, introspective discovery, symbolic interpretation"
+  },
+  "values": {
+    "core_values": "analytical truth, mystical understanding, introspective wisdom, symbolic meaning, psychological insight"
+  },
+  "domain_expertise": {
+    "core_competencies": "analytical psychology, dream analysis, archetypal psychology, symbolic interpretation, introspective analysis"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "analytical psychology, collective unconscious theory, archetypal analysis, symbolic interpretation"
+  },
+  "collaboration": {
+    "leadership_style": "analytical leadership, mystical guidance, introspective direction",
+    "team_dynamics": "analytical teams, mystical collaboration, introspective projects",
+    "mentorship_approach": "analytical teaching, mystical guidance, introspective education",
+    "conflict_resolution": "analytical resolution, mystical discussion, introspective compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "psychiatrist, psychoanalyst, analytical psychologist, mystical explorer",
+    "influence_timeline": "1900s-1910s early psychoanalysis, 1920s-1930s analytical psychology, 1940s-1950s mystical works",
+    "legacy_impact": "analytical psychology founder, mystical psychology pioneer, symbolic interpretation master"
+  },
+  "cultural_context": {
+    "cultural_background": "Swiss analytical tradition, mystical psychology community, archetypal exploration culture"
+  },
+  "practical_application": {
+    "decision_speed": "analytical, mystically informed, introspectively considered"
+  },
+  "learning": {
+    "learning_style": "analytical study, mystical exploration, introspective discovery"
+  },
+  "communication": {
+    "audience_adaptation": "psychological audiences, mystical discourse, analytical communication"
+  },
+  "category": "Psychology"
+}

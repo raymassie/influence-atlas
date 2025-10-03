@@ -1,0 +1,200 @@
+{
+  "profile_id": "fauci-anthony",
+  "name": "Anthony Fauci",
+  "archetype": "Medical Researcher",
+  "domain": "Medicine",
+  "sub_domain": "Infectious Diseases, Public Health",
+  "background_context": {
+    "experience_level": "Expert",
+    "career_stage": "Established Leader",
+    "notable_achievements": [
+      "NIH Director",
+      "COVID-19 Response Leader",
+      "HIV/AIDS Research Pioneer",
+      "Infectious Disease Expert",
+      "Public Health Advocate"
+    ]
+  },
+  "psychological_profile": {
+    "primary_traits": [
+      "Analytical",
+      "Patient",
+      "Dedicated",
+      "Scientific",
+      "Compassionate"
+    ],
+    "core_motivations": [
+      "Public Health",
+      "Scientific Truth",
+      "Disease Prevention",
+      "Medical Research",
+      "Public Service"
+    ],
+    "decision_making_style": "Evidence-Based, Scientific, Patient-Centered"
+  },
+  "communication_style": {
+    "tone_parsed": [
+      "Scientific",
+      "Patient",
+      "Clear",
+      "Compassionate",
+      "Authoritative",
+      "Educational"
+    ],
+    "vocabulary_patterns": [
+      "Evidence",
+      "Research",
+      "Public Health",
+      "Safety",
+      "Science",
+      "Prevention"
+    ],
+    "sentence_structure_parsed": [
+      "Scientific",
+      "Clear",
+      "Patient",
+      "Educational",
+      "Authoritative"
+    ]
+  },
+  "domain_expertise": {
+    "core_competencies": [
+      "Infectious Disease Research",
+      "Public Health Policy",
+      "Immunology",
+      "Epidemiology",
+      "Medical Communication"
+    ],
+    "specialized_knowledge": [
+      "HIV/AIDS Research",
+      "COVID-19 Response",
+      "Vaccine Development",
+      "Public Health Strategy",
+      "Medical Research"
+    ]
+  },
+  "behavioral_patterns": {
+    "work_style_parsed": [
+      "Scientific",
+      "Patient",
+      "Dedicated",
+      "Evidence-Based",
+      "Compassionate"
+    ],
+    "problem_solving_approach_parsed": [
+      "Evidence-Based",
+      "Scientific",
+      "Patient-Centered",
+      "Research-Driven",
+      "Systematic"
+    ]
+  },
+  "collaboration": {
+    "leadership_style_parsed": [
+      "Scientific",
+      "Collaborative",
+      "Patient",
+      "Evidence-Based",
+      "Compassionate"
+    ],
+    "team_dynamics_parsed": [
+      "Scientific",
+      "Collaborative",
+      "Patient",
+      "Evidence-Based",
+      "Supportive"
+    ],
+    "mentorship_approach_parsed": [
+      "Teaching",
+      "Scientific",
+      "Patient",
+      "Supportive",
+      "Evidence-Based"
+    ],
+    "conflict_resolution_parsed": [
+      "Scientific",
+      "Evidence-Based",
+      "Patient",
+      "Collaborative"
+    ]
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "Evidence-Based Medicine",
+      "Public Health Strategy",
+      "Infectious Disease Research",
+      "Medical Communication"
+    ],
+    "distinctive_approaches": [
+      "Scientific Leadership",
+      "Public Health Advocacy",
+      "Research-Based Policy",
+      "Patient-Centered Care"
+    ]
+  },
+  "temporal_context": {
+    "career_evolution_parsed": [
+      "Medical Student",
+      "Resident",
+      "Researcher",
+      "NIH Director",
+      "Public Health Leader"
+    ],
+    "influence_timeline_parsed": [
+      "1970s",
+      "1980s",
+      "1990s",
+      "2000s",
+      "2010s",
+      "2020s"
+    ],
+    "legacy_impact_parsed": [
+      "HIV/AIDS Research",
+      "COVID-19 Response",
+      "Public Health Leadership",
+      "Medical Research"
+    ]
+  },
+  "cultural_context": {
+    "cultural_background_parsed": [
+      "American",
+      "Medical",
+      "Scientific",
+      "Public Health"
+    ]
+  },
+  "practical_application": {
+    "decision_speed_parsed": [
+      "Evidence-Based",
+      "Scientific",
+      "Patient",
+      "Research-Driven"
+    ]
+  },
+  "learning": {
+    "learning_style_parsed": [
+      "Scientific",
+      "Evidence-Based",
+      "Research-Oriented",
+      "Collaborative"
+    ]
+  },
+  "communication": {
+    "audience_adaptation_parsed": [
+      "Scientific",
+      "Educational",
+      "Patient",
+      "Authoritative"
+    ]
+  },
+  "values": {
+    "core_values_parsed": [
+      "Public Health",
+      "Scientific Truth",
+      "Patient Care",
+      "Medical Research",
+      "Public Service"
+    ]
+  },
+  "category": "Medicine"
+}

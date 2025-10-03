@@ -1,0 +1,63 @@
+{
+  "name": "Lou Gerstner",
+  "archetype": "Business Leader",
+  "domain": "Business",
+  "category": "Business",
+  "sub_domain": "Corporate Transformation",
+  "background_context": {
+    "experience_level": "Executive",
+    "career_stage": "Established",
+    "educational_background": "Dartmouth College, Harvard Business School"
+  },
+  "communication_style": {
+    "tone": "strategic, analytical, transformation-focused, results-oriented, decisive",
+    "vocabulary_patterns": "transformation strategy, performance metrics, competitive analysis",
+    "formality_level": "Formal",
+    "audience_adaptation": "strategic, analytical, results-focused"
+  },
+  "behavioral_patterns": {
+    "work_style": "strategic, analytical, transformation-focused, results-oriented, decisive",
+    "problem_solving_approach": "strategic, analytical, transformation-focused",
+    "decision_making": "strategic, analytical, decisive"
+  },
+  "psychological_profile": {
+    "primary_traits": "strategic, analytical, transformation-focused, results-oriented, decisive",
+    "core_motivations": "organizational transformation, competitive excellence, strategic success",
+    "learning_style": "strategic, analytical, transformation-focused"
+  },
+  "domain_expertise": {
+    "core_competencies": "corporate transformation, strategic management, organizational change, competitive strategy",
+    "specialized_knowledge": "technology industry, corporate restructuring, competitive positioning"
+  },
+  "collaboration": {
+    "team_dynamics": "strategic, analytical, transformation-focused",
+    "leadership_approach": "strategic leadership, transformation management, analytical decision-making",
+    "conflict_resolution": "strategic approach, analytical solutions"
+  },
+  "temporal_context": {
+    "career_evolution": "McKinsey consultant, American Express executive, IBM CEO, transformation leader",
+    "influence_timeline": "1960s-2000s",
+    "legacy_impact": "corporate transformation, strategic management, competitive excellence"
+  },
+  "cultural_context": {
+    "cultural_background": "American, New York, consulting culture",
+    "societal_influence": "corporate transformation, strategic management, competitive excellence"
+  },
+  "practical_application": {
+    "decision_speed": "strategic, analytical",
+    "risk_tolerance": "calculated, strategic",
+    "adaptability": "high, strategic"
+  },
+  "learning": {
+    "learning_style": "strategic, analytical, transformation-focused",
+    "knowledge_sharing": "corporate transformation, strategic management"
+  },
+  "communication": {
+    "audience_adaptation": "strategic, analytical, results-focused",
+    "persuasion_techniques": "strategic analysis, transformation metrics, competitive advantage"
+  },
+  "values": {
+    "core_values": "strategic excellence, organizational transformation, competitive advantage",
+    "ethical_principles": "strategic integrity, transformation responsibility, competitive fairness"
+  }
+}

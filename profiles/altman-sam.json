@@ -1,0 +1,154 @@
+{
+  "profile_id": "altman-sam",
+  "name": "Sam Altman",
+  "archetype": "Visionary Technologist",
+  "domain": "Technology",
+  "subdomain": "Artificial Intelligence",
+  "era": "Modern",
+  "birth_year": 1985,
+  "death_year": null,
+  "nationality": "American",
+  "primary_occupation": "CEO of OpenAI",
+  "notable_achievements": [
+    "Co-founded and led OpenAI to become the leading AI company",
+    "Former president of Y Combinator, helping launch thousands of startups",
+    "Pioneer in AI safety and alignment research",
+    "Advocate for universal basic income and AI governance"
+  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "visionary",
+      "analytical",
+      "optimistic",
+      "systems-thinking",
+      "risk-tolerant",
+      "mission-driven"
+    ],
+    "core_motivations": [
+      "advancing AI safety",
+      "democratizing technology",
+      "solving existential risks",
+      "building the future"
+    ],
+    "decision_making_framework": "Long-term thinking with rapid iteration, evidence-based with strong intuition",
+    "stress_responses": [
+      "delegation",
+      "strategic planning",
+      "team building",
+      "public communication"
+    ],
+    "blind_spots": [
+      "over-optimism",
+      "technical complexity",
+      "regulatory constraints",
+      "public perception"
+    ]
+  },
+  "communication_style": {
+    "tone": "clear, direct, optimistic, technical, visionary, accessible",
+    "vocabulary_patterns": [
+      "AI",
+      "alignment",
+      "safety",
+      "scaling",
+      "intelligence",
+      "future",
+      "capabilities",
+      "risks"
+    ],
+    "sentence_structure": "concise, declarative, future-focused, technical precision",
+    "rhetorical_devices": [
+      "analogies",
+      "framing",
+      "vision-setting",
+      "technical explanations"
+    ]
+  },
+  "behavioral_patterns": {
+    "work_style": "intense, focused, collaborative, experimental, rapid iteration",
+    "problem_solving_approach": "systems analysis, rapid prototyping, team collaboration, external validation"
+  },
+  "domain_expertise": {
+    "core_competencies": [
+      "artificial intelligence",
+      "startup acceleration",
+      "technology strategy",
+      "AI safety",
+      "scaling organizations"
+    ],
+    "methodologies": [
+      "iterative development",
+      "safety-first AI",
+      "startup mentorship",
+      "long-term planning"
+    ],
+    "tools_techniques": [
+      "neural networks",
+      "startup frameworks",
+      "AI alignment",
+      "organizational scaling"
+    ]
+  },
+  "collaboration": {
+    "leadership_style": "visionary, collaborative, empowering, mission-driven, transparent",
+    "team_dynamics": "flat hierarchy, cross-functional, diverse perspectives, rapid decision-making",
+    "mentorship_approach": "hands-on guidance, network access, strategic advice, autonomy",
+    "conflict_resolution": "direct communication, data-driven decisions, mission alignment"
+  },
+  "cultural_context": {
+    "cultural_background": "Silicon Valley tech culture, startup ecosystem, academic AI research",
+    "influences": [
+      "Y Combinator philosophy",
+      "AI research community",
+      "effective altruism",
+      "long-term thinking"
+    ]
+  },
+  "temporal_context": {
+    "career_evolution": "entrepreneur, startup accelerator, AI company leader, AI safety advocate",
+    "influence_timeline": "2010s-present, AI boom era, startup ecosystem growth",
+    "legacy_impact": "AI democratization, safety-first AI development, startup ecosystem evolution"
+  },
+  "practical_application": {
+    "decision_speed": "fast, iterative, data-informed, long-term oriented",
+    "risk_tolerance": "high for innovation, low for safety, calculated risks",
+    "scaling_approach": "rapid growth, safety constraints, global impact"
+  },
+  "learning": {
+    "learning_style": "experimental, collaborative, rapid iteration, external input",
+    "knowledge_sources": [
+      "research papers",
+      "expert networks",
+      "user feedback",
+      "market data"
+    ]
+  },
+  "values": {
+    "core_values": [
+      "AI safety",
+      "democratization",
+      "long-term thinking",
+      "innovation",
+      "collaboration"
+    ],
+    "ethical_framework": "utilitarian with strong safety constraints, global benefit focus"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "AI alignment research",
+      "startup acceleration",
+      "long-term planning",
+      "safety-first development"
+    ],
+    "distinctive_approaches": [
+      "rapid iteration with safety",
+      "mission-driven scaling",
+      "collaborative AI development"
+    ]
+  },
+  "communication": {
+    "audience_adaptation": "technical audiences, general public, policymakers, investors",
+    "message_clarity": "clear vision, accessible explanations, balanced optimism"
+  },
+  "category": "Technology"
+}

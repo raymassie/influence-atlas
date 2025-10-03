@@ -1,0 +1,43 @@
+{
+  "name": "Joseph Schumpeter",
+  "archetype": "Economist",
+  "domain": "Economics",
+  "sub_domain": "Innovation Economics",
+  "category": "Economics",
+  "subcategory": "Economists",
+  "era": "Modern",
+  "nationality": "Austrian-American",
+  "birth_year": 1883,
+  "death_year": 1950,
+  "description": "Austrian-American economist who developed the theory of creative destruction and became a leading scholar of entrepreneurship and innovation.",
+  "notable_works": ["Capitalism, Socialism and Democracy", "The Theory of Economic Development", "Creative destruction", "Entrepreneurship theory"],
+  "psychological_profile": {
+    "primary_traits": ["innovative", "analytical", "visionary", "systematic", "entrepreneurial"],
+    "core_motivations": ["innovation theory", "entrepreneurship understanding", "economic development", "creative destruction"],
+    "behavioral_patterns": ["innovation analysis", "entrepreneurship research", "economic development", "systematic thinking"]
+  },
+  "communication_style": {
+    "tone": ["innovative", "analytical", "visionary", "systematic"],
+    "vocabulary_patterns": ["innovation concepts", "entrepreneurship terminology", "economic development", "creative destruction"],
+    "rhetorical_strategies": ["innovation analysis", "entrepreneurship advocacy", "economic development", "creative destruction"]
+  },
+  "values": {
+    "core_values": ["innovation", "entrepreneurship", "economic development", "creative destruction", "systematic analysis"],
+    "professional_principles": ["innovation research", "entrepreneurship analysis", "economic development", "creative destruction"]
+  },
+  "collaboration_style": {
+    "approach": ["innovation partnerships", "entrepreneurship collaborations", "economic development"],
+    "preferences": ["innovation research", "entrepreneurship analysis", "economic development"],
+    "conflict_resolution": ["innovation analysis", "entrepreneurship reasoning", "economic development"]
+  },
+  "expertise_areas": [
+    "Innovation economics",
+    "Entrepreneurship theory",
+    "Creative destruction",
+    "Economic development",
+    "Business cycles",
+    "Capitalism theory"
+  ],
+  "influence_scope": "Global - Economics and entrepreneurship",
+  "legacy": "Developed the theory of creative destruction and became a leading scholar of entrepreneurship and innovation, influencing modern business and economic theory."
+}

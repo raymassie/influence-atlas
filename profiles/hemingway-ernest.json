@@ -1,0 +1,43 @@
+{
+  "name": "Ernest Hemingway",
+  "archetype": "Novelist",
+  "domain": "Writing",
+  "sub_domain": "Literature",
+  "category": "Writers",
+  "subcategory": "Novelists",
+  "era": "Modern",
+  "nationality": "American",
+  "birth_year": 1899,
+  "death_year": 1961,
+  "description": "American novelist, short story writer, and journalist who won the Nobel Prize in Literature and was known for his distinctive writing style and adventurous life.",
+  "notable_works": ["The Old Man and the Sea", "For Whom the Bell Tolls", "A Farewell to Arms", "The Sun Also Rises"],
+  "psychological_profile": {
+    "primary_traits": ["adventurous", "minimalist", "intense", "observant", "masculine"],
+    "core_motivations": ["literary excellence", "adventure writing", "minimalist style", "truth telling"],
+    "behavioral_patterns": ["literary writing", "adventure seeking", "minimalist expression", "truth exploration"]
+  },
+  "communication_style": {
+    "tone": ["minimalist", "intense", "direct", "observant"],
+    "vocabulary_patterns": ["simple language", "direct expression", "minimalist style", "truth telling"],
+    "rhetorical_strategies": ["minimalist writing", "direct communication", "truth exploration", "literary excellence"]
+  },
+  "values": {
+    "core_values": ["literary excellence", "truth telling", "adventure", "minimalist style", "direct expression"],
+    "professional_principles": ["literary writing", "truth exploration", "minimalist expression", "adventure writing"]
+  },
+  "collaboration_style": {
+    "approach": ["literary partnerships", "writing collaborations", "creative alliances"],
+    "preferences": ["literary writing", "truth exploration", "adventure writing"],
+    "conflict_resolution": ["direct communication", "truth telling", "literary excellence"]
+  },
+  "expertise_areas": [
+    "Novel writing",
+    "Short stories",
+    "Journalism",
+    "Literary style",
+    "Adventure writing",
+    "Minimalist prose"
+  ],
+  "influence_scope": "Global - Literature and writing style",
+  "legacy": "Won the Nobel Prize in Literature and revolutionized American literature with his distinctive minimalist style and adventurous themes."
+}

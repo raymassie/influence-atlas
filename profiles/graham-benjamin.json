@@ -1,0 +1,90 @@
+{
+  "profile_id": "graham-benjamin",
+  "name": "Benjamin Graham",
+  "archetype": "Value Investor",
+  "domain": "Investment",
+  "subdomain": "Value Investing",
+  "era": "Modern",
+  "birth_year": 1894,
+  "death_year": 1976,
+  "nationality": "American",
+  "gender": "Male",
+  "occupation": "Investor, Economist, Professor, Author",
+  "education": "BA in Economics, Columbia University",
+  "notable_works": [
+    "The Intelligent Investor",
+    "Security Analysis",
+    "The Interpretation of Financial Statements"
+  ],
+  "key_achievements": [
+    "Value investing founder",
+    "Warren Buffett's mentor",
+    "Security analysis pioneer",
+    "Financial statement analysis master"
+  ],
+  "communication_style": {
+    "tone": "analytical, value-focused, fundamental, educational, systematic",
+    "tone_parsed": [
+      "analytical",
+      "educational",
+      "fundamental",
+      "systematic",
+      "value-focused"
+    ],
+    "sentence_structure": "analytical, fundamentally systematic, value-focused",
+    "sentence_structure_parsed": [
+      "fundamentally systematic",
+      "analytical",
+      "value-focused"
+    ],
+    "vocabulary_patterns": "value investing terminology, fundamental analysis concepts, systematic language, educational communication"
+  },
+  "behavioral_patterns": {
+    "work_style": "analytical, value-focused, fundamental, educational, systematic",
+    "work_style_parsed": [
+      "analytical",
+      "educational",
+      "fundamental",
+      "systematic",
+      "value-focused"
+    ],
+    "problem_solving_approach": "analytical value, fundamental analysis, systematic evaluation"
+  },
+  "psychological_profile": {
+    "primary_traits": "analytical, value-focused, fundamental, educational, systematic",
+    "core_motivations": "analytical value, fundamental understanding, systematic investing, educational excellence"
+  },
+  "values": {
+    "core_values": "value investing, fundamental analysis, systematic thinking, educational excellence, analytical precision"
+  },
+  "domain_expertise": {
+    "core_competencies": "value investing, fundamental analysis, security analysis, financial statement analysis, systematic investing"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "value investing framework, fundamental analysis, security analysis, systematic evaluation"
+  },
+  "collaboration": {
+    "leadership_style": "analytical leadership, value-focused direction, systematic guidance",
+    "team_dynamics": "analytical teams, value-focused collaboration, systematic projects",
+    "mentorship_approach": "analytical teaching, value-focused guidance, systematic education",
+    "conflict_resolution": "analytical resolution, value-focused discussion, systematic compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "economist, analyst, investor, professor, value investing pioneer",
+    "influence_timeline": "1920s-1930s early value investing, 1930s-1940s security analysis, 1940s-1950s educational works",
+    "legacy_impact": "value investing founder, fundamental analysis pioneer, systematic investing master"
+  },
+  "cultural_context": {
+    "cultural_background": "American investment tradition, value investing culture, fundamental analysis community"
+  },
+  "practical_application": {
+    "decision_speed": "analytical, value-focused, systematically considered"
+  },
+  "learning": {
+    "learning_style": "analytical study, value-focused exploration, systematic discovery"
+  },
+  "communication": {
+    "audience_adaptation": "investment professionals, value investors, analytical communication"
+  },
+  "category": "Investment"
+}

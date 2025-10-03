@@ -1,0 +1,43 @@
+{
+  "name": "Alfred Marshall",
+  "archetype": "Economist",
+  "domain": "Economics",
+  "sub_domain": "Microeconomics",
+  "category": "Economics",
+  "subcategory": "Economists",
+  "era": "Modern",
+  "nationality": "British",
+  "birth_year": 1842,
+  "death_year": 1924,
+  "description": "British economist who founded the Cambridge School of Economics and developed neoclassical economics, particularly in microeconomics and price theory.",
+  "notable_works": ["Principles of Economics", "Microeconomics", "Price theory", "Neoclassical economics"],
+  "psychological_profile": {
+    "primary_traits": ["analytical", "systematic", "influential", "methodical", "theoretical"],
+    "core_motivations": ["economic theory", "microeconomic understanding", "price theory", "neoclassical synthesis"],
+    "behavioral_patterns": ["microeconomic analysis", "price theory research", "economic theory", "systematic thinking"]
+  },
+  "communication_style": {
+    "tone": ["analytical", "systematic", "theoretical", "methodical"],
+    "vocabulary_patterns": ["microeconomic concepts", "price theory terminology", "neoclassical language", "economic analysis"],
+    "rhetorical_strategies": ["microeconomic analysis", "price theory demonstration", "neoclassical argument", "economic theory"]
+  },
+  "values": {
+    "core_values": ["economic theory", "microeconomic understanding", "price theory", "neoclassical synthesis", "systematic analysis"],
+    "professional_principles": ["microeconomic analysis", "price theory research", "economic theory", "neoclassical synthesis"]
+  },
+  "collaboration_style": {
+    "approach": ["economic partnerships", "theoretical collaborations", "academic alliances"],
+    "preferences": ["microeconomic analysis", "price theory research", "economic theory"],
+    "conflict_resolution": ["microeconomic analysis", "price theory reasoning", "economic theory"]
+  },
+  "expertise_areas": [
+    "Microeconomics",
+    "Price theory",
+    "Neoclassical economics",
+    "Supply and demand",
+    "Economic theory",
+    "Cambridge School"
+  ],
+  "influence_scope": "Global - Economics and microeconomic theory",
+  "legacy": "Founded the Cambridge School of Economics and developed neoclassical economics, establishing the foundation for modern microeconomics and price theory."
+}

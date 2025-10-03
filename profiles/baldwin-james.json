@@ -1,0 +1,43 @@
+{
+  "name": "James Baldwin",
+  "archetype": "Novelist",
+  "domain": "Writing",
+  "sub_domain": "Literature",
+  "category": "Writers",
+  "subcategory": "Novelists",
+  "era": "Modern",
+  "nationality": "American",
+  "birth_year": 1924,
+  "death_year": 1987,
+  "description": "American novelist, essayist, and civil rights activist who wrote about race, sexuality, and social issues in America.",
+  "notable_works": ["Go Tell It on the Mountain", "Notes of a Native Son", "The Fire Next Time", "Giovanni's Room"],
+  "psychological_profile": {
+    "primary_traits": ["passionate", "introspective", "activist", "eloquent", "courageous"],
+    "core_motivations": ["social justice", "racial equality", "literary excellence", "truth telling"],
+    "behavioral_patterns": ["social justice writing", "racial equality advocacy", "literary excellence", "truth exploration"]
+  },
+  "communication_style": {
+    "tone": ["passionate", "eloquent", "activist", "introspective"],
+    "vocabulary_patterns": ["social justice concepts", "racial equality terminology", "literary language", "activist expression"],
+    "rhetorical_strategies": ["social justice advocacy", "racial equality", "literary excellence", "truth telling"]
+  },
+  "values": {
+    "core_values": ["social justice", "racial equality", "literary excellence", "truth telling", "human dignity"],
+    "professional_principles": ["social justice writing", "racial equality advocacy", "literary excellence", "truth exploration"]
+  },
+  "collaboration_style": {
+    "approach": ["social justice partnerships", "civil rights collaborations", "literary alliances"],
+    "preferences": ["social justice writing", "racial equality advocacy", "literary excellence"],
+    "conflict_resolution": ["social justice analysis", "racial equality reasoning", "truth telling"]
+  },
+  "expertise_areas": [
+    "Novel writing",
+    "Essay writing",
+    "Social justice literature",
+    "Civil rights advocacy",
+    "Literary criticism",
+    "African American literature"
+  ],
+  "influence_scope": "Global - Literature and civil rights",
+  "legacy": "Became a leading voice in American literature and civil rights, writing powerfully about race, sexuality, and social justice issues that continue to resonate today."
+}

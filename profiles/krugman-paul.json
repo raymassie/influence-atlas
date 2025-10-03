@@ -1,0 +1,43 @@
+{
+  "name": "Paul Krugman",
+  "archetype": "Economist",
+  "domain": "Economics",
+  "sub_domain": "International Economics",
+  "category": "Economics",
+  "subcategory": "Economists",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1953,
+  "death_year": null,
+  "description": "American economist who won the Nobel Prize in Economics and is known for his work in international economics and his influential economic commentary.",
+  "notable_works": ["The Return of Depression Economics", "International economics", "Economic commentary", "Trade theory"],
+  "psychological_profile": {
+    "primary_traits": ["analytical", "influential", "communicative", "systematic", "critical"],
+    "core_motivations": ["economic understanding", "policy influence", "public education", "economic analysis"],
+    "behavioral_patterns": ["economic analysis", "policy commentary", "public communication", "systematic thinking"]
+  },
+  "communication_style": {
+    "tone": ["analytical", "influential", "communicative", "critical"],
+    "vocabulary_patterns": ["economic concepts", "policy terminology", "public language", "economic analysis"],
+    "rhetorical_strategies": ["economic analysis", "policy advocacy", "public education", "economic commentary"]
+  },
+  "values": {
+    "core_values": ["economic understanding", "policy influence", "public education", "economic analysis", "systematic thinking"],
+    "professional_principles": ["economic analysis", "policy commentary", "public communication", "economic education"]
+  },
+  "collaboration_style": {
+    "approach": ["economic partnerships", "policy collaborations", "public alliances"],
+    "preferences": ["economic analysis", "policy commentary", "public communication"],
+    "conflict_resolution": ["economic analysis", "policy reasoning", "public education"]
+  },
+  "expertise_areas": [
+    "International economics",
+    "Trade theory",
+    "Economic policy",
+    "Economic commentary",
+    "Public finance",
+    "Economic analysis"
+  ],
+  "influence_scope": "Global - Economics and economic policy",
+  "legacy": "Won the Nobel Prize in Economics and became a leading voice in economic commentary, influencing public understanding of economic policy and international trade."
+}

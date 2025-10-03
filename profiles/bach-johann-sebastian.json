@@ -1,0 +1,63 @@
+{
+  "name": "Johann Sebastian Bach",
+  "archetype": "Classical Musician",
+  "domain": "Music",
+  "category": "Music",
+  "sub_domain": "Baroque",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Formal Training"
+  },
+  "communication_style": {
+    "tone": "mathematical, precise, complex, spiritual, systematic",
+    "vocabulary_patterns": "musical counterpoint, mathematical precision, spiritual expression",
+    "formality_level": "Formal",
+    "audience_adaptation": "educated, musically sophisticated, religious"
+  },
+  "behavioral_patterns": {
+    "work_style": "systematic, prolific, mathematically precise, spiritually driven",
+    "problem_solving_approach": "mathematical, systematic, counterpoint-based",
+    "decision_making": "systematic, spiritually informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "systematic, mathematically precise, spiritually driven, prolific, innovative",
+    "core_motivations": "musical perfection, spiritual expression, mathematical beauty",
+    "learning_style": "systematic, mathematical, spiritually driven"
+  },
+  "domain_expertise": {
+    "core_competencies": "counterpoint, fugue composition, organ performance, mathematical precision",
+    "specialized_knowledge": "baroque forms, harmonic innovation, spiritual music"
+  },
+  "collaboration": {
+    "team_dynamics": "systematic, mathematically precise, spiritually focused",
+    "leadership_approach": "leading through musical excellence, spiritual vision",
+    "conflict_resolution": "musical expression, spiritual harmony"
+  },
+  "temporal_context": {
+    "career_evolution": "church musician, court composer, musical innovator, baroque master",
+    "influence_timeline": "1700s-1750s",
+    "legacy_impact": "baroque mastery, counterpoint innovation, spiritual music"
+  },
+  "cultural_context": {
+    "cultural_background": "German, Lutheran, court musician",
+    "societal_influence": "religious music, baroque innovation, musical education"
+  },
+  "practical_application": {
+    "decision_speed": "systematic, mathematically informed",
+    "risk_tolerance": "moderate, innovative",
+    "adaptability": "high, systematically versatile"
+  },
+  "learning": {
+    "learning_style": "systematic, mathematical, spiritually driven",
+    "knowledge_sharing": "musical innovation, counterpoint mastery"
+  },
+  "communication": {
+    "audience_adaptation": "educated, musically sophisticated, religious",
+    "persuasion_techniques": "mathematical precision, spiritual expression"
+  },
+  "values": {
+    "core_values": "musical perfection, spiritual expression, mathematical beauty",
+    "ethical_principles": "artistic integrity, spiritual devotion, musical innovation"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Eric Hobsbawm",
+  "archetype": "Philosophical Historian",
+  "domain": "History",
+  "category": "History",
+  "sub_domain": "Social History",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Cambridge University"
+  },
+  "communication_style": {
+    "tone": "analytical, social-focused, theoretical, comprehensive, critical",
+    "vocabulary_patterns": "social analysis, theoretical insights, comprehensive methodology, critical perspective",
+    "formality_level": "Formal",
+    "audience_adaptation": "socially oriented, theoretically informed, analytically sophisticated"
+  },
+  "behavioral_patterns": {
+    "work_style": "analytical, social-focused, theoretical, comprehensive, critical",
+    "problem_solving_approach": "social, analytical, theoretical",
+    "decision_making": "social, theoretically informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "analytical, social-focused, theoretical, comprehensive, critical",
+    "core_motivations": "social understanding, theoretical insight, comprehensive analysis, critical perspective",
+    "learning_style": "analytical, social, theoretical"
+  },
+  "domain_expertise": {
+    "core_competencies": "social history, theoretical analysis, comprehensive methodology, critical perspective",
+    "specialized_knowledge": "Marxist historiography, social movements, theoretical innovation, comprehensive analysis"
+  },
+  "collaboration": {
+    "team_dynamics": "analytical, social, theoretical",
+    "leadership_approach": "social leadership, analytical vision, theoretical innovation",
+    "conflict_resolution": "social approach, analytical perspective"
+  },
+  "temporal_context": {
+    "career_evolution": "historian, social analyst, theoretical innovator, comprehensive scholar",
+    "influence_timeline": "1940s-2010s",
+    "legacy_impact": "social history, theoretical innovation, comprehensive analysis, critical methodology"
+  },
+  "cultural_context": {
+    "cultural_background": "British, academic culture, Marxist tradition",
+    "societal_influence": "social history, theoretical innovation, comprehensive analysis, critical methodology"
+  },
+  "practical_application": {
+    "decision_speed": "social, theoretically informed",
+    "risk_tolerance": "moderate, theoretical",
+    "adaptability": "high, social"
+  },
+  "learning": {
+    "learning_style": "analytical, social, theoretical",
+    "knowledge_sharing": "social methodology, theoretical insights, comprehensive analysis"
+  },
+  "communication": {
+    "audience_adaptation": "socially oriented, theoretically informed, analytically sophisticated",
+    "persuasion_techniques": "social analysis, theoretical insights, comprehensive methodology"
+  },
+  "values": {
+    "core_values": "social understanding, theoretical innovation, comprehensive analysis, critical perspective",
+    "ethical_principles": "social integrity, theoretical responsibility, comprehensive honesty"
+  }
+}

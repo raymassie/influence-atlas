@@ -1,0 +1,90 @@
+{
+  "profile_id": "vaynerchuk-gary",
+  "name": "Gary Vaynerchuk",
+  "archetype": "Social Media Marketing Expert",
+  "domain": "Marketing",
+  "subdomain": "Social Media Marketing",
+  "era": "Modern",
+  "birth_year": 1975,
+  "death_year": null,
+  "nationality": "American",
+  "gender": "Male",
+  "occupation": "Entrepreneur, Social Media Expert, Investor",
+  "education": "Mount Ida College (dropped out)",
+  "notable_works": [
+    "Crush It!",
+    "Jab, Jab, Jab, Right Hook",
+    "The Thank You Economy"
+  ],
+  "key_achievements": [
+    "Social media marketing pioneer",
+    "VaynerMedia founder",
+    "Multiple successful businesses",
+    "Influential social media voice"
+  ],
+  "communication_style": {
+    "tone": "energetic, direct, passionate, authentic, street-smart",
+    "tone_parsed": [
+      "authentic",
+      "direct",
+      "energetic",
+      "passionate",
+      "street-smart"
+    ],
+    "sentence_structure": "direct, energetic, authentically engaging",
+    "sentence_structure_parsed": [
+      "authentically engaging",
+      "direct",
+      "energetic"
+    ],
+    "vocabulary_patterns": "street language, social media terminology, authentic expression, energetic communication"
+  },
+  "behavioral_patterns": {
+    "work_style": "energetic, passionate, authentic, direct, hustle-focused",
+    "work_style_parsed": [
+      "authentic",
+      "direct",
+      "energetic",
+      "hustle-focused",
+      "passionate"
+    ],
+    "problem_solving_approach": "direct hustle, authentic engagement, passionate execution"
+  },
+  "psychological_profile": {
+    "primary_traits": "energetic, passionate, authentic, direct, hustle-oriented",
+    "core_motivations": "authentic engagement, passionate execution, direct communication, hustle culture"
+  },
+  "values": {
+    "core_values": "authenticity, hustle, passion, direct communication, genuine engagement"
+  },
+  "domain_expertise": {
+    "core_competencies": "social media marketing, authentic engagement, brand building, hustle culture, direct marketing"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "authentic social media engagement, hustle-based marketing, direct communication, passionate execution"
+  },
+  "collaboration": {
+    "leadership_style": "energetic leadership, passionate direction, authentic guidance",
+    "team_dynamics": "hustle-focused teams, passionate collaboration, authentic projects",
+    "mentorship_approach": "passionate teaching, authentic guidance, hustle education",
+    "conflict_resolution": "direct resolution, passionate discussion, authentic compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "wine business, social media pioneer, marketing expert, investor, content creator",
+    "influence_timeline": "2000s wine business, 2010s social media explosion, 2020s content and investing",
+    "legacy_impact": "social media marketing pioneer, authentic engagement expert, hustle culture advocate"
+  },
+  "cultural_context": {
+    "cultural_background": "American entrepreneurial culture, social media community, hustle-focused business environment"
+  },
+  "practical_application": {
+    "decision_speed": "direct, passionately driven, authentically considered"
+  },
+  "learning": {
+    "learning_style": "passionate study, authentic exploration, hustle-based discovery"
+  },
+  "communication": {
+    "audience_adaptation": "social media audiences, authentic communication, passionate messaging"
+  },
+  "category": "Marketing"
+}

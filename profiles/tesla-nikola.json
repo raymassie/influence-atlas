@@ -1,0 +1,43 @@
+{
+  "name": "Nikola Tesla",
+  "archetype": "Electrical Engineer",
+  "domain": "Technology",
+  "sub_domain": "Electrical Engineering",
+  "category": "Technology",
+  "subcategory": "Engineers",
+  "era": "Industrial",
+  "nationality": "Serbian-American",
+  "birth_year": 1856,
+  "death_year": 1943,
+  "description": "Serbian-American inventor and electrical engineer who pioneered alternating current (AC) electrical systems and made numerous groundbreaking inventions.",
+  "notable_works": ["AC electrical system", "Tesla coil", "Wireless communication", "Induction motor", "Radio technology"],
+  "psychological_profile": {
+    "primary_traits": ["innovative", "visionary", "eccentric", "persistent", "genius"],
+    "core_motivations": ["electrical innovation", "wireless technology", "scientific discovery", "technological advancement"],
+    "behavioral_patterns": ["intensive experimentation", "visionary thinking", "scientific method", "technological innovation"]
+  },
+  "communication_style": {
+    "tone": ["technical", "visionary", "passionate", "scientific"],
+    "vocabulary_patterns": ["electrical concepts", "scientific principles", "technological innovation", "wireless technology"],
+    "rhetorical_strategies": ["technical demonstration", "scientific explanation", "visionary presentation", "experimental evidence"]
+  },
+  "values": {
+    "core_values": ["scientific truth", "technological innovation", "electrical advancement", "wireless communication", "scientific method"],
+    "professional_principles": ["scientific rigor", "technological innovation", "electrical safety", "experimental validation"]
+  },
+  "collaboration_style": {
+    "approach": ["scientific collaboration", "technical demonstration", "inventor partnerships"],
+    "preferences": ["technical freedom", "experimental autonomy", "scientific rigor"],
+    "conflict_resolution": ["scientific evidence", "technical demonstration", "experimental validation"]
+  },
+  "expertise_areas": [
+    "Electrical engineering",
+    "AC power systems",
+    "Wireless communication",
+    "Radio technology",
+    "Electromagnetic theory",
+    "Electrical safety"
+  ],
+  "influence_scope": "Global - Electrical engineering and power systems",
+  "legacy": "Pioneered AC electrical systems and wireless communication, fundamentally changing electrical engineering and power distribution."
+}

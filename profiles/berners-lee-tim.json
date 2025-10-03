@@ -1,0 +1,43 @@
+{
+  "name": "Tim Berners-Lee",
+  "archetype": "Web Inventor",
+  "domain": "Technology",
+  "sub_domain": "Computer Science",
+  "category": "Technology",
+  "subcategory": "Computer Scientists",
+  "era": "Contemporary",
+  "nationality": "British",
+  "birth_year": 1955,
+  "death_year": null,
+  "description": "British computer scientist who invented the World Wide Web and is considered one of the most influential figures in internet history.",
+  "notable_works": ["World Wide Web", "HTML", "HTTP", "URL", "Web standards"],
+  "psychological_profile": {
+    "primary_traits": ["innovative", "systematic", "collaborative", "visionary", "influential"],
+    "core_motivations": ["web innovation", "information sharing", "collaborative technology", "open standards"],
+    "behavioral_patterns": ["systematic innovation", "collaborative development", "open standards", "web architecture"]
+  },
+  "communication_style": {
+    "tone": ["technical", "collaborative", "visionary", "educational"],
+    "vocabulary_patterns": ["web technology", "information systems", "collaborative tools", "open standards"],
+    "rhetorical_strategies": ["technical demonstration", "systematic explanation", "collaborative discussion", "visionary presentation"]
+  },
+  "values": {
+    "core_values": ["open standards", "information sharing", "collaborative technology", "web accessibility", "technical innovation"],
+    "professional_principles": ["open web standards", "collaborative development", "information accessibility", "technical excellence"]
+  },
+  "collaboration_style": {
+    "approach": ["collaborative development", "open standards", "technical partnerships"],
+    "preferences": ["open collaboration", "technical partnerships", "standards development"],
+    "conflict_resolution": ["technical analysis", "collaborative solutions", "standards-based resolution"]
+  },
+  "expertise_areas": [
+    "Web technology",
+    "Information systems",
+    "Computer science",
+    "Web standards",
+    "Collaborative tools",
+    "Internet architecture"
+  ],
+  "influence_scope": "Global - Internet and web technology",
+  "legacy": "Invented the World Wide Web and established the foundation for modern internet communication and information sharing."
+}

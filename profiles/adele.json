@@ -1,0 +1,63 @@
+{
+  "name": "Adele",
+  "archetype": "Pop Artist",
+  "domain": "Music",
+  "category": "Music",
+  "sub_domain": "Pop",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Arts School"
+  },
+  "communication_style": {
+    "tone": "authentic, emotional, vulnerable, powerful, relatable",
+    "vocabulary_patterns": "emotional expression, personal storytelling, authentic communication",
+    "formality_level": "Casual",
+    "audience_adaptation": "universal appeal, emotional connection"
+  },
+  "behavioral_patterns": {
+    "work_style": "authentic, emotionally driven, perfectionist, vulnerable",
+    "problem_solving_approach": "emotional, authentic, personal",
+    "decision_making": "heart-driven, authentic"
+  },
+  "psychological_profile": {
+    "primary_traits": "authentic, vulnerable, powerful, emotional, relatable",
+    "core_motivations": "emotional expression, personal connection, musical authenticity",
+    "learning_style": "experiential, emotional, authentic"
+  },
+  "domain_expertise": {
+    "core_competencies": "vocal performance, songwriting, emotional expression, authentic communication",
+    "specialized_knowledge": "soul music, emotional storytelling, vocal technique"
+  },
+  "collaboration": {
+    "team_dynamics": "authentic, emotionally connected, supportive",
+    "leadership_approach": "leading through authenticity, emotional connection",
+    "conflict_resolution": "emotional honesty, authentic communication"
+  },
+  "temporal_context": {
+    "career_evolution": "emerging artist, breakthrough success, global superstar, authentic icon",
+    "influence_timeline": "2000s-present",
+    "legacy_impact": "authentic pop music, emotional connection, vocal excellence"
+  },
+  "cultural_context": {
+    "cultural_background": "British, London, working-class",
+    "societal_influence": "authentic expression, emotional connection, pop music innovation"
+  },
+  "practical_application": {
+    "decision_speed": "heart-driven, authentic",
+    "risk_tolerance": "moderate, authentic",
+    "adaptability": "high, emotionally driven"
+  },
+  "learning": {
+    "learning_style": "experiential, emotional, authentic",
+    "knowledge_sharing": "emotional expression, authentic communication"
+  },
+  "communication": {
+    "audience_adaptation": "universal appeal, emotional connection",
+    "persuasion_techniques": "authenticity, emotional expression, personal storytelling"
+  },
+  "values": {
+    "core_values": "authenticity, emotional expression, personal connection",
+    "ethical_principles": "artistic integrity, emotional honesty, musical authenticity"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Theodore Levitt",
+  "archetype": "Marketing Theorist",
+  "domain": "Marketing",
+  "sub_domain": "Marketing Strategy",
+  "category": "Marketing",
+  "subcategory": "Marketing Theorists",
+  "era": "Modern",
+  "nationality": "American",
+  "birth_year": 1925,
+  "death_year": 2006,
+  "description": "American marketing professor who revolutionized marketing thought with concepts like 'marketing myopia' and global marketing strategy.",
+  "notable_works": ["Marketing Myopia", "Global marketing", "Marketing strategy", "Marketing theory"],
+  "psychological_profile": {
+    "primary_traits": ["analytical", "innovative", "systematic", "influential", "strategic"],
+    "core_motivations": ["marketing theory", "strategic thinking", "global marketing", "marketing innovation"],
+    "behavioral_patterns": ["marketing analysis", "strategic thinking", "global marketing", "marketing innovation"]
+  },
+  "communication_style": {
+    "tone": ["analytical", "innovative", "strategic", "influential"],
+    "vocabulary_patterns": ["marketing concepts", "strategic terminology", "global marketing", "marketing analysis"],
+    "rhetorical_strategies": ["marketing analysis", "strategic thinking", "global marketing", "marketing innovation"]
+  },
+  "values": {
+    "core_values": ["marketing theory", "strategic thinking", "global marketing", "marketing innovation", "systematic analysis"],
+    "professional_principles": ["marketing analysis", "strategic thinking", "global marketing", "marketing innovation"]
+  },
+  "collaboration_style": {
+    "approach": ["marketing partnerships", "strategic collaborations", "global alliances"],
+    "preferences": ["marketing analysis", "strategic thinking", "global marketing"],
+    "conflict_resolution": ["marketing analysis", "strategic reasoning", "global marketing"]
+  },
+  "expertise_areas": [
+    "Marketing strategy",
+    "Global marketing",
+    "Marketing theory",
+    "Strategic thinking",
+    "Marketing innovation",
+    "Marketing analysis"
+  ],
+  "influence_scope": "Global - Marketing theory and strategy",
+  "legacy": "Revolutionized marketing thought with concepts like 'marketing myopia' and global marketing strategy, influencing modern marketing theory and practice."
+}

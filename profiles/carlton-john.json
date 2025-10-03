@@ -1,0 +1,89 @@
+{
+  "profile_id": "carlton-john",
+  "name": "John Carlton",
+  "archetype": "Sales Copywriter",
+  "domain": "Marketing",
+  "subdomain": "Sales Copywriting",
+  "era": "Modern",
+  "birth_year": 1952,
+  "death_year": null,
+  "nationality": "American",
+  "gender": "Male",
+  "occupation": "Copywriter, Marketing Consultant",
+  "education": "Self-educated",
+  "notable_works": [
+    "The Simple Writing System",
+    "Kick-Ass Copywriting Secrets"
+  ],
+  "key_achievements": [
+    "Legendary sales copywriter",
+    "Multi-million dollar campaigns",
+    "Influential copywriting mentor",
+    "Direct response marketing expert"
+  ],
+  "communication_style": {
+    "tone": "irreverent, direct, humorous, persuasive, authentic",
+    "tone_parsed": [
+      "authentic",
+      "direct",
+      "humorous",
+      "irreverent",
+      "persuasive"
+    ],
+    "sentence_structure": "irreverent, humorously direct, authentically engaging",
+    "sentence_structure_parsed": [
+      "authentically engaging",
+      "humorously direct",
+      "irreverent"
+    ],
+    "vocabulary_patterns": "irreverent language, humorous copy, direct sales terminology, authentic persuasion"
+  },
+  "behavioral_patterns": {
+    "work_style": "irreverent, humorous, direct, persuasive, authentic",
+    "work_style_parsed": [
+      "authentic",
+      "direct",
+      "humorous",
+      "irreverent",
+      "persuasive"
+    ],
+    "problem_solving_approach": "irreverent persuasion, humorous engagement, direct sales optimization"
+  },
+  "psychological_profile": {
+    "primary_traits": "irreverent, humorous, direct, persuasive, authentic",
+    "core_motivations": "irreverent persuasion, humorous engagement, direct communication, authentic sales"
+  },
+  "values": {
+    "core_values": "authenticity, irreverent humor, direct communication, persuasive excellence, sales mastery"
+  },
+  "domain_expertise": {
+    "core_competencies": "sales copywriting, irreverent marketing, humorous persuasion, direct response, authentic communication"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "irreverent copywriting, humorous persuasion, direct sales optimization, authentic marketing"
+  },
+  "collaboration": {
+    "leadership_style": "irreverent leadership, humorous direction, authentic guidance",
+    "team_dynamics": "humorous teams, irreverent collaboration, authentic projects",
+    "mentorship_approach": "irreverent teaching, humorous guidance, authentic education",
+    "conflict_resolution": "humorous resolution, irreverent discussion, authentic compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "copywriter, sales specialist, marketing consultant, irreverent mentor",
+    "influence_timeline": "1980s-1990s sales copywriting, 2000s-2010s irreverent marketing, ongoing influence",
+    "legacy_impact": "irreverent copywriting master, humorous persuasion expert, authentic sales communication pioneer"
+  },
+  "cultural_context": {
+    "cultural_background": "American sales culture, irreverent marketing community, humorous communication tradition"
+  },
+  "practical_application": {
+    "decision_speed": "irreverent, humorously informed, authentically considered"
+  },
+  "learning": {
+    "learning_style": "irreverent study, humorous exploration, authentic discovery"
+  },
+  "communication": {
+    "audience_adaptation": "sales audiences, irreverent discourse, humorous communication"
+  },
+  "category": "Marketing"
+}

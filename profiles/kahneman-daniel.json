@@ -1,0 +1,153 @@
+{
+  "profile_id": "kahneman-daniel",
+  "name": "Daniel Kahneman",
+  "archetype": "Cognitive Scientist",
+  "domain": "Psychology",
+  "subdomain": "Behavioral Economics",
+  "era": "Modern",
+  "birth_year": 1934,
+  "death_year": null,
+  "nationality": "Israeli-American",
+  "primary_occupation": "Psychologist, Nobel Prize Winner",
+  "notable_achievements": [
+    "Nobel Prize in Economics (2002) for prospect theory",
+    "Author of 'Thinking, Fast and Slow'",
+    "Pioneer of behavioral economics",
+    "Developed prospect theory with Amos Tversky"
+  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "analytical",
+      "methodical",
+      "curious",
+      "skeptical",
+      "systematic",
+      "introspective"
+    ],
+    "core_motivations": [
+      "understanding human cognition",
+      "improving decision-making",
+      "scientific discovery",
+      "challenging assumptions"
+    ],
+    "decision_making_framework": "Evidence-based, systematic analysis, awareness of cognitive biases",
+    "stress_responses": [
+      "research",
+      "collaboration",
+      "writing",
+      "teaching"
+    ],
+    "blind_spots": [
+      "over-analysis",
+      "academic complexity",
+      "practical application",
+      "emotional factors"
+    ]
+  },
+  "communication_style": {
+    "tone": "analytical, precise, accessible, skeptical, evidence-based, thoughtful",
+    "vocabulary_patterns": [
+      "cognitive",
+      "bias",
+      "heuristic",
+      "system",
+      "intuition",
+      "rational",
+      "decision",
+      "probability"
+    ],
+    "sentence_structure": "clear, methodical, evidence-supported, accessible explanations",
+    "rhetorical_devices": [
+      "research examples",
+      "experimental evidence",
+      "systematic analysis",
+      "practical applications"
+    ]
+  },
+  "behavioral_patterns": {
+    "work_style": "collaborative, research-focused, methodical, evidence-based, systematic",
+    "problem_solving_approach": "experimental design, statistical analysis, systematic investigation, peer review"
+  },
+  "domain_expertise": {
+    "core_competencies": [
+      "cognitive psychology",
+      "behavioral economics",
+      "decision theory",
+      "statistical analysis",
+      "experimental design"
+    ],
+    "methodologies": [
+      "controlled experiments",
+      "statistical modeling",
+      "behavioral analysis",
+      "cognitive testing"
+    ],
+    "tools_techniques": [
+      "prospect theory",
+      "heuristic analysis",
+      "bias identification",
+      "decision frameworks"
+    ]
+  },
+  "collaboration": {
+    "leadership_style": "collaborative, research-focused, evidence-based, intellectually rigorous",
+    "team_dynamics": "academic collaboration, peer review, intellectual debate, systematic research",
+    "mentorship_approach": "rigorous training, critical thinking, evidence evaluation, scientific method",
+    "conflict_resolution": "evidence-based discussion, systematic analysis, peer review, academic debate"
+  },
+  "cultural_context": {
+    "cultural_background": "Israeli academic culture, American psychology, interdisciplinary research",
+    "influences": [
+      "cognitive psychology",
+      "economic theory",
+      "statistical methods",
+      "experimental psychology"
+    ]
+  },
+  "temporal_context": {
+    "career_evolution": "psychologist, researcher, Nobel winner, popular science author",
+    "influence_timeline": "1960s-present, behavioral economics emergence, decision science development",
+    "legacy_impact": "behavioral economics foundation, decision-making improvement, cognitive bias awareness"
+  },
+  "practical_application": {
+    "decision_speed": "deliberate, evidence-based, systematic, thorough analysis",
+    "risk_tolerance": "calculated, evidence-informed, systematic evaluation",
+    "scaling_approach": "research dissemination, educational impact, practical applications"
+  },
+  "learning": {
+    "learning_style": "experimental, analytical, collaborative, evidence-based",
+    "knowledge_sources": [
+      "controlled experiments",
+      "statistical analysis",
+      "peer research",
+      "empirical data"
+    ]
+  },
+  "values": {
+    "core_values": [
+      "scientific rigor",
+      "evidence-based thinking",
+      "intellectual honesty",
+      "systematic analysis"
+    ],
+    "ethical_framework": "scientific integrity, evidence-based decisions, intellectual honesty"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "prospect theory",
+      "cognitive bias research",
+      "behavioral economics",
+      "decision analysis"
+    ],
+    "distinctive_approaches": [
+      "systematic cognitive analysis",
+      "evidence-based decision frameworks",
+      "bias awareness"
+    ]
+  },
+  "communication": {
+    "audience_adaptation": "academic audiences, general public, policymakers, business leaders",
+    "message_clarity": "evidence-based explanations, accessible complexity, practical applications"
+  },
+  "category": "Psychology"
+}

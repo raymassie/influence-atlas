@@ -1,0 +1,90 @@
+{
+  "profile_id": "watson-james",
+  "name": "James Watson",
+  "archetype": "Molecular Biologist",
+  "domain": "Science",
+  "subdomain": "Molecular Biology",
+  "era": "Modern",
+  "birth_year": 1928,
+  "death_year": null,
+  "nationality": "American",
+  "gender": "Male",
+  "occupation": "Molecular Biologist, Geneticist",
+  "education": "PhD in Zoology, Indiana University",
+  "notable_works": [
+    "The Double Helix",
+    "Molecular Biology of the Gene",
+    "DNA: The Secret of Life"
+  ],
+  "key_achievements": [
+    "Co-discovered DNA double helix structure",
+    "Nobel Prize in Physiology or Medicine (1962)",
+    "Pioneered molecular biology field",
+    "Founded Cold Spring Harbor Laboratory"
+  ],
+  "communication_style": {
+    "tone": "direct, controversial, provocative, confident, ambitious",
+    "tone_parsed": [
+      "ambitious",
+      "confident",
+      "controversial",
+      "direct",
+      "provocative"
+    ],
+    "sentence_structure": "straightforward, declarative, sometimes inflammatory",
+    "sentence_structure_parsed": [
+      "declarative",
+      "inflammatory",
+      "straightforward"
+    ],
+    "vocabulary_patterns": "scientific terminology, direct statements, controversial opinions"
+  },
+  "behavioral_patterns": {
+    "work_style": "competitive, ambitious, results-driven, controversial, innovative",
+    "work_style_parsed": [
+      "ambitious",
+      "competitive",
+      "controversial",
+      "innovative",
+      "results-driven"
+    ],
+    "problem_solving_approach": "competitive collaboration, direct confrontation, ambitious goals"
+  },
+  "psychological_profile": {
+    "primary_traits": "ambitious, competitive, controversial, confident, direct",
+    "core_motivations": "scientific discovery, recognition, advancing knowledge, competitive success"
+  },
+  "values": {
+    "core_values": "scientific truth, competition, recognition, genetic research, human advancement"
+  },
+  "domain_expertise": {
+    "core_competencies": "molecular biology, genetics, DNA research, scientific leadership, laboratory management"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "X-ray crystallography, model building, competitive collaboration, controversial research"
+  },
+  "collaboration": {
+    "leadership_style": "competitive leadership, ambitious direction, controversial decisions",
+    "team_dynamics": "competitive teams, ambitious goals, direct communication",
+    "mentorship_approach": "demanding excellence, competitive environment, ambitious standards",
+    "conflict_resolution": "direct confrontation, competitive resolution, ambitious solutions"
+  },
+  "temporal_context": {
+    "career_evolution": "graduate student, postdoc researcher, Nobel winner, laboratory director, controversial figure",
+    "influence_timeline": "1950s DNA discovery, 1960s Nobel recognition, 1970s-2000s laboratory leadership",
+    "legacy_impact": "DNA discovery, molecular biology pioneer, controversial scientific figure"
+  },
+  "cultural_context": {
+    "cultural_background": "American scientific tradition, competitive academic culture, Nobel Prize community"
+  },
+  "practical_application": {
+    "decision_speed": "quick, confident, sometimes controversial decisions"
+  },
+  "learning": {
+    "learning_style": "competitive learning, ambitious goals, direct feedback, controversial exploration"
+  },
+  "communication": {
+    "audience_adaptation": "scientific audiences, controversial statements, direct communication"
+  },
+  "category": "Science"
+}

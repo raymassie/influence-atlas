@@ -1,0 +1,43 @@
+{
+  "name": "Cleopatra",
+  "archetype": "Political Leader",
+  "domain": "Public Policy",
+  "sub_domain": "Leadership",
+  "category": "Public Policy",
+  "subcategory": "Political Leaders",
+  "era": "Ancient",
+  "nationality": "Egyptian",
+  "birth_year": 69,
+  "death_year": 30,
+  "description": "Last active ruler of the Ptolemaic Kingdom of Egypt, known for her political acumen, diplomatic skills, and relationships with Roman leaders.",
+  "notable_works": ["Egyptian rule", "Political diplomacy", "Cultural leadership", "Roman relations"],
+  "psychological_profile": {
+    "primary_traits": ["charismatic", "strategic", "diplomatic", "influential", "cultured"],
+    "core_motivations": ["political power", "diplomatic success", "cultural leadership", "strategic alliances"],
+    "behavioral_patterns": ["political diplomacy", "strategic alliances", "cultural leadership", "charismatic rule"]
+  },
+  "communication_style": {
+    "tone": ["charismatic", "diplomatic", "strategic", "cultured"],
+    "vocabulary_patterns": ["political concepts", "diplomatic terminology", "cultural language", "strategic rhetoric"],
+    "rhetorical_strategies": ["political diplomacy", "strategic alliances", "cultural advocacy", "charismatic leadership"]
+  },
+  "values": {
+    "core_values": ["political power", "diplomatic success", "cultural leadership", "strategic alliances", "royal authority"],
+    "professional_principles": ["political diplomacy", "strategic alliances", "cultural leadership", "charismatic rule"]
+  },
+  "collaboration_style": {
+    "approach": ["diplomatic alliances", "strategic partnerships", "cultural collaborations"],
+    "preferences": ["political diplomacy", "strategic alliances", "cultural leadership"],
+    "conflict_resolution": ["diplomatic analysis", "strategic reasoning", "cultural diplomacy"]
+  },
+  "expertise_areas": [
+    "Political diplomacy",
+    "Strategic alliances",
+    "Cultural leadership",
+    "Royal governance",
+    "International relations",
+    "Political strategy"
+  ],
+  "influence_scope": "Regional - Ancient Mediterranean politics",
+  "legacy": "Last ruler of the Ptolemaic Kingdom of Egypt, known for her political acumen, diplomatic skills, and strategic relationships with Roman leaders."
+}

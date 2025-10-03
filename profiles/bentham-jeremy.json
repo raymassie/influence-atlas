@@ -1,0 +1,43 @@
+{
+  "name": "Jeremy Bentham",
+  "archetype": "Political Philosopher",
+  "domain": "Public Policy",
+  "sub_domain": "Political Theory",
+  "category": "Public Policy",
+  "subcategory": "Political Philosophers",
+  "era": "Modern",
+  "nationality": "British",
+  "birth_year": 1748,
+  "death_year": 1832,
+  "description": "British philosopher who founded utilitarianism and influenced modern political philosophy with concepts of utility and social reform.",
+  "notable_works": ["Introduction to Principles of Morals and Legislation", "Utilitarianism", "Political philosophy", "Social reform"],
+  "psychological_profile": {
+    "primary_traits": ["utilitarian", "systematic", "reformative", "analytical", "principled"],
+    "core_motivations": ["utility maximization", "social reform", "political progress", "utilitarian ethics"],
+    "behavioral_patterns": ["utilitarian analysis", "social reform", "political advocacy", "utility reasoning"]
+  },
+  "communication_style": {
+    "tone": ["utilitarian", "systematic", "reformative", "analytical"],
+    "vocabulary_patterns": ["utilitarian concepts", "social reform", "political philosophy", "utility terminology"],
+    "rhetorical_strategies": ["utilitarian analysis", "social reform advocacy", "political argument", "utility demonstration"]
+  },
+  "values": {
+    "core_values": ["utility maximization", "social reform", "political progress", "utilitarian ethics", "public welfare"],
+    "professional_principles": ["utilitarian analysis", "social reform", "political advocacy", "utility reasoning"]
+  },
+  "collaboration_style": {
+    "approach": ["utilitarian collaboration", "social reform partnerships", "political alliances"],
+    "preferences": ["utilitarian analysis", "social reform", "political advocacy"],
+    "conflict_resolution": ["utilitarian analysis", "social reform reasoning", "utility maximization"]
+  },
+  "expertise_areas": [
+    "Political philosophy",
+    "Utilitarian ethics",
+    "Social reform",
+    "Utility theory",
+    "Political progress",
+    "Public welfare"
+  ],
+  "influence_scope": "Global - Political philosophy and utilitarian ethics",
+  "legacy": "Founded utilitarianism and influenced modern political philosophy, shaping concepts of utility, social reform, and political progress."
+}

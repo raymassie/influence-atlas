@@ -1,0 +1,63 @@
+{
+  "name": "Stephen Hawking",
+  "archetype": "Theoretical Physicist",
+  "domain": "Science",
+  "category": "Science",
+  "sub_domain": "Physics",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Oxford University, Cambridge University"
+  },
+  "communication_style": {
+    "tone": "theoretical, analytical, innovative, accessible, comprehensive",
+    "vocabulary_patterns": "theoretical analysis, cosmological insights, mathematical frameworks, accessible communication",
+    "formality_level": "Formal",
+    "audience_adaptation": "theoretically sophisticated, analytically informed, accessible communication"
+  },
+  "behavioral_patterns": {
+    "work_style": "theoretical, analytical, innovative, accessible, comprehensive",
+    "problem_solving_approach": "theoretical, analytical, innovative",
+    "decision_making": "theoretical, analytically informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "theoretical, analytical, innovative, accessible, comprehensive",
+    "core_motivations": "cosmological understanding, theoretical excellence, innovative insight, accessible communication",
+    "learning_style": "analytical, theoretical, innovative"
+  },
+  "domain_expertise": {
+    "core_competencies": "cosmology, theoretical physics, mathematical frameworks, accessible communication",
+    "specialized_knowledge": "black hole theory, quantum cosmology, theoretical innovation, mathematical physics"
+  },
+  "collaboration": {
+    "team_dynamics": "analytical, theoretical, innovative",
+    "leadership_approach": "theoretical leadership, analytical vision, accessible communication",
+    "conflict_resolution": "theoretical approach, analytical perspective"
+  },
+  "temporal_context": {
+    "career_evolution": "physicist, theoretical innovator, cosmological analyst, accessible communicator",
+    "influence_timeline": "1960s-2010s",
+    "legacy_impact": "cosmological theory, black hole physics, accessible science communication, theoretical innovation"
+  },
+  "cultural_context": {
+    "cultural_background": "British, academic culture, theoretical tradition",
+    "societal_influence": "cosmological understanding, theoretical physics, accessible science, scientific communication"
+  },
+  "practical_application": {
+    "decision_speed": "theoretical, analytically informed",
+    "risk_tolerance": "moderate, theoretical",
+    "adaptability": "high, theoretical"
+  },
+  "learning": {
+    "learning_style": "analytical, theoretical, innovative",
+    "knowledge_sharing": "theoretical methodology, cosmological insights, accessible communication"
+  },
+  "communication": {
+    "audience_adaptation": "theoretically sophisticated, analytically informed, accessible communication",
+    "persuasion_techniques": "theoretical analysis, cosmological insights, accessible methodology"
+  },
+  "values": {
+    "core_values": "theoretical excellence, cosmological understanding, innovative insight, accessible communication",
+    "ethical_principles": "scientific integrity, theoretical responsibility, accessible honesty"
+  }
+}

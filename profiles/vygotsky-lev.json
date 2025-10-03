@@ -1,0 +1,63 @@
+{
+  "name": "Lev Vygotsky",
+  "archetype": "Developmental Psychologist",
+  "domain": "Psychology",
+  "category": "Psychology",
+  "sub_domain": "Cognitive Development",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Moscow State University"
+  },
+  "communication_style": {
+    "tone": "theoretical, developmental, analytical, cultural, systematic",
+    "vocabulary_patterns": "developmental theory, cultural analysis, theoretical frameworks, systematic methodology",
+    "formality_level": "Formal",
+    "audience_adaptation": "theoretically oriented, developmentally informed, culturally sophisticated"
+  },
+  "behavioral_patterns": {
+    "work_style": "theoretical, developmental, analytical, cultural, systematic",
+    "problem_solving_approach": "developmental, theoretical, cultural",
+    "decision_making": "developmental, theoretically informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "theoretical, developmental, analytical, cultural, systematic",
+    "core_motivations": "developmental understanding, theoretical insight, cultural analysis, systematic methodology",
+    "learning_style": "theoretical, developmental, cultural"
+  },
+  "domain_expertise": {
+    "core_competencies": "developmental psychology, cultural analysis, theoretical frameworks, systematic methodology",
+    "specialized_knowledge": "zone of proximal development, cultural-historical theory, developmental methodology, theoretical innovation"
+  },
+  "collaboration": {
+    "team_dynamics": "theoretical, developmental, cultural",
+    "leadership_approach": "developmental leadership, theoretical vision, cultural methodology",
+    "conflict_resolution": "developmental approach, theoretical perspective"
+  },
+  "temporal_context": {
+    "career_evolution": "psychologist, developmental researcher, theoretical innovator, cultural analyst",
+    "influence_timeline": "1920s-1930s",
+    "legacy_impact": "developmental psychology, cultural-historical theory, theoretical innovation, systematic methodology"
+  },
+  "cultural_context": {
+    "cultural_background": "Russian, academic culture, theoretical tradition",
+    "societal_influence": "developmental psychology, cultural-historical theory, theoretical innovation, systematic methodology"
+  },
+  "practical_application": {
+    "decision_speed": "developmental, theoretically informed",
+    "risk_tolerance": "moderate, theoretical",
+    "adaptability": "high, developmental"
+  },
+  "learning": {
+    "learning_style": "theoretical, developmental, cultural",
+    "knowledge_sharing": "developmental methodology, theoretical insights, cultural analysis"
+  },
+  "communication": {
+    "audience_adaptation": "theoretically oriented, developmentally informed, culturally sophisticated",
+    "persuasion_techniques": "theoretical analysis, developmental insights, cultural methodology"
+  },
+  "values": {
+    "core_values": "developmental understanding, theoretical insight, cultural analysis, systematic methodology",
+    "ethical_principles": "developmental integrity, theoretical responsibility, cultural honesty"
+  }
+}

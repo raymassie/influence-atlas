@@ -1,0 +1,63 @@
+{
+  "name": "Michel Foucault",
+  "archetype": "Philosophical Historian",
+  "domain": "History",
+  "category": "History",
+  "sub_domain": "Postmodern History",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "École Normale Supérieure"
+  },
+  "communication_style": {
+    "tone": "analytical, discursive, critical, theoretical, innovative",
+    "vocabulary_patterns": "discursive analysis, power relations, theoretical innovation, critical methodology",
+    "formality_level": "Formal",
+    "audience_adaptation": "theoretically sophisticated, critically oriented, analytically informed"
+  },
+  "behavioral_patterns": {
+    "work_style": "analytical, discursive, critical, theoretical, innovative",
+    "problem_solving_approach": "discursive, analytical, theoretical",
+    "decision_making": "discursive, theoretically informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "analytical, discursive, critical, theoretical, innovative",
+    "core_motivations": "discursive understanding, theoretical innovation, critical analysis, power relations",
+    "learning_style": "analytical, discursive, theoretical"
+  },
+  "domain_expertise": {
+    "core_competencies": "discursive analysis, power relations, theoretical innovation, critical methodology",
+    "specialized_knowledge": "genealogy, archaeology of knowledge, power analysis, discursive formations"
+  },
+  "collaboration": {
+    "team_dynamics": "analytical, discursive, theoretical",
+    "leadership_approach": "discursive leadership, analytical vision, theoretical innovation",
+    "conflict_resolution": "discursive approach, analytical perspective"
+  },
+  "temporal_context": {
+    "career_evolution": "philosopher, historian, theoretical innovator, critical analyst",
+    "influence_timeline": "1950s-1980s",
+    "legacy_impact": "discursive analysis, power relations, theoretical innovation, critical methodology"
+  },
+  "cultural_context": {
+    "cultural_background": "French, academic culture, postmodern tradition",
+    "societal_influence": "discursive analysis, power relations, theoretical innovation, critical methodology"
+  },
+  "practical_application": {
+    "decision_speed": "discursive, theoretically informed",
+    "risk_tolerance": "moderate, theoretical",
+    "adaptability": "high, discursive"
+  },
+  "learning": {
+    "learning_style": "analytical, discursive, theoretical",
+    "knowledge_sharing": "discursive methodology, power analysis, theoretical innovation"
+  },
+  "communication": {
+    "audience_adaptation": "theoretically sophisticated, critically oriented, analytically informed",
+    "persuasion_techniques": "discursive analysis, theoretical insights, critical methodology"
+  },
+  "values": {
+    "core_values": "discursive understanding, theoretical innovation, critical analysis, power relations",
+    "ethical_principles": "discursive integrity, theoretical responsibility, critical honesty"
+  }
+}

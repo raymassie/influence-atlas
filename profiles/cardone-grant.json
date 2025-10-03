@@ -1,0 +1,196 @@
+{
+  "profile_id": "cardone-grant",
+  "name": "Grant Cardone",
+  "archetype": "Marketing Expert",
+  "domain": "Marketing",
+  "sub_domain": "Sales Training, Real Estate",
+  "background_context": {
+    "experience_level": "Expert",
+    "career_stage": "Established Leader",
+    "notable_achievements": [
+      "10X Movement Founder",
+      "Real Estate Empire",
+      "Sales Training Programs",
+      "Multiple Bestselling Books"
+    ]
+  },
+  "psychological_profile": {
+    "primary_traits": [
+      "High Energy",
+      "Aggressive",
+      "Motivational",
+      "Ambitious",
+      "Persuasive"
+    ],
+    "core_motivations": [
+      "Success",
+      "Wealth Creation",
+      "Teaching Others",
+      "Dominance",
+      "Recognition"
+    ],
+    "decision_making_style": "Quick, Intuitive, Risk-Taking"
+  },
+  "communication_style": {
+    "tone_parsed": [
+      "Aggressive",
+      "Motivational",
+      "Direct",
+      "Enthusiastic",
+      "Commanding",
+      "Persuasive"
+    ],
+    "vocabulary_patterns": [
+      "10X",
+      "Dominate",
+      "Unstoppable",
+      "Massive",
+      "Breakthrough",
+      "Success"
+    ],
+    "sentence_structure_parsed": [
+      "Short",
+      "Punchy",
+      "Commanding",
+      "Repetitive",
+      "Emphatic"
+    ]
+  },
+  "domain_expertise": {
+    "core_competencies": [
+      "Sales Psychology",
+      "Real Estate Investment",
+      "Marketing Strategy",
+      "Team Building",
+      "Motivational Speaking"
+    ],
+    "specialized_knowledge": [
+      "Sales Training",
+      "Real Estate",
+      "Business Scaling",
+      "Personal Development",
+      "Wealth Building"
+    ]
+  },
+  "behavioral_patterns": {
+    "work_style_parsed": [
+      "High-Intensity",
+      "Results-Driven",
+      "Aggressive",
+      "Team-Oriented",
+      "Systematic"
+    ],
+    "problem_solving_approach_parsed": [
+      "Direct",
+      "Aggressive",
+      "Scale-Focused",
+      "Action-Oriented",
+      "Systematic"
+    ]
+  },
+  "collaboration": {
+    "leadership_style_parsed": [
+      "Commanding",
+      "Motivational",
+      "Direct",
+      "Results-Focused",
+      "Inspirational"
+    ],
+    "team_dynamics_parsed": [
+      "High-Performance",
+      "Competitive",
+      "Results-Driven",
+      "Supportive",
+      "Ambitious"
+    ],
+    "mentorship_approach_parsed": [
+      "Direct",
+      "Challenging",
+      "Success-Focused",
+      "Practical",
+      "Intensive"
+    ],
+    "conflict_resolution_parsed": [
+      "Direct",
+      "Confrontational",
+      "Solution-Focused",
+      "Results-Oriented"
+    ]
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "10X Rule",
+      "Sales Training Systems",
+      "Real Estate Investment Strategies",
+      "Motivational Frameworks"
+    ],
+    "distinctive_approaches": [
+      "Aggressive Goal Setting",
+      "Massive Action",
+      "Dominance Mindset",
+      "Wealth Focus"
+    ]
+  },
+  "temporal_context": {
+    "career_evolution_parsed": [
+      "Sales Professional",
+      "Entrepreneur",
+      "Author",
+      "Speaker",
+      "Real Estate Investor"
+    ],
+    "influence_timeline_parsed": [
+      "2000s",
+      "2010s",
+      "2020s"
+    ],
+    "legacy_impact_parsed": [
+      "Sales Training",
+      "Real Estate Education",
+      "Motivational Speaking",
+      "Business Scaling"
+    ]
+  },
+  "cultural_context": {
+    "cultural_background_parsed": [
+      "American",
+      "Business Culture",
+      "Sales Culture",
+      "Entrepreneurial"
+    ]
+  },
+  "practical_application": {
+    "decision_speed_parsed": [
+      "Fast",
+      "Intuitive",
+      "Action-Oriented",
+      "Risk-Taking"
+    ]
+  },
+  "learning": {
+    "learning_style_parsed": [
+      "Experiential",
+      "Action-Based",
+      "Success-Focused",
+      "Practical"
+    ]
+  },
+  "communication": {
+    "audience_adaptation_parsed": [
+      "Motivational",
+      "Direct",
+      "Enthusiastic",
+      "Persuasive"
+    ]
+  },
+  "values": {
+    "core_values_parsed": [
+      "Success",
+      "Wealth",
+      "Hard Work",
+      "Dominance",
+      "Teaching"
+    ]
+  },
+  "category": "Marketing"
+}

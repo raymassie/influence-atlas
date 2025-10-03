@@ -1,0 +1,43 @@
+{
+  "name": "Friedrich Hayek",
+  "archetype": "Economist",
+  "domain": "Economics",
+  "sub_domain": "Austrian Economics",
+  "category": "Economics",
+  "subcategory": "Economists",
+  "era": "Modern",
+  "nationality": "Austrian",
+  "birth_year": 1899,
+  "death_year": 1992,
+  "description": "Austrian economist who won the Nobel Prize in Economics and was a leading advocate of classical liberalism and free market economics.",
+  "notable_works": ["The Road to Serfdom", "The Constitution of Liberty", "Austrian economics", "Economic theory"],
+  "psychological_profile": {
+    "primary_traits": ["analytical", "principled", "influential", "systematic", "liberal"],
+    "core_motivations": ["free market advocacy", "economic theory", "classical liberalism", "economic freedom"],
+    "behavioral_patterns": ["economic analysis", "free market advocacy", "liberal theory", "systematic thinking"]
+  },
+  "communication_style": {
+    "tone": ["analytical", "principled", "influential", "systematic"],
+    "vocabulary_patterns": ["economic concepts", "liberal terminology", "free market language", "economic analysis"],
+    "rhetorical_strategies": ["economic analysis", "free market advocacy", "liberal argument", "economic theory"]
+  },
+  "values": {
+    "core_values": ["economic freedom", "classical liberalism", "free markets", "individual liberty", "economic efficiency"],
+    "professional_principles": ["economic analysis", "free market advocacy", "liberal theory", "economic freedom"]
+  },
+  "collaboration_style": {
+    "approach": ["economic collaboration", "liberal partnerships", "academic alliances"],
+    "preferences": ["economic analysis", "free market advocacy", "liberal theory"],
+    "conflict_resolution": ["economic analysis", "liberal reasoning", "free market principles"]
+  },
+  "expertise_areas": [
+    "Austrian economics",
+    "Free market theory",
+    "Classical liberalism",
+    "Economic policy",
+    "Economic analysis",
+    "Political economy"
+  ],
+  "influence_scope": "Global - Economics and political philosophy",
+  "legacy": "Won the Nobel Prize in Economics and became a leading advocate of classical liberalism and free market economics, influencing economic policy worldwide."
+}

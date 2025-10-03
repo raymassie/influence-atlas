@@ -1,0 +1,43 @@
+{
+  "name": "Paul Samuelson",
+  "archetype": "Economist",
+  "domain": "Economics",
+  "sub_domain": "Mathematical Economics",
+  "category": "Economics",
+  "subcategory": "Economists",
+  "era": "Modern",
+  "nationality": "American",
+  "birth_year": 1915,
+  "death_year": 2009,
+  "description": "American economist who won the Nobel Prize in Economics and revolutionized economics by introducing mathematical methods and Keynesian analysis.",
+  "notable_works": ["Economics: An Introductory Analysis", "Foundations of Economic Analysis", "Mathematical economics", "Keynesian synthesis"],
+  "psychological_profile": {
+    "primary_traits": ["mathematical", "analytical", "innovative", "systematic", "influential"],
+    "core_motivations": ["mathematical economics", "economic theory", "Keynesian analysis", "economic education"],
+    "behavioral_patterns": ["mathematical analysis", "economic theory", "Keynesian research", "systematic thinking"]
+  },
+  "communication_style": {
+    "tone": ["mathematical", "analytical", "innovative", "systematic"],
+    "vocabulary_patterns": ["mathematical concepts", "economic terminology", "Keynesian language", "economic analysis"],
+    "rhetorical_strategies": ["mathematical demonstration", "economic analysis", "Keynesian argument", "economic theory"]
+  },
+  "values": {
+    "core_values": ["mathematical rigor", "economic theory", "Keynesian analysis", "economic education", "systematic analysis"],
+    "professional_principles": ["mathematical economics", "economic theory", "Keynesian research", "economic education"]
+  },
+  "collaboration_style": {
+    "approach": ["mathematical partnerships", "economic collaborations", "academic alliances"],
+    "preferences": ["mathematical analysis", "economic theory", "Keynesian research"],
+    "conflict_resolution": ["mathematical proof", "economic analysis", "Keynesian reasoning"]
+  },
+  "expertise_areas": [
+    "Mathematical economics",
+    "Keynesian economics",
+    "Economic theory",
+    "Economic analysis",
+    "Public finance",
+    "International trade"
+  ],
+  "influence_scope": "Global - Economics and economic education",
+  "legacy": "Won the Nobel Prize in Economics and revolutionized economics by introducing mathematical methods, becoming one of the most influential economists of the 20th century."
+}

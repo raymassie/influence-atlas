@@ -1,0 +1,43 @@
+{
+  "name": "John Rawls",
+  "archetype": "Political Philosopher",
+  "domain": "Public Policy",
+  "sub_domain": "Political Theory",
+  "category": "Public Policy",
+  "subcategory": "Political Philosophers",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1921,
+  "death_year": 2002,
+  "description": "American political philosopher who developed the theory of justice and influenced modern political philosophy with concepts of fairness and equality.",
+  "notable_works": ["A Theory of Justice", "Political Liberalism", "Justice as Fairness", "Political philosophy"],
+  "psychological_profile": {
+    "primary_traits": ["systematic", "analytical", "egalitarian", "principled", "methodical"],
+    "core_motivations": ["justice theory", "political equality", "fairness principles", "liberal democracy"],
+    "behavioral_patterns": ["justice analysis", "egalitarian reasoning", "political philosophy", "fairness principles"]
+  },
+  "communication_style": {
+    "tone": ["systematic", "analytical", "egalitarian", "principled"],
+    "vocabulary_patterns": ["justice concepts", "egalitarian terminology", "political philosophy", "fairness principles"],
+    "rhetorical_strategies": ["justice analysis", "egalitarian argument", "political philosophy", "fairness demonstration"]
+  },
+  "values": {
+    "core_values": ["justice theory", "political equality", "fairness principles", "liberal democracy", "egalitarian analysis"],
+    "professional_principles": ["justice analysis", "political philosophy", "egalitarian reasoning", "fairness principles"]
+  },
+  "collaboration_style": {
+    "approach": ["political collaboration", "egalitarian partnerships", "justice alliances"],
+    "preferences": ["justice analysis", "political philosophy", "egalitarian reasoning"],
+    "conflict_resolution": ["justice analysis", "egalitarian reasoning", "fairness principles"]
+  },
+  "expertise_areas": [
+    "Political philosophy",
+    "Theory of justice",
+    "Egalitarian theory",
+    "Liberal democracy",
+    "Fairness principles",
+    "Political equality"
+  ],
+  "influence_scope": "Global - Political philosophy and justice theory",
+  "legacy": "Developed the theory of justice and influenced modern political philosophy, shaping concepts of fairness, equality, and liberal democracy."
+}

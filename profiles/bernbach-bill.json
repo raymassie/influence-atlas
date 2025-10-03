@@ -1,0 +1,43 @@
+{
+  "name": "Bill Bernbach",
+  "archetype": "Advertising Creative",
+  "domain": "Marketing",
+  "sub_domain": "Creative Advertising",
+  "category": "Marketing",
+  "subcategory": "Creative Directors",
+  "era": "Modern",
+  "nationality": "American",
+  "birth_year": 1911,
+  "death_year": 1982,
+  "description": "American advertising executive who co-founded Doyle Dane Bernbach and revolutionized advertising with creative, honest, and emotional campaigns.",
+  "notable_works": ["Doyle Dane Bernbach", "Creative advertising", "Volkswagen campaigns", "Advertising innovation"],
+  "psychological_profile": {
+    "primary_traits": ["creative", "innovative", "influential", "systematic", "authentic"],
+    "core_motivations": ["creative excellence", "advertising innovation", "authentic communication", "creative leadership"],
+    "behavioral_patterns": ["creative leadership", "advertising innovation", "authentic communication", "creative excellence"]
+  },
+  "communication_style": {
+    "tone": ["creative", "innovative", "authentic", "influential"],
+    "vocabulary_patterns": ["creative concepts", "advertising terminology", "authentic language", "creative innovation"],
+    "rhetorical_strategies": ["creative advocacy", "advertising innovation", "authentic communication", "creative excellence"]
+  },
+  "values": {
+    "core_values": ["creative excellence", "advertising innovation", "authentic communication", "creative leadership", "advertising integrity"],
+    "professional_principles": ["creative leadership", "advertising innovation", "authentic communication", "creative excellence"]
+  },
+  "collaboration_style": {
+    "approach": ["creative partnerships", "advertising collaborations", "creative alliances"],
+    "preferences": ["creative leadership", "advertising innovation", "authentic communication"],
+    "conflict_resolution": ["creative analysis", "advertising reasoning", "authentic communication"]
+  },
+  "expertise_areas": [
+    "Creative advertising",
+    "Advertising innovation",
+    "Creative leadership",
+    "Brand communication",
+    "Advertising strategy",
+    "Creative direction"
+  ],
+  "influence_scope": "Global - Advertising and creative marketing",
+  "legacy": "Revolutionized advertising with creative, honest, and emotional campaigns, founding Doyle Dane Bernbach and influencing modern creative advertising."
+}

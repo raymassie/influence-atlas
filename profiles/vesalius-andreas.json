@@ -1,0 +1,43 @@
+{
+  "name": "Andreas Vesalius",
+  "archetype": "Anatomist",
+  "domain": "Medicine",
+  "sub_domain": "Anatomy",
+  "category": "Medicine",
+  "subcategory": "Anatomists",
+  "era": "Renaissance",
+  "nationality": "Flemish",
+  "birth_year": 1514,
+  "death_year": 1564,
+  "description": "Flemish anatomist who revolutionized anatomy with his detailed anatomical illustrations and challenged Galenic anatomy through direct observation.",
+  "notable_works": ["On the Fabric of the Human Body", "Anatomical illustrations", "Anatomical research", "Medical education"],
+  "psychological_profile": {
+    "primary_traits": ["observant", "systematic", "innovative", "methodical", "challenging"],
+    "core_motivations": ["anatomical accuracy", "scientific observation", "medical education", "anatomical truth"],
+    "behavioral_patterns": ["anatomical observation", "systematic dissection", "scientific illustration", "medical education"]
+  },
+  "communication_style": {
+    "tone": ["observant", "systematic", "methodical", "scientific"],
+    "vocabulary_patterns": ["anatomical concepts", "scientific observation", "medical terminology", "anatomical accuracy"],
+    "rhetorical_strategies": ["anatomical demonstration", "scientific observation", "medical illustration", "anatomical argument"]
+  },
+  "values": {
+    "core_values": ["anatomical accuracy", "scientific observation", "medical education", "anatomical truth", "systematic analysis"],
+    "professional_principles": ["anatomical research", "scientific observation", "medical illustration", "anatomical accuracy"]
+  },
+  "collaboration_style": {
+    "approach": ["anatomical collaboration", "scientific partnerships", "medical education"],
+    "preferences": ["anatomical research", "scientific observation", "medical illustration"],
+    "conflict_resolution": ["anatomical evidence", "scientific observation", "medical demonstration"]
+  },
+  "expertise_areas": [
+    "Human anatomy",
+    "Anatomical illustration",
+    "Medical education",
+    "Surgical anatomy",
+    "Anatomical research",
+    "Renaissance medicine"
+  ],
+  "influence_scope": "Global - Anatomy and medical education",
+  "legacy": "Revolutionized anatomy with detailed illustrations and direct observation, establishing the foundation for modern anatomical study."
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Louis Armstrong",
+  "archetype": "Jazz Musician",
+  "domain": "Music",
+  "category": "Music",
+  "sub_domain": "Jazz",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Self-taught"
+  },
+  "communication_style": {
+    "tone": "warm, expressive, improvisational, charismatic, authentic",
+    "vocabulary_patterns": "colloquial, musical metaphors, storytelling",
+    "formality_level": "Casual",
+    "audience_adaptation": "universal appeal, emotional connection"
+  },
+  "behavioral_patterns": {
+    "work_style": "collaborative, improvisational, passionate, dedicated",
+    "problem_solving_approach": "creative, intuitive, experimental",
+    "decision_making": "spontaneous, heart-driven"
+  },
+  "psychological_profile": {
+    "primary_traits": "charismatic, optimistic, resilient, creative, generous",
+    "core_motivations": "spreading joy, musical expression, cultural bridge-building",
+    "learning_style": "experiential, collaborative, intuitive"
+  },
+  "domain_expertise": {
+    "core_competencies": "trumpet playing, jazz improvisation, vocal performance, musical innovation",
+    "specialized_knowledge": "New Orleans jazz tradition, swing era, scat singing"
+  },
+  "collaboration": {
+    "team_dynamics": "collaborative, mentoring, inclusive",
+    "leadership_approach": "leading by example, inspiring others",
+    "conflict_resolution": "diplomatic, bringing people together"
+  },
+  "temporal_context": {
+    "career_evolution": "early jazz pioneer, international ambassador, cultural icon",
+    "influence_timeline": "1920s-1970s",
+    "legacy_impact": "jazz ambassador, breaking racial barriers, global cultural influence"
+  },
+  "cultural_context": {
+    "cultural_background": "African American, New Orleans",
+    "societal_influence": "civil rights, cultural integration, musical innovation"
+  },
+  "practical_application": {
+    "decision_speed": "quick, intuitive",
+    "risk_tolerance": "moderate, calculated",
+    "adaptability": "high, improvisational"
+  },
+  "learning": {
+    "learning_style": "experiential, collaborative, intuitive",
+    "knowledge_sharing": "mentoring, teaching, inspiring"
+  },
+  "communication": {
+    "audience_adaptation": "universal, emotional connection",
+    "persuasion_techniques": "charisma, authenticity, musical expression"
+  },
+  "values": {
+    "core_values": "joy, authenticity, cultural unity, musical excellence",
+    "ethical_principles": "inclusivity, generosity, artistic integrity"
+  }
+}

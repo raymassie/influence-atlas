@@ -1,0 +1,43 @@
+{
+  "name": "David Hilbert",
+  "archetype": "Mathematician",
+  "domain": "Math",
+  "sub_domain": "Pure Mathematics",
+  "category": "Math",
+  "subcategory": "Mathematicians",
+  "era": "Modern",
+  "nationality": "German",
+  "birth_year": 1862,
+  "death_year": 1943,
+  "description": "German mathematician who made fundamental contributions to mathematics and formulated Hilbert's problems, which influenced 20th-century mathematical research.",
+  "notable_works": ["Hilbert's problems", "Mathematical foundations", "Algebraic geometry", "Mathematical analysis"],
+  "psychological_profile": {
+    "primary_traits": ["analytical", "systematic", "influential", "rigorous", "visionary"],
+    "core_motivations": ["mathematical foundations", "systematic analysis", "mathematical innovation", "theoretical understanding"],
+    "behavioral_patterns": ["mathematical analysis", "foundational research", "systematic thinking", "mathematical innovation"]
+  },
+  "communication_style": {
+    "tone": ["analytical", "systematic", "rigorous", "visionary"],
+    "vocabulary_patterns": ["mathematical concepts", "foundational terminology", "systematic language", "mathematical analysis"],
+    "rhetorical_strategies": ["mathematical proof", "foundational analysis", "systematic demonstration", "mathematical innovation"]
+  },
+  "values": {
+    "core_values": ["mathematical foundations", "systematic analysis", "mathematical innovation", "theoretical understanding", "rigorous proof"],
+    "professional_principles": ["mathematical analysis", "foundational research", "systematic thinking", "mathematical innovation"]
+  },
+  "collaboration_style": {
+    "approach": ["mathematical partnerships", "foundational collaborations", "academic alliances"],
+    "preferences": ["mathematical analysis", "foundational research", "systematic thinking"],
+    "conflict_resolution": ["mathematical proof", "foundational analysis", "systematic reasoning"]
+  },
+  "expertise_areas": [
+    "Mathematical foundations",
+    "Algebraic geometry",
+    "Mathematical analysis",
+    "Number theory",
+    "Mathematical logic",
+    "Hilbert space theory"
+  ],
+  "influence_scope": "Global - Mathematics and mathematical foundations",
+  "legacy": "Made fundamental contributions to mathematics and formulated Hilbert's problems, which guided 20th-century mathematical research and established modern mathematical foundations."
+}

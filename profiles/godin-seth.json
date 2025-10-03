@@ -1,0 +1,43 @@
+{
+  "name": "Seth Godin",
+  "archetype": "Marketing Guru",
+  "domain": "Marketing",
+  "sub_domain": "Digital Marketing",
+  "category": "Marketing",
+  "subcategory": "Marketing Gurus",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1960,
+  "death_year": null,
+  "description": "American author and marketing guru known for his insights on digital marketing, permission marketing, and the concept of 'purple cows' and 'tribes'.",
+  "notable_works": ["Purple Cow", "Permission Marketing", "Tribes", "The Dip", "Marketing philosophy"],
+  "psychological_profile": {
+    "primary_traits": ["innovative", "insightful", "thoughtful", "influential", "principled"],
+    "core_motivations": ["marketing innovation", "thought leadership", "digital marketing", "consumer insight"],
+    "behavioral_patterns": ["thought leadership", "marketing innovation", "digital strategy", "consumer insight"]
+  },
+  "communication_style": {
+    "tone": ["thoughtful", "insightful", "innovative", "principled"],
+    "vocabulary_patterns": ["marketing concepts", "digital strategy", "consumer insight", "marketing philosophy"],
+    "rhetorical_strategies": ["thought leadership", "marketing insight", "digital strategy", "consumer analysis"]
+  },
+  "values": {
+    "core_values": ["marketing integrity", "consumer respect", "digital innovation", "thought leadership", "marketing ethics"],
+    "professional_principles": ["permission marketing", "consumer respect", "digital innovation", "marketing integrity"]
+  },
+  "collaboration_style": {
+    "approach": ["thought leadership", "marketing collaboration", "digital partnerships"],
+    "preferences": ["marketing innovation", "digital strategy", "consumer insight"],
+    "conflict_resolution": ["marketing insight", "consumer research", "digital strategy"]
+  },
+  "expertise_areas": [
+    "Digital marketing",
+    "Permission marketing",
+    "Brand strategy",
+    "Consumer insight",
+    "Marketing philosophy",
+    "Thought leadership"
+  ],
+  "influence_scope": "Global - Digital marketing and marketing philosophy",
+  "legacy": "Pioneered permission marketing and digital marketing concepts, influencing how businesses approach customer relationships and digital strategy."
+}

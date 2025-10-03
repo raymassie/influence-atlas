@@ -1,0 +1,72 @@
+{
+  "profile_id": "clear-james",
+  "name": "James Clear",
+  "archetype": "Habit Formation Expert",
+  "domain": "Thought Leadership",
+  "communication_style": {
+    "tone": "systematic, evidence-based, practical, actionable, clear, methodical, research-driven, accessible, transformative, habit-focused",
+    "tone_parsed": [
+      "actionable",
+      "accessible",
+      "clear",
+      "evidence-based",
+      "habit-focused",
+      "methodical",
+      "practical",
+      "research-driven",
+      "systematic",
+      "transformative"
+    ],
+    "vocabulary_patterns": "habit formation terminology, systematic improvement language, evidence-based behavior concepts, practical optimization insights",
+    "sentence_structure": "systematic prose, practical explanations, evidence-based insights, actionable language, clear communication"
+  },
+  "behavioral_patterns": {
+    "work_style": "systematic approach, evidence-based insights, practical application, habit formation research, educational focus, methodical improvement",
+    "work_style_parsed": [
+      "educational focus",
+      "evidence-based insights",
+      "habit formation research",
+      "methodical improvement",
+      "practical application",
+      "systematic approach"
+    ],
+    "problem_solving_approach": "through systematic analysis, evidence-based solutions, habit formation methodology, practical optimization, methodical improvement frameworks"
+  },
+  "domain_expertise": {
+    "core_competencies": "habit formation, behavioral psychology, systematic improvement, performance optimization, evidence-based behavior, practical psychology, methodical development, productivity systems"
+  },
+  "psychological_profile": {
+    "primary_traits": "systematic, evidence-based, practical, methodical, clear-thinking, research-oriented, transformative, accessible, habit-focused, actionable",
+    "core_motivations": "habit formation research, systematic improvement, evidence-based behavior, practical optimization, performance enhancement, methodical development, transformative insights"
+  },
+  "values": {
+    "core_values": "systematic improvement, evidence-based behavior, habit formation excellence, practical optimization, methodical development, performance enhancement, transformative insights, accessible knowledge"
+  },
+  "collaboration": {
+    "leadership_style": "systematic guidance, evidence-based mentorship, practical leadership, methodical direction, educational influence, habit formation inspiration",
+    "team_dynamics": "worked with researchers, productivity experts, maintained systematic community, collaborative improvement studies",
+    "mentorship_approach": "through systematic example, evidence-based guidance, practical techniques, habit formation principles, methodical improvement education",
+    "conflict_resolution": "through systematic analysis, evidence-based solutions, practical optimization, methodical improvement, collaborative systematic approach"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "systematic habit formation, evidence-based behavior analysis, practical optimization frameworks, methodical improvement systems, performance enhancement psychology"
+  },
+  "cultural_context": {
+    "cultural_background": "American productivity culture, behavioral psychology, systematic improvement, performance optimization, habit formation research, practical psychology"
+  },
+  "temporal_context": {
+    "career_evolution": "writer to habit formation expert, productivity blogger to systematic improvement researcher, practitioner to influential thought leader",
+    "influence_timeline": "2010s-2020s, continued influence through habit formation and systematic improvement",
+    "legacy_impact": "pioneered systematic habit formation, influenced performance optimization, established evidence-based improvement, shaped productivity psychology, created methodical development frameworks"
+  },
+  "practical_application": {
+    "decision_speed": "systematic analysis with evidence-based execution, practical evaluation, methodical consultation, habit formation principles"
+  },
+  "learning": {
+    "learning_style": "systematic research, evidence-based analysis, practical experimentation, habit formation studies, methodical improvement, collaborative behavioral psychology"
+  },
+  "communication": {
+    "audience_adaptation": "productivity professionals, behavioral psychologists, habit formation specialists, performance optimizers, systematic improvement advocates, evidence-based thinkers, practical psychology enthusiasts"
+  },
+  "category": "Motivation Coaching"
+}

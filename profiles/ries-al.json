@@ -1,0 +1,43 @@
+{
+  "name": "Al Ries",
+  "archetype": "Marketing Strategist",
+  "domain": "Marketing",
+  "sub_domain": "Brand Strategy",
+  "category": "Marketing",
+  "subcategory": "Marketing Strategists",
+  "era": "Modern",
+  "nationality": "American",
+  "birth_year": 1926,
+  "death_year": 2022,
+  "description": "American marketing strategist who co-developed the concept of positioning with Jack Trout and wrote influential books on marketing strategy and brand building.",
+  "notable_works": ["Positioning", "The 22 Immutable Laws of Marketing", "Focus", "Marketing strategy"],
+  "psychological_profile": {
+    "primary_traits": ["strategic", "analytical", "systematic", "influential", "principled"],
+    "core_motivations": ["marketing strategy", "brand positioning", "market focus", "strategic thinking"],
+    "behavioral_patterns": ["strategic analysis", "market research", "brand positioning", "marketing strategy"]
+  },
+  "communication_style": {
+    "tone": ["strategic", "analytical", "systematic", "principled"],
+    "vocabulary_patterns": ["marketing strategy", "brand positioning", "market focus", "strategic concepts"],
+    "rhetorical_strategies": ["strategic analysis", "brand positioning", "market focus", "marketing strategy"]
+  },
+  "values": {
+    "core_values": ["marketing strategy", "brand positioning", "market focus", "strategic thinking", "marketing integrity"],
+    "professional_principles": ["strategic positioning", "market focus", "brand strategy", "marketing analysis"]
+  },
+  "collaboration_style": {
+    "approach": ["strategic partnerships", "marketing collaboration", "brand development"],
+    "preferences": ["strategic planning", "market analysis", "brand positioning"],
+    "conflict_resolution": ["strategic analysis", "market research", "brand positioning"]
+  },
+  "expertise_areas": [
+    "Brand positioning",
+    "Marketing strategy",
+    "Market focus",
+    "Strategic planning",
+    "Brand development",
+    "Marketing analysis"
+  ],
+  "influence_scope": "Global - Marketing strategy and brand positioning",
+  "legacy": "Co-developed the concept of positioning and established fundamental principles of marketing strategy that continue to influence the industry."
+}

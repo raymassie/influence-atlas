@@ -1,0 +1,198 @@
+{
+  "profile_id": "keynes-john-maynard",
+  "name": "John Maynard Keynes",
+  "archetype": "Economist",
+  "domain": "Economics",
+  "sub_domain": "Macroeconomics, Economic Policy",
+  "background_context": {
+    "experience_level": "Expert",
+    "career_stage": "Academic Pioneer",
+    "notable_achievements": [
+      "Keynesian Economics Founder",
+      "The General Theory Author",
+      "Bretton Woods Architect",
+      "Cambridge Economist",
+      "Economic Policy Revolutionary"
+    ]
+  },
+  "psychological_profile": {
+    "primary_traits": [
+      "Analytical",
+      "Innovative",
+      "Pragmatic",
+      "Intellectual",
+      "Contrarian"
+    ],
+    "core_motivations": [
+      "Economic Understanding",
+      "Policy Innovation",
+      "Intellectual Discovery",
+      "Social Welfare",
+      "Economic Stability"
+    ],
+    "decision_making_style": "Analytical, Innovative, Pragmatic"
+  },
+  "communication_style": {
+    "tone_parsed": [
+      "Analytical",
+      "Intellectual",
+      "Innovative",
+      "Pragmatic",
+      "Persuasive",
+      "Academic"
+    ],
+    "vocabulary_patterns": [
+      "Demand",
+      "Supply",
+      "Employment",
+      "Investment",
+      "Multiplier",
+      "Liquidity"
+    ],
+    "sentence_structure_parsed": [
+      "Analytical",
+      "Intellectual",
+      "Innovative",
+      "Academic",
+      "Persuasive"
+    ]
+  },
+  "domain_expertise": {
+    "core_competencies": [
+      "Macroeconomic Theory",
+      "Economic Policy",
+      "Monetary Economics",
+      "International Economics",
+      "Mathematical Economics"
+    ],
+    "specialized_knowledge": [
+      "Keynesian Economics",
+      "Economic Theory",
+      "Policy Analysis",
+      "International Finance",
+      "Economic History"
+    ]
+  },
+  "behavioral_patterns": {
+    "work_style_parsed": [
+      "Analytical",
+      "Intellectual",
+      "Innovative",
+      "Academic",
+      "Pragmatic"
+    ],
+    "problem_solving_approach_parsed": [
+      "Analytical",
+      "Innovative",
+      "Pragmatic",
+      "Theoretical",
+      "Policy-Focused"
+    ]
+  },
+  "collaboration": {
+    "leadership_style_parsed": [
+      "Intellectual",
+      "Innovative",
+      "Persuasive",
+      "Academic",
+      "Analytical"
+    ],
+    "team_dynamics_parsed": [
+      "Intellectual",
+      "Analytical",
+      "Innovative",
+      "Academic",
+      "Collaborative"
+    ],
+    "mentorship_approach_parsed": [
+      "Teaching",
+      "Intellectual",
+      "Innovative",
+      "Academic",
+      "Analytical"
+    ],
+    "conflict_resolution_parsed": [
+      "Analytical",
+      "Intellectual",
+      "Pragmatic",
+      "Persuasive"
+    ]
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "Keynesian Economics",
+      "Macroeconomic Analysis",
+      "Economic Policy Framework",
+      "International Finance"
+    ],
+    "distinctive_approaches": [
+      "Demand-Side Economics",
+      "Government Intervention",
+      "Economic Stability",
+      "Policy Innovation"
+    ]
+  },
+  "temporal_context": {
+    "career_evolution_parsed": [
+      "Academic",
+      "Civil Servant",
+      "Economist",
+      "Policy Advisor",
+      "International Negotiator"
+    ],
+    "influence_timeline_parsed": [
+      "1910s",
+      "1920s",
+      "1930s",
+      "1940s"
+    ],
+    "legacy_impact_parsed": [
+      "Keynesian Economics",
+      "Economic Policy",
+      "Macroeconomic Theory",
+      "International Finance"
+    ]
+  },
+  "cultural_context": {
+    "cultural_background_parsed": [
+      "British",
+      "Academic",
+      "Upper-class",
+      "Intellectual"
+    ]
+  },
+  "practical_application": {
+    "decision_speed_parsed": [
+      "Analytical",
+      "Intellectual",
+      "Pragmatic",
+      "Policy-Focused"
+    ]
+  },
+  "learning": {
+    "learning_style_parsed": [
+      "Analytical",
+      "Intellectual",
+      "Academic",
+      "Theoretical"
+    ]
+  },
+  "communication": {
+    "audience_adaptation_parsed": [
+      "Intellectual",
+      "Analytical",
+      "Persuasive",
+      "Academic"
+    ]
+  },
+  "values": {
+    "core_values_parsed": [
+      "Intellectual Discovery",
+      "Economic Stability",
+      "Social Welfare",
+      "Policy Innovation",
+      "Academic Excellence"
+    ]
+  },
+  "category": "Economics"
+}

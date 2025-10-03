@@ -1,0 +1,43 @@
+{
+  "name": "Greta Thunberg",
+  "archetype": "Environmental Activist",
+  "domain": "Environmental",
+  "sub_domain": "Climate Activism",
+  "category": "Environmental",
+  "subcategory": "Climate Activists",
+  "era": "Contemporary",
+  "nationality": "Swedish",
+  "birth_year": 2003,
+  "death_year": null,
+  "description": "Swedish environmental activist who became a leading voice in climate change activism, inspiring global youth climate movements.",
+  "notable_works": ["Climate activism", "Youth movements", "Environmental advocacy", "Climate strikes"],
+  "psychological_profile": {
+    "primary_traits": ["passionate", "determined", "influential", "focused", "activist"],
+    "core_motivations": ["climate action", "environmental protection", "youth empowerment", "climate justice"],
+    "behavioral_patterns": ["climate activism", "environmental advocacy", "youth mobilization", "climate strikes"]
+  },
+  "communication_style": {
+    "tone": ["passionate", "determined", "influential", "activist"],
+    "vocabulary_patterns": ["climate concepts", "environmental terminology", "activist language", "climate justice"],
+    "rhetorical_strategies": ["climate activism", "environmental advocacy", "youth mobilization", "climate justice"]
+  },
+  "values": {
+    "core_values": ["climate action", "environmental protection", "youth empowerment", "climate justice", "activist determination"],
+    "professional_principles": ["climate activism", "environmental advocacy", "youth mobilization", "climate strikes"]
+  },
+  "collaboration_style": {
+    "approach": ["climate partnerships", "environmental alliances", "youth collaborations"],
+    "preferences": ["climate activism", "environmental advocacy", "youth mobilization"],
+    "conflict_resolution": ["climate analysis", "environmental reasoning", "youth empowerment"]
+  },
+  "expertise_areas": [
+    "Climate activism",
+    "Environmental advocacy",
+    "Youth mobilization",
+    "Climate strikes",
+    "Environmental education",
+    "Climate justice"
+  ],
+  "influence_scope": "Global - Climate activism and youth movements",
+  "legacy": "Became a leading voice in climate change activism, inspiring global youth climate movements and raising awareness about environmental issues."
+}

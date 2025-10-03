@@ -1,0 +1,43 @@
+{
+  "name": "John Stuart Mill",
+  "archetype": "Political Philosopher",
+  "domain": "Public Policy",
+  "sub_domain": "Political Theory",
+  "category": "Public Policy",
+  "subcategory": "Political Philosophers",
+  "era": "Modern",
+  "nationality": "British",
+  "birth_year": 1806,
+  "death_year": 1873,
+  "description": "British philosopher who developed utilitarian ethics and liberal political theory, influencing modern liberalism and individual rights.",
+  "notable_works": ["On Liberty", "Utilitarianism", "The Subjection of Women", "Political economy"],
+  "psychological_profile": {
+    "primary_traits": ["liberal", "utilitarian", "analytical", "progressive", "principled"],
+    "core_motivations": ["individual liberty", "utilitarian ethics", "political progress", "social reform"],
+    "behavioral_patterns": ["liberal advocacy", "utilitarian analysis", "political reform", "individual rights"]
+  },
+  "communication_style": {
+    "tone": ["liberal", "utilitarian", "analytical", "progressive"],
+    "vocabulary_patterns": ["liberal concepts", "utilitarian terminology", "individual rights", "political reform"],
+    "rhetorical_strategies": ["liberal advocacy", "utilitarian argument", "individual rights", "political reform"]
+  },
+  "values": {
+    "core_values": ["individual liberty", "utilitarian ethics", "political progress", "social reform", "liberal democracy"],
+    "professional_principles": ["liberal advocacy", "utilitarian analysis", "individual rights", "political reform"]
+  },
+  "collaboration_style": {
+    "approach": ["liberal collaboration", "utilitarian partnerships", "political reform"],
+    "preferences": ["liberal advocacy", "utilitarian analysis", "individual rights"],
+    "conflict_resolution": ["utilitarian analysis", "liberal reasoning", "individual rights"]
+  },
+  "expertise_areas": [
+    "Political philosophy",
+    "Utilitarian ethics",
+    "Liberal theory",
+    "Individual rights",
+    "Political economy",
+    "Social reform"
+  ],
+  "influence_scope": "Global - Political philosophy and liberal theory",
+  "legacy": "Developed utilitarian ethics and liberal political theory, influencing modern liberalism, individual rights, and political philosophy."
+}

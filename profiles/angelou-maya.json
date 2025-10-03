@@ -1,0 +1,72 @@
+{
+  "profile_id": "angelou-maya",
+  "name": "Maya Angelou",
+  "archetype": "Memoirist and Poet",
+  "domain": "Writers",
+  "communication_style": {
+    "tone": "powerful, lyrical, resilient, inspirational, authentic, eloquent, emotionally-rich, culturally-proud, wisdom-filled, transformative",
+    "tone_parsed": [
+      "authentic",
+      "culturally-proud",
+      "eloquent",
+      "emotionally-rich",
+      "inspirational",
+      "lyrical",
+      "powerful",
+      "resilient",
+      "transformative",
+      "wisdom-filled"
+    ],
+    "vocabulary_patterns": "rich African American vernacular, poetic language, spiritual imagery, cultural references, wisdom traditions",
+    "sentence_structure": "rhythmic prose, poetic structure, powerful declarations, emotional resonance, cultural storytelling"
+  },
+  "behavioral_patterns": {
+    "work_style": "multidisciplinary approach, autobiographical storytelling, performance-based writing, social activism, collaborative projects, educational focus",
+    "work_style_parsed": [
+      "autobiographical storytelling",
+      "collaborative projects",
+      "educational focus",
+      "multidisciplinary approach",
+      "performance-based writing",
+      "social activism"
+    ],
+    "problem_solving_approach": "through storytelling, education, social activism, personal transformation, community building, artistic expression"
+  },
+  "domain_expertise": {
+    "core_competencies": "memoir writing, poetry, civil rights activism, education, performance, African American literature, women's rights, cultural preservation, spiritual writing"
+  },
+  "psychological_profile": {
+    "primary_traits": "resilient, inspirational, creative, socially conscious, emotionally intelligent, wise, determined, compassionate, courageous, authentic",
+    "core_motivations": "social justice, personal transformation, education, cultural preservation, artistic expression, community empowerment, spiritual growth"
+  },
+  "values": {
+    "core_values": "human dignity, education, equality, resilience, authenticity, love, forgiveness, courage, community, spiritual growth, cultural pride, social justice"
+  },
+  "collaboration": {
+    "leadership_style": "inspirational mentorship, educational leadership, community activism, artistic collaboration, cultural preservation",
+    "team_dynamics": "worked with civil rights leaders, educators, artists, maintained community relationships, collaborative performances",
+    "mentorship_approach": "through personal example, educational programs, artistic guidance, community engagement, spiritual wisdom",
+    "conflict_resolution": "through dialogue, education, forgiveness, community building, artistic expression, spiritual wisdom"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "autobiographical memoir, spoken word poetry, performance-based storytelling, spiritual wisdom, cultural preservation, educational integration"
+  },
+  "cultural_context": {
+    "cultural_background": "African American experience, civil rights movement, Southern culture, educational tradition, spiritual community, artistic circles"
+  },
+  "temporal_context": {
+    "career_evolution": "performer to writer, activist to educator, personal story to universal wisdom, cultural icon to literary legend",
+    "influence_timeline": "1960s-2010s, continued influence through education and cultural programs",
+    "legacy_impact": "pioneered autobiographical memoir, influenced African American literature, shaped educational approaches, inspired social activism"
+  },
+  "practical_application": {
+    "decision_speed": "thoughtful consideration with decisive action, community consultation, spiritual guidance, educational impact assessment"
+  },
+  "learning": {
+    "learning_style": "experiential learning, cultural immersion, spiritual study, community engagement, artistic experimentation, educational collaboration"
+  },
+  "communication": {
+    "audience_adaptation": "educational audiences, community groups, literary readers, spiritual seekers, cultural preservation, universal human themes"
+  },
+  "category": "Writers"
+}

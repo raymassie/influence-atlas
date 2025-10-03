@@ -1,0 +1,43 @@
+{
+  "name": "Virginia Woolf",
+  "archetype": "Novelist",
+  "domain": "Writing",
+  "sub_domain": "Literature",
+  "category": "Writers",
+  "subcategory": "Novelists",
+  "era": "Modern",
+  "nationality": "British",
+  "birth_year": 1882,
+  "death_year": 1941,
+  "description": "British novelist, essayist, and literary critic who was a leading figure in modernist literature and the Bloomsbury Group.",
+  "notable_works": ["Mrs. Dalloway", "To the Lighthouse", "Orlando", "A Room of One's Own"],
+  "psychological_profile": {
+    "primary_traits": ["introspective", "innovative", "feminist", "sensitive", "intellectual"],
+    "core_motivations": ["literary innovation", "feminist expression", "stream of consciousness", "artistic truth"],
+    "behavioral_patterns": ["literary innovation", "feminist writing", "stream of consciousness", "artistic exploration"]
+  },
+  "communication_style": {
+    "tone": ["introspective", "innovative", "feminist", "intellectual"],
+    "vocabulary_patterns": ["literary concepts", "feminist terminology", "stream of consciousness", "artistic language"],
+    "rhetorical_strategies": ["stream of consciousness", "feminist advocacy", "literary innovation", "artistic truth"]
+  },
+  "values": {
+    "core_values": ["literary innovation", "feminist expression", "artistic truth", "stream of consciousness", "intellectual freedom"],
+    "professional_principles": ["literary innovation", "feminist writing", "stream of consciousness", "artistic exploration"]
+  },
+  "collaboration_style": {
+    "approach": ["literary partnerships", "feminist collaborations", "artistic alliances"],
+    "preferences": ["literary innovation", "feminist writing", "artistic exploration"],
+    "conflict_resolution": ["literary analysis", "feminist reasoning", "artistic truth"]
+  },
+  "expertise_areas": [
+    "Novel writing",
+    "Stream of consciousness",
+    "Feminist literature",
+    "Literary criticism",
+    "Essay writing",
+    "Modernist literature"
+  ],
+  "influence_scope": "Global - Literature and feminist writing",
+  "legacy": "Was a leading figure in modernist literature and feminist writing, revolutionizing narrative technique with stream of consciousness and advocating for women's literary expression."
+}

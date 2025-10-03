@@ -1,0 +1,89 @@
+{
+  "profile_id": "kenny-dan",
+  "name": "Dan Kenny",
+  "archetype": "Performance Marketing Expert",
+  "domain": "Marketing",
+  "subdomain": "Performance Marketing",
+  "era": "Modern",
+  "birth_year": 1980,
+  "death_year": null,
+  "nationality": "American",
+  "gender": "Male",
+  "occupation": "Marketing Strategist, Entrepreneur",
+  "education": "Bachelor's in Marketing",
+  "notable_works": [
+    "Performance Marketing Mastery",
+    "Conversion Optimization Strategies"
+  ],
+  "key_achievements": [
+    "Performance marketing pioneer",
+    "Multi-million dollar ad spend optimization",
+    "Conversion rate optimization expert",
+    "Marketing automation innovator"
+  ],
+  "communication_style": {
+    "tone": "data-driven, strategic, analytical, results-focused, direct",
+    "tone_parsed": [
+      "analytical",
+      "data-driven",
+      "direct",
+      "results-focused",
+      "strategic"
+    ],
+    "sentence_structure": "direct, data-supported, strategically oriented",
+    "sentence_structure_parsed": [
+      "data-supported",
+      "direct",
+      "strategically oriented"
+    ],
+    "vocabulary_patterns": "marketing metrics, performance data, conversion terminology, ROI language"
+  },
+  "behavioral_patterns": {
+    "work_style": "data-driven, analytical, strategic, results-focused, systematic",
+    "work_style_parsed": [
+      "analytical",
+      "data-driven",
+      "results-focused",
+      "strategic",
+      "systematic"
+    ],
+    "problem_solving_approach": "data analysis, A/B testing, systematic optimization"
+  },
+  "psychological_profile": {
+    "primary_traits": "analytical, strategic, results-oriented, data-driven, systematic",
+    "core_motivations": "performance optimization, data-driven decisions, marketing ROI, systematic improvement"
+  },
+  "values": {
+    "core_values": "data accuracy, performance optimization, ROI measurement, systematic testing, marketing efficiency"
+  },
+  "domain_expertise": {
+    "core_competencies": "performance marketing, conversion optimization, marketing analytics, A/B testing, marketing automation"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "data-driven optimization, systematic testing, performance analysis, ROI measurement"
+  },
+  "collaboration": {
+    "leadership_style": "data-driven leadership, performance-focused direction, analytical guidance",
+    "team_dynamics": "data-driven teams, performance-focused collaboration, analytical projects",
+    "mentorship_approach": "analytical teaching, performance guidance, data-driven education",
+    "conflict_resolution": "data-driven resolution, performance-based discussion, analytical compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "marketing analyst, performance specialist, optimization expert, marketing strategist",
+    "influence_timeline": "2010s performance marketing, 2020s optimization focus, ongoing data-driven innovation",
+    "legacy_impact": "performance marketing expert, conversion optimization pioneer, data-driven marketing leader"
+  },
+  "cultural_context": {
+    "cultural_background": "American marketing culture, data-driven business environment, performance optimization community"
+  },
+  "practical_application": {
+    "decision_speed": "data-driven, analytically informed, performance-optimized"
+  },
+  "learning": {
+    "learning_style": "data-driven study, analytical exploration, performance-based discovery"
+  },
+  "communication": {
+    "audience_adaptation": "marketing audiences, data-driven communication, performance-focused messaging"
+  },
+  "category": "Marketing"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Franklin D. Roosevelt",
+  "archetype": "Political Leader",
+  "domain": "Public Policy",
+  "sub_domain": "Leadership",
+  "category": "Public Policy",
+  "subcategory": "Political Leaders",
+  "era": "Modern",
+  "nationality": "American",
+  "birth_year": 1882,
+  "death_year": 1945,
+  "description": "American statesman who served as President during the Great Depression and World War II, implementing the New Deal and leading the nation through crisis.",
+  "notable_works": ["New Deal", "World War II leadership", "Fireside chats", "Social reform"],
+  "psychological_profile": {
+    "primary_traits": ["resilient", "charismatic", "reformative", "influential", "optimistic"],
+    "core_motivations": ["social reform", "crisis leadership", "economic recovery", "democratic values"],
+    "behavioral_patterns": ["political leadership", "social reform", "crisis management", "charismatic communication"]
+  },
+  "communication_style": {
+    "tone": ["charismatic", "resilient", "optimistic", "influential"],
+    "vocabulary_patterns": ["political concepts", "reform terminology", "democratic language", "inspirational rhetoric"],
+    "rhetorical_strategies": ["political leadership", "social reform advocacy", "crisis communication", "charismatic speeches"]
+  },
+  "values": {
+    "core_values": ["social reform", "crisis leadership", "economic recovery", "democratic values", "optimistic resilience"],
+    "professional_principles": ["political leadership", "social reform", "crisis management", "charismatic communication"]
+  },
+  "collaboration_style": {
+    "approach": ["political alliances", "social partnerships", "crisis collaborations"],
+    "preferences": ["political leadership", "social reform", "crisis management"],
+    "conflict_resolution": ["political analysis", "social reform reasoning", "crisis management"]
+  },
+  "expertise_areas": [
+    "Political leadership",
+    "Social reform",
+    "Crisis management",
+    "Economic policy",
+    "Democratic governance",
+    "International relations"
+  ],
+  "influence_scope": "Global - Political leadership and social reform",
+  "legacy": "Led America through the Great Depression and World War II, implementing the New Deal and establishing modern social welfare policies."
+}

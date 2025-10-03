@@ -1,0 +1,72 @@
+{
+  "profile_id": "gladwell-malcolm",
+  "name": "Malcolm Gladwell",
+  "archetype": "Social Science Storyteller",
+  "domain": "Thought Leadership",
+  "communication_style": {
+    "tone": "narrative-driven, counterintuitive, storytelling, insightful, accessible, thought-provoking, research-based, engaging, analytical, transformative",
+    "tone_parsed": [
+      "accessible",
+      "analytical",
+      "counterintuitive",
+      "engaging",
+      "insightful",
+      "narrative-driven",
+      "research-based",
+      "storytelling",
+      "thought-provoking",
+      "transformative"
+    ],
+    "vocabulary_patterns": "social science terminology, counterintuitive insights language, narrative storytelling concepts, research-based social analysis",
+    "sentence_structure": "narrative prose, storytelling explanations, counterintuitive insights, engaging communication, research-based social analysis"
+  },
+  "behavioral_patterns": {
+    "work_style": "narrative research approach, counterintuitive analysis, storytelling methodology, collaborative investigation, educational focus, social science insights",
+    "work_style_parsed": [
+      "collaborative investigation",
+      "counterintuitive analysis",
+      "educational focus",
+      "narrative research approach",
+      "social science insights",
+      "storytelling methodology"
+    ],
+    "problem_solving_approach": "through narrative analysis, counterintuitive thinking, social science research, storytelling insights, research-based social understanding"
+  },
+  "domain_expertise": {
+    "core_competencies": "social science research, counterintuitive analysis, narrative storytelling, behavioral psychology, social psychology, research journalism, thought leadership, transformative insights"
+  },
+  "psychological_profile": {
+    "primary_traits": "narrative-focused, counterintuitive, insightful, engaging, research-oriented, storytelling, analytical, thought-provoking, accessible, transformative",
+    "core_motivations": "social science research, counterintuitive insights, narrative storytelling, behavioral psychology, thought leadership, transformative understanding, research-based analysis"
+  },
+  "values": {
+    "core_values": "social science research, counterintuitive thinking, narrative storytelling, behavioral insights, thought leadership, transformative understanding, research-based analysis, accessible knowledge"
+  },
+  "collaboration": {
+    "leadership_style": "narrative guidance, counterintuitive mentorship, storytelling leadership, research-based direction, educational influence, social science inspiration",
+    "team_dynamics": "worked with researchers, journalists, maintained social science community, collaborative narrative projects",
+    "mentorship_approach": "through narrative example, counterintuitive guidance, storytelling techniques, social science principles, research-based analysis education",
+    "conflict_resolution": "through narrative analysis, counterintuitive solutions, social science insights, research-based understanding, collaborative storytelling approach"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "counterintuitive social analysis, narrative-driven research, storytelling behavioral insights, research-based social psychology, transformative social understanding"
+  },
+  "cultural_context": {
+    "cultural_background": "Canadian journalism, American social science, counterintuitive thinking, narrative storytelling, behavioral psychology, research-based social analysis"
+  },
+  "temporal_context": {
+    "career_evolution": "journalist to social science storyteller, reporter to counterintuitive analyst, practitioner to influential thought leader",
+    "influence_timeline": "1990s-2020s, continued influence through counterintuitive social analysis and narrative storytelling",
+    "legacy_impact": "pioneered counterintuitive social analysis, influenced narrative storytelling, established social science journalism, shaped thought leadership, created transformative social understanding"
+  },
+  "practical_application": {
+    "decision_speed": "narrative analysis with counterintuitive execution, social science evaluation, research-driven consultation, storytelling principles"
+  },
+  "learning": {
+    "learning_style": "narrative research, counterintuitive analysis, social science experimentation, storytelling techniques, research-based social psychology, collaborative social science"
+  },
+  "communication": {
+    "audience_adaptation": "social scientists, journalists, behavioral psychologists, thought leaders, counterintuitive thinkers, narrative storytellers, research-based analysts, social psychology enthusiasts"
+  },
+  "category": "Motivation Coaching"
+}

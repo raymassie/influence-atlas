@@ -1,0 +1,43 @@
+{
+  "name": "James Hansen",
+  "archetype": "Climate Scientist",
+  "domain": "Environmental",
+  "sub_domain": "Climate Science",
+  "category": "Environmental",
+  "subcategory": "Climate Scientists",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1941,
+  "death_year": null,
+  "description": "American climate scientist who was among the first to warn about global warming and became a leading voice in climate science and advocacy.",
+  "notable_works": ["Climate science", "Global warming research", "Climate advocacy", "Environmental science"],
+  "psychological_profile": {
+    "primary_traits": ["analytical", "persistent", "influential", "systematic", "activist"],
+    "core_motivations": ["climate science", "environmental protection", "scientific truth", "climate advocacy"],
+    "behavioral_patterns": ["climate research", "scientific analysis", "climate advocacy", "environmental protection"]
+  },
+  "communication_style": {
+    "tone": ["analytical", "persistent", "influential", "systematic"],
+    "vocabulary_patterns": ["climate concepts", "scientific terminology", "environmental language", "climate analysis"],
+    "rhetorical_strategies": ["climate research", "scientific analysis", "climate advocacy", "environmental protection"]
+  },
+  "values": {
+    "core_values": ["climate science", "environmental protection", "scientific truth", "climate advocacy", "systematic analysis"],
+    "professional_principles": ["climate research", "scientific analysis", "climate advocacy", "environmental protection"]
+  },
+  "collaboration_style": {
+    "approach": ["climate partnerships", "scientific collaborations", "environmental alliances"],
+    "preferences": ["climate research", "scientific analysis", "climate advocacy"],
+    "conflict_resolution": ["climate analysis", "scientific reasoning", "environmental protection"]
+  },
+  "expertise_areas": [
+    "Climate science",
+    "Global warming research",
+    "Environmental science",
+    "Climate advocacy",
+    "Scientific analysis",
+    "Environmental protection"
+  ],
+  "influence_scope": "Global - Climate science and environmental protection",
+  "legacy": "Was among the first to warn about global warming and became a leading voice in climate science and advocacy, influencing global climate policy and environmental protection."
+}

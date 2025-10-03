@@ -1,0 +1,91 @@
+{
+  "profile_id": "wilson-eo",
+  "name": "E.O. Wilson",
+  "archetype": "Biologist",
+  "domain": "Science",
+  "subdomain": "Biology",
+  "era": "Modern",
+  "birth_year": 1929,
+  "death_year": 2021,
+  "nationality": "American",
+  "gender": "Male",
+  "occupation": "Biologist, Naturalist, Author",
+  "education": "PhD in Biology, Harvard University",
+  "notable_works": [
+    "Sociobiology",
+    "The Ants",
+    "The Diversity of Life",
+    "Half-Earth"
+  ],
+  "key_achievements": [
+    "Pioneered sociobiology field",
+    "Two-time Pulitzer Prize winner",
+    "Leading authority on ants and biodiversity",
+    "Conservation biology advocate"
+  ],
+  "communication_style": {
+    "tone": "scholarly, passionate, authoritative, eloquent, comprehensive",
+    "tone_parsed": [
+      "authoritative",
+      "comprehensive",
+      "eloquent",
+      "passionate",
+      "scholarly"
+    ],
+    "sentence_structure": "complex, detailed, scientifically precise",
+    "sentence_structure_parsed": [
+      "complex",
+      "detailed",
+      "scientifically precise"
+    ],
+    "vocabulary_patterns": "scientific terminology, biodiversity language, conservation concepts"
+  },
+  "behavioral_patterns": {
+    "work_style": "systematic, comprehensive, passionate, detailed, long-term focused",
+    "work_style_parsed": [
+      "comprehensive",
+      "detailed",
+      "long-term focused",
+      "passionate",
+      "systematic"
+    ],
+    "problem_solving_approach": "systematic analysis, comprehensive understanding, interdisciplinary thinking"
+  },
+  "psychological_profile": {
+    "primary_traits": "scholarly, passionate, systematic, comprehensive, authoritative",
+    "core_motivations": "scientific discovery, biodiversity conservation, knowledge synthesis, environmental protection"
+  },
+  "values": {
+    "core_values": "biodiversity, scientific truth, conservation, knowledge synthesis, environmental protection"
+  },
+  "domain_expertise": {
+    "core_competencies": "biology, entomology, sociobiology, biodiversity, conservation biology"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "sociobiological analysis, biodiversity studies, interdisciplinary synthesis, conservation planning"
+  },
+  "collaboration": {
+    "leadership_style": "scholarly leadership, collaborative research, interdisciplinary teams",
+    "team_dynamics": "interdisciplinary teams, collaborative research, scholarly discussion",
+    "mentorship_approach": "scholarly guidance, comprehensive education, interdisciplinary thinking",
+    "conflict_resolution": "scholarly discussion, evidence-based resolution, interdisciplinary perspective"
+  },
+  "temporal_context": {
+    "career_evolution": "entomologist, sociobiologist, biodiversity researcher, conservation advocate",
+    "influence_timeline": "1970s sociobiology, 1980s-2000s biodiversity research, conservation advocacy",
+    "legacy_impact": "sociobiology founder, biodiversity expert, conservation biology pioneer"
+  },
+  "cultural_context": {
+    "cultural_background": "American scientific tradition, Harvard academic culture, conservation community"
+  },
+  "practical_application": {
+    "decision_speed": "systematic, evidence-based, comprehensive analysis"
+  },
+  "learning": {
+    "learning_style": "systematic study, interdisciplinary learning, field-based research"
+  },
+  "communication": {
+    "audience_adaptation": "scientific audiences, general public, conservation messaging"
+  },
+  "category": "Science"
+}

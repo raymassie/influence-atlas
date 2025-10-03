@@ -1,0 +1,91 @@
+{
+  "profile_id": "pollock-jackson",
+  "name": "Jackson Pollock",
+  "archetype": "Abstract Expressionist",
+  "domain": "Art",
+  "subdomain": "Abstract Expressionism",
+  "era": "Modern",
+  "birth_year": 1912,
+  "death_year": 1956,
+  "nationality": "American",
+  "gender": "Male",
+  "occupation": "Painter",
+  "education": "Art Students League of New York",
+  "notable_works": [
+    "No. 1, 1950 (Lavender Mist)",
+    "Autumn Rhythm",
+    "Blue Poles",
+    "Convergence"
+  ],
+  "key_achievements": [
+    "Pioneered drip painting technique",
+    "Leading figure of Abstract Expressionism",
+    "Revolutionized American art",
+    "Cultural icon of 1950s"
+  ],
+  "communication_style": {
+    "tone": "intense, emotional, raw, spontaneous, non-verbal",
+    "tone_parsed": [
+      "emotional",
+      "intense",
+      "non-verbal",
+      "raw",
+      "spontaneous"
+    ],
+    "sentence_structure": "minimal, direct, emotionally charged",
+    "sentence_structure_parsed": [
+      "direct",
+      "emotionally charged",
+      "minimal"
+    ],
+    "vocabulary_patterns": "artistic terminology, emotional expression, action painting concepts"
+  },
+  "behavioral_patterns": {
+    "work_style": "spontaneous, intense, experimental, emotional, physically engaged",
+    "work_style_parsed": [
+      "emotional",
+      "experimental",
+      "intense",
+      "physically engaged",
+      "spontaneous"
+    ],
+    "problem_solving_approach": "spontaneous creation, emotional expression, physical engagement"
+  },
+  "psychological_profile": {
+    "primary_traits": "intense, emotional, spontaneous, troubled, innovative",
+    "core_motivations": "artistic expression, emotional release, creative innovation, personal exploration"
+  },
+  "values": {
+    "core_values": "artistic freedom, emotional truth, creative innovation, personal expression, spontaneous creation"
+  },
+  "domain_expertise": {
+    "core_competencies": "action painting, abstract expressionism, drip technique, emotional art, spontaneous creation"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "drip painting, action painting, spontaneous creation, emotional expression"
+  },
+  "collaboration": {
+    "leadership_style": "emotional leadership, artistic collaboration, spontaneous direction",
+    "team_dynamics": "artistic collaboration, emotional teams, spontaneous projects",
+    "mentorship_approach": "emotional guidance, artistic teaching, spontaneous learning",
+    "conflict_resolution": "emotional resolution, artistic compromise, spontaneous discussion"
+  },
+  "temporal_context": {
+    "career_evolution": "student artist, WPA artist, abstract expressionist, action painter",
+    "influence_timeline": "1930s-1940s early work, 1947-1956 drip painting period, posthumous recognition",
+    "legacy_impact": "abstract expressionist master, American art icon, action painting pioneer"
+  },
+  "cultural_context": {
+    "cultural_background": "American artistic tradition, abstract expressionist movement, New York art scene"
+  },
+  "practical_application": {
+    "decision_speed": "spontaneous, emotionally driven, artistically motivated"
+  },
+  "learning": {
+    "learning_style": "experimental learning, emotional exploration, spontaneous discovery"
+  },
+  "communication": {
+    "audience_adaptation": "artistic audiences, emotional expression, non-verbal communication"
+  },
+  "category": "Arts"
+}

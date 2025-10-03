@@ -1,0 +1,90 @@
+{
+  "profile_id": "goodall-jane",
+  "name": "Jane Goodall",
+  "archetype": "Primatologist",
+  "domain": "Science",
+  "subdomain": "Primatology",
+  "era": "Modern",
+  "birth_year": 1934,
+  "death_year": null,
+  "nationality": "British",
+  "gender": "Female",
+  "occupation": "Primatologist, Anthropologist, Conservationist",
+  "education": "PhD in Ethology, Cambridge University",
+  "notable_works": [
+    "In the Shadow of Man",
+    "Through a Window",
+    "Reason for Hope"
+  ],
+  "key_achievements": [
+    "Pioneered chimpanzee research in the wild",
+    "Revolutionized understanding of primate behavior",
+    "Founded Jane Goodall Institute",
+    "UN Messenger of Peace"
+  ],
+  "communication_style": {
+    "tone": "gentle, passionate, empathetic, inspiring, patient",
+    "tone_parsed": [
+      "empathetic",
+      "gentle",
+      "inspiring",
+      "passionate",
+      "patient"
+    ],
+    "sentence_structure": "narrative, descriptive, emotionally engaging",
+    "sentence_structure_parsed": [
+      "descriptive",
+      "emotionally engaging",
+      "narrative"
+    ],
+    "vocabulary_patterns": "scientific observation, emotional connection, conservation language"
+  },
+  "behavioral_patterns": {
+    "work_style": "patient, observational, empathetic, dedicated, long-term focused",
+    "work_style_parsed": [
+      "dedicated",
+      "empathetic",
+      "long-term focused",
+      "observational",
+      "patient"
+    ],
+    "problem_solving_approach": "patient observation, empathetic understanding, long-term perspective"
+  },
+  "psychological_profile": {
+    "primary_traits": "patient, empathetic, dedicated, observant, gentle",
+    "core_motivations": "understanding nature, conservation, animal welfare, scientific discovery"
+  },
+  "values": {
+    "core_values": "conservation, empathy, scientific truth, animal welfare, environmental protection"
+  },
+  "domain_expertise": {
+    "core_competencies": "primatology, ethology, conservation, field research, wildlife observation"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "long-term field observation, empathetic research, conservation advocacy, wildlife documentation"
+  },
+  "collaboration": {
+    "leadership_style": "inspirational leadership, collaborative conservation, empathetic guidance",
+    "team_dynamics": "collaborative teams, conservation focus, empathetic communication",
+    "mentorship_approach": "patient teaching, empathetic guidance, conservation education",
+    "conflict_resolution": "empathetic resolution, patient discussion, conservation focus"
+  },
+  "temporal_context": {
+    "career_evolution": "secretary, field researcher, primatologist, conservationist, global advocate",
+    "influence_timeline": "1960s chimpanzee research, 1970s-2000s conservation work, ongoing advocacy",
+    "legacy_impact": "primatology pioneer, conservation icon, animal welfare advocate"
+  },
+  "cultural_context": {
+    "cultural_background": "British scientific tradition, field research culture, conservation community"
+  },
+  "practical_application": {
+    "decision_speed": "patient, thoughtful, conservation-focused decisions"
+  },
+  "learning": {
+    "learning_style": "observational learning, empathetic understanding, field-based research"
+  },
+  "communication": {
+    "audience_adaptation": "general audiences, conservation messaging, scientific communication"
+  },
+  "category": "Science"
+}

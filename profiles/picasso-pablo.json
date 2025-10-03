@@ -1,0 +1,43 @@
+{
+  "name": "Pablo Picasso",
+  "archetype": "Painter",
+  "domain": "Arts",
+  "sub_domain": "Visual Arts",
+  "category": "Arts",
+  "subcategory": "Painters",
+  "era": "Modern",
+  "nationality": "Spanish",
+  "birth_year": 1881,
+  "death_year": 1973,
+  "description": "Spanish painter and sculptor who co-founded the Cubist movement and became one of the most influential artists of the 20th century.",
+  "notable_works": ["Guernica", "Les Demoiselles d'Avignon", "The Old Guitarist", "Cubist paintings"],
+  "psychological_profile": {
+    "primary_traits": ["innovative", "experimental", "prolific", "revolutionary", "creative"],
+    "core_motivations": ["artistic innovation", "cubist revolution", "artistic experimentation", "creative expression"],
+    "behavioral_patterns": ["artistic innovation", "cubist experimentation", "artistic creation", "creative revolution"]
+  },
+  "communication_style": {
+    "tone": ["innovative", "experimental", "revolutionary", "creative"],
+    "vocabulary_patterns": ["artistic concepts", "cubist terminology", "artistic innovation", "creative expression"],
+    "rhetorical_strategies": ["artistic innovation", "cubist advocacy", "artistic experimentation", "creative revolution"]
+  },
+  "values": {
+    "core_values": ["artistic innovation", "cubist revolution", "artistic experimentation", "creative expression", "artistic freedom"],
+    "professional_principles": ["artistic innovation", "cubist experimentation", "artistic creation", "creative revolution"]
+  },
+  "collaboration_style": {
+    "approach": ["artistic partnerships", "creative collaborations", "artistic alliances"],
+    "preferences": ["artistic development", "creative experimentation", "artistic collaboration"],
+    "conflict_resolution": ["artistic solutions", "creative innovation", "artistic experimentation"]
+  },
+  "expertise_areas": [
+    "Painting",
+    "Cubism",
+    "Sculpture",
+    "Artistic innovation",
+    "Creative expression",
+    "Artistic experimentation"
+  ],
+  "influence_scope": "Global - Visual arts and artistic innovation",
+  "legacy": "Co-founded Cubism and revolutionized modern art, becoming one of the most influential and innovative artists of the 20th century."
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Claude Bernard",
+  "archetype": "Physiologist",
+  "domain": "Medicine",
+  "sub_domain": "Physiology",
+  "category": "Medicine",
+  "subcategory": "Physiologists",
+  "era": "Modern",
+  "nationality": "French",
+  "birth_year": 1813,
+  "death_year": 1878,
+  "description": "French physiologist who pioneered experimental medicine and established the concept of homeostasis and internal environment regulation.",
+  "notable_works": ["Introduction to the Study of Experimental Medicine", "Homeostasis concept", "Experimental medicine", "Physiological research"],
+  "psychological_profile": {
+    "primary_traits": ["experimental", "systematic", "analytical", "innovative", "methodical"],
+    "core_motivations": ["experimental medicine", "physiological understanding", "scientific discovery", "homeostasis research"],
+    "behavioral_patterns": ["experimental research", "systematic analysis", "physiological experimentation", "medical innovation"]
+  },
+  "communication_style": {
+    "tone": ["experimental", "systematic", "analytical", "scientific"],
+    "vocabulary_patterns": ["experimental concepts", "physiological terminology", "scientific analysis", "medical research"],
+    "rhetorical_strategies": ["experimental demonstration", "scientific analysis", "medical research", "physiological argument"]
+  },
+  "values": {
+    "core_values": ["experimental accuracy", "scientific discovery", "physiological understanding", "medical innovation", "systematic analysis"],
+    "professional_principles": ["experimental medicine", "scientific research", "physiological analysis", "medical innovation"]
+  },
+  "collaboration_style": {
+    "approach": ["experimental collaboration", "scientific partnerships", "medical research"],
+    "preferences": ["experimental research", "scientific analysis", "physiological experimentation"],
+    "conflict_resolution": ["experimental evidence", "scientific analysis", "medical demonstration"]
+  },
+  "expertise_areas": [
+    "Experimental medicine",
+    "Homeostasis",
+    "Physiological research",
+    "Medical experimentation",
+    "Physiological analysis",
+    "Scientific methodology"
+  ],
+  "influence_scope": "Global - Experimental medicine and physiology",
+  "legacy": "Pioneered experimental medicine and established the concept of homeostasis, revolutionizing physiological understanding and medical research."
+}

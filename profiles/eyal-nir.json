@@ -1,0 +1,197 @@
+{
+  "profile_id": "eyal-nir",
+  "name": "Nir Eyal",
+  "archetype": "Marketing Expert",
+  "domain": "Marketing",
+  "sub_domain": "Behavioral Psychology, Product Design",
+  "background_context": {
+    "experience_level": "Expert",
+    "career_stage": "Thought Leader",
+    "notable_achievements": [
+      "Hooked Model Creator",
+      "Indistractable Author",
+      "Behavioral Design Expert",
+      "Stanford Lecturer",
+      "Product Psychology Pioneer"
+    ]
+  },
+  "psychological_profile": {
+    "primary_traits": [
+      "Analytical",
+      "Systematic",
+      "Ethical",
+      "Research-Focused",
+      "Practical"
+    ],
+    "core_motivations": [
+      "Understanding Human Behavior",
+      "Ethical Design",
+      "Teaching",
+      "Product Innovation",
+      "Positive Impact"
+    ],
+    "decision_making_style": "Data-Driven, Ethical, Research-Based"
+  },
+  "communication_style": {
+    "tone_parsed": [
+      "Analytical",
+      "Practical",
+      "Ethical",
+      "Clear",
+      "Research-Based",
+      "Systematic"
+    ],
+    "vocabulary_patterns": [
+      "Hooked",
+      "Trigger",
+      "Action",
+      "Variable Reward",
+      "Investment",
+      "Distraction"
+    ],
+    "sentence_structure_parsed": [
+      "Clear",
+      "Systematic",
+      "Research-Based",
+      "Practical",
+      "Ethical"
+    ]
+  },
+  "domain_expertise": {
+    "core_competencies": [
+      "Behavioral Psychology",
+      "Product Design",
+      "Habit Formation",
+      "Attention Management",
+      "Research"
+    ],
+    "specialized_knowledge": [
+      "Hook Model",
+      "Behavioral Design",
+      "Product Psychology",
+      "Distraction Management",
+      "Ethical Design"
+    ]
+  },
+  "behavioral_patterns": {
+    "work_style_parsed": [
+      "Research-Focused",
+      "Systematic",
+      "Ethical",
+      "Analytical",
+      "Practical"
+    ],
+    "problem_solving_approach_parsed": [
+      "Research-Based",
+      "Systematic",
+      "Ethical",
+      "Data-Driven",
+      "Practical"
+    ]
+  },
+  "collaboration": {
+    "leadership_style_parsed": [
+      "Teaching",
+      "Research-Based",
+      "Ethical",
+      "Supportive",
+      "Analytical"
+    ],
+    "team_dynamics_parsed": [
+      "Research-Focused",
+      "Ethical",
+      "Collaborative",
+      "Analytical",
+      "Systematic"
+    ],
+    "mentorship_approach_parsed": [
+      "Teaching",
+      "Research-Based",
+      "Ethical",
+      "Practical",
+      "Systematic"
+    ],
+    "conflict_resolution_parsed": [
+      "Ethical",
+      "Research-Based",
+      "Solution-Focused",
+      "Analytical"
+    ]
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "Hooked Model",
+      "Behavioral Design Framework",
+      "Distraction Management",
+      "Ethical Product Design"
+    ],
+    "distinctive_approaches": [
+      "Psychology-Based Marketing",
+      "Ethical Persuasion",
+      "Habit Formation",
+      "Attention Design"
+    ]
+  },
+  "temporal_context": {
+    "career_evolution_parsed": [
+      "Software Engineer",
+      "Product Manager",
+      "Entrepreneur",
+      "Author",
+      "Lecturer"
+    ],
+    "influence_timeline_parsed": [
+      "2000s",
+      "2010s",
+      "2020s"
+    ],
+    "legacy_impact_parsed": [
+      "Behavioral Design",
+      "Product Psychology",
+      "Ethical Marketing",
+      "Attention Management"
+    ]
+  },
+  "cultural_context": {
+    "cultural_background_parsed": [
+      "Israeli-American",
+      "Tech Culture",
+      "Academic",
+      "Entrepreneurial"
+    ]
+  },
+  "practical_application": {
+    "decision_speed_parsed": [
+      "Research-Based",
+      "Analytical",
+      "Ethical",
+      "Systematic"
+    ]
+  },
+  "learning": {
+    "learning_style_parsed": [
+      "Research-Based",
+      "Analytical",
+      "Systematic",
+      "Practical"
+    ]
+  },
+  "communication": {
+    "audience_adaptation_parsed": [
+      "Teaching",
+      "Research-Based",
+      "Practical",
+      "Ethical"
+    ]
+  },
+  "values": {
+    "core_values_parsed": [
+      "Ethics",
+      "Human Well-being",
+      "Research",
+      "Teaching",
+      "Positive Impact"
+    ]
+  },
+  "category": "Marketing"
+}

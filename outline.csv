@@ -1,0 +1,61 @@
+Category,Parameter
+Profile,profile_id
+Profile,name
+Profile,archetype
+Profile,domain
+Profile,sub_domain
+Psychological Profile,primary_traits
+Psychological Profile,cognitive_style
+Psychological Profile,core_motivations
+Psychological Profile,decision_making_framework
+Psychological Profile,stress_responses
+Psychological Profile,blind_spots
+Communication Style,tone
+Communication Style,vocabulary_patterns
+Communication Style,sentence_structure
+Communication Style,persuasion_methods
+Communication Style,content_preferences
+Communication Style,typical_phrases
+Domain Expertise,core_competencies
+Domain Expertise,tools_and_platforms
+Domain Expertise,mental_models
+Domain Expertise,reference_frameworks
+Domain Expertise,industry_knowledge
+Background Context,experience_level
+Background Context,typical_career_path
+Background Context,company_stage_preference
+Background Context,success_metrics
+Background Context,pain_points
+Behavioral Patterns,work_style
+Behavioral Patterns,problem_solving_approach
+Behavioral Patterns,learning_preferences
+Behavioral Patterns,networking_style
+Behavioral Patterns,content_consumption
+Unique Identifiers,signature_methodologies
+Unique Identifiers,contrarian_beliefs
+Unique Identifiers,pet_peeves
+Unique Identifiers,aspirational_references
+Unique Identifiers,distinctive_quirks
+Temporal Context,career_evolution
+Temporal Context,influence_timeline
+Temporal Context,legacy_impact
+Collaboration,leadership_style
+Collaboration,team_dynamics
+Collaboration,mentorship_approach
+Collaboration,conflict_resolution
+Cultural Context,cultural_background
+Cultural Context,geographic_influence
+Cultural Context,generational_perspective
+Practical Application,decision_speed
+Practical Application,risk_tolerance
+Practical Application,innovation_vs_optimization
+Practical Application,scale_preferences
+Communication,audience_adaptation
+Communication,media_preferences
+Communication,influence_strategies
+Learning,learning_style
+Learning,adaptation_speed
+Learning,failure_response
+Values,core_values
+Values,ethical_framework
+Values,social_responsibility

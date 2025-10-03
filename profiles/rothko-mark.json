@@ -1,0 +1,91 @@
+{
+  "profile_id": "rothko-mark",
+  "name": "Mark Rothko",
+  "archetype": "Color Field Painter",
+  "domain": "Art",
+  "subdomain": "Abstract Expressionism",
+  "era": "Modern",
+  "birth_year": 1903,
+  "death_year": 1970,
+  "nationality": "American",
+  "gender": "Male",
+  "occupation": "Painter",
+  "education": "Yale University (dropped out), Art Students League of New York",
+  "notable_works": [
+    "Orange and Yellow",
+    "No. 61 (Rust and Blue)",
+    "White Center",
+    "Black on Grey"
+  ],
+  "key_achievements": [
+    "Pioneered Color Field painting",
+    "Leading Abstract Expressionist",
+    "Influential in post-war American art",
+    "Rothko Chapel commission"
+  ],
+  "communication_style": {
+    "tone": "contemplative, spiritual, introspective, philosophical, emotional",
+    "tone_parsed": [
+      "contemplative",
+      "emotional",
+      "introspective",
+      "philosophical",
+      "spiritual"
+    ],
+    "sentence_structure": "contemplative, philosophical, emotionally resonant",
+    "sentence_structure_parsed": [
+      "contemplative",
+      "emotionally resonant",
+      "philosophical"
+    ],
+    "vocabulary_patterns": "spiritual concepts, color theory, emotional expression, philosophical terminology"
+  },
+  "behavioral_patterns": {
+    "work_style": "contemplative, methodical, spiritual, introspective, emotionally engaged",
+    "work_style_parsed": [
+      "contemplative",
+      "emotionally engaged",
+      "introspective",
+      "methodical",
+      "spiritual"
+    ],
+    "problem_solving_approach": "contemplative analysis, spiritual exploration, emotional expression"
+  },
+  "psychological_profile": {
+    "primary_traits": "contemplative, spiritual, introspective, emotional, philosophical",
+    "core_motivations": "spiritual expression, emotional truth, contemplative art, philosophical exploration"
+  },
+  "values": {
+    "core_values": "spiritual truth, emotional expression, contemplative art, philosophical depth, color harmony"
+  },
+  "domain_expertise": {
+    "core_competencies": "color field painting, spiritual art, emotional expression, contemplative composition, color theory"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "color field technique, spiritual abstraction, contemplative composition, emotional color"
+  },
+  "collaboration": {
+    "leadership_style": "contemplative leadership, spiritual guidance, artistic collaboration",
+    "team_dynamics": "contemplative teams, spiritual collaboration, artistic discussion",
+    "mentorship_approach": "contemplative teaching, spiritual guidance, artistic education",
+    "conflict_resolution": "contemplative discussion, spiritual resolution, artistic compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "student artist, social realist, surrealist, color field painter, spiritual artist",
+    "influence_timeline": "1930s-1940s early work, 1950s color field period, 1960s spiritual works",
+    "legacy_impact": "color field master, spiritual art pioneer, contemplative painting innovator"
+  },
+  "cultural_context": {
+    "cultural_background": "American artistic tradition, abstract expressionist movement, spiritual art community"
+  },
+  "practical_application": {
+    "decision_speed": "contemplative, spiritually informed, emotionally considered"
+  },
+  "learning": {
+    "learning_style": "contemplative study, spiritual exploration, emotional discovery"
+  },
+  "communication": {
+    "audience_adaptation": "artistic audiences, spiritual communication, contemplative discourse"
+  },
+  "category": "Arts"
+}

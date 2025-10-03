@@ -1,0 +1,43 @@
+{
+  "name": "Jonas Salk",
+  "archetype": "Virologist",
+  "domain": "Medicine",
+  "sub_domain": "Virology",
+  "category": "Medicine",
+  "subcategory": "Virologists",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1914,
+  "death_year": 1995,
+  "description": "American virologist who developed the first successful polio vaccine and made it freely available, preventing millions of cases of polio.",
+  "notable_works": ["Polio vaccine", "Virology research", "Public health", "Vaccine development"],
+  "psychological_profile": {
+    "primary_traits": ["dedicated", "innovative", "altruistic", "systematic", "persistent"],
+    "core_motivations": ["disease prevention", "public health", "vaccine development", "virological research"],
+    "behavioral_patterns": ["vaccine research", "public health advocacy", "virological experimentation", "medical innovation"]
+  },
+  "communication_style": {
+    "tone": ["dedicated", "altruistic", "systematic", "scientific"],
+    "vocabulary_patterns": ["virological concepts", "vaccine terminology", "public health", "medical research"],
+    "rhetorical_strategies": ["vaccine demonstration", "public health advocacy", "virological analysis", "medical argument"]
+  },
+  "values": {
+    "core_values": ["public health", "disease prevention", "vaccine accessibility", "virological research", "medical altruism"],
+    "professional_principles": ["vaccine development", "public health", "virological research", "medical accessibility"]
+  },
+  "collaboration_style": {
+    "approach": ["public health collaboration", "vaccine research", "medical partnerships"],
+    "preferences": ["vaccine research", "public health", "virological collaboration"],
+    "conflict_resolution": ["virological evidence", "public health data", "vaccine demonstration"]
+  },
+  "expertise_areas": [
+    "Virology",
+    "Vaccine development",
+    "Polio research",
+    "Public health",
+    "Disease prevention",
+    "Medical research"
+  ],
+  "influence_scope": "Global - Vaccines and public health",
+  "legacy": "Developed the polio vaccine and made it freely available, preventing millions of polio cases and revolutionizing vaccine accessibility."
+}

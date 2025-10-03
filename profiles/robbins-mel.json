@@ -1,0 +1,91 @@
+{
+  "profile_id": "robbins-mel",
+  "name": "Mel Robbins",
+  "archetype": "Action Coach",
+  "domain": "Motivation Coaching",
+  "subdomain": "Action Coaching",
+  "era": "Modern",
+  "birth_year": 1968,
+  "death_year": null,
+  "nationality": "American",
+  "gender": "Female",
+  "occupation": "Author, Speaker, Coach, Podcast Host",
+  "education": "JD, Boston College Law School",
+  "notable_works": [
+    "The 5 Second Rule",
+    "Take Control of Your Life",
+    "The High 5 Habit",
+    "Stop Saying You're Fine"
+  ],
+  "key_achievements": [
+    "5 Second Rule creator",
+    "Action-based coaching",
+    "Podcast success",
+    "Behavioral change expert"
+  ],
+  "communication_style": {
+    "tone": "action-oriented, direct, practical, energetic, solution-focused",
+    "tone_parsed": [
+      "action-oriented",
+      "direct",
+      "energetic",
+      "practical",
+      "solution-focused"
+    ],
+    "sentence_structure": "direct, action-oriented, solution-focused",
+    "sentence_structure_parsed": [
+      "action-oriented",
+      "direct",
+      "solution-focused"
+    ],
+    "vocabulary_patterns": "action terminology, direct language, practical concepts, solution-based communication"
+  },
+  "behavioral_patterns": {
+    "work_style": "action-oriented, direct, practical, energetic, solution-focused",
+    "work_style_parsed": [
+      "action-oriented",
+      "direct",
+      "energetic",
+      "practical",
+      "solution-focused"
+    ],
+    "problem_solving_approach": "action-oriented solutions, direct approach, practical implementation"
+  },
+  "psychological_profile": {
+    "primary_traits": "action-oriented, direct, practical, energetic, solution-focused",
+    "core_motivations": "action-oriented coaching, direct guidance, practical solutions, energetic motivation"
+  },
+  "values": {
+    "core_values": "action, directness, practicality, energy, solution-focused thinking"
+  },
+  "domain_expertise": {
+    "core_competencies": "action-based coaching, behavioral change, direct motivation, practical solutions, energetic leadership"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "5 Second Rule, action-based coaching, direct motivation, practical solutions"
+  },
+  "collaboration": {
+    "leadership_style": "action-oriented leadership, direct direction, practical guidance",
+    "team_dynamics": "action-oriented teams, direct collaboration, practical projects",
+    "mentorship_approach": "action-oriented teaching, direct guidance, practical education",
+    "conflict_resolution": "action-oriented resolution, direct discussion, practical compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "lawyer, author, speaker, action coach, behavioral change expert",
+    "influence_timeline": "2000s-2010s career transition, 2010s-2020s 5 Second Rule, 2020s action coaching",
+    "legacy_impact": "action-based coaching pioneer, direct motivation master, practical solutions expert"
+  },
+  "cultural_context": {
+    "cultural_background": "American coaching tradition, action-oriented culture, practical solutions community"
+  },
+  "practical_application": {
+    "decision_speed": "action-oriented, directly informed, practically considered"
+  },
+  "learning": {
+    "learning_style": "action-oriented study, direct exploration, practical discovery"
+  },
+  "communication": {
+    "audience_adaptation": "coaching audiences, action-oriented discourse, direct communication"
+  },
+  "category": "Motivation Coaching"
+}

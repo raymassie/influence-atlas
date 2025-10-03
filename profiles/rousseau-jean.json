@@ -1,0 +1,43 @@
+{
+  "name": "Jean-Jacques Rousseau",
+  "archetype": "Political Philosopher",
+  "domain": "Public Policy",
+  "sub_domain": "Political Theory",
+  "category": "Public Policy",
+  "subcategory": "Political Philosophers",
+  "era": "Enlightenment",
+  "nationality": "French",
+  "birth_year": 1712,
+  "death_year": 1778,
+  "description": "French philosopher who developed the concept of the social contract and influenced democratic theory and educational philosophy.",
+  "notable_works": ["The Social Contract", "Emile", "Discourse on Inequality", "Political theory"],
+  "psychological_profile": {
+    "primary_traits": ["passionate", "idealistic", "revolutionary", "emotional", "principled"],
+    "core_motivations": ["social justice", "democratic theory", "educational reform", "political equality"],
+    "behavioral_patterns": ["political advocacy", "democratic reasoning", "social contract analysis", "educational philosophy"]
+  },
+  "communication_style": {
+    "tone": ["passionate", "idealistic", "revolutionary", "emotional"],
+    "vocabulary_patterns": ["political concepts", "democratic terminology", "social contract", "political equality"],
+    "rhetorical_strategies": ["political advocacy", "democratic argument", "social contract analysis", "political equality"]
+  },
+  "values": {
+    "core_values": ["social justice", "democratic equality", "political freedom", "educational reform", "social contract"],
+    "professional_principles": ["political philosophy", "democratic theory", "social contract", "educational advocacy"]
+  },
+  "collaboration_style": {
+    "approach": ["political collaboration", "democratic partnerships", "educational alliances"],
+    "preferences": ["political advocacy", "democratic reasoning", "social contract analysis"],
+    "conflict_resolution": ["democratic analysis", "social contract reasoning", "political equality"]
+  },
+  "expertise_areas": [
+    "Political philosophy",
+    "Social contract theory",
+    "Democratic theory",
+    "Educational philosophy",
+    "Political equality",
+    "Social justice"
+  ],
+  "influence_scope": "Global - Political philosophy and democratic theory",
+  "legacy": "Developed social contract theory and influenced democratic philosophy, shaping modern political thought and educational theory."
+}

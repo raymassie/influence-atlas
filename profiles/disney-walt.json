@@ -1,0 +1,43 @@
+{
+  "name": "Walt Disney",
+  "archetype": "Creative Entrepreneur",
+  "domain": "Entrepreneurial",
+  "sub_domain": "Entertainment",
+  "category": "Entrepreneurial",
+  "subcategory": "Creative Entrepreneurs",
+  "era": "Modern",
+  "nationality": "American",
+  "birth_year": 1901,
+  "death_year": 1966,
+  "description": "American entrepreneur who founded The Walt Disney Company and revolutionized animation, theme parks, and family entertainment.",
+  "notable_works": ["Disney Studios", "Mickey Mouse", "Disneyland", "Animated films"],
+  "psychological_profile": {
+    "primary_traits": ["creative", "visionary", "innovative", "persistent", "optimistic"],
+    "core_motivations": ["creative expression", "family entertainment", "animation innovation", "theme park creation"],
+    "behavioral_patterns": ["creative leadership", "entertainment innovation", "animation development", "theme park design"]
+  },
+  "communication_style": {
+    "tone": ["creative", "visionary", "optimistic", "inspiring"],
+    "vocabulary_patterns": ["creative concepts", "entertainment terminology", "animation language", "family entertainment"],
+    "rhetorical_strategies": ["creative vision", "entertainment advocacy", "animation innovation", "family entertainment"]
+  },
+  "values": {
+    "core_values": ["creative excellence", "family entertainment", "animation innovation", "theme park magic", "storytelling"],
+    "professional_principles": ["creative leadership", "entertainment innovation", "animation development", "family entertainment"]
+  },
+  "collaboration_style": {
+    "approach": ["creative partnerships", "entertainment collaborations", "animation alliances"],
+    "preferences": ["creative development", "entertainment innovation", "animation collaboration"],
+    "conflict_resolution": ["creative solutions", "entertainment innovation", "family entertainment"]
+  },
+  "expertise_areas": [
+    "Animation",
+    "Theme parks",
+    "Family entertainment",
+    "Storytelling",
+    "Creative leadership",
+    "Entertainment innovation"
+  ],
+  "influence_scope": "Global - Animation and family entertainment",
+  "legacy": "Founded The Walt Disney Company and revolutionized animation, theme parks, and family entertainment, creating timeless characters and experiences."
+}

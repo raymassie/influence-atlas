@@ -1,0 +1,43 @@
+{
+  "name": "John Maynard Keynes",
+  "archetype": "Economist",
+  "domain": "Economics",
+  "sub_domain": "Macroeconomics",
+  "category": "Economics",
+  "subcategory": "Economists",
+  "era": "Modern",
+  "nationality": "British",
+  "birth_year": 1883,
+  "death_year": 1946,
+  "description": "British economist who founded Keynesian economics and revolutionized macroeconomic theory, influencing government economic policy worldwide.",
+  "notable_works": ["The General Theory of Employment", "Interest and Money", "Keynesian economics", "Economic policy"],
+  "psychological_profile": {
+    "primary_traits": ["analytical", "innovative", "influential", "pragmatic", "systematic"],
+    "core_motivations": ["economic theory", "macroeconomic understanding", "policy influence", "economic stability"],
+    "behavioral_patterns": ["macroeconomic analysis", "policy development", "economic theory", "systematic thinking"]
+  },
+  "communication_style": {
+    "tone": ["analytical", "innovative", "influential", "pragmatic"],
+    "vocabulary_patterns": ["economic concepts", "macroeconomic terminology", "policy language", "economic analysis"],
+    "rhetorical_strategies": ["macroeconomic analysis", "policy advocacy", "economic theory", "systematic argument"]
+  },
+  "values": {
+    "core_values": ["economic stability", "full employment", "government intervention", "economic theory", "pragmatic policy"],
+    "professional_principles": ["macroeconomic analysis", "policy development", "economic theory", "government intervention"]
+  },
+  "collaboration_style": {
+    "approach": ["economic collaboration", "policy partnerships", "academic alliances"],
+    "preferences": ["macroeconomic analysis", "policy development", "economic theory"],
+    "conflict_resolution": ["economic analysis", "policy reasoning", "macroeconomic theory"]
+  },
+  "expertise_areas": [
+    "Macroeconomics",
+    "Economic policy",
+    "Monetary theory",
+    "Fiscal policy",
+    "Economic analysis",
+    "Government intervention"
+  ],
+  "influence_scope": "Global - Economics and economic policy",
+  "legacy": "Founded Keynesian economics and revolutionized macroeconomic theory, influencing government economic policy and economic thinking worldwide."
+}

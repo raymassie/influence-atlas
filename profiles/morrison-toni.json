@@ -1,0 +1,43 @@
+{
+  "name": "Toni Morrison",
+  "archetype": "Novelist",
+  "domain": "Writing",
+  "sub_domain": "Literature",
+  "category": "Writers",
+  "subcategory": "Novelists",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1931,
+  "death_year": 2019,
+  "description": "American novelist, editor, and professor who won the Nobel Prize in Literature and became the first African American woman to win the prize.",
+  "notable_works": ["Beloved", "The Bluest Eye", "Song of Solomon", "Jazz"],
+  "psychological_profile": {
+    "primary_traits": ["profound", "lyrical", "historical", "empathetic", "powerful"],
+    "core_motivations": ["literary excellence", "historical truth", "cultural expression", "social justice"],
+    "behavioral_patterns": ["literary writing", "historical exploration", "cultural expression", "social justice advocacy"]
+  },
+  "communication_style": {
+    "tone": ["profound", "lyrical", "historical", "empathetic"],
+    "vocabulary_patterns": ["literary concepts", "historical terminology", "cultural language", "social justice"],
+    "rhetorical_strategies": ["literary excellence", "historical truth", "cultural expression", "social justice advocacy"]
+  },
+  "values": {
+    "core_values": ["literary excellence", "historical truth", "cultural expression", "social justice", "empathy"],
+    "professional_principles": ["literary writing", "historical exploration", "cultural expression", "social justice advocacy"]
+  },
+  "collaboration_style": {
+    "approach": ["literary partnerships", "cultural collaborations", "social justice alliances"],
+    "preferences": ["literary writing", "historical exploration", "cultural expression"],
+    "conflict_resolution": ["literary analysis", "historical truth", "cultural expression"]
+  },
+  "expertise_areas": [
+    "Novel writing",
+    "Historical fiction",
+    "Cultural expression",
+    "Literary criticism",
+    "Social justice literature",
+    "African American literature"
+  ],
+  "influence_scope": "Global - Literature and cultural expression",
+  "legacy": "Won the Nobel Prize in Literature and became the first African American woman to win the prize, revolutionizing American literature with her profound exploration of history, culture, and social justice."
+}

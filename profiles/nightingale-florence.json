@@ -1,0 +1,43 @@
+{
+  "name": "Florence Nightingale",
+  "archetype": "Nurse",
+  "domain": "Medicine",
+  "sub_domain": "Nursing",
+  "category": "Medicine",
+  "subcategory": "Nurses",
+  "era": "Modern",
+  "nationality": "British",
+  "birth_year": 1820,
+  "death_year": 1910,
+  "description": "British nurse and statistician who founded modern nursing and revolutionized healthcare through statistical analysis and sanitary reforms.",
+  "notable_works": ["Notes on Nursing", "Statistical analysis", "Nursing education", "Healthcare reform"],
+  "psychological_profile": {
+    "primary_traits": ["compassionate", "systematic", "analytical", "reformative", "dedicated"],
+    "core_motivations": ["healthcare improvement", "nursing education", "statistical analysis", "sanitary reform"],
+    "behavioral_patterns": ["nursing care", "statistical analysis", "healthcare reform", "sanitary advocacy"]
+  },
+  "communication_style": {
+    "tone": ["compassionate", "systematic", "analytical", "reformative"],
+    "vocabulary_patterns": ["nursing concepts", "statistical terminology", "healthcare reform", "sanitary analysis"],
+    "rhetorical_strategies": ["statistical demonstration", "healthcare advocacy", "nursing education", "sanitary argument"]
+  },
+  "values": {
+    "core_values": ["healthcare improvement", "nursing excellence", "statistical accuracy", "sanitary reform", "compassionate care"],
+    "professional_principles": ["nursing care", "statistical analysis", "healthcare reform", "sanitary advocacy"]
+  },
+  "collaboration_style": {
+    "approach": ["healthcare collaboration", "nursing partnerships", "sanitary reform"],
+    "preferences": ["nursing care", "statistical analysis", "healthcare reform"],
+    "conflict_resolution": ["statistical evidence", "healthcare data", "nursing demonstration"]
+  },
+  "expertise_areas": [
+    "Nursing",
+    "Healthcare statistics",
+    "Sanitary reform",
+    "Nursing education",
+    "Healthcare administration",
+    "Public health"
+  ],
+  "influence_scope": "Global - Nursing and healthcare reform",
+  "legacy": "Founded modern nursing and revolutionized healthcare through statistical analysis and sanitary reforms, saving countless lives."
+}

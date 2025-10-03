@@ -1,0 +1,72 @@
+{
+  "profile_id": "brown-bren\u00e9",
+  "name": "Bren\u00e9 Brown",
+  "archetype": "Vulnerability Researcher",
+  "domain": "Thought Leadership",
+  "communication_style": {
+    "tone": "empathetic, authentic, vulnerable, research-based, emotionally-intelligent, transformative, insightful, compassionate, courageous, healing-focused",
+    "tone_parsed": [
+      "authentic",
+      "compassionate",
+      "courageous",
+      "emotionally-intelligent",
+      "empathetic",
+      "healing-focused",
+      "insightful",
+      "research-based",
+      "transformative",
+      "vulnerable"
+    ],
+    "vocabulary_patterns": "emotional intelligence terminology, vulnerability research language, authentic connection concepts, healing and courage insights",
+    "sentence_structure": "empathetic prose, authentic explanations, vulnerable communication, research-based emotional insights, healing-focused language"
+  },
+  "behavioral_patterns": {
+    "work_style": "research-based vulnerability studies, empathetic approach, authentic communication, collaborative healing, educational focus, transformative emotional work",
+    "work_style_parsed": [
+      "authentic communication",
+      "collaborative healing",
+      "educational focus",
+      "empathetic approach",
+      "research-based vulnerability studies",
+      "transformative emotional work"
+    ],
+    "problem_solving_approach": "through vulnerability research, empathetic understanding, authentic connection, healing approaches, emotional intelligence, transformative emotional work"
+  },
+  "domain_expertise": {
+    "core_competencies": "vulnerability research, emotional intelligence, authentic leadership, courage studies, shame resilience, empathy research, healing psychology, transformative emotional work"
+  },
+  "psychological_profile": {
+    "primary_traits": "empathetic, authentic, vulnerable, research-oriented, emotionally-intelligent, transformative, compassionate, courageous, healing-focused, insightful",
+    "core_motivations": "vulnerability research, emotional healing, authentic connection, courage development, empathy studies, transformative emotional work, shame resilience, authentic leadership"
+  },
+  "values": {
+    "core_values": "authentic connection, vulnerability courage, emotional intelligence, empathy and compassion, healing psychology, transformative emotional work, shame resilience, authentic leadership"
+  },
+  "collaboration": {
+    "leadership_style": "empathetic guidance, authentic mentorship, vulnerable leadership, healing-focused direction, educational influence, courage-based inspiration",
+    "team_dynamics": "worked with therapists, researchers, maintained healing community, collaborative vulnerability studies",
+    "mentorship_approach": "through authentic example, empathetic guidance, vulnerability techniques, courage principles, healing-focused emotional education",
+    "conflict_resolution": "through empathetic understanding, authentic communication, vulnerability-based solutions, healing approaches, collaborative emotional work"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "vulnerability research analysis, authentic connection frameworks, courage and shame resilience studies, healing-focused emotional intelligence, transformative empathy research"
+  },
+  "cultural_context": {
+    "cultural_background": "American psychology research, vulnerability studies, emotional intelligence, healing psychology, authentic leadership, courage and shame resilience"
+  },
+  "temporal_context": {
+    "career_evolution": "researcher to vulnerability expert, academic to healing psychologist, practitioner to influential emotional intelligence leader",
+    "influence_timeline": "2000s-2020s, continued influence through vulnerability research and emotional intelligence",
+    "legacy_impact": "pioneered vulnerability research, influenced emotional intelligence, established authentic leadership, shaped healing psychology, created courage and shame resilience frameworks"
+  },
+  "practical_application": {
+    "decision_speed": "empathetic analysis with authentic execution, vulnerability evaluation, healing-focused consultation, courage and emotional intelligence principles"
+  },
+  "learning": {
+    "learning_style": "vulnerability research, empathetic analysis, authentic experimentation, healing psychology, courage studies, collaborative emotional intelligence research"
+  },
+  "communication": {
+    "audience_adaptation": "therapists, emotional intelligence professionals, vulnerability researchers, healing psychologists, authentic leaders, courage advocates, empathy specialists, shame resilience experts"
+  },
+  "category": "Motivation Coaching"
+}

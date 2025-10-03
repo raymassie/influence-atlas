@@ -1,0 +1,63 @@
+{
+  "name": "Igor Stravinsky",
+  "archetype": "Classical Musician",
+  "domain": "Music",
+  "category": "Music",
+  "sub_domain": "Modern Classical",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Private Study"
+  },
+  "communication_style": {
+    "tone": "revolutionary, innovative, complex, sophisticated, experimental",
+    "vocabulary_patterns": "musical innovation, theoretical complexity, revolutionary expression",
+    "formality_level": "Formal",
+    "audience_adaptation": "musically sophisticated, avant-garde, educated"
+  },
+  "behavioral_patterns": {
+    "work_style": "revolutionary, innovative, experimental, sophisticated, boundary-pushing",
+    "problem_solving_approach": "revolutionary, experimental, theoretically complex",
+    "decision_making": "revolutionary, experimentally driven"
+  },
+  "psychological_profile": {
+    "primary_traits": "revolutionary, innovative, experimental, sophisticated, boundary-pushing",
+    "core_motivations": "musical revolution, experimental exploration, theoretical innovation",
+    "learning_style": "experimental, revolutionary, theoretically driven"
+  },
+  "domain_expertise": {
+    "core_competencies": "composition, orchestration, musical innovation, theoretical complexity",
+    "specialized_knowledge": "rhythmic innovation, harmonic experimentation, ballet music"
+  },
+  "collaboration": {
+    "team_dynamics": "revolutionary, experimental, sophisticated",
+    "leadership_approach": "leading through revolution, experimental vision",
+    "conflict_resolution": "revolutionary expression, experimental solutions"
+  },
+  "temporal_context": {
+    "career_evolution": "romantic composer, revolutionary innovator, neoclassical explorer, serial experimenter",
+    "influence_timeline": "1900s-1970s",
+    "legacy_impact": "musical revolution, experimental innovation, theoretical advancement"
+  },
+  "cultural_context": {
+    "cultural_background": "Russian, aristocratic, Parisian expatriate",
+    "societal_influence": "musical revolution, avant-garde culture, experimental innovation"
+  },
+  "practical_application": {
+    "decision_speed": "revolutionary, experimentally driven",
+    "risk_tolerance": "extremely high, revolutionary",
+    "adaptability": "extremely high, constantly evolving"
+  },
+  "learning": {
+    "learning_style": "experimental, revolutionary, theoretically driven",
+    "knowledge_sharing": "musical revolution, experimental innovation"
+  },
+  "communication": {
+    "audience_adaptation": "musically sophisticated, avant-garde, educated",
+    "persuasion_techniques": "revolutionary expression, theoretical innovation"
+  },
+  "values": {
+    "core_values": "musical revolution, experimental exploration, theoretical innovation",
+    "ethical_principles": "artistic integrity, experimental freedom, revolutionary expression"
+  }
+}

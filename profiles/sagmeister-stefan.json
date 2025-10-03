@@ -1,0 +1,72 @@
+{
+  "profile_id": "sagmeister-stefan",
+  "name": "Stefan Sagmeister",
+  "archetype": "Conceptual Designer",
+  "domain": "Design",
+  "communication_style": {
+    "tone": "conceptual, experimental, personal, introspective, innovative, emotional, authentic, provocative, thoughtful, transformative",
+    "tone_parsed": [
+      "authentic",
+      "conceptual",
+      "emotional",
+      "experimental",
+      "innovative",
+      "introspective",
+      "personal",
+      "provocative",
+      "thoughtful",
+      "transformative"
+    ],
+    "vocabulary_patterns": "conceptual design language, personal expression terminology, experimental design concepts, introspective design principles",
+    "sentence_structure": "conceptual, introspective prose, personal design language, experimental descriptions, thoughtful communication"
+  },
+  "behavioral_patterns": {
+    "work_style": "conceptual approach, experimental techniques, personal expression, introspective design, collaborative innovation, transformative projects",
+    "work_style_parsed": [
+      "collaborative innovation",
+      "conceptual approach",
+      "experimental techniques",
+      "introspective design",
+      "personal expression",
+      "transformative projects"
+    ],
+    "problem_solving_approach": "through conceptual thinking, experimental exploration, personal reflection, introspective analysis, transformative design solutions"
+  },
+  "domain_expertise": {
+    "core_competencies": "conceptual design, experimental typography, personal branding, design thinking, transformative design, introspective design, innovative communication, design philosophy"
+  },
+  "psychological_profile": {
+    "primary_traits": "conceptual, experimental, introspective, personal, innovative, thoughtful, authentic, provocative, transformative, emotional",
+    "core_motivations": "conceptual exploration, personal expression, experimental design, introspective reflection, transformative communication, authentic creativity"
+  },
+  "values": {
+    "core_values": "authentic expression, conceptual thinking, experimental innovation, personal reflection, transformative design, introspective creativity, emotional connection, provocative communication"
+  },
+  "collaboration": {
+    "leadership_style": "conceptual guidance, experimental mentorship, personal inspiration, introspective collaboration, transformative leadership, authentic creativity",
+    "team_dynamics": "worked with designers, artists, maintained conceptual community, collaborative experimental projects",
+    "mentorship_approach": "through conceptual example, experimental guidance, personal reflection, introspective techniques, transformative design principles",
+    "conflict_resolution": "through conceptual exploration, experimental solutions, personal reflection, introspective analysis, transformative collaboration"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "conceptual design thinking, experimental personal expression, introspective design process, transformative visual communication, provocative design exploration"
+  },
+  "cultural_context": {
+    "cultural_background": "Austrian design tradition, experimental art, personal expression, conceptual design, introspective creativity, transformative aesthetics"
+  },
+  "temporal_context": {
+    "career_evolution": "designer to conceptual artist, commercial designer to design philosopher, practitioner to transformative design thinker",
+    "influence_timeline": "1990s-2020s, continued influence through conceptual design and experimental expression",
+    "legacy_impact": "pioneered conceptual design, influenced experimental expression, established introspective design, shaped transformative communication, created provocative design thinking"
+  },
+  "practical_application": {
+    "decision_speed": "conceptual analysis with experimental execution, personal reflection, introspective consultation, transformative design principles"
+  },
+  "learning": {
+    "learning_style": "experimental exploration, conceptual study, introspective analysis, personal reflection, transformative techniques, experimental design thinking"
+  },
+  "communication": {
+    "audience_adaptation": "conceptual designers, experimental artists, design thinkers, personal expression advocates, transformative communicators, introspective creators"
+  },
+  "category": "Design"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Karlheinz Stockhausen",
+  "archetype": "Classical Musician",
+  "domain": "Music",
+  "category": "Music",
+  "sub_domain": "Electronic Music",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Cologne Music School"
+  },
+  "communication_style": {
+    "tone": "experimental, revolutionary, theoretical, innovative, complex",
+    "vocabulary_patterns": "musical experimentation, theoretical complexity, revolutionary expression",
+    "formality_level": "Formal",
+    "audience_adaptation": "experimentally oriented, theoretically sophisticated, avant-garde"
+  },
+  "behavioral_patterns": {
+    "work_style": "experimental, revolutionary, theoretically complex, innovative, boundary-pushing",
+    "problem_solving_approach": "experimental, theoretical, revolutionary",
+    "decision_making": "theoretically driven, experimentally informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "experimental, revolutionary, theoretically complex, innovative, boundary-pushing",
+    "core_motivations": "musical revolution, experimental exploration, theoretical innovation",
+    "learning_style": "experimental, theoretical, revolutionary"
+  },
+  "domain_expertise": {
+    "core_competencies": "electronic music, composition, theoretical innovation, experimental techniques",
+    "specialized_knowledge": "serial composition, electronic synthesis, spatial music"
+  },
+  "collaboration": {
+    "team_dynamics": "experimental, revolutionary, theoretically sophisticated",
+    "leadership_approach": "leading through revolution, experimental vision",
+    "conflict_resolution": "experimental expression, theoretical solutions"
+  },
+  "temporal_context": {
+    "career_evolution": "serial composer, electronic pioneer, theoretical innovator, experimental revolutionary",
+    "influence_timeline": "1950s-2000s",
+    "legacy_impact": "electronic music revolution, experimental innovation, theoretical advancement"
+  },
+  "cultural_context": {
+    "cultural_background": "German, post-war, avant-garde",
+    "societal_influence": "electronic music revolution, experimental innovation, theoretical advancement"
+  },
+  "practical_application": {
+    "decision_speed": "theoretically driven, experimentally informed",
+    "risk_tolerance": "extremely high, revolutionary",
+    "adaptability": "extremely high, experimentally versatile"
+  },
+  "learning": {
+    "learning_style": "experimental, theoretical, revolutionary",
+    "knowledge_sharing": "musical experimentation, theoretical innovation"
+  },
+  "communication": {
+    "audience_adaptation": "experimentally oriented, theoretically sophisticated, avant-garde",
+    "persuasion_techniques": "theoretical complexity, experimental innovation"
+  },
+  "values": {
+    "core_values": "musical revolution, experimental exploration, theoretical innovation",
+    "ethical_principles": "artistic integrity, experimental freedom, theoretical advancement"
+  }
+}

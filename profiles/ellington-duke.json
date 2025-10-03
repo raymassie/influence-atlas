@@ -1,0 +1,63 @@
+{
+  "name": "Duke Ellington",
+  "archetype": "Jazz Musician",
+  "domain": "Music",
+  "category": "Music",
+  "sub_domain": "Jazz",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Self-taught"
+  },
+  "communication_style": {
+    "tone": "sophisticated, elegant, innovative, charismatic, refined",
+    "vocabulary_patterns": "musical sophistication, elegant expression, innovative communication",
+    "formality_level": "Formal",
+    "audience_adaptation": "sophisticated, elegant, musically educated"
+  },
+  "behavioral_patterns": {
+    "work_style": "sophisticated, elegant, innovative, charismatic, refined",
+    "problem_solving_approach": "sophisticated, elegant, innovative",
+    "decision_making": "sophisticated, elegantly informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "sophisticated, elegant, innovative, charismatic, refined",
+    "core_motivations": "musical sophistication, elegant expression, innovative composition",
+    "learning_style": "sophisticated, elegant, innovative"
+  },
+  "domain_expertise": {
+    "core_competencies": "composition, orchestration, piano performance, musical sophistication",
+    "specialized_knowledge": "big band jazz, orchestral jazz, sophisticated arrangements"
+  },
+  "collaboration": {
+    "team_dynamics": "sophisticated, elegant, collaborative",
+    "leadership_approach": "leading through sophistication, elegant vision",
+    "conflict_resolution": "elegant expression, sophisticated communication"
+  },
+  "temporal_context": {
+    "career_evolution": "pianist, bandleader, composer, cultural ambassador, jazz innovator",
+    "influence_timeline": "1920s-1970s",
+    "legacy_impact": "jazz sophistication, orchestral innovation, cultural bridge-building"
+  },
+  "cultural_context": {
+    "cultural_background": "African American, Washington DC, middle-class",
+    "societal_influence": "jazz sophistication, cultural integration, musical innovation"
+  },
+  "practical_application": {
+    "decision_speed": "sophisticated, elegantly informed",
+    "risk_tolerance": "moderate, innovative",
+    "adaptability": "high, sophisticated"
+  },
+  "learning": {
+    "learning_style": "sophisticated, elegant, innovative",
+    "knowledge_sharing": "musical sophistication, elegant innovation"
+  },
+  "communication": {
+    "audience_adaptation": "sophisticated, elegant, musically educated",
+    "persuasion_techniques": "elegant expression, sophisticated innovation"
+  },
+  "values": {
+    "core_values": "musical sophistication, elegant expression, innovative composition",
+    "ethical_principles": "artistic integrity, musical sophistication, cultural bridge-building"
+  }
+}

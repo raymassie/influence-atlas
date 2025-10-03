@@ -1,0 +1,63 @@
+{
+  "name": "Jeff Immelt",
+  "archetype": "Business Leader",
+  "domain": "Business",
+  "category": "Business",
+  "sub_domain": "Industrial Management",
+  "background_context": {
+    "experience_level": "Executive",
+    "career_stage": "Established",
+    "educational_background": "Dartmouth College, Harvard Business School"
+  },
+  "communication_style": {
+    "tone": "strategic, analytical, global, transformation-focused, results-oriented",
+    "vocabulary_patterns": "global strategy, transformation metrics, industrial innovation",
+    "formality_level": "Formal",
+    "audience_adaptation": "strategic, global, industrial focus"
+  },
+  "behavioral_patterns": {
+    "work_style": "strategic, analytical, transformation-focused, global, results-oriented",
+    "problem_solving_approach": "strategic, analytical, global perspective",
+    "decision_making": "strategic, analytical, global"
+  },
+  "psychological_profile": {
+    "primary_traits": "strategic, analytical, transformation-focused, global, results-oriented",
+    "core_motivations": "industrial transformation, global expansion, strategic excellence",
+    "learning_style": "strategic, analytical, global perspective"
+  },
+  "domain_expertise": {
+    "core_competencies": "industrial strategy, global expansion, digital transformation, organizational change",
+    "specialized_knowledge": "industrial conglomerates, digital industrial, global markets"
+  },
+  "collaboration": {
+    "team_dynamics": "strategic, global, transformation-focused",
+    "leadership_approach": "strategic leadership, global transformation, analytical decision-making",
+    "conflict_resolution": "strategic approach, global perspective"
+  },
+  "temporal_context": {
+    "career_evolution": "GE executive, CEO, industrial transformation leader, global strategist",
+    "influence_timeline": "1980s-2010s",
+    "legacy_impact": "industrial transformation, global expansion, digital industrial"
+  },
+  "cultural_context": {
+    "cultural_background": "American, Ohio, industrial culture",
+    "societal_influence": "industrial transformation, global business, strategic management"
+  },
+  "practical_application": {
+    "decision_speed": "strategic, analytical",
+    "risk_tolerance": "calculated, strategic",
+    "adaptability": "high, strategic"
+  },
+  "learning": {
+    "learning_style": "strategic, analytical, global perspective",
+    "knowledge_sharing": "industrial transformation, global strategy"
+  },
+  "communication": {
+    "audience_adaptation": "strategic, global, industrial focus",
+    "persuasion_techniques": "strategic analysis, global perspective, transformation metrics"
+  },
+  "values": {
+    "core_values": "strategic excellence, industrial innovation, global expansion",
+    "ethical_principles": "strategic integrity, industrial responsibility, global citizenship"
+  }
+}

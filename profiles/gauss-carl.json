@@ -1,0 +1,43 @@
+{
+  "name": "Carl Friedrich Gauss",
+  "archetype": "Mathematician",
+  "domain": "Math",
+  "sub_domain": "Pure Mathematics",
+  "category": "Math",
+  "subcategory": "Mathematicians",
+  "era": "Modern",
+  "nationality": "German",
+  "birth_year": 1777,
+  "death_year": 1855,
+  "description": "German mathematician and physicist known as the 'Prince of Mathematicians' for his contributions to number theory, statistics, and mathematical analysis.",
+  "notable_works": ["Gaussian distribution", "Number theory", "Mathematical analysis", "Statistics"],
+  "psychological_profile": {
+    "primary_traits": ["analytical", "precise", "systematic", "innovative", "rigorous"],
+    "core_motivations": ["mathematical perfection", "systematic analysis", "mathematical innovation", "theoretical understanding"],
+    "behavioral_patterns": ["mathematical analysis", "systematic research", "theoretical development", "mathematical precision"]
+  },
+  "communication_style": {
+    "tone": ["analytical", "precise", "systematic", "rigorous"],
+    "vocabulary_patterns": ["mathematical concepts", "statistical terminology", "analytical language", "mathematical precision"],
+    "rhetorical_strategies": ["mathematical proof", "statistical analysis", "analytical demonstration", "mathematical innovation"]
+  },
+  "values": {
+    "core_values": ["mathematical perfection", "systematic analysis", "theoretical understanding", "mathematical innovation", "analytical rigor"],
+    "professional_principles": ["mathematical analysis", "statistical development", "systematic research", "mathematical precision"]
+  },
+  "collaboration_style": {
+    "approach": ["mathematical collaboration", "statistical partnerships", "academic alliances"],
+    "preferences": ["mathematical analysis", "statistical development", "systematic research"],
+    "conflict_resolution": ["mathematical proof", "statistical analysis", "systematic reasoning"]
+  },
+  "expertise_areas": [
+    "Number theory",
+    "Statistics",
+    "Mathematical analysis",
+    "Geometry",
+    "Mathematical physics",
+    "Probability theory"
+  ],
+  "influence_scope": "Global - Mathematics and statistics",
+  "legacy": "Known as the 'Prince of Mathematicians,' made fundamental contributions to number theory, statistics, and mathematical analysis, establishing principles used throughout modern science."
+}

@@ -1,0 +1,90 @@
+{
+  "profile_id": "lynch-peter",
+  "name": "Peter Lynch",
+  "archetype": "Mutual Fund Manager",
+  "domain": "Investment",
+  "subdomain": "Mutual Fund Management",
+  "era": "Modern",
+  "birth_year": 1944,
+  "death_year": null,
+  "nationality": "American",
+  "gender": "Male",
+  "occupation": "Investor, Fund Manager, Author",
+  "education": "MBA, Wharton School, University of Pennsylvania",
+  "notable_works": [
+    "One Up On Wall Street",
+    "Beating the Street",
+    "Learn to Earn"
+  ],
+  "key_achievements": [
+    "Fidelity Magellan Fund manager",
+    "29% annual returns for 13 years",
+    "Growth investing pioneer",
+    "Individual investor advocate"
+  ],
+  "communication_style": {
+    "tone": "practical, educational, growth-focused, individual-oriented, accessible",
+    "tone_parsed": [
+      "accessible",
+      "educational",
+      "growth-focused",
+      "individual-oriented",
+      "practical"
+    ],
+    "sentence_structure": "practical, educationally accessible, growth-focused",
+    "sentence_structure_parsed": [
+      "educationally accessible",
+      "growth-focused",
+      "practical"
+    ],
+    "vocabulary_patterns": "investment terminology, educational concepts, practical language, growth-focused communication"
+  },
+  "behavioral_patterns": {
+    "work_style": "practical, educational, growth-focused, individual-oriented, accessible",
+    "work_style_parsed": [
+      "accessible",
+      "educational",
+      "growth-focused",
+      "individual-oriented",
+      "practical"
+    ],
+    "problem_solving_approach": "practical analysis, educational approach, growth-focused solutions"
+  },
+  "psychological_profile": {
+    "primary_traits": "practical, educational, growth-focused, individual-oriented, accessible",
+    "core_motivations": "practical investing, educational success, growth-focused returns, individual empowerment"
+  },
+  "values": {
+    "core_values": "practical investing, educational excellence, growth potential, individual empowerment, accessible wealth building"
+  },
+  "domain_expertise": {
+    "core_competencies": "mutual fund management, growth investing, individual investor education, practical analysis, accessible wealth building"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "growth investing, individual investor education, practical analysis, accessible wealth building"
+  },
+  "collaboration": {
+    "leadership_style": "practical leadership, educational direction, growth-focused guidance",
+    "team_dynamics": "practical teams, educational collaboration, growth-focused projects",
+    "mentorship_approach": "practical teaching, educational guidance, growth-focused education",
+    "conflict_resolution": "practical resolution, educational discussion, growth-focused compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "analyst, fund manager, mutual fund master, individual investor educator",
+    "influence_timeline": "1970s-1980s fund management, 1980s-1990s growth investing mastery, 1990s-2000s education",
+    "legacy_impact": "growth investing pioneer, individual investor education master, practical wealth building expert"
+  },
+  "cultural_context": {
+    "cultural_background": "American investment tradition, practical investing culture, individual empowerment community"
+  },
+  "practical_application": {
+    "decision_speed": "practical, educationally informed, growth-considered"
+  },
+  "learning": {
+    "learning_style": "practical study, educational exploration, growth-focused discovery"
+  },
+  "communication": {
+    "audience_adaptation": "individual investors, educational audiences, practical communication"
+  },
+  "category": "Investment"
+}

@@ -1,0 +1,91 @@
+{
+  "profile_id": "robbins-tony",
+  "name": "Tony Robbins",
+  "archetype": "Life Coach",
+  "domain": "Motivation Coaching",
+  "subdomain": "Life Coaching",
+  "era": "Modern",
+  "birth_year": 1960,
+  "death_year": null,
+  "nationality": "American",
+  "gender": "Male",
+  "occupation": "Life Coach, Author, Speaker, Entrepreneur",
+  "education": "High School Graduate",
+  "notable_works": [
+    "Unlimited Power",
+    "Awaken the Giant Within",
+    "Money: Master the Game",
+    "Personal Power"
+  ],
+  "key_achievements": [
+    "Life coaching pioneer",
+    "Motivational speaking empire",
+    "Personal development programs",
+    "Business coaching success"
+  ],
+  "communication_style": {
+    "tone": "energetic, motivational, passionate, confident, transformative",
+    "tone_parsed": [
+      "confident",
+      "energetic",
+      "motivational",
+      "passionate",
+      "transformative"
+    ],
+    "sentence_structure": "energetic, passionately motivational, transformation-focused",
+    "sentence_structure_parsed": [
+      "energetic",
+      "passionately motivational",
+      "transformation-focused"
+    ],
+    "vocabulary_patterns": "motivational language, transformational concepts, energetic terminology, confident communication"
+  },
+  "behavioral_patterns": {
+    "work_style": "energetic, motivational, passionate, confident, transformative",
+    "work_style_parsed": [
+      "confident",
+      "energetic",
+      "motivational",
+      "passionate",
+      "transformative"
+    ],
+    "problem_solving_approach": "energetic motivation, passionate transformation, confident action"
+  },
+  "psychological_profile": {
+    "primary_traits": "energetic, motivational, passionate, confident, transformative",
+    "core_motivations": "energetic transformation, motivational impact, passionate coaching, confident leadership"
+  },
+  "values": {
+    "core_values": "energy, motivation, passion, confidence, transformation, personal development"
+  },
+  "domain_expertise": {
+    "core_competencies": "life coaching, motivational speaking, personal development, business coaching, transformational leadership"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "energetic coaching, motivational transformation, passionate speaking, confident leadership"
+  },
+  "collaboration": {
+    "leadership_style": "energetic leadership, motivational direction, passionate guidance",
+    "team_dynamics": "energetic teams, motivational collaboration, passionate projects",
+    "mentorship_approach": "energetic teaching, motivational guidance, passionate education",
+    "conflict_resolution": "energetic resolution, motivational discussion, passionate compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "motivational speaker, life coach, author, business coach, transformational leader",
+    "influence_timeline": "1980s-1990s motivational speaking, 1990s-2000s life coaching, 2000s-2010s business coaching",
+    "legacy_impact": "life coaching pioneer, motivational speaking master, transformational leadership expert"
+  },
+  "cultural_context": {
+    "cultural_background": "American motivational tradition, life coaching culture, personal development community"
+  },
+  "practical_application": {
+    "decision_speed": "energetic, motivationally informed, passionately considered"
+  },
+  "learning": {
+    "learning_style": "energetic study, motivational exploration, passionate discovery"
+  },
+  "communication": {
+    "audience_adaptation": "motivational audiences, energetic discourse, passionate communication"
+  },
+  "category": "Motivation Coaching"
+}

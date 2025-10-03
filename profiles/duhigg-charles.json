@@ -1,0 +1,72 @@
+{
+  "profile_id": "duhigg-charles",
+  "name": "Charles Duhigg",
+  "archetype": "Habit Researcher",
+  "domain": "Thought Leadership",
+  "communication_style": {
+    "tone": "investigative, evidence-based, narrative-driven, insightful, accessible, data-driven, storytelling, analytical, transformative, research-focused",
+    "tone_parsed": [
+      "accessible",
+      "analytical",
+      "data-driven",
+      "evidence-based",
+      "insightful",
+      "investigative",
+      "narrative-driven",
+      "research-focused",
+      "storytelling",
+      "transformative"
+    ],
+    "vocabulary_patterns": "behavioral research terminology, habit formation language, investigative journalism concepts, evidence-based behavioral insights",
+    "sentence_structure": "investigative prose, narrative-driven explanations, evidence-based insights, storytelling communication, analytical research language"
+  },
+  "behavioral_patterns": {
+    "work_style": "investigative research approach, evidence-based insights, narrative storytelling, collaborative investigation, educational focus, habit formation studies",
+    "work_style_parsed": [
+      "collaborative investigation",
+      "educational focus",
+      "evidence-based insights",
+      "habit formation studies",
+      "investigative research approach",
+      "narrative storytelling"
+    ],
+    "problem_solving_approach": "through investigative research, evidence-based analysis, habit formation studies, narrative insights, behavioral science methodology"
+  },
+  "domain_expertise": {
+    "core_competencies": "behavioral research, habit formation studies, investigative journalism, productivity psychology, organizational behavior, narrative storytelling, evidence-based insights, behavioral science"
+  },
+  "psychological_profile": {
+    "primary_traits": "investigative, evidence-based, narrative-focused, insightful, analytical, research-oriented, transformative, data-driven, accessible, storytelling",
+    "core_motivations": "behavioral research, habit formation insights, investigative journalism, evidence-based analysis, productivity psychology, transformative storytelling, organizational behavior"
+  },
+  "values": {
+    "core_values": "evidence-based research, behavioral science, habit formation insights, investigative journalism, productivity improvement, transformative storytelling, organizational excellence, data-driven analysis"
+  },
+  "collaboration": {
+    "leadership_style": "investigative guidance, evidence-based mentorship, narrative storytelling leadership, collaborative research, educational influence, behavioral science inspiration",
+    "team_dynamics": "worked with researchers, journalists, maintained investigative community, collaborative behavioral studies",
+    "mentorship_approach": "through investigative example, evidence-based guidance, narrative storytelling, behavioral science principles, habit formation education",
+    "conflict_resolution": "through investigative analysis, evidence-based solutions, behavioral insights, narrative understanding, collaborative research methodology"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "habit formation research, investigative behavioral analysis, narrative-driven insights, evidence-based productivity psychology, behavioral science storytelling"
+  },
+  "cultural_context": {
+    "cultural_background": "American journalism, behavioral science research, productivity culture, investigative reporting, habit formation studies, organizational behavior"
+  },
+  "temporal_context": {
+    "career_evolution": "journalist to behavioral researcher, reporter to habit formation expert, practitioner to influential thought leader",
+    "influence_timeline": "2000s-2020s, continued influence through habit research and behavioral insights",
+    "legacy_impact": "pioneered habit formation research, influenced productivity psychology, established behavioral storytelling, shaped organizational behavior, created evidence-based habit frameworks"
+  },
+  "practical_application": {
+    "decision_speed": "investigative analysis with evidence-based execution, behavioral evaluation, research-driven consultation, habit formation principles"
+  },
+  "learning": {
+    "learning_style": "investigative research, behavioral analysis, evidence-based experimentation, habit formation studies, narrative storytelling, collaborative behavioral science"
+  },
+  "communication": {
+    "audience_adaptation": "behavioral scientists, productivity professionals, researchers, journalists, organizational developers, habit formation specialists, evidence-based thinkers, productivity enthusiasts"
+  },
+  "category": "Motivation Coaching"
+}

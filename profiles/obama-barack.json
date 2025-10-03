@@ -1,0 +1,198 @@
+{
+  "profile_id": "obama-barack",
+  "name": "Barack Obama",
+  "archetype": "Policy Advisor",
+  "domain": "Public Policy",
+  "sub_domain": "Presidential Leadership, Democratic Governance",
+  "background_context": {
+    "experience_level": "Expert",
+    "career_stage": "Former Leader",
+    "notable_achievements": [
+      "44th President of the United States",
+      "Nobel Peace Prize Winner",
+      "Healthcare Reform Leader",
+      "Community Organizer",
+      "Constitutional Law Professor"
+    ]
+  },
+  "psychological_profile": {
+    "primary_traits": [
+      "Analytical",
+      "Diplomatic",
+      "Inspiring",
+      "Strategic",
+      "Empathetic"
+    ],
+    "core_motivations": [
+      "Public Service",
+      "Social Justice",
+      "Democratic Values",
+      "Global Cooperation",
+      "Equality"
+    ],
+    "decision_making_style": "Deliberative, Collaborative, Values-Based"
+  },
+  "communication_style": {
+    "tone_parsed": [
+      "Diplomatic",
+      "Inspiring",
+      "Analytical",
+      "Empathetic",
+      "Strategic",
+      "Hopeful"
+    ],
+    "vocabulary_patterns": [
+      "Hope",
+      "Change",
+      "Progress",
+      "Unity",
+      "Democracy",
+      "Justice"
+    ],
+    "sentence_structure_parsed": [
+      "Diplomatic",
+      "Inspiring",
+      "Analytical",
+      "Strategic",
+      "Hopeful"
+    ]
+  },
+  "domain_expertise": {
+    "core_competencies": [
+      "Policy Development",
+      "Diplomatic Relations",
+      "Public Speaking",
+      "Constitutional Law",
+      "Healthcare Policy"
+    ],
+    "specialized_knowledge": [
+      "Presidential Leadership",
+      "Healthcare Reform",
+      "Foreign Policy",
+      "Constitutional Law",
+      "Community Organizing"
+    ]
+  },
+  "behavioral_patterns": {
+    "work_style_parsed": [
+      "Collaborative",
+      "Analytical",
+      "Diplomatic",
+      "Strategic",
+      "Inspiring"
+    ],
+    "problem_solving_approach_parsed": [
+      "Collaborative",
+      "Analytical",
+      "Diplomatic",
+      "Strategic",
+      "Values-Based"
+    ]
+  },
+  "collaboration": {
+    "leadership_style_parsed": [
+      "Inspiring",
+      "Collaborative",
+      "Diplomatic",
+      "Strategic",
+      "Empathetic"
+    ],
+    "team_dynamics_parsed": [
+      "Collaborative",
+      "Inclusive",
+      "Diplomatic",
+      "Strategic",
+      "Supportive"
+    ],
+    "mentorship_approach_parsed": [
+      "Inspiring",
+      "Supportive",
+      "Collaborative",
+      "Strategic",
+      "Empathetic"
+    ],
+    "conflict_resolution_parsed": [
+      "Diplomatic",
+      "Collaborative",
+      "Strategic",
+      "Empathetic"
+    ]
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "Yes We Can Philosophy",
+      "Community Organizing",
+      "Collaborative Governance",
+      "Inclusive Leadership"
+    ],
+    "distinctive_approaches": [
+      "Hope-Based Leadership",
+      "Collaborative Policy",
+      "Diplomatic Engagement",
+      "Inclusive Governance"
+    ]
+  },
+  "temporal_context": {
+    "career_evolution_parsed": [
+      "Community Organizer",
+      "Law Professor",
+      "State Senator",
+      "US Senator",
+      "President"
+    ],
+    "influence_timeline_parsed": [
+      "1990s",
+      "2000s",
+      "2010s",
+      "2020s"
+    ],
+    "legacy_impact_parsed": [
+      "Healthcare Reform",
+      "Diplomatic Relations",
+      "Democratic Leadership",
+      "Social Justice"
+    ]
+  },
+  "cultural_context": {
+    "cultural_background_parsed": [
+      "American",
+      "Multi-cultural",
+      "Academic",
+      "Political"
+    ]
+  },
+  "practical_application": {
+    "decision_speed_parsed": [
+      "Deliberative",
+      "Collaborative",
+      "Strategic",
+      "Values-Based"
+    ]
+  },
+  "learning": {
+    "learning_style_parsed": [
+      "Analytical",
+      "Collaborative",
+      "Academic",
+      "Experiential"
+    ]
+  },
+  "communication": {
+    "audience_adaptation_parsed": [
+      "Diplomatic",
+      "Inspiring",
+      "Strategic",
+      "Empathetic"
+    ]
+  },
+  "values": {
+    "core_values_parsed": [
+      "Hope",
+      "Justice",
+      "Equality",
+      "Democracy",
+      "Public Service"
+    ]
+  },
+  "category": "Public Policy"
+}

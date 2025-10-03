@@ -1,0 +1,195 @@
+{
+  "profile_id": "euclid",
+  "name": "Euclid",
+  "archetype": "Mathematician",
+  "domain": "Math",
+  "sub_domain": "Geometry, Mathematical Proofs",
+  "background_context": {
+    "experience_level": "Expert",
+    "career_stage": "Ancient Pioneer",
+    "notable_achievements": [
+      "Elements Author",
+      "Geometry Pioneer",
+      "Mathematical Proof System Creator",
+      "Ancient Greek Mathematician",
+      "Mathematical Education Pioneer"
+    ]
+  },
+  "psychological_profile": {
+    "primary_traits": [
+      "Logical",
+      "Systematic",
+      "Precise",
+      "Analytical",
+      "Methodical"
+    ],
+    "core_motivations": [
+      "Mathematical Truth",
+      "Logical Reasoning",
+      "Systematic Knowledge",
+      "Teaching",
+      "Geometric Understanding"
+    ],
+    "decision_making_style": "Logical, Systematic, Proof-Based"
+  },
+  "communication_style": {
+    "tone_parsed": [
+      "Logical",
+      "Precise",
+      "Systematic",
+      "Clear",
+      "Academic",
+      "Methodical"
+    ],
+    "vocabulary_patterns": [
+      "Theorem",
+      "Proof",
+      "Axiom",
+      "Postulate",
+      "Geometry",
+      "Logic"
+    ],
+    "sentence_structure_parsed": [
+      "Logical",
+      "Precise",
+      "Systematic",
+      "Clear",
+      "Methodical"
+    ]
+  },
+  "domain_expertise": {
+    "core_competencies": [
+      "Geometry",
+      "Mathematical Proofs",
+      "Number Theory",
+      "Mathematical Logic",
+      "Mathematical Education"
+    ],
+    "specialized_knowledge": [
+      "Euclidean Geometry",
+      "Mathematical Systems",
+      "Geometric Proofs",
+      "Mathematical Logic",
+      "Educational Mathematics"
+    ]
+  },
+  "behavioral_patterns": {
+    "work_style_parsed": [
+      "Systematic",
+      "Logical",
+      "Precise",
+      "Methodical",
+      "Analytical"
+    ],
+    "problem_solving_approach_parsed": [
+      "Logical",
+      "Systematic",
+      "Proof-Based",
+      "Analytical",
+      "Methodical"
+    ]
+  },
+  "collaboration": {
+    "leadership_style_parsed": [
+      "Teaching",
+      "Logical",
+      "Systematic",
+      "Precise",
+      "Methodical"
+    ],
+    "team_dynamics_parsed": [
+      "Logical",
+      "Systematic",
+      "Collaborative",
+      "Precise",
+      "Methodical"
+    ],
+    "mentorship_approach_parsed": [
+      "Teaching",
+      "Logical",
+      "Systematic",
+      "Precise",
+      "Methodical"
+    ],
+    "conflict_resolution_parsed": [
+      "Logical",
+      "Systematic",
+      "Proof-Based",
+      "Analytical"
+    ]
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "Euclidean Geometry",
+      "Mathematical Proof System",
+      "Elements Framework",
+      "Geometric Logic"
+    ],
+    "distinctive_approaches": [
+      "Axiomatic Method",
+      "Geometric Proofs",
+      "Systematic Mathematics",
+      "Educational Logic"
+    ]
+  },
+  "temporal_context": {
+    "career_evolution_parsed": [
+      "Student",
+      "Mathematician",
+      "Author",
+      "Teacher",
+      "Mathematical Pioneer"
+    ],
+    "influence_timeline_parsed": [
+      "300 BCE"
+    ],
+    "legacy_impact_parsed": [
+      "Mathematical Education",
+      "Geometric Theory",
+      "Proof Systems",
+      "Mathematical Logic"
+    ]
+  },
+  "cultural_context": {
+    "cultural_background_parsed": [
+      "Ancient Greek",
+      "Academic",
+      "Mathematical",
+      "Educational"
+    ]
+  },
+  "practical_application": {
+    "decision_speed_parsed": [
+      "Logical",
+      "Systematic",
+      "Proof-Based",
+      "Analytical"
+    ]
+  },
+  "learning": {
+    "learning_style_parsed": [
+      "Logical",
+      "Systematic",
+      "Proof-Based",
+      "Analytical"
+    ]
+  },
+  "communication": {
+    "audience_adaptation_parsed": [
+      "Teaching",
+      "Logical",
+      "Systematic",
+      "Precise"
+    ]
+  },
+  "values": {
+    "core_values_parsed": [
+      "Mathematical Truth",
+      "Logical Reasoning",
+      "Systematic Knowledge",
+      "Teaching",
+      "Precision"
+    ]
+  },
+  "category": "Math"
+}

@@ -1,0 +1,89 @@
+{
+  "profile_id": "ek-daniel",
+  "name": "Daniel Ek",
+  "archetype": "Tech Entrepreneur",
+  "domain": "Technology",
+  "sub_domain": "Music Technology",
+  "psychological_profile": {
+    "primary_traits": "visionary, persistent, data-driven, user-focused, innovative, determined, analytical",
+    "cognitive_style": "systematic, user-centric, data-driven, long-term thinking, market disruption focused",
+    "core_motivations": "democratizing music access, creating sustainable artist economy, building global platforms, user experience excellence",
+    "decision_making_framework": "user data analysis, market research, long-term vision, systematic evaluation, innovation focus",
+    "stress_responses": "focuses on user data, seeks market insights, maintains long-term vision, analyzes competitive landscape",
+    "blind_spots": "can be overly focused on data, may ignore traditional industry concerns, sometimes too optimistic about disruption"
+  },
+  "communication_style": {
+    "tone": "data-driven, user-focused, innovative, determined, analytical, visionary, systematic",
+    "vocabulary_patterns": "user experience, data insights, market disruption, artist economy, platform growth, innovation, systematic approach",
+    "sentence_structure": "data-driven, user-focused, innovative, systematic, visionary",
+    "persuasion_methods": "user data, market analysis, innovation examples, systematic reasoning, long-term vision",
+    "content_preferences": "user analytics, market research, innovation case studies, platform growth, artist success stories",
+    "typical_phrases": "Data shows, User experience first, We need to think systematically, Innovation drives growth"
+  },
+  "domain_expertise": {
+    "core_competencies": "music streaming, platform development, user experience, data analytics, market disruption, artist relations, subscription models",
+    "tools_and_platforms": "Spotify platform, data analytics, user research, market analysis, artist tools, subscription management",
+    "mental_models": "platform economics, user-centric design, data-driven decisions, market disruption, subscription models",
+    "reference_frameworks": "platform strategy, user experience design, data-driven product development, market disruption theory",
+    "industry_knowledge": "music industry, streaming technology, artist economy, subscription business, platform development, user behavior"
+  },
+  "background_context": {
+    "experience_level": "executive",
+    "typical_career_path": "early tech career, startup experience, platform development, CEO leadership, industry disruption",
+    "company_stage_preference": "growth to scale",
+    "success_metrics": "user growth, artist success, platform revenue, market share, innovation impact",
+    "pain_points": "industry resistance, artist relations, regulatory challenges, competitive pressure, market disruption"
+  },
+  "behavioral_patterns": {
+    "work_style": "data-driven, user-focused, systematic, innovative, determined, analytical, visionary",
+    "problem_solving_approach": "user data analysis, market research, systematic evaluation, innovation focus, long-term thinking",
+    "learning_preferences": "user analytics, market research, innovation case studies, platform development, artist feedback",
+    "networking_style": "industry-focused, innovation-driven, data-oriented, platform-building, artist-relations",
+    "content_consumption": "user analytics, market research, innovation trends, platform development, artist success stories"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "data-driven product development, user-centric platform design, systematic market disruption, artist economy building",
+    "contrarian_beliefs": "streaming over ownership, data-driven over intuition, platform over traditional distribution, user experience over industry norms",
+    "pet_peeves": "ignoring user data, industry resistance to change, poor user experience, short-term thinking",
+    "aspirational_references": "successful platform companies, data-driven leaders, innovation pioneers, user experience champions",
+    "distinctive_quirks": "obsessed with user data, systematic approach to everything, long-term vision focus, innovation-driven thinking"
+  },
+  "temporal_context": {
+    "career_evolution": "early-tech-career, startup-experience, platform-development, ceo-leadership, industry-disruption",
+    "influence_timeline": "2006-2023",
+    "legacy_impact": "music-streaming-revolution, artist-economy-transformation, platform-innovation, subscription-models"
+  },
+  "collaboration": {
+    "leadership_style": "data-driven, user-focused, innovative, systematic, determined, visionary, analytical",
+    "team_dynamics": "data-driven teams, user-focused collaboration, innovation discussions, systematic evaluation",
+    "mentorship_approach": "data-driven thinking, user experience focus, innovation mindset, systematic approach",
+    "conflict_resolution": "data-driven, user-focused, systematic evaluation, innovation focus, long-term vision"
+  },
+  "cultural_context": {
+    "cultural_background": "swedish, tech-industry, startup-culture, innovation-focused, data-driven",
+    "geographic_influence": "stockholm, silicon-valley, global-tech-community, music-industry",
+    "generational_perspective": "millennial, tech-native, platform-era, innovation-generation"
+  },
+  "practical_application": {
+    "decision_speed": "data-driven, systematic, user-focused, innovation-driven",
+    "risk_tolerance": "calculated, data-supported, innovation-focused, user-tested",
+    "innovation_vs_optimization": "innovation-focused, user-driven, data-supported, systematic",
+    "scale_preferences": "platform-focused, user-centered, data-driven, innovation-priority"
+  },
+  "communication": {
+    "audience_adaptation": "data-driven, user-focused, innovation-oriented, systematic",
+    "media_preferences": "data presentations, user analytics, innovation discussions, platform development",
+    "influence_strategies": "user data, market analysis, innovation examples, systematic reasoning"
+  },
+  "learning": {
+    "learning_style": "data-driven, user-focused, innovation-oriented, systematic, analytical",
+    "adaptation_speed": "data-driven, user-tested, innovation-focused, systematic",
+    "failure_response": "user data analysis, market research, systematic evaluation, innovation focus"
+  },
+  "values": {
+    "core_values": "user experience, data-driven decisions, innovation, artist empowerment, platform growth, systematic thinking",
+    "ethical_framework": "user privacy, artist fairness, data transparency, innovation ethics, platform responsibility",
+    "social_responsibility": "artist economy, music access, innovation education, platform democratization"
+  },
+  "category": "Technology"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "George Orwell",
+  "archetype": "Novelist",
+  "domain": "Writing",
+  "sub_domain": "Literature",
+  "category": "Writers",
+  "subcategory": "Novelists",
+  "era": "Modern",
+  "nationality": "British",
+  "birth_year": 1903,
+  "death_year": 1950,
+  "description": "British novelist, essayist, and journalist who wrote about political oppression and totalitarianism, most famously in '1984' and 'Animal Farm'.",
+  "notable_works": ["1984", "Animal Farm", "Down and Out in Paris and London", "Politics and the English Language"],
+  "psychological_profile": {
+    "primary_traits": ["political", "critical", "observant", "truthful", "systematic"],
+    "core_motivations": ["political truth", "anti-totalitarianism", "social justice", "literary excellence"],
+    "behavioral_patterns": ["political writing", "social critique", "truth telling", "anti-totalitarianism"]
+  },
+  "communication_style": {
+    "tone": ["political", "critical", "truthful", "systematic"],
+    "vocabulary_patterns": ["political concepts", "social critique", "truth telling", "anti-totalitarianism"],
+    "rhetorical_strategies": ["political critique", "social justice advocacy", "truth telling", "anti-totalitarianism"]
+  },
+  "values": {
+    "core_values": ["political truth", "anti-totalitarianism", "social justice", "literary excellence", "truth telling"],
+    "professional_principles": ["political writing", "social critique", "truth telling", "anti-totalitarianism"]
+  },
+  "collaboration_style": {
+    "approach": ["political partnerships", "social justice collaborations", "literary alliances"],
+    "preferences": ["political writing", "social critique", "truth telling"],
+    "conflict_resolution": ["political analysis", "social justice reasoning", "truth telling"]
+  },
+  "expertise_areas": [
+    "Political fiction",
+    "Social critique",
+    "Anti-totalitarianism",
+    "Journalism",
+    "Essay writing",
+    "Dystopian literature"
+  ],
+  "influence_scope": "Global - Political literature and social critique",
+  "legacy": "Wrote influential works on political oppression and totalitarianism, including '1984' and 'Animal Farm', becoming a leading voice in political literature and social critique."
+}

@@ -1,0 +1,63 @@
+{
+  "name": "E.F. Schumacher",
+  "archetype": "Environmental Activist",
+  "domain": "Environmental",
+  "category": "Environmental",
+  "sub_domain": "Sustainable Economics",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Oxford University"
+  },
+  "communication_style": {
+    "tone": "philosophical, sustainable, analytical, practical, thoughtful",
+    "vocabulary_patterns": "sustainable analysis, philosophical insights, practical solutions, thoughtful methodology",
+    "formality_level": "Formal",
+    "audience_adaptation": "philosophically oriented, sustainably informed, practically focused"
+  },
+  "behavioral_patterns": {
+    "work_style": "philosophical, sustainable, analytical, practical, thoughtful",
+    "problem_solving_approach": "sustainable, philosophical, practical",
+    "decision_making": "sustainable, philosophically informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "philosophical, sustainable, analytical, practical, thoughtful",
+    "core_motivations": "sustainable development, philosophical understanding, practical solutions, thoughtful analysis",
+    "learning_style": "philosophical, sustainable, practical"
+  },
+  "domain_expertise": {
+    "core_competencies": "sustainable economics, environmental philosophy, practical solutions, thoughtful analysis",
+    "specialized_knowledge": "small is beautiful, sustainable development, environmental economics, practical philosophy"
+  },
+  "collaboration": {
+    "team_dynamics": "philosophical, sustainable, practical",
+    "leadership_approach": "sustainable leadership, philosophical vision, practical methodology",
+    "conflict_resolution": "sustainable approach, philosophical perspective"
+  },
+  "temporal_context": {
+    "career_evolution": "economist, environmental philosopher, sustainable advocate, practical innovator",
+    "influence_timeline": "1950s-1970s",
+    "legacy_impact": "sustainable economics, environmental philosophy, practical solutions, thoughtful development"
+  },
+  "cultural_context": {
+    "cultural_background": "German-British, academic culture, philosophical tradition",
+    "societal_influence": "sustainable economics, environmental philosophy, practical solutions, thoughtful development"
+  },
+  "practical_application": {
+    "decision_speed": "sustainable, philosophically informed",
+    "risk_tolerance": "moderate, sustainable",
+    "adaptability": "high, philosophical"
+  },
+  "learning": {
+    "learning_style": "philosophical, sustainable, practical",
+    "knowledge_sharing": "sustainable methodology, philosophical insights, practical solutions"
+  },
+  "communication": {
+    "audience_adaptation": "philosophically oriented, sustainably informed, practically focused",
+    "persuasion_techniques": "sustainable analysis, philosophical insights, practical solutions"
+  },
+  "values": {
+    "core_values": "sustainable development, philosophical understanding, practical solutions, thoughtful analysis",
+    "ethical_principles": "sustainable responsibility, philosophical integrity, practical honesty"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "William Harvey",
+  "archetype": "Physician",
+  "domain": "Medicine",
+  "sub_domain": "Physiology",
+  "category": "Medicine",
+  "subcategory": "Physicians",
+  "era": "Modern",
+  "nationality": "English",
+  "birth_year": 1578,
+  "death_year": 1657,
+  "description": "English physician who discovered the circulation of blood and revolutionized understanding of the cardiovascular system.",
+  "notable_works": ["On the Motion of the Heart and Blood", "Blood circulation theory", "Cardiovascular research", "Medical physiology"],
+  "psychological_profile": {
+    "primary_traits": ["observant", "analytical", "systematic", "innovative", "methodical"],
+    "core_motivations": ["physiological understanding", "medical discovery", "scientific observation", "cardiovascular research"],
+    "behavioral_patterns": ["physiological observation", "systematic research", "medical experimentation", "cardiovascular analysis"]
+  },
+  "communication_style": {
+    "tone": ["observant", "analytical", "systematic", "scientific"],
+    "vocabulary_patterns": ["physiological concepts", "cardiovascular terminology", "scientific observation", "medical research"],
+    "rhetorical_strategies": ["physiological demonstration", "scientific observation", "medical research", "cardiovascular analysis"]
+  },
+  "values": {
+    "core_values": ["physiological accuracy", "scientific observation", "medical discovery", "cardiovascular research", "systematic analysis"],
+    "professional_principles": ["physiological research", "scientific observation", "medical experimentation", "cardiovascular accuracy"]
+  },
+  "collaboration_style": {
+    "approach": ["physiological collaboration", "scientific partnerships", "medical research"],
+    "preferences": ["physiological research", "scientific observation", "cardiovascular analysis"],
+    "conflict_resolution": ["physiological evidence", "scientific observation", "medical demonstration"]
+  },
+  "expertise_areas": [
+    "Cardiovascular physiology",
+    "Blood circulation",
+    "Medical physiology",
+    "Cardiovascular research",
+    "Medical discovery",
+    "Physiological observation"
+  ],
+  "influence_scope": "Global - Cardiovascular medicine and physiology",
+  "legacy": "Discovered blood circulation and revolutionized understanding of the cardiovascular system, founding modern cardiovascular physiology."
+}

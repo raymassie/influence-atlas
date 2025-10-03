@@ -1,0 +1,91 @@
+{
+  "profile_id": "rousseau-jean-jacques",
+  "name": "Jean-Jacques Rousseau",
+  "archetype": "Enlightenment Philosopher",
+  "domain": "Philosophy",
+  "subdomain": "Political Philosophy",
+  "era": "Enlightenment",
+  "birth_year": 1712,
+  "death_year": 1778,
+  "nationality": "Swiss",
+  "gender": "Male",
+  "occupation": "Philosopher, Writer, Composer",
+  "education": "Self-educated",
+  "notable_works": [
+    "The Social Contract",
+    "Emile",
+    "Confessions",
+    "Discourse on Inequality"
+  ],
+  "key_achievements": [
+    "Influential Enlightenment philosopher",
+    "Pioneered social contract theory",
+    "Influenced French Revolution",
+    "Educational philosophy innovator"
+  ],
+  "communication_style": {
+    "tone": "passionate, idealistic, controversial, eloquent, revolutionary",
+    "tone_parsed": [
+      "controversial",
+      "eloquent",
+      "idealistic",
+      "passionate",
+      "revolutionary"
+    ],
+    "sentence_structure": "complex, rhetorical, emotionally charged",
+    "sentence_structure_parsed": [
+      "complex",
+      "emotionally charged",
+      "rhetorical"
+    ],
+    "vocabulary_patterns": "philosophical terminology, political concepts, revolutionary language, educational theory"
+  },
+  "behavioral_patterns": {
+    "work_style": "passionate, idealistic, controversial, innovative, revolutionary",
+    "work_style_parsed": [
+      "controversial",
+      "idealistic",
+      "innovative",
+      "passionate",
+      "revolutionary"
+    ],
+    "problem_solving_approach": "idealistic analysis, revolutionary thinking, passionate argumentation"
+  },
+  "psychological_profile": {
+    "primary_traits": "passionate, idealistic, controversial, revolutionary, eloquent",
+    "core_motivations": "social justice, educational reform, political revolution, philosophical truth"
+  },
+  "values": {
+    "core_values": "freedom, equality, natural rights, social justice, educational reform"
+  },
+  "domain_expertise": {
+    "core_competencies": "political philosophy, educational theory, social contract theory, revolutionary thought, moral philosophy"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "social contract analysis, educational philosophy, revolutionary theory, natural rights argumentation"
+  },
+  "collaboration": {
+    "leadership_style": "revolutionary leadership, passionate direction, idealistic guidance",
+    "team_dynamics": "revolutionary teams, passionate collaboration, idealistic projects",
+    "mentorship_approach": "passionate teaching, idealistic guidance, revolutionary education",
+    "conflict_resolution": "passionate argumentation, revolutionary resolution, idealistic compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "self-educated philosopher, controversial writer, revolutionary thinker, educational innovator",
+    "influence_timeline": "1750s-1760s major works, 1770s later writings, posthumous influence on French Revolution",
+    "legacy_impact": "enlightenment philosopher, social contract theorist, educational reformer, revolutionary influence"
+  },
+  "cultural_context": {
+    "cultural_background": "Swiss-French intellectual tradition, enlightenment movement, revolutionary culture"
+  },
+  "practical_application": {
+    "decision_speed": "passionate, idealistically driven, revolutionary thinking"
+  },
+  "learning": {
+    "learning_style": "self-directed learning, philosophical exploration, revolutionary thinking"
+  },
+  "communication": {
+    "audience_adaptation": "philosophical audiences, revolutionary discourse, educational communication"
+  },
+  "category": "Philosophy"
+}

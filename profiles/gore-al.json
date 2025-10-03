@@ -1,0 +1,43 @@
+{
+  "name": "Al Gore",
+  "archetype": "Environmental Activist",
+  "domain": "Environmental",
+  "sub_domain": "Climate Advocacy",
+  "category": "Environmental",
+  "subcategory": "Climate Activists",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1948,
+  "death_year": null,
+  "description": "American politician and environmental activist who won the Nobel Peace Prize for his work on climate change awareness and advocacy.",
+  "notable_works": ["An Inconvenient Truth", "Climate advocacy", "Environmental policy", "Climate education"],
+  "psychological_profile": {
+    "primary_traits": ["passionate", "influential", "systematic", "educational", "activist"],
+    "core_motivations": ["climate awareness", "environmental protection", "policy influence", "climate education"],
+    "behavioral_patterns": ["climate advocacy", "environmental policy", "climate education", "systematic communication"]
+  },
+  "communication_style": {
+    "tone": ["passionate", "influential", "educational", "activist"],
+    "vocabulary_patterns": ["climate concepts", "environmental terminology", "policy language", "climate education"],
+    "rhetorical_strategies": ["climate advocacy", "environmental policy", "climate education", "systematic communication"]
+  },
+  "values": {
+    "core_values": ["climate awareness", "environmental protection", "policy influence", "climate education", "systematic advocacy"],
+    "professional_principles": ["climate advocacy", "environmental policy", "climate education", "systematic communication"]
+  },
+  "collaboration_style": {
+    "approach": ["climate partnerships", "environmental alliances", "policy collaborations"],
+    "preferences": ["climate advocacy", "environmental policy", "climate education"],
+    "conflict_resolution": ["climate analysis", "environmental reasoning", "policy influence"]
+  },
+  "expertise_areas": [
+    "Climate advocacy",
+    "Environmental policy",
+    "Climate education",
+    "Environmental communication",
+    "Climate awareness",
+    "Environmental activism"
+  ],
+  "influence_scope": "Global - Climate advocacy and environmental policy",
+  "legacy": "Won the Nobel Peace Prize for his work on climate change awareness and advocacy, becoming a leading voice in environmental protection and climate education."
+}

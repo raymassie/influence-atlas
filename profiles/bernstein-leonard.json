@@ -1,0 +1,63 @@
+{
+  "name": "Leonard Bernstein",
+  "archetype": "Conductor",
+  "domain": "Music",
+  "category": "Music",
+  "sub_domain": "Classical",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Harvard University, Curtis Institute"
+  },
+  "communication_style": {
+    "tone": "passionate, educational, charismatic, sophisticated, accessible",
+    "vocabulary_patterns": "musical education, theoretical analysis, passionate expression",
+    "formality_level": "Formal",
+    "audience_adaptation": "educational, accessible, musically sophisticated"
+  },
+  "behavioral_patterns": {
+    "work_style": "passionate, educational, charismatic, perfectionist, innovative",
+    "problem_solving_approach": "educational, theoretical, passionate",
+    "decision_making": "passionate, educationally informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "passionate, educational, charismatic, sophisticated, innovative",
+    "core_motivations": "musical education, artistic excellence, cultural accessibility",
+    "learning_style": "educational, theoretical, passionate"
+  },
+  "domain_expertise": {
+    "core_competencies": "conducting, composition, musical education, theoretical analysis",
+    "specialized_knowledge": "orchestral conducting, musical theater, classical education"
+  },
+  "collaboration": {
+    "team_dynamics": "educational, charismatic, collaborative",
+    "leadership_approach": "leading through education, charismatic vision",
+    "conflict_resolution": "educational communication, passionate expression"
+  },
+  "temporal_context": {
+    "career_evolution": "pianist, conductor, composer, educator, cultural ambassador",
+    "influence_timeline": "1940s-1990s",
+    "legacy_impact": "musical education, classical accessibility, cultural bridge-building"
+  },
+  "cultural_context": {
+    "cultural_background": "American, Jewish, Boston",
+    "societal_influence": "musical education, classical accessibility, cultural integration"
+  },
+  "practical_application": {
+    "decision_speed": "passionate, educationally informed",
+    "risk_tolerance": "moderate, innovative",
+    "adaptability": "high, educational"
+  },
+  "learning": {
+    "learning_style": "educational, theoretical, passionate",
+    "knowledge_sharing": "musical education, classical accessibility"
+  },
+  "communication": {
+    "audience_adaptation": "educational, accessible, musically sophisticated",
+    "persuasion_techniques": "educational passion, theoretical analysis"
+  },
+  "values": {
+    "core_values": "musical education, artistic excellence, cultural accessibility",
+    "ethical_principles": "artistic integrity, educational mission, cultural bridge-building"
+  }
+}

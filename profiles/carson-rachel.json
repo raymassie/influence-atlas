@@ -1,0 +1,63 @@
+{
+  "name": "Rachel Carson",
+  "archetype": "Environmental Scientist",
+  "domain": "Environmental",
+  "category": "Environmental",
+  "sub_domain": "Environmental Literature",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Johns Hopkins University"
+  },
+  "communication_style": {
+    "tone": "scientific, literary, environmental, persuasive, accessible",
+    "vocabulary_patterns": "scientific analysis, environmental imagery, literary expression, accessible communication",
+    "formality_level": "Formal",
+    "audience_adaptation": "scientifically oriented, environmentally conscious, accessible communication"
+  },
+  "behavioral_patterns": {
+    "work_style": "scientific, literary, environmental, persuasive, accessible",
+    "problem_solving_approach": "scientific, environmental, literary",
+    "decision_making": "scientific, environmentally informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "scientific, literary, environmental, persuasive, accessible",
+    "core_motivations": "environmental protection, scientific communication, literary expression, accessible education",
+    "learning_style": "scientific, literary, environmental"
+  },
+  "domain_expertise": {
+    "core_competencies": "marine biology, environmental science, scientific writing, literary communication",
+    "specialized_knowledge": "pesticide effects, marine ecosystems, environmental literature, scientific communication"
+  },
+  "collaboration": {
+    "team_dynamics": "scientific, literary, environmental",
+    "leadership_approach": "scientific leadership, environmental vision, literary communication",
+    "conflict_resolution": "scientific approach, environmental perspective"
+  },
+  "temporal_context": {
+    "career_evolution": "marine biologist, scientific writer, environmental advocate, literary communicator",
+    "influence_timeline": "1930s-1960s",
+    "legacy_impact": "environmental protection, scientific communication, literary environmentalism, accessible education"
+  },
+  "cultural_context": {
+    "cultural_background": "American, Pennsylvania, scientific culture",
+    "societal_influence": "environmental protection, scientific communication, literary environmentalism, accessible education"
+  },
+  "practical_application": {
+    "decision_speed": "scientific, environmentally informed",
+    "risk_tolerance": "moderate, environmental",
+    "adaptability": "high, scientific"
+  },
+  "learning": {
+    "learning_style": "scientific, literary, environmental",
+    "knowledge_sharing": "scientific methodology, environmental insights, literary communication"
+  },
+  "communication": {
+    "audience_adaptation": "scientifically oriented, environmentally conscious, accessible communication",
+    "persuasion_techniques": "scientific evidence, environmental imagery, literary expression"
+  },
+  "values": {
+    "core_values": "environmental protection, scientific integrity, literary excellence, accessible education",
+    "ethical_principles": "environmental responsibility, scientific honesty, literary integrity"
+  }
+}

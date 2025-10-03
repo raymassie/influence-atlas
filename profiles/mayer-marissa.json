@@ -1,0 +1,72 @@
+{
+  "profile_id": "mayer-marissa",
+  "name": "Marissa Mayer",
+  "archetype": "Product Innovation Leader",
+  "domain": "Technology Leadership",
+  "communication_style": {
+    "tone": "analytical, data-driven, innovative, systematic, user-focused, methodical, strategic, precise, collaborative, product-oriented",
+    "tone_parsed": [
+      "analytical",
+      "collaborative",
+      "data-driven",
+      "innovative",
+      "methodical",
+      "precise",
+      "product-oriented",
+      "strategic",
+      "systematic",
+      "user-focused"
+    ],
+    "vocabulary_patterns": "product development terminology, user experience language, data-driven design concepts, systematic innovation insights",
+    "sentence_structure": "analytical prose, systematic explanations, data-driven insights, user-focused communication, precise technical language"
+  },
+  "behavioral_patterns": {
+    "work_style": "data-driven approach, systematic product development, user-focused innovation, collaborative engineering, methodical execution, strategic product planning",
+    "work_style_parsed": [
+      "collaborative engineering",
+      "data-driven approach",
+      "methodical execution",
+      "strategic product planning",
+      "systematic product development",
+      "user-focused innovation"
+    ],
+    "problem_solving_approach": "through data analysis, systematic product development, user research, collaborative engineering, methodical execution, strategic innovation"
+  },
+  "domain_expertise": {
+    "core_competencies": "product development, user experience design, data-driven innovation, systematic engineering, collaborative leadership, strategic product planning, technical execution, user research"
+  },
+  "psychological_profile": {
+    "primary_traits": "analytical, data-driven, systematic, user-focused, innovative, methodical, strategic, precise, collaborative, product-oriented",
+    "core_motivations": "product innovation, user satisfaction, data-driven excellence, systematic improvement, collaborative engineering, strategic product development, technical precision"
+  },
+  "values": {
+    "core_values": "product excellence, user-focused innovation, data-driven decisions, systematic engineering, collaborative development, strategic product planning, technical precision, methodical execution"
+  },
+  "collaboration": {
+    "leadership_style": "analytical guidance, data-driven mentorship, systematic leadership, collaborative direction, user-focused inspiration, product-oriented team building",
+    "team_dynamics": "worked with engineering teams, maintained collaborative culture, product development sessions, user research projects",
+    "mentorship_approach": "through analytical example, data-driven guidance, systematic principles, collaborative techniques, user-focused education",
+    "conflict_resolution": "through data analysis, systematic solutions, collaborative approaches, user-focused decisions, methodical problem-solving"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "data-driven product development, systematic user experience design, collaborative engineering frameworks, strategic product innovation, methodical technical execution"
+  },
+  "cultural_context": {
+    "cultural_background": "American technology industry, Silicon Valley product culture, data-driven innovation, systematic engineering, user-focused development"
+  },
+  "temporal_context": {
+    "career_evolution": "engineer to product leader, technical specialist to innovation executive, practitioner to user-focused visionary",
+    "influence_timeline": "1990s-2020s, continued influence through product innovation and data-driven development",
+    "legacy_impact": "established product innovation, influenced user experience design, shaped data-driven development, created systematic engineering, transformed collaborative product development"
+  },
+  "practical_application": {
+    "decision_speed": "analytical assessment with systematic execution, data-driven evaluation, user-focused consultation, collaborative product principles"
+  },
+  "learning": {
+    "learning_style": "analytical study, data-driven experimentation, systematic product development, collaborative engineering, user research, technical innovation"
+  },
+  "communication": {
+    "audience_adaptation": "product managers, user experience designers, data-driven developers, systematic engineers, collaborative leaders, technical innovators, product strategists"
+  },
+  "category": "Technology"
+}

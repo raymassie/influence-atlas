@@ -1,0 +1,43 @@
+{
+  "name": "Richard Feynman",
+  "archetype": "Theoretical Physicist",
+  "domain": "Math",
+  "sub_domain": "Physics",
+  "category": "Math",
+  "subcategory": "Physicists",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1918,
+  "death_year": 1988,
+  "description": "American theoretical physicist who made significant contributions to quantum mechanics and quantum electrodynamics, and won the Nobel Prize in Physics.",
+  "notable_works": ["Quantum electrodynamics", "Feynman diagrams", "Nobel Prize in Physics", "Physics education"],
+  "psychological_profile": {
+    "primary_traits": ["analytical", "innovative", "influential", "systematic", "principled"],
+    "core_motivations": ["quantum understanding", "physics education", "scientific innovation", "scientific truth"],
+    "behavioral_patterns": ["quantum research", "physics education", "scientific innovation", "systematic thinking"]
+  },
+  "communication_style": {
+    "tone": ["analytical", "innovative", "influential", "systematic"],
+    "vocabulary_patterns": ["quantum concepts", "physics principles", "scientific analysis", "physics education"],
+    "rhetorical_strategies": ["quantum demonstration", "physics education", "scientific argument", "physics explanation"]
+  },
+  "values": {
+    "core_values": ["scientific truth", "quantum understanding", "physics education", "scientific innovation", "systematic analysis"],
+    "professional_principles": ["quantum research", "physics education", "scientific innovation", "scientific integrity"]
+  },
+  "collaboration_style": {
+    "approach": ["scientific collaboration", "quantum research", "physics education"],
+    "preferences": ["quantum research", "physics education", "scientific innovation"],
+    "conflict_resolution": ["quantum analysis", "physics education", "scientific demonstration"]
+  },
+  "expertise_areas": [
+    "Quantum electrodynamics",
+    "Quantum mechanics",
+    "Physics education",
+    "Feynman diagrams",
+    "Scientific research",
+    "Physics innovation"
+  ],
+  "influence_scope": "Global - Physics and quantum mechanics",
+  "legacy": "Made fundamental contributions to quantum electrodynamics and physics education, influencing quantum mechanics and physics education worldwide."
+}

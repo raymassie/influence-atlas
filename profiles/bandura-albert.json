@@ -1,0 +1,90 @@
+{
+  "profile_id": "bandura-albert",
+  "name": "Albert Bandura",
+  "archetype": "Social Cognitive Psychologist",
+  "domain": "Psychology",
+  "subdomain": "Social Cognitive Psychology",
+  "era": "Modern",
+  "birth_year": 1925,
+  "death_year": 2021,
+  "nationality": "Canadian-American",
+  "gender": "Male",
+  "occupation": "Psychologist, Researcher, Professor",
+  "education": "PhD in Psychology, University of Iowa",
+  "notable_works": [
+    "Social Learning Theory",
+    "Self-Efficacy: The Exercise of Control",
+    "Social Foundations of Thought and Action"
+  ],
+  "key_achievements": [
+    "Developed social learning theory",
+    "Pioneered self-efficacy research",
+    "Influential in cognitive psychology",
+    "Bandura's Bobo doll experiment"
+  ],
+  "communication_style": {
+    "tone": "empirical, systematic, clear, research-focused, analytical",
+    "tone_parsed": [
+      "analytical",
+      "clear",
+      "empirical",
+      "research-focused",
+      "systematic"
+    ],
+    "sentence_structure": "clear, empirically systematic, research-oriented",
+    "sentence_structure_parsed": [
+      "clear",
+      "empirically systematic",
+      "research-oriented"
+    ],
+    "vocabulary_patterns": "psychological research, empirical terminology, cognitive concepts, systematic analysis"
+  },
+  "behavioral_patterns": {
+    "work_style": "empirical, systematic, research-focused, analytical, clear",
+    "work_style_parsed": [
+      "analytical",
+      "clear",
+      "empirical",
+      "research-focused",
+      "systematic"
+    ],
+    "problem_solving_approach": "empirical research, systematic analysis, cognitive investigation"
+  },
+  "psychological_profile": {
+    "primary_traits": "empirical, systematic, research-focused, analytical, clear",
+    "core_motivations": "empirical understanding, systematic research, cognitive exploration, analytical insight"
+  },
+  "values": {
+    "core_values": "empirical truth, systematic research, cognitive understanding, analytical precision, scientific method"
+  },
+  "domain_expertise": {
+    "core_competencies": "social cognitive psychology, self-efficacy research, social learning theory, empirical research, cognitive analysis"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "social learning theory, self-efficacy research, empirical cognitive analysis, systematic psychological research"
+  },
+  "collaboration": {
+    "leadership_style": "empirical leadership, systematic direction, research-focused guidance",
+    "team_dynamics": "empirical teams, systematic collaboration, research-focused projects",
+    "mentorship_approach": "empirical teaching, systematic guidance, research-focused education",
+    "conflict_resolution": "empirical resolution, systematic discussion, research-focused compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "graduate student, researcher, professor, social cognitive psychologist",
+    "influence_timeline": "1950s-1960s social learning theory, 1970s-1980s self-efficacy research, 1990s-2000s cognitive psychology",
+    "legacy_impact": "social cognitive psychology pioneer, self-efficacy expert, empirical research master"
+  },
+  "cultural_context": {
+    "cultural_background": "American-Canadian academic tradition, empirical psychology culture, cognitive research community"
+  },
+  "practical_application": {
+    "decision_speed": "empirical, systematically informed, research-considered"
+  },
+  "learning": {
+    "learning_style": "empirical study, systematic exploration, research-based discovery"
+  },
+  "communication": {
+    "audience_adaptation": "academic audiences, research discourse, empirical communication"
+  },
+  "category": "Psychology"
+}

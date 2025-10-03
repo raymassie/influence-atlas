@@ -1,0 +1,63 @@
+{
+  "name": "Isaac Newton",
+  "archetype": "Physicist",
+  "domain": "Science",
+  "category": "Science",
+  "sub_domain": "Physics",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Cambridge University"
+  },
+  "communication_style": {
+    "tone": "mathematical, systematic, analytical, revolutionary, comprehensive",
+    "vocabulary_patterns": "mathematical analysis, systematic methodology, revolutionary insights, analytical frameworks",
+    "formality_level": "Formal",
+    "audience_adaptation": "mathematically sophisticated, analytically informed, systematically oriented"
+  },
+  "behavioral_patterns": {
+    "work_style": "mathematical, systematic, analytical, revolutionary, comprehensive",
+    "problem_solving_approach": "mathematical, analytical, systematic",
+    "decision_making": "mathematical, analytically informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "mathematical, systematic, analytical, revolutionary, comprehensive",
+    "core_motivations": "mathematical understanding, analytical excellence, revolutionary insight, systematic methodology",
+    "learning_style": "analytical, mathematical, systematic"
+  },
+  "domain_expertise": {
+    "core_competencies": "mathematical physics, systematic methodology, analytical frameworks, revolutionary innovation",
+    "specialized_knowledge": "classical mechanics, mathematical analysis, systematic research, revolutionary physics"
+  },
+  "collaboration": {
+    "team_dynamics": "analytical, mathematical, systematic",
+    "leadership_approach": "mathematical leadership, analytical vision, revolutionary methodology",
+    "conflict_resolution": "mathematical approach, analytical perspective"
+  },
+  "temporal_context": {
+    "career_evolution": "mathematician, physicist, theoretical innovator, systematic scholar",
+    "influence_timeline": "1660s-1720s",
+    "legacy_impact": "mathematical physics, classical mechanics, systematic methodology, scientific revolution"
+  },
+  "cultural_context": {
+    "cultural_background": "British, academic culture, mathematical tradition",
+    "societal_influence": "mathematical physics, scientific revolution, systematic methodology, analytical innovation"
+  },
+  "practical_application": {
+    "decision_speed": "mathematical, analytically informed",
+    "risk_tolerance": "moderate, mathematical",
+    "adaptability": "high, mathematical"
+  },
+  "learning": {
+    "learning_style": "analytical, mathematical, systematic",
+    "knowledge_sharing": "mathematical methodology, analytical insights, revolutionary frameworks"
+  },
+  "communication": {
+    "audience_adaptation": "mathematically sophisticated, analytically informed, systematically oriented",
+    "persuasion_techniques": "mathematical analysis, analytical insights, systematic methodology"
+  },
+  "values": {
+    "core_values": "mathematical excellence, analytical insight, revolutionary methodology, systematic understanding",
+    "ethical_principles": "scientific integrity, mathematical responsibility, analytical honesty"
+  }
+}

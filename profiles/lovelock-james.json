@@ -1,0 +1,43 @@
+{
+  "name": "James Lovelock",
+  "archetype": "Environmental Scientist",
+  "domain": "Environmental",
+  "sub_domain": "Systems Ecology",
+  "category": "Environmental",
+  "subcategory": "Environmental Scientists",
+  "era": "Contemporary",
+  "nationality": "British",
+  "birth_year": 1919,
+  "death_year": 2022,
+  "description": "British scientist who developed the Gaia hypothesis, proposing that Earth functions as a self-regulating system, and worked on environmental monitoring.",
+  "notable_works": ["Gaia hypothesis", "The Revenge of Gaia", "Environmental monitoring", "Systems ecology"],
+  "psychological_profile": {
+    "primary_traits": ["innovative", "systematic", "influential", "principled", "analytical"],
+    "core_motivations": ["systems understanding", "environmental monitoring", "Gaia theory", "scientific innovation"],
+    "behavioral_patterns": ["systems analysis", "environmental research", "scientific innovation", "systems thinking"]
+  },
+  "communication_style": {
+    "tone": ["innovative", "systematic", "influential", "analytical"],
+    "vocabulary_patterns": ["systems concepts", "Gaia theory", "environmental monitoring", "systems ecology"],
+    "rhetorical_strategies": ["systems analysis", "Gaia arguments", "environmental monitoring", "systems thinking"]
+  },
+  "values": {
+    "core_values": ["systems thinking", "environmental monitoring", "scientific innovation", "Gaia theory", "systems integrity"],
+    "professional_principles": ["systems ecology", "environmental monitoring", "scientific innovation", "systems thinking"]
+  },
+  "collaboration_style": {
+    "approach": ["systems collaboration", "environmental research", "scientific partnerships"],
+    "preferences": ["systems research", "environmental monitoring", "scientific innovation"],
+    "conflict_resolution": ["systems analysis", "environmental research", "scientific evidence"]
+  },
+  "expertise_areas": [
+    "Systems ecology",
+    "Environmental monitoring",
+    "Gaia hypothesis",
+    "Atmospheric science",
+    "Environmental systems",
+    "Scientific innovation"
+  ],
+  "influence_scope": "Global - Environmental science and systems thinking",
+  "legacy": "Developed the Gaia hypothesis and advanced systems thinking in environmental science, influencing how we understand Earth as a complex system."
+}

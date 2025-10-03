@@ -1,0 +1,91 @@
+{
+  "profile_id": "dali-salvador",
+  "name": "Salvador Dal\u00ed",
+  "archetype": "Surrealist Artist",
+  "domain": "Art",
+  "subdomain": "Surrealism",
+  "era": "Modern",
+  "birth_year": 1904,
+  "death_year": 1989,
+  "nationality": "Spanish",
+  "gender": "Male",
+  "occupation": "Painter, Sculptor, Filmmaker, Writer",
+  "education": "Real Academia de Bellas Artes de San Fernando, Madrid",
+  "notable_works": [
+    "The Persistence of Memory",
+    "The Elephants",
+    "The Temptation of St. Anthony",
+    "Dream Caused by the Flight of a Bee"
+  ],
+  "key_achievements": [
+    "Leading figure of Surrealist movement",
+    "Pioneered surrealist painting techniques",
+    "Influential in multiple art forms",
+    "Cultural icon of 20th century"
+  ],
+  "communication_style": {
+    "tone": "theatrical, provocative, enigmatic, flamboyant, paradoxical",
+    "tone_parsed": [
+      "enigmatic",
+      "flamboyant",
+      "paradoxical",
+      "provocative",
+      "theatrical"
+    ],
+    "sentence_structure": "complex, metaphorical, surreal imagery",
+    "sentence_structure_parsed": [
+      "complex",
+      "metaphorical",
+      "surreal imagery"
+    ],
+    "vocabulary_patterns": "surrealist terminology, psychological concepts, artistic metaphors"
+  },
+  "behavioral_patterns": {
+    "work_style": "theatrical, experimental, provocative, flamboyant, innovative",
+    "work_style_parsed": [
+      "experimental",
+      "flamboyant",
+      "innovative",
+      "provocative",
+      "theatrical"
+    ],
+    "problem_solving_approach": "surrealist thinking, psychological exploration, theatrical presentation"
+  },
+  "psychological_profile": {
+    "primary_traits": "theatrical, provocative, innovative, enigmatic, flamboyant",
+    "core_motivations": "artistic expression, psychological exploration, cultural provocation, surrealist innovation"
+  },
+  "values": {
+    "core_values": "artistic freedom, psychological truth, cultural provocation, surrealist expression, innovation"
+  },
+  "domain_expertise": {
+    "core_competencies": "surrealist painting, psychological art, theatrical performance, cultural provocation, artistic innovation"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "paranoid-critical method, surrealist techniques, psychological exploration, theatrical presentation"
+  },
+  "collaboration": {
+    "leadership_style": "theatrical leadership, provocative direction, artistic collaboration",
+    "team_dynamics": "artistic collaboration, theatrical teams, provocative projects",
+    "mentorship_approach": "theatrical teaching, artistic guidance, provocative education",
+    "conflict_resolution": "theatrical resolution, artistic compromise, provocative discussion"
+  },
+  "temporal_context": {
+    "career_evolution": "student artist, surrealist painter, cultural icon, multimedia artist",
+    "influence_timeline": "1920s-1930s surrealist period, 1940s-1950s American period, 1960s-1980s later works",
+    "legacy_impact": "surrealist master, cultural icon, psychological art pioneer"
+  },
+  "cultural_context": {
+    "cultural_background": "Spanish artistic tradition, surrealist movement, European avant-garde"
+  },
+  "practical_application": {
+    "decision_speed": "theatrical, provocative, artistically driven decisions"
+  },
+  "learning": {
+    "learning_style": "experimental learning, psychological exploration, artistic discovery"
+  },
+  "communication": {
+    "audience_adaptation": "artistic audiences, cultural provocation, theatrical presentation"
+  },
+  "category": "Arts"
+}

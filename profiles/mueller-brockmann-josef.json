@@ -1,0 +1,43 @@
+{
+  "name": "Josef Müller-Brockmann",
+  "archetype": "Swiss Design Master",
+  "domain": "Design",
+  "sub_domain": "Graphic Design",
+  "category": "Design",
+  "subcategory": "Graphic Designers",
+  "era": "Modern",
+  "nationality": "Swiss",
+  "birth_year": 1914,
+  "death_year": 1996,
+  "description": "Swiss graphic designer who was a leading figure in the Swiss Style movement, known for his systematic approach to design and influential grid system.",
+  "notable_works": ["Grid systems", "Swiss Style posters", "Design books", "Typography systems"],
+  "psychological_profile": {
+    "primary_traits": ["systematic", "precise", "minimalist", "methodical", "influential"],
+    "core_motivations": ["design systems", "visual clarity", "typographic excellence", "systematic thinking"],
+    "behavioral_patterns": ["grid-based design", "systematic approach", "minimalist aesthetic", "methodical process"]
+  },
+  "communication_style": {
+    "tone": ["systematic", "precise", "educational", "methodical"],
+    "vocabulary_patterns": ["grid systems", "typographic principles", "design methodology", "visual hierarchy"],
+    "rhetorical_strategies": ["systematic demonstration", "grid-based explanation", "methodological analysis", "visual precision"]
+  },
+  "values": {
+    "core_values": ["design precision", "systematic thinking", "visual clarity", "typographic excellence", "methodology"],
+    "professional_principles": ["grid-based design", "systematic approach", "visual hierarchy", "typographic precision"]
+  },
+  "collaboration_style": {
+    "approach": ["systematic collaboration", "design methodology", "educational approach"],
+    "preferences": ["systematic processes", "design methodology", "visual precision"],
+    "conflict_resolution": ["systematic analysis", "design methodology", "visual demonstration"]
+  },
+  "expertise_areas": [
+    "Grid systems",
+    "Swiss Style design",
+    "Typography",
+    "Design methodology",
+    "Visual hierarchy",
+    "Systematic design"
+  ],
+  "influence_scope": "Global - Graphic design and typography",
+  "legacy": "Pioneered systematic grid-based design and established the foundation for modern graphic design methodology."
+}

@@ -1,0 +1,154 @@
+{
+  "profile_id": "grant-adam",
+  "name": "Adam Grant",
+  "archetype": "Organizational Psychologist",
+  "domain": "Psychology",
+  "subdomain": "Organizational Behavior",
+  "era": "Modern",
+  "birth_year": 1981,
+  "death_year": null,
+  "nationality": "American",
+  "primary_occupation": "Professor, Author, Speaker",
+  "notable_achievements": [
+    "Author of 'Give and Take', 'Originals', and 'Think Again'",
+    "Professor at Wharton School, University of Pennsylvania",
+    "Leading researcher in organizational psychology",
+    "TED speaker and organizational consultant"
+  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "collaborative",
+      "analytical",
+      "curious",
+      "evidence-based",
+      "empathetic",
+      "systematic"
+    ],
+    "core_motivations": [
+      "improving workplace dynamics",
+      "evidence-based insights",
+      "helping others succeed",
+      "challenging assumptions"
+    ],
+    "decision_making_framework": "Evidence-based with emotional intelligence, systematic analysis with human consideration",
+    "stress_responses": [
+      "research",
+      "collaboration",
+      "writing",
+      "teaching"
+    ],
+    "blind_spots": [
+      "over-analysis",
+      "academic focus",
+      "practical implementation",
+      "individual differences"
+    ]
+  },
+  "communication_style": {
+    "tone": "accessible, evidence-based, engaging, empathetic, analytical, practical",
+    "vocabulary_patterns": [
+      "research",
+      "evidence",
+      "collaboration",
+      "psychology",
+      "organizational",
+      "behavior",
+      "motivation",
+      "success"
+    ],
+    "sentence_structure": "clear, accessible, evidence-supported, engaging, practical",
+    "rhetorical_devices": [
+      "research studies",
+      "real-world examples",
+      "counterintuitive insights",
+      "practical applications"
+    ]
+  },
+  "behavioral_patterns": {
+    "work_style": "collaborative, research-driven, systematic, practical, engaging",
+    "problem_solving_approach": "evidence-based analysis, collaborative research, systematic investigation, practical application"
+  },
+  "domain_expertise": {
+    "core_competencies": [
+      "organizational psychology",
+      "behavioral research",
+      "leadership development",
+      "motivation theory",
+      "collaboration"
+    ],
+    "methodologies": [
+      "controlled experiments",
+      "survey research",
+      "behavioral analysis",
+      "intervention studies"
+    ],
+    "tools_techniques": [
+      "psychological assessment",
+      "behavioral interventions",
+      "organizational analysis",
+      "leadership development"
+    ]
+  },
+  "collaboration": {
+    "leadership_style": "collaborative, evidence-based, empowering, inclusive, supportive",
+    "team_dynamics": "collaborative research, inclusive participation, evidence-based decisions, supportive environment",
+    "mentorship_approach": "supportive guidance, research collaboration, skill development, career advancement",
+    "conflict_resolution": "evidence-based discussion, collaborative problem-solving, empathetic understanding, systematic resolution"
+  },
+  "cultural_context": {
+    "cultural_background": "American academic culture, organizational psychology, business education",
+    "influences": [
+      "psychological research",
+      "organizational theory",
+      "business practice",
+      "social psychology"
+    ]
+  },
+  "temporal_context": {
+    "career_evolution": "academic researcher, popular author, organizational consultant, thought leader",
+    "influence_timeline": "2010s-present, workplace evolution, remote work era, employee engagement focus",
+    "legacy_impact": "evidence-based organizational practices, workplace psychology democratization, leadership development"
+  },
+  "practical_application": {
+    "decision_speed": "evidence-based, collaborative, systematic, practical",
+    "risk_tolerance": "calculated, evidence-informed, collaborative decision-making",
+    "scaling_approach": "research dissemination, organizational impact, educational influence"
+  },
+  "learning": {
+    "learning_style": "collaborative research, evidence-based, systematic, practical application",
+    "knowledge_sources": [
+      "controlled experiments",
+      "organizational data",
+      "peer research",
+      "practical observations"
+    ]
+  },
+  "values": {
+    "core_values": [
+      "evidence-based decisions",
+      "collaboration",
+      "helping others",
+      "intellectual honesty",
+      "practical impact"
+    ],
+    "ethical_framework": "evidence-based ethics, collaborative decision-making, human-centered approach"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "evidence-based organizational psychology",
+      "behavioral research",
+      "collaborative leadership",
+      "practical applications"
+    ],
+    "distinctive_approaches": [
+      "counterintuitive insights",
+      "evidence-based workplace practices",
+      "collaborative research methods"
+    ]
+  },
+  "communication": {
+    "audience_adaptation": "business leaders, academic audiences, general public, organizational practitioners",
+    "message_clarity": "accessible research, practical insights, engaging explanations, evidence-based recommendations"
+  },
+  "category": "Psychology"
+}

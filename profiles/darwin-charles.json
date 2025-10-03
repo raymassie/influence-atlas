@@ -1,0 +1,63 @@
+{
+  "name": "Charles Darwin",
+  "archetype": "Naturalist",
+  "domain": "Science",
+  "category": "Science",
+  "sub_domain": "Biology",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Cambridge University"
+  },
+  "communication_style": {
+    "tone": "systematic, observational, analytical, evolutionary, comprehensive",
+    "vocabulary_patterns": "evolutionary analysis, systematic observation, natural selection, comprehensive methodology",
+    "formality_level": "Formal",
+    "audience_adaptation": "scientifically oriented, analytically informed, systematically sophisticated"
+  },
+  "behavioral_patterns": {
+    "work_style": "systematic, observational, analytical, evolutionary, comprehensive",
+    "problem_solving_approach": "observational, analytical, systematic",
+    "decision_making": "systematic, analytically informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "systematic, observational, analytical, evolutionary, comprehensive",
+    "core_motivations": "evolutionary understanding, systematic observation, analytical excellence, comprehensive methodology",
+    "learning_style": "analytical, observational, systematic"
+  },
+  "domain_expertise": {
+    "core_competencies": "evolutionary biology, systematic observation, analytical methodology, comprehensive research",
+    "specialized_knowledge": "natural selection, evolutionary theory, systematic methodology, biological observation"
+  },
+  "collaboration": {
+    "team_dynamics": "analytical, observational, systematic",
+    "leadership_approach": "systematic leadership, analytical vision, evolutionary innovation",
+    "conflict_resolution": "systematic approach, analytical perspective"
+  },
+  "temporal_context": {
+    "career_evolution": "naturalist, evolutionary researcher, theoretical innovator, systematic scholar",
+    "influence_timeline": "1830s-1880s",
+    "legacy_impact": "evolutionary theory, systematic methodology, biological innovation, scientific revolution"
+  },
+  "cultural_context": {
+    "cultural_background": "British, scientific culture, naturalist tradition",
+    "societal_influence": "evolutionary theory, systematic methodology, scientific revolution, biological understanding"
+  },
+  "practical_application": {
+    "decision_speed": "systematic, analytically informed",
+    "risk_tolerance": "moderate, systematic",
+    "adaptability": "high, evolutionary"
+  },
+  "learning": {
+    "learning_style": "analytical, observational, systematic",
+    "knowledge_sharing": "evolutionary methodology, systematic insights, analytical innovation"
+  },
+  "communication": {
+    "audience_adaptation": "scientifically oriented, analytically informed, systematically sophisticated",
+    "persuasion_techniques": "systematic analysis, evolutionary insights, comprehensive methodology"
+  },
+  "values": {
+    "core_values": "evolutionary understanding, systematic excellence, analytical insight, comprehensive methodology",
+    "ethical_principles": "scientific integrity, systematic responsibility, analytical honesty"
+  }
+}

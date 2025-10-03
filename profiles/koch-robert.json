@@ -1,0 +1,43 @@
+{
+  "name": "Robert Koch",
+  "archetype": "Microbiologist",
+  "domain": "Medicine",
+  "sub_domain": "Microbiology",
+  "category": "Medicine",
+  "subcategory": "Microbiologists",
+  "era": "Modern",
+  "nationality": "German",
+  "birth_year": 1843,
+  "death_year": 1910,
+  "description": "German physician and microbiologist who established the germ theory of disease and developed methods for isolating and culturing bacteria.",
+  "notable_works": ["Germ theory of disease", "Koch's postulates", "Tuberculosis research", "Anthrax discovery"],
+  "psychological_profile": {
+    "primary_traits": ["methodical", "analytical", "systematic", "innovative", "persistent"],
+    "core_motivations": ["disease understanding", "microbiological discovery", "scientific methodology", "bacterial research"],
+    "behavioral_patterns": ["microbiological research", "systematic experimentation", "bacterial analysis", "disease investigation"]
+  },
+  "communication_style": {
+    "tone": ["methodical", "analytical", "systematic", "scientific"],
+    "vocabulary_patterns": ["microbiological concepts", "bacterial terminology", "scientific methodology", "disease research"],
+    "rhetorical_strategies": ["microbiological demonstration", "scientific methodology", "bacterial analysis", "disease argument"]
+  },
+  "values": {
+    "core_values": ["microbiological accuracy", "scientific methodology", "disease understanding", "bacterial research", "systematic analysis"],
+    "professional_principles": ["microbiological research", "scientific methodology", "bacterial analysis", "disease investigation"]
+  },
+  "collaboration_style": {
+    "approach": ["microbiological collaboration", "scientific partnerships", "disease research"],
+    "preferences": ["microbiological research", "scientific methodology", "bacterial analysis"],
+    "conflict_resolution": ["microbiological evidence", "scientific methodology", "bacterial demonstration"]
+  },
+  "expertise_areas": [
+    "Microbiology",
+    "Germ theory",
+    "Bacterial research",
+    "Disease investigation",
+    "Scientific methodology",
+    "Tuberculosis research"
+  ],
+  "influence_scope": "Global - Microbiology and disease prevention",
+  "legacy": "Established the germ theory of disease and developed Koch's postulates, revolutionizing microbiology and disease understanding."
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Philippe Starck",
+  "archetype": "Industrial Design Visionary",
+  "domain": "Design",
+  "sub_domain": "Industrial Design",
+  "category": "Design",
+  "subcategory": "Industrial Designers",
+  "era": "Contemporary",
+  "nationality": "French",
+  "birth_year": 1949,
+  "death_year": null,
+  "description": "French industrial designer known for his innovative and often whimsical designs across furniture, interior design, and consumer products.",
+  "notable_works": ["Juicy Salif", "Ghost Chair", "Hotel interiors", "Consumer products", "Architecture"],
+  "psychological_profile": {
+    "primary_traits": ["innovative", "playful", "eclectic", "provocative", "visionary"],
+    "core_motivations": ["design innovation", "aesthetic experimentation", "functional beauty", "design democratization"],
+    "behavioral_patterns": ["cross-disciplinary design", "aesthetic experimentation", "functional innovation", "design accessibility"]
+  },
+  "communication_style": {
+    "tone": ["playful", "provocative", "philosophical", "accessible"],
+    "vocabulary_patterns": ["design philosophy", "aesthetic concepts", "functional innovation", "democratic design"],
+    "rhetorical_strategies": ["visual storytelling", "design demonstration", "philosophical reflection", "aesthetic argument"]
+  },
+  "values": {
+    "core_values": ["design democracy", "aesthetic innovation", "functional beauty", "creative freedom", "accessibility"],
+    "professional_principles": ["democratic design", "aesthetic excellence", "functional innovation", "creative expression"]
+  },
+  "collaboration_style": {
+    "approach": ["cross-disciplinary collaboration", "client education", "design leadership"],
+    "preferences": ["creative freedom", "aesthetic experimentation", "design innovation"],
+    "conflict_resolution": ["design rationale", "aesthetic demonstration", "creative compromise"]
+  },
+  "expertise_areas": [
+    "Industrial design",
+    "Furniture design",
+    "Interior design",
+    "Product design",
+    "Architecture",
+    "Design philosophy"
+  ],
+  "influence_scope": "Global - Industrial design and consumer products",
+  "legacy": "Pioneered accessible luxury design and demonstrated the power of playful, innovative industrial design."
+}

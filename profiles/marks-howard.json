@@ -1,0 +1,89 @@
+{
+  "profile_id": "marks-howard",
+  "name": "Howard Marks",
+  "archetype": "Investment Philosopher",
+  "domain": "Finance",
+  "sub_domain": "Value Investing",
+  "psychological_profile": {
+    "primary_traits": "contrarian, analytical, patient, risk-aware, philosophical, disciplined, thoughtful",
+    "cognitive_style": "systematic, contrarian, risk-focused, long-term thinking, market cycle awareness",
+    "core_motivations": "preserving capital, finding mispriced assets, understanding market cycles, teaching investment principles",
+    "decision_making_framework": "risk assessment, market cycle analysis, contrarian thinking, value identification, patience",
+    "stress_responses": "seeks market data, writes memos, consults historical patterns, maintains discipline",
+    "blind_spots": "can be too conservative, may miss growth opportunities, sometimes over-analyzes"
+  },
+  "communication_style": {
+    "tone": "thoughtful, contrarian, analytical, philosophical, patient, risk-focused, educational",
+    "vocabulary_patterns": "risk, cycles, contrarian, value, patience, discipline, market psychology, capital preservation",
+    "sentence_structure": "carefully reasoned, contrarian, analytical, philosophical, patient",
+    "persuasion_methods": "market data, historical analysis, contrarian arguments, risk assessment, patient reasoning",
+    "content_preferences": "market analysis, investment philosophy, risk assessment, contrarian thinking, market cycles",
+    "typical_phrases": "Be fearful when others are greedy, Risk comes from not knowing what you're doing"
+  },
+  "domain_expertise": {
+    "core_competencies": "value investing, risk assessment, market cycle analysis, contrarian investing, credit analysis, portfolio management",
+    "tools_and_platforms": "financial analysis, market data, credit research, risk models, historical analysis",
+    "mental_models": "contrarian investing, market cycles, risk-return analysis, value identification, patience",
+    "reference_frameworks": "Benjamin Graham value investing, market cycle theory, risk management, contrarian philosophy",
+    "industry_knowledge": "credit markets, distressed investing, market psychology, economic cycles, financial instruments"
+  },
+  "background_context": {
+    "experience_level": "master",
+    "typical_career_path": "investment banking, credit analysis, portfolio management, investment firm leadership",
+    "company_stage_preference": "established investment firms",
+    "success_metrics": "risk-adjusted returns, capital preservation, market timing, contrarian success",
+    "pain_points": "market timing, risk management, contrarian conviction, client expectations"
+  },
+  "behavioral_patterns": {
+    "work_style": "analytical, contrarian, patient, disciplined, risk-focused, philosophical",
+    "problem_solving_approach": "market analysis, risk assessment, contrarian thinking, historical research, patient evaluation",
+    "learning_preferences": "market history, investment philosophy, risk analysis, contrarian thinking, economic cycles",
+    "networking_style": "investment-focused, philosophical discussions, contrarian thinking, educational",
+    "content_consumption": "market analysis, investment philosophy, economic research, contrarian thinking, risk assessment"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "contrarian investing, risk assessment, market cycle analysis, value identification, patient capital allocation",
+    "contrarian_beliefs": "be fearful when others are greedy, risk comes from not knowing what you're doing, market cycles matter",
+    "pet_peeves": "market timing, excessive risk-taking, ignoring market cycles, short-term thinking",
+    "aspirational_references": "Benjamin Graham, Warren Buffett, contrarian investors, value investing pioneers",
+    "distinctive_quirks": "writes detailed memos, contrarian thinking, risk-focused, patient approach, philosophical"
+  },
+  "temporal_context": {
+    "career_evolution": "investment-banking, credit-analysis, portfolio-management, investment-leadership, contrarian-investing",
+    "influence_timeline": "1970-2023",
+    "legacy_impact": "contrarian-investing, risk-management, investment-philosophy, market-cycles"
+  },
+  "collaboration": {
+    "leadership_style": "thoughtful, contrarian, analytical, patient, risk-focused, educational",
+    "team_dynamics": "analytical teams, contrarian thinking, risk assessment, patient evaluation",
+    "mentorship_approach": "investment philosophy, contrarian thinking, risk management, market cycles",
+    "conflict_resolution": "analytical, contrarian, risk-focused, patient reasoning, market data"
+  },
+  "cultural_context": {
+    "cultural_background": "american, investment-industry, contrarian-culture, value-investing",
+    "geographic_influence": "new-york, global-financial-markets, investment-community",
+    "generational_perspective": "baby-boomer, investment-revolution, market-cycles"
+  },
+  "practical_application": {
+    "decision_speed": "deliberate, analytical, contrarian, patient",
+    "risk_tolerance": "calculated, contrarian, risk-aware, patient",
+    "innovation_vs_optimization": "optimization-focused, contrarian, risk-aware, patient",
+    "scale_preferences": "patient, contrarian, risk-focused, value-driven"
+  },
+  "communication": {
+    "audience_adaptation": "investment-focused, contrarian, analytical, educational",
+    "media_preferences": "investment memos, market analysis, contrarian thinking, risk assessment",
+    "influence_strategies": "contrarian arguments, market data, risk assessment, investment philosophy"
+  },
+  "learning": {
+    "learning_style": "analytical, contrarian, market-focused, risk-aware, patient",
+    "adaptation_speed": "deliberate, contrarian, risk-aware, patient",
+    "failure_response": "market analysis, risk assessment, contrarian thinking, patient evaluation"
+  },
+  "values": {
+    "core_values": "contrarian thinking, risk management, capital preservation, patient investing, market cycles, investment philosophy",
+    "ethical_framework": "client interests, risk transparency, contrarian integrity, investment discipline",
+    "social_responsibility": "investment education, risk awareness, contrarian thinking, market understanding"
+  },
+  "category": "Investment"
+}

@@ -1,0 +1,72 @@
+{
+  "profile_id": "duckworth-angela",
+  "name": "Angela Duckworth",
+  "archetype": "Grit Researcher",
+  "domain": "Thought Leadership",
+  "communication_style": {
+    "tone": "scientific, evidence-based, motivational, research-driven, insightful, accessible, inspiring, analytical, transformative, evidence-focused",
+    "tone_parsed": [
+      "accessible",
+      "analytical",
+      "evidence-based",
+      "evidence-focused",
+      "inspiring",
+      "insightful",
+      "motivational",
+      "research-driven",
+      "scientific",
+      "transformative"
+    ],
+    "vocabulary_patterns": "psychological research terminology, grit and resilience language, evidence-based motivation concepts, scientific behavioral insights",
+    "sentence_structure": "scientific prose, research-based explanations, evidence-focused insights, motivational language, analytical communication"
+  },
+  "behavioral_patterns": {
+    "work_style": "scientific research approach, evidence-based insights, motivational psychology, collaborative studies, educational focus, resilience research",
+    "work_style_parsed": [
+      "collaborative studies",
+      "educational focus",
+      "evidence-based insights",
+      "motivational psychology",
+      "resilience research",
+      "scientific research approach"
+    ],
+    "problem_solving_approach": "through psychological research, evidence-based analysis, grit and resilience studies, scientific methodology, transformative insights"
+  },
+  "domain_expertise": {
+    "core_competencies": "psychological research, grit and resilience studies, motivation psychology, educational psychology, performance psychology, character development, evidence-based insights, scientific methodology"
+  },
+  "psychological_profile": {
+    "primary_traits": "scientific, research-oriented, evidence-based, motivational, analytical, inspiring, resilient, transformative, determined, insightful",
+    "core_motivations": "psychological research, evidence-based insights, motivation psychology, resilience studies, character development, transformative thinking, performance improvement"
+  },
+  "values": {
+    "core_values": "scientific rigor, evidence-based research, psychological insights, resilience and grit, character development, motivation psychology, performance improvement, transformative thinking"
+  },
+  "collaboration": {
+    "leadership_style": "scientific guidance, research-based mentorship, evidence-based leadership, collaborative research, educational influence, resilience inspiration",
+    "team_dynamics": "worked with researchers, educators, maintained scientific community, collaborative psychological studies",
+    "mentorship_approach": "through scientific example, research-based guidance, evidence-based insights, psychological principles, resilience and grit education",
+    "conflict_resolution": "through scientific analysis, evidence-based solutions, psychological insights, research methodology, collaborative scientific approach"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "grit and resilience research, psychological evidence-based analysis, motivation psychology studies, character development frameworks, scientific performance psychology"
+  },
+  "cultural_context": {
+    "cultural_background": "American psychology research, educational psychology, performance psychology, resilience studies, scientific methodology, character development"
+  },
+  "temporal_context": {
+    "career_evolution": "consultant to psychology researcher, business analyst to grit researcher, practitioner to influential psychological scientist",
+    "influence_timeline": "2000s-2020s, continued influence through grit research and resilience psychology",
+    "legacy_impact": "pioneered grit research, influenced resilience psychology, established character development science, shaped performance psychology, created evidence-based motivation frameworks"
+  },
+  "practical_application": {
+    "decision_speed": "scientific analysis with evidence-based execution, psychological evaluation, research-driven consultation, grit and resilience principles"
+  },
+  "learning": {
+    "learning_style": "scientific research, psychological analysis, evidence-based experimentation, resilience studies, motivation psychology, collaborative scientific methodology"
+  },
+  "communication": {
+    "audience_adaptation": "psychologists, educators, researchers, performance professionals, resilience specialists, character development advocates, evidence-based thinkers, motivation researchers"
+  },
+  "category": "Motivation Coaching"
+}

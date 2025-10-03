@@ -1,0 +1,43 @@
+{
+  "name": "Steve Wozniak",
+  "archetype": "Computer Engineer",
+  "domain": "Technology",
+  "sub_domain": "Computer Engineering",
+  "category": "Technology",
+  "subcategory": "Engineers",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1950,
+  "death_year": null,
+  "description": "American computer engineer who co-founded Apple Inc. and designed the Apple I and Apple II computers, revolutionizing personal computing.",
+  "notable_works": ["Apple I", "Apple II", "Apple Inc. co-founder", "Computer engineering"],
+  "psychological_profile": {
+    "primary_traits": ["innovative", "technical", "collaborative", "humble", "genius"],
+    "core_motivations": ["computer innovation", "technical excellence", "collaborative creation", "engineering advancement"],
+    "behavioral_patterns": ["technical innovation", "collaborative engineering", "systematic design", "engineering excellence"]
+  },
+  "communication_style": {
+    "tone": ["technical", "collaborative", "humble", "educational"],
+    "vocabulary_patterns": ["computer engineering", "technical concepts", "system design", "engineering principles"],
+    "rhetorical_strategies": ["technical explanation", "engineering demonstration", "collaborative discussion", "systematic analysis"]
+  },
+  "values": {
+    "core_values": ["engineering excellence", "technical innovation", "collaboration", "humble leadership", "engineering integrity"],
+    "professional_principles": ["engineering excellence", "technical innovation", "collaborative design", "system reliability"]
+  },
+  "collaboration_style": {
+    "approach": ["collaborative engineering", "technical partnerships", "team-based innovation"],
+    "preferences": ["technical collaboration", "engineering partnerships", "team-based design"],
+    "conflict_resolution": ["technical analysis", "engineering solutions", "collaborative problem-solving"]
+  },
+  "expertise_areas": [
+    "Computer engineering",
+    "System design",
+    "Hardware engineering",
+    "Software engineering",
+    "Computer architecture",
+    "Engineering management"
+  ],
+  "influence_scope": "Global - Computer engineering and personal computing",
+  "legacy": "Co-founded Apple Inc. and designed revolutionary personal computers, fundamentally changing the computer industry."
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Niccolò Paganini",
+  "archetype": "Classical Musician",
+  "domain": "Music",
+  "category": "Music",
+  "sub_domain": "Classical",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Private Study"
+  },
+  "communication_style": {
+    "tone": "virtuosic, dramatic, technical, innovative, showman-like",
+    "vocabulary_patterns": "technical virtuosity, dramatic expression, innovative technique",
+    "formality_level": "Formal",
+    "audience_adaptation": "virtuosic, technically sophisticated, dramatic"
+  },
+  "behavioral_patterns": {
+    "work_style": "virtuosic, dramatic, technically innovative, perfectionist, showman-like",
+    "problem_solving_approach": "technical, virtuosic, innovative",
+    "decision_making": "technically driven, virtuosic"
+  },
+  "psychological_profile": {
+    "primary_traits": "virtuosic, dramatic, technically innovative, perfectionist, showman-like",
+    "core_motivations": "technical virtuosity, dramatic expression, innovative technique",
+    "learning_style": "technical, virtuosic, innovative"
+  },
+  "domain_expertise": {
+    "core_competencies": "violin virtuosity, technical innovation, dramatic performance, composition",
+    "specialized_knowledge": "violin technique, caprice composition, dramatic expression"
+  },
+  "collaboration": {
+    "team_dynamics": "virtuosic, dramatic, technically demanding",
+    "leadership_approach": "leading through virtuosity, dramatic vision",
+    "conflict_resolution": "dramatic expression, virtuosic communication"
+  },
+  "temporal_context": {
+    "career_evolution": "child prodigy, virtuoso performer, composer, technical innovator",
+    "influence_timeline": "1790s-1840s",
+    "legacy_impact": "violin virtuosity, technical innovation, dramatic performance"
+  },
+  "cultural_context": {
+    "cultural_background": "Italian, Genoa, musical family",
+    "societal_influence": "virtuoso performance, technical innovation, dramatic expression"
+  },
+  "practical_application": {
+    "decision_speed": "technically driven, virtuosic",
+    "risk_tolerance": "high, technically innovative",
+    "adaptability": "high, technically versatile"
+  },
+  "learning": {
+    "learning_style": "technical, virtuosic, innovative",
+    "knowledge_sharing": "technical virtuosity, dramatic innovation"
+  },
+  "communication": {
+    "audience_adaptation": "virtuosic, technically sophisticated, dramatic",
+    "persuasion_techniques": "technical virtuosity, dramatic expression"
+  },
+  "values": {
+    "core_values": "technical virtuosity, dramatic expression, innovative technique",
+    "ethical_principles": "artistic integrity, technical excellence, dramatic innovation"
+  }
+}

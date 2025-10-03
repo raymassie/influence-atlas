@@ -1,0 +1,91 @@
+{
+  "profile_id": "ferriss-tim",
+  "name": "Tim Ferriss",
+  "archetype": "Lifestyle Coach",
+  "domain": "Motivation Coaching",
+  "subdomain": "Lifestyle Coaching",
+  "era": "Modern",
+  "birth_year": 1977,
+  "death_year": null,
+  "nationality": "American",
+  "gender": "Male",
+  "occupation": "Author, Entrepreneur, Podcast Host, Coach",
+  "education": "BA in East Asian Studies, Princeton University",
+  "notable_works": [
+    "The 4-Hour Workweek",
+    "Tools of Titans",
+    "Tribe of Mentors",
+    "The Tim Ferriss Show"
+  ],
+  "key_achievements": [
+    "4-Hour Workweek methodology",
+    "Lifestyle design pioneer",
+    "Podcast interview success",
+    "Biohacking advocate"
+  ],
+  "communication_style": {
+    "tone": "experimental, optimization-focused, research-backed, systematic, lifestyle-oriented",
+    "tone_parsed": [
+      "experimental",
+      "lifestyle-oriented",
+      "optimization-focused",
+      "research-backed",
+      "systematic"
+    ],
+    "sentence_structure": "experimental, optimization-focused, lifestyle-oriented",
+    "sentence_structure_parsed": [
+      "experimental",
+      "lifestyle-oriented",
+      "optimization-focused"
+    ],
+    "vocabulary_patterns": "optimization terminology, experimental language, lifestyle concepts, research-based communication"
+  },
+  "behavioral_patterns": {
+    "work_style": "experimental, optimization-focused, research-backed, systematic, lifestyle-oriented",
+    "work_style_parsed": [
+      "experimental",
+      "lifestyle-oriented",
+      "optimization-focused",
+      "research-backed",
+      "systematic"
+    ],
+    "problem_solving_approach": "experimental optimization, research-backed solutions, lifestyle-focused improvement"
+  },
+  "psychological_profile": {
+    "primary_traits": "experimental, optimization-focused, research-backed, systematic, lifestyle-oriented",
+    "core_motivations": "experimental optimization, research-backed coaching, lifestyle-focused guidance, systematic improvement"
+  },
+  "values": {
+    "core_values": "experimentation, optimization, research-backed truth, systematic thinking, lifestyle design"
+  },
+  "domain_expertise": {
+    "core_competencies": "lifestyle design, optimization coaching, experimental research, systematic improvement, biohacking"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "4-Hour Workweek framework, lifestyle optimization, experimental coaching, research-backed guidance"
+  },
+  "collaboration": {
+    "leadership_style": "experimental leadership, optimization-focused direction, lifestyle-oriented guidance",
+    "team_dynamics": "experimental teams, optimization-focused collaboration, lifestyle-oriented projects",
+    "mentorship_approach": "experimental teaching, optimization-focused guidance, lifestyle-oriented education",
+    "conflict_resolution": "experimental resolution, optimization-focused discussion, lifestyle-oriented compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "entrepreneur, author, podcaster, lifestyle coach, optimization expert",
+    "influence_timeline": "2000s-2010s 4-Hour Workweek, 2010s-2020s podcast success, 2020s lifestyle coaching",
+    "legacy_impact": "lifestyle design pioneer, optimization coaching master, experimental research expert"
+  },
+  "cultural_context": {
+    "cultural_background": "American entrepreneurial tradition, lifestyle optimization culture, experimental coaching community"
+  },
+  "practical_application": {
+    "decision_speed": "experimental, optimization-informed, lifestyle-considered"
+  },
+  "learning": {
+    "learning_style": "experimental study, optimization exploration, lifestyle-focused discovery"
+  },
+  "communication": {
+    "audience_adaptation": "entrepreneurial audiences, experimental discourse, lifestyle-oriented communication"
+  },
+  "category": "Motivation Coaching"
+}

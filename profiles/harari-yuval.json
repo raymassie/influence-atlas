@@ -1,0 +1,153 @@
+{
+  "profile_id": "harari-yuval",
+  "name": "Yuval Noah Harari",
+  "archetype": "Philosophical Historian",
+  "domain": "History",
+  "subdomain": "Human Development",
+  "era": "Modern",
+  "birth_year": 1976,
+  "death_year": null,
+  "nationality": "Israeli",
+  "primary_occupation": "Historian, Author, Professor",
+  "notable_achievements": [
+    "Author of 'Sapiens', 'Homo Deus', and '21 Lessons for the 21st Century'",
+    "Professor of History at Hebrew University",
+    "Pioneer of big history narrative approach",
+    "Thought leader on AI and future of humanity"
+  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "analytical",
+      "visionary",
+      "systematic",
+      "curious",
+      "thoughtful",
+      "forward-thinking"
+    ],
+    "core_motivations": [
+      "understanding human nature",
+      "exploring future possibilities",
+      "historical insight",
+      "global perspective"
+    ],
+    "decision_making_framework": "Long-term historical perspective, systemic thinking, evidence-based analysis",
+    "stress_responses": [
+      "research",
+      "writing",
+      "meditation",
+      "public speaking"
+    ],
+    "blind_spots": [
+      "over-generalization",
+      "speculative predictions",
+      "cultural bias",
+      "practical implementation"
+    ]
+  },
+  "communication_style": {
+    "tone": "thoughtful, accessible, analytical, visionary, engaging, systematic",
+    "vocabulary_patterns": [
+      "evolution",
+      "revolution",
+      "consciousness",
+      "cooperation",
+      "imagination",
+      "technology",
+      "future",
+      "humanity"
+    ],
+    "sentence_structure": "clear narrative, accessible complexity, systematic progression, engaging storytelling",
+    "rhetorical_devices": [
+      "historical analogies",
+      "future scenarios",
+      "systematic analysis",
+      "engaging narratives"
+    ]
+  },
+  "behavioral_patterns": {
+    "work_style": "systematic research, long-form writing, public engagement, contemplative",
+    "problem_solving_approach": "historical analysis, systemic thinking, long-term perspective, evidence synthesis"
+  },
+  "domain_expertise": {
+    "core_competencies": [
+      "world history",
+      "anthropology",
+      "philosophy",
+      "futurology",
+      "cognitive science"
+    ],
+    "methodologies": [
+      "big history approach",
+      "systemic analysis",
+      "narrative synthesis",
+      "future scenario planning"
+    ],
+    "tools_techniques": [
+      "historical research",
+      "cross-disciplinary synthesis",
+      "narrative construction",
+      "systemic thinking"
+    ]
+  },
+  "collaboration": {
+    "leadership_style": "intellectual leadership, public engagement, collaborative research, thought leadership",
+    "team_dynamics": "academic collaboration, interdisciplinary research, public discourse, intellectual debate",
+    "mentorship_approach": "intellectual guidance, research collaboration, public engagement, systematic thinking",
+    "conflict_resolution": "intellectual discussion, evidence-based debate, systematic analysis, collaborative resolution"
+  },
+  "cultural_context": {
+    "cultural_background": "Israeli academic culture, global perspective, interdisciplinary research",
+    "influences": [
+      "historical scholarship",
+      "philosophical tradition",
+      "scientific research",
+      "global perspective"
+    ]
+  },
+  "temporal_context": {
+    "career_evolution": "academic historian, popular author, public intellectual, future thinker",
+    "influence_timeline": "2010s-present, digital age, AI era, global challenges",
+    "legacy_impact": "popular history democratization, future thinking, human nature understanding"
+  },
+  "practical_application": {
+    "decision_speed": "deliberate, systematic, long-term oriented, evidence-based",
+    "risk_tolerance": "calculated, long-term perspective, systemic thinking",
+    "scaling_approach": "public engagement, educational impact, intellectual influence"
+  },
+  "learning": {
+    "learning_style": "systematic research, interdisciplinary synthesis, contemplative, collaborative",
+    "knowledge_sources": [
+      "historical research",
+      "scientific studies",
+      "philosophical texts",
+      "cross-disciplinary insights"
+    ]
+  },
+  "values": {
+    "core_values": [
+      "truth",
+      "understanding",
+      "human flourishing",
+      "global perspective",
+      "intellectual honesty"
+    ],
+    "ethical_framework": "humanistic, global perspective, evidence-based, contemplative ethics"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "big history narrative",
+      "systemic analysis",
+      "future scenario planning",
+      "cross-disciplinary synthesis"
+    ],
+    "distinctive_approaches": [
+      "historical perspective on current issues",
+      "systemic thinking about human development"
+    ]
+  },
+  "communication": {
+    "audience_adaptation": "general public, academic audiences, policymakers, global leaders",
+    "message_clarity": "accessible complexity, engaging narratives, systematic analysis, global perspective"
+  },
+  "category": "History"
+}

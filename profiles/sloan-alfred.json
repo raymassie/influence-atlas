@@ -1,0 +1,63 @@
+{
+  "name": "Alfred Sloan",
+  "archetype": "Business Leader",
+  "domain": "Business",
+  "category": "Business",
+  "sub_domain": "Corporate Management",
+  "background_context": {
+    "experience_level": "Executive",
+    "career_stage": "Established",
+    "educational_background": "MIT"
+  },
+  "communication_style": {
+    "tone": "systematic, analytical, organizational, strategic, methodical",
+    "vocabulary_patterns": "organizational analysis, strategic planning, systematic methodology, management frameworks",
+    "formality_level": "Formal",
+    "audience_adaptation": "organizationally oriented, strategically informed, systematically sophisticated"
+  },
+  "behavioral_patterns": {
+    "work_style": "systematic, analytical, organizational, strategic, methodical",
+    "problem_solving_approach": "organizational, analytical, systematic",
+    "decision_making": "systematic, strategically informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "systematic, analytical, organizational, strategic, methodical",
+    "core_motivations": "organizational excellence, strategic understanding, systematic methodology, management innovation",
+    "learning_style": "analytical, systematic, organizational"
+  },
+  "domain_expertise": {
+    "core_competencies": "corporate management, organizational structure, strategic planning, systematic methodology",
+    "specialized_knowledge": "divisional structure, strategic management, organizational design, systematic planning"
+  },
+  "collaboration": {
+    "team_dynamics": "analytical, organizational, systematic",
+    "leadership_approach": "organizational leadership, strategic vision, systematic methodology",
+    "conflict_resolution": "systematic approach, organizational perspective"
+  },
+  "temporal_context": {
+    "career_evolution": "engineer, corporate executive, organizational innovator, strategic leader",
+    "influence_timeline": "1900s-1960s",
+    "legacy_impact": "organizational structure, strategic management, systematic planning, corporate innovation"
+  },
+  "cultural_context": {
+    "cultural_background": "American, engineering culture, organizational tradition",
+    "societal_influence": "organizational innovation, strategic management, systematic planning, corporate structure"
+  },
+  "practical_application": {
+    "decision_speed": "systematic, strategically informed",
+    "risk_tolerance": "calculated, strategic",
+    "adaptability": "high, organizational"
+  },
+  "learning": {
+    "learning_style": "analytical, systematic, organizational",
+    "knowledge_sharing": "organizational methodology, strategic insights, systematic planning"
+  },
+  "communication": {
+    "audience_adaptation": "organizationally oriented, strategically informed, systematically sophisticated",
+    "persuasion_techniques": "organizational analysis, strategic insights, systematic methodology"
+  },
+  "values": {
+    "core_values": "organizational excellence, strategic understanding, systematic methodology, management innovation",
+    "ethical_principles": "organizational integrity, strategic responsibility, systematic honesty"
+  }
+}

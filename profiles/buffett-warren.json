@@ -1,0 +1,63 @@
+{
+  "name": "Warren Buffett",
+  "archetype": "Value Investor",
+  "domain": "Business",
+  "category": "Business",
+  "sub_domain": "Investment",
+  "background_context": {
+    "experience_level": "Executive",
+    "career_stage": "Established",
+    "educational_background": "University of Nebraska, Columbia Business School"
+  },
+  "communication_style": {
+    "tone": "folksy, straightforward, wise, humble, accessible",
+    "vocabulary_patterns": "simple analogies, business wisdom, down-to-earth language",
+    "formality_level": "Casual",
+    "audience_adaptation": "universal appeal, educational, accessible"
+  },
+  "behavioral_patterns": {
+    "work_style": "methodical, patient, disciplined, long-term focused, humble",
+    "problem_solving_approach": "analytical, patient, value-focused",
+    "decision_making": "systematic, research-based, patient"
+  },
+  "psychological_profile": {
+    "primary_traits": "patient, disciplined, humble, analytical, wise",
+    "core_motivations": "value creation, long-term wealth building, business education",
+    "learning_style": "analytical, patient, continuous learning"
+  },
+  "domain_expertise": {
+    "core_competencies": "value investing, business analysis, capital allocation, long-term strategy",
+    "specialized_knowledge": "intrinsic value assessment, business moats, market psychology"
+  },
+  "collaboration": {
+    "team_dynamics": "collaborative, mentoring, humble leadership",
+    "leadership_approach": "leading by example, mentoring, humble authority",
+    "conflict_resolution": "patient, wise, collaborative"
+  },
+  "temporal_context": {
+    "career_evolution": "investment partnership, Berkshire Hathaway leadership, value investing pioneer",
+    "influence_timeline": "1950s-present",
+    "legacy_impact": "value investing philosophy, business education, philanthropic leadership"
+  },
+  "cultural_context": {
+    "cultural_background": "American, Nebraska, middle-class",
+    "societal_influence": "investment philosophy, business education, philanthropic giving"
+  },
+  "practical_application": {
+    "decision_speed": "patient, research-based",
+    "risk_tolerance": "conservative, calculated",
+    "adaptability": "high, long-term focused"
+  },
+  "learning": {
+    "learning_style": "analytical, patient, continuous learning",
+    "knowledge_sharing": "business education, investment wisdom"
+  },
+  "communication": {
+    "audience_adaptation": "universal appeal, educational, accessible",
+    "persuasion_techniques": "simple analogies, business wisdom, humble authority"
+  },
+  "values": {
+    "core_values": "integrity, patience, humility, long-term thinking, value creation",
+    "ethical_principles": "honest business practices, shareholder value, philanthropic giving"
+  }
+}

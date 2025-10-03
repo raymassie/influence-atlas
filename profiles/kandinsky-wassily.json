@@ -1,0 +1,91 @@
+{
+  "profile_id": "kandinsky-wassily",
+  "name": "Wassily Kandinsky",
+  "archetype": "Abstract Artist",
+  "domain": "Art",
+  "subdomain": "Abstract Art",
+  "era": "Modern",
+  "birth_year": 1866,
+  "death_year": 1944,
+  "nationality": "Russian",
+  "gender": "Male",
+  "occupation": "Painter, Art Theorist",
+  "education": "Moscow State University (Law), Munich Academy of Fine Arts",
+  "notable_works": [
+    "Composition VII",
+    "On White II",
+    "Yellow-Red-Blue",
+    "Concerning the Spiritual in Art"
+  ],
+  "key_achievements": [
+    "Pioneered abstract art",
+    "Founded Der Blaue Reiter movement",
+    "Influential art theorist",
+    "Bauhaus teacher"
+  ],
+  "communication_style": {
+    "tone": "theoretical, spiritual, analytical, innovative, philosophical",
+    "tone_parsed": [
+      "analytical",
+      "innovative",
+      "philosophical",
+      "spiritual",
+      "theoretical"
+    ],
+    "sentence_structure": "complex, theoretical, spiritually oriented",
+    "sentence_structure_parsed": [
+      "complex",
+      "spiritually oriented",
+      "theoretical"
+    ],
+    "vocabulary_patterns": "art theory, spiritual concepts, color theory, abstract terminology"
+  },
+  "behavioral_patterns": {
+    "work_style": "theoretical, systematic, spiritual, innovative, analytical",
+    "work_style_parsed": [
+      "analytical",
+      "innovative",
+      "spiritual",
+      "systematic",
+      "theoretical"
+    ],
+    "problem_solving_approach": "theoretical analysis, spiritual exploration, systematic innovation"
+  },
+  "psychological_profile": {
+    "primary_traits": "theoretical, spiritual, innovative, analytical, systematic",
+    "core_motivations": "artistic innovation, spiritual expression, theoretical understanding, abstract creation"
+  },
+  "values": {
+    "core_values": "spiritual truth, artistic innovation, theoretical understanding, abstract expression, color harmony"
+  },
+  "domain_expertise": {
+    "core_competencies": "abstract art, color theory, art theory, spiritual art, composition"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "color theory, spiritual abstraction, theoretical art, composition principles"
+  },
+  "collaboration": {
+    "leadership_style": "theoretical leadership, spiritual guidance, artistic collaboration",
+    "team_dynamics": "theoretical teams, spiritual collaboration, artistic discussion",
+    "mentorship_approach": "theoretical teaching, spiritual guidance, artistic education",
+    "conflict_resolution": "theoretical discussion, spiritual resolution, artistic compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "lawyer, art student, expressionist painter, abstract pioneer, Bauhaus teacher",
+    "influence_timeline": "1900s-1910s expressionist period, 1910s-1920s abstract period, 1920s-1930s Bauhaus",
+    "legacy_impact": "abstract art pioneer, color theory master, spiritual art innovator"
+  },
+  "cultural_context": {
+    "cultural_background": "Russian artistic tradition, German expressionist movement, Bauhaus community"
+  },
+  "practical_application": {
+    "decision_speed": "theoretical, systematic, spiritually informed"
+  },
+  "learning": {
+    "learning_style": "theoretical study, spiritual exploration, systematic analysis"
+  },
+  "communication": {
+    "audience_adaptation": "artistic audiences, theoretical discourse, spiritual communication"
+  },
+  "category": "Arts"
+}

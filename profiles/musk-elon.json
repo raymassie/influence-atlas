@@ -1,0 +1,43 @@
+{
+  "name": "Elon Musk",
+  "archetype": "Technology Entrepreneur",
+  "domain": "Technology",
+  "sub_domain": "Space Technology",
+  "category": "Technology",
+  "subcategory": "Entrepreneurs",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1971,
+  "death_year": null,
+  "description": "American technology entrepreneur who founded SpaceX, Tesla, and other companies, revolutionizing space exploration, electric vehicles, and sustainable energy.",
+  "notable_works": ["SpaceX", "Tesla", "Neuralink", "The Boring Company"],
+  "psychological_profile": {
+    "primary_traits": ["visionary", "innovative", "ambitious", "disruptive", "futuristic"],
+    "core_motivations": ["space exploration", "sustainable energy", "technology innovation", "Mars colonization"],
+    "behavioral_patterns": ["technology disruption", "space innovation", "sustainable energy", "futuristic vision"]
+  },
+  "communication_style": {
+    "tone": ["visionary", "innovative", "ambitious", "disruptive"],
+    "vocabulary_patterns": ["technology concepts", "space terminology", "sustainable energy", "innovation language"],
+    "rhetorical_strategies": ["technology vision", "space advocacy", "sustainable energy", "innovation disruption"]
+  },
+  "values": {
+    "core_values": ["space exploration", "sustainable energy", "technology innovation", "Mars colonization", "disruptive innovation"],
+    "professional_principles": ["technology disruption", "space innovation", "sustainable energy", "futuristic vision"]
+  },
+  "collaboration_style": {
+    "approach": ["technology partnerships", "space collaborations", "energy alliances"],
+    "preferences": ["technology development", "space exploration", "sustainable energy"],
+    "conflict_resolution": ["technology solutions", "space innovation", "sustainable energy"]
+  },
+  "expertise_areas": [
+    "Space technology",
+    "Electric vehicles",
+    "Sustainable energy",
+    "Artificial intelligence",
+    "Neural interfaces",
+    "Tunnel construction"
+  ],
+  "influence_scope": "Global - Space technology and sustainable energy",
+  "legacy": "Revolutionized space exploration with SpaceX, electric vehicles with Tesla, and advanced sustainable energy and AI technologies."
+}

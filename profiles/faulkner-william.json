@@ -1,0 +1,43 @@
+{
+  "name": "William Faulkner",
+  "archetype": "Novelist",
+  "domain": "Writing",
+  "sub_domain": "Literature",
+  "category": "Writers",
+  "subcategory": "Novelists",
+  "era": "Modern",
+  "nationality": "American",
+  "birth_year": 1897,
+  "death_year": 1962,
+  "description": "American novelist who won the Nobel Prize in Literature and was known for his experimental narrative techniques and exploration of the American South.",
+  "notable_works": ["The Sound and the Fury", "As I Lay Dying", "Light in August", "Absalom, Absalom!"],
+  "psychological_profile": {
+    "primary_traits": ["experimental", "complex", "introspective", "innovative", "southern"],
+    "core_motivations": ["literary innovation", "narrative experimentation", "southern exploration", "psychological depth"],
+    "behavioral_patterns": ["narrative experimentation", "literary innovation", "southern exploration", "psychological analysis"]
+  },
+  "communication_style": {
+    "tone": ["experimental", "complex", "introspective", "innovative"],
+    "vocabulary_patterns": ["literary concepts", "narrative terminology", "psychological language", "experimental expression"],
+    "rhetorical_strategies": ["narrative experimentation", "literary innovation", "psychological analysis", "southern exploration"]
+  },
+  "values": {
+    "core_values": ["literary innovation", "narrative experimentation", "psychological depth", "southern exploration", "artistic excellence"],
+    "professional_principles": ["narrative experimentation", "literary innovation", "southern exploration", "psychological analysis"]
+  },
+  "collaboration_style": {
+    "approach": ["literary partnerships", "experimental collaborations", "artistic alliances"],
+    "preferences": ["narrative experimentation", "literary innovation", "southern exploration"],
+    "conflict_resolution": ["literary analysis", "narrative experimentation", "psychological reasoning"]
+  },
+  "expertise_areas": [
+    "Novel writing",
+    "Narrative experimentation",
+    "Literary innovation",
+    "Southern literature",
+    "Psychological fiction",
+    "Modernist literature"
+  ],
+  "influence_scope": "Global - Literature and narrative technique",
+  "legacy": "Won the Nobel Prize in Literature and revolutionized American literature with experimental narrative techniques, becoming one of the most innovative and influential American novelists."
+}

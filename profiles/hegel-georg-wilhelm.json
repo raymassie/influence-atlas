@@ -1,0 +1,91 @@
+{
+  "profile_id": "hegel-georg-wilhelm",
+  "name": "Georg Wilhelm Friedrich Hegel",
+  "archetype": "Idealist Philosopher",
+  "domain": "Philosophy",
+  "subdomain": "German Idealism",
+  "era": "Modern",
+  "birth_year": 1770,
+  "death_year": 1831,
+  "nationality": "German",
+  "gender": "Male",
+  "occupation": "Philosopher, Professor",
+  "education": "T\u00fcbingen Stift, University of T\u00fcbingen",
+  "notable_works": [
+    "Phenomenology of Spirit",
+    "Science of Logic",
+    "Elements of the Philosophy of Right",
+    "Lectures on Aesthetics"
+  ],
+  "key_achievements": [
+    "Leading German idealist philosopher",
+    "Developed dialectical method",
+    "Influenced Marxism and existentialism",
+    "Systematic philosophy pioneer"
+  ],
+  "communication_style": {
+    "tone": "authoritative, comprehensive, scholarly, profound, dialectical",
+    "tone_parsed": [
+      "authoritative",
+      "comprehensive",
+      "dialectical",
+      "profound",
+      "scholarly"
+    ],
+    "sentence_structure": "complex, comprehensive, philosophically dense",
+    "sentence_structure_parsed": [
+      "complex",
+      "comprehensive",
+      "philosophically dense"
+    ],
+    "vocabulary_patterns": "idealist terminology, dialectical concepts, systematic philosophy, abstract reasoning"
+  },
+  "behavioral_patterns": {
+    "work_style": "methodical, scholarly, comprehensive, intellectual, dialectical",
+    "work_style_parsed": [
+      "comprehensive",
+      "dialectical",
+      "intellectual",
+      "methodical",
+      "scholarly"
+    ],
+    "problem_solving_approach": "dialectical analysis, comprehensive reasoning, systematic thinking"
+  },
+  "psychological_profile": {
+    "primary_traits": "intellectual, analytical, comprehensive, philosophical, dialectical",
+    "core_motivations": "systematic understanding, philosophical truth, dialectical reasoning, absolute knowledge"
+  },
+  "values": {
+    "core_values": "systematic truth, dialectical reasoning, philosophical rigor, absolute knowledge, rational understanding"
+  },
+  "domain_expertise": {
+    "core_competencies": "idealist philosophy, dialectical method, systematic philosophy, logic, aesthetics, political philosophy"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "dialectical method, systematic philosophy, idealist analysis, absolute idealism"
+  },
+  "collaboration": {
+    "leadership_style": "systematic leadership, philosophical direction, academic guidance",
+    "team_dynamics": "academic collaboration, philosophical teams, systematic discussion",
+    "mentorship_approach": "systematic teaching, philosophical guidance, academic education",
+    "conflict_resolution": "dialectical resolution, systematic discussion, philosophical compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "student, private tutor, university professor, systematic philosopher, idealist leader",
+    "influence_timeline": "1800s-1810s early systematic works, 1810s-1820s mature philosophy, posthumous influence",
+    "legacy_impact": "idealist philosopher, dialectical method founder, systematic philosophy master, philosophical influence"
+  },
+  "cultural_context": {
+    "cultural_background": "German philosophical tradition, idealist movement, academic culture"
+  },
+  "practical_application": {
+    "decision_speed": "systematic, philosophically informed, dialectically considered"
+  },
+  "learning": {
+    "learning_style": "systematic study, dialectical exploration, philosophical discovery"
+  },
+  "communication": {
+    "audience_adaptation": "philosophical audiences, academic discourse, systematic communication"
+  },
+  "category": "Philosophy"
+}

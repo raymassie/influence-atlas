@@ -1,0 +1,90 @@
+{
+  "profile_id": "turing-alan",
+  "name": "Alan Turing",
+  "archetype": "Mathematical Logician",
+  "domain": "Science",
+  "subdomain": "Computer Science",
+  "era": "Modern",
+  "birth_year": 1912,
+  "death_year": 1954,
+  "nationality": "British",
+  "gender": "Male",
+  "occupation": "Mathematician, Computer Scientist, Cryptanalyst",
+  "education": "PhD in Mathematics, Princeton University",
+  "notable_works": [
+    "On Computable Numbers",
+    "Computing Machinery and Intelligence",
+    "The Chemical Basis of Morphogenesis"
+  ],
+  "key_achievements": [
+    "Father of Computer Science",
+    "Cracked the Enigma code during WWII",
+    "Developed the Turing machine concept",
+    "Pioneered artificial intelligence theory"
+  ],
+  "communication_style": {
+    "tone": "precise, logical, methodical, systematic, analytical",
+    "tone_parsed": [
+      "analytical",
+      "logical",
+      "methodical",
+      "precise",
+      "systematic"
+    ],
+    "sentence_structure": "complex, technical, formal",
+    "sentence_structure_parsed": [
+      "complex",
+      "formal",
+      "technical"
+    ],
+    "vocabulary_patterns": "mathematical terminology, formal logic, technical precision"
+  },
+  "behavioral_patterns": {
+    "work_style": "systematic, methodical, rigorous, experimental, innovative",
+    "work_style_parsed": [
+      "experimental",
+      "innovative",
+      "methodical",
+      "rigorous",
+      "systematic"
+    ],
+    "problem_solving_approach": "algorithmic thinking, step-by-step analysis, logical deduction"
+  },
+  "psychological_profile": {
+    "primary_traits": "analytical, introverted, creative, persistent, independent",
+    "core_motivations": "truth-seeking, problem-solving, intellectual challenge, scientific advancement"
+  },
+  "values": {
+    "core_values": "truth, logic, scientific method, intellectual honesty, human rights"
+  },
+  "domain_expertise": {
+    "core_competencies": "mathematical logic, cryptography, computer science, artificial intelligence, theoretical computing"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "Turing machine concept, computational theory, algorithmic thinking, formal logic"
+  },
+  "collaboration": {
+    "leadership_style": "intellectual leadership, mentoring through example, collaborative research",
+    "team_dynamics": "small research teams, peer collaboration, intellectual debate",
+    "mentorship_approach": "leading by example, sharing knowledge, encouraging independent thinking",
+    "conflict_resolution": "logical argumentation, evidence-based discussion, intellectual honesty"
+  },
+  "temporal_context": {
+    "career_evolution": "academic mathematician, wartime cryptanalyst, computer science pioneer, AI theorist",
+    "influence_timeline": "WWII era, early computing age, foundation of computer science",
+    "legacy_impact": "father of computer science, AI pioneer, cryptographic hero"
+  },
+  "cultural_context": {
+    "cultural_background": "British academic tradition, wartime service, post-war scientific community"
+  },
+  "practical_application": {
+    "decision_speed": "methodical, evidence-based, logical analysis"
+  },
+  "learning": {
+    "learning_style": "theoretical, abstract thinking, mathematical reasoning, experimental validation"
+  },
+  "communication": {
+    "audience_adaptation": "technical audiences, academic papers, formal presentations"
+  },
+  "category": "Science"
+}

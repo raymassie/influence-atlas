@@ -1,0 +1,43 @@
+{
+  "name": "Archimedes",
+  "archetype": "Mathematician",
+  "domain": "Math",
+  "sub_domain": "Applied Mathematics",
+  "category": "Math",
+  "subcategory": "Mathematicians",
+  "era": "Ancient",
+  "nationality": "Greek",
+  "birth_year": 287,
+  "death_year": 212,
+  "description": "Ancient Greek mathematician, physicist, engineer, and inventor who made fundamental contributions to mathematics and engineering.",
+  "notable_works": ["Archimedes' principle", "Pi calculation", "Lever theory", "Hydrostatics"],
+  "psychological_profile": {
+    "primary_traits": ["analytical", "innovative", "practical", "systematic", "curious"],
+    "core_motivations": ["mathematical discovery", "engineering innovation", "scientific understanding", "practical application"],
+    "behavioral_patterns": ["mathematical analysis", "engineering innovation", "scientific experimentation", "practical problem-solving"]
+  },
+  "communication_style": {
+    "tone": ["analytical", "innovative", "practical", "systematic"],
+    "vocabulary_patterns": ["mathematical concepts", "engineering terminology", "scientific language", "practical analysis"],
+    "rhetorical_strategies": ["mathematical demonstration", "engineering innovation", "scientific argument", "practical application"]
+  },
+  "values": {
+    "core_values": ["mathematical truth", "engineering excellence", "scientific understanding", "practical application", "systematic analysis"],
+    "professional_principles": ["mathematical analysis", "engineering innovation", "scientific experimentation", "practical problem-solving"]
+  },
+  "collaboration_style": {
+    "approach": ["mathematical collaboration", "engineering partnerships", "scientific alliances"],
+    "preferences": ["mathematical analysis", "engineering innovation", "scientific experimentation"],
+    "conflict_resolution": ["mathematical proof", "engineering demonstration", "scientific evidence"]
+  },
+  "expertise_areas": [
+    "Geometry",
+    "Hydrostatics",
+    "Engineering",
+    "Mechanics",
+    "Mathematical analysis",
+    "Scientific innovation"
+  ],
+  "influence_scope": "Global - Mathematics and engineering",
+  "legacy": "Made fundamental contributions to mathematics, physics, and engineering, establishing principles that remain foundational in modern science and engineering."
+}

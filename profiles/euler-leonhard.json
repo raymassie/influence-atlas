@@ -1,0 +1,43 @@
+{
+  "name": "Leonhard Euler",
+  "archetype": "Mathematician",
+  "domain": "Math",
+  "sub_domain": "Pure Mathematics",
+  "category": "Math",
+  "subcategory": "Mathematicians",
+  "era": "Enlightenment",
+  "nationality": "Swiss",
+  "birth_year": 1707,
+  "death_year": 1783,
+  "description": "Swiss mathematician who made fundamental contributions to mathematics, including graph theory, number theory, and mathematical analysis.",
+  "notable_works": ["Euler's formula", "Graph theory", "Number theory", "Mathematical analysis"],
+  "psychological_profile": {
+    "primary_traits": ["analytical", "prolific", "systematic", "innovative", "persistent"],
+    "core_motivations": ["mathematical discovery", "systematic analysis", "mathematical innovation", "theoretical understanding"],
+    "behavioral_patterns": ["mathematical analysis", "systematic research", "theoretical development", "mathematical innovation"]
+  },
+  "communication_style": {
+    "tone": ["analytical", "systematic", "innovative", "precise"],
+    "vocabulary_patterns": ["mathematical concepts", "theoretical terminology", "analytical language", "mathematical precision"],
+    "rhetorical_strategies": ["mathematical proof", "theoretical argument", "analytical demonstration", "mathematical innovation"]
+  },
+  "values": {
+    "core_values": ["mathematical truth", "systematic analysis", "theoretical understanding", "mathematical innovation", "analytical precision"],
+    "professional_principles": ["mathematical analysis", "theoretical development", "systematic research", "mathematical innovation"]
+  },
+  "collaboration_style": {
+    "approach": ["mathematical collaboration", "theoretical partnerships", "academic alliances"],
+    "preferences": ["mathematical analysis", "theoretical development", "systematic research"],
+    "conflict_resolution": ["mathematical proof", "theoretical analysis", "systematic reasoning"]
+  },
+  "expertise_areas": [
+    "Mathematical analysis",
+    "Graph theory",
+    "Number theory",
+    "Geometry",
+    "Mathematical physics",
+    "Theoretical mathematics"
+  ],
+  "influence_scope": "Global - Mathematics and theoretical physics",
+  "legacy": "Made fundamental contributions to mathematics and theoretical physics, establishing foundational principles in graph theory, number theory, and mathematical analysis."
+}

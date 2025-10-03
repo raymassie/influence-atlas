@@ -1,0 +1,43 @@
+{
+  "name": "Hippocrates",
+  "archetype": "Physician",
+  "domain": "Medicine",
+  "sub_domain": "Clinical Medicine",
+  "category": "Medicine",
+  "subcategory": "Physicians",
+  "era": "Ancient",
+  "nationality": "Greek",
+  "birth_year": 460,
+  "death_year": 370,
+  "description": "Ancient Greek physician who is considered the father of medicine and established the Hippocratic Oath and principles of medical ethics.",
+  "notable_works": ["Hippocratic Oath", "Medical ethics", "Clinical observation", "Medical diagnosis"],
+  "psychological_profile": {
+    "primary_traits": ["observant", "principled", "systematic", "influential", "ethical"],
+    "core_motivations": ["medical ethics", "clinical observation", "patient care", "medical knowledge"],
+    "behavioral_patterns": ["clinical observation", "medical ethics", "systematic diagnosis", "patient care"]
+  },
+  "communication_style": {
+    "tone": ["observant", "principled", "systematic", "ethical"],
+    "vocabulary_patterns": ["medical concepts", "clinical observation", "medical ethics", "patient care"],
+    "rhetorical_strategies": ["clinical demonstration", "medical ethics", "systematic diagnosis", "patient care"]
+  },
+  "values": {
+    "core_values": ["medical ethics", "patient care", "clinical observation", "medical knowledge", "systematic diagnosis"],
+    "professional_principles": ["medical ethics", "clinical observation", "patient care", "systematic diagnosis"]
+  },
+  "collaboration_style": {
+    "approach": ["medical collaboration", "clinical partnerships", "ethical practice"],
+    "preferences": ["clinical observation", "medical ethics", "patient care"],
+    "conflict_resolution": ["medical ethics", "clinical observation", "patient care"]
+  },
+  "expertise_areas": [
+    "Clinical medicine",
+    "Medical ethics",
+    "Patient care",
+    "Clinical observation",
+    "Medical diagnosis",
+    "Medical philosophy"
+  ],
+  "influence_scope": "Global - Medicine and medical ethics",
+  "legacy": "Established the foundation of medical ethics and clinical practice, influencing medicine and medical ethics for over two millennia."
+}

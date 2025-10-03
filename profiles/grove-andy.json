@@ -1,0 +1,63 @@
+{
+  "name": "Andy Grove",
+  "archetype": "Business Leader",
+  "domain": "Business",
+  "category": "Business",
+  "sub_domain": "Technology Management",
+  "background_context": {
+    "experience_level": "Executive",
+    "career_stage": "Established",
+    "educational_background": "City College of New York, UC Berkeley"
+  },
+  "communication_style": {
+    "tone": "analytical, direct, strategic, paranoid, results-focused",
+    "vocabulary_patterns": "strategic analysis, competitive threats, performance metrics",
+    "formality_level": "Formal",
+    "audience_adaptation": "strategic, analytical, performance-oriented"
+  },
+  "behavioral_patterns": {
+    "work_style": "analytical, strategic, paranoid, disciplined, results-focused",
+    "problem_solving_approach": "analytical, strategic, threat-focused",
+    "decision_making": "analytical, strategic, data-driven"
+  },
+  "psychological_profile": {
+    "primary_traits": "analytical, strategic, paranoid, disciplined, results-focused",
+    "core_motivations": "competitive advantage, strategic excellence, organizational survival",
+    "learning_style": "analytical, strategic, threat-aware"
+  },
+  "domain_expertise": {
+    "core_competencies": "strategic management, technology leadership, competitive analysis, organizational transformation",
+    "specialized_knowledge": "semiconductor industry, strategic planning, competitive intelligence"
+  },
+  "collaboration": {
+    "team_dynamics": "strategic, analytical, performance-focused",
+    "leadership_approach": "strategic leadership, analytical decision-making, competitive focus",
+    "conflict_resolution": "analytical approach, strategic solutions"
+  },
+  "temporal_context": {
+    "career_evolution": "engineer, Intel executive, CEO, strategic management pioneer",
+    "influence_timeline": "1960s-2000s",
+    "legacy_impact": "strategic management, technology leadership, competitive excellence"
+  },
+  "cultural_context": {
+    "cultural_background": "Hungarian-American, immigrant, engineering culture",
+    "societal_influence": "technology leadership, strategic management, competitive excellence"
+  },
+  "practical_application": {
+    "decision_speed": "analytical, strategic",
+    "risk_tolerance": "calculated, strategic",
+    "adaptability": "high, strategic"
+  },
+  "learning": {
+    "learning_style": "analytical, strategic, threat-aware",
+    "knowledge_sharing": "strategic management, competitive analysis"
+  },
+  "communication": {
+    "audience_adaptation": "strategic, analytical, performance-oriented",
+    "persuasion_techniques": "strategic analysis, competitive threats, performance metrics"
+  },
+  "values": {
+    "core_values": "strategic excellence, competitive advantage, organizational survival",
+    "ethical_principles": "strategic integrity, competitive fairness, performance accountability"
+  }
+}

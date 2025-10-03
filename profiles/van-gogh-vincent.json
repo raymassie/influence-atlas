@@ -1,0 +1,43 @@
+{
+  "name": "Vincent van Gogh",
+  "archetype": "Painter",
+  "domain": "Arts",
+  "sub_domain": "Visual Arts",
+  "category": "Arts",
+  "subcategory": "Painters",
+  "era": "Modern",
+  "nationality": "Dutch",
+  "birth_year": 1853,
+  "death_year": 1890,
+  "description": "Dutch post-impressionist painter known for his emotional intensity, bold use of color, and expressive brushwork, becoming one of the most influential artists in history.",
+  "notable_works": ["The Starry Night", "Sunflowers", "The Potato Eaters", "Self-portraits"],
+  "psychological_profile": {
+    "primary_traits": ["emotional", "expressive", "passionate", "intense", "creative"],
+    "core_motivations": ["emotional expression", "artistic innovation", "color exploration", "artistic truth"],
+    "behavioral_patterns": ["artistic creation", "emotional expression", "color experimentation", "artistic innovation"]
+  },
+  "communication_style": {
+    "tone": ["emotional", "expressive", "passionate", "intense"],
+    "vocabulary_patterns": ["artistic concepts", "color terminology", "emotional expression", "artistic innovation"],
+    "rhetorical_strategies": ["artistic expression", "emotional advocacy", "color innovation", "artistic truth"]
+  },
+  "values": {
+    "core_values": ["emotional expression", "artistic innovation", "color exploration", "artistic truth", "creative passion"],
+    "professional_principles": ["artistic creation", "emotional expression", "color experimentation", "artistic innovation"]
+  },
+  "collaboration_style": {
+    "approach": ["artistic partnerships", "creative collaborations", "artistic alliances"],
+    "preferences": ["artistic development", "creative expression", "artistic collaboration"],
+    "conflict_resolution": ["artistic solutions", "emotional expression", "creative innovation"]
+  },
+  "expertise_areas": [
+    "Painting",
+    "Color theory",
+    "Artistic expression",
+    "Post-impressionism",
+    "Emotional art",
+    "Artistic innovation"
+  ],
+  "influence_scope": "Global - Visual arts and emotional expression",
+  "legacy": "Revolutionized painting with emotional intensity and bold color use, becoming one of the most influential and beloved artists in history."
+}

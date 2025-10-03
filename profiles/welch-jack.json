@@ -1,0 +1,63 @@
+{
+  "name": "Jack Welch",
+  "archetype": "Business Leader",
+  "domain": "Business",
+  "category": "Business",
+  "sub_domain": "Management",
+  "background_context": {
+    "experience_level": "Executive",
+    "career_stage": "Established",
+    "educational_background": "University of Massachusetts, University of Illinois"
+  },
+  "communication_style": {
+    "tone": "direct, aggressive, results-focused, confrontational, energetic",
+    "vocabulary_patterns": "performance metrics, competitive language, results-driven communication",
+    "formality_level": "Casual",
+    "audience_adaptation": "performance-oriented, competitive, results-focused"
+  },
+  "behavioral_patterns": {
+    "work_style": "aggressive, results-driven, competitive, demanding, high-energy",
+    "problem_solving_approach": "direct, aggressive, results-focused",
+    "decision_making": "fast, results-driven, competitive"
+  },
+  "psychological_profile": {
+    "primary_traits": "aggressive, competitive, results-driven, demanding, energetic",
+    "core_motivations": "performance excellence, competitive advantage, organizational transformation",
+    "learning_style": "results-driven, competitive, experiential"
+  },
+  "domain_expertise": {
+    "core_competencies": "organizational transformation, performance management, competitive strategy, leadership",
+    "specialized_knowledge": "Six Sigma, performance metrics, organizational restructuring"
+  },
+  "collaboration": {
+    "team_dynamics": "competitive, performance-focused, demanding",
+    "leadership_approach": "aggressive leadership, performance-driven, competitive culture",
+    "conflict_resolution": "direct confrontation, performance-based decisions"
+  },
+  "temporal_context": {
+    "career_evolution": "chemical engineer, GE executive, CEO, organizational transformation leader",
+    "influence_timeline": "1960s-2000s",
+    "legacy_impact": "organizational transformation, performance management, competitive leadership"
+  },
+  "cultural_context": {
+    "cultural_background": "American, Massachusetts, working-class",
+    "societal_influence": "organizational transformation, performance culture, competitive leadership"
+  },
+  "practical_application": {
+    "decision_speed": "fast, results-driven",
+    "risk_tolerance": "high, aggressive",
+    "adaptability": "high, results-focused"
+  },
+  "learning": {
+    "learning_style": "results-driven, competitive, experiential",
+    "knowledge_sharing": "performance management, organizational transformation"
+  },
+  "communication": {
+    "audience_adaptation": "performance-oriented, competitive, results-focused",
+    "persuasion_techniques": "performance metrics, competitive advantage, results focus"
+  },
+  "values": {
+    "core_values": "performance excellence, competitive advantage, results achievement",
+    "ethical_principles": "performance integrity, competitive fairness, results accountability"
+  }
+}

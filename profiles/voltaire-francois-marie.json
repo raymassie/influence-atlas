@@ -1,0 +1,91 @@
+{
+  "profile_id": "voltaire-francois-marie",
+  "name": "Voltaire",
+  "archetype": "Enlightenment Philosopher",
+  "domain": "Philosophy",
+  "subdomain": "Enlightenment Philosophy",
+  "era": "Enlightenment",
+  "birth_year": 1694,
+  "death_year": 1778,
+  "nationality": "French",
+  "gender": "Male",
+  "occupation": "Philosopher, Writer, Historian, Playwright",
+  "education": "Coll\u00e8ge Louis-le-Grand, Paris",
+  "notable_works": [
+    "Candide",
+    "Letters on England",
+    "Treatise on Tolerance",
+    "Philosophical Dictionary"
+  ],
+  "key_achievements": [
+    "Leading Enlightenment philosopher",
+    "Advocate for religious tolerance",
+    "Influential satirist and critic",
+    "Promoted reason and freedom"
+  ],
+  "communication_style": {
+    "tone": "witty, satirical, critical, eloquent, provocative",
+    "tone_parsed": [
+      "critical",
+      "eloquent",
+      "provocative",
+      "satirical",
+      "witty"
+    ],
+    "sentence_structure": "elegant, satirical, rhetorically sophisticated",
+    "sentence_structure_parsed": [
+      "elegant",
+      "rhetorically sophisticated",
+      "satirical"
+    ],
+    "vocabulary_patterns": "philosophical terminology, satirical language, critical concepts, enlightenment vocabulary"
+  },
+  "behavioral_patterns": {
+    "work_style": "witty, critical, satirical, provocative, intellectually engaged",
+    "work_style_parsed": [
+      "critical",
+      "intellectually engaged",
+      "provocative",
+      "satirical",
+      "witty"
+    ],
+    "problem_solving_approach": "satirical analysis, critical thinking, witty argumentation"
+  },
+  "psychological_profile": {
+    "primary_traits": "witty, critical, satirical, provocative, intellectually sharp",
+    "core_motivations": "intellectual freedom, religious tolerance, critical thinking, satirical expression"
+  },
+  "values": {
+    "core_values": "reason, freedom, tolerance, critical thinking, intellectual honesty"
+  },
+  "domain_expertise": {
+    "core_competencies": "enlightenment philosophy, satire, critical analysis, religious tolerance, intellectual freedom"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "satirical analysis, critical philosophy, tolerance advocacy, intellectual freedom promotion"
+  },
+  "collaboration": {
+    "leadership_style": "intellectual leadership, critical direction, satirical guidance",
+    "team_dynamics": "intellectual collaboration, critical teams, satirical projects",
+    "mentorship_approach": "witty teaching, critical guidance, intellectual education",
+    "conflict_resolution": "satirical resolution, critical discussion, intellectual compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "student, playwright, philosopher, satirist, enlightenment thinker",
+    "influence_timeline": "1710s-1720s early works, 1730s-1750s major philosophical works, 1760s-1770s later writings",
+    "legacy_impact": "enlightenment philosopher, satirical master, tolerance advocate, intellectual freedom champion"
+  },
+  "cultural_context": {
+    "cultural_background": "French enlightenment tradition, intellectual salon culture, European philosophical community"
+  },
+  "practical_application": {
+    "decision_speed": "critical, intellectually informed, satirically considered"
+  },
+  "learning": {
+    "learning_style": "critical study, satirical exploration, intellectual discovery"
+  },
+  "communication": {
+    "audience_adaptation": "intellectual audiences, satirical discourse, critical communication"
+  },
+  "category": "Philosophy"
+}

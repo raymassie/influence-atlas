@@ -1,0 +1,63 @@
+{
+  "name": "Jean Piaget",
+  "archetype": "Developmental Psychologist",
+  "domain": "Psychology",
+  "category": "Psychology",
+  "sub_domain": "Cognitive Development",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "University of Neuchâtel"
+  },
+  "communication_style": {
+    "tone": "systematic, developmental, analytical, theoretical, comprehensive",
+    "vocabulary_patterns": "developmental stages, cognitive analysis, theoretical frameworks, systematic methodology",
+    "formality_level": "Formal",
+    "audience_adaptation": "developmentally oriented, theoretically informed, systematically sophisticated"
+  },
+  "behavioral_patterns": {
+    "work_style": "systematic, developmental, analytical, theoretical, comprehensive",
+    "problem_solving_approach": "developmental, analytical, theoretical",
+    "decision_making": "developmental, theoretically informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "systematic, developmental, analytical, theoretical, comprehensive",
+    "core_motivations": "developmental understanding, theoretical insight, analytical excellence, systematic approach",
+    "learning_style": "analytical, developmental, theoretical"
+  },
+  "domain_expertise": {
+    "core_competencies": "developmental psychology, cognitive analysis, theoretical frameworks, systematic methodology",
+    "specialized_knowledge": "cognitive development stages, constructivist theory, developmental methodology, theoretical innovation"
+  },
+  "collaboration": {
+    "team_dynamics": "analytical, developmental, theoretical",
+    "leadership_approach": "developmental leadership, analytical vision, theoretical innovation",
+    "conflict_resolution": "developmental approach, analytical perspective"
+  },
+  "temporal_context": {
+    "career_evolution": "psychologist, developmental researcher, theoretical innovator, systematic scholar",
+    "influence_timeline": "1920s-1980s",
+    "legacy_impact": "developmental psychology, cognitive theory, systematic methodology, theoretical innovation"
+  },
+  "cultural_context": {
+    "cultural_background": "Swiss, academic culture, developmental tradition",
+    "societal_influence": "developmental psychology, cognitive theory, systematic methodology, educational innovation"
+  },
+  "practical_application": {
+    "decision_speed": "developmental, theoretically informed",
+    "risk_tolerance": "moderate, theoretical",
+    "adaptability": "high, developmental"
+  },
+  "learning": {
+    "learning_style": "analytical, developmental, theoretical",
+    "knowledge_sharing": "developmental methodology, theoretical insights, systematic analysis"
+  },
+  "communication": {
+    "audience_adaptation": "developmentally oriented, theoretically informed, systematically sophisticated",
+    "persuasion_techniques": "developmental analysis, theoretical insights, systematic methodology"
+  },
+  "values": {
+    "core_values": "developmental understanding, theoretical innovation, analytical excellence, systematic approach",
+    "ethical_principles": "developmental integrity, theoretical responsibility, analytical honesty"
+  }
+}

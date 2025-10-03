@@ -1,0 +1,43 @@
+{
+  "name": "Zora Neale Hurston",
+  "archetype": "Novelist",
+  "domain": "Writing",
+  "sub_domain": "Literature",
+  "category": "Writers",
+  "subcategory": "Novelists",
+  "era": "Modern",
+  "nationality": "American",
+  "birth_year": 1891,
+  "death_year": 1960,
+  "description": "American novelist, anthropologist, and folklorist who was a leading figure in the Harlem Renaissance and wrote about African American culture.",
+  "notable_works": ["Their Eyes Were Watching God", "Mules and Men", "Dust Tracks on a Road", "Anthropological studies"],
+  "psychological_profile": {
+    "primary_traits": ["independent", "observant", "cultural", "resilient", "creative"],
+    "core_motivations": ["cultural preservation", "literary excellence", "anthropological understanding", "African American expression"],
+    "behavioral_patterns": ["cultural writing", "anthropological research", "literary excellence", "cultural preservation"]
+  },
+  "communication_style": {
+    "tone": ["independent", "observant", "cultural", "resilient"],
+    "vocabulary_patterns": ["cultural concepts", "anthropological terminology", "literary language", "African American expression"],
+    "rhetorical_strategies": ["cultural preservation", "anthropological research", "literary excellence", "cultural expression"]
+  },
+  "values": {
+    "core_values": ["cultural preservation", "literary excellence", "anthropological understanding", "African American expression", "independence"],
+    "professional_principles": ["cultural writing", "anthropological research", "literary excellence", "cultural preservation"]
+  },
+  "collaboration_style": {
+    "approach": ["cultural partnerships", "anthropological collaborations", "literary alliances"],
+    "preferences": ["cultural writing", "anthropological research", "literary excellence"],
+    "conflict_resolution": ["cultural analysis", "anthropological reasoning", "literary excellence"]
+  },
+  "expertise_areas": [
+    "Novel writing",
+    "Anthropology",
+    "Folklore",
+    "African American literature",
+    "Cultural preservation",
+    "Harlem Renaissance"
+  ],
+  "influence_scope": "Global - Literature and anthropology",
+  "legacy": "Was a leading figure in the Harlem Renaissance, writing powerful novels about African American culture while contributing significantly to anthropology and folklore studies."
+}

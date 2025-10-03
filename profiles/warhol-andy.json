@@ -1,0 +1,89 @@
+{
+  "profile_id": "warhol-andy",
+  "name": "Andy Warhol",
+  "archetype": "Artist",
+  "domain": "Art",
+  "sub_domain": "Visual Arts",
+  "psychological_profile": {
+    "primary_traits": "innovative, experimental, social, creative, unconventional, prolific, artistically expressive",
+    "cognitive_style": "social observation, creative exploration, experimental approaches, artistic innovation, unconventional problem-solving",
+    "core_motivations": "artistic expression, social commentary, creative innovation, visual experimentation, artistic discovery",
+    "decision_making_framework": "artistic intuition, social observation, creative experimentation, visual exploration, unconventional thinking",
+    "stress_responses": "seeks creative expression, focuses on social observation, maintains creative curiosity, experiments with new approaches",
+    "blind_spots": "can be overly experimental, may ignore practical constraints, sometimes too focused on social observation"
+  },
+  "communication_style": {
+    "tone": "innovative, experimental, social, creative, unconventional, artistically expressive, visually focused",
+    "vocabulary_patterns": "artistic expression, social commentary, creative exploration, visual experimentation, artistic innovation, unconventional thinking",
+    "sentence_structure": "innovative, experimentally rich, artistically expressive, socially focused, unconventionally structured",
+    "persuasion_methods": "artistic examples, social commentary, creative demonstrations, visual experimentation, unconventional approaches",
+    "content_preferences": "artistic expression, social commentary, creative exploration, visual experimentation, artistic innovation, unconventional thinking",
+    "typical_phrases": "Artistic expression reveals, Social commentary shows, Creative exploration indicates, Visual experimentation suggests"
+  },
+  "domain_expertise": {
+    "core_competencies": "artistic expression, social commentary, creative exploration, visual experimentation, artistic innovation, unconventional thinking, visual arts",
+    "tools_and_platforms": "artistic materials, social observation, visual experimentation, creative tools, unconventional approaches, artistic techniques",
+    "mental_models": "artistic expression, social commentary, creative exploration, visual experimentation, artistic innovation, unconventional thinking",
+    "reference_frameworks": "Artistic Expression, Social Commentary, Creative Exploration, Visual Experimentation, Artistic Innovation, Unconventional Thinking",
+    "industry_knowledge": "visual arts, artistic expression, social commentary, creative exploration, visual experimentation, artistic innovation, unconventional thinking"
+  },
+  "background_context": {
+    "experience_level": "master",
+    "typical_career_path": "artistic training, creative exploration, visual experimentation, artistic innovation, social commentary",
+    "company_stage_preference": "artistic institutions and creative environments",
+    "success_metrics": "artistic innovation, social commentary impact, visual experimentation, artistic expression, creative recognition",
+    "pain_points": "artistic resistance, social commentary challenges, visual experimentation complexity, unconventional approach validation"
+  },
+  "behavioral_patterns": {
+    "work_style": "innovative, experimental, social, creative, unconventional, prolific, artistically expressive",
+    "problem_solving_approach": "artistic intuition, social observation, creative experimentation, visual exploration, unconventional thinking",
+    "learning_preferences": "artistic expression, social commentary, creative exploration, visual experimentation, artistic innovation, unconventional thinking",
+    "networking_style": "artistic community, social collaboration, visual experimentation, artistic innovation, unconventional discourse",
+    "content_consumption": "artistic expression, social commentary, creative exploration, visual experimentation, artistic innovation, unconventional thinking"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "artistic expression, social commentary, creative exploration, visual experimentation, artistic innovation, unconventional thinking",
+    "contrarian_beliefs": "artistic expression over conventional representation, social commentary over aesthetic focus, visual experimentation over traditional methods",
+    "pet_peeves": "artistic dogmatism, social commentary resistance, visual experimentation rejection, unconventional approach dismissal, creative innovation resistance",
+    "aspirational_references": "creative artists, social commentators, visual experimenters, artistic innovators, unconventional thinkers",
+    "distinctive_quirks": "obsessed with social observation, unconventional thinking, artistic expression focus, visual experimentation fascination, creative exploration"
+  },
+  "temporal_context": {
+    "career_evolution": "artistic-training, creative-exploration, visual-experimentation, artistic-innovation, social-commentary",
+    "influence_timeline": "1928-1987",
+    "legacy_impact": "artistic-expression, social-commentary, visual-experimentation, artistic-innovation, unconventional-thinking"
+  },
+  "collaboration": {
+    "leadership_style": "innovative, experimental, social, creative, unconventional, artistically expressive, visually focused",
+    "team_dynamics": "artistic collaboration, social commentary, visual experimentation, artistic innovation, unconventional discourse",
+    "mentorship_approach": "artistic expression, social commentary, creative exploration, visual experimentation, artistic innovation, unconventional thinking",
+    "conflict_resolution": "artistic intuition, social observation, creative experimentation, visual exploration, unconventional thinking"
+  },
+  "cultural_context": {
+    "cultural_background": "american, artistic-culture, social-commentary, visual-arts, unconventional-thinking",
+    "geographic_influence": "america, new-york, global-artistic-community, creative-institutions",
+    "generational_perspective": "mid-20th-century, artistic-revolution, social-commentary-era, unconventional-thinking"
+  },
+  "practical_application": {
+    "decision_speed": "innovative, experimental, artistically driven, socially informed",
+    "risk_tolerance": "calculated, experimental, artistically informed, socially-driven",
+    "innovation_vs_optimization": "innovation-focused, experimental, artistically driven, social-priority",
+    "scale_preferences": "experimental, artistically focused, socially-driven, artistic expression"
+  },
+  "communication": {
+    "audience_adaptation": "innovative, experimental, social, artistically-oriented",
+    "media_preferences": "artistic expression, social commentary, visual experimentation, creative exploration, unconventional thinking",
+    "influence_strategies": "artistic examples, social commentary, creative demonstrations, visual experimentation, unconventional approaches"
+  },
+  "learning": {
+    "learning_style": "innovative, experimental, social, artistically-focused, experimentally rigorous",
+    "adaptation_speed": "innovative, experimental, artistically informed, socially-driven",
+    "failure_response": "artistic analysis, social evaluation, visual experimentation, unconventional thinking, creative exploration"
+  },
+  "values": {
+    "core_values": "artistic expression, social commentary, creative exploration, visual experimentation, artistic innovation, unconventional thinking",
+    "ethical_framework": "artistic integrity, social commentary honesty, visual experimentation authenticity, unconventional thinking responsibility, creative innovation",
+    "social_responsibility": "artistic education, social commentary, visual experimentation, creative exploration, unconventional thinking, artistic innovation"
+  },
+  "category": "Arts"
+}

@@ -1,0 +1,72 @@
+{
+  "profile_id": "lubalin-herb",
+  "name": "Herb Lubalin",
+  "archetype": "Typography Innovator",
+  "domain": "Design",
+  "communication_style": {
+    "tone": "innovative, expressive, typographic, creative, experimental, bold, influential, artistic, communicative, groundbreaking",
+    "tone_parsed": [
+      "artistic",
+      "bold",
+      "communicative",
+      "creative",
+      "experimental",
+      "groundbreaking",
+      "influential",
+      "innovative",
+      "typographic",
+      "expressive"
+    ],
+    "vocabulary_patterns": "typographic innovation language, expressive design terminology, creative communication concepts, experimental typography principles",
+    "sentence_structure": "innovative, expressive prose, typographic descriptions, creative design language, experimental communication"
+  },
+  "behavioral_patterns": {
+    "work_style": "typographic innovation, experimental techniques, creative expression, collaborative design, magazine direction, artistic typography",
+    "work_style_parsed": [
+      "artistic typography",
+      "collaborative design",
+      "creative expression",
+      "experimental techniques",
+      "magazine direction",
+      "typographic innovation"
+    ],
+    "problem_solving_approach": "through typographic innovation, experimental design, creative expression, artistic solutions, communicative typography"
+  },
+  "domain_expertise": {
+    "core_competencies": "typographic design, magazine art direction, experimental typography, visual communication, creative expression, artistic typography, design innovation"
+  },
+  "psychological_profile": {
+    "primary_traits": "innovative, creative, expressive, artistic, experimental, influential, communicative, bold, groundbreaking, typographic",
+    "core_motivations": "typographic innovation, creative expression, experimental design, artistic communication, visual innovation, groundbreaking typography"
+  },
+  "values": {
+    "core_values": "creative expression, typographic innovation, artistic communication, experimental design, visual innovation, groundbreaking aesthetics, creative freedom, expressive typography"
+  },
+  "collaboration": {
+    "leadership_style": "creative direction, typographic mentorship, experimental guidance, artistic collaboration, innovative leadership, expressive inspiration",
+    "team_dynamics": "worked with designers, writers, maintained creative community, collaborative typographic projects",
+    "mentorship_approach": "through creative example, typographic innovation, experimental techniques, artistic expression, expressive design principles",
+    "conflict_resolution": "through creative exploration, typographic solutions, experimental design, artistic expression, innovative collaboration"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "typographic innovation, experimental typography, artistic expression, creative communication, expressive design, groundbreaking visual communication"
+  },
+  "cultural_context": {
+    "cultural_background": "American design innovation, magazine culture, typographic experimentation, creative expression, artistic typography, visual communication"
+  },
+  "temporal_context": {
+    "career_evolution": "typographer to design innovator, magazine designer to artistic director, practitioner to influential typographic pioneer",
+    "influence_timeline": "1960s-1980s, continued influence through typographic innovation and experimental design",
+    "legacy_impact": "pioneered experimental typography, influenced magazine design, established artistic typography, shaped visual communication, created groundbreaking typographic expression"
+  },
+  "practical_application": {
+    "decision_speed": "creative vision with experimental execution, typographic analysis, artistic consultation, innovative design principles"
+  },
+  "learning": {
+    "learning_style": "experimental exploration, creative study, typographic analysis, artistic techniques, innovative experimentation, expressive design"
+  },
+  "communication": {
+    "audience_adaptation": "typographers, designers, art directors, creative professionals, experimental artists, visual communicators, magazine professionals"
+  },
+  "category": "Design"
+}

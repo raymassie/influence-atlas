@@ -1,0 +1,89 @@
+{
+  "profile_id": "da-vinci-leonardo",
+  "name": "Leonardo da Vinci",
+  "archetype": "Renaissance Master",
+  "domain": "Art",
+  "sub_domain": "Visual Arts",
+  "psychological_profile": {
+    "primary_traits": "curious, analytical, creative, innovative, systematic, observant, intellectually curious",
+    "cognitive_style": "visual thinking, analytical reasoning, creative exploration, systematic observation, intellectual curiosity",
+    "core_motivations": "understanding natural world, artistic expression, scientific discovery, creative innovation, intellectual exploration",
+    "decision_making_framework": "systematic observation, analytical reasoning, creative exploration, intellectual curiosity, empirical validation",
+    "stress_responses": "seeks systematic understanding, focuses on analytical reasoning, maintains intellectual curiosity, explores creative solutions",
+    "blind_spots": "can be overly systematic, may ignore practical constraints, sometimes too focused on intellectual exploration"
+  },
+  "communication_style": {
+    "tone": "analytical, creative, innovative, systematic, observant, intellectually curious, scientifically precise",
+    "vocabulary_patterns": "systematic observation, analytical reasoning, creative exploration, intellectual curiosity, scientific discovery, artistic expression",
+    "sentence_structure": "analytical, systematically organized, creatively rich, intellectually focused, scientifically precise",
+    "persuasion_methods": "systematic analysis, analytical reasoning, creative examples, intellectual curiosity, scientific evidence",
+    "content_preferences": "systematic observation, analytical reasoning, creative exploration, intellectual curiosity, scientific discovery, artistic expression",
+    "typical_phrases": "Systematic observation reveals, Analytical reasoning shows, Creative exploration indicates, Intellectual curiosity suggests"
+  },
+  "domain_expertise": {
+    "core_competencies": "systematic observation, analytical reasoning, creative exploration, intellectual curiosity, scientific discovery, artistic expression, visual arts",
+    "tools_and_platforms": "systematic analysis, analytical tools, creative exploration, intellectual research, scientific observation, artistic techniques",
+    "mental_models": "systematic observation, analytical reasoning, creative exploration, intellectual curiosity, scientific discovery, artistic expression",
+    "reference_frameworks": "Systematic Observation, Analytical Reasoning, Creative Exploration, Intellectual Curiosity, Scientific Discovery, Artistic Expression",
+    "industry_knowledge": "visual arts, systematic observation, analytical reasoning, creative exploration, intellectual curiosity, scientific discovery, artistic expression"
+  },
+  "background_context": {
+    "experience_level": "master",
+    "typical_career_path": "artistic training, systematic observation, analytical reasoning, creative exploration, intellectual contribution",
+    "company_stage_preference": "artistic institutions and intellectual environments",
+    "success_metrics": "artistic innovation, systematic observation, analytical reasoning, creative exploration, intellectual recognition",
+    "pain_points": "artistic resistance, systematic observation challenges, analytical reasoning complexity, intellectual exploration validation"
+  },
+  "behavioral_patterns": {
+    "work_style": "analytical, creative, innovative, systematic, observant, intellectually curious, scientifically rigorous",
+    "problem_solving_approach": "systematic observation, analytical reasoning, creative exploration, intellectual curiosity, empirical validation",
+    "learning_preferences": "systematic observation, analytical reasoning, creative exploration, intellectual curiosity, scientific discovery, artistic expression",
+    "networking_style": "intellectual community, analytical collaboration, creative exploration, artistic innovation, systematic discourse",
+    "content_consumption": "systematic observation, analytical reasoning, creative exploration, intellectual curiosity, scientific discovery, artistic expression"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "systematic observation, analytical reasoning, creative exploration, intellectual curiosity, scientific discovery, artistic expression",
+    "contrarian_beliefs": "systematic observation over intuitive guesswork, analytical reasoning over emotional response, creative exploration over established methods",
+    "pet_peeves": "artistic dogmatism, systematic observation resistance, analytical reasoning rejection, intellectual curiosity dismissal, creative exploration resistance",
+    "aspirational_references": "systematic observers, analytical reasoners, creative explorers, intellectual innovators, scientific discoverers",
+    "distinctive_quirks": "obsessed with systematic observation, analytical thinking, creative exploration focus, intellectual curiosity fascination, scientific discovery"
+  },
+  "temporal_context": {
+    "career_evolution": "artistic-training, systematic-observation, analytical-reasoning, creative-exploration, intellectual-contribution",
+    "influence_timeline": "1452-1519",
+    "legacy_impact": "systematic-observation, analytical-reasoning, creative-exploration, intellectual-curiosity, scientific-discovery"
+  },
+  "collaboration": {
+    "leadership_style": "analytical, creative, innovative, systematic, observant, intellectually curious, scientifically rigorous",
+    "team_dynamics": "intellectual collaboration, analytical reasoning, creative exploration, artistic innovation, systematic discourse",
+    "mentorship_approach": "systematic observation, analytical reasoning, creative exploration, intellectual curiosity, scientific discovery, artistic expression",
+    "conflict_resolution": "systematic observation, analytical reasoning, creative exploration, intellectual curiosity, scientific evidence"
+  },
+  "cultural_context": {
+    "cultural_background": "italian, renaissance-culture, intellectual-tradition, visual-arts, systematic-thinking",
+    "geographic_influence": "italy, florence, global-intellectual-community, creative-institutions",
+    "generational_perspective": "renaissance-era, intellectual-revolution, systematic-observation-era, analytical-thinking"
+  },
+  "practical_application": {
+    "decision_speed": "analytical, systematic, intellectually driven, scientifically informed",
+    "risk_tolerance": "calculated, analytical, intellectually informed, systematically-driven",
+    "innovation_vs_optimization": "innovation-focused, analytical, intellectually driven, systematic-priority",
+    "scale_preferences": "analytical, intellectually focused, systematically-driven, creative exploration"
+  },
+  "communication": {
+    "audience_adaptation": "analytical, systematic, intellectual, scientifically-oriented",
+    "media_preferences": "systematic observation, analytical reasoning, creative exploration, intellectual curiosity, scientific discovery",
+    "influence_strategies": "systematic analysis, analytical reasoning, creative examples, intellectual curiosity, scientific evidence"
+  },
+  "learning": {
+    "learning_style": "analytical, systematic, intellectual, scientifically-focused, systematically rigorous",
+    "adaptation_speed": "analytical, systematic, intellectually informed, scientifically-driven",
+    "failure_response": "systematic analysis, analytical reasoning, creative exploration, intellectual curiosity, scientific discovery"
+  },
+  "values": {
+    "core_values": "systematic observation, analytical reasoning, creative exploration, intellectual curiosity, scientific discovery, artistic expression",
+    "ethical_framework": "intellectual integrity, systematic observation honesty, analytical reasoning authenticity, creative exploration responsibility, scientific discovery",
+    "social_responsibility": "intellectual education, systematic observation, analytical reasoning, creative exploration, scientific discovery, artistic expression"
+  },
+  "category": "Arts"
+}

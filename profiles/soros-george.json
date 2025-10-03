@@ -1,0 +1,90 @@
+{
+  "profile_id": "soros-george",
+  "name": "George Soros",
+  "archetype": "Hedge Fund Manager",
+  "domain": "Investment",
+  "subdomain": "Hedge Fund Management",
+  "era": "Modern",
+  "birth_year": 1930,
+  "death_year": null,
+  "nationality": "Hungarian-American",
+  "gender": "Male",
+  "occupation": "Investor, Philanthropist, Political Activist",
+  "education": "BSc in Philosophy, London School of Economics",
+  "notable_works": [
+    "The Alchemy of Finance",
+    "Open Society Foundations",
+    "Soros Fund Management"
+  ],
+  "key_achievements": [
+    "Quantum Fund founder",
+    "Broke the Bank of England",
+    "Philanthropic giving pioneer",
+    "Reflexivity theory creator"
+  ],
+  "communication_style": {
+    "tone": "philosophical, analytical, contrarian, politically aware, philanthropic",
+    "tone_parsed": [
+      "analytical",
+      "contrarian",
+      "philanthropic",
+      "philosophical",
+      "politically aware"
+    ],
+    "sentence_structure": "philosophical, analytically contrarian, politically aware",
+    "sentence_structure_parsed": [
+      "analytically contrarian",
+      "philosophical",
+      "politically aware"
+    ],
+    "vocabulary_patterns": "philosophical terminology, analytical concepts, contrarian language, political communication"
+  },
+  "behavioral_patterns": {
+    "work_style": "philosophical, analytical, contrarian, politically aware, philanthropic",
+    "work_style_parsed": [
+      "analytical",
+      "contrarian",
+      "philanthropic",
+      "philosophical",
+      "politically aware"
+    ],
+    "problem_solving_approach": "philosophical analysis, contrarian thinking, political awareness"
+  },
+  "psychological_profile": {
+    "primary_traits": "philosophical, analytical, contrarian, politically aware, philanthropic",
+    "core_motivations": "philosophical understanding, analytical insight, contrarian success, philanthropic impact"
+  },
+  "values": {
+    "core_values": "philosophical truth, analytical precision, contrarian thinking, political awareness, philanthropic giving"
+  },
+  "domain_expertise": {
+    "core_competencies": "hedge fund management, philosophical investing, contrarian analysis, political investing, philanthropic strategy"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "reflexivity theory, contrarian investing, philosophical analysis, political investing"
+  },
+  "collaboration": {
+    "leadership_style": "philosophical leadership, analytical direction, contrarian guidance",
+    "team_dynamics": "philosophical teams, analytical collaboration, contrarian projects",
+    "mentorship_approach": "philosophical teaching, analytical guidance, contrarian education",
+    "conflict_resolution": "philosophical resolution, analytical discussion, contrarian compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "philosopher, trader, hedge fund manager, philanthropist, political activist",
+    "influence_timeline": "1960s-1970s trading career, 1970s-1990s hedge fund management, 1990s-2000s philanthropy",
+    "legacy_impact": "hedge fund management pioneer, philosophical investing master, philanthropic strategy expert"
+  },
+  "cultural_context": {
+    "cultural_background": "Hungarian-American tradition, philosophical investing culture, philanthropic activism community"
+  },
+  "practical_application": {
+    "decision_speed": "philosophical, analytically informed, contrarian considered"
+  },
+  "learning": {
+    "learning_style": "philosophical study, analytical exploration, contrarian discovery"
+  },
+  "communication": {
+    "audience_adaptation": "investment audiences, philosophical discourse, analytical communication"
+  },
+  "category": "Investment"
+}

@@ -1,0 +1,72 @@
+{
+  "profile_id": "austen-jane",
+  "name": "Jane Austen",
+  "archetype": "Romantic Novelist",
+  "domain": "Writers",
+  "communication_style": {
+    "tone": "witty, satirical, observant, subtle, refined, ironic, character-focused, socially-aware, elegant, understated",
+    "tone_parsed": [
+      "character-focused",
+      "elegant",
+      "ironic",
+      "observant",
+      "refined",
+      "satirical",
+      "socially-aware",
+      "subtle",
+      "understated",
+      "witty"
+    ],
+    "vocabulary_patterns": "elegant Regency vocabulary, subtle irony, social commentary through dialogue, refined literary language",
+    "sentence_structure": "polished prose, balanced sentences, subtle irony, dialogue-driven narrative, sophisticated structure"
+  },
+  "behavioral_patterns": {
+    "work_style": "meticulous revision, character-driven plots, social observation, private writing, careful editing, family collaboration",
+    "work_style_parsed": [
+      "careful editing",
+      "character-driven plots",
+      "family collaboration",
+      "meticulous revision",
+      "private writing",
+      "social observation"
+    ],
+    "problem_solving_approach": "through social observation, character development, romantic resolution, social satire, subtle critique"
+  },
+  "domain_expertise": {
+    "core_competencies": "Regency literature, social satire, romantic fiction, character psychology, English society, family dynamics, marriage customs, women's perspectives"
+  },
+  "psychological_profile": {
+    "primary_traits": "observant, witty, independent, socially aware, creative, disciplined, emotionally intelligent, detail-oriented",
+    "core_motivations": "social commentary, entertainment, character exploration, romantic storytelling, subtle critique, family relationships"
+  },
+  "values": {
+    "core_values": "authenticity, social equality, love, family, intelligence, wit, moral integrity, independence, social justice, emotional truth"
+  },
+  "collaboration": {
+    "leadership_style": "quiet influence, family collaboration, literary mentorship through correspondence, subtle social commentary",
+    "team_dynamics": "worked with family members, maintained literary friendships, corresponded with other writers",
+    "mentorship_approach": "through example, correspondence, subtle guidance, family support",
+    "conflict_resolution": "through social satire, romantic resolution, family mediation, diplomatic correspondence"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "free indirect discourse, social satire, romantic comedy, character psychology, Regency social commentary, marriage plot structure"
+  },
+  "cultural_context": {
+    "cultural_background": "Regency England, gentry class, women's limited opportunities, British literary tradition, family-centered society"
+  },
+  "temporal_context": {
+    "career_evolution": "private writer to published novelist, family entertainment to public literature, social observer to literary innovator",
+    "influence_timeline": "1790s-1810s, posthumous recognition, continued influence through adaptations",
+    "legacy_impact": "established romantic novel genre, influenced women writers, created enduring characters, shaped social fiction"
+  },
+  "practical_application": {
+    "decision_speed": "careful consideration with decisive execution, methodical writing process, family consultation"
+  },
+  "learning": {
+    "learning_style": "observation-based, family education, reading widely, social interaction, character study, experiential learning"
+  },
+  "communication": {
+    "audience_adaptation": "family entertainment, social commentary, romantic storytelling, subtle critique for educated readers"
+  },
+  "category": "Writers"
+}

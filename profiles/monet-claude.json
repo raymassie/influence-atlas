@@ -1,0 +1,43 @@
+{
+  "name": "Claude Monet",
+  "archetype": "Painter",
+  "domain": "Arts",
+  "sub_domain": "Visual Arts",
+  "category": "Arts",
+  "subcategory": "Painters",
+  "era": "Modern",
+  "nationality": "French",
+  "birth_year": 1840,
+  "death_year": 1926,
+  "description": "French impressionist painter known for his series of water lilies and haystacks, pioneering the impressionist movement and capturing light and atmosphere.",
+  "notable_works": ["Water Lilies", "Haystacks", "Impression, Sunrise", "Rouen Cathedral series"],
+  "psychological_profile": {
+    "primary_traits": ["observant", "patient", "innovative", "atmospheric", "creative"],
+    "core_motivations": ["light exploration", "atmospheric painting", "impressionist innovation", "artistic observation"],
+    "behavioral_patterns": ["artistic observation", "light experimentation", "atmospheric painting", "impressionist innovation"]
+  },
+  "communication_style": {
+    "tone": ["observant", "patient", "innovative", "atmospheric"],
+    "vocabulary_patterns": ["artistic concepts", "light terminology", "atmospheric language", "impressionist innovation"],
+    "rhetorical_strategies": ["artistic observation", "light advocacy", "atmospheric painting", "impressionist innovation"]
+  },
+  "values": {
+    "core_values": ["light exploration", "atmospheric painting", "impressionist innovation", "artistic observation", "creative patience"],
+    "professional_principles": ["artistic observation", "light experimentation", "atmospheric painting", "impressionist innovation"]
+  },
+  "collaboration_style": {
+    "approach": ["artistic partnerships", "impressionist collaborations", "artistic alliances"],
+    "preferences": ["artistic development", "light experimentation", "atmospheric collaboration"],
+    "conflict_resolution": ["artistic solutions", "light innovation", "atmospheric painting"]
+  },
+  "expertise_areas": [
+    "Painting",
+    "Impressionism",
+    "Light study",
+    "Atmospheric painting",
+    "Series painting",
+    "Artistic observation"
+  ],
+  "influence_scope": "Global - Impressionism and atmospheric painting",
+  "legacy": "Pioneered impressionism and revolutionized painting with light and atmosphere, creating timeless series that captured the essence of nature."
+}

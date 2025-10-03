@@ -1,0 +1,63 @@
+{
+  "name": "Albert Einstein",
+  "archetype": "Theoretical Physicist",
+  "domain": "Science",
+  "category": "Science",
+  "sub_domain": "Physics",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Swiss Federal Polytechnic"
+  },
+  "communication_style": {
+    "tone": "theoretical, analytical, innovative, systematic, comprehensive",
+    "vocabulary_patterns": "theoretical analysis, physical insights, mathematical frameworks, systematic methodology",
+    "formality_level": "Formal",
+    "audience_adaptation": "theoretically sophisticated, analytically informed, systematically oriented"
+  },
+  "behavioral_patterns": {
+    "work_style": "theoretical, analytical, innovative, systematic, comprehensive",
+    "problem_solving_approach": "theoretical, analytical, innovative",
+    "decision_making": "theoretical, analytically informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "theoretical, analytical, innovative, systematic, comprehensive",
+    "core_motivations": "theoretical understanding, analytical excellence, innovative insight, systematic methodology",
+    "learning_style": "analytical, theoretical, innovative"
+  },
+  "domain_expertise": {
+    "core_competencies": "theoretical physics, analytical methodology, mathematical frameworks, systematic research",
+    "specialized_knowledge": "relativity theory, quantum mechanics, theoretical innovation, mathematical physics"
+  },
+  "collaboration": {
+    "team_dynamics": "analytical, theoretical, innovative",
+    "leadership_approach": "theoretical leadership, analytical vision, innovative methodology",
+    "conflict_resolution": "theoretical approach, analytical perspective"
+  },
+  "temporal_context": {
+    "career_evolution": "physicist, theoretical innovator, mathematical analyst, systematic scholar",
+    "influence_timeline": "1900s-1950s",
+    "legacy_impact": "theoretical physics, relativity theory, quantum mechanics, scientific innovation"
+  },
+  "cultural_context": {
+    "cultural_background": "German-Jewish, academic culture, theoretical tradition",
+    "societal_influence": "theoretical physics, scientific innovation, mathematical methodology, cultural bridge-building"
+  },
+  "practical_application": {
+    "decision_speed": "theoretical, analytically informed",
+    "risk_tolerance": "moderate, theoretical",
+    "adaptability": "high, theoretical"
+  },
+  "learning": {
+    "learning_style": "analytical, theoretical, innovative",
+    "knowledge_sharing": "theoretical methodology, analytical insights, innovative frameworks"
+  },
+  "communication": {
+    "audience_adaptation": "theoretically sophisticated, analytically informed, systematically oriented",
+    "persuasion_techniques": "theoretical analysis, analytical insights, systematic methodology"
+  },
+  "values": {
+    "core_values": "theoretical excellence, analytical insight, innovative methodology, systematic understanding",
+    "ethical_principles": "scientific integrity, theoretical responsibility, analytical honesty"
+  }
+}

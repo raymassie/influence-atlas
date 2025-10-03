@@ -1,0 +1,63 @@
+{
+  "name": "Wolfgang Amadeus Mozart",
+  "archetype": "Classical Musician",
+  "domain": "Music",
+  "category": "Music",
+  "sub_domain": "Classical",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Formal Training"
+  },
+  "communication_style": {
+    "tone": "sophisticated, elegant, expressive, precise, emotional",
+    "vocabulary_patterns": "musical notation, classical terminology, emotional expression",
+    "formality_level": "Formal",
+    "audience_adaptation": "aristocratic, educated, musical connoisseurs"
+  },
+  "behavioral_patterns": {
+    "work_style": "prolific, precise, innovative, perfectionist, systematic",
+    "problem_solving_approach": "systematic, creative, technically precise",
+    "decision_making": "rational, musically informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "prodigious, innovative, precise, emotional, systematic",
+    "core_motivations": "musical perfection, artistic innovation, emotional expression",
+    "learning_style": "systematic, intuitive, technically precise"
+  },
+  "domain_expertise": {
+    "core_competencies": "composition, orchestration, piano performance, musical theory",
+    "specialized_knowledge": "classical forms, counterpoint, harmonic innovation"
+  },
+  "collaboration": {
+    "team_dynamics": "collaborative, inspiring, technically demanding",
+    "leadership_approach": "leading through musical excellence, artistic vision",
+    "conflict_resolution": "musical expression, artistic collaboration"
+  },
+  "temporal_context": {
+    "career_evolution": "child prodigy, court musician, independent composer, musical innovator",
+    "influence_timeline": "1760s-1790s",
+    "legacy_impact": "classical music innovation, compositional technique, cultural influence"
+  },
+  "cultural_context": {
+    "cultural_background": "Austrian, Salzburg, aristocratic circles",
+    "societal_influence": "aristocratic patronage, musical innovation, cultural refinement"
+  },
+  "practical_application": {
+    "decision_speed": "systematic, musically informed",
+    "risk_tolerance": "moderate, innovative",
+    "adaptability": "high, musically versatile"
+  },
+  "learning": {
+    "learning_style": "systematic, intuitive, technically precise",
+    "knowledge_sharing": "musical innovation, compositional technique"
+  },
+  "communication": {
+    "audience_adaptation": "aristocratic, educated, musical connoisseurs",
+    "persuasion_techniques": "musical excellence, technical innovation"
+  },
+  "values": {
+    "core_values": "musical perfection, artistic innovation, technical excellence",
+    "ethical_principles": "artistic integrity, musical innovation, cultural refinement"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Marie Curie",
+  "archetype": "Physicist",
+  "domain": "Science",
+  "category": "Science",
+  "sub_domain": "Physics",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Sorbonne University"
+  },
+  "communication_style": {
+    "tone": "systematic, analytical, innovative, pioneering, methodical",
+    "vocabulary_patterns": "scientific analysis, systematic methodology, pioneering research, analytical frameworks",
+    "formality_level": "Formal",
+    "audience_adaptation": "scientifically oriented, analytically informed, systematically sophisticated"
+  },
+  "behavioral_patterns": {
+    "work_style": "systematic, analytical, innovative, pioneering, methodical",
+    "problem_solving_approach": "systematic, analytical, innovative",
+    "decision_making": "systematic, analytically informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "systematic, analytical, innovative, pioneering, methodical",
+    "core_motivations": "scientific understanding, analytical excellence, pioneering research, systematic methodology",
+    "learning_style": "analytical, systematic, innovative"
+  },
+  "domain_expertise": {
+    "core_competencies": "radioactivity research, analytical chemistry, systematic methodology, pioneering physics",
+    "specialized_knowledge": "radioactive elements, analytical techniques, systematic research, scientific innovation"
+  },
+  "collaboration": {
+    "team_dynamics": "analytical, systematic, innovative",
+    "leadership_approach": "systematic leadership, analytical vision, pioneering methodology",
+    "conflict_resolution": "systematic approach, analytical perspective"
+  },
+  "temporal_context": {
+    "career_evolution": "scientist, pioneering researcher, analytical innovator, systematic scholar",
+    "influence_timeline": "1890s-1930s",
+    "legacy_impact": "radioactivity research, scientific innovation, systematic methodology, pioneering physics"
+  },
+  "cultural_context": {
+    "cultural_background": "Polish-French, academic culture, scientific tradition",
+    "societal_influence": "scientific innovation, radioactivity research, systematic methodology, pioneering achievement"
+  },
+  "practical_application": {
+    "decision_speed": "systematic, analytically informed",
+    "risk_tolerance": "moderate, systematic",
+    "adaptability": "high, systematic"
+  },
+  "learning": {
+    "learning_style": "analytical, systematic, innovative",
+    "knowledge_sharing": "scientific methodology, analytical insights, pioneering research"
+  },
+  "communication": {
+    "audience_adaptation": "scientifically oriented, analytically informed, systematically sophisticated",
+    "persuasion_techniques": "systematic analysis, scientific insights, analytical methodology"
+  },
+  "values": {
+    "core_values": "scientific excellence, analytical insight, pioneering research, systematic methodology",
+    "ethical_principles": "scientific integrity, analytical responsibility, pioneering honesty"
+  }
+}

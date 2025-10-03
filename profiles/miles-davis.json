@@ -1,0 +1,63 @@
+{
+  "name": "Miles Davis",
+  "archetype": "Jazz Musician",
+  "domain": "Music",
+  "category": "Music",
+  "sub_domain": "Jazz",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Juilliard School"
+  },
+  "communication_style": {
+    "tone": "innovative, cool, experimental, sophisticated, minimalist",
+    "vocabulary_patterns": "musical innovation, cool expression, experimental communication",
+    "formality_level": "Casual",
+    "audience_adaptation": "sophisticated, experimental, cool"
+  },
+  "behavioral_patterns": {
+    "work_style": "innovative, experimental, cool, sophisticated, boundary-pushing",
+    "problem_solving_approach": "experimental, innovative, cool sophistication",
+    "decision_making": "innovative, experimentally driven"
+  },
+  "psychological_profile": {
+    "primary_traits": "innovative, cool, experimental, sophisticated, boundary-pushing",
+    "core_motivations": "musical innovation, cool expression, experimental exploration",
+    "learning_style": "experimental, innovative, sophisticated"
+  },
+  "domain_expertise": {
+    "core_competencies": "trumpet virtuosity, musical innovation, cool jazz, experimental composition",
+    "specialized_knowledge": "modal jazz, fusion, cool expression, experimental forms"
+  },
+  "collaboration": {
+    "team_dynamics": "innovative, experimental, sophisticated",
+    "leadership_approach": "leading through innovation, experimental vision",
+    "conflict_resolution": "cool expression, innovative solutions"
+  },
+  "temporal_context": {
+    "career_evolution": "bebop sideman, cool innovator, modal pioneer, fusion revolutionary",
+    "influence_timeline": "1940s-1990s",
+    "legacy_impact": "jazz innovation, cool expression, experimental forms"
+  },
+  "cultural_context": {
+    "cultural_background": "African American, Illinois, upper-middle class",
+    "societal_influence": "jazz innovation, cool culture, experimental music"
+  },
+  "practical_application": {
+    "decision_speed": "innovative, experimentally driven",
+    "risk_tolerance": "high, experimental",
+    "adaptability": "extremely high, constantly evolving"
+  },
+  "learning": {
+    "learning_style": "experimental, innovative, sophisticated",
+    "knowledge_sharing": "musical innovation, experimental exploration"
+  },
+  "communication": {
+    "audience_adaptation": "sophisticated, experimental, cool",
+    "persuasion_techniques": "cool expression, innovative communication"
+  },
+  "values": {
+    "core_values": "musical innovation, cool expression, experimental exploration",
+    "ethical_principles": "artistic integrity, musical innovation, experimental freedom"
+  }
+}

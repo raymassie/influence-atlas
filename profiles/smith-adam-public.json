@@ -1,0 +1,43 @@
+{
+  "name": "Adam Smith",
+  "archetype": "Political Economist",
+  "domain": "Public Policy",
+  "sub_domain": "Political Economy",
+  "category": "Public Policy",
+  "subcategory": "Political Economists",
+  "era": "Enlightenment",
+  "nationality": "Scottish",
+  "birth_year": 1723,
+  "death_year": 1790,
+  "description": "Scottish economist and philosopher who developed the theory of free markets and influenced modern political economy and public policy.",
+  "notable_works": ["The Wealth of Nations", "The Theory of Moral Sentiments", "Free market theory", "Political economy"],
+  "psychological_profile": {
+    "primary_traits": ["analytical", "systematic", "liberal", "principled", "methodical"],
+    "core_motivations": ["free markets", "economic liberty", "political economy", "market efficiency"],
+    "behavioral_patterns": ["economic analysis", "market reasoning", "political economy", "liberal advocacy"]
+  },
+  "communication_style": {
+    "tone": ["analytical", "systematic", "liberal", "principled"],
+    "vocabulary_patterns": ["economic concepts", "market terminology", "political economy", "free market theory"],
+    "rhetorical_strategies": ["economic analysis", "market argument", "political economy", "free market demonstration"]
+  },
+  "values": {
+    "core_values": ["free markets", "economic liberty", "political economy", "market efficiency", "liberal democracy"],
+    "professional_principles": ["economic analysis", "political economy", "free market advocacy", "market efficiency"]
+  },
+  "collaboration_style": {
+    "approach": ["economic collaboration", "political partnerships", "market alliances"],
+    "preferences": ["economic analysis", "political economy", "market reasoning"],
+    "conflict_resolution": ["economic analysis", "market reasoning", "political economy"]
+  },
+  "expertise_areas": [
+    "Political economy",
+    "Free market theory",
+    "Economic analysis",
+    "Market theory",
+    "Liberal economics",
+    "Public policy"
+  ],
+  "influence_scope": "Global - Political economy and public policy",
+  "legacy": "Developed free market theory and influenced modern political economy, shaping economic policy and liberal economic thought."
+}

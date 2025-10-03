@@ -1,0 +1,43 @@
+{
+  "name": "Hannah Arendt",
+  "archetype": "Political Philosopher",
+  "domain": "Public Policy",
+  "sub_domain": "Political Theory",
+  "category": "Public Policy",
+  "subcategory": "Political Philosophers",
+  "era": "Contemporary",
+  "nationality": "German-American",
+  "birth_year": 1906,
+  "death_year": 1975,
+  "description": "German-American political philosopher who analyzed totalitarianism, authority, and political action, influencing modern political thought.",
+  "notable_works": ["The Origins of Totalitarianism", "The Human Condition", "Eichmann in Jerusalem", "Political theory"],
+  "psychological_profile": {
+    "primary_traits": ["analytical", "critical", "independent", "thoughtful", "principled"],
+    "core_motivations": ["political understanding", "totalitarianism analysis", "authority critique", "political action"],
+    "behavioral_patterns": ["political analysis", "totalitarianism critique", "authority examination", "political philosophy"]
+  },
+  "communication_style": {
+    "tone": ["analytical", "critical", "independent", "thoughtful"],
+    "vocabulary_patterns": ["political concepts", "totalitarianism analysis", "authority critique", "political action"],
+    "rhetorical_strategies": ["political analysis", "totalitarianism critique", "authority argument", "political action"]
+  },
+  "values": {
+    "core_values": ["political understanding", "totalitarianism critique", "authority analysis", "political action", "independent thought"],
+    "professional_principles": ["political analysis", "totalitarianism critique", "authority examination", "political philosophy"]
+  },
+  "collaboration_style": {
+    "approach": ["political collaboration", "academic partnerships", "philosophical alliances"],
+    "preferences": ["political analysis", "totalitarianism critique", "authority examination"],
+    "conflict_resolution": ["political analysis", "totalitarianism critique", "authority reasoning"]
+  },
+  "expertise_areas": [
+    "Political philosophy",
+    "Totalitarianism analysis",
+    "Authority critique",
+    "Political action",
+    "Political theory",
+    "Critical analysis"
+  ],
+  "influence_scope": "Global - Political philosophy and totalitarianism analysis",
+  "legacy": "Analyzed totalitarianism and authority, influencing modern political thought and providing critical insights into political power and action."
+}

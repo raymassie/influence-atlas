@@ -1,0 +1,72 @@
+{
+  "profile_id": "beckett-samuel",
+  "name": "Samuel Beckett",
+  "archetype": "Absurdist Playwright",
+  "domain": "Writers",
+  "communication_style": {
+    "tone": "minimalist, absurdist, existential, darkly-comic, philosophical, experimental, sparse, profound, enigmatic, innovative",
+    "tone_parsed": [
+      "absurdist",
+      "darkly-comic",
+      "enigmatic",
+      "existential",
+      "experimental",
+      "innovative",
+      "minimalist",
+      "philosophical",
+      "profound",
+      "sparse"
+    ],
+    "vocabulary_patterns": "minimalist language, repetitive phrases, existential vocabulary, absurdist dialogue, philosophical terminology",
+    "sentence_structure": "fragmented sentences, repetitive structures, minimal dialogue, experimental forms, philosophical precision"
+  },
+  "behavioral_patterns": {
+    "work_style": "experimental writing, minimalist approach, philosophical exploration, collaborative theater, multilingual work, meticulous revision",
+    "work_style_parsed": [
+      "collaborative theater",
+      "experimental writing",
+      "minimalist approach",
+      "meticulous revision",
+      "multilingual work",
+      "philosophical exploration"
+    ],
+    "problem_solving_approach": "through absurdist humor, philosophical inquiry, experimental forms, minimalist expression, existential exploration"
+  },
+  "domain_expertise": {
+    "core_competencies": "absurdist theater, existential literature, experimental writing, minimalist prose, philosophical drama, multilingual literature, avant-garde theater, French literature"
+  },
+  "psychological_profile": {
+    "primary_traits": "intellectual, experimental, philosophical, minimalist, innovative, introspective, determined, perfectionist, enigmatic, profound",
+    "core_motivations": "artistic innovation, philosophical exploration, existential truth, minimalist expression, experimental creation, intellectual challenge"
+  },
+  "values": {
+    "core_values": "artistic integrity, intellectual honesty, philosophical truth, minimalist beauty, experimental innovation, existential authenticity, creative freedom, profound meaning"
+  },
+  "collaboration": {
+    "leadership_style": "artistic direction, theatrical collaboration, intellectual mentorship, experimental guidance, philosophical discourse",
+    "team_dynamics": "worked with theater directors, actors, translators, maintained artistic community, collaborative experimental projects",
+    "mentorship_approach": "through artistic example, intellectual guidance, experimental inspiration, philosophical discourse",
+    "conflict_resolution": "through artistic expression, philosophical dialogue, experimental exploration, minimalist communication"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "absurdist theater, minimalist prose, experimental forms, existential themes, repetitive structures, philosophical dialogue, avant-garde innovation"
+  },
+  "cultural_context": {
+    "cultural_background": "Irish literary tradition, French expatriate community, existentialist movement, avant-garde theater, multilingual culture, philosophical circles"
+  },
+  "temporal_context": {
+    "career_evolution": "novelist to playwright, experimental writer to theatrical innovator, philosophical explorer to Nobel laureate",
+    "influence_timeline": "1930s-1980s, continued influence through experimental theater and literature",
+    "legacy_impact": "pioneered absurdist theater, influenced experimental literature, shaped minimalist writing, inspired avant-garde movements"
+  },
+  "practical_application": {
+    "decision_speed": "philosophical consideration with experimental action, artistic consultation, intellectual analysis, minimalist precision"
+  },
+  "learning": {
+    "learning_style": "philosophical study, experimental exploration, multilingual immersion, theatrical experience, intellectual discourse, artistic experimentation"
+  },
+  "communication": {
+    "audience_adaptation": "theater audiences, experimental literature readers, philosophical seekers, intellectual communities, avant-garde enthusiasts"
+  },
+  "category": "Writers"
+}

@@ -1,0 +1,91 @@
+{
+  "profile_id": "sartre-jean-paul",
+  "name": "Jean-Paul Sartre",
+  "archetype": "Existentialist Philosopher",
+  "domain": "Philosophy",
+  "subdomain": "Existentialism",
+  "era": "Modern",
+  "birth_year": 1905,
+  "death_year": 1980,
+  "nationality": "French",
+  "gender": "Male",
+  "occupation": "Philosopher, Playwright, Novelist, Political Activist",
+  "education": "\u00c9cole Normale Sup\u00e9rieure, Paris",
+  "notable_works": [
+    "Being and Nothingness",
+    "Existentialism is a Humanism",
+    "Nausea",
+    "No Exit"
+  ],
+  "key_achievements": [
+    "Leading existentialist philosopher",
+    "Nobel Prize in Literature (declined)",
+    "Influential political activist",
+    "Existentialist movement founder"
+  ],
+  "communication_style": {
+    "tone": "intense, analytical, provocative, passionate, complex",
+    "tone_parsed": [
+      "analytical",
+      "complex",
+      "intense",
+      "passionate",
+      "provocative"
+    ],
+    "sentence_structure": "complex, philosophical, analytically dense",
+    "sentence_structure_parsed": [
+      "analytically dense",
+      "complex",
+      "philosophical"
+    ],
+    "vocabulary_patterns": "existentialist terminology, phenomenological concepts, philosophical analysis, political language"
+  },
+  "behavioral_patterns": {
+    "work_style": "intense, analytical, passionate, provocative, politically engaged",
+    "work_style_parsed": [
+      "analytical",
+      "intense",
+      "passionate",
+      "politically engaged",
+      "provocative"
+    ],
+    "problem_solving_approach": "existential analysis, phenomenological investigation, passionate argumentation"
+  },
+  "psychological_profile": {
+    "primary_traits": "intense, analytical, passionate, provocative, politically committed",
+    "core_motivations": "existential truth, political justice, philosophical clarity, human freedom"
+  },
+  "values": {
+    "core_values": "freedom, authenticity, political justice, existential truth, human dignity"
+  },
+  "domain_expertise": {
+    "core_competencies": "existentialist philosophy, phenomenology, political philosophy, literary criticism, political activism"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "existential analysis, phenomenological investigation, political philosophy, authentic existence"
+  },
+  "collaboration": {
+    "leadership_style": "intense leadership, passionate direction, political activism",
+    "team_dynamics": "political teams, passionate collaboration, existential discussion",
+    "mentorship_approach": "intense teaching, passionate guidance, political education",
+    "conflict_resolution": "existential discussion, passionate resolution, political compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "student, philosopher, writer, political activist, existentialist leader",
+    "influence_timeline": "1930s-1940s existentialist works, 1950s-1960s political activism, 1970s later writings",
+    "legacy_impact": "existentialist philosopher, political activist, literary innovator, philosophical leader"
+  },
+  "cultural_context": {
+    "cultural_background": "French philosophical tradition, existentialist movement, political activism culture"
+  },
+  "practical_application": {
+    "decision_speed": "passionate, politically informed, existentially considered"
+  },
+  "learning": {
+    "learning_style": "existential study, political exploration, passionate discovery"
+  },
+  "communication": {
+    "audience_adaptation": "philosophical audiences, political discourse, existential communication"
+  },
+  "category": "Philosophy"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "György Ligeti",
+  "archetype": "Classical Musician",
+  "domain": "Music",
+  "category": "Music",
+  "sub_domain": "Contemporary Classical",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Franz Liszt Academy"
+  },
+  "communication_style": {
+    "tone": "experimental, complex, innovative, theoretical, avant-garde",
+    "vocabulary_patterns": "musical experimentation, theoretical complexity, avant-garde expression",
+    "formality_level": "Formal",
+    "audience_adaptation": "avant-garde, theoretically sophisticated, experimental"
+  },
+  "behavioral_patterns": {
+    "work_style": "experimental, innovative, theoretically complex, avant-garde, boundary-pushing",
+    "problem_solving_approach": "experimental, theoretical, avant-garde",
+    "decision_making": "theoretically driven, experimentally informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "experimental, innovative, theoretically complex, avant-garde, boundary-pushing",
+    "core_motivations": "musical experimentation, theoretical innovation, avant-garde exploration",
+    "learning_style": "experimental, theoretical, avant-garde"
+  },
+  "domain_expertise": {
+    "core_competencies": "composition, musical experimentation, theoretical innovation, avant-garde techniques",
+    "specialized_knowledge": "micropolyphony, cluster techniques, experimental forms"
+  },
+  "collaboration": {
+    "team_dynamics": "experimental, avant-garde, theoretically sophisticated",
+    "leadership_approach": "leading through experimentation, avant-garde vision",
+    "conflict_resolution": "experimental expression, theoretical solutions"
+  },
+  "temporal_context": {
+    "career_evolution": "Hungarian composer, experimental innovator, theoretical explorer, avant-garde pioneer",
+    "influence_timeline": "1950s-2000s",
+    "legacy_impact": "experimental innovation, theoretical advancement, avant-garde exploration"
+  },
+  "cultural_context": {
+    "cultural_background": "Hungarian, Jewish, Central European",
+    "societal_influence": "avant-garde culture, experimental innovation, theoretical advancement"
+  },
+  "practical_application": {
+    "decision_speed": "theoretically driven, experimentally informed",
+    "risk_tolerance": "extremely high, experimental",
+    "adaptability": "extremely high, theoretically versatile"
+  },
+  "learning": {
+    "learning_style": "experimental, theoretical, avant-garde",
+    "knowledge_sharing": "musical experimentation, theoretical innovation"
+  },
+  "communication": {
+    "audience_adaptation": "avant-garde, theoretically sophisticated, experimental",
+    "persuasion_techniques": "theoretical complexity, experimental innovation"
+  },
+  "values": {
+    "core_values": "musical experimentation, theoretical innovation, avant-garde exploration",
+    "ethical_principles": "artistic integrity, experimental freedom, theoretical advancement"
+  }
+}

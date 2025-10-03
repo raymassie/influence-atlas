@@ -1,0 +1,43 @@
+{
+  "name": "Amartya Sen",
+  "archetype": "Economist",
+  "domain": "Economics",
+  "sub_domain": "Development Economics",
+  "category": "Economics",
+  "subcategory": "Economists",
+  "era": "Contemporary",
+  "nationality": "Indian",
+  "birth_year": 1933,
+  "death_year": null,
+  "description": "Indian economist who won the Nobel Prize in Economics and is known for his work on development economics, social choice theory, and welfare economics.",
+  "notable_works": ["Development as Freedom", "Social choice theory", "Welfare economics", "Development economics"],
+  "psychological_profile": {
+    "primary_traits": ["analytical", "humanistic", "influential", "systematic", "compassionate"],
+    "core_motivations": ["human development", "economic justice", "welfare analysis", "social choice"],
+    "behavioral_patterns": ["development analysis", "welfare research", "social choice theory", "humanistic economics"]
+  },
+  "communication_style": {
+    "tone": ["analytical", "humanistic", "influential", "compassionate"],
+    "vocabulary_patterns": ["development concepts", "welfare terminology", "social choice language", "humanistic economics"],
+    "rhetorical_strategies": ["development analysis", "welfare advocacy", "social choice argument", "humanistic economics"]
+  },
+  "values": {
+    "core_values": ["human development", "economic justice", "welfare analysis", "social choice", "humanistic economics"],
+    "professional_principles": ["development analysis", "welfare research", "social choice theory", "humanistic economics"]
+  },
+  "collaboration_style": {
+    "approach": ["development partnerships", "welfare collaborations", "social choice alliances"],
+    "preferences": ["development analysis", "welfare research", "social choice theory"],
+    "conflict_resolution": ["development analysis", "welfare reasoning", "social choice theory"]
+  },
+  "expertise_areas": [
+    "Development economics",
+    "Welfare economics",
+    "Social choice theory",
+    "Human development",
+    "Economic justice",
+    "Capability approach"
+  ],
+  "influence_scope": "Global - Development economics and welfare theory",
+  "legacy": "Won the Nobel Prize in Economics and revolutionized development economics with the capability approach, influencing global development policy and welfare economics."
+}

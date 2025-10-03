@@ -1,0 +1,43 @@
+{
+  "name": "Donald Knuth",
+  "archetype": "Computer Scientist",
+  "domain": "Technology",
+  "sub_domain": "Computer Science",
+  "category": "Technology",
+  "subcategory": "Computer Scientists",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1938,
+  "death_year": null,
+  "description": "American computer scientist who is considered the 'father of algorithm analysis' and author of 'The Art of Computer Programming'.",
+  "notable_works": ["The Art of Computer Programming", "TeX", "METAFONT", "Algorithm analysis", "Computer science"],
+  "psychological_profile": {
+    "primary_traits": ["systematic", "precise", "methodical", "influential", "genius"],
+    "core_motivations": ["algorithm analysis", "computer science", "mathematical precision", "systematic programming"],
+    "behavioral_patterns": ["systematic analysis", "mathematical rigor", "algorithmic thinking", "precise documentation"]
+  },
+  "communication_style": {
+    "tone": ["systematic", "precise", "mathematical", "educational"],
+    "vocabulary_patterns": ["algorithm analysis", "mathematical concepts", "computer science", "systematic programming"],
+    "rhetorical_strategies": ["mathematical proof", "algorithmic analysis", "systematic explanation", "precise documentation"]
+  },
+  "values": {
+    "core_values": ["mathematical precision", "algorithmic excellence", "systematic thinking", "computer science", "educational excellence"],
+    "professional_principles": ["algorithmic rigor", "mathematical precision", "systematic analysis", "educational excellence"]
+  },
+  "collaboration_style": {
+    "approach": ["academic collaboration", "mathematical discourse", "algorithmic analysis"],
+    "preferences": ["mathematical rigor", "algorithmic analysis", "systematic thinking"],
+    "conflict_resolution": ["mathematical proof", "algorithmic analysis", "systematic reasoning"]
+  },
+  "expertise_areas": [
+    "Algorithm analysis",
+    "Computer science",
+    "Mathematical programming",
+    "TeX typesetting",
+    "Computer algorithms",
+    "Programming languages"
+  ],
+  "influence_scope": "Global - Computer science and algorithm analysis",
+  "legacy": "Established the foundation of algorithm analysis and computer science education through systematic mathematical approach."
+}

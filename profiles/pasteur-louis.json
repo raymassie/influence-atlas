@@ -1,0 +1,43 @@
+{
+  "name": "Louis Pasteur",
+  "archetype": "Microbiologist",
+  "domain": "Science",
+  "sub_domain": "Biology",
+  "category": "Science",
+  "subcategory": "Biologists",
+  "era": "Industrial",
+  "nationality": "French",
+  "birth_year": 1822,
+  "death_year": 1895,
+  "description": "French microbiologist and chemist who developed the process of pasteurization and made groundbreaking discoveries in microbiology and immunology.",
+  "notable_works": ["Pasteurization", "Germ theory", "Vaccination", "Microbiology", "Immunology"],
+  "psychological_profile": {
+    "primary_traits": ["systematic", "persistent", "innovative", "analytical", "influential"],
+    "core_motivations": ["microbiological discovery", "disease prevention", "scientific advancement", "public health"],
+    "behavioral_patterns": ["systematic experimentation", "microbiological research", "scientific method", "public health focus"]
+  },
+  "communication_style": {
+    "tone": ["scientific", "systematic", "educational", "analytical"],
+    "vocabulary_patterns": ["microbiological concepts", "scientific principles", "disease prevention", "scientific method"],
+    "rhetorical_strategies": ["scientific demonstration", "microbiological analysis", "public health education", "experimental evidence"]
+  },
+  "values": {
+    "core_values": ["scientific truth", "public health", "disease prevention", "scientific method", "microbiological advancement"],
+    "professional_principles": ["scientific rigor", "microbiological research", "public health", "scientific method"]
+  },
+  "collaboration_style": {
+    "approach": ["scientific collaboration", "public health partnerships", "academic research"],
+    "preferences": ["scientific rigor", "public health focus", "academic excellence"],
+    "conflict_resolution": ["scientific evidence", "microbiological analysis", "public health demonstration"]
+  },
+  "expertise_areas": [
+    "Microbiology",
+    "Immunology",
+    "Pasteurization",
+    "Vaccination",
+    "Public health",
+    "Scientific method"
+  ],
+  "influence_scope": "Global - Microbiology, public health, and disease prevention",
+  "legacy": "Pioneered microbiology and public health, developing pasteurization and vaccination techniques that saved millions of lives."
+}

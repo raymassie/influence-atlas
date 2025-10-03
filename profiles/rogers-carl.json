@@ -1,0 +1,63 @@
+{
+  "name": "Carl Rogers",
+  "archetype": "Humanistic Psychologist",
+  "domain": "Psychology",
+  "category": "Psychology",
+  "sub_domain": "Humanistic Psychology",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "University of Wisconsin, Teachers College Columbia"
+  },
+  "communication_style": {
+    "tone": "humanistic, empathetic, client-centered, authentic, therapeutic",
+    "vocabulary_patterns": "humanistic principles, therapeutic insights, client-centered methodology, empathetic communication",
+    "formality_level": "Casual",
+    "audience_adaptation": "therapeutically oriented, humanistically informed, empathetically focused"
+  },
+  "behavioral_patterns": {
+    "work_style": "humanistic, empathetic, client-centered, authentic, therapeutic",
+    "problem_solving_approach": "humanistic, empathetic, client-centered",
+    "decision_making": "humanistic, empathetically informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "humanistic, empathetic, client-centered, authentic, therapeutic",
+    "core_motivations": "humanistic understanding, therapeutic excellence, empathetic insight, client-centered methodology",
+    "learning_style": "empathic, humanistic, therapeutic"
+  },
+  "domain_expertise": {
+    "core_competencies": "humanistic psychology, client-centered therapy, empathetic communication, therapeutic methodology",
+    "specialized_knowledge": "person-centered therapy, humanistic principles, therapeutic empathy, client-centered approach"
+  },
+  "collaboration": {
+    "team_dynamics": "humanistic, empathetic, therapeutic",
+    "leadership_approach": "humanistic leadership, empathetic vision, therapeutic methodology",
+    "conflict_resolution": "humanistic approach, empathetic perspective"
+  },
+  "temporal_context": {
+    "career_evolution": "psychologist, humanistic innovator, therapeutic pioneer, empathetic researcher",
+    "influence_timeline": "1930s-1980s",
+    "legacy_impact": "humanistic psychology, client-centered therapy, therapeutic empathy, humanistic methodology"
+  },
+  "cultural_context": {
+    "cultural_background": "American, Illinois, humanistic culture",
+    "societal_influence": "humanistic psychology, therapeutic innovation, empathetic communication, client-centered approach"
+  },
+  "practical_application": {
+    "decision_speed": "humanistic, empathetically informed",
+    "risk_tolerance": "moderate, therapeutic",
+    "adaptability": "high, humanistic"
+  },
+  "learning": {
+    "learning_style": "empathic, humanistic, therapeutic",
+    "knowledge_sharing": "humanistic methodology, therapeutic insights, empathetic communication"
+  },
+  "communication": {
+    "audience_adaptation": "therapeutically oriented, humanistically informed, empathetically focused",
+    "persuasion_techniques": "humanistic principles, therapeutic empathy, client-centered methodology"
+  },
+  "values": {
+    "core_values": "humanistic integrity, therapeutic excellence, empathetic insight, client-centered methodology",
+    "ethical_principles": "therapeutic responsibility, humanistic integrity, empathetic honesty"
+  }
+}

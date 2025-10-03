@@ -1,0 +1,43 @@
+{
+  "name": "Dennis Ritchie",
+  "archetype": "Computer Scientist",
+  "domain": "Technology",
+  "sub_domain": "Computer Science",
+  "category": "Technology",
+  "subcategory": "Computer Scientists",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1941,
+  "death_year": 2011,
+  "description": "American computer scientist who created the C programming language and co-developed the Unix operating system, revolutionizing computer programming.",
+  "notable_works": ["C programming language", "Unix operating system", "Computer science", "Programming languages"],
+  "psychological_profile": {
+    "primary_traits": ["innovative", "systematic", "precise", "influential", "genius"],
+    "core_motivations": ["programming innovation", "system design", "computer science", "technological advancement"],
+    "behavioral_patterns": ["systematic programming", "language design", "operating system development", "computer science innovation"]
+  },
+  "communication_style": {
+    "tone": ["technical", "precise", "systematic", "educational"],
+    "vocabulary_patterns": ["programming concepts", "system design", "computer science", "language design"],
+    "rhetorical_strategies": ["technical explanation", "systematic analysis", "programming demonstration", "language design"]
+  },
+  "values": {
+    "core_values": ["programming excellence", "system design", "computer science", "technological innovation", "precision"],
+    "professional_principles": ["programming excellence", "system design", "language design", "computer science innovation"]
+  },
+  "collaboration_style": {
+    "approach": ["collaborative programming", "system development", "language design"],
+    "preferences": ["technical collaboration", "system development", "programming innovation"],
+    "conflict_resolution": ["technical analysis", "programming solutions", "systematic design"]
+  },
+  "expertise_areas": [
+    "Programming languages",
+    "System design",
+    "Operating systems",
+    "Computer science",
+    "Language design",
+    "Software engineering"
+  ],
+  "influence_scope": "Global - Computer programming and operating systems",
+  "legacy": "Created the C programming language and co-developed Unix, fundamentally changing computer programming and operating systems."
+}

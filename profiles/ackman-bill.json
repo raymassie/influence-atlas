@@ -1,0 +1,90 @@
+{
+  "profile_id": "ackman-bill",
+  "name": "Bill Ackman",
+  "archetype": "Activist Investor",
+  "domain": "Investment",
+  "subdomain": "Activist Investing",
+  "era": "Modern",
+  "birth_year": 1966,
+  "death_year": null,
+  "nationality": "American",
+  "gender": "Male",
+  "occupation": "Investor, Hedge Fund Manager, Activist",
+  "education": "MBA, Harvard Business School",
+  "notable_works": [
+    "Pershing Square Capital Management",
+    "Herbalife short",
+    "Valeant Pharmaceuticals"
+  ],
+  "key_achievements": [
+    "Activist investing pioneer",
+    "Pershing Square founder",
+    "Corporate governance advocate",
+    "Contrarian investing master"
+  ],
+  "communication_style": {
+    "tone": "activist, contrarian, analytical, confrontational, value-focused",
+    "tone_parsed": [
+      "activist",
+      "analytical",
+      "confrontational",
+      "contrarian",
+      "value-focused"
+    ],
+    "sentence_structure": "activist, analytically contrarian, confrontationally focused",
+    "sentence_structure_parsed": [
+      "analytically contrarian",
+      "activist",
+      "confrontationally focused"
+    ],
+    "vocabulary_patterns": "activist terminology, contrarian concepts, analytical language, confrontational communication"
+  },
+  "behavioral_patterns": {
+    "work_style": "activist, contrarian, analytical, confrontational, value-focused",
+    "work_style_parsed": [
+      "activist",
+      "analytical",
+      "confrontational",
+      "contrarian",
+      "value-focused"
+    ],
+    "problem_solving_approach": "activist analysis, contrarian thinking, confrontational solutions"
+  },
+  "psychological_profile": {
+    "primary_traits": "activist, contrarian, analytical, confrontational, value-focused",
+    "core_motivations": "activist change, contrarian success, analytical insight, confrontational improvement"
+  },
+  "values": {
+    "core_values": "activist change, contrarian thinking, analytical precision, confrontational improvement, value creation"
+  },
+  "domain_expertise": {
+    "core_competencies": "activist investing, contrarian analysis, corporate governance, confrontational strategy, value investing"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "activist investing, contrarian analysis, confrontational strategy, value-focused activism"
+  },
+  "collaboration": {
+    "leadership_style": "activist leadership, contrarian direction, confrontational guidance",
+    "team_dynamics": "activist teams, contrarian collaboration, confrontational projects",
+    "mentorship_approach": "activist teaching, contrarian guidance, confrontational education",
+    "conflict_resolution": "activist resolution, contrarian discussion, confrontational compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "analyst, hedge fund manager, activist investor, contrarian strategist",
+    "influence_timeline": "1990s-2000s early investing, 2000s-2010s activist investing, 2010s-2020s contrarian mastery",
+    "legacy_impact": "activist investing pioneer, contrarian analysis master, confrontational strategy expert"
+  },
+  "cultural_context": {
+    "cultural_background": "American investment tradition, activist investing culture, contrarian analysis community"
+  },
+  "practical_application": {
+    "decision_speed": "activist, contrarian-informed, confrontationally considered"
+  },
+  "learning": {
+    "learning_style": "activist study, contrarian exploration, confrontational discovery"
+  },
+  "communication": {
+    "audience_adaptation": "activist audiences, contrarian discourse, confrontational communication"
+  },
+  "category": "Investment"
+}

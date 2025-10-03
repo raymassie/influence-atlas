@@ -1,0 +1,63 @@
+{
+  "name": "B.F. Skinner",
+  "archetype": "Behavioral Psychologist",
+  "domain": "Psychology",
+  "category": "Psychology",
+  "sub_domain": "Behavioral Psychology",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Hamilton College, Harvard University"
+  },
+  "communication_style": {
+    "tone": "systematic, experimental, analytical, behavioral, scientific",
+    "vocabulary_patterns": "behavioral analysis, experimental methodology, systematic observation, scientific precision",
+    "formality_level": "Formal",
+    "audience_adaptation": "scientifically oriented, behaviorally informed, experimentally focused"
+  },
+  "behavioral_patterns": {
+    "work_style": "systematic, experimental, analytical, behavioral, scientific",
+    "problem_solving_approach": "experimental, behavioral, systematic",
+    "decision_making": "experimental, behaviorally informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "systematic, experimental, analytical, behavioral, scientific",
+    "core_motivations": "behavioral understanding, experimental excellence, systematic methodology, scientific precision",
+    "learning_style": "experimental, behavioral, systematic"
+  },
+  "domain_expertise": {
+    "core_competencies": "behavioral psychology, experimental methodology, systematic analysis, operant conditioning",
+    "specialized_knowledge": "operant conditioning, behavioral analysis, experimental design, systematic observation"
+  },
+  "collaboration": {
+    "team_dynamics": "experimental, behavioral, systematic",
+    "leadership_approach": "experimental leadership, behavioral vision, systematic methodology",
+    "conflict_resolution": "experimental approach, behavioral perspective"
+  },
+  "temporal_context": {
+    "career_evolution": "psychologist, behavioral researcher, experimental innovator, systematic analyst",
+    "influence_timeline": "1930s-1990s",
+    "legacy_impact": "behavioral psychology, experimental methodology, operant conditioning, systematic analysis"
+  },
+  "cultural_context": {
+    "cultural_background": "American, Pennsylvania, scientific culture",
+    "societal_influence": "behavioral psychology, experimental methodology, systematic analysis, scientific innovation"
+  },
+  "practical_application": {
+    "decision_speed": "experimental, behaviorally informed",
+    "risk_tolerance": "moderate, experimental",
+    "adaptability": "high, behavioral"
+  },
+  "learning": {
+    "learning_style": "experimental, behavioral, systematic",
+    "knowledge_sharing": "behavioral methodology, experimental insights, systematic analysis"
+  },
+  "communication": {
+    "audience_adaptation": "scientifically oriented, behaviorally informed, experimentally focused",
+    "persuasion_techniques": "experimental evidence, behavioral analysis, systematic methodology"
+  },
+  "values": {
+    "core_values": "behavioral understanding, experimental excellence, systematic methodology, scientific precision",
+    "ethical_principles": "experimental integrity, behavioral responsibility, systematic honesty"
+  }
+}

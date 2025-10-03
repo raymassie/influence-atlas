@@ -1,0 +1,43 @@
+{
+  "name": "Milton Friedman",
+  "archetype": "Economist",
+  "domain": "Economics",
+  "sub_domain": "Monetarism",
+  "category": "Economics",
+  "subcategory": "Economists",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1912,
+  "death_year": 2006,
+  "description": "American economist who led the Chicago School of Economics and was a leading advocate of free markets and monetarism.",
+  "notable_works": ["Capitalism and Freedom", "Free to Choose", "Monetary History", "Economic theory"],
+  "psychological_profile": {
+    "primary_traits": ["analytical", "principled", "influential", "systematic", "free-market"],
+    "core_motivations": ["free market advocacy", "economic theory", "monetary policy", "economic freedom"],
+    "behavioral_patterns": ["economic analysis", "free market advocacy", "monetary theory", "systematic thinking"]
+  },
+  "communication_style": {
+    "tone": ["analytical", "principled", "influential", "systematic"],
+    "vocabulary_patterns": ["economic concepts", "free market terminology", "monetary policy", "economic analysis"],
+    "rhetorical_strategies": ["economic analysis", "free market advocacy", "monetary argument", "economic theory"]
+  },
+  "values": {
+    "core_values": ["free markets", "economic freedom", "monetary stability", "economic efficiency", "individual liberty"],
+    "professional_principles": ["economic analysis", "free market advocacy", "monetary theory", "economic efficiency"]
+  },
+  "collaboration_style": {
+    "approach": ["economic collaboration", "academic partnerships", "policy alliances"],
+    "preferences": ["economic analysis", "free market advocacy", "monetary policy"],
+    "conflict_resolution": ["economic analysis", "free market reasoning", "monetary policy"]
+  },
+  "expertise_areas": [
+    "Monetary theory",
+    "Free market economics",
+    "Economic policy",
+    "Macroeconomics",
+    "Economic analysis",
+    "Public choice theory"
+  ],
+  "influence_scope": "Global - Economics and monetary policy",
+  "legacy": "Led the Chicago School of Economics and revolutionized monetary theory, influencing economic policy and free market advocacy worldwide."
+}

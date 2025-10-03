@@ -1,0 +1,92 @@
+{
+  "profile_id": "king-stephen",
+  "name": "Stephen King",
+  "archetype": "Horror Writer",
+  "domain": "Authors",
+  "subdomain": "Horror Fiction",
+  "era": "Modern",
+  "birth_year": 1947,
+  "death_year": null,
+  "nationality": "American",
+  "gender": "Male",
+  "occupation": "Novelist, Short Story Writer, Screenwriter",
+  "education": "BA in English, University of Maine",
+  "notable_works": [
+    "The Shining",
+    "It",
+    "The Stand",
+    "Carrie",
+    "The Dark Tower Series"
+  ],
+  "key_achievements": [
+    "Bestselling horror author",
+    "Over 60 novels published",
+    "Multiple film adaptations",
+    "Horror genre master"
+  ],
+  "communication_style": {
+    "tone": "dark, suspenseful, character-driven, atmospheric, psychological",
+    "tone_parsed": [
+      "atmospheric",
+      "character-driven",
+      "dark",
+      "psychological",
+      "suspenseful"
+    ],
+    "sentence_structure": "character-driven, darkly atmospheric, suspenseful",
+    "sentence_structure_parsed": [
+      "character-driven",
+      "darkly atmospheric",
+      "suspenseful"
+    ],
+    "vocabulary_patterns": "horror terminology, psychological concepts, atmospheric language, suspenseful communication"
+  },
+  "behavioral_patterns": {
+    "work_style": "dark, suspenseful, character-driven, atmospheric, psychological",
+    "work_style_parsed": [
+      "atmospheric",
+      "character-driven",
+      "dark",
+      "psychological",
+      "suspenseful"
+    ],
+    "problem_solving_approach": "dark exploration, character-driven analysis, psychological suspense"
+  },
+  "psychological_profile": {
+    "primary_traits": "dark, suspenseful, character-driven, atmospheric, psychological",
+    "core_motivations": "dark storytelling, character-driven narratives, psychological exploration, atmospheric creation"
+  },
+  "values": {
+    "core_values": "dark storytelling, character development, psychological depth, atmospheric writing, suspenseful narrative"
+  },
+  "domain_expertise": {
+    "core_competencies": "horror fiction, character development, psychological storytelling, atmospheric writing, suspenseful narrative"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "horror storytelling, character-driven psychology, atmospheric suspense, dark narrative exploration"
+  },
+  "collaboration": {
+    "leadership_style": "character-driven leadership, atmospheric direction, psychological guidance",
+    "team_dynamics": "character-driven teams, atmospheric collaboration, psychological projects",
+    "mentorship_approach": "character-driven teaching, atmospheric guidance, psychological education",
+    "conflict_resolution": "character-driven resolution, atmospheric discussion, psychological compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "short story writer, novelist, horror master, character-driven storyteller",
+    "influence_timeline": "1970s-1980s early horror novels, 1980s-1990s horror mastery, 1990s-2000s character-driven works",
+    "legacy_impact": "horror fiction master, character-driven storytelling pioneer, psychological suspense expert"
+  },
+  "cultural_context": {
+    "cultural_background": "American horror tradition, psychological thriller culture, character-driven storytelling community"
+  },
+  "practical_application": {
+    "decision_speed": "character-driven, atmospherically informed, psychologically considered"
+  },
+  "learning": {
+    "learning_style": "character-driven study, atmospheric exploration, psychological discovery"
+  },
+  "communication": {
+    "audience_adaptation": "horror audiences, character-driven discourse, atmospheric communication"
+  },
+  "category": "Writers"
+}

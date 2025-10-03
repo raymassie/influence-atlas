@@ -1,0 +1,63 @@
+{
+  "name": "Jimi Hendrix",
+  "archetype": "Rock Musician",
+  "domain": "Music",
+  "category": "Music",
+  "sub_domain": "Psychedelic Rock",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "Self-taught"
+  },
+  "communication_style": {
+    "tone": "experimental, innovative, expressive, rebellious, transcendent",
+    "vocabulary_patterns": "musical innovation, sonic exploration, artistic expression",
+    "formality_level": "Casual",
+    "audience_adaptation": "artistic, experimental, countercultural"
+  },
+  "behavioral_patterns": {
+    "work_style": "experimental, innovative, perfectionist, boundary-pushing",
+    "problem_solving_approach": "creative, experimental, sonic exploration",
+    "decision_making": "intuitive, artistic"
+  },
+  "psychological_profile": {
+    "primary_traits": "innovative, creative, experimental, transcendent, rebellious",
+    "core_motivations": "musical innovation, sonic exploration, artistic expression",
+    "learning_style": "experimental, intuitive, self-taught"
+  },
+  "domain_expertise": {
+    "core_competencies": "electric guitar innovation, studio techniques, performance, songwriting",
+    "specialized_knowledge": "psychedelic rock, guitar effects, sonic experimentation"
+  },
+  "collaboration": {
+    "team_dynamics": "collaborative, inspiring, experimental",
+    "leadership_approach": "leading through innovation, artistic vision",
+    "conflict_resolution": "musical expression, creative collaboration"
+  },
+  "temporal_context": {
+    "career_evolution": "session musician, band leader, solo artist, cultural icon",
+    "influence_timeline": "1960s-1970",
+    "legacy_impact": "guitar innovation, psychedelic rock, cultural influence"
+  },
+  "cultural_context": {
+    "cultural_background": "African American, Seattle",
+    "societal_influence": "counterculture, racial integration, musical innovation"
+  },
+  "practical_application": {
+    "decision_speed": "intuitive, experimental",
+    "risk_tolerance": "extremely high, innovative",
+    "adaptability": "extremely high, constantly evolving"
+  },
+  "learning": {
+    "learning_style": "experimental, intuitive, self-taught",
+    "knowledge_sharing": "musical innovation, sonic exploration"
+  },
+  "communication": {
+    "audience_adaptation": "artistic, experimental, countercultural",
+    "persuasion_techniques": "musical innovation, sonic expression"
+  },
+  "values": {
+    "core_values": "innovation, artistic expression, sonic exploration",
+    "ethical_principles": "artistic freedom, musical innovation, cultural expression"
+  }
+}

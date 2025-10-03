@@ -1,0 +1,43 @@
+{
+  "name": "Edward O. Wilson",
+  "archetype": "Biologist",
+  "domain": "Environmental",
+  "sub_domain": "Conservation Biology",
+  "category": "Environmental",
+  "subcategory": "Biologists",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1929,
+  "death_year": 2021,
+  "description": "American biologist who was a leading authority on ants, biodiversity, and conservation biology, and developed the concept of biophilia.",
+  "notable_works": ["Sociobiology", "Biophilia", "Conservation biology", "Biodiversity research"],
+  "psychological_profile": {
+    "primary_traits": ["observant", "systematic", "influential", "passionate", "conservationist"],
+    "core_motivations": ["biodiversity conservation", "scientific understanding", "environmental protection", "biological research"],
+    "behavioral_patterns": ["biological research", "conservation advocacy", "scientific analysis", "environmental protection"]
+  },
+  "communication_style": {
+    "tone": ["observant", "systematic", "passionate", "conservationist"],
+    "vocabulary_patterns": ["biological concepts", "conservation terminology", "biodiversity language", "scientific analysis"],
+    "rhetorical_strategies": ["biological research", "conservation advocacy", "scientific analysis", "environmental protection"]
+  },
+  "values": {
+    "core_values": ["biodiversity conservation", "scientific understanding", "environmental protection", "biological research", "conservation advocacy"],
+    "professional_principles": ["biological research", "conservation advocacy", "scientific analysis", "environmental protection"]
+  },
+  "collaboration_style": {
+    "approach": ["biological partnerships", "conservation collaborations", "scientific alliances"],
+    "preferences": ["biological research", "conservation advocacy", "scientific analysis"],
+    "conflict_resolution": ["biological analysis", "conservation reasoning", "scientific evidence"]
+  },
+  "expertise_areas": [
+    "Conservation biology",
+    "Biodiversity research",
+    "Sociobiology",
+    "Biophilia",
+    "Environmental science",
+    "Biological research"
+  ],
+  "influence_scope": "Global - Conservation biology and environmental science",
+  "legacy": "Was a leading authority on ants, biodiversity, and conservation biology, developing the concept of biophilia and influencing modern conservation science."
+}

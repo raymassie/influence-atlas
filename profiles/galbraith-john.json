@@ -1,0 +1,43 @@
+{
+  "name": "John Kenneth Galbraith",
+  "archetype": "Economist",
+  "domain": "Economics",
+  "sub_domain": "Institutional Economics",
+  "category": "Economics",
+  "subcategory": "Economists",
+  "era": "Modern",
+  "nationality": "American",
+  "birth_year": 1908,
+  "death_year": 2006,
+  "description": "American economist who was a leading voice in institutional economics and became known for his critiques of conventional economic wisdom.",
+  "notable_works": ["The Affluent Society", "The New Industrial State", "Institutional economics", "Economic critique"],
+  "psychological_profile": {
+    "primary_traits": ["analytical", "critical", "influential", "systematic", "iconoclastic"],
+    "core_motivations": ["economic critique", "institutional analysis", "public education", "economic understanding"],
+    "behavioral_patterns": ["economic critique", "institutional analysis", "public communication", "systematic thinking"]
+  },
+  "communication_style": {
+    "tone": ["analytical", "critical", "influential", "systematic"],
+    "vocabulary_patterns": ["economic concepts", "institutional terminology", "critical language", "economic analysis"],
+    "rhetorical_strategies": ["economic critique", "institutional analysis", "public communication", "economic understanding"]
+  },
+  "values": {
+    "core_values": ["economic critique", "institutional analysis", "public education", "economic understanding", "systematic analysis"],
+    "professional_principles": ["economic critique", "institutional analysis", "public communication", "economic understanding"]
+  },
+  "collaboration_style": {
+    "approach": ["economic partnerships", "institutional collaborations", "public alliances"],
+    "preferences": ["economic critique", "institutional analysis", "public communication"],
+    "conflict_resolution": ["economic analysis", "institutional reasoning", "public education"]
+  },
+  "expertise_areas": [
+    "Institutional economics",
+    "Economic critique",
+    "Public policy",
+    "Economic analysis",
+    "Economic communication",
+    "Industrial organization"
+  ],
+  "influence_scope": "Global - Economics and public policy",
+  "legacy": "Became a leading voice in institutional economics and economic critique, influencing public understanding of economic policy and industrial organization."
+}

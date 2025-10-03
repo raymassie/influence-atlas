@@ -1,0 +1,43 @@
+{
+  "name": "Alexander Fleming",
+  "archetype": "Microbiologist",
+  "domain": "Medicine",
+  "sub_domain": "Microbiology",
+  "category": "Medicine",
+  "subcategory": "Microbiologists",
+  "era": "Modern",
+  "nationality": "Scottish",
+  "birth_year": 1881,
+  "death_year": 1955,
+  "description": "Scottish microbiologist who discovered penicillin and revolutionized medicine with the first antibiotic, saving countless lives.",
+  "notable_works": ["Penicillin discovery", "Antibiotic research", "Microbiology", "Nobel Prize in Medicine"],
+  "psychological_profile": {
+    "primary_traits": ["observant", "innovative", "analytical", "persistent", "methodical"],
+    "core_motivations": ["medical discovery", "antibiotic research", "disease treatment", "microbiological innovation"],
+    "behavioral_patterns": ["microbiological observation", "antibiotic research", "medical experimentation", "scientific discovery"]
+  },
+  "communication_style": {
+    "tone": ["observant", "innovative", "analytical", "scientific"],
+    "vocabulary_patterns": ["microbiological concepts", "antibiotic terminology", "scientific discovery", "medical research"],
+    "rhetorical_strategies": ["microbiological demonstration", "scientific discovery", "antibiotic analysis", "medical argument"]
+  },
+  "values": {
+    "core_values": ["medical discovery", "antibiotic research", "disease treatment", "microbiological innovation", "scientific accuracy"],
+    "professional_principles": ["microbiological research", "antibiotic discovery", "medical experimentation", "scientific innovation"]
+  },
+  "collaboration_style": {
+    "approach": ["microbiological collaboration", "antibiotic research", "medical partnerships"],
+    "preferences": ["microbiological research", "antibiotic discovery", "medical experimentation"],
+    "conflict_resolution": ["microbiological evidence", "antibiotic research", "medical demonstration"]
+  },
+  "expertise_areas": [
+    "Microbiology",
+    "Antibiotic research",
+    "Penicillin discovery",
+    "Medical microbiology",
+    "Disease treatment",
+    "Scientific discovery"
+  ],
+  "influence_scope": "Global - Antibiotics and infectious disease treatment",
+  "legacy": "Discovered penicillin and revolutionized medicine with antibiotics, saving countless lives and founding modern antibiotic therapy."
+}

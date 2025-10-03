@@ -1,0 +1,43 @@
+{
+  "name": "Harper Lee",
+  "archetype": "Novelist",
+  "domain": "Writing",
+  "sub_domain": "Literature",
+  "category": "Writers",
+  "subcategory": "Novelists",
+  "era": "Modern",
+  "nationality": "American",
+  "birth_year": 1926,
+  "death_year": 2016,
+  "description": "American novelist who wrote 'To Kill a Mockingbird', one of the most influential novels in American literature about racial injustice.",
+  "notable_works": ["To Kill a Mockingbird", "Go Set a Watchman", "Literary fiction", "Social commentary"],
+  "psychological_profile": {
+    "primary_traits": ["observant", "principled", "introspective", "courageous", "empathetic"],
+    "core_motivations": ["social justice", "racial equality", "literary excellence", "truth telling"],
+    "behavioral_patterns": ["social justice writing", "racial equality advocacy", "literary excellence", "truth exploration"]
+  },
+  "communication_style": {
+    "tone": ["observant", "principled", "empathetic", "courageous"],
+    "vocabulary_patterns": ["social justice concepts", "racial equality terminology", "literary language", "moral expression"],
+    "rhetorical_strategies": ["social justice advocacy", "racial equality", "moral storytelling", "truth telling"]
+  },
+  "values": {
+    "core_values": ["social justice", "racial equality", "literary excellence", "moral courage", "truth telling"],
+    "professional_principles": ["social justice writing", "racial equality advocacy", "literary excellence", "moral storytelling"]
+  },
+  "collaboration_style": {
+    "approach": ["literary partnerships", "social justice collaborations", "moral alliances"],
+    "preferences": ["social justice writing", "racial equality advocacy", "literary excellence"],
+    "conflict_resolution": ["moral analysis", "social justice reasoning", "truth telling"]
+  },
+  "expertise_areas": [
+    "Novel writing",
+    "Social justice literature",
+    "Racial equality advocacy",
+    "Literary fiction",
+    "Moral storytelling",
+    "American literature"
+  ],
+  "influence_scope": "Global - Literature and social justice",
+  "legacy": "Wrote 'To Kill a Mockingbird', one of the most influential novels in American literature, addressing racial injustice and moral courage with profound impact."
+}

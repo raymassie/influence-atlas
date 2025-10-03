@@ -1,0 +1,43 @@
+{
+  "name": "Montesquieu",
+  "archetype": "Political Philosopher",
+  "domain": "Public Policy",
+  "sub_domain": "Political Theory",
+  "category": "Public Policy",
+  "subcategory": "Political Philosophers",
+  "era": "Enlightenment",
+  "nationality": "French",
+  "birth_year": 1689,
+  "death_year": 1755,
+  "description": "French philosopher who developed the theory of separation of powers and influenced constitutional government and political science.",
+  "notable_works": ["The Spirit of the Laws", "Persian Letters", "Separation of powers", "Political science"],
+  "psychological_profile": {
+    "primary_traits": ["analytical", "systematic", "constitutional", "observant", "principled"],
+    "core_motivations": ["constitutional government", "separation of powers", "political science", "institutional analysis"],
+    "behavioral_patterns": ["constitutional analysis", "institutional study", "political science", "separation of powers"]
+  },
+  "communication_style": {
+    "tone": ["analytical", "systematic", "constitutional", "observant"],
+    "vocabulary_patterns": ["constitutional concepts", "political science", "separation of powers", "institutional analysis"],
+    "rhetorical_strategies": ["constitutional analysis", "institutional argument", "separation of powers", "political science"]
+  },
+  "values": {
+    "core_values": ["constitutional government", "separation of powers", "political science", "institutional analysis", "systematic study"],
+    "professional_principles": ["constitutional analysis", "political science", "separation of powers", "institutional study"]
+  },
+  "collaboration_style": {
+    "approach": ["constitutional collaboration", "political science partnerships", "institutional alliances"],
+    "preferences": ["constitutional analysis", "political science", "institutional study"],
+    "conflict_resolution": ["constitutional analysis", "institutional reasoning", "political science"]
+  },
+  "expertise_areas": [
+    "Political science",
+    "Constitutional government",
+    "Separation of powers",
+    "Institutional analysis",
+    "Political theory",
+    "Constitutional law"
+  ],
+  "influence_scope": "Global - Constitutional government and political science",
+  "legacy": "Developed the theory of separation of powers and influenced constitutional government, shaping modern political science and constitutional law."
+}

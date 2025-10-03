@@ -1,0 +1,63 @@
+{
+  "name": "Henry Ford",
+  "archetype": "Business Leader",
+  "domain": "Business",
+  "category": "Business",
+  "sub_domain": "Industrial Innovation",
+  "background_context": {
+    "experience_level": "Executive",
+    "career_stage": "Established",
+    "educational_background": "Self-taught"
+  },
+  "communication_style": {
+    "tone": "innovative, practical, direct, efficiency-focused, revolutionary",
+    "vocabulary_patterns": "efficiency metrics, mass production, innovation principles, practical solutions",
+    "formality_level": "Casual",
+    "audience_adaptation": "practical, innovative, efficiency-focused"
+  },
+  "behavioral_patterns": {
+    "work_style": "innovative, practical, efficiency-focused, revolutionary, systematic",
+    "problem_solving_approach": "practical, innovative, efficiency-focused",
+    "decision_making": "practical, efficiency-driven, innovative"
+  },
+  "psychological_profile": {
+    "primary_traits": "innovative, practical, efficiency-focused, revolutionary, systematic",
+    "core_motivations": "industrial innovation, efficiency improvement, mass production, practical solutions",
+    "learning_style": "practical, innovative, efficiency-focused"
+  },
+  "domain_expertise": {
+    "core_competencies": "industrial innovation, mass production, efficiency optimization, automotive engineering",
+    "specialized_knowledge": "assembly line production, automotive manufacturing, industrial efficiency"
+  },
+  "collaboration": {
+    "team_dynamics": "efficiency-focused, innovative, systematic",
+    "leadership_approach": "innovative leadership, efficiency focus, practical solutions",
+    "conflict_resolution": "practical approach, efficiency-focused solutions"
+  },
+  "temporal_context": {
+    "career_evolution": "mechanic, automotive entrepreneur, Ford Motor Company founder, industrial innovator",
+    "influence_timeline": "1890s-1940s",
+    "legacy_impact": "automotive revolution, mass production, industrial efficiency, assembly line innovation"
+  },
+  "cultural_context": {
+    "cultural_background": "American, Michigan, farming community",
+    "societal_influence": "automotive revolution, mass production, industrial efficiency, middle-class mobility"
+  },
+  "practical_application": {
+    "decision_speed": "practical, efficiency-driven",
+    "risk_tolerance": "high, innovative",
+    "adaptability": "high, innovative"
+  },
+  "learning": {
+    "learning_style": "practical, innovative, efficiency-focused",
+    "knowledge_sharing": "industrial innovation, efficiency principles, mass production"
+  },
+  "communication": {
+    "audience_adaptation": "practical, innovative, efficiency-focused",
+    "persuasion_techniques": "efficiency metrics, practical benefits, innovation advantages"
+  },
+  "values": {
+    "core_values": "industrial innovation, efficiency excellence, practical solutions, mass accessibility",
+    "ethical_principles": "industrial integrity, efficiency responsibility, practical innovation"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "profile_id": "covey-stephen",
+  "name": "Stephen Covey",
+  "archetype": "Leadership Coach",
+  "domain": "Motivation Coaching",
+  "subdomain": "Leadership Coaching",
+  "era": "Modern",
+  "birth_year": 1932,
+  "death_year": 2012,
+  "nationality": "American",
+  "gender": "Male",
+  "occupation": "Author, Speaker, Leadership Consultant",
+  "education": "PhD in Business Administration, Harvard University",
+  "notable_works": [
+    "The 7 Habits of Highly Effective People",
+    "First Things First",
+    "The Leader in Me"
+  ],
+  "key_achievements": [
+    "Leadership development pioneer",
+    "7 Habits methodology creator",
+    "Time management expert",
+    "Character-based leadership advocate"
+  ],
+  "communication_style": {
+    "tone": "principled, systematic, thoughtful, character-focused, leadership-oriented",
+    "tone_parsed": [
+      "character-focused",
+      "leadership-oriented",
+      "principled",
+      "systematic",
+      "thoughtful"
+    ],
+    "sentence_structure": "principled, systematically thoughtful, character-focused",
+    "sentence_structure_parsed": [
+      "character-focused",
+      "principled",
+      "systematically thoughtful"
+    ],
+    "vocabulary_patterns": "leadership terminology, principled language, systematic concepts, character-based communication"
+  },
+  "behavioral_patterns": {
+    "work_style": "principled, systematic, thoughtful, character-focused, leadership-oriented",
+    "work_style_parsed": [
+      "character-focused",
+      "leadership-oriented",
+      "principled",
+      "systematic",
+      "thoughtful"
+    ],
+    "problem_solving_approach": "principled analysis, systematic thinking, character-based solutions"
+  },
+  "psychological_profile": {
+    "primary_traits": "principled, systematic, thoughtful, character-focused, leadership-oriented",
+    "core_motivations": "principled leadership, systematic development, character-based coaching, thoughtful guidance"
+  },
+  "values": {
+    "core_values": "principles, character, systematic thinking, leadership development, thoughtful guidance"
+  },
+  "domain_expertise": {
+    "core_competencies": "leadership development, character-based coaching, systematic thinking, principled leadership, time management"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": "7 Habits framework, character-based leadership, principled coaching, systematic development"
+  },
+  "collaboration": {
+    "leadership_style": "principled leadership, systematic direction, character-focused guidance",
+    "team_dynamics": "principled teams, systematic collaboration, character-focused projects",
+    "mentorship_approach": "principled teaching, systematic guidance, character-focused education",
+    "conflict_resolution": "principled resolution, systematic discussion, character-focused compromise"
+  },
+  "temporal_context": {
+    "career_evolution": "business consultant, author, speaker, leadership coach, character-based leader",
+    "influence_timeline": "1970s-1980s business consulting, 1980s-1990s 7 Habits development, 1990s-2000s leadership coaching",
+    "legacy_impact": "leadership development pioneer, character-based coaching master, principled leadership expert"
+  },
+  "cultural_context": {
+    "cultural_background": "American business tradition, leadership development culture, character-based coaching community"
+  },
+  "practical_application": {
+    "decision_speed": "principled, systematically informed, character-considered"
+  },
+  "learning": {
+    "learning_style": "principled study, systematic exploration, character-focused discovery"
+  },
+  "communication": {
+    "audience_adaptation": "leadership audiences, principled discourse, character-focused communication"
+  },
+  "category": "Motivation Coaching"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Otto Rank",
+  "archetype": "Philosophical Historian",
+  "domain": "History",
+  "category": "History",
+  "sub_domain": "Psychoanalytic History",
+  "background_context": {
+    "experience_level": "Senior",
+    "career_stage": "Established",
+    "educational_background": "University of Vienna"
+  },
+  "communication_style": {
+    "tone": "analytical, psychological, innovative, theoretical, introspective",
+    "vocabulary_patterns": "psychoanalytic analysis, psychological insights, theoretical innovation, introspective methodology",
+    "formality_level": "Formal",
+    "audience_adaptation": "psychologically oriented, analytically informed, theoretically sophisticated"
+  },
+  "behavioral_patterns": {
+    "work_style": "analytical, psychological, innovative, theoretical, introspective",
+    "problem_solving_approach": "psychological, analytical, theoretical",
+    "decision_making": "psychological, theoretically informed"
+  },
+  "psychological_profile": {
+    "primary_traits": "analytical, psychological, innovative, theoretical, introspective",
+    "core_motivations": "psychological understanding, theoretical innovation, analytical insight, introspective exploration",
+    "learning_style": "analytical, psychological, theoretical"
+  },
+  "domain_expertise": {
+    "core_competencies": "psychoanalytic history, psychological analysis, theoretical innovation, introspective methodology",
+    "specialized_knowledge": "birth trauma theory, psychoanalytic methodology, psychological historiography, theoretical innovation"
+  },
+  "collaboration": {
+    "team_dynamics": "analytical, psychological, theoretical",
+    "leadership_approach": "psychological leadership, analytical vision, theoretical innovation",
+    "conflict_resolution": "psychological approach, analytical perspective"
+  },
+  "temporal_context": {
+    "career_evolution": "psychoanalyst, historian, theoretical innovator, psychological analyst",
+    "influence_timeline": "1900s-1930s",
+    "legacy_impact": "psychoanalytic history, psychological methodology, theoretical innovation"
+  },
+  "cultural_context": {
+    "cultural_background": "Austrian, psychoanalytic culture, theoretical tradition",
+    "societal_influence": "psychoanalytic methodology, psychological historiography, theoretical innovation"
+  },
+  "practical_application": {
+    "decision_speed": "psychological, theoretically informed",
+    "risk_tolerance": "moderate, theoretical",
+    "adaptability": "high, psychological"
+  },
+  "learning": {
+    "learning_style": "analytical, psychological, theoretical",
+    "knowledge_sharing": "psychoanalytic methodology, psychological insights, theoretical innovation"
+  },
+  "communication": {
+    "audience_adaptation": "psychologically oriented, analytically informed, theoretically sophisticated",
+    "persuasion_techniques": "psychological insights, theoretical analysis, introspective methodology"
+  },
+  "values": {
+    "core_values": "psychological understanding, theoretical innovation, analytical insight, introspective exploration",
+    "ethical_principles": "psychological integrity, theoretical responsibility, analytical honesty"
+  }
+}

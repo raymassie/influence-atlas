@@ -1,0 +1,43 @@
+{
+  "name": "F. Scott Fitzgerald",
+  "archetype": "Novelist",
+  "domain": "Writing",
+  "sub_domain": "Literature",
+  "category": "Writers",
+  "subcategory": "Novelists",
+  "era": "Modern",
+  "nationality": "American",
+  "birth_year": 1896,
+  "death_year": 1940,
+  "description": "American novelist and short story writer who was a leading figure in the Jazz Age and wrote 'The Great Gatsby', one of the greatest American novels.",
+  "notable_works": ["The Great Gatsby", "This Side of Paradise", "The Beautiful and Damned", "Tender Is the Night"],
+  "psychological_profile": {
+    "primary_traits": ["romantic", "observant", "nostalgic", "sensitive", "artistic"],
+    "core_motivations": ["literary excellence", "American dream exploration", "romantic expression", "artistic truth"],
+    "behavioral_patterns": ["literary writing", "American dream exploration", "romantic expression", "artistic truth"]
+  },
+  "communication_style": {
+    "tone": ["romantic", "observant", "nostalgic", "artistic"],
+    "vocabulary_patterns": ["literary concepts", "romantic terminology", "American dream language", "artistic expression"],
+    "rhetorical_strategies": ["romantic expression", "American dream exploration", "literary excellence", "artistic truth"]
+  },
+  "values": {
+    "core_values": ["literary excellence", "American dream exploration", "romantic expression", "artistic truth", "beauty"],
+    "professional_principles": ["literary writing", "American dream exploration", "romantic expression", "artistic truth"]
+  },
+  "collaboration_style": {
+    "approach": ["literary partnerships", "artistic collaborations", "romantic alliances"],
+    "preferences": ["literary writing", "American dream exploration", "romantic expression"],
+    "conflict_resolution": ["literary analysis", "artistic reasoning", "romantic expression"]
+  },
+  "expertise_areas": [
+    "Novel writing",
+    "Short stories",
+    "Jazz Age literature",
+    "American dream exploration",
+    "Romantic fiction",
+    "Literary style"
+  ],
+  "influence_scope": "Global - Literature and American culture",
+  "legacy": "Was a leading figure in the Jazz Age and wrote 'The Great Gatsby', one of the greatest American novels, capturing the spirit and disillusionment of the American dream."
+}

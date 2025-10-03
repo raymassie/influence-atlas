@@ -1,0 +1,43 @@
+{
+  "name": "John Steinbeck",
+  "archetype": "Novelist",
+  "domain": "Writing",
+  "sub_domain": "Literature",
+  "category": "Writers",
+  "subcategory": "Novelists",
+  "era": "Modern",
+  "nationality": "American",
+  "birth_year": 1902,
+  "death_year": 1968,
+  "description": "American novelist who won the Nobel Prize in Literature and wrote about social issues and the American experience, most notably 'The Grapes of Wrath'.",
+  "notable_works": ["The Grapes of Wrath", "Of Mice and Men", "East of Eden", "The Pearl"],
+  "psychological_profile": {
+    "primary_traits": ["empathetic", "observant", "social", "realistic", "compassionate"],
+    "core_motivations": ["social justice", "literary excellence", "American experience", "human dignity"],
+    "behavioral_patterns": ["social justice writing", "American experience exploration", "literary excellence", "human dignity advocacy"]
+  },
+  "communication_style": {
+    "tone": ["empathetic", "realistic", "social", "compassionate"],
+    "vocabulary_patterns": ["social justice concepts", "American experience terminology", "literary language", "human dignity"],
+    "rhetorical_strategies": ["social justice advocacy", "American experience", "literary excellence", "human dignity"]
+  },
+  "values": {
+    "core_values": ["social justice", "literary excellence", "American experience", "human dignity", "compassion"],
+    "professional_principles": ["social justice writing", "American experience exploration", "literary excellence", "human dignity advocacy"]
+  },
+  "collaboration_style": {
+    "approach": ["social justice partnerships", "literary collaborations", "human dignity alliances"],
+    "preferences": ["social justice writing", "American experience exploration", "literary excellence"],
+    "conflict_resolution": ["social justice analysis", "human dignity reasoning", "literary excellence"]
+  },
+  "expertise_areas": [
+    "Novel writing",
+    "Social justice literature",
+    "American experience",
+    "Literary fiction",
+    "Human dignity advocacy",
+    "Realist literature"
+  ],
+  "influence_scope": "Global - Literature and social justice",
+  "legacy": "Won the Nobel Prize in Literature and wrote powerful novels about social issues and the American experience, including 'The Grapes of Wrath', becoming one of America's greatest realist writers."
+}
