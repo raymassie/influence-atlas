@@ -550,6 +550,11 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 }
 .trait-tag:hover { 
     background: #283618; 
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+.clickable-badge {
+    position: relative;
 }
 .trait-tag.active { 
     background: #283618; 

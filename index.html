@@ -8,7 +8,7 @@
     <meta http-equiv="Expires" content="0">
     <title>JSON Context Profiles - Layout Fixed v8.5</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
-    <link rel="stylesheet" href="styles.css?v=6.8">
+                <link rel="stylesheet" href="styles.css?v=7.2">
 </head>
 <body>
     <div class="container">
@@ -38,7 +38,7 @@
             
             <div class="nav-right">
                 <div class="search-container">
-                    <input type="text" id="search-filter" placeholder="Search profiles..." onkeyup="filterProfiles()">
+                    <input type="text" id="search-filter" placeholder="Search profiles... (Ctrl+F)" onkeyup="debouncedFilterProfiles()">
                 </div>
             </div>
         </div>
@@ -374,7 +374,7 @@
             try {
                 console.log('🔄 Loading profiles from all-profiles.json...');
                 
-                const response = await fetch('all-profiles.json?v=6.4');
+                const response = await fetch('all-profiles.json?v=7.1');
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
@@ -825,7 +825,7 @@
                         });
                     }
                 });
-                document.getElementById('search-filter').addEventListener('input', filterProfiles);
+                document.getElementById('search-filter').addEventListener('input', debouncedFilterProfiles);
                 console.log('✓ Event listeners added to all filters with cascading support');
             }, 100);
         }
@@ -1222,7 +1222,7 @@
                 setTimeout(() => {
                     const profileCards = document.querySelectorAll('.profile-card');
                     const targetCard = Array.from(profileCards).find(card => 
-                        card.querySelector('.profile-name').textContent === targetProfile.name
+                        card.querySelector('.card-name').textContent === targetProfile.name
                     );
                     
                     if (targetCard) {
@@ -1243,6 +1243,47 @@
 
         function updateQuickNavigationStats() {
             document.getElementById('visible-count-nav').textContent = filteredProfiles.length;
+        }
+
+        // Debounced search for better performance
+        let searchTimeout;
+        function debouncedFilterProfiles() {
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(filterProfiles, 150); // 150ms delay
+        }
+
+        // Badge search function - filter profiles by trait/badge value
+        function searchByBadge(badgeValue) {
+            console.log('🔍 Searching by badge:', badgeValue);
+            
+            // Clear any existing search
+            document.getElementById('search-filter').value = '';
+            
+            // Clear all filter selections
+            const allFilters = document.querySelectorAll('select[multiple]');
+            allFilters.forEach(filter => {
+                Array.from(filter.options).forEach(option => option.selected = false);
+            });
+            
+            // Filter profiles that contain this badge value
+            filteredProfiles = allProfiles.filter(profile => {
+                const traits = profile.primary_traits || profile.psychological_profile?.primary_traits;
+                if (!traits) return false;
+                
+                const traitArray = Array.isArray(traits) ? traits : traits.split(',').map(t => t.trim());
+                return traitArray.some(trait => trait.toLowerCase().includes(badgeValue.toLowerCase()));
+            });
+            
+            // Sort filtered results alphabetically by last name
+            filteredProfiles.sort((a, b) => getLastName(a.name).localeCompare(getLastName(b.name)));
+            
+            // Update quick navigation stats
+            updateQuickNavigationStats();
+            
+            // Display results
+            displayProfiles();
+            
+            console.log(`✅ Found ${filteredProfiles.length} profiles with badge: ${badgeValue}`);
         }
 
         function filterProfiles() {
@@ -1333,22 +1374,22 @@
                     (profile.sub_domain && profile.sub_domain.toLowerCase().includes(searchTerm)) ||
                     (profile.psychological_profile?.cognitive_style && profile.psychological_profile.cognitive_style.toLowerCase().includes(searchTerm)) ||
                     (profile.psychological_profile?.decision_making_framework && profile.psychological_profile.decision_making_framework.toLowerCase().includes(searchTerm)) ||
-                    (profile.communication_style?.tone && profile.communication_style.tone.toLowerCase().includes(searchTerm)) ||
+                    (profile.communication_style?.tone && typeof profile.communication_style.tone === 'string' && profile.communication_style.tone.toLowerCase().includes(searchTerm)) ||
                     (profile.communication_style?.tone_parsed && profile.communication_style.tone_parsed.some(term => term.toLowerCase().includes(searchTerm))) ||
-                    (profile.communication_style?.sentence_structure && profile.communication_style.sentence_structure.toLowerCase().includes(searchTerm)) ||
+                    (profile.communication_style?.sentence_structure && typeof profile.communication_style.sentence_structure === 'string' && profile.communication_style.sentence_structure.toLowerCase().includes(searchTerm)) ||
                     (profile.communication_style?.sentence_structure_parsed && profile.communication_style.sentence_structure_parsed.some(structure => structure.toLowerCase().includes(searchTerm))) ||
-                    (profile.domain_expertise?.core_competencies && profile.domain_expertise.core_competencies.some(comp => comp.toLowerCase().includes(searchTerm))) ||
-                    (profile.background_context?.experience_level && profile.background_context.experience_level.toLowerCase().includes(searchTerm)) ||
+                    (profile.domain_expertise?.core_competencies && Array.isArray(profile.domain_expertise.core_competencies) && profile.domain_expertise.core_competencies.some(comp => comp.toLowerCase().includes(searchTerm))) ||
+                    (profile.background_context?.experience_level && typeof profile.background_context.experience_level === 'string' && profile.background_context.experience_level.toLowerCase().includes(searchTerm)) ||
                     (profile.background_context?.typical_career_path && profile.background_context.typical_career_path.toLowerCase().includes(searchTerm)) ||
                     (profile.behavioral_patterns?.work_style && profile.behavioral_patterns.work_style.toLowerCase().includes(searchTerm)) ||
                     (profile.behavioral_patterns?.work_style_parsed && profile.behavioral_patterns.work_style_parsed.some(style => style.toLowerCase().includes(searchTerm))) ||
                     (profile.behavioral_patterns?.problem_solving_approach && profile.behavioral_patterns.problem_solving_approach.toLowerCase().includes(searchTerm)) ||
                     (profile.behavioral_patterns?.problem_solving_approach_parsed && profile.behavioral_patterns.problem_solving_approach_parsed.some(approach => approach.toLowerCase().includes(searchTerm))) ||
-                    (profile.unique_identifiers?.signature_methodologies && profile.unique_identifiers.signature_methodologies.some(method => method.toLowerCase().includes(searchTerm))) ||
-                    (profile.unique_identifiers?.contrarian_beliefs && profile.unique_identifiers.contrarian_beliefs.some(belief => belief.toLowerCase().includes(searchTerm))) ||
-                    (profile.unique_identifiers?.pet_peeves && profile.unique_identifiers.pet_peeves.some(peeve => peeve.toLowerCase().includes(searchTerm))) ||
-                    (profile.unique_identifiers?.aspirational_references && profile.unique_identifiers.aspirational_references.some(ref => ref.toLowerCase().includes(searchTerm))) ||
-                    (profile.unique_identifiers?.distinctive_quirks && profile.unique_identifiers.distinctive_quirks.some(quirk => quirk.toLowerCase().includes(searchTerm))) ||
+                    (profile.unique_identifiers?.signature_methodologies && Array.isArray(profile.unique_identifiers.signature_methodologies) && profile.unique_identifiers.signature_methodologies.some(method => method.toLowerCase().includes(searchTerm))) ||
+                    (profile.unique_identifiers?.contrarian_beliefs && Array.isArray(profile.unique_identifiers.contrarian_beliefs) && profile.unique_identifiers.contrarian_beliefs.some(belief => belief.toLowerCase().includes(searchTerm))) ||
+                    (profile.unique_identifiers?.pet_peeves && Array.isArray(profile.unique_identifiers.pet_peeves) && profile.unique_identifiers.pet_peeves.some(peeve => peeve.toLowerCase().includes(searchTerm))) ||
+                    (profile.unique_identifiers?.aspirational_references && Array.isArray(profile.unique_identifiers.aspirational_references) && profile.unique_identifiers.aspirational_references.some(ref => ref.toLowerCase().includes(searchTerm))) ||
+                    (profile.unique_identifiers?.distinctive_quirks && Array.isArray(profile.unique_identifiers.distinctive_quirks) && profile.unique_identifiers.distinctive_quirks.some(quirk => quirk.toLowerCase().includes(searchTerm))) ||
                     // New category search fields
                     (profile.temporal_context?.career_evolution && profile.temporal_context.career_evolution.toLowerCase().includes(searchTerm)) ||
                     (profile.temporal_context?.career_evolution_parsed && profile.temporal_context.career_evolution_parsed.some(evolution => evolution.toLowerCase().includes(searchTerm))) ||
@@ -1381,7 +1422,7 @@
                     (profile.learning?.learning_style_parsed && profile.learning.learning_style_parsed.some(style => style.toLowerCase().includes(searchTerm))) ||
                     (profile.learning?.adaptation_speed && profile.learning.adaptation_speed.toLowerCase().includes(searchTerm)) ||
                     (profile.learning?.failure_response && profile.learning.failure_response.toLowerCase().includes(searchTerm)) ||
-                    (profile.values?.core_values && profile.values.core_values.toLowerCase().includes(searchTerm)) ||
+                    (profile.values?.core_values && typeof profile.values.core_values === 'string' && profile.values.core_values.toLowerCase().includes(searchTerm)) ||
                     (profile.values?.core_values_parsed && profile.values.core_values_parsed.some(value => value.toLowerCase().includes(searchTerm))) ||
                     (profile.values?.ethical_framework && profile.values.ethical_framework.toLowerCase().includes(searchTerm)) ||
                     (profile.values?.social_responsibility && profile.values.social_responsibility.toLowerCase().includes(searchTerm));
@@ -1397,19 +1438,19 @@
 
                 // Filter by psychological traits
                 let matchesTraits = selectedTraits.length === 0 || 
-                    selectedTraits.some(trait => profile.psychological_profile?.primary_traits?.includes(trait));
+                    selectedTraits.some(trait => Array.isArray(profile.psychological_profile?.primary_traits) && profile.psychological_profile.primary_traits.includes(trait));
 
                 // Filter by communication style
                 let matchesCommunication = selectedCommunication.length === 0 || 
-                    selectedCommunication.some(style => profile.communication_style?.tone_parsed?.includes(style));
+                    selectedCommunication.some(style => Array.isArray(profile.communication_style?.tone_parsed) && profile.communication_style.tone_parsed.includes(style));
 
                 // Filter by sentence structure
                 let matchesSentenceStructure = selectedSentenceStructure.length === 0 || 
-                    selectedSentenceStructure.some(structure => profile.communication_style?.sentence_structure_parsed?.includes(structure));
+                    selectedSentenceStructure.some(structure => Array.isArray(profile.communication_style?.sentence_structure_parsed) && profile.communication_style.sentence_structure_parsed.includes(structure));
 
                 // Filter by expertise
                 let matchesExpertise = selectedExpertise.length === 0 || 
-                    selectedExpertise.some(expertise => profile.domain_expertise?.core_competencies?.includes(expertise));
+                    selectedExpertise.some(expertise => Array.isArray(profile.domain_expertise?.core_competencies) && profile.domain_expertise.core_competencies.includes(expertise));
 
                 // Filter by background
                 let matchesBackground = selectedBackground.length === 0 || 
@@ -1417,37 +1458,37 @@
 
                 // Filter by behavior
                 let matchesBehavior = selectedBehavior.length === 0 || 
-                    selectedBehavior.some(style => profile.behavioral_patterns?.work_style_parsed?.includes(style));
+                    selectedBehavior.some(style => Array.isArray(profile.behavioral_patterns?.work_style_parsed) && profile.behavioral_patterns.work_style_parsed.includes(style));
 
                 // Filter by problem solving approach
                 let matchesProblemSolving = selectedProblemSolving.length === 0 || 
-                    selectedProblemSolving.some(approach => profile.behavioral_patterns?.problem_solving_approach_parsed?.includes(approach));
+                    selectedProblemSolving.some(approach => Array.isArray(profile.behavioral_patterns?.problem_solving_approach_parsed) && profile.behavioral_patterns.problem_solving_approach_parsed.includes(approach));
 
                 // Filter by identifiers
                 let matchesIdentifiers = selectedIdentifiers.length === 0 || 
-                    selectedIdentifiers.some(identifier => profile.unique_identifiers?.signature_methodologies?.includes(identifier));
+                    selectedIdentifiers.some(identifier => Array.isArray(profile.unique_identifiers?.signature_methodologies) && profile.unique_identifiers.signature_methodologies.includes(identifier));
 
                 // New category filters
                 let matchesTemporal = selectedTemporal.length === 0 || 
-                    selectedTemporal.some(evolution => profile.temporal_context?.career_evolution_parsed?.includes(evolution));
+                    selectedTemporal.some(evolution => Array.isArray(profile.temporal_context?.career_evolution_parsed) && profile.temporal_context.career_evolution_parsed.includes(evolution));
 
                 let matchesCollaboration = selectedCollaboration.length === 0 || 
-                    selectedCollaboration.some(style => profile.collaboration?.leadership_style_parsed?.includes(style));
+                    selectedCollaboration.some(style => Array.isArray(profile.collaboration?.leadership_style_parsed) && profile.collaboration.leadership_style_parsed.includes(style));
 
                 let matchesCultural = selectedCultural.length === 0 || 
-                    selectedCultural.some(background => profile.cultural_context?.cultural_background_parsed?.includes(background));
+                    selectedCultural.some(background => Array.isArray(profile.cultural_context?.cultural_background_parsed) && profile.cultural_context.cultural_background_parsed.includes(background));
 
                 let matchesPractical = selectedPractical.length === 0 || 
-                    selectedPractical.some(speed => profile.practical_application?.decision_speed_parsed?.includes(speed));
+                    selectedPractical.some(speed => Array.isArray(profile.practical_application?.decision_speed_parsed) && profile.practical_application.decision_speed_parsed.includes(speed));
 
                 let matchesCommunicationNew = selectedCommunicationNew.length === 0 || 
                     selectedCommunicationNew.includes(profile.communication?.audience_adaptation);
 
                 let matchesLearning = selectedLearning.length === 0 || 
-                    selectedLearning.some(style => profile.learning?.learning_style_parsed?.includes(style));
+                    selectedLearning.some(style => Array.isArray(profile.learning?.learning_style_parsed) && profile.learning.learning_style_parsed.includes(style));
 
                 let matchesValues = selectedValues.length === 0 || 
-                    selectedValues.some(value => profile.values?.core_values_parsed?.includes(value));
+                    selectedValues.some(value => Array.isArray(profile.values?.core_values_parsed) && profile.values.core_values_parsed.includes(value));
 
                 return matchesSearch && matchesArchetype && matchesDomain && matchesSubdomain && 
                        matchesTraits && matchesCommunication && matchesSentenceStructure && matchesExpertise && matchesBackground && 
@@ -1557,7 +1598,7 @@
                                         const traits = profile.primary_traits || profile.psychological_profile?.primary_traits;
                                         if (!traits) return '';
                                         const traitArray = Array.isArray(traits) ? traits : traits.split(',').map(t => t.trim());
-                                        return traitArray.map(trait => `<span class="trait-tag">${trait}</span>`).join('');
+                                        return traitArray.map(trait => `<span class="trait-tag clickable-badge" onclick="searchByBadge('${trait.replace(/'/g, "\\'")}')" title="Click to find other profiles with this trait">${trait}</span>`).join('');
                                     })()}
                                 </div>
                             </div>
