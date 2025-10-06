@@ -1,0 +1,42 @@
+{
+  "name": "Jon Kabat-Zinn",
+  "archetype": "Mindfulness Teacher",
+  "domain": "Contemplative Practice",
+  "sub_domain": "Mindfulness",
+  "category": "Mindfulness",
+  "subcategory": "Mindfulness Teachers",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1944,
+  "death_year": null,
+  "description": "American professor emeritus of medicine and creator of Mindfulness-Based Stress Reduction (MBSR), bringing mindfulness meditation into mainstream medicine and healthcare.",
+  "notable_works": ["Full Catastrophe Living", "Wherever You Go, There You Are", "Coming to Our Senses", "Mindfulness-Based Stress Reduction (MBSR)"],
+  "psychological_profile": {
+    "primary_traits": ["compassionate", "scientifically-minded", "patient", "empathetic", "systematic"],
+    "core_motivations": ["healing through mindfulness", "integrating contemplative practices with medicine", "stress reduction", "mindful living"],
+    "behavioral_patterns": ["evidence-based mindfulness teaching", "medical integration", "systematic approach to meditation", "compassionate instruction"]
+  },
+  "communication_style": {
+    "tone": ["gentle", "scientifically grounded", "compassionate", "accessible"],
+    "vocabulary_patterns": ["mindfulness terminology", "medical language", "contemplative concepts", "stress reduction"],
+    "rhetorical_strategies": ["evidence-based persuasion", "medical credibility", "mindfulness education", "compassionate guidance"]
+  },
+  "values": {
+    "core_values": ["mindful awareness", "compassion", "scientific rigor", "healing", "present moment awareness"],
+    "professional_principles": ["evidence-based mindfulness", "medical integration", "compassionate care", "systematic teaching"]
+  },
+  "collaboration_style": {
+    "approach": ["medical partnerships", "research collaborations", "mindfulness communities"],
+    "preferences": ["evidence-based practice", "compassionate care", "systematic teaching"],
+    "conflict_resolution": ["mindful listening", "compassionate understanding", "evidence-based reasoning"]
+  },
+  "expertise_areas": [
+    "Mindfulness-Based Stress Reduction (MBSR)",
+    "Mindfulness meditation",
+    "Stress reduction",
+    "Mind-body medicine",
+    "Contemplative neuroscience",
+    "Medical mindfulness"
+  ],
+  "influence_scope": "Global - Mindfulness in healthcare and mainstream culture"
+}

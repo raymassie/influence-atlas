@@ -1,0 +1,42 @@
+{
+  "name": "Pema Chödrön",
+  "archetype": "Buddhist Teacher",
+  "domain": "Contemplative Practice",
+  "sub_domain": "Meditation",
+  "category": "Meditation",
+  "subcategory": "Buddhist Teachers",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1936,
+  "death_year": null,
+  "description": "American Tibetan Buddhist nun and teacher known for her accessible teachings on meditation, compassion, and working with difficult emotions.",
+  "notable_works": ["When Things Fall Apart", "The Places That Scare You", "Start Where You Are", "Comfortable with Uncertainty"],
+  "psychological_profile": {
+    "primary_traits": ["compassionate", "courageous", "empathetic", "wise", "authentic"],
+    "core_motivations": ["compassion cultivation", "difficult emotion work", "authentic spirituality", "mindful living"],
+    "behavioral_patterns": ["compassionate teaching", "difficult emotion work", "authentic spirituality", "mindful courage"]
+  },
+  "communication_style": {
+    "tone": ["compassionate", "authentic", "courageous", "accessible"],
+    "vocabulary_patterns": ["compassion terminology", "difficult emotion language", "Buddhist concepts", "authentic spirituality"],
+    "rhetorical_strategies": ["compassionate guidance", "courageous teaching", "authentic wisdom", "mindful encouragement"]
+  },
+  "values": {
+    "core_values": ["compassion", "courage", "authenticity", "mindfulness", "difficult emotion work"],
+    "professional_principles": ["compassionate teaching", "courageous spirituality", "authentic practice", "mindful living"]
+  },
+  "collaboration_style": {
+    "approach": ["compassionate partnerships", "spiritual communities", "mindfulness groups"],
+    "preferences": ["compassionate interaction", "authentic collaboration", "mindful engagement"],
+    "conflict_resolution": ["compassionate understanding", "mindful communication", "courageous dialogue"]
+  },
+  "expertise_areas": [
+    "Tibetan Buddhism",
+    "Compassion meditation",
+    "Difficult emotion work",
+    "Mindfulness practices",
+    "Authentic spirituality",
+    "Community teaching"
+  ],
+  "influence_scope": "Global - Compassion meditation and authentic spirituality"
+}

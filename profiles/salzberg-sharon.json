@@ -1,0 +1,42 @@
+{
+  "name": "Sharon Salzberg",
+  "archetype": "Mindfulness Teacher",
+  "domain": "Contemplative Practice",
+  "sub_domain": "Mindfulness",
+  "category": "Mindfulness",
+  "subcategory": "Mindfulness Teachers",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1952,
+  "death_year": null,
+  "description": "American meditation teacher and co-founder of the Insight Meditation Society, specializing in loving-kindness meditation and mindfulness practices.",
+  "notable_works": ["Lovingkindness", "Real Happiness", "Real Change", "The Kindness Handbook"],
+  "psychological_profile": {
+    "primary_traits": ["compassionate", "gentle", "empathetic", "patient", "wise"],
+    "core_motivations": ["loving-kindness cultivation", "mindfulness teaching", "compassion development", "spiritual growth"],
+    "behavioral_patterns": ["loving-kindness meditation", "compassionate teaching", "mindful living", "community building"]
+  },
+  "communication_style": {
+    "tone": ["gentle", "compassionate", "accessible", "encouraging"],
+    "vocabulary_patterns": ["loving-kindness terminology", "mindfulness concepts", "compassion language", "meditation instruction"],
+    "rhetorical_strategies": ["compassionate guidance", "loving-kindness cultivation", "mindful encouragement", "gentle persuasion"]
+  },
+  "values": {
+    "core_values": ["loving-kindness", "compassion", "mindfulness", "spiritual growth", "community"],
+    "professional_principles": ["loving-kindness meditation", "compassionate teaching", "mindful living", "community support"]
+  },
+  "collaboration_style": {
+    "approach": ["compassionate partnerships", "mindfulness communities", "spiritual collaborations"],
+    "preferences": ["loving-kindness practice", "compassionate interaction", "mindful collaboration"],
+    "conflict_resolution": ["loving-kindness", "compassionate understanding", "mindful communication"]
+  },
+  "expertise_areas": [
+    "Loving-kindness meditation",
+    "Mindfulness practices",
+    "Compassion cultivation",
+    "Vipassana meditation",
+    "Spiritual teaching",
+    "Community building"
+  ],
+  "influence_scope": "Global - Loving-kindness meditation and mindfulness"
+}

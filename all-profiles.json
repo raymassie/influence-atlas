@@ -27069,5 +27069,865 @@
     ],
     "influence_scope": "Global - Literature and anthropology",
     "legacy": "Was a leading figure in the Harlem Renaissance, writing powerful novels about African American culture while contributing significantly to anthropology and folklore studies."
+  },
+  {
+    "profile_id": "kabat-zinn-jon",
+    "name": "Jon Kabat-Zinn",
+    "archetype": "Mindfulness Teacher",
+    "domain": "Contemplative Practice",
+    "sub_domain": "Mindfulness",
+    "category": "Mindfulness",
+    "subcategory": "Mindfulness Teachers",
+    "era": "Contemporary",
+    "nationality": "American",
+    "birth_year": 1944,
+    "death_year": null,
+    "description": "American professor emeritus of medicine and creator of Mindfulness-Based Stress Reduction (MBSR), bringing mindfulness meditation into mainstream medicine and healthcare.",
+    "notable_works": ["Full Catastrophe Living", "Wherever You Go, There You Are", "Coming to Our Senses", "Mindfulness-Based Stress Reduction (MBSR)"],
+    "psychological_profile": {
+      "primary_traits": ["compassionate", "scientifically-minded", "patient", "empathetic", "systematic"],
+      "core_motivations": ["healing through mindfulness", "integrating contemplative practices with medicine", "stress reduction", "mindful living"],
+      "behavioral_patterns": ["evidence-based mindfulness teaching", "medical integration", "systematic approach to meditation", "compassionate instruction"]
+    },
+    "communication_style": {
+      "tone": ["gentle", "scientifically grounded", "compassionate", "accessible"],
+      "vocabulary_patterns": ["mindfulness terminology", "medical language", "contemplative concepts", "stress reduction"],
+      "rhetorical_strategies": ["evidence-based persuasion", "medical credibility", "mindfulness education", "compassionate guidance"]
+    },
+    "values": {
+      "core_values": ["mindful awareness", "compassion", "scientific rigor", "healing", "present moment awareness"],
+      "professional_principles": ["evidence-based mindfulness", "medical integration", "compassionate care", "systematic teaching"]
+    },
+    "collaboration_style": {
+      "approach": ["medical partnerships", "research collaborations", "mindfulness communities"],
+      "preferences": ["evidence-based practice", "compassionate care", "systematic teaching"],
+      "conflict_resolution": ["mindful listening", "compassionate understanding", "evidence-based reasoning"]
+    },
+    "expertise_areas": [
+      "Mindfulness-Based Stress Reduction (MBSR)",
+      "Mindfulness meditation",
+      "Stress reduction",
+      "Mind-body medicine",
+      "Contemplative neuroscience",
+      "Medical mindfulness"
+    ],
+    "influence_scope": "Global - Mindfulness in healthcare and mainstream culture"
+  },
+  {
+    "profile_id": "dalai-lama",
+    "name": "Dalai Lama",
+    "archetype": "Spiritual Guide",
+    "domain": "Contemplative Practice",
+    "sub_domain": "Meditation",
+    "category": "Meditation",
+    "subcategory": "Buddhist Teachers",
+    "era": "Contemporary",
+    "nationality": "Tibetan",
+    "birth_year": 1935,
+    "death_year": null,
+    "description": "The 14th Dalai Lama, spiritual leader of Tibet and global advocate for compassion, non-violence, and the integration of Buddhist wisdom with modern science and ethics.",
+    "notable_works": ["The Art of Happiness", "Ethics for the New Millennium", "The Universe in a Single Atom", "Buddhism and Science"],
+    "psychological_profile": {
+      "primary_traits": ["compassionate", "wise", "peaceful", "empathetic", "intellectually curious"],
+      "core_motivations": ["universal compassion", "peace", "spiritual awakening", "interfaith dialogue"],
+      "behavioral_patterns": ["compassionate leadership", "peaceful activism", "interfaith dialogue", "scientific collaboration"]
+    },
+    "communication_style": {
+      "tone": ["gentle", "wise", "compassionate", "humorous"],
+      "vocabulary_patterns": ["Buddhist concepts", "compassion terminology", "peace language", "scientific metaphors"],
+      "rhetorical_strategies": ["compassionate wisdom", "peaceful persuasion", "interfaith dialogue", "scientific integration"]
+    },
+    "values": {
+      "core_values": ["compassion", "peace", "wisdom", "non-violence", "interconnectedness"],
+      "professional_principles": ["universal compassion", "peaceful activism", "interfaith dialogue", "scientific collaboration"]
+    },
+    "collaboration_style": {
+      "approach": ["interfaith dialogue", "scientific partnerships", "peace initiatives"],
+      "preferences": ["compassionate collaboration", "peaceful resolution", "wisdom sharing"],
+      "conflict_resolution": ["compassionate understanding", "peaceful dialogue", "wisdom-based mediation"]
+    },
+    "expertise_areas": [
+      "Buddhist meditation",
+      "Compassion practices",
+      "Tibetan Buddhism",
+      "Interfaith dialogue",
+      "Peace activism",
+      "Buddhist philosophy"
+    ],
+    "influence_scope": "Global - Buddhist wisdom and universal compassion"
+  },
+  {
+    "profile_id": "davidson-richard",
+    "name": "Richard Davidson",
+    "archetype": "Contemplative Scientist",
+    "domain": "Contemplative Practice",
+    "sub_domain": "Contemplative Psychology",
+    "category": "Contemplative Psychology",
+    "subcategory": "Contemplative Scientists",
+    "era": "Contemporary",
+    "nationality": "American",
+    "birth_year": 1951,
+    "death_year": null,
+    "description": "American neuroscientist and founder of the Center for Healthy Minds, pioneering research on the neuroscience of meditation, mindfulness, and emotional well-being.",
+    "notable_works": ["The Emotional Life of Your Brain", "Altered Traits", "The Science of Meditation", "Neuroscience research on meditation"],
+    "psychological_profile": {
+      "primary_traits": ["scientifically rigorous", "curious", "systematic", "compassionate", "innovative"],
+      "core_motivations": ["understanding consciousness", "neuroscience of meditation", "mental health research", "contemplative science"],
+      "behavioral_patterns": ["rigorous research", "meditation practice", "scientific collaboration", "evidence-based teaching"]
+    },
+    "communication_style": {
+      "tone": ["scientifically precise", "accessible", "enthusiastic", "evidence-based"],
+      "vocabulary_patterns": ["neuroscientific terminology", "meditation research", "brain imaging", "contemplative science"],
+      "rhetorical_strategies": ["evidence-based persuasion", "scientific credibility", "research findings", "practical applications"]
+    },
+    "values": {
+      "core_values": ["scientific rigor", "contemplative practice", "mental health", "evidence-based understanding"],
+      "professional_principles": ["rigorous research", "contemplative practice", "scientific integrity", "mental health advocacy"]
+    },
+    "collaboration_style": {
+      "approach": ["scientific partnerships", "contemplative collaborations", "research teams"],
+      "preferences": ["evidence-based practice", "scientific rigor", "contemplative integration"],
+      "conflict_resolution": ["scientific reasoning", "evidence-based discussion", "collaborative problem-solving"]
+    },
+    "expertise_areas": [
+      "Contemplative neuroscience",
+      "Meditation research",
+      "Emotional neuroscience",
+      "Mindfulness studies",
+      "Brain imaging",
+      "Mental health research"
+    ],
+    "influence_scope": "Global - Contemplative neuroscience and meditation research"
+  },
+  {
+    "profile_id": "salzberg-sharon",
+    "name": "Sharon Salzberg",
+    "archetype": "Mindfulness Teacher",
+    "domain": "Contemplative Practice",
+    "sub_domain": "Mindfulness",
+    "category": "Mindfulness",
+    "subcategory": "Mindfulness Teachers",
+    "era": "Contemporary",
+    "nationality": "American",
+    "birth_year": 1952,
+    "death_year": null,
+    "description": "American meditation teacher and co-founder of the Insight Meditation Society, specializing in loving-kindness meditation and mindfulness practices.",
+    "notable_works": ["Lovingkindness", "Real Happiness", "Real Change", "The Kindness Handbook"],
+    "psychological_profile": {
+      "primary_traits": ["compassionate", "gentle", "empathetic", "patient", "wise"],
+      "core_motivations": ["loving-kindness cultivation", "mindfulness teaching", "compassion development", "spiritual growth"],
+      "behavioral_patterns": ["loving-kindness meditation", "compassionate teaching", "mindful living", "community building"]
+    },
+    "communication_style": {
+      "tone": ["gentle", "compassionate", "accessible", "encouraging"],
+      "vocabulary_patterns": ["loving-kindness terminology", "mindfulness concepts", "compassion language", "meditation instruction"],
+      "rhetorical_strategies": ["compassionate guidance", "loving-kindness cultivation", "mindful encouragement", "gentle persuasion"]
+    },
+    "values": {
+      "core_values": ["loving-kindness", "compassion", "mindfulness", "spiritual growth", "community"],
+      "professional_principles": ["loving-kindness meditation", "compassionate teaching", "mindful living", "community support"]
+    },
+    "collaboration_style": {
+      "approach": ["compassionate partnerships", "mindfulness communities", "spiritual collaborations"],
+      "preferences": ["loving-kindness practice", "compassionate interaction", "mindful collaboration"],
+      "conflict_resolution": ["loving-kindness", "compassionate understanding", "mindful communication"]
+    },
+    "expertise_areas": [
+      "Loving-kindness meditation",
+      "Mindfulness practices",
+      "Compassion cultivation",
+      "Vipassana meditation",
+      "Spiritual teaching",
+      "Community building"
+    ],
+    "influence_scope": "Global - Loving-kindness meditation and mindfulness"
+  },
+  {
+    "profile_id": "goleman-daniel",
+    "name": "Daniel Goleman",
+    "archetype": "Mindfulness Researcher",
+    "domain": "Contemplative Practice",
+    "sub_domain": "Mindfulness",
+    "category": "Mindfulness",
+    "subcategory": "Mindfulness Researchers",
+    "era": "Contemporary",
+    "nationality": "American",
+    "birth_year": 1946,
+    "death_year": null,
+    "description": "American psychologist and science journalist who popularized emotional intelligence and integrated mindfulness with cognitive science research.",
+    "notable_works": ["Emotional Intelligence", "Focus", "Altered Traits", "The Meditative Mind"],
+    "psychological_profile": {
+      "primary_traits": ["analytical", "insightful", "scientifically-minded", "accessible", "integrative"],
+      "core_motivations": ["emotional intelligence research", "mindfulness science", "cognitive research", "practical applications"],
+      "behavioral_patterns": ["research synthesis", "science communication", "mindfulness practice", "evidence-based teaching"]
+    },
+    "communication_style": {
+      "tone": ["scientifically grounded", "accessible", "insightful", "practical"],
+      "vocabulary_patterns": ["emotional intelligence concepts", "mindfulness research", "cognitive science", "practical applications"],
+      "rhetorical_strategies": ["evidence-based persuasion", "scientific credibility", "practical relevance", "research integration"]
+    },
+    "values": {
+      "core_values": ["emotional intelligence", "scientific rigor", "mindfulness", "practical wisdom", "research integrity"],
+      "professional_principles": ["evidence-based research", "scientific communication", "mindfulness practice", "practical applications"]
+    },
+    "collaboration_style": {
+      "approach": ["research partnerships", "scientific collaborations", "mindfulness communities"],
+      "preferences": ["evidence-based practice", "scientific rigor", "mindful collaboration"],
+      "conflict_resolution": ["scientific reasoning", "mindful communication", "evidence-based discussion"]
+    },
+    "expertise_areas": [
+      "Emotional intelligence",
+      "Mindfulness research",
+      "Cognitive science",
+      "Attention research",
+      "Meditation science",
+      "Science communication"
+    ],
+    "influence_scope": "Global - Emotional intelligence and mindfulness research"
+  },
+  {
+    "profile_id": "thich-nhat-hanh",
+    "name": "Thich Nhat Hanh",
+    "archetype": "Meditation Teacher",
+    "domain": "Contemplative Practice",
+    "sub_domain": "Meditation",
+    "category": "Meditation",
+    "subcategory": "Buddhist Teachers",
+    "era": "Contemporary",
+    "nationality": "Vietnamese",
+    "birth_year": 1926,
+    "death_year": 2022,
+    "description": "Vietnamese Zen master, poet, and peace activist who brought mindfulness to the West and founded the Plum Village tradition of engaged Buddhism.",
+    "notable_works": ["The Miracle of Mindfulness", "Peace Is Every Step", "Being Peace", "The Heart of the Buddha's Teaching"],
+    "psychological_profile": {
+      "primary_traits": ["peaceful", "compassionate", "wise", "gentle", "engaged"],
+      "core_motivations": ["peace activism", "mindful living", "engaged Buddhism", "interconnectedness"],
+      "behavioral_patterns": ["mindful activism", "peaceful teaching", "engaged Buddhism", "community building"]
+    },
+    "communication_style": {
+      "tone": ["gentle", "peaceful", "poetic", "wise"],
+      "vocabulary_patterns": ["mindfulness concepts", "peace terminology", "Buddhist wisdom", "poetic language"],
+      "rhetorical_strategies": ["peaceful persuasion", "mindful guidance", "poetic wisdom", "engaged teaching"]
+    },
+    "values": {
+      "core_values": ["peace", "mindfulness", "compassion", "engaged Buddhism", "interconnectedness"],
+      "professional_principles": ["peaceful activism", "mindful living", "engaged Buddhism", "compassionate action"]
+    },
+    "collaboration_style": {
+      "approach": ["peace initiatives", "mindfulness communities", "engaged Buddhism"],
+      "preferences": ["peaceful collaboration", "mindful interaction", "compassionate engagement"],
+      "conflict_resolution": ["peaceful dialogue", "mindful communication", "compassionate understanding"]
+    },
+    "expertise_areas": [
+      "Mindfulness meditation",
+      "Zen Buddhism",
+      "Peace activism",
+      "Engaged Buddhism",
+      "Poetry and spirituality",
+      "Community building"
+    ],
+    "influence_scope": "Global - Mindfulness and engaged Buddhism"
+  },
+  {
+    "profile_id": "pema-chodron",
+    "name": "Pema Chödrön",
+    "archetype": "Buddhist Teacher",
+    "domain": "Contemplative Practice",
+    "sub_domain": "Meditation",
+    "category": "Meditation",
+    "subcategory": "Buddhist Teachers",
+    "era": "Contemporary",
+    "nationality": "American",
+    "birth_year": 1936,
+    "death_year": null,
+    "description": "American Tibetan Buddhist nun and teacher known for her accessible teachings on meditation, compassion, and working with difficult emotions.",
+    "notable_works": ["When Things Fall Apart", "The Places That Scare You", "Start Where You Are", "Comfortable with Uncertainty"],
+    "psychological_profile": {
+      "primary_traits": ["compassionate", "courageous", "empathetic", "wise", "authentic"],
+      "core_motivations": ["compassion cultivation", "difficult emotion work", "authentic spirituality", "mindful living"],
+      "behavioral_patterns": ["compassionate teaching", "difficult emotion work", "authentic spirituality", "mindful courage"]
+    },
+    "communication_style": {
+      "tone": ["compassionate", "authentic", "courageous", "accessible"],
+      "vocabulary_patterns": ["compassion terminology", "difficult emotion language", "Buddhist concepts", "authentic spirituality"],
+      "rhetorical_strategies": ["compassionate guidance", "courageous teaching", "authentic wisdom", "mindful encouragement"]
+    },
+    "values": {
+      "core_values": ["compassion", "courage", "authenticity", "mindfulness", "difficult emotion work"],
+      "professional_principles": ["compassionate teaching", "courageous spirituality", "authentic practice", "mindful living"]
+    },
+    "collaboration_style": {
+      "approach": ["compassionate partnerships", "spiritual communities", "mindfulness groups"],
+      "preferences": ["compassionate interaction", "authentic collaboration", "mindful engagement"],
+      "conflict_resolution": ["compassionate understanding", "mindful communication", "courageous dialogue"]
+    },
+    "expertise_areas": [
+      "Tibetan Buddhism",
+      "Compassion meditation",
+      "Difficult emotion work",
+      "Mindfulness practices",
+      "Authentic spirituality",
+      "Community teaching"
+    ],
+    "influence_scope": "Global - Compassion meditation and authentic spirituality"
+  },
+  {
+    "profile_id": "ram-dass",
+    "name": "Ram Dass",
+    "archetype": "Spiritual Guide",
+    "domain": "Contemplative Practice",
+    "sub_domain": "Meditation",
+    "category": "Meditation",
+    "subcategory": "Spiritual Teachers",
+    "era": "Contemporary",
+    "nationality": "American",
+    "birth_year": 1931,
+    "death_year": 2019,
+    "description": "American spiritual teacher and psychologist who brought Eastern wisdom to the West, known for his teachings on love, service, and conscious aging.",
+    "notable_works": ["Be Here Now", "Still Here", "Polishing the Mirror", "Walking Each Other Home"],
+    "psychological_profile": {
+      "primary_traits": ["compassionate", "wise", "humorous", "authentic", "service-oriented"],
+      "core_motivations": ["spiritual awakening", "service to others", "conscious aging", "love cultivation"],
+      "behavioral_patterns": ["service-oriented teaching", "compassionate guidance", "conscious living", "love-based spirituality"]
+    },
+    "communication_style": {
+      "tone": ["compassionate", "humorous", "wise", "authentic"],
+      "vocabulary_patterns": ["spiritual terminology", "love concepts", "service language", "conscious aging"],
+      "rhetorical_strategies": ["compassionate wisdom", "humorous teaching", "love-based guidance", "authentic spirituality"]
+    },
+    "values": {
+      "core_values": ["love", "service", "conscious aging", "spiritual awakening", "compassion"],
+      "professional_principles": ["service-oriented teaching", "love-based spirituality", "conscious living", "compassionate guidance"]
+    },
+    "collaboration_style": {
+      "approach": ["service partnerships", "spiritual communities", "love-based collaborations"],
+      "preferences": ["service-oriented interaction", "love-based collaboration", "compassionate engagement"],
+      "conflict_resolution": ["love-based understanding", "compassionate communication", "service-oriented resolution"]
+    },
+    "expertise_areas": [
+      "Spiritual teaching",
+      "Conscious aging",
+      "Service spirituality",
+      "Love cultivation",
+      "Eastern wisdom",
+      "Community building"
+    ],
+    "influence_scope": "Global - Spiritual awakening and conscious aging"
+  },
+  {
+    "profile_id": "kornfield-jack",
+    "name": "Jack Kornfield",
+    "archetype": "Meditation Teacher",
+    "domain": "Contemplative Practice",
+    "sub_domain": "Meditation",
+    "category": "Meditation",
+    "subcategory": "Buddhist Teachers",
+    "era": "Contemporary",
+    "nationality": "American",
+    "birth_year": 1945,
+    "death_year": null,
+    "description": "American meditation teacher and psychologist who co-founded the Insight Meditation Society, bringing Vipassana meditation to the West.",
+    "notable_works": ["A Path with Heart", "After the Ecstasy, the Laundry", "The Wise Heart", "Bringing Home the Dharma"],
+    "psychological_profile": {
+      "primary_traits": ["compassionate", "wise", "practical", "empathetic", "integrative"],
+      "core_motivations": ["Vipassana teaching", "psychological integration", "spiritual wisdom", "practical spirituality"],
+      "behavioral_patterns": ["Vipassana instruction", "psychological integration", "compassionate teaching", "practical wisdom"]
+    },
+    "communication_style": {
+      "tone": ["compassionate", "wise", "practical", "accessible"],
+      "vocabulary_patterns": ["Vipassana terminology", "psychological concepts", "Buddhist wisdom", "practical spirituality"],
+      "rhetorical_strategies": ["compassionate guidance", "practical wisdom", "psychological integration", "spiritual teaching"]
+    },
+    "values": {
+      "core_values": ["compassion", "wisdom", "practical spirituality", "psychological integration", "Vipassana practice"],
+      "professional_principles": ["compassionate teaching", "practical spirituality", "psychological integration", "Vipassana instruction"]
+    },
+    "collaboration_style": {
+      "approach": ["spiritual partnerships", "psychological collaborations", "meditation communities"],
+      "preferences": ["compassionate interaction", "practical collaboration", "spiritual integration"],
+      "conflict_resolution": ["compassionate understanding", "practical wisdom", "mindful communication"]
+    },
+    "expertise_areas": [
+      "Vipassana meditation",
+      "Buddhist psychology",
+      "Spiritual teaching",
+      "Psychological integration",
+      "Mindfulness practices",
+      "Community building"
+    ],
+    "influence_scope": "Global - Vipassana meditation and Buddhist psychology"
+  },
+  {
+    "profile_id": "brach-tara",
+    "name": "Tara Brach",
+    "archetype": "Mindfulness-Based Therapist",
+    "domain": "Contemplative Practice",
+    "sub_domain": "Contemplative Psychology",
+    "category": "Contemplative Psychology",
+    "subcategory": "Mindfulness-Based Therapists",
+    "era": "Contemporary",
+    "nationality": "American",
+    "birth_year": 1953,
+    "death_year": null,
+    "description": "American psychologist and meditation teacher who integrates Buddhist psychology with Western psychotherapy, specializing in healing through mindful awareness.",
+    "notable_works": ["Radical Acceptance", "True Refuge", "Trusting the Gold", "Mindfulness meditation"],
+    "psychological_profile": {
+      "primary_traits": ["compassionate", "empathetic", "wise", "healing-oriented", "accepting"],
+      "core_motivations": ["healing through mindfulness", "radical acceptance", "psychological integration", "compassion cultivation"],
+      "behavioral_patterns": ["mindfulness-based therapy", "compassionate healing", "radical acceptance", "psychological integration"]
+    },
+    "communication_style": {
+      "tone": ["compassionate", "healing", "accepting", "wise"],
+      "vocabulary_patterns": ["mindfulness terminology", "healing language", "acceptance concepts", "Buddhist psychology"],
+      "rhetorical_strategies": ["compassionate healing", "radical acceptance", "mindful guidance", "therapeutic wisdom"]
+    },
+    "values": {
+      "core_values": ["radical acceptance", "compassion", "mindfulness", "healing", "psychological integration"],
+      "professional_principles": ["mindfulness-based therapy", "compassionate healing", "radical acceptance", "psychological integration"]
+    },
+    "collaboration_style": {
+      "approach": ["therapeutic partnerships", "mindfulness communities", "healing collaborations"],
+      "preferences": ["compassionate interaction", "healing-focused collaboration", "mindful engagement"],
+      "conflict_resolution": ["radical acceptance", "compassionate understanding", "mindful communication"]
+    },
+    "expertise_areas": [
+      "Mindfulness-based therapy",
+      "Buddhist psychology",
+      "Radical acceptance",
+      "Compassion meditation",
+      "Psychological healing",
+      "Meditation instruction"
+    ],
+    "influence_scope": "Global - Mindfulness-based therapy and radical acceptance"
+  },
+  {
+    "profile_id": "neff-kristin",
+    "name": "Kristin Neff",
+    "archetype": "Mindfulness Researcher",
+    "domain": "Contemplative Practice",
+    "sub_domain": "Mindfulness",
+    "category": "Mindfulness",
+    "subcategory": "Mindfulness Researchers",
+    "era": "Contemporary",
+    "nationality": "American",
+    "birth_year": 1966,
+    "death_year": null,
+    "description": "American researcher and professor who pioneered the scientific study of self-compassion, integrating mindfulness with psychological research.",
+    "notable_works": ["Self-Compassion", "The Mindful Self-Compassion Workbook", "Fierce Self-Compassion", "Self-compassion research"],
+    "psychological_profile": {
+      "primary_traits": ["research-oriented", "compassionate", "scientifically-minded", "empathetic", "systematic"],
+      "core_motivations": ["self-compassion research", "mindfulness science", "psychological healing", "scientific validation"],
+      "behavioral_patterns": ["rigorous research", "self-compassion teaching", "scientific communication", "mindful practice"]
+    },
+    "communication_style": {
+      "tone": ["scientifically grounded", "compassionate", "accessible", "research-based"],
+      "vocabulary_patterns": ["self-compassion terminology", "research language", "mindfulness concepts", "psychological healing"],
+      "rhetorical_strategies": ["evidence-based persuasion", "scientific credibility", "compassionate guidance", "research validation"]
+    },
+    "values": {
+      "core_values": ["self-compassion", "scientific rigor", "mindfulness", "psychological healing", "research integrity"],
+      "professional_principles": ["evidence-based research", "self-compassion teaching", "scientific communication", "mindful practice"]
+    },
+    "collaboration_style": {
+      "approach": ["research partnerships", "scientific collaborations", "mindfulness communities"],
+      "preferences": ["evidence-based practice", "research collaboration", "compassionate interaction"],
+      "conflict_resolution": ["self-compassionate understanding", "scientific reasoning", "mindful communication"]
+    },
+    "expertise_areas": [
+      "Self-compassion research",
+      "Mindfulness studies",
+      "Psychological healing",
+      "Meditation research",
+      "Scientific methodology",
+      "Therapeutic applications"
+    ],
+    "influence_scope": "Global - Self-compassion research and mindfulness science"
+  },
+  {
+    "profile_id": "siegel-daniel",
+    "name": "Daniel Siegel",
+    "archetype": "Contemplative Psychologist",
+    "domain": "Contemplative Practice",
+    "sub_domain": "Contemplative Psychology",
+    "category": "Contemplative Psychology",
+    "subcategory": "Contemplative Scientists",
+    "era": "Contemporary",
+    "nationality": "American",
+    "birth_year": 1957,
+    "death_year": null,
+    "description": "American psychiatrist and neuroscientist who developed interpersonal neurobiology, integrating mindfulness with brain science and attachment theory.",
+    "notable_works": ["The Mindful Brain", "Mindsight", "Aware", "Interpersonal Neurobiology"],
+    "psychological_profile": {
+      "primary_traits": ["scientifically rigorous", "integrative", "empathetic", "systematic", "innovative"],
+      "core_motivations": ["neuroscience of mindfulness", "interpersonal neurobiology", "brain integration", "healing through awareness"],
+      "behavioral_patterns": ["scientific research", "mindfulness practice", "brain integration", "interpersonal healing"]
+    },
+    "communication_style": {
+      "tone": ["scientifically precise", "accessible", "empathetic", "integrative"],
+      "vocabulary_patterns": ["neuroscientific terminology", "mindfulness concepts", "brain integration", "interpersonal neurobiology"],
+      "rhetorical_strategies": ["evidence-based persuasion", "scientific credibility", "mindful guidance", "brain integration"]
+    },
+    "values": {
+      "core_values": ["scientific rigor", "mindfulness", "brain integration", "interpersonal healing", "awareness"],
+      "professional_principles": ["evidence-based research", "mindfulness practice", "brain integration", "interpersonal healing"]
+    },
+    "collaboration_style": {
+      "approach": ["scientific partnerships", "therapeutic collaborations", "mindfulness communities"],
+      "preferences": ["evidence-based practice", "scientific rigor", "mindful collaboration"],
+      "conflict_resolution": ["mindful communication", "scientific reasoning", "brain integration"]
+    },
+    "expertise_areas": [
+      "Interpersonal neurobiology",
+      "Mindfulness neuroscience",
+      "Brain integration",
+      "Attachment theory",
+      "Meditation research",
+      "Therapeutic applications"
+    ],
+    "influence_scope": "Global - Interpersonal neurobiology and mindfulness neuroscience"
+  },
+  {
+    "profile_id": "goldstein-joseph",
+    "name": "Joseph Goldstein",
+    "archetype": "Meditation Teacher",
+    "domain": "Contemplative Practice",
+    "sub_domain": "Meditation",
+    "category": "Meditation",
+    "subcategory": "Buddhist Teachers",
+    "era": "Contemporary",
+    "nationality": "American",
+    "birth_year": 1944,
+    "death_year": null,
+    "description": "American meditation teacher and co-founder of the Insight Meditation Society, specializing in Vipassana meditation and Buddhist philosophy.",
+    "notable_works": ["Insight Meditation", "One Dharma", "Mindfulness", "The Experience of Insight"],
+    "psychological_profile": {
+      "primary_traits": ["wise", "systematic", "compassionate", "analytical", "patient"],
+      "core_motivations": ["Vipassana teaching", "Buddhist wisdom", "insight meditation", "spiritual liberation"],
+      "behavioral_patterns": ["systematic teaching", "Vipassana instruction", "Buddhist philosophy", "compassionate guidance"]
+    },
+    "communication_style": {
+      "tone": ["wise", "systematic", "compassionate", "analytical"],
+      "vocabulary_patterns": ["Vipassana terminology", "Buddhist concepts", "insight language", "meditation instruction"],
+      "rhetorical_strategies": ["systematic teaching", "compassionate guidance", "Buddhist wisdom", "insight meditation"]
+    },
+    "values": {
+      "core_values": ["wisdom", "compassion", "Vipassana practice", "Buddhist philosophy", "spiritual liberation"],
+      "professional_principles": ["systematic teaching", "Vipassana instruction", "compassionate guidance", "Buddhist wisdom"]
+    },
+    "collaboration_style": {
+      "approach": ["spiritual partnerships", "meditation communities", "Buddhist collaborations"],
+      "preferences": ["compassionate interaction", "spiritual collaboration", "mindful engagement"],
+      "conflict_resolution": ["compassionate understanding", "Buddhist wisdom", "mindful communication"]
+    },
+    "expertise_areas": [
+      "Vipassana meditation",
+      "Buddhist philosophy",
+      "Insight meditation",
+      "Mindfulness practices",
+      "Spiritual teaching",
+      "Meditation instruction"
+    ],
+    "influence_scope": "Global - Vipassana meditation and Buddhist wisdom"
+  },
+  {
+    "profile_id": "kornfield-philip",
+    "name": "Philip Kapleau",
+    "archetype": "Zen Master",
+    "domain": "Contemplative Practice",
+    "sub_domain": "Meditation",
+    "category": "Meditation",
+    "subcategory": "Zen Teachers",
+    "era": "Contemporary",
+    "nationality": "American",
+    "birth_year": 1912,
+    "death_year": 2004,
+    "description": "American Zen master who founded the Rochester Zen Center and brought authentic Zen practice to the West, emphasizing direct experience.",
+    "notable_works": ["The Three Pillars of Zen", "Zen: Dawn in the West", "To Cherish All Life", "Zen practice"],
+    "psychological_profile": {
+      "primary_traits": ["disciplined", "wise", "direct", "compassionate", "authentic"],
+      "core_motivations": ["authentic Zen practice", "spiritual awakening", "direct experience", "Zen transmission"],
+      "behavioral_patterns": ["disciplined practice", "direct teaching", "Zen instruction", "spiritual guidance"]
+    },
+    "communication_style": {
+      "tone": ["direct", "wise", "disciplined", "authentic"],
+      "vocabulary_patterns": ["Zen terminology", "direct language", "spiritual concepts", "meditation instruction"],
+      "rhetorical_strategies": ["direct teaching", "Zen wisdom", "authentic guidance", "spiritual instruction"]
+    },
+    "values": {
+      "core_values": ["authenticity", "discipline", "direct experience", "Zen practice", "spiritual awakening"],
+      "professional_principles": ["authentic Zen practice", "disciplined teaching", "direct guidance", "spiritual transmission"]
+    },
+    "collaboration_style": {
+      "approach": ["spiritual partnerships", "Zen communities", "meditation collaborations"],
+      "preferences": ["authentic interaction", "disciplined collaboration", "spiritual engagement"],
+      "conflict_resolution": ["direct communication", "Zen wisdom", "authentic understanding"]
+    },
+    "expertise_areas": [
+      "Zen meditation",
+      "Zen philosophy",
+      "Meditation instruction",
+      "Spiritual awakening",
+      "Zen practice",
+      "Community building"
+    ],
+    "influence_scope": "Global - Authentic Zen practice in the West"
+  },
+  {
+    "profile_id": "hanh-thich-nhat",
+    "name": "Thich Nhat Hanh",
+    "archetype": "Zen Master",
+    "domain": "Contemplative Practice",
+    "sub_domain": "Meditation",
+    "category": "Meditation",
+    "subcategory": "Zen Teachers",
+    "era": "Contemporary",
+    "nationality": "Vietnamese",
+    "birth_year": 1926,
+    "death_year": 2022,
+    "description": "Vietnamese Zen master who founded Plum Village and brought mindfulness to the West through engaged Buddhism and peace activism.",
+    "notable_works": ["The Miracle of Mindfulness", "Peace Is Every Step", "Being Peace", "Engaged Buddhism"],
+    "psychological_profile": {
+      "primary_traits": ["peaceful", "compassionate", "engaged", "wise", "gentle"],
+      "core_motivations": ["peace activism", "engaged Buddhism", "mindful living", "interconnectedness"],
+      "behavioral_patterns": ["peaceful activism", "engaged Buddhism", "mindful teaching", "community building"]
+    },
+    "communication_style": {
+      "tone": ["gentle", "peaceful", "poetic", "wise"],
+      "vocabulary_patterns": ["mindfulness concepts", "peace terminology", "Buddhist wisdom", "engaged language"],
+      "rhetorical_strategies": ["peaceful persuasion", "mindful guidance", "poetic wisdom", "engaged teaching"]
+    },
+    "values": {
+      "core_values": ["peace", "mindfulness", "engaged Buddhism", "compassion", "interconnectedness"],
+      "professional_principles": ["peaceful activism", "engaged Buddhism", "mindful living", "compassionate action"]
+    },
+    "collaboration_style": {
+      "approach": ["peace initiatives", "engaged Buddhism", "mindfulness communities"],
+      "preferences": ["peaceful collaboration", "engaged interaction", "compassionate engagement"],
+      "conflict_resolution": ["peaceful dialogue", "mindful communication", "compassionate understanding"]
+    },
+    "expertise_areas": [
+      "Mindfulness meditation",
+      "Engaged Buddhism",
+      "Peace activism",
+      "Zen practice",
+      "Community building",
+      "Interfaith dialogue"
+    ],
+    "influence_scope": "Global - Engaged Buddhism and mindful peace activism"
+  },
+  {
+    "profile_id": "benson-herbert",
+    "name": "Herbert Benson",
+    "archetype": "Mindfulness Researcher",
+    "domain": "Contemplative Practice",
+    "sub_domain": "Mindfulness",
+    "category": "Mindfulness",
+    "subcategory": "Mindfulness Researchers",
+    "era": "Contemporary",
+    "nationality": "American",
+    "birth_year": 1935,
+    "death_year": 2022,
+    "description": "American cardiologist and researcher who pioneered the relaxation response and scientific study of meditation's effects on health.",
+    "notable_works": ["The Relaxation Response", "The Mind-Body Effect", "Timeless Healing", "Meditation research"],
+    "psychological_profile": {
+      "primary_traits": ["scientifically rigorous", "innovative", "health-focused", "systematic", "practical"],
+      "core_motivations": ["meditation research", "health applications", "mind-body medicine", "scientific validation"],
+      "behavioral_patterns": ["rigorous research", "medical applications", "scientific communication", "health promotion"]
+    },
+    "communication_style": {
+      "tone": ["scientifically grounded", "practical", "accessible", "health-focused"],
+      "vocabulary_patterns": ["medical terminology", "research language", "health concepts", "relaxation response"],
+      "rhetorical_strategies": ["evidence-based persuasion", "medical credibility", "health benefits", "scientific validation"]
+    },
+    "values": {
+      "core_values": ["scientific rigor", "health promotion", "mind-body medicine", "practical applications", "research integrity"],
+      "professional_principles": ["evidence-based research", "medical applications", "health promotion", "scientific communication"]
+    },
+    "collaboration_style": {
+      "approach": ["medical partnerships", "research collaborations", "health communities"],
+      "preferences": ["evidence-based practice", "medical rigor", "health-focused collaboration"],
+      "conflict_resolution": ["scientific reasoning", "medical evidence", "health-based discussion"]
+    },
+    "expertise_areas": [
+      "Relaxation response",
+      "Mind-body medicine",
+      "Meditation research",
+      "Stress reduction",
+      "Cardiovascular health",
+      "Medical applications"
+    ],
+    "influence_scope": "Global - Meditation research and mind-body medicine"
+  },
+  {
+    "profile_id": "shapiro-shauna",
+    "name": "Shauna Shapiro",
+    "archetype": "Mindfulness Coach",
+    "domain": "Contemplative Practice",
+    "sub_domain": "Mindfulness",
+    "category": "Mindfulness",
+    "subcategory": "Mindfulness Coaches",
+    "era": "Contemporary",
+    "nationality": "American",
+    "birth_year": 1970,
+    "death_year": null,
+    "description": "American psychologist and mindfulness teacher who developed the iRest program and integrates mindfulness with psychotherapy and healing.",
+    "notable_works": ["iRest", "The Art and Science of Mindfulness", "Mindful Discipline", "Mindfulness coaching"],
+    "psychological_profile": {
+      "primary_traits": ["compassionate", "healing-oriented", "empathetic", "innovative", "systematic"],
+      "core_motivations": ["mindfulness coaching", "psychological healing", "trauma recovery", "mindful living"],
+      "behavioral_patterns": ["mindfulness coaching", "trauma-informed practice", "healing guidance", "compassionate teaching"]
+    },
+    "communication_style": {
+      "tone": ["compassionate", "healing", "accessible", "empathetic"],
+      "vocabulary_patterns": ["mindfulness terminology", "healing language", "trauma concepts", "coaching methods"],
+      "rhetorical_strategies": ["compassionate guidance", "healing-focused teaching", "mindful coaching", "trauma-informed care"]
+    },
+    "values": {
+      "core_values": ["compassion", "healing", "mindfulness", "trauma-informed care", "psychological integration"],
+      "professional_principles": ["mindfulness coaching", "trauma-informed practice", "compassionate healing", "psychological integration"]
+    },
+    "collaboration_style": {
+      "approach": ["therapeutic partnerships", "mindfulness communities", "healing collaborations"],
+      "preferences": ["compassionate interaction", "healing-focused collaboration", "mindful engagement"],
+      "conflict_resolution": ["compassionate understanding", "trauma-informed communication", "mindful dialogue"]
+    },
+    "expertise_areas": [
+      "Mindfulness coaching",
+      "Trauma-informed practice",
+      "iRest meditation",
+      "Psychological healing",
+      "Mindful discipline",
+      "Therapeutic applications"
+    ],
+    "influence_scope": "Global - Mindfulness coaching and trauma-informed practice"
+  },
+  {
+    "profile_id": "chopra-deepak",
+    "name": "Deepak Chopra",
+    "archetype": "Spiritual Guide",
+    "domain": "Contemplative Practice",
+    "sub_domain": "Meditation",
+    "category": "Meditation",
+    "subcategory": "Spiritual Teachers",
+    "era": "Contemporary",
+    "nationality": "Indian-American",
+    "birth_year": 1946,
+    "death_year": null,
+    "description": "Indian-American physician and spiritual teacher who integrates Eastern wisdom with Western medicine and quantum physics.",
+    "notable_works": ["The Seven Spiritual Laws of Success", "Quantum Healing", "The Soul of Leadership", "Spiritual teaching"],
+    "psychological_profile": {
+      "primary_traits": ["wise", "integrative", "charismatic", "innovative", "spiritual"],
+      "core_motivations": ["spiritual awakening", "mind-body healing", "quantum consciousness", "wisdom integration"],
+      "behavioral_patterns": ["spiritual teaching", "wisdom integration", "consciousness exploration", "healing guidance"]
+    },
+    "communication_style": {
+      "tone": ["wise", "charismatic", "integrative", "spiritual"],
+      "vocabulary_patterns": ["spiritual terminology", "quantum concepts", "consciousness language", "wisdom teachings"],
+      "rhetorical_strategies": ["spiritual guidance", "wisdom integration", "consciousness exploration", "charismatic teaching"]
+    },
+    "values": {
+      "core_values": ["spiritual awakening", "consciousness", "wisdom", "healing", "quantum awareness"],
+      "professional_principles": ["spiritual teaching", "consciousness exploration", "wisdom integration", "healing guidance"]
+    },
+    "collaboration_style": {
+      "approach": ["spiritual partnerships", "consciousness collaborations", "wisdom communities"],
+      "preferences": ["spiritual interaction", "consciousness collaboration", "wisdom sharing"],
+      "conflict_resolution": ["spiritual understanding", "consciousness-based communication", "wisdom dialogue"]
+    },
+    "expertise_areas": [
+      "Spiritual teaching",
+      "Quantum consciousness",
+      "Mind-body healing",
+      "Meditation practices",
+      "Wisdom integration",
+      "Consciousness exploration"
+    ],
+    "influence_scope": "Global - Spiritual awakening and consciousness exploration"
+  },
+  {
+    "profile_id": "kabat-zinn-saki",
+    "name": "Saki Santorelli",
+    "archetype": "Mindfulness Teacher",
+    "domain": "Contemplative Practice",
+    "sub_domain": "Mindfulness",
+    "category": "Mindfulness",
+    "subcategory": "Mindfulness Teachers",
+    "era": "Contemporary",
+    "nationality": "American",
+    "birth_year": 1955,
+    "death_year": null,
+    "description": "American mindfulness teacher and former director of the Center for Mindfulness, specializing in MBSR and contemplative practices in healthcare.",
+    "notable_works": ["Heal Thyself", "Mindfulness-Based Stress Reduction", "Healthcare applications", "Contemplative medicine"],
+    "psychological_profile": {
+      "primary_traits": ["compassionate", "healing-oriented", "empathetic", "systematic", "wise"],
+      "core_motivations": ["healthcare mindfulness", "healing through awareness", "contemplative medicine", "MBSR teaching"],
+      "behavioral_patterns": ["healthcare mindfulness", "contemplative healing", "MBSR instruction", "compassionate care"]
+    },
+    "communication_style": {
+      "tone": ["compassionate", "healing", "accessible", "empathetic"],
+      "vocabulary_patterns": ["mindfulness terminology", "healthcare language", "healing concepts", "contemplative medicine"],
+      "rhetorical_strategies": ["compassionate healing", "mindful guidance", "healthcare applications", "contemplative teaching"]
+    },
+    "values": {
+      "core_values": ["compassion", "healing", "mindfulness", "contemplative medicine", "healthcare applications"],
+      "professional_principles": ["compassionate healing", "mindfulness in healthcare", "contemplative medicine", "MBSR teaching"]
+    },
+    "collaboration_style": {
+      "approach": ["healthcare partnerships", "mindfulness communities", "healing collaborations"],
+      "preferences": ["compassionate interaction", "healing-focused collaboration", "mindful engagement"],
+      "conflict_resolution": ["compassionate understanding", "mindful communication", "healing-based dialogue"]
+    },
+    "expertise_areas": [
+      "Mindfulness-Based Stress Reduction",
+      "Healthcare applications",
+      "Contemplative medicine",
+      "Healing practices",
+      "MBSR instruction",
+      "Mindful healthcare"
+    ],
+    "influence_scope": "Global - Mindfulness in healthcare and contemplative medicine"
+  },
+  {
+    "profile_id": "wallace-alan",
+    "name": "B. Alan Wallace",
+    "archetype": "Contemplative Scientist",
+    "domain": "Contemplative Practice",
+    "sub_domain": "Contemplative Psychology",
+    "category": "Contemplative Psychology",
+    "subcategory": "Contemplative Scientists",
+    "era": "Contemporary",
+    "nationality": "American",
+    "birth_year": 1950,
+    "death_year": null,
+    "description": "American Buddhist scholar and contemplative scientist who bridges Buddhist philosophy with cognitive science and consciousness research.",
+    "notable_works": ["The Attention Revolution", "Mind in the Balance", "Contemplative Science", "Buddhist philosophy"],
+    "psychological_profile": {
+      "primary_traits": ["scholarly", "analytical", "contemplative", "systematic", "wise"],
+      "core_motivations": ["contemplative science", "consciousness research", "Buddhist philosophy", "attention training"],
+      "behavioral_patterns": ["scholarly research", "contemplative practice", "consciousness exploration", "attention training"]
+    },
+    "communication_style": {
+      "tone": ["scholarly", "analytical", "contemplative", "systematic"],
+      "vocabulary_patterns": ["Buddhist terminology", "consciousness concepts", "contemplative science", "attention research"],
+      "rhetorical_strategies": ["scholarly analysis", "contemplative guidance", "consciousness exploration", "scientific rigor"]
+    },
+    "values": {
+      "core_values": ["contemplative science", "consciousness research", "Buddhist philosophy", "attention training", "scholarly rigor"],
+      "professional_principles": ["contemplative science", "consciousness research", "Buddhist scholarship", "attention training"]
+    },
+    "collaboration_style": {
+      "approach": ["scholarly partnerships", "contemplative collaborations", "consciousness research"],
+      "preferences": ["scholarly interaction", "contemplative collaboration", "consciousness exploration"],
+      "conflict_resolution": ["contemplative understanding", "scholarly analysis", "consciousness-based communication"]
+    },
+    "expertise_areas": [
+      "Contemplative science",
+      "Consciousness research",
+      "Buddhist philosophy",
+      "Attention training",
+      "Meditation research",
+      "Scholarly analysis"
+    ],
+    "influence_scope": "Global - Contemplative science and consciousness research"
   }
 ]

@@ -8,7 +8,7 @@
     <meta http-equiv="Expires" content="0">
     <title>JSON Context Profiles - Layout Fixed v8.5</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
-    <link rel="stylesheet" href="styles.css?v=5.9">
+    <link rel="stylesheet" href="styles.css?v=6.8">
 </head>
 <body>
     <div class="container">
@@ -61,6 +61,7 @@
                         <div class="super-filter-buttons">
                             <button class="super-filter-btn" onclick="applySuperFilter('arts')">Arts</button>
                             <button class="super-filter-btn" onclick="applySuperFilter('business')">Business</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('contemplative-practice')">Contemplative Practice</button>
                             <button class="super-filter-btn" onclick="applySuperFilter('design')">Design</button>
                             <button class="super-filter-btn" onclick="applySuperFilter('economics')">Economics</button>
                             <button class="super-filter-btn" onclick="applySuperFilter('entrepreneurial')">Entrepreneurial</button>
@@ -373,7 +374,7 @@
             try {
                 console.log('🔄 Loading profiles from all-profiles.json...');
                 
-                const response = await fetch('all-profiles.json?v=5.9');
+                const response = await fetch('all-profiles.json?v=6.4');
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
@@ -1113,6 +1114,10 @@
                 'authors': {
                     'archetype-filter': ['Absurdist Playwright', 'Deep Work Advocate & Digital Minimalism Pioneer', 'Horror Writer', 'Memoirist and Poet', 'Modern Stoicism Teacher & Ancient Wisdom Popularizer', 'Novelist', 'Personal Finance Psychology Expert & Systems-Based Wealth Builder', 'Power Dynamics Expert & Strategic Thinking Master', 'Purpose-Driven Leadership Expert & Why-Focused Strategist', 'Romantic Novelist', 'Victorian Novelist'],
                     'domain-filter': ['Authors', 'Writers', 'Writing']
+                },
+                'contemplative-practice': {
+                    'archetype-filter': ['Mindfulness Teacher', 'Mindfulness Researcher', 'Mindfulness Coach', 'Contemplative Scientist', 'Meditation Teacher', 'Zen Master', 'Buddhist Teacher', 'Spiritual Guide', 'Contemplative Monk', 'Contemplative Psychologist', 'Transpersonal Psychologist', 'Mindfulness-Based Therapist'],
+                    'domain-filter': ['Contemplative Practice']
                 }
             };
             
@@ -1519,38 +1524,49 @@
                 // Generate filename from profile data
                 const filename = generateFilename(profile.name);
                 
+                // Debug subdomain display
+                if (profile.name === 'Bill Ackman') {
+                    console.log('🔍 Bill Ackman profile data:', profile);
+                    console.log('🔍 Bill Ackman sub_domain:', profile.sub_domain);
+                    console.log('🔍 Bill Ackman domain:', profile.domain);
+                }
+                
                 profileCard.innerHTML = `
-                    <div class="profile-header">
-                        <div style="font-size: 12px; color: #283618;">
-                            <span class="selection-indicator" id="indicator-${profile.name.replace(/\s+/g, '-')}" style="display: none;">✓ Selected</span>
+                    <div class="card-header">
+                        <div class="card-name-row">
+                            <div class="card-name">${profile.name}</div>
+                            <div class="card-selected" id="indicator-${profile.name.replace(/\s+/g, '-')}" style="display: none;">SELECTED</div>
                         </div>
-                    </div>
-                    <div class="profile-name">${profile.name}</div>
-                    <div class="profile-info">
-                        <div class="info-row">
-                            <div class="info-label">Archetype:</div>
-                            <div class="info-value">${profile.archetype}</div>
-                        </div>
-                        <div class="info-row">
-                            <div class="info-label">Domain:</div>
-                            <div class="info-value">${profile.domain}${profile.sub_domain ? ` - ${profile.sub_domain}` : ''}</div>
-                        </div>
-                        <div class="traits-section">
-                            <div class="traits-label">Primary Traits:</div>
-                            <div class="traits-list">
-                                ${(() => {
-                                    const traits = profile.psychological_profile?.primary_traits;
-                                    if (!traits) return '';
-                                    const traitArray = Array.isArray(traits) ? traits : traits.split(',').map(t => t.trim());
-                                    return traitArray.map(trait => `<span class="trait-tag">${trait}</span>`).join('');
-                                })()}
+                        <div class="card-content">
+                            <div class="field-group">
+                                <div class="field-label">Archetype</div>
+                                <div class="field-value">${profile.archetype}</div>
+                            </div>
+                            <div class="field-group">
+                                <div class="field-label">Domain</div>
+                                <div class="field-value">${profile.domain}</div>
+                            </div>
+                            <div class="field-group">
+                                <div class="field-label">Subdomain</div>
+                                <div class="field-value">${profile.sub_domain || ''}</div>
+                            </div>
+                            <div class="field-group profile-traits">
+                                <div class="field-label">Primary Traits</div>
+                                <div class="traits-list">
+                                    ${(() => {
+                                        const traits = profile.primary_traits || profile.psychological_profile?.primary_traits;
+                                        if (!traits) return '';
+                                        const traitArray = Array.isArray(traits) ? traits : traits.split(',').map(t => t.trim());
+                                        return traitArray.map(trait => `<span class="trait-tag">${trait}</span>`).join('');
+                                    })()}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="profile-actions">
-                        <a href="profiles/${filename}" class="btn btn-primary" download onclick="event.stopPropagation()">Download</a>
-                        <button class="btn btn-secondary" onclick="copyToClipboard('${filename}'); event.stopPropagation()">Copy</button>
-                        <button class="btn btn-secondary" onclick="expandProfile('${profile.name}', event); event.stopPropagation()">Details</button>
+                        <div class="profile-actions">
+                            <a href="profiles/${filename}" class="btn" download onclick="event.stopPropagation()">Download</a>
+                            <button class="btn" onclick="copyToClipboard('${filename}'); event.stopPropagation()">Copy</button>
+                            <button class="btn" onclick="expandProfile('${profile.name}', event); event.stopPropagation()">Details</button>
+                        </div>
                     </div>
                 `;
                 
@@ -1573,7 +1589,7 @@
                 profileCard.innerHTML = `
                     <div class="profile-name">${profile.name}</div>
                     <div class="profile-archetype">${profile.archetype}</div>
-                    <div class="profile-domain">${profile.domain}</div>
+                    <div class="profile-domain">${profile.domain}${profile.sub_domain ? ` - ${profile.sub_domain}` : ''}</div>
                     <div class="profile-actions">
                         <a href="profiles/${filename}" class="btn btn-primary" download onclick="event.stopPropagation()">Download</a>
                         <button class="btn btn-secondary" onclick="copyToClipboard('${filename}'); event.stopPropagation()">Copy</button>
@@ -1586,20 +1602,29 @@
         }
 
         function copyToClipboard(filename) {
+            console.log('🔄 Copying profile:', filename);
             fetch(`profiles/${filename}`)
-                .then(response => response.json())
+                .then(response => {
+                    console.log('📡 Fetch response:', response.status);
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
                 .then(data => {
+                    console.log('📋 Profile data loaded:', data.name);
                     navigator.clipboard.writeText(JSON.stringify(data, null, 2))
                         .then(() => {
                             alert('Profile copied to clipboard!');
                         })
-                        .catch(() => {
+                        .catch((clipError) => {
+                            console.error('📋 Clipboard error:', clipError);
                             alert('Failed to copy to clipboard. Please try downloading instead.');
                         });
                 })
                 .catch(error => {
-                    console.error('Error copying profile:', error);
-                    alert('Error copying profile. Please try downloading instead.');
+                    console.error('❌ Error copying profile:', error);
+                    alert(`Error copying profile: ${error.message}. Please try downloading instead.`);
                 });
         }
 
@@ -2140,7 +2165,7 @@
 
         function clearComparison() {
             selectedProfiles = [];
-            document.querySelectorAll('.selection-indicator').forEach(indicator => {
+            document.querySelectorAll('.card-selected').forEach(indicator => {
                 indicator.style.display = 'none';
             });
             document.querySelectorAll('.profile-card').forEach(card => {

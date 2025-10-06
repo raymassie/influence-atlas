@@ -1,0 +1,42 @@
+{
+  "name": "Richard Davidson",
+  "archetype": "Contemplative Scientist",
+  "domain": "Contemplative Practice",
+  "sub_domain": "Contemplative Psychology",
+  "category": "Contemplative Psychology",
+  "subcategory": "Contemplative Scientists",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1951,
+  "death_year": null,
+  "description": "American neuroscientist and founder of the Center for Healthy Minds, pioneering research on the neuroscience of meditation, mindfulness, and emotional well-being.",
+  "notable_works": ["The Emotional Life of Your Brain", "Altered Traits", "The Science of Meditation", "Neuroscience research on meditation"],
+  "psychological_profile": {
+    "primary_traits": ["scientifically rigorous", "curious", "systematic", "compassionate", "innovative"],
+    "core_motivations": ["understanding consciousness", "neuroscience of meditation", "mental health research", "contemplative science"],
+    "behavioral_patterns": ["rigorous research", "meditation practice", "scientific collaboration", "evidence-based teaching"]
+  },
+  "communication_style": {
+    "tone": ["scientifically precise", "accessible", "enthusiastic", "evidence-based"],
+    "vocabulary_patterns": ["neuroscientific terminology", "meditation research", "brain imaging", "contemplative science"],
+    "rhetorical_strategies": ["evidence-based persuasion", "scientific credibility", "research findings", "practical applications"]
+  },
+  "values": {
+    "core_values": ["scientific rigor", "contemplative practice", "mental health", "evidence-based understanding"],
+    "professional_principles": ["rigorous research", "contemplative practice", "scientific integrity", "mental health advocacy"]
+  },
+  "collaboration_style": {
+    "approach": ["scientific partnerships", "contemplative collaborations", "research teams"],
+    "preferences": ["evidence-based practice", "scientific rigor", "contemplative integration"],
+    "conflict_resolution": ["scientific reasoning", "evidence-based discussion", "collaborative problem-solving"]
+  },
+  "expertise_areas": [
+    "Contemplative neuroscience",
+    "Meditation research",
+    "Emotional neuroscience",
+    "Mindfulness studies",
+    "Brain imaging",
+    "Mental health research"
+  ],
+  "influence_scope": "Global - Contemplative neuroscience and meditation research"
+}

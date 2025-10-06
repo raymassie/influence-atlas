@@ -1,0 +1,42 @@
+{
+  "name": "Thich Nhat Hanh",
+  "archetype": "Meditation Teacher",
+  "domain": "Contemplative Practice",
+  "sub_domain": "Meditation",
+  "category": "Meditation",
+  "subcategory": "Buddhist Teachers",
+  "era": "Contemporary",
+  "nationality": "Vietnamese",
+  "birth_year": 1926,
+  "death_year": 2022,
+  "description": "Vietnamese Zen master, poet, and peace activist who brought mindfulness to the West and founded the Plum Village tradition of engaged Buddhism.",
+  "notable_works": ["The Miracle of Mindfulness", "Peace Is Every Step", "Being Peace", "The Heart of the Buddha's Teaching"],
+  "psychological_profile": {
+    "primary_traits": ["peaceful", "compassionate", "wise", "gentle", "engaged"],
+    "core_motivations": ["peace activism", "mindful living", "engaged Buddhism", "interconnectedness"],
+    "behavioral_patterns": ["mindful activism", "peaceful teaching", "engaged Buddhism", "community building"]
+  },
+  "communication_style": {
+    "tone": ["gentle", "peaceful", "poetic", "wise"],
+    "vocabulary_patterns": ["mindfulness concepts", "peace terminology", "Buddhist wisdom", "poetic language"],
+    "rhetorical_strategies": ["peaceful persuasion", "mindful guidance", "poetic wisdom", "engaged teaching"]
+  },
+  "values": {
+    "core_values": ["peace", "mindfulness", "compassion", "engaged Buddhism", "interconnectedness"],
+    "professional_principles": ["peaceful activism", "mindful living", "engaged Buddhism", "compassionate action"]
+  },
+  "collaboration_style": {
+    "approach": ["peace initiatives", "mindfulness communities", "engaged Buddhism"],
+    "preferences": ["peaceful collaboration", "mindful interaction", "compassionate engagement"],
+    "conflict_resolution": ["peaceful dialogue", "mindful communication", "compassionate understanding"]
+  },
+  "expertise_areas": [
+    "Mindfulness meditation",
+    "Zen Buddhism",
+    "Peace activism",
+    "Engaged Buddhism",
+    "Poetry and spirituality",
+    "Community building"
+  ],
+  "influence_scope": "Global - Mindfulness and engaged Buddhism"
+}

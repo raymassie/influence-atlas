@@ -1,0 +1,42 @@
+{
+  "name": "Jack Kornfield",
+  "archetype": "Meditation Teacher",
+  "domain": "Contemplative Practice",
+  "sub_domain": "Meditation",
+  "category": "Meditation",
+  "subcategory": "Buddhist Teachers",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1945,
+  "death_year": null,
+  "description": "American meditation teacher and psychologist who co-founded the Insight Meditation Society, bringing Vipassana meditation to the West.",
+  "notable_works": ["A Path with Heart", "After the Ecstasy, the Laundry", "The Wise Heart", "Bringing Home the Dharma"],
+  "psychological_profile": {
+    "primary_traits": ["compassionate", "wise", "practical", "empathetic", "integrative"],
+    "core_motivations": ["Vipassana teaching", "psychological integration", "spiritual wisdom", "practical spirituality"],
+    "behavioral_patterns": ["Vipassana instruction", "psychological integration", "compassionate teaching", "practical wisdom"]
+  },
+  "communication_style": {
+    "tone": ["compassionate", "wise", "practical", "accessible"],
+    "vocabulary_patterns": ["Vipassana terminology", "psychological concepts", "Buddhist wisdom", "practical spirituality"],
+    "rhetorical_strategies": ["compassionate guidance", "practical wisdom", "psychological integration", "spiritual teaching"]
+  },
+  "values": {
+    "core_values": ["compassion", "wisdom", "practical spirituality", "psychological integration", "Vipassana practice"],
+    "professional_principles": ["compassionate teaching", "practical spirituality", "psychological integration", "Vipassana instruction"]
+  },
+  "collaboration_style": {
+    "approach": ["spiritual partnerships", "psychological collaborations", "meditation communities"],
+    "preferences": ["compassionate interaction", "practical collaboration", "spiritual integration"],
+    "conflict_resolution": ["compassionate understanding", "practical wisdom", "mindful communication"]
+  },
+  "expertise_areas": [
+    "Vipassana meditation",
+    "Buddhist psychology",
+    "Spiritual teaching",
+    "Psychological integration",
+    "Mindfulness practices",
+    "Community building"
+  ],
+  "influence_scope": "Global - Vipassana meditation and Buddhist psychology"
+}

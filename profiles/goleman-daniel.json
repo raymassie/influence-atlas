@@ -1,0 +1,42 @@
+{
+  "name": "Daniel Goleman",
+  "archetype": "Mindfulness Researcher",
+  "domain": "Contemplative Practice",
+  "sub_domain": "Mindfulness",
+  "category": "Mindfulness",
+  "subcategory": "Mindfulness Researchers",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1946,
+  "death_year": null,
+  "description": "American psychologist and science journalist who popularized emotional intelligence and integrated mindfulness with cognitive science research.",
+  "notable_works": ["Emotional Intelligence", "Focus", "Altered Traits", "The Meditative Mind"],
+  "psychological_profile": {
+    "primary_traits": ["analytical", "insightful", "scientifically-minded", "accessible", "integrative"],
+    "core_motivations": ["emotional intelligence research", "mindfulness science", "cognitive research", "practical applications"],
+    "behavioral_patterns": ["research synthesis", "science communication", "mindfulness practice", "evidence-based teaching"]
+  },
+  "communication_style": {
+    "tone": ["scientifically grounded", "accessible", "insightful", "practical"],
+    "vocabulary_patterns": ["emotional intelligence concepts", "mindfulness research", "cognitive science", "practical applications"],
+    "rhetorical_strategies": ["evidence-based persuasion", "scientific credibility", "practical relevance", "research integration"]
+  },
+  "values": {
+    "core_values": ["emotional intelligence", "scientific rigor", "mindfulness", "practical wisdom", "research integrity"],
+    "professional_principles": ["evidence-based research", "scientific communication", "mindfulness practice", "practical applications"]
+  },
+  "collaboration_style": {
+    "approach": ["research partnerships", "scientific collaborations", "mindfulness communities"],
+    "preferences": ["evidence-based practice", "scientific rigor", "mindful collaboration"],
+    "conflict_resolution": ["scientific reasoning", "mindful communication", "evidence-based discussion"]
+  },
+  "expertise_areas": [
+    "Emotional intelligence",
+    "Mindfulness research",
+    "Cognitive science",
+    "Attention research",
+    "Meditation science",
+    "Science communication"
+  ],
+  "influence_scope": "Global - Emotional intelligence and mindfulness research"
+}

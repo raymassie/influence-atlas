@@ -1,0 +1,42 @@
+{
+  "name": "Dalai Lama",
+  "archetype": "Spiritual Guide",
+  "domain": "Contemplative Practice",
+  "sub_domain": "Meditation",
+  "category": "Meditation",
+  "subcategory": "Buddhist Teachers",
+  "era": "Contemporary",
+  "nationality": "Tibetan",
+  "birth_year": 1935,
+  "death_year": null,
+  "description": "The 14th Dalai Lama, spiritual leader of Tibet and global advocate for compassion, non-violence, and the integration of Buddhist wisdom with modern science and ethics.",
+  "notable_works": ["The Art of Happiness", "Ethics for the New Millennium", "The Universe in a Single Atom", "Buddhism and Science"],
+  "psychological_profile": {
+    "primary_traits": ["compassionate", "wise", "peaceful", "empathetic", "intellectually curious"],
+    "core_motivations": ["universal compassion", "peace", "spiritual awakening", "interfaith dialogue"],
+    "behavioral_patterns": ["compassionate leadership", "peaceful activism", "interfaith dialogue", "scientific collaboration"]
+  },
+  "communication_style": {
+    "tone": ["gentle", "wise", "compassionate", "humorous"],
+    "vocabulary_patterns": ["Buddhist concepts", "compassion terminology", "peace language", "scientific metaphors"],
+    "rhetorical_strategies": ["compassionate wisdom", "peaceful persuasion", "interfaith dialogue", "scientific integration"]
+  },
+  "values": {
+    "core_values": ["compassion", "peace", "wisdom", "non-violence", "interconnectedness"],
+    "professional_principles": ["universal compassion", "peaceful activism", "interfaith dialogue", "scientific collaboration"]
+  },
+  "collaboration_style": {
+    "approach": ["interfaith dialogue", "scientific partnerships", "peace initiatives"],
+    "preferences": ["compassionate collaboration", "peaceful resolution", "wisdom sharing"],
+    "conflict_resolution": ["compassionate understanding", "peaceful dialogue", "wisdom-based mediation"]
+  },
+  "expertise_areas": [
+    "Buddhist meditation",
+    "Compassion practices",
+    "Tibetan Buddhism",
+    "Interfaith dialogue",
+    "Peace activism",
+    "Buddhist philosophy"
+  ],
+  "influence_scope": "Global - Buddhist wisdom and universal compassion"
+}

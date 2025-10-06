@@ -1,0 +1,42 @@
+{
+  "name": "Ram Dass",
+  "archetype": "Spiritual Guide",
+  "domain": "Contemplative Practice",
+  "sub_domain": "Meditation",
+  "category": "Meditation",
+  "subcategory": "Spiritual Teachers",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1931,
+  "death_year": 2019,
+  "description": "American spiritual teacher and psychologist who brought Eastern wisdom to the West, known for his teachings on love, service, and conscious aging.",
+  "notable_works": ["Be Here Now", "Still Here", "Polishing the Mirror", "Walking Each Other Home"],
+  "psychological_profile": {
+    "primary_traits": ["compassionate", "wise", "humorous", "authentic", "service-oriented"],
+    "core_motivations": ["spiritual awakening", "service to others", "conscious aging", "love cultivation"],
+    "behavioral_patterns": ["service-oriented teaching", "compassionate guidance", "conscious living", "love-based spirituality"]
+  },
+  "communication_style": {
+    "tone": ["compassionate", "humorous", "wise", "authentic"],
+    "vocabulary_patterns": ["spiritual terminology", "love concepts", "service language", "conscious aging"],
+    "rhetorical_strategies": ["compassionate wisdom", "humorous teaching", "love-based guidance", "authentic spirituality"]
+  },
+  "values": {
+    "core_values": ["love", "service", "conscious aging", "spiritual awakening", "compassion"],
+    "professional_principles": ["service-oriented teaching", "love-based spirituality", "conscious living", "compassionate guidance"]
+  },
+  "collaboration_style": {
+    "approach": ["service partnerships", "spiritual communities", "love-based collaborations"],
+    "preferences": ["service-oriented interaction", "love-based collaboration", "compassionate engagement"],
+    "conflict_resolution": ["love-based understanding", "compassionate communication", "service-oriented resolution"]
+  },
+  "expertise_areas": [
+    "Spiritual teaching",
+    "Conscious aging",
+    "Service spirituality",
+    "Love cultivation",
+    "Eastern wisdom",
+    "Community building"
+  ],
+  "influence_scope": "Global - Spiritual awakening and conscious aging"
+}
