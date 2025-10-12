@@ -8,7 +8,7 @@ This application provides rich, searchable profiles of 265+ influential figures 
 
 ## Features
 
-- **Rich Profile Data**: 371 unique primary traits across 155 data fields
+- **Rich Profile Data**: 320 standardized primary traits across 155 data fields
 - **Advanced Filtering**: Filter by category, archetype, domain, and trait dimensions
 - **Trait-Based Discovery**: Click any trait chip to find similar profiles
 - **Hierarchical Color System**: 13 color-coded categories with automatic contrast adjustment (WCAG-compliant)
@@ -24,7 +24,7 @@ This application provides rich, searchable profiles of 265+ influential figures 
 - **28 Domains**: Primary fields of work
 - **193 Subdomains**: Specialized areas within domains
 - **155 Data Fields**: Cleaned, non-redundant structure
-- **371 Primary Traits**: Unique personality characteristics
+- **320 Primary Traits**: Standardized personality characteristics
 - **13 Framework Categories**: Behavioral Humanism framework sections
 
 ## Behavioral Humanism Framework
@@ -66,15 +66,16 @@ Plus traditional categories:
 - 265 profiles with comprehensive trait data
 - Cleaned data structure (155 fields, removed 72 redundant field types)
 - High-value gap filling (1,140 improvements across profiles)
+- Trait standardization (320 clean traits, consolidated from 371)
 - Hierarchical color system (13 category families, 4 levels each)
 - Accessibility features (WCAG-compliant automatic contrast)
 - Advanced filtering and trait-based discovery
 - Full-screen detail modal with category organization
 
 ### 🚧 In Progress
-- Primary trait standardization (371 unique traits identified)
-- Profile quality enhancement and consistency
+- Profile quality enhancement (using Steve Ballmer as benchmark)
 - Additional gap filling for specialized fields
+- Further trait consolidation (164 single-use traits)
 
 ### 📋 Planned
 - Profile comparison tools

@@ -22,13 +22,7 @@
     }
   },
   "psychological_profile": {
-    "primary_traits": [
-      "Strategic",
-      "Analytical",
-      "Philosophical",
-      "Contrarian",
-      "Systematic"
-    ],
+    "primary_traits": "strategic, analytical, philosophical, contrarian, systematic",
     "core_motivations": [
       "Truth",
       "Strategy",

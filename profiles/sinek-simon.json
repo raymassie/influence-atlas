@@ -4,12 +4,7 @@
   "domain": "Authors",
   "sub_domain": "Leadership & Organizational Purpose",
   "psychological_profile": {
-    "primary_traits": [
-      "purpose-driven",
-      "inspirational",
-      "empathetic",
-      "optimistic"
-    ],
+    "primary_traits": "purpose-driven, inspiring, empathetic, optimistic",
     "cognitive_style": "purpose-first thinking with leadership development focus",
     "core_motivations": [
       "inspiring leadership",

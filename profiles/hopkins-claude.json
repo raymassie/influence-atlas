@@ -4,12 +4,7 @@
   "domain": "Marketing",
   "sub_domain": "Scientific Advertising & Reason-Why Copy",
   "psychological_profile": {
-    "primary_traits": [
-      "scientific",
-      "reason-focused",
-      "systematic",
-      "results-driven"
-    ],
+    "primary_traits": "scientific, reason-focused, systematic, results-oriented",
     "cognitive_style": "scientific reasoning with systematic advertising approach",
     "core_motivations": [
       "making advertising scientific",

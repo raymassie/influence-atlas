@@ -29,13 +29,7 @@
     }
   },
   "psychological_profile": {
-    "primary_traits": [
-      "Determined",
-      "Principled",
-      "Strong-willed",
-      "Analytical",
-      "Decisive"
-    ],
+    "primary_traits": "determined, principled, strong-willed, analytical, decisive",
     "core_motivations": [
       "Individual Liberty",
       "Economic Freedom",

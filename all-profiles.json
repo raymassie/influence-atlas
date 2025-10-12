@@ -1177,7 +1177,7 @@
       "decision_making": "ecological, philosophically informed"
     },
     "psychological_profile": {
-      "primary_traits": "ecological, philosophical, observational, systematic, reflective",
+      "primary_traits": "ecological, philosophical, observant, systematic, reflective",
       "core_motivations": "ecological understanding, environmental conservation, philosophical insight, systematic observation",
       "learning_style": "observational, ecological, philosophical"
     },
@@ -1269,7 +1269,7 @@
     "domain": "Philosophy",
     "sub_domain": "Ancient Philosophy",
     "psychological_profile": {
-      "primary_traits": "idealistic, analytical, systematic, curious, intellectually rigorous, observant, conceptually focused",
+      "primary_traits": "idealistic, analytical, systematic, curious, intellectually-rigorous, observant, conceptually focused",
       "cognitive_style": "idealistic reasoning, systematic analysis, conceptual thinking, deductive logic, analytical problem-solving",
       "core_motivations": "understanding ideal forms, systematic knowledge, conceptual reasoning, intellectual discovery, philosophical truth",
       "decision_making_framework": "idealistic analysis, systematic reasoning, conceptual logic, deductive thinking, analytical evaluation",
@@ -1774,7 +1774,7 @@
     "domain": "Art",
     "sub_domain": "Visual Arts",
     "psychological_profile": {
-      "primary_traits": "curious, analytical, creative, innovative, systematic, observant, intellectually curious",
+      "primary_traits": "curious, analytical, creative, innovative, systematic, observant, intellectually-curious",
       "cognitive_style": "visual thinking, analytical reasoning, creative exploration, systematic observation, intellectual curiosity",
       "core_motivations": "understanding natural world, artistic expression, scientific discovery, creative innovation, intellectual exploration",
       "decision_making_framework": "systematic observation, analytical reasoning, creative exploration, intellectual curiosity, empirical validation",
@@ -2198,7 +2198,7 @@
       "decision_making": "strategic, analytical, global"
     },
     "psychological_profile": {
-      "primary_traits": "strategic, analytical, transformation-focused, global, results-oriented",
+      "primary_traits": "strategic, analytical, transformational, global, results-oriented",
       "core_motivations": "industrial transformation, global expansion, strategic excellence",
       "learning_style": "strategic, analytical, global perspective"
     },
@@ -2527,12 +2527,7 @@
     "domain": "Marketing",
     "sub_domain": "Scientific Advertising & Reason-Why Copy",
     "psychological_profile": {
-      "primary_traits": [
-        "scientific",
-        "reason-focused",
-        "systematic",
-        "results-driven"
-      ],
+      "primary_traits": "scientific, reason-focused, systematic, results-oriented",
       "cognitive_style": "scientific reasoning with systematic advertising approach",
       "core_motivations": [
         "making advertising scientific",
@@ -2988,13 +2983,7 @@
       }
     },
     "psychological_profile": {
-      "primary_traits": [
-        "Analytical",
-        "Patient",
-        "Dedicated",
-        "Scientific",
-        "Compassionate"
-      ],
+      "primary_traits": "analytical, patient, dedicated, scientific, compassionate",
       "core_motivations": [
         "Public Health",
         "Scientific Truth",
@@ -4455,7 +4444,7 @@
       "core_competencies": "Victorian literature, social criticism, character development, serial fiction, English society, industrial revolution themes, family dynamics, moral storytelling"
     },
     "psychological_profile": {
-      "primary_traits": "observant, empathetic, driven, socially conscious, creative, disciplined, emotionally intelligent, detail-oriented",
+      "primary_traits": "observant, empathetic, driven, socially-conscious, creative, disciplined, emotionally-intelligent, detail-oriented",
       "core_motivations": "social reform, entertainment, moral instruction, character exploration, narrative mastery, public engagement"
     },
     "values": {
@@ -4595,7 +4584,7 @@
       "problem_solving_approach": "experimental optimization, research-backed solutions, lifestyle-focused improvement"
     },
     "psychological_profile": {
-      "primary_traits": "experimental, optimization-focused, research-backed, systematic, lifestyle-oriented",
+      "primary_traits": "experimental, optimization-focused, research-oriented, systematic, lifestyle-oriented",
       "core_motivations": "experimental optimization, research-backed coaching, lifestyle-focused guidance, systematic improvement"
     },
     "values": {
@@ -4974,7 +4963,7 @@
       "decision_making": "strategic, analytical, decisive"
     },
     "psychological_profile": {
-      "primary_traits": "strategic, analytical, transformation-focused, results-oriented, decisive",
+      "primary_traits": "strategic, analytical, transformational, results-oriented, decisive",
       "core_motivations": "organizational transformation, competitive excellence, strategic success",
       "learning_style": "strategic, analytical, transformation-focused"
     },
@@ -6298,12 +6287,7 @@
     "domain": "Entrepreneurship",
     "sub_domain": "Personal Development & Masculine Leadership",
     "psychological_profile": {
-      "primary_traits": [
-        "vulnerable",
-        "athletic-minded",
-        "growth-focused",
-        "relationship-oriented"
-      ],
+      "primary_traits": "vulnerable, athletic-minded, growth-oriented, relationship-oriented",
       "cognitive_style": "vulnerability integration with achievement focus",
       "core_motivations": [
         "redefining masculine success",
@@ -9004,13 +8988,7 @@
       }
     },
     "psychological_profile": {
-      "primary_traits": [
-        "Determined",
-        "Principled",
-        "Strong-willed",
-        "Analytical",
-        "Decisive"
-      ],
+      "primary_traits": "determined, principled, strong-willed, analytical, decisive",
       "core_motivations": [
         "Individual Liberty",
         "Economic Freedom",
@@ -10138,7 +10116,7 @@
       "core_competencies": "cloud computing leadership, cultural transformation, inclusive management, growth mindset development, strategic innovation, customer-centric technology, organizational change, empathetic leadership"
     },
     "psychological_profile": {
-      "primary_traits": "empathetic, growth-minded, inclusive, collaborative, strategic, innovative, authentic, transformative, customer-focused, cultural",
+      "primary_traits": "empathetic, growth-oriented, inclusive, collaborative, strategic, innovative, authentic, transformative, customer-focused, cultural",
       "core_motivations": "cultural transformation, inclusive growth, customer success, strategic innovation, empathetic leadership, growth mindset development, collaborative excellence"
     },
     "values": {
@@ -10538,7 +10516,7 @@
     "domain": "Philosophy",
     "sub_domain": "Ancient Philosophy",
     "psychological_profile": {
-      "primary_traits": "analytical, systematic, logical, curious, methodical, intellectually rigorous, observant",
+      "primary_traits": "analytical, systematic, logical, curious, methodical, intellectually-rigorous, observant",
       "cognitive_style": "logical reasoning, systematic analysis, empirical observation, deductive thinking, analytical problem-solving",
       "core_motivations": "understanding fundamental principles, systematic knowledge, logical reasoning, empirical observation, intellectual discovery",
       "decision_making_framework": "logical analysis, systematic reasoning, empirical evidence, deductive logic, analytical evaluation",
@@ -12334,7 +12312,7 @@
     "domain": "Psychology",
     "sub_domain": "Behavioral Economics",
     "psychological_profile": {
-      "primary_traits": "analytical, curious, experimental, insightful, systematic, empathetic, research-driven",
+      "primary_traits": "analytical, curious, experimental, insightful, systematic, empathetic, research-oriented",
       "cognitive_style": "experimental, analytical, pattern recognition, human behavior focused, systematic, research-oriented",
       "core_motivations": "understanding human behavior, improving decision-making, debunking assumptions, applying psychology to real-world problems",
       "decision_making_framework": "experimental analysis, behavioral research, systematic evaluation, human psychology insights, data-driven decisions",
@@ -16702,7 +16680,7 @@
     "domain": "Philosophy",
     "sub_domain": "Modern Philosophy",
     "psychological_profile": {
-      "primary_traits": "analytical, methodical, systematic, intellectually rigorous, observant, logically precise, conceptually focused",
+      "primary_traits": "analytical, methodical, systematic, intellectually-rigorous, observant, logically precise, conceptually focused",
       "cognitive_style": "analytical reasoning, methodical thinking, systematic logic, deductive analysis, conceptual problem-solving",
       "core_motivations": "understanding fundamental principles, systematic knowledge, analytical reasoning, intellectual discovery, philosophical truth",
       "decision_making_framework": "analytical reasoning, methodical evaluation, systematic logic, deductive thinking, conceptual assessment",
@@ -17021,12 +16999,7 @@
     "domain": "Motivation Coaching",
     "sub_domain": "High Performance & Personal Development",
     "psychological_profile": {
-      "primary_traits": [
-        "systematic",
-        "high-energy",
-        "research-driven",
-        "performance-focused"
-      ],
+      "primary_traits": "systematic, high-energy, research-oriented, performance-oriented",
       "cognitive_style": "systematic performance optimization with research-backed approach",
       "core_motivations": [
         "optimizing human performance",
@@ -17376,7 +17349,7 @@
       "decision_making": "structural, analytically informed"
     },
     "psychological_profile": {
-      "primary_traits": "analytical, comprehensive, structural, methodological, interdisciplinary",
+      "primary_traits": "analytical, comprehensive, structural, methodical, interdisciplinary",
       "core_motivations": "structural understanding, comprehensive analysis, methodological innovation, interdisciplinary synthesis",
       "learning_style": "analytical, structural, interdisciplinary"
     },
@@ -17877,12 +17850,7 @@
     "domain": "Entrepreneurship",
     "sub_domain": "Digital Marketing & Sales Funnel Optimization",
     "psychological_profile": {
-      "primary_traits": [
-        "systematic",
-        "funnel-obsessed",
-        "storytelling-focused",
-        "results-driven"
-      ],
+      "primary_traits": "systematic, funnel-obsessed, storytelling-focused, results-oriented",
       "cognitive_style": "funnel-thinking with direct response methodology",
       "core_motivations": [
         "helping entrepreneurs succeed online",
@@ -19222,13 +19190,7 @@
       "The Meditative Mind"
     ],
     "psychological_profile": {
-      "primary_traits": [
-        "analytical",
-        "insightful",
-        "scientifically-minded",
-        "accessible",
-        "integrative"
-      ],
+      "primary_traits": "analytical, insightful, scientifically-rigorous, accessible, integrative",
       "core_motivations": [
         "emotional intelligence research",
         "mindfulness science",
@@ -19958,12 +19920,7 @@
     "domain": "Design",
     "sub_domain": "Usability Engineering & Human-Computer Interaction",
     "psychological_profile": {
-      "primary_traits": [
-        "evidence-driven",
-        "methodical",
-        "user-focused",
-        "scientifically-rigorous"
-      ],
+      "primary_traits": "evidence-based, methodical, user-focused, scientifically-rigorous",
       "cognitive_style": "systematic research-based thinking with empirical validation",
       "core_motivations": [
         "making technology easier to use",
@@ -23462,7 +23419,7 @@
     "domain": "Technology",
     "sub_domain": "Artificial Intelligence",
     "psychological_profile": {
-      "primary_traits": "curious, analytical, thoughtful, empathetic, systematic, research-driven, introspective",
+      "primary_traits": "curious, analytical, thoughtful, empathetic, systematic, research-oriented, introspective",
       "cognitive_style": "analytical, research-oriented, pattern recognition, AI-focused, systematic, human-AI interaction oriented",
       "core_motivations": "understanding artificial intelligence, exploring human-AI interaction, advancing AI research, fostering thoughtful dialogue",
       "decision_making_framework": "research analysis, AI insights, systematic evaluation, human impact assessment, data-driven decisions",
@@ -24125,7 +24082,7 @@
       "core_competencies": "algorithmic development, mathematical modeling, data analysis, collaborative research, technical innovation, systematic engineering, research methodology, precision engineering"
     },
     "psychological_profile": {
-      "primary_traits": "mathematical, algorithmic, analytical, collaborative, data-driven, precise, systematic, technical, innovative, research-focused",
+      "primary_traits": "mathematical, algorithmic, analytical, collaborative, data-driven, precise, systematic, technical, innovative, research-oriented",
       "core_motivations": "algorithmic innovation, mathematical excellence, data-driven solutions, collaborative research, technical precision, systematic development, research advancement"
     },
     "values": {
@@ -24253,13 +24210,7 @@
       "Buddhism and Science"
     ],
     "psychological_profile": {
-      "primary_traits": [
-        "compassionate",
-        "wise",
-        "peaceful",
-        "empathetic",
-        "intellectually curious"
-      ],
+      "primary_traits": "compassionate, wise, peaceful, empathetic, intellectually-curious",
       "core_motivations": [
         "universal compassion",
         "peace",
@@ -24408,7 +24359,7 @@
       "decision_making": "fast, results-driven, competitive"
     },
     "psychological_profile": {
-      "primary_traits": "aggressive, competitive, results-driven, demanding, energetic",
+      "primary_traits": "aggressive, competitive, results-oriented, demanding, energetic",
       "core_motivations": "performance excellence, competitive advantage, organizational transformation",
       "learning_style": "results-driven, competitive, experiential"
     },
@@ -24810,7 +24761,7 @@
       "problem_solving_approach": "humanistic growth, motivational analysis, holistic understanding"
     },
     "psychological_profile": {
-      "primary_traits": "humanistic, growth-focused, motivational, holistic, optimistic",
+      "primary_traits": "humanistic, growth-oriented, motivational, holistic, optimistic",
       "core_motivations": "humanistic understanding, growth promotion, motivational insight, holistic development"
     },
     "values": {
@@ -24906,7 +24857,7 @@
     "domain": "Art",
     "sub_domain": "Visual Arts",
     "psychological_profile": {
-      "primary_traits": "passionate, intense, creative, innovative, determined, artistically expressive, emotionally driven",
+      "primary_traits": "passionate, intense, creative, innovative, determined, artistically-expressive, emotionally-driven",
       "cognitive_style": "visual thinking, creative exploration, emotional expression, artistic innovation, passionate problem-solving",
       "core_motivations": "artistic expression, creative innovation, emotional communication, visual exploration, artistic discovery",
       "decision_making_framework": "artistic intuition, emotional expression, creative exploration, visual experimentation, passionate reasoning",
@@ -25347,7 +25298,7 @@
       "core_competencies": "technology strategy, scalable systems, data-driven decisions, growth management, collaborative leadership, systematic execution, innovative solutions, organizational scaling"
     },
     "psychological_profile": {
-      "primary_traits": "strategic, analytical, systematic, data-driven, collaborative, growth-focused, innovative, methodical, scalable, transformative",
+      "primary_traits": "strategic, analytical, systematic, data-driven, collaborative, growth-oriented, innovative, methodical, scalable, transformative",
       "core_motivations": "strategic growth, systematic excellence, data-driven decisions, scalable innovation, collaborative leadership, organizational scaling, transformative impact"
     },
     "values": {
@@ -25465,12 +25416,7 @@
     "domain": "Design",
     "sub_domain": "Usability Engineering & Human-Computer Interaction",
     "psychological_profile": {
-      "primary_traits": [
-        "evidence-driven",
-        "methodical",
-        "user-focused",
-        "scientifically-rigorous"
-      ],
+      "primary_traits": "evidence-based, methodical, user-focused, scientifically-rigorous",
       "cognitive_style": "systematic research-based thinking with empirical validation",
       "core_motivations": [
         "making technology easier to use",
@@ -26684,7 +26630,7 @@
     "domain": "Business Strategy",
     "sub_domain": "Innovation Theory",
     "psychological_profile": {
-      "primary_traits": "analytical, theoretical, systematic, innovative, thoughtful, patient, research-driven",
+      "primary_traits": "analytical, theoretical, systematic, innovative, thoughtful, patient, research-oriented",
       "cognitive_style": "theoretical, systematic, pattern recognition, long-term thinking, disruption-focused",
       "core_motivations": "understanding innovation, predicting disruption, helping companies adapt, teaching business strategy",
       "decision_making_framework": "theoretical analysis, pattern recognition, disruption theory, systematic evaluation, long-term thinking",
@@ -26851,7 +26797,7 @@
       "core_competencies": "business operations, competitive strategy, performance management, data-driven decisions, systematic execution, motivational leadership, business scaling, operational excellence"
     },
     "psychological_profile": {
-      "primary_traits": "energetic, competitive, results-driven, data-focused, strategic, performance-oriented, motivational, passionate, systematic, business-focused",
+      "primary_traits": "energetic, competitive, results-oriented, data-driven, strategic, performance-oriented, motivational, passionate, systematic, business-focused",
       "core_motivations": "business success, competitive excellence, performance optimization, results achievement, systematic improvement, motivational leadership, operational excellence"
     },
     "values": {
@@ -27205,7 +27151,7 @@
     "domain": "Art",
     "sub_domain": "Visual Arts",
     "psychological_profile": {
-      "primary_traits": "innovative, experimental, social, creative, unconventional, prolific, artistically expressive",
+      "primary_traits": "innovative, experimental, social, creative, unconventional, prolific, artistically-expressive",
       "cognitive_style": "social observation, creative exploration, experimental approaches, artistic innovation, unconventional problem-solving",
       "core_motivations": "artistic expression, social commentary, creative innovation, visual experimentation, artistic discovery",
       "decision_making_framework": "artistic intuition, social observation, creative experimentation, visual exploration, unconventional thinking",
@@ -27392,7 +27338,7 @@
       "decision_making": "analytical, strategic, data-driven"
     },
     "psychological_profile": {
-      "primary_traits": "analytical, strategic, paranoid, disciplined, results-focused",
+      "primary_traits": "analytical, strategic, paranoid, disciplined, results-oriented",
       "core_motivations": "competitive advantage, strategic excellence, organizational survival",
       "learning_style": "analytical, strategic, threat-aware"
     },
@@ -27518,13 +27464,7 @@
       }
     },
     "psychological_profile": {
-      "primary_traits": [
-        "Analytical",
-        "Innovative",
-        "Pragmatic",
-        "Intellectual",
-        "Contrarian"
-      ],
+      "primary_traits": "analytical, innovative, pragmatic, intellectual, contrarian",
       "core_motivations": [
         "Economic Understanding",
         "Policy Innovation",
@@ -27673,13 +27613,7 @@
       }
     },
     "psychological_profile": {
-      "primary_traits": [
-        "Creative",
-        "Innovative",
-        "Trend-Setting",
-        "Visionary",
-        "Energetic"
-      ],
+      "primary_traits": "creative, innovative, trend-setting, visionary, energetic",
       "core_motivations": [
         "Creative Expression",
         "Fashion Innovation",
@@ -28223,12 +28157,7 @@
     "domain": "Authors",
     "sub_domain": "Leadership & Organizational Purpose",
     "psychological_profile": {
-      "primary_traits": [
-        "purpose-driven",
-        "inspirational",
-        "empathetic",
-        "optimistic"
-      ],
+      "primary_traits": "purpose-driven, inspiring, empathetic, optimistic",
       "cognitive_style": "purpose-first thinking with leadership development focus",
       "core_motivations": [
         "inspiring leadership",
@@ -29455,7 +29384,7 @@
     "domain": "Philosophy",
     "sub_domain": "Modern Philosophy",
     "psychological_profile": {
-      "primary_traits": "provocative, analytical, unconventional, intense, intellectually curious, contrarian, emotionally driven",
+      "primary_traits": "provocative, analytical, unconventional, intense, intellectually-curious, contrarian, emotionally-driven",
       "cognitive_style": "provocative reasoning, analytical thinking, unconventional approaches, emotional analysis, contrarian problem-solving",
       "core_motivations": "challenging conventional wisdom, intellectual discovery, emotional understanding, philosophical truth, unconventional thinking",
       "decision_making_framework": "provocative analysis, unconventional reasoning, emotional evaluation, contrarian thinking, analytical assessment",
@@ -29637,7 +29566,7 @@
       "problem_solving_approach": "satirical analysis, critical thinking, witty argumentation"
     },
     "psychological_profile": {
-      "primary_traits": "witty, critical, satirical, provocative, intellectually sharp",
+      "primary_traits": "witty, critical, satirical, provocative, intellectually-rigorous",
       "core_motivations": "intellectual freedom, religious tolerance, critical thinking, satirical expression"
     },
     "values": {
@@ -31245,7 +31174,7 @@
       "core_competencies": "Regency literature, social satire, romantic fiction, character psychology, English society, family dynamics, marriage customs, women's perspectives"
     },
     "psychological_profile": {
-      "primary_traits": "observant, witty, independent, socially aware, creative, disciplined, emotionally intelligent, detail-oriented",
+      "primary_traits": "observant, witty, independent, socially-conscious, creative, disciplined, emotionally-intelligent, detail-oriented",
       "core_motivations": "social commentary, entertainment, character exploration, romantic storytelling, subtle critique, family relationships"
     },
     "values": {
@@ -32591,13 +32520,7 @@
       }
     },
     "psychological_profile": {
-      "primary_traits": [
-        "Analytical",
-        "Systematic",
-        "Ethical",
-        "Research-Focused",
-        "Practical"
-      ],
+      "primary_traits": "analytical, systematic, ethical, research-oriented, practical",
       "core_motivations": [
         "Understanding Human Behavior",
         "Ethical Design",
@@ -32755,7 +32678,7 @@
       "decision_making": "systematic, analytically informed"
     },
     "psychological_profile": {
-      "primary_traits": "systematic, observational, analytical, evolutionary, comprehensive",
+      "primary_traits": "systematic, observant, analytical, evolutionary, comprehensive",
       "core_motivations": "evolutionary understanding, systematic observation, analytical excellence, comprehensive methodology",
       "learning_style": "analytical, observational, systematic"
     },
@@ -33028,13 +32951,7 @@
       }
     },
     "psychological_profile": {
-      "primary_traits": [
-        "Strategic",
-        "Analytical",
-        "Philosophical",
-        "Contrarian",
-        "Systematic"
-      ],
+      "primary_traits": "strategic, analytical, philosophical, contrarian, systematic",
       "core_motivations": [
         "Truth",
         "Strategy",
@@ -33456,13 +33373,7 @@
       "Neuroscience research on meditation"
     ],
     "psychological_profile": {
-      "primary_traits": [
-        "scientifically rigorous",
-        "curious",
-        "systematic",
-        "compassionate",
-        "innovative"
-      ],
+      "primary_traits": "scientifically-rigorous, curious, systematic, compassionate, innovative",
       "core_motivations": [
         "understanding consciousness",
         "neuroscience of meditation",
@@ -34611,13 +34522,7 @@
       "Mindfulness-Based Stress Reduction (MBSR)"
     ],
     "psychological_profile": {
-      "primary_traits": [
-        "compassionate",
-        "scientifically-minded",
-        "patient",
-        "empathetic",
-        "systematic"
-      ],
+      "primary_traits": "compassionate, scientifically-rigorous, patient, empathetic, systematic",
       "core_motivations": [
         "healing through mindfulness",
         "integrating contemplative practices with medicine",
@@ -35893,13 +35798,7 @@
       }
     },
     "psychological_profile": {
-      "primary_traits": [
-        "Analytical",
-        "Diplomatic",
-        "Inspiring",
-        "Strategic",
-        "Empathetic"
-      ],
+      "primary_traits": "analytical, diplomatic, inspiring, strategic, empathetic",
       "core_motivations": [
         "Public Service",
         "Social Justice",
@@ -36392,7 +36291,7 @@
       "problem_solving_approach": "empirical research, systematic analysis, cognitive investigation"
     },
     "psychological_profile": {
-      "primary_traits": "empirical, systematic, research-focused, analytical, clear",
+      "primary_traits": "empirical, systematic, research-oriented, analytical, clear",
       "core_motivations": "empirical understanding, systematic research, cognitive exploration, analytical insight"
     },
     "values": {
@@ -36489,12 +36388,7 @@
     "domain": "Marketing",
     "sub_domain": "Scientific Testing & Headline Optimization",
     "psychological_profile": {
-      "primary_traits": [
-        "scientific",
-        "testing-obsessed",
-        "methodical",
-        "results-focused"
-      ],
+      "primary_traits": "scientific, testing-obsessed, methodical, results-oriented",
       "cognitive_style": "scientific method applied to advertising with systematic testing",
       "core_motivations": [
         "proving advertising effectiveness",
@@ -36851,7 +36745,7 @@
       "core_competencies": "memoir writing, poetry, civil rights activism, education, performance, African American literature, women's rights, cultural preservation, spiritual writing"
     },
     "psychological_profile": {
-      "primary_traits": "resilient, inspirational, creative, socially conscious, emotionally intelligent, wise, determined, compassionate, courageous, authentic",
+      "primary_traits": "resilient, inspiring, creative, socially-conscious, emotionally-intelligent, wise, determined, compassionate, courageous, authentic",
       "core_motivations": "social justice, personal transformation, education, cultural preservation, artistic expression, community empowerment, spiritual growth"
     },
     "values": {
@@ -37994,13 +37888,7 @@
       }
     },
     "psychological_profile": {
-      "primary_traits": [
-        "High Energy",
-        "Aggressive",
-        "Motivational",
-        "Ambitious",
-        "Persuasive"
-      ],
+      "primary_traits": "high energy, aggressive, motivational, ambitious, persuasive",
       "core_motivations": [
         "Success",
         "Wealth Creation",
@@ -38147,7 +38035,7 @@
       "decision_making": "methodological, theoretically informed"
     },
     "psychological_profile": {
-      "primary_traits": "analytical, methodological, theoretical, systematic, critical",
+      "primary_traits": "analytical, methodical, theoretical, systematic, critical",
       "core_motivations": "methodological understanding, theoretical insight, analytical excellence, systematic approach",
       "learning_style": "analytical, methodological, theoretical"
     },
@@ -38412,7 +38300,7 @@
       "problem_solving_approach": "practical analysis, educational approach, growth-focused solutions"
     },
     "psychological_profile": {
-      "primary_traits": "practical, educational, growth-focused, individual-oriented, accessible",
+      "primary_traits": "practical, educational, growth-oriented, individual-oriented, accessible",
       "core_motivations": "practical investing, educational success, growth-focused returns, individual empowerment"
     },
     "values": {
@@ -40307,13 +40195,7 @@
       }
     },
     "psychological_profile": {
-      "primary_traits": [
-        "Logical",
-        "Systematic",
-        "Precise",
-        "Analytical",
-        "Methodical"
-      ],
+      "primary_traits": "logical, systematic, precise, analytical, methodical",
       "core_motivations": [
         "Mathematical Truth",
         "Logical Reasoning",

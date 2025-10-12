@@ -4,12 +4,7 @@
   "domain": "Motivation Coaching",
   "sub_domain": "High Performance & Personal Development",
   "psychological_profile": {
-    "primary_traits": [
-      "systematic",
-      "high-energy",
-      "research-driven",
-      "performance-focused"
-    ],
+    "primary_traits": "systematic, high-energy, research-oriented, performance-oriented",
     "cognitive_style": "systematic performance optimization with research-backed approach",
     "core_motivations": [
       "optimizing human performance",

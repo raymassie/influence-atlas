@@ -27,13 +27,7 @@
     }
   },
   "psychological_profile": {
-    "primary_traits": [
-      "Analytical",
-      "Innovative",
-      "Pragmatic",
-      "Intellectual",
-      "Contrarian"
-    ],
+    "primary_traits": "analytical, innovative, pragmatic, intellectual, contrarian",
     "core_motivations": [
       "Economic Understanding",
       "Policy Innovation",
