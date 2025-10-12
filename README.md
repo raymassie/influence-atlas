@@ -54,6 +54,10 @@ Plus traditional categories:
 - **Data Format**: JSON
 - **Accessibility**: WCAG-compliant contrast ratios with automatic text color adjustment
 
+## Demo
+
+**Live Demo**: [https://raymassie.github.io/JSON-context-profiles/](https://raymassie.github.io/JSON-context-profiles/)
+
 ## Usage
 
 Simply open `index.html` in a modern web browser, or serve via a local HTTP server:
