@@ -176,5 +176,55 @@
       "Design",
       "Design"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "creative_expression",
+      "emotional_intelligence",
+      "innovation_drive",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "artistic innovation",
+          "innovative"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "theoretical understanding"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "artistic innovation"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "abstract creation",
+          "complex",
+          "philosophical",
+          "spiritual",
+          "spiritual expression",
+          "spiritually oriented",
+          "theoretical",
+          "theoretical understanding"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "analytical",
+          "systematic"
+        ]
+      }
+    }
   }
 }

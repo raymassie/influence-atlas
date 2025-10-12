@@ -119,5 +119,41 @@
         "Artist"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "emotional_intelligence",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "contemplative",
+          "contemplative art",
+          "introspective",
+          "philosophical",
+          "philosophical exploration",
+          "spiritual",
+          "spiritual expression"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "methodical"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "emotional",
+          "emotional truth",
+          "emotionally engaged",
+          "emotionally resonant"
+        ]
+      }
+    }
   }
 }

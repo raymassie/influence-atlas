@@ -150,5 +150,53 @@
       "Systems",
       "Systems"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "communication_style",
+      "intellectual_depth",
+      "leadership_approach",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "strategic",
+          "strategic copywriting",
+          "strategically crafted"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "direct",
+          "direct response optimization",
+          "persuasive",
+          "persuasive communication"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "results-focused"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "compelling",
+          "compelling flow",
+          "marketing psychology"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "analytical"
+        ]
+      }
+    }
   }
 }

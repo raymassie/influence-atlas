@@ -196,5 +196,42 @@
       "Design",
       "Design"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "emotional_intelligence",
+      "impact_legacy",
+      "innovation_drive"
+    ],
+    "constellation_details": {
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "pioneering research"
+        ]
+      },
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "pioneering research"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "analytical excellence",
+          "pioneering research",
+          "scientific understanding",
+          "systematic methodology"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "scientific understanding"
+        ]
+      }
+    }
   }
 }

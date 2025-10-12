@@ -171,5 +171,33 @@
       "Systems",
       "Systems"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "innovation_drive",
+      "intellectual_depth",
+      "leadership_approach"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "global impact",
+          "philanthropic giving"
+        ]
+      },
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "technology innovation"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "strategic excellence"
+        ]
+      }
+    }
   }
 }

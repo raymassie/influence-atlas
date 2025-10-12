@@ -201,5 +201,46 @@
       "Design",
       "Design"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "emotional_intelligence",
+      "innovation_drive",
+      "intellectual_depth",
+      "values_ethics"
+    ],
+    "constellation_details": {
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "scientific innovation"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "systems understanding"
+        ]
+      },
+      "values_ethics": {
+        "name": "Values & Ethics",
+        "traits": [
+          "environmental monitoring"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "Gaia theory"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "scientific innovation"
+        ]
+      }
+    }
   }
 }

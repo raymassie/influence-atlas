@@ -203,5 +203,26 @@
       "Empathy",
       "Focused"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "creating magical experiences",
+          "democratizing travel"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "building global community"
+        ]
+      }
+    }
   }
 }

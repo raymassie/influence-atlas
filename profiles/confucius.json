@@ -130,5 +130,54 @@
         "leading"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "communication_style",
+      "intellectual_depth",
+      "leadership_approach",
+      "practical_execution",
+      "values_ethics"
+    ],
+    "constellation_details": {
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "ethical leadership"
+        ]
+      },
+      "values_ethics": {
+        "name": "Values & Ethics",
+        "traits": [
+          "ethical leadership",
+          "moral",
+          "moral education"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "educational"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "aphoristic",
+          "instructive",
+          "patient",
+          "social harmony",
+          "wise"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "practical",
+          "practical wisdom",
+          "practically oriented"
+        ]
+      }
+    }
   }
 }

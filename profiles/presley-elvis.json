@@ -103,5 +103,32 @@
       "Ethical",
       "Integrity"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "creative_expression",
+      "emotional_intelligence",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "cultural fusion"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "musical expression"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "emotional connection"
+        ]
+      }
+    }
   }
 }

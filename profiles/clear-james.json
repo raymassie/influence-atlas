@@ -116,5 +116,80 @@
         "Writer"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "communication_style",
+      "growth_learning",
+      "impact_legacy",
+      "intellectual_depth",
+      "leadership_approach",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "methodical development",
+          "methodical improvement",
+          "systematic improvement"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "transformative",
+          "transformative insights"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "accessible",
+          "clear",
+          "educational focus"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "actionable",
+          "practical",
+          "practical application",
+          "practical optimization"
+        ]
+      },
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "transformative",
+          "transformative insights"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "habit-focused",
+          "performance enhancement"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "evidence-based",
+          "evidence-based behavior",
+          "evidence-based insights",
+          "habit formation research",
+          "methodical",
+          "methodical development",
+          "methodical improvement",
+          "research-driven",
+          "systematic",
+          "systematic approach",
+          "systematic improvement"
+        ]
+      }
+    }
   }
 }

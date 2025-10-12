@@ -183,5 +183,33 @@
       "Design",
       "Design"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "creative_expression",
+      "innovation_drive",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "family entertainment",
+          "theme park creation"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "creative expression"
+        ]
+      },
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "animation innovation"
+        ]
+      }
+    }
   }
 }

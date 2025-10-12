@@ -155,5 +155,46 @@
       "Systems",
       "Systems"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "emotional_intelligence",
+      "intellectual_depth",
+      "leadership_approach"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "bond-focused",
+          "bond-focused strategy",
+          "commentary-driven",
+          "commentary-driven insight",
+          "macroeconomic",
+          "macroeconomically driven"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "analytical",
+          "analytical bonds"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "strategic",
+          "strategic investing"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "macroeconomic understanding"
+        ]
+      }
+    }
   }
 }

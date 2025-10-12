@@ -185,5 +185,79 @@
       "Builds",
       "Collaborative"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "collaboration_mode",
+      "growth_learning",
+      "innovation_drive",
+      "intellectual_depth",
+      "leadership_approach",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "innovative",
+          "product innovation",
+          "user-focused innovation"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "strategic product development",
+          "systematic improvement",
+          "systematic product development"
+        ]
+      },
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "collaborative",
+          "collaborative engineering"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "product-oriented",
+          "technical precision",
+          "user-focused"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "strategic",
+          "strategic product development",
+          "strategic product planning"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "analytical",
+          "data-driven",
+          "data-driven approach",
+          "data-driven excellence",
+          "methodical",
+          "methodical execution",
+          "precise",
+          "systematic",
+          "systematic improvement",
+          "systematic product development"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "methodical execution",
+          "user satisfaction"
+        ]
+      }
+    }
   }
 }

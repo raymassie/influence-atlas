@@ -146,5 +146,91 @@
       "Systems",
       "Systems"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "collaboration_mode",
+      "growth_learning",
+      "impact_legacy",
+      "intellectual_depth",
+      "leadership_approach",
+      "practical_execution",
+      "values_ethics"
+    ],
+    "constellation_details": {
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "inclusive",
+          "inclusive growth",
+          "inclusive leadership"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "inclusive growth",
+          "systematic improvement"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "customer-focused",
+          "sustainable",
+          "sustainable practices"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "inclusive leadership",
+          "strategic",
+          "strategic approach",
+          "transformative",
+          "transformative impact",
+          "values-based leadership"
+        ]
+      },
+      "values_ethics": {
+        "name": "Values & Ethics",
+        "traits": [
+          "ethical",
+          "ethical business",
+          "sustainability",
+          "values-based leadership",
+          "values-driven",
+          "values-driven decisions"
+        ]
+      },
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "transformative",
+          "transformative impact"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "methodical",
+          "methodical execution",
+          "operational",
+          "operational excellence",
+          "systematic",
+          "systematic improvement"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "customer satisfaction",
+          "methodical execution",
+          "operational",
+          "operational excellence"
+        ]
+      }
+    }
   }
 }

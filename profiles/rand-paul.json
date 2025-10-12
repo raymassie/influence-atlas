@@ -185,5 +185,34 @@
       "Design",
       "Design"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "creative_expression",
+      "innovation_drive",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "brand identity"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "creative innovation",
+          "design excellence",
+          "visual communication"
+        ]
+      },
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "creative innovation"
+        ]
+      }
+    }
   }
 }

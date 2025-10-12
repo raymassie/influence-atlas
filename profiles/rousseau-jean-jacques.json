@@ -152,5 +152,54 @@
         "Philosopher"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "communication_style",
+      "emotional_intelligence",
+      "innovation_drive",
+      "intellectual_depth",
+      "values_ethics"
+    ],
+    "constellation_details": {
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "innovative",
+          "revolutionary"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "emotionally charged"
+        ]
+      },
+      "values_ethics": {
+        "name": "Values & Ethics",
+        "traits": [
+          "social justice"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "educational reform",
+          "eloquent"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "complex",
+          "controversial",
+          "idealistic",
+          "passionate",
+          "philosophical truth",
+          "political revolution",
+          "rhetorical"
+        ]
+      }
+    }
   }
 }

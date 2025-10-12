@@ -171,5 +171,46 @@
         "university"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "growth_learning",
+      "impact_legacy",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "activist",
+          "confrontational",
+          "confrontationally focused",
+          "contrarian",
+          "contrarian success",
+          "value-focused"
+        ]
+      },
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "activist change"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "analytical",
+          "analytical insight",
+          "analytically contrarian"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "confrontational improvement"
+        ]
+      }
+    }
   }
 }

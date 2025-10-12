@@ -248,5 +248,33 @@
       "Always",
       "Always"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "impact_legacy",
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "building lasting systems"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "connecting the world",
+          "solving complex problems"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "building lasting systems"
+        ]
+      }
+    }
   }
 }

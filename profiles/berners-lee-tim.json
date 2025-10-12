@@ -217,5 +217,33 @@
       "Builds",
       "Collaborative"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "collaboration_mode",
+      "innovation_drive",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "information sharing",
+          "open standards"
+        ]
+      },
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "web innovation"
+        ]
+      },
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "collaborative technology"
+        ]
+      }
+    }
   }
 }

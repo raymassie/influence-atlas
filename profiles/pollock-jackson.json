@@ -168,5 +168,56 @@
       "Design",
       "Design"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "communication_style",
+      "creative_expression",
+      "emotional_intelligence",
+      "innovation_drive",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "creative innovation",
+          "experimental"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "emotional",
+          "emotional release",
+          "emotionally charged"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "artistic expression",
+          "creative innovation"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "direct",
+          "non-verbal"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "intense",
+          "minimal",
+          "personal exploration",
+          "physically engaged",
+          "raw",
+          "spontaneous"
+        ]
+      }
+    }
   }
 }

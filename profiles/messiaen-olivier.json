@@ -149,5 +149,26 @@
       "Design",
       "Design"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "creative_expression",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "musical transcendence"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "mystical exploration",
+          "spiritual expression"
+        ]
+      }
+    }
   }
 }

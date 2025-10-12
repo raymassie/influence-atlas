@@ -149,5 +149,26 @@
       "Systems",
       "Systems"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth",
+      "leadership_approach"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "competitive excellence",
+          "organizational transformation"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "strategic success"
+        ]
+      }
+    }
   }
 }

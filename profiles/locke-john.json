@@ -158,5 +158,21 @@
         "influential"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "constitutional government",
+          "liberal democracy",
+          "natural rights",
+          "political liberty"
+        ]
+      }
+    }
   }
 }

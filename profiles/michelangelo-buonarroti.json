@@ -192,5 +192,42 @@
       "Design",
       "Design"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "creative_expression",
+      "emotional_intelligence",
+      "growth_learning",
+      "innovation_drive"
+    ],
+    "constellation_details": {
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "artistic discovery",
+          "artistic expression",
+          "creative innovation",
+          "visual exploration"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "emotional communication"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "artistic discovery"
+        ]
+      },
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "creative innovation"
+        ]
+      }
+    }
   }
 }

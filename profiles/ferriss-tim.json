@@ -136,5 +136,45 @@
         "Entrepreneur"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "growth_learning",
+      "innovation_drive",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "lifestyle-focused guidance",
+          "lifestyle-oriented",
+          "optimization-focused"
+        ]
+      },
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "experimental",
+          "experimental optimization"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "research-backed",
+          "research-backed coaching",
+          "systematic",
+          "systematic improvement"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "systematic improvement"
+        ]
+      }
+    }
   }
 }

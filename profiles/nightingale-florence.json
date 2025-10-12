@@ -163,5 +163,27 @@
         "pioneering"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "growth_learning",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "nursing education",
+          "sanitary reform",
+          "statistical analysis"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "healthcare improvement"
+        ]
+      }
+    }
   }
 }

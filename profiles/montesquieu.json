@@ -155,5 +155,21 @@
         "Philosopher"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "constitutional government",
+          "institutional analysis",
+          "political science",
+          "separation of powers"
+        ]
+      }
+    }
   }
 }

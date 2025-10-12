@@ -139,5 +139,58 @@
         "honor"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "communication_style",
+      "emotional_intelligence",
+      "growth_learning",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "scientific discovery"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "emotionally engaging",
+          "empathetic",
+          "understanding nature"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "emotionally engaging",
+          "inspiring"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "animal welfare",
+          "conservation",
+          "dedicated",
+          "descriptive",
+          "gentle",
+          "long-term focused",
+          "narrative",
+          "observational",
+          "passionate",
+          "patient"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "scientific discovery"
+        ]
+      }
+    }
   }
 }

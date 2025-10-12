@@ -187,5 +187,27 @@
       "Systems",
       "Systems"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "creating global infrastructure",
+          "democratizing payments",
+          "technical excellence"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "building developer tools"
+        ]
+      }
+    }
   }
 }

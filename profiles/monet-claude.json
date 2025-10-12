@@ -177,5 +177,33 @@
       "Artistic",
       "Artistic"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "creative_expression",
+      "innovation_drive",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "artistic observation"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "atmospheric painting",
+          "light exploration"
+        ]
+      },
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "impressionist innovation"
+        ]
+      }
+    }
   }
 }

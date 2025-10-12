@@ -153,5 +153,62 @@
         "developed"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "communication_style",
+      "growth_learning",
+      "intellectual_depth",
+      "leadership_approach",
+      "values_ethics"
+    ],
+    "constellation_details": {
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "scientific discovery"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "authoritative"
+        ]
+      },
+      "values_ethics": {
+        "name": "Values & Ethics",
+        "traits": [
+          "environmental protection"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "eloquent"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "biodiversity conservation",
+          "complex",
+          "comprehensive",
+          "knowledge synthesis",
+          "long-term focused",
+          "passionate",
+          "scholarly"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "detailed",
+          "scientific discovery",
+          "scientifically precise",
+          "systematic"
+        ]
+      }
+    }
   }
 }

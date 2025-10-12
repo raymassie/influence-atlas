@@ -225,5 +225,32 @@
       "Always",
       "Always"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "emotional_intelligence",
+      "impact_legacy"
+    ],
+    "constellation_details": {
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "achieving meaningful relationships"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "creating systematic principles"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "understanding how the world works"
+        ]
+      }
+    }
   }
 }

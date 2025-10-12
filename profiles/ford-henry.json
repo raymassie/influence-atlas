@@ -152,5 +152,39 @@
       "Design",
       "Design"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "growth_learning",
+      "innovation_drive",
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "mass production"
+        ]
+      },
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "industrial innovation"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "practical solutions"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "efficiency improvement"
+        ]
+      }
+    }
   }
 }

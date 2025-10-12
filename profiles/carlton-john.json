@@ -110,5 +110,41 @@
     "empathy_expression": "N/A",
     "ethical_framework": "N/A",
     "human_centered_thinking": "N/A"
+  },
+  "trait_constellations": {
+    "constellations": [
+      "communication_style",
+      "emotional_intelligence",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "humorous",
+          "humorous engagement",
+          "irreverent",
+          "irreverent persuasion"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "authentically engaging",
+          "direct",
+          "direct communication",
+          "humorously direct",
+          "persuasive"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "authentic",
+          "authentic sales",
+          "authentically engaging"
+        ]
+      }
+    }
   }
 }

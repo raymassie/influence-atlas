@@ -124,5 +124,40 @@
         "award"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "communication_style",
+      "growth_learning",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "challenging growth"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "challenging",
+          "intense",
+          "intense challenge",
+          "tough",
+          "toughness-focused"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "direct",
+          "direct persistence",
+          "directly challenging",
+          "motivational",
+          "motivational toughness"
+        ]
+      }
+    }
   }
 }

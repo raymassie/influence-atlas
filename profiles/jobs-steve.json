@@ -232,5 +232,26 @@
       "Values",
       "Ethical"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "creative_expression",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "artistic expression through technology"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "changing the world",
+          "creating perfect products"
+        ]
+      }
+    }
   }
 }

@@ -252,5 +252,75 @@
       "Always",
       "Always"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "collaboration_mode",
+      "communication_style",
+      "emotional_intelligence",
+      "impact_legacy",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "Collaborative"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "Geometric Understanding"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "Clear",
+          "Educational",
+          "Teaching"
+        ]
+      },
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "300 BCE"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "Academic",
+          "Ancient Greek",
+          "Author",
+          "Geometric Theory",
+          "Mathematician",
+          "Precision",
+          "Proof Systems",
+          "Proof-Based",
+          "Student",
+          "Teacher"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "Analytical",
+          "Logical",
+          "Logical Reasoning",
+          "Mathematical",
+          "Mathematical Education",
+          "Mathematical Logic",
+          "Mathematical Pioneer",
+          "Mathematical Truth",
+          "Methodical",
+          "Precise",
+          "Systematic",
+          "Systematic Knowledge"
+        ]
+      }
+    }
   }
 }

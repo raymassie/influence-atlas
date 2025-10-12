@@ -199,5 +199,34 @@
       "Design",
       "Design"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "emotional_intelligence",
+      "growth_learning"
+    ],
+    "constellation_details": {
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "bacterial research",
+          "microbiological discovery",
+          "scientific methodology"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "microbiological discovery"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "disease understanding"
+        ]
+      }
+    }
   }
 }

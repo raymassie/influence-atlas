@@ -173,5 +173,40 @@
       "Systems",
       "Systems"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "intellectual_depth",
+      "leadership_approach",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "democratizing information access"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "empowering creators"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "building sustainable businesses",
+          "data-driven decision making"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "data-driven decision making"
+        ]
+      }
+    }
   }
 }

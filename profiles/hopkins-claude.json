@@ -210,5 +210,34 @@
     "empathy_expression": "N/A",
     "ethical_framework": "N/A",
     "human_centered_thinking": "N/A"
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "proving effectiveness"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "making advertising scientific",
+          "systematic results"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "making advertising scientific",
+          "systematic results"
+        ]
+      }
+    }
   }
 }

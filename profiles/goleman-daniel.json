@@ -159,5 +159,40 @@
         "Author"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "emotional_intelligence",
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "mindfulness science"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "cognitive research",
+          "emotional intelligence research"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "practical applications"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "emotional intelligence research"
+        ]
+      }
+    }
   }
 }

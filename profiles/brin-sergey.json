@@ -190,5 +190,69 @@
       "Design",
       "Design"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "collaboration_mode",
+      "growth_learning",
+      "impact_legacy",
+      "innovation_drive",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "algorithmic innovation",
+          "innovative"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "systematic development"
+        ]
+      },
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "collaborative",
+          "collaborative research"
+        ]
+      },
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "research advancement"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "algorithmic",
+          "technical",
+          "technical precision"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "analytical",
+          "collaborative research",
+          "data-driven",
+          "data-driven analysis",
+          "data-driven solutions",
+          "mathematical",
+          "mathematical approach",
+          "mathematical excellence",
+          "precise",
+          "research advancement",
+          "research-focused",
+          "systematic",
+          "systematic development"
+        ]
+      }
+    }
   }
 }

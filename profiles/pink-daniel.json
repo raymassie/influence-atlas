@@ -131,5 +131,77 @@
         "Author"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "collaboration_mode",
+      "communication_style",
+      "growth_learning",
+      "impact_legacy",
+      "intellectual_depth",
+      "leadership_approach"
+    ],
+    "constellation_details": {
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "organizational development",
+          "performance improvement"
+        ]
+      },
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "collaborative research"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "transformative",
+          "transformative thinking"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "accessible",
+          "educational focus",
+          "inspiring",
+          "motivational",
+          "motivational psychology",
+          "motivational speaking"
+        ]
+      },
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "transformative",
+          "transformative thinking"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "insightful",
+          "thought-provoking",
+          "transformative thinking"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "analytical",
+          "behavioral research",
+          "collaborative research",
+          "data-driven",
+          "evidence-based",
+          "evidence-based insights",
+          "research-based",
+          "research-driven approach"
+        ]
+      }
+    }
   }
 }

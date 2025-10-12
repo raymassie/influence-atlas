@@ -133,5 +133,72 @@
         "prize"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "collaboration_mode",
+      "communication_style",
+      "impact_legacy",
+      "intellectual_depth",
+      "leadership_approach"
+    ],
+    "constellation_details": {
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "collaborative investigation"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "transformative",
+          "transformative storytelling"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "accessible",
+          "educational focus"
+        ]
+      },
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "transformative",
+          "transformative storytelling"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "habit formation insights",
+          "habit formation studies",
+          "insightful",
+          "investigative",
+          "investigative journalism",
+          "narrative storytelling",
+          "narrative-driven",
+          "organizational behavior",
+          "productivity psychology",
+          "storytelling"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "analytical",
+          "behavioral research",
+          "data-driven",
+          "evidence-based",
+          "evidence-based analysis",
+          "evidence-based insights",
+          "investigative research approach",
+          "research-focused"
+        ]
+      }
+    }
   }
 }

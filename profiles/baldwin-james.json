@@ -139,5 +139,33 @@
         "influential"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "creative_expression",
+      "intellectual_depth",
+      "values_ethics"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "truth telling"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "literary excellence"
+        ]
+      },
+      "values_ethics": {
+        "name": "Values & Ethics",
+        "traits": [
+          "racial equality",
+          "social justice"
+        ]
+      }
+    }
   }
 }

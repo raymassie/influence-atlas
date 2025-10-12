@@ -238,5 +238,20 @@
       "Empathy",
       "Focused"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "challenging established industries",
+          "creating memorable experiences",
+          "living adventurously"
+        ]
+      }
+    }
   }
 }

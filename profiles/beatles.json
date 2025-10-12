@@ -167,5 +167,33 @@
       "Builds",
       "Collaborative"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "creative_expression",
+      "innovation_drive",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "cultural impact"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "artistic expression",
+          "musical innovation"
+        ]
+      },
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "musical innovation"
+        ]
+      }
+    }
   }
 }

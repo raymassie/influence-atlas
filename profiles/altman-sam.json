@@ -261,5 +261,33 @@
       "Builds",
       "Collaborative"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "innovation_drive",
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "democratizing technology",
+          "solving existential risks"
+        ]
+      },
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "advancing AI safety"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "building the future"
+        ]
+      }
+    }
   }
 }

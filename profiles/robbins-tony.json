@@ -120,5 +120,47 @@
         "Author"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "communication_style",
+      "impact_legacy",
+      "intellectual_depth",
+      "leadership_approach"
+    ],
+    "constellation_details": {
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "transformative"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "confident",
+          "energetic",
+          "energetic transformation",
+          "passionate",
+          "passionate coaching",
+          "transformation-focused"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "confident leadership",
+          "transformative"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "motivational",
+          "motivational impact",
+          "passionately motivational"
+        ]
+      }
+    }
   }
 }

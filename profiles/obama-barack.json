@@ -279,5 +279,95 @@
       "Systems",
       "Systems"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "collaboration_mode",
+      "communication_style",
+      "emotional_intelligence",
+      "impact_legacy",
+      "intellectual_depth",
+      "leadership_approach",
+      "values_ethics"
+    ],
+    "constellation_details": {
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "Collaborative",
+          "Diplomatic",
+          "Diplomatic Relations",
+          "Inclusive",
+          "Supportive"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "Empathetic"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "1990s",
+          "Academic",
+          "American",
+          "Community Organizer",
+          "Deliberative",
+          "Democracy",
+          "Experiential",
+          "Global Cooperation",
+          "Healthcare Reform",
+          "Hope",
+          "Hopeful",
+          "Law Professor",
+          "Multi-cultural",
+          "Political",
+          "President",
+          "Public Service",
+          "State Senator",
+          "US Senator"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "Democratic Leadership",
+          "Strategic"
+        ]
+      },
+      "values_ethics": {
+        "name": "Values & Ethics",
+        "traits": [
+          "Democratic Values",
+          "Equality",
+          "Justice",
+          "Social Justice",
+          "Values-Based"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "Inspiring"
+        ]
+      },
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "2000s",
+          "2010s",
+          "2020s"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "Analytical"
+        ]
+      }
+    }
   }
 }

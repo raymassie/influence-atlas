@@ -148,5 +148,47 @@
         "influential"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "communication_style",
+      "emotional_intelligence",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "cognitive exploration"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "analytical",
+          "analytical insight",
+          "empirical",
+          "empirical understanding",
+          "empirically systematic",
+          "research-focused",
+          "research-oriented",
+          "systematic",
+          "systematic research"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "clear"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "empirical understanding"
+        ]
+      }
+    }
   }
 }

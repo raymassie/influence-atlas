@@ -201,5 +201,40 @@
       "Artistic",
       "Artistic"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "creative_expression",
+      "emotional_intelligence",
+      "innovation_drive",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "color exploration"
+        ]
+      },
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "artistic innovation"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "artistic innovation",
+          "artistic truth"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "emotional expression"
+        ]
+      }
+    }
   }
 }

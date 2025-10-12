@@ -231,5 +231,33 @@
     "empathy_expression": "N/A",
     "ethical_framework": "N/A",
     "human_centered_thinking": "N/A"
+  },
+  "trait_constellations": {
+    "constellations": [
+      "communication_style",
+      "innovation_drive",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "overcoming street struggles",
+          "spiritual empowerment"
+        ]
+      },
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "inspiring breakthrough success"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "inspiring breakthrough success"
+        ]
+      }
+    }
   }
 }

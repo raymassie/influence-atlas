@@ -152,5 +152,33 @@
       "Always",
       "Always"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "emotional_intelligence",
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "applying psychology to real-world problems",
+          "debunking assumptions"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "improving decision-making"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "understanding human behavior"
+        ]
+      }
+    }
   }
 }

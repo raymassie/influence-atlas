@@ -191,5 +191,27 @@
         "influential"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "individual liberty",
+          "social progress",
+          "utilitarian ethics"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "rational analysis"
+        ]
+      }
+    }
   }
 }

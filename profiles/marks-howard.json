@@ -143,5 +143,33 @@
       "Always",
       "Always"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "communication_style",
+      "emotional_intelligence",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "finding mispriced assets",
+          "preserving capital"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "teaching investment principles"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "understanding market cycles"
+        ]
+      }
+    }
   }
 }

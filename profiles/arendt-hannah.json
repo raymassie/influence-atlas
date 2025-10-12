@@ -165,5 +165,33 @@
         "influential"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "emotional_intelligence",
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "authority critique",
+          "totalitarianism analysis"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "political action"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "political understanding"
+        ]
+      }
+    }
   }
 }

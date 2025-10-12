@@ -136,5 +136,78 @@
         "university"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "collaboration_mode",
+      "communication_style",
+      "growth_learning",
+      "impact_legacy",
+      "intellectual_depth",
+      "leadership_approach"
+    ],
+    "constellation_details": {
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "character development",
+          "performance improvement"
+        ]
+      },
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "collaborative studies"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "transformative",
+          "transformative thinking"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "accessible",
+          "educational focus",
+          "inspiring",
+          "motivational",
+          "motivational psychology"
+        ]
+      },
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "transformative",
+          "transformative thinking"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "insightful",
+          "motivation psychology",
+          "resilience studies",
+          "transformative thinking"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "analytical",
+          "evidence-based",
+          "evidence-based insights",
+          "evidence-focused",
+          "psychological research",
+          "research-driven",
+          "resilience research",
+          "scientific",
+          "scientific research approach"
+        ]
+      }
+    }
   }
 }

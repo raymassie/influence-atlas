@@ -166,5 +166,27 @@
         "influential"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth",
+      "values_ethics"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "liberal democracy"
+        ]
+      },
+      "values_ethics": {
+        "name": "Values & Ethics",
+        "traits": [
+          "fairness principles",
+          "justice theory",
+          "political equality"
+        ]
+      }
+    }
   }
 }

@@ -149,5 +149,45 @@
         "influential"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "communication_style",
+      "emotional_intelligence",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "fundamental",
+          "value-focused"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "analytical",
+          "analytical value",
+          "fundamentally systematic",
+          "systematic",
+          "systematic investing"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "educational",
+          "educational excellence"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "fundamental understanding"
+        ]
+      }
+    }
   }
 }

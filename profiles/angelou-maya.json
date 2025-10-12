@@ -152,5 +152,95 @@
       "Empathy",
       "Empathy"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "collaboration_mode",
+      "communication_style",
+      "creative_expression",
+      "emotional_intelligence",
+      "growth_learning",
+      "impact_legacy",
+      "intellectual_depth",
+      "leadership_approach",
+      "values_ethics"
+    ],
+    "constellation_details": {
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "collaborative projects"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "spiritual growth"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "authentic",
+          "emotionally-rich"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "artistic expression"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "transformative"
+        ]
+      },
+      "values_ethics": {
+        "name": "Values & Ethics",
+        "traits": [
+          "social justice"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "educational focus",
+          "eloquent"
+        ]
+      },
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "transformative"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "autobiographical storytelling",
+          "community empowerment",
+          "cultural preservation",
+          "culturally-proud",
+          "education",
+          "lyrical",
+          "multidisciplinary approach",
+          "performance-based writing",
+          "personal transformation",
+          "powerful",
+          "resilient",
+          "social activism",
+          "wisdom-filled"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "inspirational"
+        ]
+      }
+    }
   }
 }

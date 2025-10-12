@@ -155,5 +155,28 @@
       "Systems",
       "Systems"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth",
+      "leadership_approach"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "political influence",
+          "strategic thinking",
+          "war resistance"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "national leadership",
+          "strategic thinking"
+        ]
+      }
+    }
   }
 }

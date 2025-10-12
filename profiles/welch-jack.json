@@ -133,5 +133,20 @@
       "Customer",
       "Customer"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "competitive advantage",
+          "organizational transformation",
+          "performance excellence"
+        ]
+      }
+    }
   }
 }

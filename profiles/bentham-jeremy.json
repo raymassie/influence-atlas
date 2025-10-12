@@ -163,5 +163,21 @@
         "leading"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "political progress",
+          "social reform",
+          "utilitarian ethics",
+          "utility maximization"
+        ]
+      }
+    }
   }
 }

@@ -164,5 +164,26 @@
       "Ethical",
       "Leadership"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "business education",
+          "value creation"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "long-term wealth building"
+        ]
+      }
+    }
   }
 }

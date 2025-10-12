@@ -111,5 +111,35 @@
     "empathy_expression": "N/A",
     "ethical_framework": "N/A",
     "human_centered_thinking": "N/A"
+  },
+  "trait_constellations": {
+    "constellations": [
+      "communication_style",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "conversational",
+          "conversational engagement",
+          "copywriting education",
+          "sales optimization",
+          "sales-focused",
+          "storytelling",
+          "storytelling persuasion",
+          "storytelling-based"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "direct",
+          "engaging",
+          "engaging flow",
+          "persuasive"
+        ]
+      }
+    }
   }
 }

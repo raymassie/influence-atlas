@@ -218,5 +218,39 @@
       "Emotional",
       "Leadership"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "communication_style",
+      "intellectual_depth",
+      "leadership_approach",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "creating safer workplaces"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "inspiring leadership"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "building purpose-driven organizations"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "inspiring leadership"
+        ]
+      }
+    }
   }
 }

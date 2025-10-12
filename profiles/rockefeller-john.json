@@ -162,5 +162,21 @@
       "Systems",
       "Systems"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "business consolidation",
+          "industrial efficiency",
+          "oil industry dominance",
+          "philanthropy"
+        ]
+      }
+    }
   }
 }

@@ -148,5 +148,61 @@
       "Systems",
       "Systems"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "growth_learning",
+      "innovation_drive",
+      "intellectual_depth",
+      "leadership_approach",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "thoughtful innovation"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "growth-oriented",
+          "strategic growth"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "complex",
+          "insightful",
+          "network-focused",
+          "thoughtful",
+          "thoughtful innovation"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "strategic",
+          "strategic growth",
+          "strategically oriented"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "systematic",
+          "systematic scaling"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "network building"
+        ]
+      }
+    }
   }
 }

@@ -167,5 +167,27 @@
         "innovative"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "creative_expression",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "dance floor metaphysics",
+          "disco philosophy",
+          "groove-based ethics"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "eternal party"
+        ]
+      }
+    }
   }
 }

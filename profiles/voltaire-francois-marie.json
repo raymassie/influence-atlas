@@ -129,5 +129,42 @@
         "renowned"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "communication_style",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "critical thinking",
+          "elegant",
+          "intellectual freedom",
+          "intellectually engaged",
+          "provocative",
+          "religious tolerance",
+          "rhetorically sophisticated",
+          "satirical",
+          "satirical expression",
+          "witty"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "critical",
+          "critical thinking"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "eloquent"
+        ]
+      }
+    }
   }
 }

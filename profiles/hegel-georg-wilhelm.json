@@ -153,5 +153,49 @@
         "prominent"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "emotional_intelligence",
+      "intellectual_depth",
+      "leadership_approach"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "absolute knowledge",
+          "complex",
+          "comprehensive",
+          "dialectical",
+          "dialectical reasoning",
+          "intellectual",
+          "philosophical truth",
+          "philosophically dense",
+          "profound",
+          "scholarly"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "methodical",
+          "systematic understanding"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "authoritative"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "systematic understanding"
+        ]
+      }
+    }
   }
 }

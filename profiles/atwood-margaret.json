@@ -104,5 +104,46 @@
       "Ethical",
       "Integrity"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "creative_expression",
+      "emotional_intelligence",
+      "intellectual_depth",
+      "values_ethics"
+    ],
+    "constellation_details": {
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "environmental awareness"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "literary expression"
+        ]
+      },
+      "values_ethics": {
+        "name": "Values & Ethics",
+        "traits": [
+          "environmental awareness"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "dystopian warning"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "ecological consciousness"
+        ]
+      }
+    }
   }
 }

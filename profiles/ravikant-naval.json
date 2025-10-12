@@ -195,5 +195,20 @@
     "empathy_expression": "N/A",
     "ethical_framework": "N/A",
     "human_centered_thinking": "N/A"
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "intellectual freedom",
+          "leverage maximization",
+          "truth-seeking"
+        ]
+      }
+    }
   }
 }

@@ -184,5 +184,33 @@
       "Systems",
       "Systems"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "creative_expression",
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "advertising excellence",
+          "market persuasion"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "creative advertising"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "brand building"
+        ]
+      }
+    }
   }
 }

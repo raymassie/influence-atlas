@@ -258,5 +258,90 @@
       "Always",
       "Always"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "collaboration_mode",
+      "communication_style",
+      "emotional_intelligence",
+      "impact_legacy",
+      "intellectual_depth",
+      "leadership_approach"
+    ],
+    "constellation_details": {
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "Collaborative",
+          "Supportive"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "Compassionate"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "Authoritative",
+          "Public Health Leadership"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "Clear",
+          "Educational",
+          "NIH Director",
+          "Teaching"
+        ]
+      },
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "2000s",
+          "2010s",
+          "2020s"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "1970s",
+          "1980s",
+          "1990s",
+          "American",
+          "COVID-19 Response",
+          "Dedicated",
+          "Disease Prevention",
+          "Medical",
+          "Medical Student",
+          "Patient",
+          "Patient Care",
+          "Patient-Centered",
+          "Public Health",
+          "Public Health Leader",
+          "Public Service",
+          "Resident"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "Evidence-Based",
+          "HIV/AIDS Research",
+          "Medical Research",
+          "Research-Driven",
+          "Research-Oriented",
+          "Researcher",
+          "Scientific",
+          "Scientific Truth",
+          "Systematic"
+        ]
+      }
+    }
   }
 }

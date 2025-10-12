@@ -122,5 +122,53 @@
         "Founder"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "communication_style",
+      "creative_expression",
+      "emotional_intelligence",
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "authentic",
+          "authentic engagement",
+          "authentically engaging"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "street-smart"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "authentically engaging",
+          "direct",
+          "direct communication"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "energetic",
+          "hustle culture",
+          "hustle-focused",
+          "passionate"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "passionate execution"
+        ]
+      }
+    }
   }
 }

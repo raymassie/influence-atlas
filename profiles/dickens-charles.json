@@ -161,5 +161,69 @@
       "Empathy",
       "Empathy"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "collaboration_mode",
+      "creative_expression",
+      "emotional_intelligence",
+      "growth_learning",
+      "intellectual_depth",
+      "values_ethics"
+    ],
+    "constellation_details": {
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "collaborative editing"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "character development"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "emotional"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "dramatic"
+        ]
+      },
+      "values_ethics": {
+        "name": "Values & Ethics",
+        "traits": [
+          "moral instruction",
+          "moralistic"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "character exploration",
+          "character-driven",
+          "deadline-driven",
+          "descriptive",
+          "entertainment",
+          "narrative mastery",
+          "narrative-rich",
+          "prolific output",
+          "public engagement",
+          "satirical",
+          "sentimental",
+          "serial publication",
+          "social observation",
+          "social reform",
+          "socially-conscious",
+          "vivid"
+        ]
+      }
+    }
   }
 }

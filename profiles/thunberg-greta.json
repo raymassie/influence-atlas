@@ -137,5 +137,33 @@
         "influential"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth",
+      "practical_execution",
+      "values_ethics"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "youth empowerment"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "climate action"
+        ]
+      },
+      "values_ethics": {
+        "name": "Values & Ethics",
+        "traits": [
+          "climate justice",
+          "environmental protection"
+        ]
+      }
+    }
   }
 }

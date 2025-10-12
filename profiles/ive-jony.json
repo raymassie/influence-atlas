@@ -185,5 +185,28 @@
       "Design",
       "Design"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "creative_expression",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "design excellence"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "creating beautiful",
+          "functional objects",
+          "simplifying complexity",
+          "user delight"
+        ]
+      }
+    }
   }
 }

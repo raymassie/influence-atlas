@@ -173,5 +173,81 @@
       "Design",
       "Design"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "collaboration_mode",
+      "emotional_intelligence",
+      "growth_learning",
+      "impact_legacy",
+      "innovation_drive",
+      "intellectual_depth",
+      "leadership_approach"
+    ],
+    "constellation_details": {
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "customer-focused innovation",
+          "innovative",
+          "strategic innovation"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "growth mindset approach",
+          "growth mindset development",
+          "growth-minded",
+          "inclusive growth"
+        ]
+      },
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "collaborative",
+          "collaborative culture",
+          "collaborative excellence",
+          "inclusive",
+          "inclusive growth",
+          "inclusive leadership"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "authentic",
+          "empathetic",
+          "empathetic leadership",
+          "empathetic management"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "empathetic leadership",
+          "inclusive leadership",
+          "strategic",
+          "strategic innovation",
+          "strategic transformation",
+          "transformative"
+        ]
+      },
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "transformative"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "cultural",
+          "cultural transformation",
+          "customer success",
+          "customer-focused"
+        ]
+      }
+    }
   }
 }

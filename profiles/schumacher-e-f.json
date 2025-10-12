@@ -124,5 +124,40 @@
       "Always",
       "Always"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "emotional_intelligence",
+      "growth_learning",
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "philosophical understanding",
+          "thoughtful analysis"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "practical solutions"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "sustainable development"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "philosophical understanding"
+        ]
+      }
+    }
   }
 }

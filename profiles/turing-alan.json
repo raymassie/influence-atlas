@@ -185,5 +185,51 @@
       "Empathy",
       "Empathy"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "impact_legacy",
+      "innovation_drive",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "scientific advancement"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "complex",
+          "formal",
+          "intellectual challenge",
+          "problem-solving",
+          "technical",
+          "truth-seeking"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "analytical",
+          "logical",
+          "methodical",
+          "precise",
+          "rigorous",
+          "scientific advancement",
+          "systematic"
+        ]
+      },
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "experimental",
+          "innovative"
+        ]
+      }
+    }
   }
 }

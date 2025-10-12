@@ -144,5 +144,54 @@
         "influential"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "growth_learning",
+      "intellectual_depth",
+      "leadership_approach",
+      "values_ethics"
+    ],
+    "constellation_details": {
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "systematic development"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "leadership-oriented",
+          "principled leadership"
+        ]
+      },
+      "values_ethics": {
+        "name": "Values & Ethics",
+        "traits": [
+          "principled",
+          "principled leadership"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "character-based coaching",
+          "character-focused",
+          "systematically thoughtful",
+          "thoughtful",
+          "thoughtful guidance"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "systematic",
+          "systematic development",
+          "systematically thoughtful"
+        ]
+      }
+    }
   }
 }

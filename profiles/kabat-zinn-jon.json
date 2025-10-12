@@ -149,5 +149,21 @@
         "university"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "healing through mindfulness",
+          "integrating contemplative practices with medicine",
+          "mindful living",
+          "stress reduction"
+        ]
+      }
+    }
   }
 }

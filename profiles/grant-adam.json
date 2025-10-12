@@ -237,5 +237,27 @@
       "Building",
       "Exceptional"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "challenging assumptions",
+          "helping others succeed",
+          "improving workplace dynamics"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "evidence-based insights"
+        ]
+      }
+    }
   }
 }

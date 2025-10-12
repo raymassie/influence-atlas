@@ -184,5 +184,40 @@
       "Design",
       "Design"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "communication_style",
+      "emotional_intelligence",
+      "innovation_drive",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "helping companies adapt",
+          "predicting disruption"
+        ]
+      },
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "understanding innovation"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "teaching business strategy"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "understanding innovation"
+        ]
+      }
+    }
   }
 }

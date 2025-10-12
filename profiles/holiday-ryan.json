@@ -213,5 +213,26 @@
     "empathy_expression": "N/A",
     "ethical_framework": "N/A",
     "human_centered_thinking": "N/A"
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "helping people find resilience",
+          "spreading stoic wisdom"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "practical philosophy application"
+        ]
+      }
+    }
   }
 }

@@ -174,5 +174,40 @@
         "award"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "emotional_intelligence",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "contrarian",
+          "contrarian success",
+          "philanthropic",
+          "philanthropic impact",
+          "philosophical",
+          "philosophical understanding"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "analytical",
+          "analytical insight",
+          "analytically contrarian"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "philosophical understanding",
+          "politically aware"
+        ]
+      }
+    }
   }
 }

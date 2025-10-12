@@ -186,5 +186,32 @@
       "Design",
       "Design"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "innovation_drive",
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "long-term value creation"
+        ]
+      },
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "innovation"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "customer satisfaction"
+        ]
+      }
+    }
   }
 }

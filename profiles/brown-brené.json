@@ -112,5 +112,86 @@
         "college"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "collaboration_mode",
+      "communication_style",
+      "emotional_intelligence",
+      "growth_learning",
+      "impact_legacy",
+      "intellectual_depth",
+      "leadership_approach"
+    ],
+    "constellation_details": {
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "courage development"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "authentic",
+          "authentic communication",
+          "authentic connection",
+          "authentic leadership",
+          "compassionate",
+          "emotional healing",
+          "emotionally-intelligent",
+          "empathetic",
+          "empathetic approach",
+          "empathy studies",
+          "transformative emotional work",
+          "vulnerable"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "courageous",
+          "healing-focused",
+          "insightful",
+          "shame resilience"
+        ]
+      },
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "collaborative healing"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "authentic leadership",
+          "transformative",
+          "transformative emotional work"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "educational focus"
+        ]
+      },
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "transformative",
+          "transformative emotional work"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "research-based",
+          "research-based vulnerability studies",
+          "vulnerability research"
+        ]
+      }
+    }
   }
 }

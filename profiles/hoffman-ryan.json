@@ -257,5 +257,91 @@
       "Systems",
       "Systems"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "collaboration_mode",
+      "communication_style",
+      "emotional_intelligence",
+      "growth_learning",
+      "impact_legacy",
+      "intellectual_depth",
+      "leadership_approach"
+    ],
+    "constellation_details": {
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "Supportive"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "Media Understanding"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "Growth Hacker",
+          "Growth Hacking"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "Strategic"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "Direct",
+          "Marketing Director",
+          "Teaching"
+        ]
+      },
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "2000s",
+          "2010s",
+          "2020s",
+          "Historical"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "American",
+          "Author",
+          "Contrarian",
+          "Ethics",
+          "Long-term",
+          "Marketing Assistant",
+          "Marketing Ethics",
+          "Media Culture",
+          "Media Psychology",
+          "Philosopher",
+          "Philosophical",
+          "Philosophy",
+          "Stoic Philosophy",
+          "Strategy",
+          "Tech Culture",
+          "Thoughtful",
+          "Truth",
+          "Wisdom"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "Analytical",
+          "Systematic"
+        ]
+      }
+    }
   }
 }

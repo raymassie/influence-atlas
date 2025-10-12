@@ -247,5 +247,107 @@
       "Always",
       "Always"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "collaboration_mode",
+      "communication_style",
+      "creative_expression",
+      "emotional_intelligence",
+      "impact_legacy",
+      "innovation_drive",
+      "intellectual_depth",
+      "practical_execution",
+      "values_ethics"
+    ],
+    "constellation_details": {
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "Product Innovation"
+        ]
+      },
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "Collaborative",
+          "Supportive"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "Human Well-being",
+          "Understanding Human Behavior"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "Behavioral Design",
+          "Ethical Design"
+        ]
+      },
+      "values_ethics": {
+        "name": "Values & Ethics",
+        "traits": [
+          "Ethical",
+          "Ethical Design",
+          "Ethical Marketing"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "Clear",
+          "Teaching"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "Practical"
+        ]
+      },
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "2000s",
+          "2010s",
+          "2020s"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "Academic",
+          "Attention Management",
+          "Author",
+          "Entrepreneur",
+          "Entrepreneurial",
+          "Ethics",
+          "Israeli-American",
+          "Lecturer",
+          "Positive Impact",
+          "Product Manager",
+          "Product Psychology",
+          "Software Engineer",
+          "Solution-Focused",
+          "Tech Culture"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "Analytical",
+          "Data-Driven",
+          "Research",
+          "Research-Based",
+          "Research-Focused",
+          "Systematic"
+        ]
+      }
+    }
   }
 }

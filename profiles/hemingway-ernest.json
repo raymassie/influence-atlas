@@ -137,5 +137,27 @@
         "award"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "creative_expression",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "adventure writing",
+          "minimalist style",
+          "truth telling"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "literary excellence"
+        ]
+      }
+    }
   }
 }

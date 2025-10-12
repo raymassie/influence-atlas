@@ -161,5 +161,27 @@
         "medal"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "emotional_intelligence",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "economic critique",
+          "institutional analysis",
+          "public education"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "economic understanding"
+        ]
+      }
+    }
   }
 }

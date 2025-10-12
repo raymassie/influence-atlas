@@ -163,5 +163,33 @@
         "developed"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "emotional_intelligence",
+      "intellectual_depth",
+      "values_ethics"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "economic efficiency",
+          "free market theory"
+        ]
+      },
+      "values_ethics": {
+        "name": "Values & Ethics",
+        "traits": [
+          "moral philosophy"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "economic understanding"
+        ]
+      }
+    }
   }
 }

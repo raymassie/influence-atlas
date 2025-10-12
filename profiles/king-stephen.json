@@ -130,5 +130,33 @@
         "honor"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "atmospheric",
+          "atmospheric creation",
+          "character-driven",
+          "character-driven narratives",
+          "dark",
+          "dark storytelling",
+          "darkly atmospheric",
+          "suspenseful"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "psychological",
+          "psychological exploration"
+        ]
+      }
+    }
   }
 }

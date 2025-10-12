@@ -156,5 +156,79 @@
       "Design",
       "Design"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "collaboration_mode",
+      "creative_expression",
+      "emotional_intelligence",
+      "impact_legacy",
+      "innovation_drive",
+      "intellectual_depth",
+      "leadership_approach"
+    ],
+    "constellation_details": {
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "collaborative innovation",
+          "experimental",
+          "experimental design",
+          "experimental techniques",
+          "innovative"
+        ]
+      },
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "collaborative innovation"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "authentic",
+          "authentic creativity",
+          "emotional"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "experimental design",
+          "introspective design"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "transformative",
+          "transformative communication",
+          "transformative projects"
+        ]
+      },
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "transformative",
+          "transformative communication",
+          "transformative projects"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "conceptual",
+          "conceptual approach",
+          "conceptual exploration",
+          "introspective",
+          "introspective reflection",
+          "personal",
+          "personal expression",
+          "provocative",
+          "thoughtful"
+        ]
+      }
+    }
   }
 }

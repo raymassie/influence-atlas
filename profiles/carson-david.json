@@ -153,5 +153,71 @@
       "Empathy",
       "Empathy"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "collaboration_mode",
+      "communication_style",
+      "creative_expression",
+      "emotional_intelligence",
+      "innovation_drive",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "disruptive",
+          "experimental",
+          "experimental expression",
+          "experimental techniques",
+          "innovative",
+          "innovative typography",
+          "typographic innovation"
+        ]
+      },
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "collaborative art direction"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "authentic",
+          "authentic creativity",
+          "emotional",
+          "emotional communication",
+          "emotional expression",
+          "intuitive",
+          "intuitive approach"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "design rebellion",
+          "expressive",
+          "unconventional aesthetics"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "collaborative art direction",
+          "expressive"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "raw",
+          "rebellious",
+          "unconventional",
+          "unconventional methods"
+        ]
+      }
+    }
   }
 }

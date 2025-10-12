@@ -168,5 +168,40 @@
         "pioneering"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "emotional_intelligence",
+      "growth_learning",
+      "intellectual_depth",
+      "values_ethics"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "social choice",
+          "welfare analysis"
+        ]
+      },
+      "values_ethics": {
+        "name": "Values & Ethics",
+        "traits": [
+          "economic justice"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "human development"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "human development"
+        ]
+      }
+    }
   }
 }

@@ -155,5 +155,54 @@
       "Systems",
       "Systems"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "emotional_intelligence",
+      "growth_learning",
+      "innovation_drive",
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "advancing AI research"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "exploring human-AI interaction"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "exploring human-AI interaction",
+          "understanding artificial intelligence"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "fostering thoughtful dialogue"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "advancing AI research"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "exploring human-AI interaction"
+        ]
+      }
+    }
   }
 }

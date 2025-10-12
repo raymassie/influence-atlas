@@ -224,5 +224,26 @@
       "Always",
       "Always"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "optimizing cognitive performance",
+          "protecting deep work"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "fighting digital distraction"
+        ]
+      }
+    }
   }
 }

@@ -144,5 +144,33 @@
         "honor"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "philanthropic",
+          "philanthropic impact"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "data-driven",
+          "mathematical",
+          "mathematical excellence",
+          "quantitative",
+          "quantitative insight",
+          "quantitatively systematic",
+          "systematic",
+          "systematic investing"
+        ]
+      }
+    }
   }
 }

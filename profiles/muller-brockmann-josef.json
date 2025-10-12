@@ -121,5 +121,70 @@
         "master"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "communication_style",
+      "creative_expression",
+      "impact_legacy",
+      "intellectual_depth",
+      "leadership_approach"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "disciplined",
+          "functional",
+          "grid-based",
+          "grid-based systems",
+          "objective"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "design education",
+          "functional aesthetics",
+          "functional design",
+          "objective design principles",
+          "systematic design"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "influential"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "clear",
+          "educational focus"
+        ]
+      },
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "influential"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "mathematical",
+          "mathematical precision",
+          "precise",
+          "rational",
+          "rational communication",
+          "rational problem-solving",
+          "systematic",
+          "systematic approach",
+          "systematic design"
+        ]
+      }
+    }
   }
 }

@@ -137,5 +137,21 @@
         "founded"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "conscious aging",
+          "love cultivation",
+          "service to others",
+          "spiritual awakening"
+        ]
+      }
+    }
   }
 }

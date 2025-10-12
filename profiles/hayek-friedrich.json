@@ -163,5 +163,21 @@
         "medal"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "classical liberalism",
+          "economic freedom",
+          "economic theory",
+          "free market advocacy"
+        ]
+      }
+    }
   }
 }

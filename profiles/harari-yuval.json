@@ -218,5 +218,39 @@
         "developed"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "emotional_intelligence",
+      "growth_learning",
+      "impact_legacy",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "global perspective"
+        ]
+      },
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "historical insight"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "exploring future possibilities"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "understanding human nature"
+        ]
+      }
+    }
   }
 }

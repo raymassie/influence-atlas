@@ -268,5 +268,93 @@
       "Design",
       "Design"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "collaboration_mode",
+      "communication_style",
+      "creative_expression",
+      "emotional_intelligence",
+      "innovation_drive",
+      "intellectual_depth",
+      "leadership_approach",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "Fashion Innovation",
+          "Innovation",
+          "Innovative"
+        ]
+      },
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "Collaborative"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "Intuitive"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "Creative",
+          "Creative Expression",
+          "Fashion Designer"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "Style Leadership",
+          "Visionary"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "Inspiring"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "1970s",
+          "1980s",
+          "American",
+          "American Sportswear",
+          "Brand Creator",
+          "Brand Marketing",
+          "Cultural",
+          "Cultural Fashion",
+          "Cultural Impact",
+          "Cultural Influencer",
+          "Enthusiastic",
+          "Fashion",
+          "Fashion Branding",
+          "Fashion Culture",
+          "Industry Leader",
+          "Marketing Pioneer",
+          "Style",
+          "Style-Focused",
+          "Style-Oriented",
+          "Trend-Based",
+          "Trend-Focused",
+          "Trend-Setting"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "Brand Building"
+        ]
+      }
+    }
   }
 }

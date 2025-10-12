@@ -119,5 +119,38 @@
         "Author"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "communication_style",
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "energetic",
+          "energetic motivation",
+          "solution-focused"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "action-oriented",
+          "action-oriented coaching",
+          "practical",
+          "practical solutions"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "direct",
+          "direct guidance"
+        ]
+      }
+    }
   }
 }

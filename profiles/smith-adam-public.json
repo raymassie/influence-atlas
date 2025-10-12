@@ -163,5 +163,21 @@
         "developed"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "economic liberty",
+          "free markets",
+          "market efficiency",
+          "political economy"
+        ]
+      }
+    }
   }
 }

@@ -139,5 +139,33 @@
         "leading"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth",
+      "leadership_approach",
+      "values_ethics"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "economic recovery",
+          "social reform"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "crisis leadership"
+        ]
+      },
+      "values_ethics": {
+        "name": "Values & Ethics",
+        "traits": [
+          "democratic values"
+        ]
+      }
+    }
   }
 }

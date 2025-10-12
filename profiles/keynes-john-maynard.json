@@ -284,5 +284,96 @@
       "Design",
       "Design"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "collaboration_mode",
+      "communication_style",
+      "emotional_intelligence",
+      "growth_learning",
+      "impact_legacy",
+      "innovation_drive",
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "Innovative",
+          "Policy Innovation"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "Intellectual Discovery"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "Economic Understanding"
+        ]
+      },
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "Collaborative"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "Persuasive",
+          "Teaching"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "Pragmatic"
+        ]
+      },
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "1920s"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "1910s",
+          "1930s",
+          "1940s",
+          "Academic",
+          "Academic Excellence",
+          "British",
+          "Civil Servant",
+          "Economic Policy",
+          "Economic Stability",
+          "Economist",
+          "Intellectual",
+          "Intellectual Discovery",
+          "International Finance",
+          "International Negotiator",
+          "Keynesian Economics",
+          "Macroeconomic Theory",
+          "Policy Advisor",
+          "Policy-Focused",
+          "Social Welfare",
+          "Theoretical",
+          "Upper-class"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "Analytical"
+        ]
+      }
+    }
   }
 }

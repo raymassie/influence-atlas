@@ -214,5 +214,20 @@
       "Ethical",
       "Integrity"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "helping entrepreneurs win",
+          "massive scale",
+          "proving doubters wrong"
+        ]
+      }
+    }
   }
 }

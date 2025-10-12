@@ -211,5 +211,34 @@
     "empathy_expression": "N/A",
     "ethical_framework": "N/A",
     "human_centered_thinking": "N/A"
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "emotional_intelligence",
+      "growth_learning"
+    ],
+    "constellation_details": {
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "research-based improvement",
+          "systematic habit development"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "research-based improvement",
+          "systematic habit development"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "optimizing human performance"
+        ]
+      }
+    }
   }
 }

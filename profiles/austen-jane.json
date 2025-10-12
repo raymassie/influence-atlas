@@ -144,5 +144,45 @@
       "Empathy",
       "Empathy"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "emotional_intelligence",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "careful editing",
+          "character exploration",
+          "character-driven plots",
+          "character-focused",
+          "elegant",
+          "entertainment",
+          "family collaboration",
+          "family relationships",
+          "ironic",
+          "meticulous revision",
+          "observant",
+          "private writing",
+          "refined",
+          "romantic storytelling",
+          "satirical",
+          "social commentary",
+          "social observation",
+          "subtle",
+          "subtle critique",
+          "understated",
+          "witty"
+        ]
+      },
+      "emotional_intelligence": {
+        "name": "Emotional Intelligence",
+        "traits": [
+          "socially-aware"
+        ]
+      }
+    }
   }
 }

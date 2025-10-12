@@ -187,5 +187,63 @@
         "leading"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "communication_style",
+      "growth_learning",
+      "innovation_drive",
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "advancing knowledge",
+          "innovative"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "scientific discovery"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "direct"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "results-driven"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "ambitious",
+          "competitive",
+          "competitive success",
+          "confident",
+          "controversial",
+          "declarative",
+          "inflammatory",
+          "provocative",
+          "recognition",
+          "straightforward"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "scientific discovery"
+        ]
+      }
+    }
   }
 }

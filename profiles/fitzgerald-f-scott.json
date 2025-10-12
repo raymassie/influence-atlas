@@ -134,5 +134,27 @@
         "university"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "creative_expression",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "American dream exploration",
+          "romantic expression"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "artistic truth",
+          "literary excellence"
+        ]
+      }
+    }
   }
 }

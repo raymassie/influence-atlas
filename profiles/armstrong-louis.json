@@ -144,5 +144,32 @@
       "Empathy",
       "Empathy"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "creative_expression",
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "musical expression"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "spreading joy"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "cultural bridge-building"
+        ]
+      }
+    }
   }
 }

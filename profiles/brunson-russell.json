@@ -224,5 +224,26 @@
       "Empathy",
       "Focused"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "communication_style",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "helping entrepreneurs succeed online",
+          "perfecting sales funnels"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "teaching direct response"
+        ]
+      }
+    }
   }
 }

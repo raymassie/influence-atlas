@@ -252,5 +252,46 @@
       "Emotional",
       "Leadership"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "creative_expression",
+      "innovation_drive",
+      "intellectual_depth",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "advancing usability science"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "empirical validation of design decisions"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "empirical validation of design decisions"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "democratizing usability methods"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "making technology easier to use"
+        ]
+      }
+    }
   }
 }

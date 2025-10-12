@@ -166,5 +166,57 @@
       "Design",
       "Design"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "collaboration_mode",
+      "creative_expression",
+      "innovation_drive",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "absurdist",
+          "darkly-comic",
+          "enigmatic",
+          "existential",
+          "existential truth",
+          "intellectual challenge",
+          "meticulous revision",
+          "minimalist",
+          "minimalist approach",
+          "minimalist expression",
+          "multilingual work",
+          "philosophical",
+          "philosophical exploration",
+          "profound",
+          "sparse"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "artistic innovation"
+        ]
+      },
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "collaborative theater"
+        ]
+      },
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "artistic innovation",
+          "experimental",
+          "experimental creation",
+          "experimental writing",
+          "innovative"
+        ]
+      }
+    }
   }
 }

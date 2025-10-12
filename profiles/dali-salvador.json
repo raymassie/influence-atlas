@@ -174,5 +174,49 @@
       "Design",
       "Design"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "creative_expression",
+      "innovation_drive",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "complex",
+          "cultural provocation",
+          "enigmatic",
+          "flamboyant",
+          "metaphorical",
+          "paradoxical",
+          "provocative",
+          "surreal imagery",
+          "theatrical"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "artistic expression"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "psychological exploration"
+        ]
+      },
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "experimental",
+          "innovative",
+          "surrealist innovation"
+        ]
+      }
+    }
   }
 }

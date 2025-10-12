@@ -150,5 +150,60 @@
       "Systems",
       "Systems"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "communication_style",
+      "growth_learning",
+      "intellectual_depth",
+      "leadership_approach",
+      "practical_execution"
+    ],
+    "constellation_details": {
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "systematic improvement"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "strategic",
+          "strategically oriented"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "direct"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "results-focused"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "marketing ROI",
+          "performance optimization"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "analytical",
+          "data-driven",
+          "data-driven decisions",
+          "data-supported",
+          "systematic",
+          "systematic improvement"
+        ]
+      }
+    }
   }
 }

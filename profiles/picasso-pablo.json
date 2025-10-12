@@ -209,5 +209,41 @@
       "Artistic",
       "Artistic"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "creative_expression",
+      "growth_learning",
+      "innovation_drive",
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "cubist revolution"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "artistic experimentation",
+          "artistic innovation",
+          "creative expression"
+        ]
+      },
+      "growth_learning": {
+        "name": "Growth & Learning",
+        "traits": [
+          "artistic experimentation"
+        ]
+      },
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "artistic innovation"
+        ]
+      }
+    }
   }
 }

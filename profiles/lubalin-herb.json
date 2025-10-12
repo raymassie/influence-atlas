@@ -149,5 +149,78 @@
       "Empathy",
       "Empathy"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "collaboration_mode",
+      "communication_style",
+      "creative_expression",
+      "impact_legacy",
+      "innovation_drive",
+      "intellectual_depth",
+      "leadership_approach"
+    ],
+    "constellation_details": {
+      "innovation_drive": {
+        "name": "Innovation",
+        "traits": [
+          "experimental",
+          "experimental design",
+          "experimental techniques",
+          "groundbreaking",
+          "groundbreaking typography",
+          "innovative",
+          "typographic innovation",
+          "visual innovation"
+        ]
+      },
+      "collaboration_mode": {
+        "name": "Collaboration",
+        "traits": [
+          "collaborative design"
+        ]
+      },
+      "creative_expression": {
+        "name": "Creative Expression",
+        "traits": [
+          "artistic",
+          "artistic communication",
+          "artistic typography",
+          "collaborative design",
+          "creative",
+          "creative expression",
+          "experimental design",
+          "expressive",
+          "visual innovation"
+        ]
+      },
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "influential"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "communicative",
+          "expressive",
+          "magazine direction"
+        ]
+      },
+      "impact_legacy": {
+        "name": "Impact & Legacy",
+        "traits": [
+          "influential"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "bold",
+          "typographic"
+        ]
+      }
+    }
   }
 }

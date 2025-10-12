@@ -136,5 +136,21 @@
         "prize"
       ]
     }
+  },
+  "trait_constellations": {
+    "constellations": [
+      "intellectual_depth"
+    ],
+    "constellation_details": {
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "engaged Buddhism",
+          "interconnectedness",
+          "mindful living",
+          "peace activism"
+        ]
+      }
+    }
   }
 }

@@ -260,5 +260,80 @@
       "Always",
       "Always"
     ]
+  },
+  "trait_constellations": {
+    "constellations": [
+      "analytical_thinking",
+      "communication_style",
+      "intellectual_depth",
+      "leadership_approach",
+      "practical_execution",
+      "values_ethics"
+    ],
+    "constellation_details": {
+      "leadership_approach": {
+        "name": "Leadership",
+        "traits": [
+          "Decisive",
+          "Gender Leadership",
+          "Strong Leadership"
+        ]
+      },
+      "values_ethics": {
+        "name": "Values & Ethics",
+        "traits": [
+          "Conservative Values",
+          "Principled"
+        ]
+      },
+      "communication_style": {
+        "name": "Communication",
+        "traits": [
+          "Direct"
+        ]
+      },
+      "practical_execution": {
+        "name": "Execution",
+        "traits": [
+          "Practical"
+        ]
+      },
+      "intellectual_depth": {
+        "name": "Intellectual Depth",
+        "traits": [
+          "1960s",
+          "1970s",
+          "1980s",
+          "1990s",
+          "Academic",
+          "Barrister",
+          "British",
+          "Cabinet Minister",
+          "Chemist",
+          "Conservative",
+          "Conservative Politics",
+          "Convincing",
+          "Determined",
+          "Economic Freedom",
+          "Economic Liberalization",
+          "Freedom",
+          "Goal-oriented",
+          "Individual Liberty",
+          "Member of Parliament",
+          "Middle-class",
+          "National Strength",
+          "Personal Responsibility",
+          "Prime Minister",
+          "Strong",
+          "Strong-willed"
+        ]
+      },
+      "analytical_thinking": {
+        "name": "Analytical Thinking",
+        "traits": [
+          "Analytical"
+        ]
+      }
+    }
   }
 }
