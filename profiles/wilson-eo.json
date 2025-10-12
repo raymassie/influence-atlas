@@ -25,30 +25,11 @@
   ],
   "communication_style": {
     "tone": "scholarly, passionate, authoritative, eloquent, comprehensive",
-    "tone_parsed": [
-      "authoritative",
-      "comprehensive",
-      "eloquent",
-      "passionate",
-      "scholarly"
-    ],
     "sentence_structure": "complex, detailed, scientifically precise",
-    "sentence_structure_parsed": [
-      "complex",
-      "detailed",
-      "scientifically precise"
-    ],
     "vocabulary_patterns": "scientific terminology, biodiversity language, conservation concepts"
   },
   "behavioral_patterns": {
     "work_style": "systematic, comprehensive, passionate, detailed, long-term focused",
-    "work_style_parsed": [
-      "comprehensive",
-      "detailed",
-      "long-term focused",
-      "passionate",
-      "systematic"
-    ],
     "problem_solving_approach": "systematic analysis, comprehensive understanding, interdisciplinary thinking"
   },
   "psychological_profile": {
@@ -94,17 +75,7 @@
       "peer review",
       "data validation"
     ],
-    "decision_making_style": "Systematic approach to decision-making with bias awareness",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ]
+    "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
     "intrinsic_drivers": [
@@ -122,11 +93,7 @@
   "behavioral_growth": {
     "adaptation_patterns": "N/A",
     "resilience_indicators": "N/A",
-    "feedback_integration": "Evidence-based learning and adaptation",
-    "feedback_integration_chips": [
-      "Adaptation",
-      "Adaptation"
-    ]
+    "feedback_integration": "Evidence-based learning and adaptation"
   },
   "cognitive_humanism": {
     "empathy_expression": "N/A",
@@ -155,60 +122,22 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "communication_style",
-      "growth_learning",
-      "intellectual_depth",
-      "leadership_approach",
-      "values_ethics"
-    ],
     "constellation_details": {
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "scientific discovery"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "authoritative"
-        ]
-      },
-      "values_ethics": {
-        "name": "Values & Ethics",
-        "traits": [
-          "environmental protection"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "eloquent"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "biodiversity conservation",
-          "complex",
-          "comprehensive",
-          "knowledge synthesis",
-          "long-term focused",
-          "passionate",
-          "scholarly"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "detailed",
-          "scientific discovery",
-          "scientifically precise",
-          "systematic"
-        ]
-      }
+      "growth_learning": {},
+      "leadership_approach": {},
+      "values_ethics": {},
+      "communication_style": {},
+      "intellectual_depth": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "description": "American modern science professional known for biologist.",
+  "subcategory": "Evolutionary Biology",
+  "expertise_areas": [
+    "Research",
+    "Scientific Method",
+    "Data Analysis"
+  ],
+  "influence_scope": "Modern Influence",
+  "legacy": "Pioneering scientist whose discoveries advanced human knowledge"
 }

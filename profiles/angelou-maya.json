@@ -6,31 +6,11 @@
   "sub_domain": "Memoir and Poetry",
   "communication_style": {
     "tone": "powerful, lyrical, resilient, inspirational, authentic, eloquent, emotionally-rich, culturally-proud, wisdom-filled, transformative",
-    "tone_parsed": [
-      "authentic",
-      "culturally-proud",
-      "eloquent",
-      "emotionally-rich",
-      "inspirational",
-      "lyrical",
-      "powerful",
-      "resilient",
-      "transformative",
-      "wisdom-filled"
-    ],
     "vocabulary_patterns": "rich African American vernacular, poetic language, spiritual imagery, cultural references, wisdom traditions",
     "sentence_structure": "rhythmic prose, poetic structure, powerful declarations, emotional resonance, cultural storytelling"
   },
   "behavioral_patterns": {
     "work_style": "multidisciplinary approach, autobiographical storytelling, performance-based writing, social activism, collaborative projects, educational focus",
-    "work_style_parsed": [
-      "autobiographical storytelling",
-      "collaborative projects",
-      "educational focus",
-      "multidisciplinary approach",
-      "performance-based writing",
-      "social activism"
-    ],
     "problem_solving_approach": "through storytelling, education, social activism, personal transformation, community building, artistic expression"
   },
   "domain_expertise": {
@@ -73,22 +53,7 @@
   "bias_awareness": {
     "primary_biases": "Creative problem-solving with intuitive bias recognition",
     "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
-    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
-    "primary_biases_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ]
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
@@ -100,17 +65,7 @@
       "creative breakthroughs"
     ],
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -122,12 +77,7 @@
   "cognitive_humanism": {
     "empathy_expression": "High emotional intelligence in team leadership",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "N/A",
-    "empathy_expression_chips": [
-      "Team",
-      "Emotional",
-      "Leadership"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -146,101 +96,32 @@
     }
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Innovative approaches with user empathy",
-    "creative_problem_solving_chips": [
-      "User",
-      "Empathy",
-      "Empathy"
-    ]
+    "creative_problem_solving": "Innovative approaches with user empathy"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "collaboration_mode",
-      "communication_style",
-      "creative_expression",
-      "emotional_intelligence",
-      "growth_learning",
-      "impact_legacy",
-      "intellectual_depth",
-      "leadership_approach",
-      "values_ethics"
-    ],
     "constellation_details": {
-      "collaboration_mode": {
-        "name": "Collaboration",
-        "traits": [
-          "collaborative projects"
-        ]
-      },
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "spiritual growth"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "authentic",
-          "emotionally-rich"
-        ]
-      },
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "artistic expression"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "transformative"
-        ]
-      },
-      "values_ethics": {
-        "name": "Values & Ethics",
-        "traits": [
-          "social justice"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "educational focus",
-          "eloquent"
-        ]
-      },
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "transformative"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "autobiographical storytelling",
-          "community empowerment",
-          "cultural preservation",
-          "culturally-proud",
-          "education",
-          "lyrical",
-          "multidisciplinary approach",
-          "performance-based writing",
-          "personal transformation",
-          "powerful",
-          "resilient",
-          "social activism",
-          "wisdom-filled"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "inspirational"
-        ]
-      }
+      "collaboration_mode": {},
+      "growth_learning": {},
+      "emotional_intelligence": {},
+      "creative_expression": {},
+      "leadership_approach": {},
+      "values_ethics": {},
+      "communication_style": {},
+      "impact_legacy": {},
+      "intellectual_depth": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "nationality": "Spanish",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Spanish writers professional known for memoirist and poet.",
+  "subcategory": "Writers Professional",
+  "expertise_areas": [
+    "Writers"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

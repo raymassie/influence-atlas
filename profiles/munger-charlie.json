@@ -191,37 +191,23 @@
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "growth_learning",
-      "intellectual_depth",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "avoiding stupidity"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "rational decision-making"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "rational decision-making"
-        ]
-      },
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "continuous learning"
-        ]
-      }
+      "intellectual_depth": {},
+      "analytical_thinking": {},
+      "practical_execution": {},
+      "growth_learning": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Investment professional known for mental models master & rational thinking advocate.",
+  "subcategory": "Investment Professional",
+  "expertise_areas": [
+    "Investment"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

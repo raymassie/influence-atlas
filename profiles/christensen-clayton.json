@@ -104,55 +104,17 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": "Continuous learning and development focus",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "challenge_seeking_chips": [
-      "Seeks",
-      "Complex",
-      "Actively"
-    ],
-    "learning_orientation_chips": [
-      "Practice",
-      "Deliberate"
-    ]
+    "learning_orientation": "Growth mindset with deliberate practice"
   },
   "self_actualization_indicators": {
     "peak_experiences": "Creative self-expression and innovation",
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "peak_experiences_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -165,59 +127,29 @@
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "Strong integrity-based ethical framework",
-    "human_centered_thinking": "Always considers human impact",
-    "ethical_framework_chips": [
-      "Ethical",
-      "Ethical",
-      "Integrity"
-    ],
-    "human_centered_thinking_chips": [
-      "Human",
-      "Always",
-      "Always"
-    ]
+    "human_centered_thinking": "Always considers human impact"
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Design thinking with user empathy",
-    "creative_problem_solving_chips": [
-      "User",
-      "Design",
-      "Design"
-    ]
+    "creative_problem_solving": "Design thinking with user empathy"
   },
   "trait_constellations": {
-    "constellations": [
-      "communication_style",
-      "emotional_intelligence",
-      "innovation_drive",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "helping companies adapt",
-          "predicting disruption"
-        ]
-      },
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "understanding innovation"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "teaching business strategy"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "understanding innovation"
-        ]
-      }
+      "intellectual_depth": {},
+      "innovation_drive": {},
+      "communication_style": {},
+      "emotional_intelligence": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Business strategy professional known for innovation theorist.",
+  "subcategory": "Business Strategy Professional",
+  "expertise_areas": [
+    "Business Strategy"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

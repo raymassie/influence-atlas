@@ -182,22 +182,7 @@
   "bias_awareness": {
     "primary_biases": "Creative problem-solving with intuitive bias recognition",
     "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
-    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
-    "primary_biases_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ]
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
@@ -207,22 +192,7 @@
   "self_actualization_indicators": {
     "peak_experiences": "Creative self-expression and innovation",
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "peak_experiences_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": "N/A",
@@ -232,26 +202,23 @@
   "cognitive_humanism": {
     "empathy_expression": "Customer-focused empathy and understanding",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "N/A",
-    "empathy_expression_chips": [
-      "Empathy",
-      "Empathy",
-      "Focused"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "challenging established industries",
-          "creating memorable experiences",
-          "living adventurously"
-        ]
-      }
+      "intellectual_depth": {}
     }
-  }
+  },
+  "nationality": "Nordic",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Nordic entrepreneurship professional known for adventure-driven entrepreneur & brand maverick.",
+  "subcategory": "Entrepreneurship Professional",
+  "expertise_areas": [
+    "Entrepreneurship"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

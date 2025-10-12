@@ -102,49 +102,19 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic approach to decision-making with bias awareness",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ]
+    "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "N/A",
-    "challenge_seeking_chips": [
-      "Seeks",
-      "Complex",
-      "Actively"
-    ]
+    "learning_orientation": "N/A"
   },
   "self_actualization_indicators": {
     "peak_experiences": [
       "creative breakthroughs"
     ],
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -157,12 +127,7 @@
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "Strong integrity-based ethical framework",
-    "human_centered_thinking": "N/A",
-    "ethical_framework_chips": [
-      "Ethical",
-      "Ethical",
-      "Integrity"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -174,46 +139,14 @@
     }
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Design thinking with user empathy",
-    "creative_problem_solving_chips": [
-      "User",
-      "Design",
-      "Design"
-    ]
+    "creative_problem_solving": "Design thinking with user empathy"
   },
   "trait_constellations": {
-    "constellations": [
-      "creative_expression",
-      "emotional_intelligence",
-      "innovation_drive",
-      "leadership_approach"
-    ],
     "constellation_details": {
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "creative excellence",
-          "creative leadership"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "authentic communication"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "creative leadership"
-        ]
-      },
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "advertising innovation"
-        ]
-      }
+      "creative_expression": {},
+      "emotional_intelligence": {},
+      "leadership_approach": {},
+      "innovation_drive": {}
     }
   }
 }

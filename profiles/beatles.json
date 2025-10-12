@@ -80,49 +80,19 @@
   "bias_awareness": {
     "primary_biases": "Creative problem-solving with intuitive bias recognition",
     "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
-    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
-    "primary_biases_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ]
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "N/A",
-    "challenge_seeking_chips": [
-      "Seeks",
-      "Complex",
-      "Actively"
-    ]
+    "learning_orientation": "N/A"
   },
   "self_actualization_indicators": {
     "peak_experiences": [
       "creative breakthroughs"
     ],
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -134,66 +104,35 @@
   "cognitive_humanism": {
     "empathy_expression": "High emotional intelligence in teamwork",
     "ethical_framework": "Strong integrity-based ethical framework",
-    "human_centered_thinking": "N/A",
-    "empathy_expression_chips": [
-      "Teamwork",
-      "Emotional",
-      "Intelligence"
-    ],
-    "ethical_framework_chips": [
-      "Ethical",
-      "Ethical",
-      "Integrity"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "humanistic_cognition": {
     "creative_problem_solving": "Design thinking with user empathy",
-    "collaborative_intelligence": "Exceptional team building and facilitation",
-    "creative_problem_solving_chips": [
-      "User",
-      "Design",
-      "Design"
-    ],
-    "collaborative_intelligence_chips": [
-      "Team",
-      "Building",
-      "Exceptional"
-    ]
+    "collaborative_intelligence": "Exceptional team building and facilitation"
   },
   "human_needs_hierarchy": {
-    "belonging_expression": "Strong - builds collaborative teams",
-    "belonging_expression_chips": [
-      "Teams",
-      "Builds",
-      "Collaborative"
-    ]
+    "belonging_expression": "Strong - builds collaborative teams"
   },
   "trait_constellations": {
-    "constellations": [
-      "creative_expression",
-      "innovation_drive",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "cultural impact"
-        ]
-      },
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "artistic expression",
-          "musical innovation"
-        ]
-      },
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "musical innovation"
-        ]
-      }
+      "intellectual_depth": {},
+      "creative_expression": {},
+      "innovation_drive": {}
     }
-  }
+  },
+  "nationality": "European",
+  "notable_works": [
+    "Musical composition",
+    "Symphony",
+    "Musical work"
+  ],
+  "description": "European music professional known for rock musician.",
+  "subcategory": "Music Professional",
+  "expertise_areas": [
+    "Composition",
+    "Musical Theory",
+    "Performance"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Musician whose compositions have left an enduring mark on musical history"
 }

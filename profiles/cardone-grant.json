@@ -39,14 +39,6 @@
     "decision_making_style": "Quick, Intuitive, Risk-Taking"
   },
   "communication_style": {
-    "tone_parsed": [
-      "Aggressive",
-      "Motivational",
-      "Direct",
-      "Enthusiastic",
-      "Commanding",
-      "Persuasive"
-    ],
     "vocabulary_patterns": [
       "10X",
       "Dominate",
@@ -54,13 +46,6 @@
       "Massive",
       "Breakthrough",
       "Success"
-    ],
-    "sentence_structure_parsed": [
-      "Short",
-      "Punchy",
-      "Commanding",
-      "Repetitive",
-      "Emphatic"
     ]
   },
   "domain_expertise": {
@@ -79,44 +64,8 @@
       "Wealth Building"
     ]
   },
-  "behavioral_patterns": {
-    "work_style_parsed": [
-      "High-Intensity",
-      "Results-Driven",
-      "Aggressive",
-      "Team-Oriented",
-      "Systematic"
-    ],
-    "problem_solving_approach_parsed": [
-      "Direct",
-      "Aggressive",
-      "Scale-Focused",
-      "Action-Oriented",
-      "Systematic"
-    ]
-  },
+  "behavioral_patterns": {},
   "collaboration": {
-    "leadership_style_parsed": [
-      "Commanding",
-      "Motivational",
-      "Direct",
-      "Results-Focused",
-      "Inspirational"
-    ],
-    "team_dynamics_parsed": [
-      "High-Performance",
-      "Competitive",
-      "Results-Driven",
-      "Supportive",
-      "Ambitious"
-    ],
-    "mentorship_approach_parsed": [
-      "Direct",
-      "Challenging",
-      "Success-Focused",
-      "Practical",
-      "Intensive"
-    ],
     "conflict_resolution_parsed": [
       "Direct",
       "Confrontational",
@@ -138,107 +87,22 @@
       "Wealth Focus"
     ]
   },
-  "temporal_context": {
-    "career_evolution_parsed": [
-      "Sales Professional",
-      "Entrepreneur",
-      "Author",
-      "Speaker",
-      "Real Estate Investor"
-    ],
-    "influence_timeline_parsed": [
-      "2000s",
-      "2010s",
-      "2020s"
-    ],
-    "legacy_impact_parsed": [
-      "Sales Training",
-      "Real Estate Education",
-      "Motivational Speaking",
-      "Business Scaling"
-    ]
-  },
-  "cultural_context": {
-    "cultural_background_parsed": [
-      "American",
-      "Business Culture",
-      "Sales Culture",
-      "Entrepreneurial"
-    ]
-  },
-  "practical_application": {
-    "decision_speed_parsed": [
-      "Fast",
-      "Intuitive",
-      "Action-Oriented",
-      "Risk-Taking"
-    ]
-  },
-  "learning": {
-    "learning_style_parsed": [
-      "Experiential",
-      "Action-Based",
-      "Success-Focused",
-      "Practical"
-    ]
-  },
-  "communication": {
-    "audience_adaptation_parsed": [
-      "Motivational",
-      "Direct",
-      "Enthusiastic",
-      "Persuasive"
-    ]
-  },
-  "values": {
-    "core_values_parsed": [
-      "Success",
-      "Wealth",
-      "Hard Work",
-      "Dominance",
-      "Teaching"
-    ]
-  },
+  "temporal_context": {},
+  "cultural_context": {},
+  "practical_application": {},
+  "learning": {},
+  "communication": {},
+  "values": {},
   "category": "Marketing",
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic approach to decision-making with bias awareness",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ]
+    "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
     "intrinsic_drivers": "Achievement-oriented growth mindset",
     "challenge_seeking": "Achievement-oriented growth mindset",
-    "learning_orientation": "Achievement-oriented growth mindset",
-    "intrinsic_drivers_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "challenge_seeking_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "learning_orientation_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ]
+    "learning_orientation": "Achievement-oriented growth mindset"
   },
   "self_actualization_indicators": {
     "peak_experiences": "N/A",
@@ -248,143 +112,35 @@
   "behavioral_growth": {
     "adaptation_patterns": "Achievement-oriented growth mindset",
     "resilience_indicators": "Achievement-oriented growth mindset",
-    "feedback_integration": "Achievement-oriented growth mindset",
-    "adaptation_patterns_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "resilience_indicators_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "feedback_integration_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ]
+    "feedback_integration": "Achievement-oriented growth mindset"
   },
   "cognitive_humanism": {
     "empathy_expression": "High emotional intelligence in team leadership",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "N/A",
-    "empathy_expression_chips": [
-      "Team",
-      "Emotional",
-      "Leadership"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "collaboration_mode",
-      "communication_style",
-      "emotional_intelligence",
-      "impact_legacy",
-      "intellectual_depth",
-      "leadership_approach",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "collaboration_mode": {
-        "name": "Collaboration",
-        "traits": [
-          "Supportive",
-          "Team-Oriented"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "Intuitive"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "Aggressive",
-          "Ambitious",
-          "American",
-          "Author",
-          "Business Culture",
-          "Business Scaling",
-          "Challenging",
-          "Competitive",
-          "Confrontational",
-          "Dominance",
-          "Emphatic",
-          "Enthusiastic",
-          "Entrepreneur",
-          "Entrepreneurial",
-          "Experiential",
-          "Fast",
-          "Hard Work",
-          "High-Intensity",
-          "High-Performance",
-          "Intensive",
-          "Punchy",
-          "Real Estate Education",
-          "Real Estate Investor",
-          "Recognition",
-          "Repetitive",
-          "Risk-Taking",
-          "Sales Culture",
-          "Sales Professional",
-          "Sales Training",
-          "Scale-Focused",
-          "Short",
-          "Solution-Focused",
-          "Success",
-          "Success-Focused",
-          "Wealth",
-          "Wealth Creation"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "Commanding"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "Direct",
-          "Motivational",
-          "Motivational Speaking",
-          "Persuasive",
-          "Speaker",
-          "Teaching",
-          "Teaching Others"
-        ]
-      },
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "2000s",
-          "2010s",
-          "2020s"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "Inspirational",
-          "Systematic"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "Action-Based",
-          "Action-Oriented",
-          "Practical",
-          "Results-Driven",
-          "Results-Focused",
-          "Results-Oriented"
-        ]
-      }
+      "collaboration_mode": {},
+      "emotional_intelligence": {},
+      "intellectual_depth": {},
+      "leadership_approach": {},
+      "communication_style": {},
+      "impact_legacy": {},
+      "analytical_thinking": {},
+      "practical_execution": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Marketing professional known for marketing expert.",
+  "subcategory": "Marketing Professional",
+  "expertise_areas": [
+    "Marketing"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

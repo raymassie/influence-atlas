@@ -101,22 +101,7 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic approach to decision-making with bias awareness",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ]
+    "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
@@ -151,19 +136,9 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "healing through mindfulness",
-          "integrating contemplative practices with medicine",
-          "mindful living",
-          "stress reduction"
-        ]
-      }
+      "intellectual_depth": {}
     }
-  }
+  },
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

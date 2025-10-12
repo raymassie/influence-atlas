@@ -6,31 +6,11 @@
   "sub_domain": "Technology Strategy",
   "communication_style": {
     "tone": "strategic, analytical, systematic, innovative, data-driven, scalable, methodical, transformative, collaborative, growth-focused",
-    "tone_parsed": [
-      "analytical",
-      "collaborative",
-      "data-driven",
-      "growth-focused",
-      "innovative",
-      "methodical",
-      "scalable",
-      "strategic",
-      "systematic",
-      "transformative"
-    ],
     "vocabulary_patterns": "strategic technology terminology, scalable systems language, data-driven decision concepts, growth-focused business insights",
     "sentence_structure": "strategic prose, analytical explanations, systematic insights, data-driven communication, scalable thinking"
   },
   "behavioral_patterns": {
     "work_style": "strategic planning, systematic execution, data-driven decisions, scalable solutions, collaborative leadership, growth-focused innovation",
-    "work_style_parsed": [
-      "collaborative leadership",
-      "data-driven decisions",
-      "growth-focused innovation",
-      "scalable solutions",
-      "strategic planning",
-      "systematic execution"
-    ],
     "problem_solving_approach": "through strategic analysis, systematic solutions, data-driven insights, scalable approaches, collaborative innovation, growth-focused thinking"
   },
   "domain_expertise": {
@@ -73,55 +53,17 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "challenge_seeking_chips": [
-      "Seeks",
-      "Complex",
-      "Actively"
-    ],
-    "learning_orientation_chips": [
-      "Practice",
-      "Deliberate"
-    ]
+    "learning_orientation": "Growth mindset with deliberate practice"
   },
   "self_actualization_indicators": {
     "peak_experiences": "Creative self-expression and innovation",
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "peak_experiences_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -134,17 +76,7 @@
   "cognitive_humanism": {
     "empathy_expression": "High emotional intelligence in leadership",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "Always considers human impact",
-    "empathy_expression_chips": [
-      "Emotional",
-      "Leadership",
-      "Leadership"
-    ],
-    "human_centered_thinking_chips": [
-      "Human",
-      "Always",
-      "Always"
-    ]
+    "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -166,110 +98,33 @@
   "humanistic_cognition": {
     "holistic_perspective": "Systems thinking with human focus",
     "collaborative_intelligence": "Exceptional team building and facilitation",
-    "creative_problem_solving": "Design thinking with user empathy",
-    "holistic_perspective_chips": [
-      "Human",
-      "Systems",
-      "Systems"
-    ],
-    "collaborative_intelligence_chips": [
-      "Team",
-      "Building",
-      "Exceptional"
-    ],
-    "creative_problem_solving_chips": [
-      "User",
-      "Design",
-      "Design"
-    ]
+    "creative_problem_solving": "Design thinking with user empathy"
   },
   "human_needs_hierarchy": {
-    "belonging_expression": "Strong - builds collaborative teams",
-    "belonging_expression_chips": [
-      "Teams",
-      "Builds",
-      "Collaborative"
-    ]
+    "belonging_expression": "Strong - builds collaborative teams"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "collaboration_mode",
-      "growth_learning",
-      "impact_legacy",
-      "innovation_drive",
-      "intellectual_depth",
-      "leadership_approach",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "growth-focused innovation",
-          "innovative",
-          "scalable innovation"
-        ]
-      },
-      "collaboration_mode": {
-        "name": "Collaboration",
-        "traits": [
-          "collaborative",
-          "collaborative leadership"
-        ]
-      },
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "growth-focused",
-          "growth-focused innovation",
-          "strategic growth"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "organizational scaling",
-          "scalable",
-          "scalable solutions"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "collaborative leadership",
-          "strategic",
-          "strategic growth",
-          "strategic planning",
-          "transformative",
-          "transformative impact"
-        ]
-      },
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "transformative",
-          "transformative impact"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "analytical",
-          "data-driven",
-          "data-driven decisions",
-          "methodical",
-          "systematic",
-          "systematic excellence",
-          "systematic execution"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "systematic execution"
-        ]
-      }
+      "innovation_drive": {},
+      "collaboration_mode": {},
+      "growth_learning": {},
+      "intellectual_depth": {},
+      "leadership_approach": {},
+      "impact_legacy": {},
+      "analytical_thinking": {},
+      "practical_execution": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Technology leadership professional known for technology executive.",
+  "subcategory": "Technology Leadership Professional",
+  "expertise_areas": [
+    "Technology Leadership"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

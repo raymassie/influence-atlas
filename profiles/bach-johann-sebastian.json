@@ -73,52 +73,17 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic approach to decision-making with bias awareness",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ]
+    "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "N/A",
-    "challenge_seeking_chips": [
-      "Seeks",
-      "Complex",
-      "Actively"
-    ]
+    "learning_orientation": "N/A"
   },
   "self_actualization_indicators": {
     "peak_experiences": "Creative self-expression and innovation",
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "peak_experiences_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -131,46 +96,31 @@
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "Strong integrity-based ethical framework",
-    "human_centered_thinking": "N/A",
-    "ethical_framework_chips": [
-      "Ethical",
-      "Ethical",
-      "Integrity"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Design thinking with user empathy",
-    "creative_problem_solving_chips": [
-      "User",
-      "Design",
-      "Design"
-    ]
+    "creative_problem_solving": "Design thinking with user empathy"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "creative_expression",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "spiritual expression"
-        ]
-      },
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "musical perfection"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "mathematical beauty"
-        ]
-      }
+      "intellectual_depth": {},
+      "creative_expression": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "nationality": "European",
+  "notable_works": [
+    "Musical composition",
+    "Symphony",
+    "Musical work"
+  ],
+  "description": "European music professional known for classical musician.",
+  "subcategory": "Music Professional",
+  "expertise_areas": [
+    "Composition",
+    "Musical Theory",
+    "Performance"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Baroque composer whose musical innovations laid the foundation for Western classical music"
 }

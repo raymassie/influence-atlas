@@ -106,16 +106,7 @@
       "peer review",
       "data validation"
     ],
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": [
@@ -123,36 +114,12 @@
       "discovery"
     ],
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "challenge_seeking_chips": [
-      "Seeks",
-      "Complex",
-      "Actively"
-    ],
-    "learning_orientation_chips": [
-      "Practice",
-      "Deliberate"
-    ]
+    "learning_orientation": "Growth mindset with deliberate practice"
   },
   "self_actualization_indicators": {
     "peak_experiences": "Creative self-expression and innovation",
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "peak_experiences_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -160,21 +127,12 @@
       "creative solutions"
     ],
     "resilience_indicators": "N/A",
-    "feedback_integration": "Evidence-based learning and adaptation",
-    "feedback_integration_chips": [
-      "Adaptation",
-      "Adaptation"
-    ]
+    "feedback_integration": "Evidence-based learning and adaptation"
   },
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "Always considers human impact",
-    "human_centered_thinking_chips": [
-      "Human",
-      "Always",
-      "Always"
-    ]
+    "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -194,47 +152,14 @@
     }
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Design thinking with user empathy",
-    "creative_problem_solving_chips": [
-      "User",
-      "Design",
-      "Design"
-    ]
+    "creative_problem_solving": "Design thinking with user empathy"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "growth_learning",
-      "impact_legacy",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "disease prevention",
-          "public health"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "microbiological discovery",
-          "scientific advancement"
-        ]
-      },
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "scientific advancement"
-        ]
-      },
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "microbiological discovery"
-        ]
-      }
+      "intellectual_depth": {},
+      "analytical_thinking": {},
+      "impact_legacy": {},
+      "growth_learning": {}
     }
   }
 }

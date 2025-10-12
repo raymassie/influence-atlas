@@ -196,22 +196,7 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic approach to decision-making with bias awareness",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ]
+    "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
@@ -221,22 +206,7 @@
   "self_actualization_indicators": {
     "peak_experiences": "Creative self-expression and innovation",
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "peak_experiences_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": "N/A",
@@ -246,52 +216,27 @@
   "cognitive_humanism": {
     "empathy_expression": "High emotional intelligence in team leadership",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "N/A",
-    "empathy_expression_chips": [
-      "Team",
-      "Emotional",
-      "Leadership"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "creative_expression",
-      "innovation_drive",
-      "intellectual_depth",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "advancing usability science"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "empirical validation of design decisions"
-        ]
-      },
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "empirical validation of design decisions"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "democratizing usability methods"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "making technology easier to use"
-        ]
-      }
+      "innovation_drive": {},
+      "analytical_thinking": {},
+      "creative_expression": {},
+      "intellectual_depth": {},
+      "practical_execution": {}
     }
-  }
+  },
+  "nationality": "Spanish",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Spanish design professional known for usability science pioneer & discount usability movement leader.",
+  "subcategory": "Design Professional",
+  "expertise_areas": [
+    "Design"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

@@ -6,31 +6,11 @@
   "sub_domain": "Behavioral Science",
   "communication_style": {
     "tone": "research-based, insightful, motivational, data-driven, accessible, thought-provoking, evidence-based, inspiring, analytical, transformative",
-    "tone_parsed": [
-      "accessible",
-      "analytical",
-      "data-driven",
-      "evidence-based",
-      "inspiring",
-      "insightful",
-      "motivational",
-      "research-based",
-      "thought-provoking",
-      "transformative"
-    ],
     "vocabulary_patterns": "behavioral science terminology, motivation research language, evidence-based concepts, accessible business insights",
     "sentence_structure": "research-based prose, data-driven explanations, accessible insights, motivational language, analytical communication"
   },
   "behavioral_patterns": {
     "work_style": "research-driven approach, evidence-based insights, motivational speaking, collaborative research, educational focus, transformative thinking",
-    "work_style_parsed": [
-      "collaborative research",
-      "educational focus",
-      "evidence-based insights",
-      "motivational speaking",
-      "research-driven approach",
-      "transformative thinking"
-    ],
     "problem_solving_approach": "through behavioral research, evidence-based analysis, motivational psychology, data-driven insights, transformative solutions"
   },
   "domain_expertise": {
@@ -73,30 +53,12 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": "Continuous learning and development focus",
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "learning_orientation_chips": [
-      "Practice",
-      "Deliberate"
-    ]
+    "learning_orientation": "Growth mindset with deliberate practice"
   },
   "self_actualization_indicators": {
     "peak_experiences": "N/A",
@@ -111,17 +73,7 @@
   "cognitive_humanism": {
     "empathy_expression": "High emotional intelligence in team leadership",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "Always considers human impact",
-    "empathy_expression_chips": [
-      "Team",
-      "Emotional",
-      "Leadership"
-    ],
-    "human_centered_thinking_chips": [
-      "Human",
-      "Always",
-      "Always"
-    ]
+    "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -133,75 +85,26 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "collaboration_mode",
-      "communication_style",
-      "growth_learning",
-      "impact_legacy",
-      "intellectual_depth",
-      "leadership_approach"
-    ],
     "constellation_details": {
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "organizational development",
-          "performance improvement"
-        ]
-      },
-      "collaboration_mode": {
-        "name": "Collaboration",
-        "traits": [
-          "collaborative research"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "transformative",
-          "transformative thinking"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "accessible",
-          "educational focus",
-          "inspiring",
-          "motivational",
-          "motivational psychology",
-          "motivational speaking"
-        ]
-      },
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "transformative",
-          "transformative thinking"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "insightful",
-          "thought-provoking",
-          "transformative thinking"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "analytical",
-          "behavioral research",
-          "collaborative research",
-          "data-driven",
-          "evidence-based",
-          "evidence-based insights",
-          "research-based",
-          "research-driven approach"
-        ]
-      }
+      "growth_learning": {},
+      "collaboration_mode": {},
+      "leadership_approach": {},
+      "communication_style": {},
+      "impact_legacy": {},
+      "intellectual_depth": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "nationality": "Italian",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Italian thought leadership professional known for motivation researcher.",
+  "subcategory": "Thought Leadership Professional",
+  "expertise_areas": [
+    "Thought Leadership"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

@@ -97,38 +97,28 @@
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "Strong integrity-based ethical framework",
-    "human_centered_thinking": "N/A",
-    "ethical_framework_chips": [
-      "Ethical",
-      "Ethical",
-      "Integrity"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "creative_expression",
-      "emotional_intelligence",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "cultural fusion"
-        ]
-      },
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "musical expression"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "emotional connection"
-        ]
-      }
+      "intellectual_depth": {},
+      "creative_expression": {},
+      "emotional_intelligence": {}
     }
-  }
+  },
+  "nationality": "Spanish",
+  "notable_works": [
+    "Musical composition",
+    "Symphony",
+    "Musical work"
+  ],
+  "description": "Spanish music professional known for pop artist.",
+  "subcategory": "Music Professional",
+  "expertise_areas": [
+    "Composition",
+    "Musical Theory",
+    "Performance"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Musician whose compositions have left an enduring mark on musical history"
 }

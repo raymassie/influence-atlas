@@ -112,16 +112,7 @@
       "peer review",
       "data validation"
     ],
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": [
@@ -129,36 +120,12 @@
       "discovery"
     ],
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "challenge_seeking_chips": [
-      "Seeks",
-      "Complex",
-      "Actively"
-    ],
-    "learning_orientation_chips": [
-      "Practice",
-      "Deliberate"
-    ]
+    "learning_orientation": "Growth mindset with deliberate practice"
   },
   "self_actualization_indicators": {
     "peak_experiences": "Creative self-expression and innovation",
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "peak_experiences_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -166,68 +133,37 @@
       "creative solutions"
     ],
     "resilience_indicators": "N/A",
-    "feedback_integration": "Evidence-based learning and adaptation",
-    "feedback_integration_chips": [
-      "Adaptation",
-      "Adaptation"
-    ]
+    "feedback_integration": "Evidence-based learning and adaptation"
   },
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "Strong integrity-based ethical framework",
-    "human_centered_thinking": "Always considers human impact",
-    "ethical_framework_chips": [
-      "Ethical",
-      "Ethical",
-      "Integrity"
-    ],
-    "human_centered_thinking_chips": [
-      "Human",
-      "Always",
-      "Always"
-    ]
+    "human_centered_thinking": "Always considers human impact"
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Design thinking with user empathy",
-    "creative_problem_solving_chips": [
-      "User",
-      "Design",
-      "Design"
-    ]
+    "creative_problem_solving": "Design thinking with user empathy"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "emotional_intelligence",
-      "innovation_drive",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "innovative insight"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "theoretical understanding"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "analytical excellence",
-          "systematic methodology"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "theoretical understanding"
-        ]
-      }
+      "innovation_drive": {},
+      "intellectual_depth": {},
+      "analytical_thinking": {},
+      "emotional_intelligence": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Scientific discovery",
+    "Research paper",
+    "Scientific theory"
+  ],
+  "description": "Science professional known for theoretical physicist.",
+  "subcategory": "Science Professional",
+  "expertise_areas": [
+    "Research",
+    "Scientific Method",
+    "Data Analysis"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Revolutionary physicist who transformed our understanding of space, time, and energy"
 }

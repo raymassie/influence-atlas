@@ -25,30 +25,11 @@
   ],
   "communication_style": {
     "tone": "authoritative, comprehensive, scholarly, profound, dialectical",
-    "tone_parsed": [
-      "authoritative",
-      "comprehensive",
-      "dialectical",
-      "profound",
-      "scholarly"
-    ],
     "sentence_structure": "complex, comprehensive, philosophically dense",
-    "sentence_structure_parsed": [
-      "complex",
-      "comprehensive",
-      "philosophically dense"
-    ],
     "vocabulary_patterns": "idealist terminology, dialectical concepts, systematic philosophy, abstract reasoning"
   },
   "behavioral_patterns": {
     "work_style": "methodical, scholarly, comprehensive, intellectual, dialectical",
-    "work_style_parsed": [
-      "comprehensive",
-      "dialectical",
-      "intellectual",
-      "methodical",
-      "scholarly"
-    ],
     "problem_solving_approach": "dialectical analysis, comprehensive reasoning, systematic thinking"
   },
   "psychological_profile": {
@@ -91,30 +72,12 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
     "challenge_seeking": "N/A",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "learning_orientation_chips": [
-      "Practice",
-      "Deliberate"
-    ]
+    "learning_orientation": "Growth mindset with deliberate practice"
   },
   "self_actualization_indicators": {
     "peak_experiences": "N/A",
@@ -129,12 +92,7 @@
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "Always considers human impact",
-    "human_centered_thinking_chips": [
-      "Human",
-      "Always",
-      "Always"
-    ]
+    "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -155,47 +113,20 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "emotional_intelligence",
-      "intellectual_depth",
-      "leadership_approach"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "absolute knowledge",
-          "complex",
-          "comprehensive",
-          "dialectical",
-          "dialectical reasoning",
-          "intellectual",
-          "philosophical truth",
-          "philosophically dense",
-          "profound",
-          "scholarly"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "methodical",
-          "systematic understanding"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "authoritative"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "systematic understanding"
-        ]
-      }
+      "intellectual_depth": {},
+      "analytical_thinking": {},
+      "leadership_approach": {},
+      "emotional_intelligence": {}
     }
-  }
+  },
+  "description": "German modern philosophy professional known for idealist philosopher.",
+  "subcategory": "Philosophy Professional",
+  "expertise_areas": [
+    "Ethics",
+    "Moral Philosophy",
+    "Applied Ethics"
+  ],
+  "influence_scope": "Historical Influence",
+  "legacy": "Influential thinker whose ideas continue to shape philosophical discourse"
 }

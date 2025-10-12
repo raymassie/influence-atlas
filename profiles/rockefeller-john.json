@@ -102,21 +102,7 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
@@ -156,27 +142,11 @@
     }
   },
   "humanistic_cognition": {
-    "holistic_perspective": "Systems thinking with human focus",
-    "holistic_perspective_chips": [
-      "Human",
-      "Systems",
-      "Systems"
-    ]
+    "holistic_perspective": "Systems thinking with human focus"
   },
   "trait_constellations": {
-    "constellations": [
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "business consolidation",
-          "industrial efficiency",
-          "oil industry dominance",
-          "philanthropy"
-        ]
-      }
+      "intellectual_depth": {}
     }
   }
 }

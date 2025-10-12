@@ -135,31 +135,10 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "communication_style",
-      "intellectual_depth",
-      "values_ethics"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "democratic theory"
-        ]
-      },
-      "values_ethics": {
-        "name": "Values & Ethics",
-        "traits": [
-          "political equality",
-          "social justice"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "educational reform"
-        ]
-      }
+      "intellectual_depth": {},
+      "values_ethics": {},
+      "communication_style": {}
     }
   }
 }

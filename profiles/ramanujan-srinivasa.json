@@ -102,22 +102,7 @@
   "bias_awareness": {
     "primary_biases": "Creative problem-solving with intuitive bias recognition",
     "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
-    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
-    "primary_biases_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ]
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
@@ -129,17 +114,7 @@
       "creative breakthroughs"
     ],
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -173,47 +148,14 @@
     }
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Innovative approaches with user empathy",
-    "creative_problem_solving_chips": [
-      "User",
-      "Empathy",
-      "Empathy"
-    ]
+    "creative_problem_solving": "Innovative approaches with user empathy"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "emotional_intelligence",
-      "growth_learning",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "number theory exploration",
-          "theoretical understanding"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "mathematical discovery",
-          "mathematical intuition"
-        ]
-      },
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "mathematical discovery"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "theoretical understanding"
-        ]
-      }
+      "intellectual_depth": {},
+      "analytical_thinking": {},
+      "growth_learning": {},
+      "emotional_intelligence": {}
     }
   }
 }

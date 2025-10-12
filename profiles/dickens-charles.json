@@ -6,31 +6,11 @@
   "sub_domain": "Victorian Literature",
   "communication_style": {
     "tone": "dramatic, sentimental, satirical, descriptive, emotional, moralistic, vivid, character-driven, socially-conscious, narrative-rich",
-    "tone_parsed": [
-      "character-driven",
-      "descriptive",
-      "dramatic",
-      "emotional",
-      "moralistic",
-      "narrative-rich",
-      "satirical",
-      "sentimental",
-      "socially-conscious",
-      "vivid"
-    ],
     "vocabulary_patterns": "rich Victorian vocabulary, literary devices, character names as symbols, social commentary through dialogue",
     "sentence_structure": "complex Victorian sentences, descriptive passages, dialogue-driven narrative, varied rhythm"
   },
   "behavioral_patterns": {
     "work_style": "serial publication, character development, social observation, deadline-driven, prolific output, collaborative editing",
-    "work_style_parsed": [
-      "character development",
-      "collaborative editing",
-      "deadline-driven",
-      "prolific output",
-      "serial publication",
-      "social observation"
-    ],
     "problem_solving_approach": "through storytelling, character transformation, social reform advocacy, serial narrative structure"
   },
   "domain_expertise": {
@@ -73,22 +53,7 @@
   "bias_awareness": {
     "primary_biases": "Creative problem-solving with intuitive bias recognition",
     "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
-    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
-    "primary_biases_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ]
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
     "intrinsic_drivers": [
@@ -103,15 +68,7 @@
       "creative breakthroughs"
     ],
     "autonomy_expression": "High autonomy in decision-making",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "autonomy_expression_chips": [
-      "Autonomy"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -123,17 +80,7 @@
   "cognitive_humanism": {
     "empathy_expression": "High emotional intelligence in team leadership",
     "ethical_framework": "Strong integrity-based ethical framework",
-    "human_centered_thinking": "N/A",
-    "empathy_expression_chips": [
-      "Team",
-      "Emotional",
-      "Leadership"
-    ],
-    "ethical_framework_chips": [
-      "Ethical",
-      "Ethical",
-      "Integrity"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -147,83 +94,31 @@
     }
   },
   "human_needs_hierarchy": {
-    "esteem_sources": "Achievement and expertise recognition",
-    "esteem_sources_chips": [
-      "Expertise",
-      "Achievement",
-      "Recognition"
-    ]
+    "esteem_sources": "Achievement and expertise recognition"
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Innovative approaches with user empathy",
-    "creative_problem_solving_chips": [
-      "User",
-      "Empathy",
-      "Empathy"
-    ]
+    "creative_problem_solving": "Innovative approaches with user empathy"
   },
   "trait_constellations": {
-    "constellations": [
-      "collaboration_mode",
-      "creative_expression",
-      "emotional_intelligence",
-      "growth_learning",
-      "intellectual_depth",
-      "values_ethics"
-    ],
     "constellation_details": {
-      "collaboration_mode": {
-        "name": "Collaboration",
-        "traits": [
-          "collaborative editing"
-        ]
-      },
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "character development"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "emotional"
-        ]
-      },
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "dramatic"
-        ]
-      },
-      "values_ethics": {
-        "name": "Values & Ethics",
-        "traits": [
-          "moral instruction",
-          "moralistic"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "character exploration",
-          "character-driven",
-          "deadline-driven",
-          "descriptive",
-          "entertainment",
-          "narrative mastery",
-          "narrative-rich",
-          "prolific output",
-          "public engagement",
-          "satirical",
-          "sentimental",
-          "serial publication",
-          "social observation",
-          "social reform",
-          "socially-conscious",
-          "vivid"
-        ]
-      }
+      "collaboration_mode": {},
+      "growth_learning": {},
+      "emotional_intelligence": {},
+      "creative_expression": {},
+      "values_ethics": {},
+      "intellectual_depth": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Writers professional known for victorian novelist.",
+  "subcategory": "Writers Professional",
+  "expertise_areas": [
+    "Writers"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

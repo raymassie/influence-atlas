@@ -77,17 +77,7 @@
       "anchoring bias"
     ],
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ]
+    "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
     "intrinsic_drivers": [
@@ -95,32 +85,12 @@
       "growth"
     ],
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "N/A",
-    "challenge_seeking_chips": [
-      "Seeks",
-      "Complex",
-      "Actively"
-    ]
+    "learning_orientation": "N/A"
   },
   "self_actualization_indicators": {
     "peak_experiences": "Creative self-expression and innovation",
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "peak_experiences_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -133,58 +103,32 @@
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "Strong integrity-based ethical framework",
-    "human_centered_thinking": "Customer-focused decision making",
-    "ethical_framework_chips": [
-      "Ethical",
-      "Ethical",
-      "Integrity"
-    ],
-    "human_centered_thinking_chips": [
-      "Focused",
-      "Customer",
-      "Customer"
-    ]
+    "human_centered_thinking": "Customer-focused decision making"
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Design thinking with user empathy",
-    "creative_problem_solving_chips": [
-      "User",
-      "Design",
-      "Design"
-    ]
+    "creative_problem_solving": "Design thinking with user empathy"
   },
   "trait_constellations": {
-    "constellations": [
-      "growth_learning",
-      "innovation_drive",
-      "intellectual_depth",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "mass production"
-        ]
-      },
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "industrial innovation"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "practical solutions"
-        ]
-      },
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "efficiency improvement"
-        ]
-      }
+      "intellectual_depth": {},
+      "innovation_drive": {},
+      "practical_execution": {},
+      "growth_learning": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Business strategy",
+    "Company founded",
+    "Business innovation"
+  ],
+  "description": "Business professional known for business leader.",
+  "subcategory": "Business Professional",
+  "expertise_areas": [
+    "Strategic Planning",
+    "Leadership",
+    "Innovation"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Visionary leader who transformed their industry and influenced business practices"
 }

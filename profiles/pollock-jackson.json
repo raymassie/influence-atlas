@@ -25,30 +25,11 @@
   ],
   "communication_style": {
     "tone": "intense, emotional, raw, spontaneous, non-verbal",
-    "tone_parsed": [
-      "emotional",
-      "intense",
-      "non-verbal",
-      "raw",
-      "spontaneous"
-    ],
     "sentence_structure": "minimal, direct, emotionally charged",
-    "sentence_structure_parsed": [
-      "direct",
-      "emotionally charged",
-      "minimal"
-    ],
     "vocabulary_patterns": "artistic terminology, emotional expression, action painting concepts"
   },
   "behavioral_patterns": {
     "work_style": "spontaneous, intense, experimental, emotional, physically engaged",
-    "work_style_parsed": [
-      "emotional",
-      "experimental",
-      "intense",
-      "physically engaged",
-      "spontaneous"
-    ],
     "problem_solving_approach": "spontaneous creation, emotional expression, physical engagement"
   },
   "psychological_profile": {
@@ -91,52 +72,17 @@
   "bias_awareness": {
     "primary_biases": "Creative problem-solving with intuitive bias recognition",
     "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
-    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
-    "primary_biases_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ]
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "N/A",
-    "challenge_seeking_chips": [
-      "Seeks",
-      "Complex",
-      "Actively"
-    ]
+    "learning_orientation": "N/A"
   },
   "self_actualization_indicators": {
     "peak_experiences": "Creative self-expression and innovation",
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "peak_experiences_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -162,62 +108,24 @@
     }
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Design thinking with user empathy",
-    "creative_problem_solving_chips": [
-      "User",
-      "Design",
-      "Design"
-    ]
+    "creative_problem_solving": "Design thinking with user empathy"
   },
   "trait_constellations": {
-    "constellations": [
-      "communication_style",
-      "creative_expression",
-      "emotional_intelligence",
-      "innovation_drive",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "creative innovation",
-          "experimental"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "emotional",
-          "emotional release",
-          "emotionally charged"
-        ]
-      },
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "artistic expression",
-          "creative innovation"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "direct",
-          "non-verbal"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "intense",
-          "minimal",
-          "personal exploration",
-          "physically engaged",
-          "raw",
-          "spontaneous"
-        ]
-      }
+      "innovation_drive": {},
+      "emotional_intelligence": {},
+      "creative_expression": {},
+      "communication_style": {},
+      "intellectual_depth": {}
     }
-  }
+  },
+  "description": "American modern art professional known for abstract expressionist.",
+  "subcategory": "Art Professional",
+  "expertise_areas": [
+    "Visual Arts",
+    "Creative Expression",
+    "Aesthetic Design"
+  ],
+  "influence_scope": "Modern Influence",
+  "legacy": "Artist whose works continue to inspire and influence visual culture"
 }

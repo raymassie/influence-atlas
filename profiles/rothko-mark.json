@@ -25,30 +25,11 @@
   ],
   "communication_style": {
     "tone": "contemplative, spiritual, introspective, philosophical, emotional",
-    "tone_parsed": [
-      "contemplative",
-      "emotional",
-      "introspective",
-      "philosophical",
-      "spiritual"
-    ],
     "sentence_structure": "contemplative, philosophical, emotionally resonant",
-    "sentence_structure_parsed": [
-      "contemplative",
-      "emotionally resonant",
-      "philosophical"
-    ],
     "vocabulary_patterns": "spiritual concepts, color theory, emotional expression, philosophical terminology"
   },
   "behavioral_patterns": {
     "work_style": "contemplative, methodical, spiritual, introspective, emotionally engaged",
-    "work_style_parsed": [
-      "contemplative",
-      "emotionally engaged",
-      "introspective",
-      "methodical",
-      "spiritual"
-    ],
     "problem_solving_approach": "contemplative analysis, spiritual exploration, emotional expression"
   },
   "psychological_profile": {
@@ -121,39 +102,19 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "emotional_intelligence",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "contemplative",
-          "contemplative art",
-          "introspective",
-          "philosophical",
-          "philosophical exploration",
-          "spiritual",
-          "spiritual expression"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "methodical"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "emotional",
-          "emotional truth",
-          "emotionally engaged",
-          "emotionally resonant"
-        ]
-      }
+      "intellectual_depth": {},
+      "analytical_thinking": {},
+      "emotional_intelligence": {}
     }
-  }
+  },
+  "description": "American modern art professional known for color field painter.",
+  "subcategory": "Art Professional",
+  "expertise_areas": [
+    "Visual Arts",
+    "Creative Expression",
+    "Aesthetic Design"
+  ],
+  "influence_scope": "Modern Influence",
+  "legacy": "Artist whose works continue to inspire and influence visual culture"
 }

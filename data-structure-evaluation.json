@@ -1,0 +1,1021 @@
+{
+  "field_usage": {
+    "profile_id": 104,
+    "name": 265,
+    "archetype": 265,
+    "domain": 265,
+    "sub_domain": 265,
+    "category": 265,
+    "subcategory": 93,
+    "era": 132,
+    "nationality": 132,
+    "birth_year": 131,
+    "description": 93,
+    "notable_works": 127,
+    "psychological_profile.primary_traits": 265,
+    "psychological_profile.core_motivations": 265,
+    "psychological_profile.behavioral_patterns": 93,
+    "communication_style.tone": 256,
+    "communication_style.vocabulary_patterns": 265,
+    "communication_style.rhetorical_strategies": 93,
+    "values.core_values": 256,
+    "values.professional_principles": 93,
+    "collaboration_style.approach": 93,
+    "collaboration_style.preferences": 93,
+    "collaboration_style.conflict_resolution": 93,
+    "expertise_areas": 93,
+    "influence_scope": 93,
+    "legacy": 84,
+    "unique_identifiers.signature_methodologies": 145,
+    "unique_identifiers.contrarian_beliefs": 75,
+    "unique_identifiers.pet_peeves": 75,
+    "unique_identifiers.aspirational_references": 75,
+    "unique_identifiers.distinctive_quirks": 75,
+    "bias_awareness.primary_biases": 265,
+    "bias_awareness.bias_mitigation_strategies": 265,
+    "bias_awareness.decision_making_style": 265,
+    "bias_awareness.primary_biases_chips": 191,
+    "bias_awareness.bias_mitigation_strategies_chips": 201,
+    "bias_awareness.decision_making_style_chips": 212,
+    "growth_motivation.intrinsic_drivers": 265,
+    "growth_motivation.challenge_seeking": 265,
+    "growth_motivation.learning_orientation": 265,
+    "growth_motivation.learning_orientation_chips": 123,
+    "self_actualization_indicators.peak_experiences": 265,
+    "self_actualization_indicators.autonomy_expression": 265,
+    "self_actualization_indicators.purpose_alignment": 265,
+    "behavioral_growth.adaptation_patterns": 265,
+    "behavioral_growth.resilience_indicators": 265,
+    "behavioral_growth.feedback_integration": 265,
+    "cognitive_humanism.empathy_expression": 265,
+    "cognitive_humanism.ethical_framework": 265,
+    "cognitive_humanism.human_centered_thinking": 265,
+    "cognitive_humanism.human_centered_thinking_chips": 117,
+    "background_context.wikipedia_enrichment.inferred_occupations": 257,
+    "background_context.wikipedia_enrichment.education_indicators": 109,
+    "background_context.wikipedia_enrichment.achievement_indicators": 134,
+    "background_context.wikipedia_enrichment.influence_indicators": 113,
+    "trait_constellations.constellations": 265,
+    "trait_constellations.constellation_details.intellectual_depth.name": 249,
+    "trait_constellations.constellation_details.intellectual_depth.traits": 249,
+    "trait_constellations.constellation_details.practical_execution.name": 56,
+    "trait_constellations.constellation_details.practical_execution.traits": 56,
+    "psychological_profile.cognitive_style": 50,
+    "psychological_profile.decision_making_framework": 55,
+    "psychological_profile.stress_responses": 55,
+    "psychological_profile.blind_spots": 55,
+    "communication_style.sentence_structure": 111,
+    "communication_style.persuasion_methods": 50,
+    "communication_style.content_preferences": 50,
+    "communication_style.typical_phrases": 50,
+    "domain_expertise.core_competencies": 172,
+    "domain_expertise.tools_and_platforms": 50,
+    "domain_expertise.mental_models": 50,
+    "domain_expertise.reference_frameworks": 50,
+    "domain_expertise.industry_knowledge": 50,
+    "background_context.experience_level": 111,
+    "background_context.typical_career_path": 50,
+    "background_context.company_stage_preference": 50,
+    "background_context.success_metrics": 50,
+    "background_context.pain_points": 50,
+    "behavioral_patterns.work_style": 163,
+    "behavioral_patterns.problem_solving_approach": 163,
+    "behavioral_patterns.learning_preferences": 50,
+    "behavioral_patterns.networking_style": 50,
+    "behavioral_patterns.content_consumption": 50,
+    "temporal_context.career_evolution": 163,
+    "temporal_context.influence_timeline": 163,
+    "temporal_context.legacy_impact": 163,
+    "collaboration.leadership_style": 111,
+    "collaboration.team_dynamics": 163,
+    "collaboration.mentorship_approach": 111,
+    "collaboration.conflict_resolution": 163,
+    "cultural_context.cultural_background": 163,
+    "cultural_context.geographic_influence": 50,
+    "cultural_context.generational_perspective": 50,
+    "practical_application.decision_speed": 163,
+    "practical_application.risk_tolerance": 107,
+    "practical_application.innovation_vs_optimization": 50,
+    "practical_application.scale_preferences": 50,
+    "communication.audience_adaptation": 163,
+    "communication.media_preferences": 50,
+    "communication.influence_strategies": 50,
+    "learning.learning_style": 163,
+    "learning.adaptation_speed": 50,
+    "learning.failure_response": 50,
+    "values.ethical_framework": 55,
+    "values.social_responsibility": 50,
+    "growth_motivation.challenge_seeking_chips": 93,
+    "self_actualization_indicators.peak_experiences_chips": 78,
+    "self_actualization_indicators.autonomy_expression_chips": 101,
+    "self_actualization_indicators.purpose_alignment_chips": 101,
+    "cognitive_humanism.empathy_expression_chips": 47,
+    "humanistic_cognition.creative_problem_solving": 89,
+    "humanistic_cognition.holistic_perspective": 39,
+    "humanistic_cognition.creative_problem_solving_chips": 88,
+    "humanistic_cognition.holistic_perspective_chips": 38,
+    "trait_constellations.constellation_details.creative_expression.name": 71,
+    "trait_constellations.constellation_details.creative_expression.traits": 71,
+    "death_year": 90,
+    "trait_constellations.constellation_details.analytical_thinking.name": 116,
+    "trait_constellations.constellation_details.analytical_thinking.traits": 116,
+    "trait_constellations.constellation_details.emotional_intelligence.name": 108,
+    "trait_constellations.constellation_details.emotional_intelligence.traits": 108,
+    "cognitive_humanism.ethical_framework_chips": 93,
+    "trait_constellations.constellation_details.impact_legacy.name": 39,
+    "trait_constellations.constellation_details.impact_legacy.traits": 39,
+    "trait_constellations.constellation_details.values_ethics.name": 33,
+    "trait_constellations.constellation_details.values_ethics.traits": 33,
+    "background_context.career_stage": 61,
+    "background_context.educational_background": 52,
+    "communication_style.formality_level": 52,
+    "communication_style.audience_adaptation": 52,
+    "behavioral_patterns.decision_making": 52,
+    "psychological_profile.learning_style": 52,
+    "domain_expertise.specialized_knowledge": 61,
+    "collaboration.leadership_approach": 52,
+    "cultural_context.societal_influence": 52,
+    "practical_application.adaptability": 52,
+    "learning.knowledge_sharing": 52,
+    "communication.persuasion_techniques": 52,
+    "values.ethical_principles": 52,
+    "humanistic_cognition.collaborative_intelligence": 10,
+    "humanistic_cognition.collaborative_intelligence_chips": 9,
+    "human_needs_hierarchy.belonging_expression": 11,
+    "human_needs_hierarchy.belonging_expression_chips": 10,
+    "trait_constellations.constellation_details.innovation_drive.name": 85,
+    "trait_constellations.constellation_details.innovation_drive.traits": 85,
+    "trait_constellations.constellation_details.growth_learning.name": 64,
+    "trait_constellations.constellation_details.growth_learning.traits": 64,
+    "trait_constellations.constellation_details.leadership_approach.name": 51,
+    "trait_constellations.constellation_details.leadership_approach.traits": 51,
+    "growth_motivation.intrinsic_drivers_chips": 9,
+    "behavioral_growth.adaptation_patterns_chips": 9,
+    "behavioral_growth.resilience_indicators_chips": 12,
+    "behavioral_growth.feedback_integration_chips": 21,
+    "background_context.notable_achievements": 9,
+    "psychological_profile.decision_making_style": 9,
+    "communication_style.tone_parsed": 65,
+    "communication_style.sentence_structure_parsed": 43,
+    "behavioral_patterns.work_style_parsed": 65,
+    "behavioral_patterns.problem_solving_approach_parsed": 9,
+    "collaboration.leadership_style_parsed": 9,
+    "collaboration.team_dynamics_parsed": 9,
+    "collaboration.mentorship_approach_parsed": 9,
+    "collaboration.conflict_resolution_parsed": 9,
+    "unique_identifiers.distinctive_approaches": 14,
+    "temporal_context.career_evolution_parsed": 9,
+    "temporal_context.influence_timeline_parsed": 9,
+    "temporal_context.legacy_impact_parsed": 9,
+    "cultural_context.cultural_background_parsed": 9,
+    "practical_application.decision_speed_parsed": 9,
+    "learning.learning_style_parsed": 9,
+    "communication.audience_adaptation_parsed": 9,
+    "values.core_values_parsed": 9,
+    "trait_constellations.constellation_details.collaboration_mode.name": 29,
+    "trait_constellations.constellation_details.collaboration_mode.traits": 29,
+    "trait_constellations.constellation_details.communication_style.name": 50,
+    "trait_constellations.constellation_details.communication_style.traits": 50,
+    "human_needs_hierarchy.physiological_focus": 1,
+    "human_needs_hierarchy.safety_concerns": 1,
+    "human_needs_hierarchy.esteem_sources": 3,
+    "human_needs_hierarchy.self_actualization_pursuit": 1,
+    "human_needs_hierarchy.esteem_sources_chips": 2,
+    "gender": 34,
+    "occupation": 34,
+    "education": 34,
+    "key_achievements": 34,
+    "primary_occupation": 5,
+    "notable_achievements": 5,
+    "communication_style.rhetorical_devices": 5,
+    "domain_expertise.methodologies": 5,
+    "domain_expertise.tools_techniques": 5,
+    "cultural_context.influences": 5,
+    "practical_application.scaling_approach": 5,
+    "learning.knowledge_sources": 5,
+    "communication.message_clarity": 5
+  },
+  "field_value_types": {
+    "profile_id": [
+      "string"
+    ],
+    "name": [
+      "string"
+    ],
+    "archetype": [
+      "string"
+    ],
+    "domain": [
+      "string"
+    ],
+    "sub_domain": [
+      "string"
+    ],
+    "category": [
+      "string"
+    ],
+    "subcategory": [
+      "string"
+    ],
+    "era": [
+      "string"
+    ],
+    "nationality": [
+      "string"
+    ],
+    "birth_year": [
+      "int"
+    ],
+    "description": [
+      "string"
+    ],
+    "notable_works": [
+      "list_of_strings"
+    ],
+    "psychological_profile.primary_traits": [
+      "list_of_strings",
+      "string"
+    ],
+    "psychological_profile.core_motivations": [
+      "list_of_strings",
+      "string"
+    ],
+    "psychological_profile.behavioral_patterns": [
+      "list_of_strings"
+    ],
+    "communication_style.tone": [
+      "list_of_strings",
+      "string"
+    ],
+    "communication_style.vocabulary_patterns": [
+      "list_of_strings",
+      "string"
+    ],
+    "communication_style.rhetorical_strategies": [
+      "list_of_strings"
+    ],
+    "values.core_values": [
+      "list_of_strings",
+      "string"
+    ],
+    "values.professional_principles": [
+      "list_of_strings"
+    ],
+    "collaboration_style.approach": [
+      "list_of_strings"
+    ],
+    "collaboration_style.preferences": [
+      "list_of_strings"
+    ],
+    "collaboration_style.conflict_resolution": [
+      "list_of_strings"
+    ],
+    "expertise_areas": [
+      "list_of_strings"
+    ],
+    "influence_scope": [
+      "string"
+    ],
+    "legacy": [
+      "string"
+    ],
+    "unique_identifiers.signature_methodologies": [
+      "list_of_strings",
+      "string"
+    ],
+    "unique_identifiers.contrarian_beliefs": [
+      "list_of_strings",
+      "string"
+    ],
+    "unique_identifiers.pet_peeves": [
+      "list_of_strings",
+      "string"
+    ],
+    "unique_identifiers.aspirational_references": [
+      "list_of_strings",
+      "string"
+    ],
+    "unique_identifiers.distinctive_quirks": [
+      "list_of_strings",
+      "string"
+    ],
+    "bias_awareness.primary_biases": [
+      "list_of_strings",
+      "string"
+    ],
+    "bias_awareness.bias_mitigation_strategies": [
+      "list_of_strings",
+      "string"
+    ],
+    "bias_awareness.decision_making_style": [
+      "string"
+    ],
+    "bias_awareness.primary_biases_chips": [
+      "list_of_strings"
+    ],
+    "bias_awareness.bias_mitigation_strategies_chips": [
+      "list_of_strings"
+    ],
+    "bias_awareness.decision_making_style_chips": [
+      "list_of_strings"
+    ],
+    "growth_motivation.learning_orientation": [
+      "string"
+    ],
+    "growth_motivation.learning_orientation_chips": [
+      "list_of_strings"
+    ],
+    "cognitive_humanism.human_centered_thinking": [
+      "string"
+    ],
+    "cognitive_humanism.human_centered_thinking_chips": [
+      "list_of_strings"
+    ],
+    "background_context.wikipedia_enrichment.inferred_occupations": [
+      "list_of_strings"
+    ],
+    "background_context.wikipedia_enrichment.education_indicators": [
+      "list_of_strings"
+    ],
+    "background_context.wikipedia_enrichment.achievement_indicators": [
+      "list_of_strings"
+    ],
+    "background_context.wikipedia_enrichment.influence_indicators": [
+      "list_of_strings"
+    ],
+    "trait_constellations.constellations": [
+      "list_of_strings"
+    ],
+    "trait_constellations.constellation_details.intellectual_depth.name": [
+      "string"
+    ],
+    "trait_constellations.constellation_details.intellectual_depth.traits": [
+      "list_of_strings"
+    ],
+    "trait_constellations.constellation_details.practical_execution.name": [
+      "string"
+    ],
+    "trait_constellations.constellation_details.practical_execution.traits": [
+      "list_of_strings"
+    ],
+    "psychological_profile.cognitive_style": [
+      "string"
+    ],
+    "psychological_profile.decision_making_framework": [
+      "string"
+    ],
+    "psychological_profile.stress_responses": [
+      "list_of_strings",
+      "string"
+    ],
+    "psychological_profile.blind_spots": [
+      "list_of_strings",
+      "string"
+    ],
+    "communication_style.sentence_structure": [
+      "string"
+    ],
+    "communication_style.persuasion_methods": [
+      "list_of_strings",
+      "string"
+    ],
+    "communication_style.content_preferences": [
+      "string"
+    ],
+    "communication_style.typical_phrases": [
+      "list_of_strings",
+      "string"
+    ],
+    "domain_expertise.core_competencies": [
+      "list_of_strings",
+      "string"
+    ],
+    "domain_expertise.tools_and_platforms": [
+      "list_of_strings",
+      "string"
+    ],
+    "domain_expertise.mental_models": [
+      "list_of_strings",
+      "string"
+    ],
+    "domain_expertise.reference_frameworks": [
+      "list_of_strings",
+      "string"
+    ],
+    "domain_expertise.industry_knowledge": [
+      "list_of_strings",
+      "string"
+    ],
+    "background_context.experience_level": [
+      "string"
+    ],
+    "background_context.typical_career_path": [
+      "string"
+    ],
+    "background_context.company_stage_preference": [
+      "string"
+    ],
+    "background_context.success_metrics": [
+      "list_of_strings",
+      "string"
+    ],
+    "background_context.pain_points": [
+      "list_of_strings",
+      "string"
+    ],
+    "behavioral_patterns.work_style": [
+      "string"
+    ],
+    "behavioral_patterns.problem_solving_approach": [
+      "string"
+    ],
+    "behavioral_patterns.learning_preferences": [
+      "string"
+    ],
+    "behavioral_patterns.networking_style": [
+      "string"
+    ],
+    "behavioral_patterns.content_consumption": [
+      "string"
+    ],
+    "temporal_context.career_evolution": [
+      "string"
+    ],
+    "temporal_context.influence_timeline": [
+      "string"
+    ],
+    "temporal_context.legacy_impact": [
+      "string"
+    ],
+    "collaboration.leadership_style": [
+      "string"
+    ],
+    "collaboration.team_dynamics": [
+      "string"
+    ],
+    "collaboration.mentorship_approach": [
+      "string"
+    ],
+    "collaboration.conflict_resolution": [
+      "string"
+    ],
+    "cultural_context.cultural_background": [
+      "string"
+    ],
+    "cultural_context.geographic_influence": [
+      "string"
+    ],
+    "cultural_context.generational_perspective": [
+      "string"
+    ],
+    "practical_application.decision_speed": [
+      "string"
+    ],
+    "practical_application.risk_tolerance": [
+      "string"
+    ],
+    "practical_application.innovation_vs_optimization": [
+      "string"
+    ],
+    "practical_application.scale_preferences": [
+      "string"
+    ],
+    "communication.audience_adaptation": [
+      "string"
+    ],
+    "communication.media_preferences": [
+      "string"
+    ],
+    "communication.influence_strategies": [
+      "string"
+    ],
+    "learning.learning_style": [
+      "string"
+    ],
+    "learning.adaptation_speed": [
+      "string"
+    ],
+    "learning.failure_response": [
+      "string"
+    ],
+    "values.ethical_framework": [
+      "string"
+    ],
+    "values.social_responsibility": [
+      "string"
+    ],
+    "growth_motivation.intrinsic_drivers": [
+      "list_of_strings",
+      "string"
+    ],
+    "growth_motivation.challenge_seeking": [
+      "string"
+    ],
+    "growth_motivation.challenge_seeking_chips": [
+      "list_of_strings"
+    ],
+    "self_actualization_indicators.peak_experiences": [
+      "list_of_strings",
+      "string"
+    ],
+    "self_actualization_indicators.autonomy_expression": [
+      "string"
+    ],
+    "self_actualization_indicators.purpose_alignment": [
+      "string"
+    ],
+    "self_actualization_indicators.peak_experiences_chips": [
+      "list_of_strings"
+    ],
+    "self_actualization_indicators.autonomy_expression_chips": [
+      "list_of_strings"
+    ],
+    "self_actualization_indicators.purpose_alignment_chips": [
+      "list_of_strings"
+    ],
+    "behavioral_growth.adaptation_patterns": [
+      "list_of_strings",
+      "string"
+    ],
+    "behavioral_growth.resilience_indicators": [
+      "string"
+    ],
+    "behavioral_growth.feedback_integration": [
+      "string"
+    ],
+    "cognitive_humanism.empathy_expression": [
+      "string"
+    ],
+    "cognitive_humanism.empathy_expression_chips": [
+      "list_of_strings"
+    ],
+    "humanistic_cognition.creative_problem_solving": [
+      "string"
+    ],
+    "humanistic_cognition.holistic_perspective": [
+      "string"
+    ],
+    "humanistic_cognition.creative_problem_solving_chips": [
+      "list_of_strings"
+    ],
+    "humanistic_cognition.holistic_perspective_chips": [
+      "list_of_strings"
+    ],
+    "trait_constellations.constellation_details.creative_expression.name": [
+      "string"
+    ],
+    "trait_constellations.constellation_details.creative_expression.traits": [
+      "list_of_strings"
+    ],
+    "death_year": [
+      "int"
+    ],
+    "trait_constellations.constellation_details.analytical_thinking.name": [
+      "string"
+    ],
+    "trait_constellations.constellation_details.analytical_thinking.traits": [
+      "list_of_strings"
+    ],
+    "trait_constellations.constellation_details.emotional_intelligence.name": [
+      "string"
+    ],
+    "trait_constellations.constellation_details.emotional_intelligence.traits": [
+      "list_of_strings"
+    ],
+    "cognitive_humanism.ethical_framework": [
+      "string"
+    ],
+    "cognitive_humanism.ethical_framework_chips": [
+      "list_of_strings"
+    ],
+    "trait_constellations.constellation_details.impact_legacy.name": [
+      "string"
+    ],
+    "trait_constellations.constellation_details.impact_legacy.traits": [
+      "list_of_strings"
+    ],
+    "trait_constellations.constellation_details.values_ethics.name": [
+      "string"
+    ],
+    "trait_constellations.constellation_details.values_ethics.traits": [
+      "list_of_strings"
+    ],
+    "background_context.career_stage": [
+      "string"
+    ],
+    "background_context.educational_background": [
+      "string"
+    ],
+    "communication_style.formality_level": [
+      "string"
+    ],
+    "communication_style.audience_adaptation": [
+      "string"
+    ],
+    "behavioral_patterns.decision_making": [
+      "string"
+    ],
+    "psychological_profile.learning_style": [
+      "string"
+    ],
+    "domain_expertise.specialized_knowledge": [
+      "list_of_strings",
+      "string"
+    ],
+    "collaboration.leadership_approach": [
+      "string"
+    ],
+    "cultural_context.societal_influence": [
+      "string"
+    ],
+    "practical_application.adaptability": [
+      "string"
+    ],
+    "learning.knowledge_sharing": [
+      "string"
+    ],
+    "communication.persuasion_techniques": [
+      "string"
+    ],
+    "values.ethical_principles": [
+      "string"
+    ],
+    "humanistic_cognition.collaborative_intelligence": [
+      "string"
+    ],
+    "humanistic_cognition.collaborative_intelligence_chips": [
+      "list_of_strings"
+    ],
+    "human_needs_hierarchy.belonging_expression": [
+      "string"
+    ],
+    "human_needs_hierarchy.belonging_expression_chips": [
+      "list_of_strings"
+    ],
+    "trait_constellations.constellation_details.innovation_drive.name": [
+      "string"
+    ],
+    "trait_constellations.constellation_details.innovation_drive.traits": [
+      "list_of_strings"
+    ],
+    "trait_constellations.constellation_details.growth_learning.name": [
+      "string"
+    ],
+    "trait_constellations.constellation_details.growth_learning.traits": [
+      "list_of_strings"
+    ],
+    "trait_constellations.constellation_details.leadership_approach.name": [
+      "string"
+    ],
+    "trait_constellations.constellation_details.leadership_approach.traits": [
+      "list_of_strings"
+    ],
+    "growth_motivation.intrinsic_drivers_chips": [
+      "list_of_strings"
+    ],
+    "behavioral_growth.adaptation_patterns_chips": [
+      "list_of_strings"
+    ],
+    "behavioral_growth.resilience_indicators_chips": [
+      "list_of_strings"
+    ],
+    "behavioral_growth.feedback_integration_chips": [
+      "list_of_strings"
+    ],
+    "background_context.notable_achievements": [
+      "list_of_strings"
+    ],
+    "psychological_profile.decision_making_style": [
+      "string"
+    ],
+    "communication_style.tone_parsed": [
+      "list_of_strings"
+    ],
+    "communication_style.sentence_structure_parsed": [
+      "list_of_strings"
+    ],
+    "behavioral_patterns.work_style_parsed": [
+      "list_of_strings"
+    ],
+    "behavioral_patterns.problem_solving_approach_parsed": [
+      "list_of_strings"
+    ],
+    "collaboration.leadership_style_parsed": [
+      "list_of_strings"
+    ],
+    "collaboration.team_dynamics_parsed": [
+      "list_of_strings"
+    ],
+    "collaboration.mentorship_approach_parsed": [
+      "list_of_strings"
+    ],
+    "collaboration.conflict_resolution_parsed": [
+      "list_of_strings"
+    ],
+    "unique_identifiers.distinctive_approaches": [
+      "list_of_strings"
+    ],
+    "temporal_context.career_evolution_parsed": [
+      "list_of_strings"
+    ],
+    "temporal_context.influence_timeline_parsed": [
+      "list_of_strings"
+    ],
+    "temporal_context.legacy_impact_parsed": [
+      "list_of_strings"
+    ],
+    "cultural_context.cultural_background_parsed": [
+      "list_of_strings"
+    ],
+    "practical_application.decision_speed_parsed": [
+      "list_of_strings"
+    ],
+    "learning.learning_style_parsed": [
+      "list_of_strings"
+    ],
+    "communication.audience_adaptation_parsed": [
+      "list_of_strings"
+    ],
+    "values.core_values_parsed": [
+      "list_of_strings"
+    ],
+    "trait_constellations.constellation_details.collaboration_mode.name": [
+      "string"
+    ],
+    "trait_constellations.constellation_details.collaboration_mode.traits": [
+      "list_of_strings"
+    ],
+    "trait_constellations.constellation_details.communication_style.name": [
+      "string"
+    ],
+    "trait_constellations.constellation_details.communication_style.traits": [
+      "list_of_strings"
+    ],
+    "human_needs_hierarchy.esteem_sources": [
+      "string"
+    ],
+    "human_needs_hierarchy.esteem_sources_chips": [
+      "list_of_strings"
+    ],
+    "gender": [
+      "string"
+    ],
+    "occupation": [
+      "string"
+    ],
+    "education": [
+      "string"
+    ],
+    "key_achievements": [
+      "list_of_strings"
+    ],
+    "primary_occupation": [
+      "string"
+    ],
+    "notable_achievements": [
+      "list_of_strings"
+    ],
+    "communication_style.rhetorical_devices": [
+      "list_of_strings"
+    ],
+    "domain_expertise.methodologies": [
+      "list_of_strings"
+    ],
+    "domain_expertise.tools_techniques": [
+      "list_of_strings"
+    ],
+    "cultural_context.influences": [
+      "list_of_strings"
+    ],
+    "practical_application.scaling_approach": [
+      "string"
+    ],
+    "learning.knowledge_sources": [
+      "list_of_strings"
+    ],
+    "communication.message_clarity": [
+      "string"
+    ]
+  },
+  "empty_fields": {
+    "growth_motivation.intrinsic_drivers": 183,
+    "growth_motivation.challenge_seeking": 142,
+    "self_actualization_indicators.peak_experiences": 164,
+    "self_actualization_indicators.autonomy_expression": 164,
+    "self_actualization_indicators.purpose_alignment": 164,
+    "behavioral_growth.adaptation_patterns": 118,
+    "behavioral_growth.resilience_indicators": 206,
+    "behavioral_growth.feedback_integration": 197,
+    "cognitive_humanism.empathy_expression": 218,
+    "cognitive_humanism.ethical_framework": 172,
+    "growth_motivation.learning_orientation": 115,
+    "cognitive_humanism.human_centered_thinking": 148,
+    "bias_awareness.primary_biases": 54,
+    "bias_awareness.bias_mitigation_strategies": 54,
+    "bias_awareness.decision_making_style": 53,
+    "human_needs_hierarchy.physiological_focus": 1,
+    "human_needs_hierarchy.safety_concerns": 1,
+    "human_needs_hierarchy.belonging_expression": 1,
+    "human_needs_hierarchy.esteem_sources": 1,
+    "human_needs_hierarchy.self_actualization_pursuit": 1,
+    "humanistic_cognition.holistic_perspective": 1,
+    "humanistic_cognition.creative_problem_solving": 1,
+    "humanistic_cognition.collaborative_intelligence": 1,
+    "profile_id": 3
+  },
+  "valuable_fields": {
+    "profile_id": 101,
+    "name": 265,
+    "archetype": 265,
+    "domain": 265,
+    "sub_domain": 265,
+    "category": 265,
+    "subcategory": 93,
+    "era": 132,
+    "nationality": 132,
+    "birth_year": 131,
+    "description": 93,
+    "notable_works": 127,
+    "psychological_profile.primary_traits": 265,
+    "psychological_profile.core_motivations": 265,
+    "psychological_profile.behavioral_patterns": 93,
+    "communication_style.tone": 256,
+    "communication_style.vocabulary_patterns": 265,
+    "communication_style.rhetorical_strategies": 93,
+    "values.core_values": 256,
+    "values.professional_principles": 93,
+    "collaboration_style.approach": 93,
+    "collaboration_style.preferences": 93,
+    "collaboration_style.conflict_resolution": 93,
+    "expertise_areas": 93,
+    "influence_scope": 93,
+    "legacy": 84,
+    "unique_identifiers.signature_methodologies": 145,
+    "unique_identifiers.contrarian_beliefs": 75,
+    "unique_identifiers.pet_peeves": 75,
+    "unique_identifiers.aspirational_references": 75,
+    "unique_identifiers.distinctive_quirks": 75,
+    "bias_awareness.primary_biases": 211,
+    "bias_awareness.bias_mitigation_strategies": 211,
+    "bias_awareness.decision_making_style": 212,
+    "bias_awareness.primary_biases_chips": 191,
+    "bias_awareness.bias_mitigation_strategies_chips": 201,
+    "bias_awareness.decision_making_style_chips": 212,
+    "growth_motivation.learning_orientation": 150,
+    "growth_motivation.learning_orientation_chips": 123,
+    "cognitive_humanism.human_centered_thinking": 117,
+    "cognitive_humanism.human_centered_thinking_chips": 117,
+    "background_context.wikipedia_enrichment.inferred_occupations": 257,
+    "background_context.wikipedia_enrichment.education_indicators": 109,
+    "background_context.wikipedia_enrichment.achievement_indicators": 134,
+    "background_context.wikipedia_enrichment.influence_indicators": 113,
+    "trait_constellations.constellations": 265,
+    "trait_constellations.constellation_details.intellectual_depth.name": 249,
+    "trait_constellations.constellation_details.intellectual_depth.traits": 249,
+    "trait_constellations.constellation_details.practical_execution.name": 56,
+    "trait_constellations.constellation_details.practical_execution.traits": 56,
+    "psychological_profile.cognitive_style": 50,
+    "psychological_profile.decision_making_framework": 55,
+    "psychological_profile.stress_responses": 55,
+    "psychological_profile.blind_spots": 55,
+    "communication_style.sentence_structure": 111,
+    "communication_style.persuasion_methods": 50,
+    "communication_style.content_preferences": 50,
+    "communication_style.typical_phrases": 50,
+    "domain_expertise.core_competencies": 172,
+    "domain_expertise.tools_and_platforms": 50,
+    "domain_expertise.mental_models": 50,
+    "domain_expertise.reference_frameworks": 50,
+    "domain_expertise.industry_knowledge": 50,
+    "background_context.experience_level": 111,
+    "background_context.typical_career_path": 50,
+    "background_context.company_stage_preference": 50,
+    "background_context.success_metrics": 50,
+    "background_context.pain_points": 50,
+    "behavioral_patterns.work_style": 163,
+    "behavioral_patterns.problem_solving_approach": 163,
+    "behavioral_patterns.learning_preferences": 50,
+    "behavioral_patterns.networking_style": 50,
+    "behavioral_patterns.content_consumption": 50,
+    "temporal_context.career_evolution": 163,
+    "temporal_context.influence_timeline": 163,
+    "temporal_context.legacy_impact": 163,
+    "collaboration.leadership_style": 111,
+    "collaboration.team_dynamics": 163,
+    "collaboration.mentorship_approach": 111,
+    "collaboration.conflict_resolution": 163,
+    "cultural_context.cultural_background": 163,
+    "cultural_context.geographic_influence": 50,
+    "cultural_context.generational_perspective": 50,
+    "practical_application.decision_speed": 163,
+    "practical_application.risk_tolerance": 107,
+    "practical_application.innovation_vs_optimization": 50,
+    "practical_application.scale_preferences": 50,
+    "communication.audience_adaptation": 163,
+    "communication.media_preferences": 50,
+    "communication.influence_strategies": 50,
+    "learning.learning_style": 163,
+    "learning.adaptation_speed": 50,
+    "learning.failure_response": 50,
+    "values.ethical_framework": 55,
+    "values.social_responsibility": 50,
+    "growth_motivation.intrinsic_drivers": 82,
+    "growth_motivation.challenge_seeking": 123,
+    "growth_motivation.challenge_seeking_chips": 93,
+    "self_actualization_indicators.peak_experiences": 101,
+    "self_actualization_indicators.autonomy_expression": 101,
+    "self_actualization_indicators.purpose_alignment": 101,
+    "self_actualization_indicators.peak_experiences_chips": 78,
+    "self_actualization_indicators.autonomy_expression_chips": 101,
+    "self_actualization_indicators.purpose_alignment_chips": 101,
+    "behavioral_growth.adaptation_patterns": 147,
+    "behavioral_growth.resilience_indicators": 59,
+    "behavioral_growth.feedback_integration": 68,
+    "cognitive_humanism.empathy_expression": 47,
+    "cognitive_humanism.empathy_expression_chips": 47,
+    "humanistic_cognition.creative_problem_solving": 88,
+    "humanistic_cognition.holistic_perspective": 38,
+    "humanistic_cognition.creative_problem_solving_chips": 88,
+    "humanistic_cognition.holistic_perspective_chips": 38,
+    "trait_constellations.constellation_details.creative_expression.name": 71,
+    "trait_constellations.constellation_details.creative_expression.traits": 71,
+    "death_year": 90,
+    "trait_constellations.constellation_details.analytical_thinking.name": 116,
+    "trait_constellations.constellation_details.analytical_thinking.traits": 116,
+    "trait_constellations.constellation_details.emotional_intelligence.name": 108,
+    "trait_constellations.constellation_details.emotional_intelligence.traits": 108,
+    "cognitive_humanism.ethical_framework": 93,
+    "cognitive_humanism.ethical_framework_chips": 93,
+    "trait_constellations.constellation_details.impact_legacy.name": 39,
+    "trait_constellations.constellation_details.impact_legacy.traits": 39,
+    "trait_constellations.constellation_details.values_ethics.name": 33,
+    "trait_constellations.constellation_details.values_ethics.traits": 33,
+    "background_context.career_stage": 61,
+    "background_context.educational_background": 52,
+    "communication_style.formality_level": 52,
+    "communication_style.audience_adaptation": 52,
+    "behavioral_patterns.decision_making": 52,
+    "psychological_profile.learning_style": 52,
+    "domain_expertise.specialized_knowledge": 61,
+    "collaboration.leadership_approach": 52,
+    "cultural_context.societal_influence": 52,
+    "practical_application.adaptability": 52,
+    "learning.knowledge_sharing": 52,
+    "communication.persuasion_techniques": 52,
+    "values.ethical_principles": 52,
+    "humanistic_cognition.collaborative_intelligence": 9,
+    "humanistic_cognition.collaborative_intelligence_chips": 9,
+    "human_needs_hierarchy.belonging_expression": 10,
+    "human_needs_hierarchy.belonging_expression_chips": 10,
+    "trait_constellations.constellation_details.innovation_drive.name": 85,
+    "trait_constellations.constellation_details.innovation_drive.traits": 85,
+    "trait_constellations.constellation_details.growth_learning.name": 64,
+    "trait_constellations.constellation_details.growth_learning.traits": 64,
+    "trait_constellations.constellation_details.leadership_approach.name": 51,
+    "trait_constellations.constellation_details.leadership_approach.traits": 51,
+    "growth_motivation.intrinsic_drivers_chips": 9,
+    "behavioral_growth.adaptation_patterns_chips": 9,
+    "behavioral_growth.resilience_indicators_chips": 12,
+    "behavioral_growth.feedback_integration_chips": 21,
+    "background_context.notable_achievements": 9,
+    "psychological_profile.decision_making_style": 9,
+    "communication_style.tone_parsed": 65,
+    "communication_style.sentence_structure_parsed": 43,
+    "behavioral_patterns.work_style_parsed": 65,
+    "behavioral_patterns.problem_solving_approach_parsed": 9,
+    "collaboration.leadership_style_parsed": 9,
+    "collaboration.team_dynamics_parsed": 9,
+    "collaboration.mentorship_approach_parsed": 9,
+    "collaboration.conflict_resolution_parsed": 9,
+    "unique_identifiers.distinctive_approaches": 14,
+    "temporal_context.career_evolution_parsed": 9,
+    "temporal_context.influence_timeline_parsed": 9,
+    "temporal_context.legacy_impact_parsed": 9,
+    "cultural_context.cultural_background_parsed": 9,
+    "practical_application.decision_speed_parsed": 9,
+    "learning.learning_style_parsed": 9,
+    "communication.audience_adaptation_parsed": 9,
+    "values.core_values_parsed": 9,
+    "trait_constellations.constellation_details.collaboration_mode.name": 29,
+    "trait_constellations.constellation_details.collaboration_mode.traits": 29,
+    "trait_constellations.constellation_details.communication_style.name": 50,
+    "trait_constellations.constellation_details.communication_style.traits": 50,
+    "human_needs_hierarchy.esteem_sources": 2,
+    "human_needs_hierarchy.esteem_sources_chips": 2,
+    "gender": 34,
+    "occupation": 34,
+    "education": 34,
+    "key_achievements": 34,
+    "primary_occupation": 5,
+    "notable_achievements": 5,
+    "communication_style.rhetorical_devices": 5,
+    "domain_expertise.methodologies": 5,
+    "domain_expertise.tools_techniques": 5,
+    "cultural_context.influences": 5,
+    "practical_application.scaling_approach": 5,
+    "learning.knowledge_sources": 5,
+    "communication.message_clarity": 5
+  },
+  "redundant_fields": {},
+  "missing_concepts": []
+}

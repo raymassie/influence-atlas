@@ -216,40 +216,25 @@
   "cognitive_humanism": {
     "empathy_expression": "High emotional intelligence in team leadership",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "N/A",
-    "empathy_expression_chips": [
-      "Team",
-      "Emotional",
-      "Leadership"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "creative_expression",
-      "impact_legacy",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "social change through design"
-        ]
-      },
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "designer as content provider",
-          "social change through design"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "challenging cultural assumptions",
-          "content over style"
-        ]
-      }
+      "impact_legacy": {},
+      "creative_expression": {},
+      "intellectual_depth": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Design professional known for socially conscious design provocateur & content-first visual communicator.",
+  "subcategory": "Design Professional",
+  "expertise_areas": [
+    "Design"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

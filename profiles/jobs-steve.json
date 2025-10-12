@@ -199,12 +199,7 @@
   "growth_motivation": {
     "intrinsic_drivers": "Continuous learning and development focus",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Continuous learning and development focus",
-    "challenge_seeking_chips": [
-      "Seeks",
-      "Complex",
-      "Actively"
-    ]
+    "learning_orientation": "Continuous learning and development focus"
   },
   "self_actualization_indicators": {
     "peak_experiences": "N/A",
@@ -221,37 +216,24 @@
   "cognitive_humanism": {
     "empathy_expression": "High emotional intelligence in team leadership",
     "ethical_framework": "Values-driven ethical decision making",
-    "human_centered_thinking": "N/A",
-    "empathy_expression_chips": [
-      "Team",
-      "Emotional",
-      "Leadership"
-    ],
-    "ethical_framework_chips": [
-      "Values",
-      "Values",
-      "Ethical"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "creative_expression",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "artistic expression through technology"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "changing the world",
-          "creating perfect products"
-        ]
-      }
+      "creative_expression": {},
+      "intellectual_depth": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Entrepreneurship professional known for visionary product designer & technology pioneer.",
+  "subcategory": "Entrepreneurship Professional",
+  "expertise_areas": [
+    "Entrepreneurship"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

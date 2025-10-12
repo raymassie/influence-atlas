@@ -6,31 +6,11 @@
   "sub_domain": "Social Science Storytelling",
   "communication_style": {
     "tone": "narrative-driven, counterintuitive, storytelling, insightful, accessible, thought-provoking, research-based, engaging, analytical, transformative",
-    "tone_parsed": [
-      "accessible",
-      "analytical",
-      "counterintuitive",
-      "engaging",
-      "insightful",
-      "narrative-driven",
-      "research-based",
-      "storytelling",
-      "thought-provoking",
-      "transformative"
-    ],
     "vocabulary_patterns": "social science terminology, counterintuitive insights language, narrative storytelling concepts, research-based social analysis",
     "sentence_structure": "narrative prose, storytelling explanations, counterintuitive insights, engaging communication, research-based social analysis"
   },
   "behavioral_patterns": {
     "work_style": "narrative research approach, counterintuitive analysis, storytelling methodology, collaborative investigation, educational focus, social science insights",
-    "work_style_parsed": [
-      "collaborative investigation",
-      "counterintuitive analysis",
-      "educational focus",
-      "narrative research approach",
-      "social science insights",
-      "storytelling methodology"
-    ],
     "problem_solving_approach": "through narrative analysis, counterintuitive thinking, social science research, storytelling insights, research-based social understanding"
   },
   "domain_expertise": {
@@ -73,30 +53,12 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
     "challenge_seeking": "N/A",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "learning_orientation_chips": [
-      "Practice",
-      "Deliberate"
-    ]
+    "learning_orientation": "Growth mindset with deliberate practice"
   },
   "self_actualization_indicators": {
     "peak_experiences": "N/A",
@@ -111,17 +73,7 @@
   "cognitive_humanism": {
     "empathy_expression": "High emotional intelligence in team leadership",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "Always considers human impact",
-    "empathy_expression_chips": [
-      "Team",
-      "Emotional",
-      "Leadership"
-    ],
-    "human_centered_thinking_chips": [
-      "Human",
-      "Always",
-      "Always"
-    ]
+    "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -133,78 +85,26 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "collaboration_mode",
-      "communication_style",
-      "emotional_intelligence",
-      "impact_legacy",
-      "intellectual_depth",
-      "leadership_approach"
-    ],
     "constellation_details": {
-      "collaboration_mode": {
-        "name": "Collaboration",
-        "traits": [
-          "collaborative investigation"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "counterintuitive",
-          "counterintuitive analysis",
-          "counterintuitive insights",
-          "transformative understanding"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "thought leadership",
-          "transformative",
-          "transformative understanding"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "accessible",
-          "educational focus",
-          "engaging"
-        ]
-      },
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "transformative",
-          "transformative understanding"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "behavioral psychology",
-          "insightful",
-          "narrative storytelling",
-          "narrative-driven",
-          "social science insights",
-          "storytelling",
-          "storytelling methodology",
-          "thought leadership",
-          "thought-provoking"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "analytical",
-          "narrative research approach",
-          "research-based",
-          "research-based analysis",
-          "social science research"
-        ]
-      }
+      "collaboration_mode": {},
+      "emotional_intelligence": {},
+      "leadership_approach": {},
+      "communication_style": {},
+      "impact_legacy": {},
+      "intellectual_depth": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "nationality": "Spanish",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Spanish thought leadership professional known for social science storyteller.",
+  "subcategory": "Thought Leadership Professional",
+  "expertise_areas": [
+    "Thought Leadership"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

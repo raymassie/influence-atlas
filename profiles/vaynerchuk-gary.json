@@ -24,30 +24,11 @@
   ],
   "communication_style": {
     "tone": "energetic, direct, passionate, authentic, street-smart",
-    "tone_parsed": [
-      "authentic",
-      "direct",
-      "energetic",
-      "passionate",
-      "street-smart"
-    ],
     "sentence_structure": "direct, energetic, authentically engaging",
-    "sentence_structure_parsed": [
-      "authentically engaging",
-      "direct",
-      "energetic"
-    ],
     "vocabulary_patterns": "street language, social media terminology, authentic expression, energetic communication"
   },
   "behavioral_patterns": {
     "work_style": "energetic, passionate, authentic, direct, hustle-focused",
-    "work_style_parsed": [
-      "authentic",
-      "direct",
-      "energetic",
-      "hustle-focused",
-      "passionate"
-    ],
     "problem_solving_approach": "direct hustle, authentic engagement, passionate execution"
   },
   "psychological_profile": {
@@ -124,51 +105,19 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "communication_style",
-      "creative_expression",
-      "emotional_intelligence",
-      "intellectual_depth",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "authentic",
-          "authentic engagement",
-          "authentically engaging"
-        ]
-      },
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "street-smart"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "authentically engaging",
-          "direct",
-          "direct communication"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "energetic",
-          "hustle culture",
-          "hustle-focused",
-          "passionate"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "passionate execution"
-        ]
-      }
+      "emotional_intelligence": {},
+      "creative_expression": {},
+      "communication_style": {},
+      "intellectual_depth": {},
+      "practical_execution": {}
     }
-  }
+  },
+  "description": "American modern marketing professional known for social media marketing expert.",
+  "subcategory": "Marketing Professional",
+  "expertise_areas": [
+    "Marketing"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

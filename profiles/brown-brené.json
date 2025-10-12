@@ -6,31 +6,11 @@
   "sub_domain": "Vulnerability Research",
   "communication_style": {
     "tone": "empathetic, authentic, vulnerable, research-based, emotionally-intelligent, transformative, insightful, compassionate, courageous, healing-focused",
-    "tone_parsed": [
-      "authentic",
-      "compassionate",
-      "courageous",
-      "emotionally-intelligent",
-      "empathetic",
-      "healing-focused",
-      "insightful",
-      "research-based",
-      "transformative",
-      "vulnerable"
-    ],
     "vocabulary_patterns": "emotional intelligence terminology, vulnerability research language, authentic connection concepts, healing and courage insights",
     "sentence_structure": "empathetic prose, authentic explanations, vulnerable communication, research-based emotional insights, healing-focused language"
   },
   "behavioral_patterns": {
     "work_style": "research-based vulnerability studies, empathetic approach, authentic communication, collaborative healing, educational focus, transformative emotional work",
-    "work_style_parsed": [
-      "authentic communication",
-      "collaborative healing",
-      "educational focus",
-      "empathetic approach",
-      "research-based vulnerability studies",
-      "transformative emotional work"
-    ],
     "problem_solving_approach": "through vulnerability research, empathetic understanding, authentic connection, healing approaches, emotional intelligence, transformative emotional work"
   },
   "domain_expertise": {
@@ -93,12 +73,7 @@
   "cognitive_humanism": {
     "empathy_expression": "High emotional intelligence in team leadership",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "N/A",
-    "empathy_expression_chips": [
-      "Team",
-      "Emotional",
-      "Leadership"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -114,84 +89,27 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "collaboration_mode",
-      "communication_style",
-      "emotional_intelligence",
-      "growth_learning",
-      "impact_legacy",
-      "intellectual_depth",
-      "leadership_approach"
-    ],
     "constellation_details": {
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "courage development"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "authentic",
-          "authentic communication",
-          "authentic connection",
-          "authentic leadership",
-          "compassionate",
-          "emotional healing",
-          "emotionally-intelligent",
-          "empathetic",
-          "empathetic approach",
-          "empathy studies",
-          "transformative emotional work",
-          "vulnerable"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "courageous",
-          "healing-focused",
-          "insightful",
-          "shame resilience"
-        ]
-      },
-      "collaboration_mode": {
-        "name": "Collaboration",
-        "traits": [
-          "collaborative healing"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "authentic leadership",
-          "transformative",
-          "transformative emotional work"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "educational focus"
-        ]
-      },
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "transformative",
-          "transformative emotional work"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "research-based",
-          "research-based vulnerability studies",
-          "vulnerability research"
-        ]
-      }
+      "growth_learning": {},
+      "emotional_intelligence": {},
+      "intellectual_depth": {},
+      "collaboration_mode": {},
+      "leadership_approach": {},
+      "communication_style": {},
+      "impact_legacy": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Thought leadership professional known for vulnerability researcher.",
+  "subcategory": "Thought Leadership Professional",
+  "expertise_areas": [
+    "Thought Leadership"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

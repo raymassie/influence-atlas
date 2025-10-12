@@ -25,30 +25,11 @@
   ],
   "communication_style": {
     "tone": "intense, analytical, provocative, passionate, complex",
-    "tone_parsed": [
-      "analytical",
-      "complex",
-      "intense",
-      "passionate",
-      "provocative"
-    ],
     "sentence_structure": "complex, philosophical, analytically dense",
-    "sentence_structure_parsed": [
-      "analytically dense",
-      "complex",
-      "philosophical"
-    ],
     "vocabulary_patterns": "existentialist terminology, phenomenological concepts, philosophical analysis, political language"
   },
   "behavioral_patterns": {
     "work_style": "intense, analytical, passionate, provocative, politically engaged",
-    "work_style_parsed": [
-      "analytical",
-      "intense",
-      "passionate",
-      "politically engaged",
-      "provocative"
-    ],
     "problem_solving_approach": "existential analysis, phenomenological investigation, passionate argumentation"
   },
   "psychological_profile": {
@@ -91,30 +72,12 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
     "challenge_seeking": "N/A",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "learning_orientation_chips": [
-      "Practice",
-      "Deliberate"
-    ]
+    "learning_orientation": "Growth mindset with deliberate practice"
   },
   "self_actualization_indicators": {
     "peak_experiences": "N/A",
@@ -129,12 +92,7 @@
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "Always considers human impact",
-    "human_centered_thinking_chips": [
-      "Human",
-      "Always",
-      "Always"
-    ]
+    "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -159,45 +117,20 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "emotional_intelligence",
-      "intellectual_depth",
-      "values_ethics"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "complex",
-          "existential truth",
-          "intense",
-          "passionate",
-          "philosophical",
-          "philosophical clarity",
-          "politically engaged",
-          "provocative"
-        ]
-      },
-      "values_ethics": {
-        "name": "Values & Ethics",
-        "traits": [
-          "political justice"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "analytical",
-          "analytically dense"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "human freedom"
-        ]
-      }
+      "intellectual_depth": {},
+      "values_ethics": {},
+      "analytical_thinking": {},
+      "emotional_intelligence": {}
     }
-  }
+  },
+  "description": "French modern philosophy professional known for existentialist philosopher.",
+  "subcategory": "Philosophy Professional",
+  "expertise_areas": [
+    "Ethics",
+    "Moral Philosophy",
+    "Applied Ethics"
+  ],
+  "influence_scope": "Modern Influence",
+  "legacy": "Influential thinker whose ideas continue to shape philosophical discourse"
 }

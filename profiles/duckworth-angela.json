@@ -6,31 +6,11 @@
   "sub_domain": "Psychology Research",
   "communication_style": {
     "tone": "scientific, evidence-based, motivational, research-driven, insightful, accessible, inspiring, analytical, transformative, evidence-focused",
-    "tone_parsed": [
-      "accessible",
-      "analytical",
-      "evidence-based",
-      "evidence-focused",
-      "inspiring",
-      "insightful",
-      "motivational",
-      "research-driven",
-      "scientific",
-      "transformative"
-    ],
     "vocabulary_patterns": "psychological research terminology, grit and resilience language, evidence-based motivation concepts, scientific behavioral insights",
     "sentence_structure": "scientific prose, research-based explanations, evidence-focused insights, motivational language, analytical communication"
   },
   "behavioral_patterns": {
     "work_style": "scientific research approach, evidence-based insights, motivational psychology, collaborative studies, educational focus, resilience research",
-    "work_style_parsed": [
-      "collaborative studies",
-      "educational focus",
-      "evidence-based insights",
-      "motivational psychology",
-      "resilience research",
-      "scientific research approach"
-    ],
     "problem_solving_approach": "through psychological research, evidence-based analysis, grit and resilience studies, scientific methodology, transformative insights"
   },
   "domain_expertise": {
@@ -73,30 +53,12 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": "Continuous learning and development focus",
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "learning_orientation_chips": [
-      "Practice",
-      "Deliberate"
-    ]
+    "learning_orientation": "Growth mindset with deliberate practice"
   },
   "self_actualization_indicators": {
     "peak_experiences": "N/A",
@@ -111,17 +73,7 @@
   "cognitive_humanism": {
     "empathy_expression": "High emotional intelligence in team leadership",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "Always considers human impact",
-    "empathy_expression_chips": [
-      "Team",
-      "Emotional",
-      "Leadership"
-    ],
-    "human_centered_thinking_chips": [
-      "Human",
-      "Always",
-      "Always"
-    ]
+    "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -138,76 +90,26 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "collaboration_mode",
-      "communication_style",
-      "growth_learning",
-      "impact_legacy",
-      "intellectual_depth",
-      "leadership_approach"
-    ],
     "constellation_details": {
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "character development",
-          "performance improvement"
-        ]
-      },
-      "collaboration_mode": {
-        "name": "Collaboration",
-        "traits": [
-          "collaborative studies"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "transformative",
-          "transformative thinking"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "accessible",
-          "educational focus",
-          "inspiring",
-          "motivational",
-          "motivational psychology"
-        ]
-      },
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "transformative",
-          "transformative thinking"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "insightful",
-          "motivation psychology",
-          "resilience studies",
-          "transformative thinking"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "analytical",
-          "evidence-based",
-          "evidence-based insights",
-          "evidence-focused",
-          "psychological research",
-          "research-driven",
-          "resilience research",
-          "scientific",
-          "scientific research approach"
-        ]
-      }
+      "growth_learning": {},
+      "collaboration_mode": {},
+      "leadership_approach": {},
+      "communication_style": {},
+      "impact_legacy": {},
+      "intellectual_depth": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "nationality": "Spanish",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Spanish thought leadership professional known for grit researcher.",
+  "subcategory": "Thought Leadership Professional",
+  "expertise_areas": [
+    "Thought Leadership"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

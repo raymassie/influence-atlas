@@ -6,31 +6,11 @@
   "sub_domain": "Search Algorithms",
   "communication_style": {
     "tone": "mathematical, algorithmic, innovative, precise, data-driven, systematic, technical, analytical, collaborative, research-focused",
-    "tone_parsed": [
-      "algorithmic",
-      "analytical",
-      "collaborative",
-      "data-driven",
-      "innovative",
-      "mathematical",
-      "precise",
-      "research-focused",
-      "systematic",
-      "technical"
-    ],
     "vocabulary_patterns": "mathematical algorithm terminology, data analysis language, research methodology concepts, technical precision insights",
     "sentence_structure": "mathematical prose, algorithmic explanations, systematic insights, technical communication, precise analytical language"
   },
   "behavioral_patterns": {
     "work_style": "mathematical approach, algorithmic innovation, collaborative research, data-driven analysis, systematic development, technical precision",
-    "work_style_parsed": [
-      "algorithmic innovation",
-      "collaborative research",
-      "data-driven analysis",
-      "mathematical approach",
-      "systematic development",
-      "technical precision"
-    ],
     "problem_solving_approach": "through mathematical analysis, algorithmic solutions, data-driven insights, collaborative research, systematic development, technical innovation"
   },
   "domain_expertise": {
@@ -73,55 +53,17 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": "Continuous learning and development focus",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "challenge_seeking_chips": [
-      "Seeks",
-      "Complex",
-      "Actively"
-    ],
-    "learning_orientation_chips": [
-      "Practice",
-      "Deliberate"
-    ]
+    "learning_orientation": "Growth mindset with deliberate practice"
   },
   "self_actualization_indicators": {
     "peak_experiences": "Creative self-expression and innovation",
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "peak_experiences_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -134,22 +76,7 @@
   "cognitive_humanism": {
     "empathy_expression": "High emotional intelligence in leadership",
     "ethical_framework": "Strong integrity-based ethical framework",
-    "human_centered_thinking": "Always considers human impact",
-    "empathy_expression_chips": [
-      "Emotional",
-      "Leadership",
-      "Leadership"
-    ],
-    "ethical_framework_chips": [
-      "Ethical",
-      "Ethical",
-      "Integrity"
-    ],
-    "human_centered_thinking_chips": [
-      "Human",
-      "Always",
-      "Always"
-    ]
+    "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -170,89 +97,32 @@
     }
   },
   "human_needs_hierarchy": {
-    "belonging_expression": "Strong - builds collaborative teams",
-    "belonging_expression_chips": [
-      "Teams",
-      "Builds",
-      "Collaborative"
-    ]
+    "belonging_expression": "Strong - builds collaborative teams"
   },
   "humanistic_cognition": {
     "collaborative_intelligence": "Exceptional team building and facilitation",
-    "creative_problem_solving": "Design thinking with user empathy",
-    "collaborative_intelligence_chips": [
-      "Team",
-      "Building",
-      "Exceptional"
-    ],
-    "creative_problem_solving_chips": [
-      "User",
-      "Design",
-      "Design"
-    ]
+    "creative_problem_solving": "Design thinking with user empathy"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "collaboration_mode",
-      "growth_learning",
-      "impact_legacy",
-      "innovation_drive",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "algorithmic innovation",
-          "innovative"
-        ]
-      },
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "systematic development"
-        ]
-      },
-      "collaboration_mode": {
-        "name": "Collaboration",
-        "traits": [
-          "collaborative",
-          "collaborative research"
-        ]
-      },
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "research advancement"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "algorithmic",
-          "technical",
-          "technical precision"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "analytical",
-          "collaborative research",
-          "data-driven",
-          "data-driven analysis",
-          "data-driven solutions",
-          "mathematical",
-          "mathematical approach",
-          "mathematical excellence",
-          "precise",
-          "research advancement",
-          "research-focused",
-          "systematic",
-          "systematic development"
-        ]
-      }
+      "innovation_drive": {},
+      "growth_learning": {},
+      "collaboration_mode": {},
+      "impact_legacy": {},
+      "intellectual_depth": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Technology leadership professional known for algorithmic innovation leader.",
+  "subcategory": "Technology Leadership Professional",
+  "expertise_areas": [
+    "Technology Leadership"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

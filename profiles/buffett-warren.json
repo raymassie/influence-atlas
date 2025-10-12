@@ -110,16 +110,7 @@
       "anchoring bias"
     ],
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic with bias checks",
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": [
@@ -127,11 +118,7 @@
       "growth"
     ],
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "learning_orientation_chips": [
-      "Practice",
-      "Deliberate"
-    ]
+    "learning_orientation": "Growth mindset with deliberate practice"
   },
   "self_actualization_indicators": {
     "peak_experiences": "N/A",
@@ -146,44 +133,30 @@
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "Strong integrity-based decision making",
-    "human_centered_thinking": "Customer-focused decision making",
-    "ethical_framework_chips": [
-      "Integrity",
-      "Integrity"
-    ],
-    "human_centered_thinking_chips": [
-      "Focused",
-      "Customer",
-      "Customer"
-    ]
+    "human_centered_thinking": "Customer-focused decision making"
   },
   "human_needs_hierarchy": {
-    "esteem_sources": "Recognition for ethical leadership",
-    "esteem_sources_chips": [
-      "Ethical",
-      "Ethical",
-      "Leadership"
-    ]
+    "esteem_sources": "Recognition for ethical leadership"
   },
   "trait_constellations": {
-    "constellations": [
-      "intellectual_depth",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "business education",
-          "value creation"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "long-term wealth building"
-        ]
-      }
+      "intellectual_depth": {},
+      "practical_execution": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Business strategy",
+    "Company founded",
+    "Business innovation"
+  ],
+  "description": "Business professional known for value investor.",
+  "subcategory": "Business Professional",
+  "expertise_areas": [
+    "Strategic Planning",
+    "Leadership",
+    "Innovation"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Visionary leader who transformed their industry and influenced business practices"
 }

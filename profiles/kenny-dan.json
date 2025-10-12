@@ -23,30 +23,11 @@
   ],
   "communication_style": {
     "tone": "data-driven, strategic, analytical, results-focused, direct",
-    "tone_parsed": [
-      "analytical",
-      "data-driven",
-      "direct",
-      "results-focused",
-      "strategic"
-    ],
     "sentence_structure": "direct, data-supported, strategically oriented",
-    "sentence_structure_parsed": [
-      "data-supported",
-      "direct",
-      "strategically oriented"
-    ],
     "vocabulary_patterns": "marketing metrics, performance data, conversion terminology, ROI language"
   },
   "behavioral_patterns": {
     "work_style": "data-driven, analytical, strategic, results-focused, systematic",
-    "work_style_parsed": [
-      "analytical",
-      "data-driven",
-      "results-focused",
-      "strategic",
-      "systematic"
-    ],
     "problem_solving_approach": "data analysis, A/B testing, systematic optimization"
   },
   "psychological_profile": {
@@ -89,30 +70,12 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
     "challenge_seeking": "N/A",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "learning_orientation_chips": [
-      "Practice",
-      "Deliberate"
-    ]
+    "learning_orientation": "Growth mindset with deliberate practice"
   },
   "self_actualization_indicators": {
     "peak_experiences": "N/A",
@@ -129,12 +92,7 @@
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "Always considers human impact",
-    "human_centered_thinking_chips": [
-      "Human",
-      "Always",
-      "Always"
-    ]
+    "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -144,66 +102,23 @@
     }
   },
   "humanistic_cognition": {
-    "holistic_perspective": "Systems thinking with human focus",
-    "holistic_perspective_chips": [
-      "Human",
-      "Systems",
-      "Systems"
-    ]
+    "holistic_perspective": "Systems thinking with human focus"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "communication_style",
-      "growth_learning",
-      "intellectual_depth",
-      "leadership_approach",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "systematic improvement"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "strategic",
-          "strategically oriented"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "direct"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "results-focused"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "marketing ROI",
-          "performance optimization"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "analytical",
-          "data-driven",
-          "data-driven decisions",
-          "data-supported",
-          "systematic",
-          "systematic improvement"
-        ]
-      }
+      "growth_learning": {},
+      "leadership_approach": {},
+      "communication_style": {},
+      "practical_execution": {},
+      "intellectual_depth": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "description": "American modern marketing professional known for performance marketing expert.",
+  "subcategory": "Marketing Professional",
+  "expertise_areas": [
+    "Marketing"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

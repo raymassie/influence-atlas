@@ -197,32 +197,24 @@
   "cognitive_humanism": {
     "empathy_expression": "Customer-focused empathy and understanding",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "N/A",
-    "empathy_expression_chips": [
-      "Empathy",
-      "Empathy",
-      "Focused"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "intellectual_depth",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "creating magical experiences",
-          "democratizing travel"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "building global community"
-        ]
-      }
+      "intellectual_depth": {},
+      "practical_execution": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Technology leadership professional known for experience-obsessed community builder & design-thinking ceo.",
+  "subcategory": "Technology Leadership Professional",
+  "expertise_areas": [
+    "Technology Leadership"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

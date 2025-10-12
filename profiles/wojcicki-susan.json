@@ -102,16 +102,7 @@
       "confirmation bias"
     ],
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic with bias checks",
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": [
@@ -119,11 +110,7 @@
       "problem-solving"
     ],
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "learning_orientation_chips": [
-      "Practice",
-      "Deliberate"
-    ]
+    "learning_orientation": "Growth mindset with deliberate practice"
   },
   "self_actualization_indicators": {
     "peak_experiences": "N/A",
@@ -140,73 +127,36 @@
   "cognitive_humanism": {
     "empathy_expression": "High emotional intelligence in leadership",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "Always considers human impact",
-    "empathy_expression_chips": [
-      "Emotional",
-      "Leadership",
-      "Leadership"
-    ],
-    "human_centered_thinking_chips": [
-      "Human",
-      "Always",
-      "Always"
-    ]
+    "human_centered_thinking": "Always considers human impact"
   },
   "human_needs_hierarchy": {
-    "belonging_expression": "Strong - builds collaborative teams",
-    "belonging_expression_chips": [
-      "Teams",
-      "Builds",
-      "Collaborative"
-    ]
+    "belonging_expression": "Strong - builds collaborative teams"
   },
   "humanistic_cognition": {
     "collaborative_intelligence": "Exceptional team building and facilitation",
-    "holistic_perspective": "Systems thinking with user focus",
-    "collaborative_intelligence_chips": [
-      "Team",
-      "Building",
-      "Exceptional"
-    ],
-    "holistic_perspective_chips": [
-      "User",
-      "Systems",
-      "Systems"
-    ]
+    "holistic_perspective": "Systems thinking with user focus"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "intellectual_depth",
-      "leadership_approach",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "democratizing information access"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "empowering creators"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "building sustainable businesses",
-          "data-driven decision making"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "data-driven decision making"
-        ]
-      }
+      "intellectual_depth": {},
+      "leadership_approach": {},
+      "practical_execution": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Technological innovation",
+    "Software created",
+    "Technology developed"
+  ],
+  "description": "Technology professional known for tech executive.",
+  "subcategory": "Technology Professional",
+  "expertise_areas": [
+    "Software Development",
+    "Systems Design",
+    "Innovation"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Innovator who created technologies that changed how we live and work"
 }

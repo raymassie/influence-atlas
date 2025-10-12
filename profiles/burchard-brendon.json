@@ -175,22 +175,7 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic approach to decision-making with bias awareness",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ]
+    "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
     "intrinsic_drivers": "Continuous learning and development focus",
@@ -213,32 +198,22 @@
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "emotional_intelligence",
-      "growth_learning"
-    ],
     "constellation_details": {
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "research-based improvement",
-          "systematic habit development"
-        ]
-      },
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "research-based improvement",
-          "systematic habit development"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "optimizing human performance"
-        ]
-      }
+      "analytical_thinking": {},
+      "growth_learning": {},
+      "emotional_intelligence": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Motivation coaching professional known for high performance habits expert & personal development strategist.",
+  "subcategory": "Motivation Coaching Professional",
+  "expertise_areas": [
+    "Motivation Coaching"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

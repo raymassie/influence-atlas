@@ -187,22 +187,7 @@
   "self_actualization_indicators": {
     "peak_experiences": "Purpose-driven work aligned with personal values",
     "autonomy_expression": "Purpose-driven work aligned with personal values",
-    "purpose_alignment": "Purpose-driven work aligned with personal values",
-    "peak_experiences_chips": [
-      "Work",
-      "Values",
-      "Values"
-    ],
-    "autonomy_expression_chips": [
-      "Work",
-      "Values",
-      "Values"
-    ],
-    "purpose_alignment_chips": [
-      "Work",
-      "Values",
-      "Values"
-    ]
+    "purpose_alignment": "Purpose-driven work aligned with personal values"
   },
   "behavioral_growth": {
     "adaptation_patterns": "Continuous learning and development focus",
@@ -212,45 +197,26 @@
   "cognitive_humanism": {
     "empathy_expression": "High emotional intelligence in team leadership",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "N/A",
-    "empathy_expression_chips": [
-      "Team",
-      "Emotional",
-      "Leadership"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "communication_style",
-      "intellectual_depth",
-      "leadership_approach",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "creating safer workplaces"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "inspiring leadership"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "building purpose-driven organizations"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "inspiring leadership"
-        ]
-      }
+      "intellectual_depth": {},
+      "leadership_approach": {},
+      "practical_execution": {},
+      "communication_style": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Authors professional known for purpose-driven leadership expert & why-focused strategist.",
+  "subcategory": "Authors Professional",
+  "expertise_areas": [
+    "Authors"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

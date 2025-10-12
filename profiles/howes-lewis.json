@@ -203,31 +203,22 @@
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "emotional_intelligence",
-      "intellectual_depth",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "healing through vulnerability",
-          "redefining masculine success"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "building authentic relationships"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "building authentic relationships"
-        ]
-      }
+      "intellectual_depth": {},
+      "practical_execution": {},
+      "emotional_intelligence": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Entrepreneurship professional known for vulnerability-driven success coach & masculine leadership mentor.",
+  "subcategory": "Entrepreneurship Professional",
+  "expertise_areas": [
+    "Entrepreneurship"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

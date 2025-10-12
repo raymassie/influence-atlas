@@ -197,18 +197,20 @@
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "intellectual freedom",
-          "leverage maximization",
-          "truth-seeking"
-        ]
-      }
+      "intellectual_depth": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Thought leadership professional known for philosophy-driven angel investor.",
+  "subcategory": "Thought Leadership Professional",
+  "expertise_areas": [
+    "Thought Leadership"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

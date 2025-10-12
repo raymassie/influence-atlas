@@ -24,30 +24,11 @@
   ],
   "communication_style": {
     "tone": "strategic, thoughtful, network-focused, insightful, systematic",
-    "tone_parsed": [
-      "insightful",
-      "network-focused",
-      "strategic",
-      "systematic",
-      "thoughtful"
-    ],
     "sentence_structure": "complex, strategically oriented, network-focused",
-    "sentence_structure_parsed": [
-      "complex",
-      "network-focused",
-      "strategically oriented"
-    ],
     "vocabulary_patterns": "networking concepts, strategic thinking, business terminology, scale language"
   },
   "behavioral_patterns": {
     "work_style": "strategic, network-focused, systematic, thoughtful, growth-oriented",
-    "work_style_parsed": [
-      "growth-oriented",
-      "network-focused",
-      "strategic",
-      "systematic",
-      "thoughtful"
-    ],
     "problem_solving_approach": "strategic networking, systematic growth, thoughtful scaling"
   },
   "psychological_profile": {
@@ -90,21 +71,7 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": "Continuous learning and development focus",
@@ -142,67 +109,23 @@
     }
   },
   "humanistic_cognition": {
-    "holistic_perspective": "Systems thinking with human focus",
-    "holistic_perspective_chips": [
-      "Human",
-      "Systems",
-      "Systems"
-    ]
+    "holistic_perspective": "Systems thinking with human focus"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "growth_learning",
-      "innovation_drive",
-      "intellectual_depth",
-      "leadership_approach",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "thoughtful innovation"
-        ]
-      },
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "growth-oriented",
-          "strategic growth"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "complex",
-          "insightful",
-          "network-focused",
-          "thoughtful",
-          "thoughtful innovation"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "strategic",
-          "strategic growth",
-          "strategically oriented"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "systematic",
-          "systematic scaling"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "network building"
-        ]
-      }
+      "innovation_drive": {},
+      "growth_learning": {},
+      "intellectual_depth": {},
+      "leadership_approach": {},
+      "analytical_thinking": {},
+      "practical_execution": {}
     }
-  }
+  },
+  "description": "American modern marketing professional known for social media marketing pioneer.",
+  "subcategory": "Marketing Professional",
+  "expertise_areas": [
+    "Marketing"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

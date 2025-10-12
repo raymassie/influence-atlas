@@ -106,17 +106,7 @@
       "confirmation bias"
     ],
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ]
+    "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
     "intrinsic_drivers": [
@@ -124,32 +114,12 @@
       "problem-solving"
     ],
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Continuous learning and development focus",
-    "challenge_seeking_chips": [
-      "Seeks",
-      "Complex",
-      "Actively"
-    ]
+    "learning_orientation": "Continuous learning and development focus"
   },
   "self_actualization_indicators": {
     "peak_experiences": "Creative self-expression and innovation",
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "peak_experiences_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -162,12 +132,7 @@
   "cognitive_humanism": {
     "empathy_expression": "High emotional intelligence in leadership",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "N/A",
-    "empathy_expression_chips": [
-      "Emotional",
-      "Leadership",
-      "Leadership"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -193,57 +158,16 @@
   "humanistic_cognition": {
     "creative_problem_solving": "Design thinking with user empathy",
     "collaborative_intelligence": "Exceptional team building and facilitation",
-    "holistic_perspective": "Systems thinking with user focus",
-    "creative_problem_solving_chips": [
-      "User",
-      "Design",
-      "Design"
-    ],
-    "collaborative_intelligence_chips": [
-      "Team",
-      "Building",
-      "Exceptional"
-    ],
-    "holistic_perspective_chips": [
-      "User",
-      "Systems",
-      "Systems"
-    ]
+    "holistic_perspective": "Systems thinking with user focus"
   },
   "human_needs_hierarchy": {
-    "belonging_expression": "Strong - builds collaborative teams",
-    "belonging_expression_chips": [
-      "Teams",
-      "Builds",
-      "Collaborative"
-    ]
+    "belonging_expression": "Strong - builds collaborative teams"
   },
   "trait_constellations": {
-    "constellations": [
-      "collaboration_mode",
-      "innovation_drive",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "information sharing",
-          "open standards"
-        ]
-      },
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "web innovation"
-        ]
-      },
-      "collaboration_mode": {
-        "name": "Collaboration",
-        "traits": [
-          "collaborative technology"
-        ]
-      }
+      "intellectual_depth": {},
+      "innovation_drive": {},
+      "collaboration_mode": {}
     }
   }
 }

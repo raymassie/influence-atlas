@@ -24,30 +24,11 @@
   ],
   "communication_style": {
     "tone": "gentle, passionate, empathetic, inspiring, patient",
-    "tone_parsed": [
-      "empathetic",
-      "gentle",
-      "inspiring",
-      "passionate",
-      "patient"
-    ],
     "sentence_structure": "narrative, descriptive, emotionally engaging",
-    "sentence_structure_parsed": [
-      "descriptive",
-      "emotionally engaging",
-      "narrative"
-    ],
     "vocabulary_patterns": "scientific observation, emotional connection, conservation language"
   },
   "behavioral_patterns": {
     "work_style": "patient, observational, empathetic, dedicated, long-term focused",
-    "work_style_parsed": [
-      "dedicated",
-      "empathetic",
-      "long-term focused",
-      "observational",
-      "patient"
-    ],
     "problem_solving_approach": "patient observation, empathetic understanding, long-term perspective"
   },
   "psychological_profile": {
@@ -111,11 +92,7 @@
   "behavioral_growth": {
     "adaptation_patterns": "N/A",
     "resilience_indicators": "N/A",
-    "feedback_integration": "Evidence-based learning and adaptation",
-    "feedback_integration_chips": [
-      "Adaptation",
-      "Adaptation"
-    ]
+    "feedback_integration": "Evidence-based learning and adaptation"
   },
   "cognitive_humanism": {
     "empathy_expression": "N/A",
@@ -141,56 +118,21 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "communication_style",
-      "emotional_intelligence",
-      "growth_learning",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "scientific discovery"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "emotionally engaging",
-          "empathetic",
-          "understanding nature"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "emotionally engaging",
-          "inspiring"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "animal welfare",
-          "conservation",
-          "dedicated",
-          "descriptive",
-          "gentle",
-          "long-term focused",
-          "narrative",
-          "observational",
-          "passionate",
-          "patient"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "scientific discovery"
-        ]
-      }
+      "growth_learning": {},
+      "emotional_intelligence": {},
+      "communication_style": {},
+      "intellectual_depth": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "description": "British modern science professional known for primatologist.",
+  "subcategory": "Science Professional",
+  "expertise_areas": [
+    "Research",
+    "Scientific Method",
+    "Data Analysis"
+  ],
+  "influence_scope": "Modern Influence",
+  "legacy": "Pioneering scientist whose discoveries advanced human knowledge"
 }

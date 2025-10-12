@@ -39,14 +39,6 @@
     "decision_making_style": "Data-Driven, Ethical, Research-Based"
   },
   "communication_style": {
-    "tone_parsed": [
-      "Analytical",
-      "Practical",
-      "Ethical",
-      "Clear",
-      "Research-Based",
-      "Systematic"
-    ],
     "vocabulary_patterns": [
       "Hooked",
       "Trigger",
@@ -54,13 +46,6 @@
       "Variable Reward",
       "Investment",
       "Distraction"
-    ],
-    "sentence_structure_parsed": [
-      "Clear",
-      "Systematic",
-      "Research-Based",
-      "Practical",
-      "Ethical"
     ]
   },
   "domain_expertise": {
@@ -79,44 +64,8 @@
       "Ethical Design"
     ]
   },
-  "behavioral_patterns": {
-    "work_style_parsed": [
-      "Research-Focused",
-      "Systematic",
-      "Ethical",
-      "Analytical",
-      "Practical"
-    ],
-    "problem_solving_approach_parsed": [
-      "Research-Based",
-      "Systematic",
-      "Ethical",
-      "Data-Driven",
-      "Practical"
-    ]
-  },
+  "behavioral_patterns": {},
   "collaboration": {
-    "leadership_style_parsed": [
-      "Teaching",
-      "Research-Based",
-      "Ethical",
-      "Supportive",
-      "Analytical"
-    ],
-    "team_dynamics_parsed": [
-      "Research-Focused",
-      "Ethical",
-      "Collaborative",
-      "Analytical",
-      "Systematic"
-    ],
-    "mentorship_approach_parsed": [
-      "Teaching",
-      "Research-Based",
-      "Ethical",
-      "Practical",
-      "Systematic"
-    ],
     "conflict_resolution_parsed": [
       "Ethical",
       "Research-Based",
@@ -138,95 +87,22 @@
       "Attention Design"
     ]
   },
-  "temporal_context": {
-    "career_evolution_parsed": [
-      "Software Engineer",
-      "Product Manager",
-      "Entrepreneur",
-      "Author",
-      "Lecturer"
-    ],
-    "influence_timeline_parsed": [
-      "2000s",
-      "2010s",
-      "2020s"
-    ],
-    "legacy_impact_parsed": [
-      "Behavioral Design",
-      "Product Psychology",
-      "Ethical Marketing",
-      "Attention Management"
-    ]
-  },
-  "cultural_context": {
-    "cultural_background_parsed": [
-      "Israeli-American",
-      "Tech Culture",
-      "Academic",
-      "Entrepreneurial"
-    ]
-  },
-  "practical_application": {
-    "decision_speed_parsed": [
-      "Research-Based",
-      "Analytical",
-      "Ethical",
-      "Systematic"
-    ]
-  },
-  "learning": {
-    "learning_style_parsed": [
-      "Research-Based",
-      "Analytical",
-      "Systematic",
-      "Practical"
-    ]
-  },
-  "communication": {
-    "audience_adaptation_parsed": [
-      "Teaching",
-      "Research-Based",
-      "Practical",
-      "Ethical"
-    ]
-  },
-  "values": {
-    "core_values_parsed": [
-      "Ethics",
-      "Human Well-being",
-      "Research",
-      "Teaching",
-      "Positive Impact"
-    ]
-  },
+  "temporal_context": {},
+  "cultural_context": {},
+  "practical_application": {},
+  "learning": {},
+  "communication": {},
+  "values": {},
   "category": "Marketing",
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
     "challenge_seeking": "N/A",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "learning_orientation_chips": [
-      "Practice",
-      "Deliberate"
-    ]
+    "learning_orientation": "Growth mindset with deliberate practice"
   },
   "self_actualization_indicators": {
     "peak_experiences": "N/A",
@@ -241,113 +117,32 @@
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "Always considers human impact",
-    "human_centered_thinking_chips": [
-      "Human",
-      "Always",
-      "Always"
-    ]
+    "human_centered_thinking": "Always considers human impact"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "collaboration_mode",
-      "communication_style",
-      "creative_expression",
-      "emotional_intelligence",
-      "impact_legacy",
-      "innovation_drive",
-      "intellectual_depth",
-      "practical_execution",
-      "values_ethics"
-    ],
     "constellation_details": {
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "Product Innovation"
-        ]
-      },
-      "collaboration_mode": {
-        "name": "Collaboration",
-        "traits": [
-          "Collaborative",
-          "Supportive"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "Human Well-being",
-          "Understanding Human Behavior"
-        ]
-      },
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "Behavioral Design",
-          "Ethical Design"
-        ]
-      },
-      "values_ethics": {
-        "name": "Values & Ethics",
-        "traits": [
-          "Ethical",
-          "Ethical Design",
-          "Ethical Marketing"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "Clear",
-          "Teaching"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "Practical"
-        ]
-      },
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "2000s",
-          "2010s",
-          "2020s"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "Academic",
-          "Attention Management",
-          "Author",
-          "Entrepreneur",
-          "Entrepreneurial",
-          "Ethics",
-          "Israeli-American",
-          "Lecturer",
-          "Positive Impact",
-          "Product Manager",
-          "Product Psychology",
-          "Software Engineer",
-          "Solution-Focused",
-          "Tech Culture"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "Analytical",
-          "Data-Driven",
-          "Research",
-          "Research-Based",
-          "Research-Focused",
-          "Systematic"
-        ]
-      }
+      "innovation_drive": {},
+      "collaboration_mode": {},
+      "emotional_intelligence": {},
+      "creative_expression": {},
+      "values_ethics": {},
+      "communication_style": {},
+      "practical_execution": {},
+      "impact_legacy": {},
+      "intellectual_depth": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Marketing professional known for marketing expert.",
+  "subcategory": "Marketing Professional",
+  "expertise_areas": [
+    "Marketing"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

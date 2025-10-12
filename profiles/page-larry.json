@@ -6,31 +6,11 @@
   "sub_domain": "Search Technology",
   "communication_style": {
     "tone": "innovative, technical, visionary, systematic, data-driven, algorithmic, precise, strategic, transformative, engineering-focused",
-    "tone_parsed": [
-      "algorithmic",
-      "data-driven",
-      "engineering-focused",
-      "innovative",
-      "precise",
-      "strategic",
-      "systematic",
-      "technical",
-      "transformative",
-      "visionary"
-    ],
     "vocabulary_patterns": "technical innovation terminology, algorithmic thinking language, search technology concepts, engineering precision insights",
     "sentence_structure": "technical prose, algorithmic explanations, systematic insights, engineering-focused communication, precise technical language"
   },
   "behavioral_patterns": {
     "work_style": "technical innovation, algorithmic thinking, systematic engineering, data-driven development, collaborative research, transformative technology",
-    "work_style_parsed": [
-      "algorithmic thinking",
-      "collaborative research",
-      "data-driven development",
-      "systematic engineering",
-      "technical innovation",
-      "transformative technology"
-    ],
     "problem_solving_approach": "through algorithmic analysis, technical innovation, systematic engineering, data-driven solutions, collaborative research, transformative thinking"
   },
   "domain_expertise": {
@@ -73,51 +53,17 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": "Continuous learning and development focus",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Continuous learning and development focus",
-    "challenge_seeking_chips": [
-      "Seeks",
-      "Complex",
-      "Actively"
-    ]
+    "learning_orientation": "Continuous learning and development focus"
   },
   "self_actualization_indicators": {
     "peak_experiences": "Creative self-expression and innovation",
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "peak_experiences_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -129,12 +75,7 @@
   "cognitive_humanism": {
     "empathy_expression": "High emotional intelligence in team leadership",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "N/A",
-    "empathy_expression_chips": [
-      "Team",
-      "Emotional",
-      "Leadership"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -153,87 +94,29 @@
   },
   "humanistic_cognition": {
     "creative_problem_solving": "Design thinking with user empathy",
-    "holistic_perspective": "Systems thinking with human focus",
-    "creative_problem_solving_chips": [
-      "User",
-      "Design",
-      "Design"
-    ],
-    "holistic_perspective_chips": [
-      "Human",
-      "Systems",
-      "Systems"
-    ]
+    "holistic_perspective": "Systems thinking with human focus"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "collaboration_mode",
-      "growth_learning",
-      "impact_legacy",
-      "innovation_drive",
-      "intellectual_depth",
-      "leadership_approach"
-    ],
     "constellation_details": {
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "innovative",
-          "technical innovation"
-        ]
-      },
-      "collaboration_mode": {
-        "name": "Collaboration",
-        "traits": [
-          "collaborative research"
-        ]
-      },
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "data-driven development"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "strategic",
-          "transformative",
-          "transformative technology",
-          "visionary"
-        ]
-      },
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "transformative",
-          "transformative technology"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "algorithmic",
-          "algorithmic excellence",
-          "algorithmic thinking",
-          "engineering precision",
-          "engineering-focused",
-          "technical"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "collaborative research",
-          "data-driven",
-          "data-driven development",
-          "data-driven solutions",
-          "precise",
-          "systematic",
-          "systematic engineering"
-        ]
-      }
+      "innovation_drive": {},
+      "collaboration_mode": {},
+      "growth_learning": {},
+      "leadership_approach": {},
+      "impact_legacy": {},
+      "intellectual_depth": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Technology leadership professional known for search innovation leader.",
+  "subcategory": "Technology Leadership Professional",
+  "expertise_areas": [
+    "Technology Leadership"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

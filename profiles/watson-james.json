@@ -24,30 +24,11 @@
   ],
   "communication_style": {
     "tone": "direct, controversial, provocative, confident, ambitious",
-    "tone_parsed": [
-      "ambitious",
-      "confident",
-      "controversial",
-      "direct",
-      "provocative"
-    ],
     "sentence_structure": "straightforward, declarative, sometimes inflammatory",
-    "sentence_structure_parsed": [
-      "declarative",
-      "inflammatory",
-      "straightforward"
-    ],
     "vocabulary_patterns": "scientific terminology, direct statements, controversial opinions"
   },
   "behavioral_patterns": {
     "work_style": "competitive, ambitious, results-driven, controversial, innovative",
-    "work_style_parsed": [
-      "ambitious",
-      "competitive",
-      "controversial",
-      "innovative",
-      "results-driven"
-    ],
     "problem_solving_approach": "competitive collaboration, direct confrontation, ambitious goals"
   },
   "psychological_profile": {
@@ -93,17 +74,7 @@
       "peer review",
       "data validation"
     ],
-    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
-    "primary_biases_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ]
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
     "intrinsic_drivers": [
@@ -111,56 +82,17 @@
       "discovery"
     ],
     "challenge_seeking": "Achievement-oriented growth mindset",
-    "learning_orientation": "Achievement-oriented growth mindset",
-    "challenge_seeking_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "learning_orientation_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ]
+    "learning_orientation": "Achievement-oriented growth mindset"
   },
   "self_actualization_indicators": {
     "peak_experiences": "Creative self-expression and innovation",
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "peak_experiences_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": "Achievement-oriented growth mindset",
     "resilience_indicators": "Achievement-oriented growth mindset",
-    "feedback_integration": "Evidence-based learning and adaptation",
-    "adaptation_patterns_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "resilience_indicators_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "feedback_integration_chips": [
-      "Adaptation",
-      "Adaptation"
-    ]
+    "feedback_integration": "Evidence-based learning and adaptation"
   },
   "cognitive_humanism": {
     "empathy_expression": "N/A",
@@ -189,61 +121,22 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "communication_style",
-      "growth_learning",
-      "innovation_drive",
-      "intellectual_depth",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "advancing knowledge",
-          "innovative"
-        ]
-      },
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "scientific discovery"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "direct"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "results-driven"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "ambitious",
-          "competitive",
-          "competitive success",
-          "confident",
-          "controversial",
-          "declarative",
-          "inflammatory",
-          "provocative",
-          "recognition",
-          "straightforward"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "scientific discovery"
-        ]
-      }
+      "innovation_drive": {},
+      "growth_learning": {},
+      "communication_style": {},
+      "practical_execution": {},
+      "intellectual_depth": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "description": "American modern science professional known for molecular biologist.",
+  "subcategory": "Science Professional",
+  "expertise_areas": [
+    "Research",
+    "Scientific Method",
+    "Data Analysis"
+  ],
+  "influence_scope": "Modern Influence",
+  "legacy": "Pioneering scientist whose discoveries advanced human knowledge"
 }

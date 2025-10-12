@@ -25,30 +25,11 @@
   ],
   "communication_style": {
     "tone": "experimental, optimization-focused, research-backed, systematic, lifestyle-oriented",
-    "tone_parsed": [
-      "experimental",
-      "lifestyle-oriented",
-      "optimization-focused",
-      "research-backed",
-      "systematic"
-    ],
     "sentence_structure": "experimental, optimization-focused, lifestyle-oriented",
-    "sentence_structure_parsed": [
-      "experimental",
-      "lifestyle-oriented",
-      "optimization-focused"
-    ],
     "vocabulary_patterns": "optimization terminology, experimental language, lifestyle concepts, research-based communication"
   },
   "behavioral_patterns": {
     "work_style": "experimental, optimization-focused, research-backed, systematic, lifestyle-oriented",
-    "work_style_parsed": [
-      "experimental",
-      "lifestyle-oriented",
-      "optimization-focused",
-      "research-backed",
-      "systematic"
-    ],
     "problem_solving_approach": "experimental optimization, research-backed solutions, lifestyle-focused improvement"
   },
   "psychological_profile": {
@@ -91,22 +72,7 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic approach to decision-making with bias awareness",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ]
+    "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
@@ -138,43 +104,18 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "growth_learning",
-      "innovation_drive",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "lifestyle-focused guidance",
-          "lifestyle-oriented",
-          "optimization-focused"
-        ]
-      },
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "experimental",
-          "experimental optimization"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "research-backed",
-          "research-backed coaching",
-          "systematic",
-          "systematic improvement"
-        ]
-      },
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "systematic improvement"
-        ]
-      }
+      "intellectual_depth": {},
+      "innovation_drive": {},
+      "analytical_thinking": {},
+      "growth_learning": {}
     }
-  }
+  },
+  "description": "American modern motivation coaching professional known for lifestyle coach.",
+  "subcategory": "Motivation Coaching Professional",
+  "expertise_areas": [
+    "Motivation Coaching"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

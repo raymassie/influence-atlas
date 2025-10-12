@@ -134,25 +134,9 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "creative_expression",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "humor writing",
-          "social critique",
-          "truth telling"
-        ]
-      },
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "literary excellence"
-        ]
-      }
+      "intellectual_depth": {},
+      "creative_expression": {}
     }
   }
 }

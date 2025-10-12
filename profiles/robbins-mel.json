@@ -25,30 +25,11 @@
   ],
   "communication_style": {
     "tone": "action-oriented, direct, practical, energetic, solution-focused",
-    "tone_parsed": [
-      "action-oriented",
-      "direct",
-      "energetic",
-      "practical",
-      "solution-focused"
-    ],
     "sentence_structure": "direct, action-oriented, solution-focused",
-    "sentence_structure_parsed": [
-      "action-oriented",
-      "direct",
-      "solution-focused"
-    ],
     "vocabulary_patterns": "action terminology, direct language, practical concepts, solution-based communication"
   },
   "behavioral_patterns": {
     "work_style": "action-oriented, direct, practical, energetic, solution-focused",
-    "work_style_parsed": [
-      "action-oriented",
-      "direct",
-      "energetic",
-      "practical",
-      "solution-focused"
-    ],
     "problem_solving_approach": "action-oriented solutions, direct approach, practical implementation"
   },
   "psychological_profile": {
@@ -121,36 +102,17 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "communication_style",
-      "intellectual_depth",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "energetic",
-          "energetic motivation",
-          "solution-focused"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "action-oriented",
-          "action-oriented coaching",
-          "practical",
-          "practical solutions"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "direct",
-          "direct guidance"
-        ]
-      }
+      "intellectual_depth": {},
+      "practical_execution": {},
+      "communication_style": {}
     }
-  }
+  },
+  "description": "American modern motivation coaching professional known for action coach.",
+  "subcategory": "Motivation Coaching Professional",
+  "expertise_areas": [
+    "Motivation Coaching"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

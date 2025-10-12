@@ -25,30 +25,11 @@
   ],
   "communication_style": {
     "tone": "witty, satirical, critical, eloquent, provocative",
-    "tone_parsed": [
-      "critical",
-      "eloquent",
-      "provocative",
-      "satirical",
-      "witty"
-    ],
     "sentence_structure": "elegant, satirical, rhetorically sophisticated",
-    "sentence_structure_parsed": [
-      "elegant",
-      "rhetorically sophisticated",
-      "satirical"
-    ],
     "vocabulary_patterns": "philosophical terminology, satirical language, critical concepts, enlightenment vocabulary"
   },
   "behavioral_patterns": {
     "work_style": "witty, critical, satirical, provocative, intellectually engaged",
-    "work_style_parsed": [
-      "critical",
-      "intellectually engaged",
-      "provocative",
-      "satirical",
-      "witty"
-    ],
     "problem_solving_approach": "satirical analysis, critical thinking, witty argumentation"
   },
   "psychological_profile": {
@@ -111,12 +92,7 @@
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "Strong integrity-based ethical framework",
-    "human_centered_thinking": "N/A",
-    "ethical_framework_chips": [
-      "Ethical",
-      "Ethical",
-      "Integrity"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -131,40 +107,19 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "communication_style",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "critical thinking",
-          "elegant",
-          "intellectual freedom",
-          "intellectually engaged",
-          "provocative",
-          "religious tolerance",
-          "rhetorically sophisticated",
-          "satirical",
-          "satirical expression",
-          "witty"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "critical",
-          "critical thinking"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "eloquent"
-        ]
-      }
+      "intellectual_depth": {},
+      "analytical_thinking": {},
+      "communication_style": {}
     }
-  }
+  },
+  "description": "French enlightenment philosophy professional known for enlightenment philosopher.",
+  "subcategory": "Philosophy Professional",
+  "expertise_areas": [
+    "Ethics",
+    "Moral Philosophy",
+    "Applied Ethics"
+  ],
+  "influence_scope": "Historical Influence",
+  "legacy": "Influential thinker whose ideas continue to shape philosophical discourse"
 }

@@ -196,32 +196,24 @@
   "cognitive_humanism": {
     "empathy_expression": "Customer-focused empathy and understanding",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "N/A",
-    "empathy_expression_chips": [
-      "Empathy",
-      "Empathy",
-      "Focused"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "growth_learning",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "creating simple powerful tools",
-          "democratizing financial access"
-        ]
-      },
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "mindful technology development"
-        ]
-      }
+      "intellectual_depth": {},
+      "growth_learning": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Technology leadership professional known for minimalist product builder & digital payment pioneer.",
+  "subcategory": "Technology Leadership Professional",
+  "expertise_areas": [
+    "Technology Leadership"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

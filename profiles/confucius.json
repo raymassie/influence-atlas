@@ -23,30 +23,11 @@
   ],
   "communication_style": {
     "tone": "wise, moral, practical, patient, instructive",
-    "tone_parsed": [
-      "instructive",
-      "moral",
-      "patient",
-      "practical",
-      "wise"
-    ],
     "sentence_structure": "aphoristic, moral, practically oriented",
-    "sentence_structure_parsed": [
-      "aphoristic",
-      "moral",
-      "practically oriented"
-    ],
     "vocabulary_patterns": "moral concepts, practical wisdom, ethical terminology, educational language"
   },
   "behavioral_patterns": {
     "work_style": "patient, moral, practical, wise, educational",
-    "work_style_parsed": [
-      "educational",
-      "moral",
-      "patient",
-      "practical",
-      "wise"
-    ],
     "problem_solving_approach": "moral analysis, practical wisdom, patient teaching"
   },
   "psychological_profile": {
@@ -132,52 +113,21 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "communication_style",
-      "intellectual_depth",
-      "leadership_approach",
-      "practical_execution",
-      "values_ethics"
-    ],
     "constellation_details": {
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "ethical leadership"
-        ]
-      },
-      "values_ethics": {
-        "name": "Values & Ethics",
-        "traits": [
-          "ethical leadership",
-          "moral",
-          "moral education"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "educational"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "aphoristic",
-          "instructive",
-          "patient",
-          "social harmony",
-          "wise"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "practical",
-          "practical wisdom",
-          "practically oriented"
-        ]
-      }
+      "leadership_approach": {},
+      "values_ethics": {},
+      "communication_style": {},
+      "intellectual_depth": {},
+      "practical_execution": {}
     }
-  }
+  },
+  "description": "Chinese ancient philosophy professional known for moral philosopher.",
+  "subcategory": "Philosophy Professional",
+  "expertise_areas": [
+    "Ethics",
+    "Moral Philosophy",
+    "Applied Ethics"
+  ],
+  "influence_scope": "Historical Influence",
+  "legacy": "Influential thinker whose ideas continue to shape philosophical discourse"
 }

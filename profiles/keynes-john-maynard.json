@@ -44,14 +44,6 @@
     "decision_making_style": "Analytical, Innovative, Pragmatic"
   },
   "communication_style": {
-    "tone_parsed": [
-      "Analytical",
-      "Intellectual",
-      "Innovative",
-      "Pragmatic",
-      "Persuasive",
-      "Academic"
-    ],
     "vocabulary_patterns": [
       "Demand",
       "Supply",
@@ -59,13 +51,6 @@
       "Investment",
       "Multiplier",
       "Liquidity"
-    ],
-    "sentence_structure_parsed": [
-      "Analytical",
-      "Intellectual",
-      "Innovative",
-      "Academic",
-      "Persuasive"
     ]
   },
   "domain_expertise": {
@@ -84,44 +69,8 @@
       "Economic History"
     ]
   },
-  "behavioral_patterns": {
-    "work_style_parsed": [
-      "Analytical",
-      "Intellectual",
-      "Innovative",
-      "Academic",
-      "Pragmatic"
-    ],
-    "problem_solving_approach_parsed": [
-      "Analytical",
-      "Innovative",
-      "Pragmatic",
-      "Theoretical",
-      "Policy-Focused"
-    ]
-  },
+  "behavioral_patterns": {},
   "collaboration": {
-    "leadership_style_parsed": [
-      "Intellectual",
-      "Innovative",
-      "Persuasive",
-      "Academic",
-      "Analytical"
-    ],
-    "team_dynamics_parsed": [
-      "Intellectual",
-      "Analytical",
-      "Innovative",
-      "Academic",
-      "Collaborative"
-    ],
-    "mentorship_approach_parsed": [
-      "Teaching",
-      "Intellectual",
-      "Innovative",
-      "Academic",
-      "Analytical"
-    ],
     "conflict_resolution_parsed": [
       "Analytical",
       "Intellectual",
@@ -143,121 +92,27 @@
       "Policy Innovation"
     ]
   },
-  "temporal_context": {
-    "career_evolution_parsed": [
-      "Academic",
-      "Civil Servant",
-      "Economist",
-      "Policy Advisor",
-      "International Negotiator"
-    ],
-    "influence_timeline_parsed": [
-      "1910s",
-      "1920s",
-      "1930s",
-      "1940s"
-    ],
-    "legacy_impact_parsed": [
-      "Keynesian Economics",
-      "Economic Policy",
-      "Macroeconomic Theory",
-      "International Finance"
-    ]
-  },
-  "cultural_context": {
-    "cultural_background_parsed": [
-      "British",
-      "Academic",
-      "Upper-class",
-      "Intellectual"
-    ]
-  },
-  "practical_application": {
-    "decision_speed_parsed": [
-      "Analytical",
-      "Intellectual",
-      "Pragmatic",
-      "Policy-Focused"
-    ]
-  },
-  "learning": {
-    "learning_style_parsed": [
-      "Analytical",
-      "Intellectual",
-      "Academic",
-      "Theoretical"
-    ]
-  },
-  "communication": {
-    "audience_adaptation_parsed": [
-      "Intellectual",
-      "Analytical",
-      "Persuasive",
-      "Academic"
-    ]
-  },
-  "values": {
-    "core_values_parsed": [
-      "Intellectual Discovery",
-      "Economic Stability",
-      "Social Welfare",
-      "Policy Innovation",
-      "Academic Excellence"
-    ]
-  },
+  "temporal_context": {},
+  "cultural_context": {},
+  "practical_application": {},
+  "learning": {},
+  "communication": {},
+  "values": {},
   "category": "Economics",
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "challenge_seeking_chips": [
-      "Seeks",
-      "Complex",
-      "Actively"
-    ],
-    "learning_orientation_chips": [
-      "Practice",
-      "Deliberate"
-    ]
+    "learning_orientation": "Growth mindset with deliberate practice"
   },
   "self_actualization_indicators": {
     "peak_experiences": "Creative self-expression and innovation",
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "peak_experiences_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -270,110 +125,34 @@
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "Always considers human impact",
-    "human_centered_thinking_chips": [
-      "Human",
-      "Always",
-      "Always"
-    ]
+    "human_centered_thinking": "Always considers human impact"
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Design thinking with user empathy",
-    "creative_problem_solving_chips": [
-      "User",
-      "Design",
-      "Design"
-    ]
+    "creative_problem_solving": "Design thinking with user empathy"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "collaboration_mode",
-      "communication_style",
-      "emotional_intelligence",
-      "growth_learning",
-      "impact_legacy",
-      "innovation_drive",
-      "intellectual_depth",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "Innovative",
-          "Policy Innovation"
-        ]
-      },
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "Intellectual Discovery"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "Economic Understanding"
-        ]
-      },
-      "collaboration_mode": {
-        "name": "Collaboration",
-        "traits": [
-          "Collaborative"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "Persuasive",
-          "Teaching"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "Pragmatic"
-        ]
-      },
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "1920s"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "1910s",
-          "1930s",
-          "1940s",
-          "Academic",
-          "Academic Excellence",
-          "British",
-          "Civil Servant",
-          "Economic Policy",
-          "Economic Stability",
-          "Economist",
-          "Intellectual",
-          "Intellectual Discovery",
-          "International Finance",
-          "International Negotiator",
-          "Keynesian Economics",
-          "Macroeconomic Theory",
-          "Policy Advisor",
-          "Policy-Focused",
-          "Social Welfare",
-          "Theoretical",
-          "Upper-class"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "Analytical"
-        ]
-      }
+      "innovation_drive": {},
+      "growth_learning": {},
+      "emotional_intelligence": {},
+      "collaboration_mode": {},
+      "communication_style": {},
+      "practical_execution": {},
+      "impact_legacy": {},
+      "intellectual_depth": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Economics professional known for economist.",
+  "subcategory": "Economics Professional",
+  "expertise_areas": [
+    "Economics"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

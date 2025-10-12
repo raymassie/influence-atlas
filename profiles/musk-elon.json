@@ -132,17 +132,7 @@
       "confirmation bias"
     ],
     "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
-    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ]
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
     "intrinsic_drivers": [
@@ -150,32 +140,12 @@
       "problem-solving"
     ],
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "N/A",
-    "challenge_seeking_chips": [
-      "Seeks",
-      "Complex",
-      "Actively"
-    ]
+    "learning_orientation": "N/A"
   },
   "self_actualization_indicators": {
     "peak_experiences": "Creative self-expression and innovation",
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "peak_experiences_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -212,38 +182,12 @@
   },
   "humanistic_cognition": {
     "creative_problem_solving": "Design thinking with user empathy",
-    "holistic_perspective": "Systems thinking with user focus",
-    "creative_problem_solving_chips": [
-      "User",
-      "Design",
-      "Design"
-    ],
-    "holistic_perspective_chips": [
-      "User",
-      "Systems",
-      "Systems"
-    ]
+    "holistic_perspective": "Systems thinking with user focus"
   },
   "trait_constellations": {
-    "constellations": [
-      "innovation_drive",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "Mars colonization",
-          "space exploration",
-          "sustainable energy"
-        ]
-      },
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "technology innovation"
-        ]
-      }
+      "intellectual_depth": {},
+      "innovation_drive": {}
     }
   }
 }

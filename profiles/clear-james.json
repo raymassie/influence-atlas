@@ -6,31 +6,11 @@
   "sub_domain": "Habit Formation",
   "communication_style": {
     "tone": "systematic, evidence-based, practical, actionable, clear, methodical, research-driven, accessible, transformative, habit-focused",
-    "tone_parsed": [
-      "actionable",
-      "accessible",
-      "clear",
-      "evidence-based",
-      "habit-focused",
-      "methodical",
-      "practical",
-      "research-driven",
-      "systematic",
-      "transformative"
-    ],
     "vocabulary_patterns": "habit formation terminology, systematic improvement language, evidence-based behavior concepts, practical optimization insights",
     "sentence_structure": "systematic prose, practical explanations, evidence-based insights, actionable language, clear communication"
   },
   "behavioral_patterns": {
     "work_style": "systematic approach, evidence-based insights, practical application, habit formation research, educational focus, methodical improvement",
-    "work_style_parsed": [
-      "educational focus",
-      "evidence-based insights",
-      "habit formation research",
-      "methodical improvement",
-      "practical application",
-      "systematic approach"
-    ],
     "problem_solving_approach": "through systematic analysis, evidence-based solutions, habit formation methodology, practical optimization, methodical improvement frameworks"
   },
   "domain_expertise": {
@@ -73,22 +53,7 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic approach to decision-making with bias awareness",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ]
+    "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
     "intrinsic_drivers": "Continuous learning and development focus",
@@ -118,78 +83,26 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "communication_style",
-      "growth_learning",
-      "impact_legacy",
-      "intellectual_depth",
-      "leadership_approach",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "methodical development",
-          "methodical improvement",
-          "systematic improvement"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "transformative",
-          "transformative insights"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "accessible",
-          "clear",
-          "educational focus"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "actionable",
-          "practical",
-          "practical application",
-          "practical optimization"
-        ]
-      },
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "transformative",
-          "transformative insights"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "habit-focused",
-          "performance enhancement"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "evidence-based",
-          "evidence-based behavior",
-          "evidence-based insights",
-          "habit formation research",
-          "methodical",
-          "methodical development",
-          "methodical improvement",
-          "research-driven",
-          "systematic",
-          "systematic approach",
-          "systematic improvement"
-        ]
-      }
+      "growth_learning": {},
+      "leadership_approach": {},
+      "communication_style": {},
+      "practical_execution": {},
+      "impact_legacy": {},
+      "intellectual_depth": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Thought leadership professional known for habit formation expert.",
+  "subcategory": "Thought Leadership Professional",
+  "expertise_areas": [
+    "Thought Leadership"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

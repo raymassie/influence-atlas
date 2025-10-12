@@ -24,30 +24,11 @@
   ],
   "communication_style": {
     "tone": "precise, logical, methodical, systematic, analytical",
-    "tone_parsed": [
-      "analytical",
-      "logical",
-      "methodical",
-      "precise",
-      "systematic"
-    ],
     "sentence_structure": "complex, technical, formal",
-    "sentence_structure_parsed": [
-      "complex",
-      "formal",
-      "technical"
-    ],
     "vocabulary_patterns": "mathematical terminology, formal logic, technical precision"
   },
   "behavioral_patterns": {
     "work_style": "systematic, methodical, rigorous, experimental, innovative",
-    "work_style_parsed": [
-      "experimental",
-      "innovative",
-      "methodical",
-      "rigorous",
-      "systematic"
-    ],
     "problem_solving_approach": "algorithmic thinking, step-by-step analysis, logical deduction"
   },
   "psychological_profile": {
@@ -93,16 +74,7 @@
       "peer review",
       "data validation"
     ],
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": [
@@ -110,54 +82,26 @@
       "discovery"
     ],
     "challenge_seeking": "N/A",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "learning_orientation_chips": [
-      "Practice",
-      "Deliberate"
-    ]
+    "learning_orientation": "Growth mindset with deliberate practice"
   },
   "self_actualization_indicators": {
     "peak_experiences": [
       "creative breakthroughs"
     ],
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "creative pivots"
     ],
     "resilience_indicators": "N/A",
-    "feedback_integration": "Evidence-based learning and adaptation",
-    "feedback_integration_chips": [
-      "Adaptation",
-      "Adaptation"
-    ]
+    "feedback_integration": "Evidence-based learning and adaptation"
   },
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "Strong integrity-based ethical framework",
-    "human_centered_thinking": "Always considers human impact",
-    "ethical_framework_chips": [
-      "Ethical",
-      "Ethical",
-      "Integrity"
-    ],
-    "human_centered_thinking_chips": [
-      "Human",
-      "Always",
-      "Always"
-    ]
+    "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -179,57 +123,23 @@
     }
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Innovative approaches with user empathy",
-    "creative_problem_solving_chips": [
-      "User",
-      "Empathy",
-      "Empathy"
-    ]
+    "creative_problem_solving": "Innovative approaches with user empathy"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "impact_legacy",
-      "innovation_drive",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "scientific advancement"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "complex",
-          "formal",
-          "intellectual challenge",
-          "problem-solving",
-          "technical",
-          "truth-seeking"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "analytical",
-          "logical",
-          "methodical",
-          "precise",
-          "rigorous",
-          "scientific advancement",
-          "systematic"
-        ]
-      },
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "experimental",
-          "innovative"
-        ]
-      }
+      "impact_legacy": {},
+      "intellectual_depth": {},
+      "analytical_thinking": {},
+      "innovation_drive": {}
     }
-  }
+  },
+  "description": "British modern science professional known for mathematical logician.",
+  "subcategory": "Science Professional",
+  "expertise_areas": [
+    "Research",
+    "Scientific Method",
+    "Data Analysis"
+  ],
+  "influence_scope": "Modern Influence",
+  "legacy": "Pioneering scientist whose discoveries advanced human knowledge"
 }

@@ -25,30 +25,11 @@
   ],
   "communication_style": {
     "tone": "energetic, motivational, passionate, confident, transformative",
-    "tone_parsed": [
-      "confident",
-      "energetic",
-      "motivational",
-      "passionate",
-      "transformative"
-    ],
     "sentence_structure": "energetic, passionately motivational, transformation-focused",
-    "sentence_structure_parsed": [
-      "energetic",
-      "passionately motivational",
-      "transformation-focused"
-    ],
     "vocabulary_patterns": "motivational language, transformational concepts, energetic terminology, confident communication"
   },
   "behavioral_patterns": {
     "work_style": "energetic, motivational, passionate, confident, transformative",
-    "work_style_parsed": [
-      "confident",
-      "energetic",
-      "motivational",
-      "passionate",
-      "transformative"
-    ],
     "problem_solving_approach": "energetic motivation, passionate transformation, confident action"
   },
   "psychological_profile": {
@@ -122,45 +103,18 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "communication_style",
-      "impact_legacy",
-      "intellectual_depth",
-      "leadership_approach"
-    ],
     "constellation_details": {
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "transformative"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "confident",
-          "energetic",
-          "energetic transformation",
-          "passionate",
-          "passionate coaching",
-          "transformation-focused"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "confident leadership",
-          "transformative"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "motivational",
-          "motivational impact",
-          "passionately motivational"
-        ]
-      }
+      "impact_legacy": {},
+      "intellectual_depth": {},
+      "leadership_approach": {},
+      "communication_style": {}
     }
-  }
+  },
+  "description": "American modern motivation coaching professional known for life coach.",
+  "subcategory": "Motivation Coaching Professional",
+  "expertise_areas": [
+    "Motivation Coaching"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

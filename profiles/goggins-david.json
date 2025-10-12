@@ -24,30 +24,11 @@
   ],
   "communication_style": {
     "tone": "intense, motivational, tough, direct, challenging",
-    "tone_parsed": [
-      "challenging",
-      "direct",
-      "intense",
-      "motivational",
-      "tough"
-    ],
     "sentence_structure": "intense, directly challenging, toughness-focused",
-    "sentence_structure_parsed": [
-      "directly challenging",
-      "intense",
-      "toughness-focused"
-    ],
     "vocabulary_patterns": "mental toughness language, challenging concepts, intense terminology, direct communication"
   },
   "behavioral_patterns": {
     "work_style": "intense, motivational, tough, direct, challenging",
-    "work_style_parsed": [
-      "challenging",
-      "direct",
-      "intense",
-      "motivational",
-      "tough"
-    ],
     "problem_solving_approach": "intense challenge, direct toughness, motivational persistence"
   },
   "psychological_profile": {
@@ -126,38 +107,17 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "communication_style",
-      "growth_learning",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "challenging growth"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "challenging",
-          "intense",
-          "intense challenge",
-          "tough",
-          "toughness-focused"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "direct",
-          "direct persistence",
-          "directly challenging",
-          "motivational",
-          "motivational toughness"
-        ]
-      }
+      "growth_learning": {},
+      "intellectual_depth": {},
+      "communication_style": {}
     }
-  }
+  },
+  "description": "American modern motivation coaching professional known for mental toughness coach.",
+  "subcategory": "Motivation Coaching Professional",
+  "expertise_areas": [
+    "Motivation Coaching"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

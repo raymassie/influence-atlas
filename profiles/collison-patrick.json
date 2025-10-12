@@ -104,16 +104,7 @@
       "confirmation bias"
     ],
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic with bias checks",
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": [
@@ -121,36 +112,12 @@
       "problem-solving"
     ],
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "challenge_seeking_chips": [
-      "Seeks",
-      "Complex",
-      "Actively"
-    ],
-    "learning_orientation_chips": [
-      "Practice",
-      "Deliberate"
-    ]
+    "learning_orientation": "Growth mindset with deliberate practice"
   },
   "self_actualization_indicators": {
     "peak_experiences": "Creative self-expression and innovation",
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "peak_experiences_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -162,52 +129,31 @@
   "cognitive_humanism": {
     "empathy_expression": "Customer-focused empathy and understanding",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "Always considers human impact",
-    "empathy_expression_chips": [
-      "Empathy",
-      "Empathy",
-      "Focused"
-    ],
-    "human_centered_thinking_chips": [
-      "Human",
-      "Always",
-      "Always"
-    ]
+    "human_centered_thinking": "Always considers human impact"
   },
   "humanistic_cognition": {
     "creative_problem_solving": "Design thinking with user empathy",
-    "holistic_perspective": "Systems thinking with user focus",
-    "creative_problem_solving_chips": [
-      "User",
-      "Design",
-      "Design"
-    ],
-    "holistic_perspective_chips": [
-      "User",
-      "Systems",
-      "Systems"
-    ]
+    "holistic_perspective": "Systems thinking with user focus"
   },
   "trait_constellations": {
-    "constellations": [
-      "intellectual_depth",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "creating global infrastructure",
-          "democratizing payments",
-          "technical excellence"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "building developer tools"
-        ]
-      }
+      "intellectual_depth": {},
+      "practical_execution": {}
     }
-  }
+  },
+  "nationality": "Nordic",
+  "notable_works": [
+    "Technological innovation",
+    "Software created",
+    "Technology developed"
+  ],
+  "description": "Nordic technology professional known for tech entrepreneur.",
+  "subcategory": "Technology Professional",
+  "expertise_areas": [
+    "Software Development",
+    "Systems Design",
+    "Innovation"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Innovator who created technologies that changed how we live and work"
 }

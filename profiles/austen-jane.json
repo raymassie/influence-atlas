@@ -6,31 +6,11 @@
   "sub_domain": "Romantic Literature",
   "communication_style": {
     "tone": "witty, satirical, observant, subtle, refined, ironic, character-focused, socially-aware, elegant, understated",
-    "tone_parsed": [
-      "character-focused",
-      "elegant",
-      "ironic",
-      "observant",
-      "refined",
-      "satirical",
-      "socially-aware",
-      "subtle",
-      "understated",
-      "witty"
-    ],
     "vocabulary_patterns": "elegant Regency vocabulary, subtle irony, social commentary through dialogue, refined literary language",
     "sentence_structure": "polished prose, balanced sentences, subtle irony, dialogue-driven narrative, sophisticated structure"
   },
   "behavioral_patterns": {
     "work_style": "meticulous revision, character-driven plots, social observation, private writing, careful editing, family collaboration",
-    "work_style_parsed": [
-      "careful editing",
-      "character-driven plots",
-      "family collaboration",
-      "meticulous revision",
-      "private writing",
-      "social observation"
-    ],
     "problem_solving_approach": "through social observation, character development, romantic resolution, social satire, subtle critique"
   },
   "domain_expertise": {
@@ -73,22 +53,7 @@
   "bias_awareness": {
     "primary_biases": "Creative problem-solving with intuitive bias recognition",
     "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
-    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
-    "primary_biases_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ]
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
     "intrinsic_drivers": "Continuous learning and development focus",
@@ -100,17 +65,7 @@
       "creative breakthroughs"
     ],
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -122,12 +77,7 @@
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "Strong integrity-based ethical framework",
-    "human_centered_thinking": "N/A",
-    "ethical_framework_chips": [
-      "Ethical",
-      "Ethical",
-      "Integrity"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -138,51 +88,24 @@
     }
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Innovative approaches with user empathy",
-    "creative_problem_solving_chips": [
-      "User",
-      "Empathy",
-      "Empathy"
-    ]
+    "creative_problem_solving": "Innovative approaches with user empathy"
   },
   "trait_constellations": {
-    "constellations": [
-      "emotional_intelligence",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "careful editing",
-          "character exploration",
-          "character-driven plots",
-          "character-focused",
-          "elegant",
-          "entertainment",
-          "family collaboration",
-          "family relationships",
-          "ironic",
-          "meticulous revision",
-          "observant",
-          "private writing",
-          "refined",
-          "romantic storytelling",
-          "satirical",
-          "social commentary",
-          "social observation",
-          "subtle",
-          "subtle critique",
-          "understated",
-          "witty"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "socially-aware"
-        ]
-      }
+      "intellectual_depth": {},
+      "emotional_intelligence": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Writers professional known for romantic novelist.",
+  "subcategory": "Writers Professional",
+  "expertise_areas": [
+    "Writers"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

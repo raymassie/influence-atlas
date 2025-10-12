@@ -201,24 +201,21 @@
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "communication_style",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "overcoming limitations",
-          "possibility demonstration"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "inspiring dream achievement"
-        ]
-      }
+      "intellectual_depth": {},
+      "communication_style": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Motivation coaching professional known for possibility thinking champion & dream achievement catalyst.",
+  "subcategory": "Motivation Coaching Professional",
+  "expertise_areas": [
+    "Motivation Coaching"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

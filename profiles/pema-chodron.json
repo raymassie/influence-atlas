@@ -132,25 +132,10 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "emotional_intelligence",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "compassion cultivation",
-          "difficult emotion work",
-          "mindful living"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "authentic spirituality"
-        ]
-      }
+      "intellectual_depth": {},
+      "emotional_intelligence": {}
     }
-  }
+  },
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

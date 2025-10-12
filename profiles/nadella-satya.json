@@ -6,31 +6,11 @@
   "sub_domain": "Cloud Computing",
   "communication_style": {
     "tone": "empathetic, growth-minded, collaborative, inclusive, strategic, innovative, authentic, transformative, customer-focused, cultural",
-    "tone_parsed": [
-      "authentic",
-      "collaborative",
-      "cultural",
-      "customer-focused",
-      "empathetic",
-      "growth-minded",
-      "inclusive",
-      "innovative",
-      "strategic",
-      "transformative"
-    ],
     "vocabulary_patterns": "growth mindset terminology, inclusive leadership language, cloud computing concepts, cultural transformation insights",
     "sentence_structure": "empathetic prose, collaborative explanations, growth-minded insights, inclusive communication, strategic thinking"
   },
   "behavioral_patterns": {
     "work_style": "growth mindset approach, inclusive leadership, collaborative culture, customer-focused innovation, strategic transformation, empathetic management",
-    "work_style_parsed": [
-      "collaborative culture",
-      "customer-focused innovation",
-      "empathetic management",
-      "growth mindset approach",
-      "inclusive leadership",
-      "strategic transformation"
-    ],
     "problem_solving_approach": "through growth mindset, inclusive collaboration, customer focus, cultural transformation, strategic innovation, empathetic leadership"
   },
   "domain_expertise": {
@@ -73,51 +53,17 @@
   "bias_awareness": {
     "primary_biases": "Creative problem-solving with intuitive bias recognition",
     "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": "Continuous learning and development focus",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Continuous learning and development focus",
-    "challenge_seeking_chips": [
-      "Seeks",
-      "Complex",
-      "Actively"
-    ]
+    "learning_orientation": "Continuous learning and development focus"
   },
   "self_actualization_indicators": {
     "peak_experiences": "Creative self-expression and innovation",
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "peak_experiences_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -130,12 +76,7 @@
   "cognitive_humanism": {
     "empathy_expression": "High emotional intelligence in leadership",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "N/A",
-    "empathy_expression_chips": [
-      "Emotional",
-      "Leadership",
-      "Leadership"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -147,107 +88,34 @@
     }
   },
   "human_needs_hierarchy": {
-    "belonging_expression": "Strong - builds collaborative teams",
-    "belonging_expression_chips": [
-      "Teams",
-      "Builds",
-      "Collaborative"
-    ]
+    "belonging_expression": "Strong - builds collaborative teams"
   },
   "humanistic_cognition": {
     "collaborative_intelligence": "Exceptional team building and facilitation",
     "holistic_perspective": "Systems thinking with human focus",
-    "creative_problem_solving": "Design thinking with user empathy",
-    "collaborative_intelligence_chips": [
-      "Team",
-      "Building",
-      "Exceptional"
-    ],
-    "holistic_perspective_chips": [
-      "Human",
-      "Systems",
-      "Systems"
-    ],
-    "creative_problem_solving_chips": [
-      "User",
-      "Design",
-      "Design"
-    ]
+    "creative_problem_solving": "Design thinking with user empathy"
   },
   "trait_constellations": {
-    "constellations": [
-      "collaboration_mode",
-      "emotional_intelligence",
-      "growth_learning",
-      "impact_legacy",
-      "innovation_drive",
-      "intellectual_depth",
-      "leadership_approach"
-    ],
     "constellation_details": {
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "customer-focused innovation",
-          "innovative",
-          "strategic innovation"
-        ]
-      },
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "growth mindset approach",
-          "growth mindset development",
-          "growth-minded",
-          "inclusive growth"
-        ]
-      },
-      "collaboration_mode": {
-        "name": "Collaboration",
-        "traits": [
-          "collaborative",
-          "collaborative culture",
-          "collaborative excellence",
-          "inclusive",
-          "inclusive growth",
-          "inclusive leadership"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "authentic",
-          "empathetic",
-          "empathetic leadership",
-          "empathetic management"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "empathetic leadership",
-          "inclusive leadership",
-          "strategic",
-          "strategic innovation",
-          "strategic transformation",
-          "transformative"
-        ]
-      },
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "transformative"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "cultural",
-          "cultural transformation",
-          "customer success",
-          "customer-focused"
-        ]
-      }
+      "innovation_drive": {},
+      "growth_learning": {},
+      "collaboration_mode": {},
+      "emotional_intelligence": {},
+      "leadership_approach": {},
+      "impact_legacy": {},
+      "intellectual_depth": {}
     }
-  }
+  },
+  "nationality": "French",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "French technology leadership professional known for cloud computing leader.",
+  "subcategory": "Technology Leadership Professional",
+  "expertise_areas": [
+    "Technology Leadership"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

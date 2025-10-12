@@ -122,12 +122,7 @@
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "Values-driven ethical decision making",
-    "human_centered_thinking": "N/A",
-    "ethical_framework_chips": [
-      "Values",
-      "Values",
-      "Ethical"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -141,31 +136,10 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "intellectual_depth",
-      "leadership_approach",
-      "values_ethics"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "economic recovery",
-          "social reform"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "crisis leadership"
-        ]
-      },
-      "values_ethics": {
-        "name": "Values & Ethics",
-        "traits": [
-          "democratic values"
-        ]
-      }
+      "intellectual_depth": {},
+      "leadership_approach": {},
+      "values_ethics": {}
     }
   }
 }

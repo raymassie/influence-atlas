@@ -184,50 +184,17 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": "Continuous learning and development focus",
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "learning_orientation_chips": [
-      "Practice",
-      "Deliberate"
-    ]
+    "learning_orientation": "Growth mindset with deliberate practice"
   },
   "self_actualization_indicators": {
     "peak_experiences": "Purpose-driven work aligned with personal values",
     "autonomy_expression": "Purpose-driven work aligned with personal values",
-    "purpose_alignment": "Purpose-driven work aligned with personal values",
-    "peak_experiences_chips": [
-      "Work",
-      "Values",
-      "Values"
-    ],
-    "autonomy_expression_chips": [
-      "Work",
-      "Values",
-      "Values"
-    ],
-    "purpose_alignment_chips": [
-      "Work",
-      "Values",
-      "Values"
-    ]
+    "purpose_alignment": "Purpose-driven work aligned with personal values"
   },
   "behavioral_growth": {
     "adaptation_patterns": "Continuous learning and development focus",
@@ -237,44 +204,26 @@
   "cognitive_humanism": {
     "empathy_expression": "Customer-focused empathy and understanding",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "Always considers human impact",
-    "empathy_expression_chips": [
-      "Empathy",
-      "Empathy",
-      "Focused"
-    ],
-    "human_centered_thinking_chips": [
-      "Human",
-      "Always",
-      "Always"
-    ]
+    "human_centered_thinking": "Always considers human impact"
   },
   "trait_constellations": {
-    "constellations": [
-      "impact_legacy",
-      "intellectual_depth",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "building lasting systems"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "connecting the world",
-          "solving complex problems"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "building lasting systems"
-        ]
-      }
+      "impact_legacy": {},
+      "intellectual_depth": {},
+      "practical_execution": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Entrepreneurship professional known for social platform builder & connectivity visionary.",
+  "subcategory": "Entrepreneurship Professional",
+  "expertise_areas": [
+    "Entrepreneurship",
+    "Analytical Thinking"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

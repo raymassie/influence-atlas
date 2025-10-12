@@ -93,45 +93,26 @@
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "Strong integrity-based ethical framework",
-    "human_centered_thinking": "N/A",
-    "ethical_framework_chips": [
-      "Ethical",
-      "Ethical",
-      "Integrity"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "communication_style",
-      "creative_expression",
-      "values_ethics"
-    ],
     "constellation_details": {
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "literary expression"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "scientific communication"
-        ]
-      },
-      "values_ethics": {
-        "name": "Values & Ethics",
-        "traits": [
-          "environmental protection"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "accessible education"
-        ]
-      }
+      "creative_expression": {},
+      "analytical_thinking": {},
+      "values_ethics": {},
+      "communication_style": {}
     }
-  }
+  },
+  "nationality": "Spanish",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Spanish environmental professional known for environmental scientist.",
+  "subcategory": "Environmental Professional",
+  "expertise_areas": [
+    "Environmental"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

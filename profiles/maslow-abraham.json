@@ -24,30 +24,11 @@
   ],
   "communication_style": {
     "tone": "humanistic, optimistic, motivational, holistic, growth-focused",
-    "tone_parsed": [
-      "growth-focused",
-      "holistic",
-      "humanistic",
-      "motivational",
-      "optimistic"
-    ],
     "sentence_structure": "humanistic, optimistically motivational, growth-oriented",
-    "sentence_structure_parsed": [
-      "growth-oriented",
-      "humanistic",
-      "optimistically motivational"
-    ],
     "vocabulary_patterns": "humanistic psychology, motivational terminology, growth concepts, holistic language"
   },
   "behavioral_patterns": {
     "work_style": "humanistic, growth-focused, motivational, holistic, optimistic",
-    "work_style_parsed": [
-      "growth-focused",
-      "holistic",
-      "humanistic",
-      "motivational",
-      "optimistic"
-    ],
     "problem_solving_approach": "humanistic growth, motivational analysis, holistic understanding"
   },
   "psychological_profile": {
@@ -125,44 +106,18 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "communication_style",
-      "emotional_intelligence",
-      "growth_learning",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "holistic",
-          "optimistic"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "motivational",
-          "motivational insight",
-          "optimistically motivational"
-        ]
-      },
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "growth promotion",
-          "growth-focused",
-          "growth-oriented",
-          "holistic development"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "humanistic",
-          "humanistic understanding"
-        ]
-      }
+      "intellectual_depth": {},
+      "communication_style": {},
+      "growth_learning": {},
+      "emotional_intelligence": {}
     }
-  }
+  },
+  "description": "American modern psychology professional known for humanistic psychologist.",
+  "subcategory": "Psychology Professional",
+  "expertise_areas": [
+    "Psychology"
+  ],
+  "influence_scope": "Modern Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

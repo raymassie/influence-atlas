@@ -185,22 +185,7 @@
   "growth_motivation": {
     "intrinsic_drivers": "Achievement-oriented growth mindset",
     "challenge_seeking": "Achievement-oriented growth mindset",
-    "learning_orientation": "Achievement-oriented growth mindset",
-    "intrinsic_drivers_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "challenge_seeking_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "learning_orientation_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ]
+    "learning_orientation": "Achievement-oriented growth mindset"
   },
   "self_actualization_indicators": {
     "peak_experiences": "N/A",
@@ -210,22 +195,7 @@
   "behavioral_growth": {
     "adaptation_patterns": "Achievement-oriented growth mindset",
     "resilience_indicators": "Achievement-oriented growth mindset",
-    "feedback_integration": "Achievement-oriented growth mindset",
-    "adaptation_patterns_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "resilience_indicators_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "feedback_integration_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ]
+    "feedback_integration": "Achievement-oriented growth mindset"
   },
   "cognitive_humanism": {
     "empathy_expression": "N/A",
@@ -233,31 +203,22 @@
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "communication_style",
-      "innovation_drive",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "overcoming street struggles",
-          "spiritual empowerment"
-        ]
-      },
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "inspiring breakthrough success"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "inspiring breakthrough success"
-        ]
-      }
+      "intellectual_depth": {},
+      "innovation_drive": {},
+      "communication_style": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Motivation coaching professional known for hip-hop preacher & pain-is-temporary motivator.",
+  "subcategory": "Motivation Coaching Professional",
+  "expertise_areas": [
+    "Motivation Coaching"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

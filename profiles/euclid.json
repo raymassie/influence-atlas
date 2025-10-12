@@ -46,14 +46,6 @@
     "decision_making_style": "Logical, Systematic, Proof-Based"
   },
   "communication_style": {
-    "tone_parsed": [
-      "Logical",
-      "Precise",
-      "Systematic",
-      "Clear",
-      "Academic",
-      "Methodical"
-    ],
     "vocabulary_patterns": [
       "Theorem",
       "Proof",
@@ -61,13 +53,6 @@
       "Postulate",
       "Geometry",
       "Logic"
-    ],
-    "sentence_structure_parsed": [
-      "Logical",
-      "Precise",
-      "Systematic",
-      "Clear",
-      "Methodical"
     ]
   },
   "domain_expertise": {
@@ -86,44 +71,8 @@
       "Educational Mathematics"
     ]
   },
-  "behavioral_patterns": {
-    "work_style_parsed": [
-      "Systematic",
-      "Logical",
-      "Precise",
-      "Methodical",
-      "Analytical"
-    ],
-    "problem_solving_approach_parsed": [
-      "Logical",
-      "Systematic",
-      "Proof-Based",
-      "Analytical",
-      "Methodical"
-    ]
-  },
+  "behavioral_patterns": {},
   "collaboration": {
-    "leadership_style_parsed": [
-      "Teaching",
-      "Logical",
-      "Systematic",
-      "Precise",
-      "Methodical"
-    ],
-    "team_dynamics_parsed": [
-      "Logical",
-      "Systematic",
-      "Collaborative",
-      "Precise",
-      "Methodical"
-    ],
-    "mentorship_approach_parsed": [
-      "Teaching",
-      "Logical",
-      "Systematic",
-      "Precise",
-      "Methodical"
-    ],
     "conflict_resolution_parsed": [
       "Logical",
       "Systematic",
@@ -145,93 +94,22 @@
       "Educational Logic"
     ]
   },
-  "temporal_context": {
-    "career_evolution_parsed": [
-      "Student",
-      "Mathematician",
-      "Author",
-      "Teacher",
-      "Mathematical Pioneer"
-    ],
-    "influence_timeline_parsed": [
-      "300 BCE"
-    ],
-    "legacy_impact_parsed": [
-      "Mathematical Education",
-      "Geometric Theory",
-      "Proof Systems",
-      "Mathematical Logic"
-    ]
-  },
-  "cultural_context": {
-    "cultural_background_parsed": [
-      "Ancient Greek",
-      "Academic",
-      "Mathematical",
-      "Educational"
-    ]
-  },
-  "practical_application": {
-    "decision_speed_parsed": [
-      "Logical",
-      "Systematic",
-      "Proof-Based",
-      "Analytical"
-    ]
-  },
-  "learning": {
-    "learning_style_parsed": [
-      "Logical",
-      "Systematic",
-      "Proof-Based",
-      "Analytical"
-    ]
-  },
-  "communication": {
-    "audience_adaptation_parsed": [
-      "Teaching",
-      "Logical",
-      "Systematic",
-      "Precise"
-    ]
-  },
-  "values": {
-    "core_values_parsed": [
-      "Mathematical Truth",
-      "Logical Reasoning",
-      "Systematic Knowledge",
-      "Teaching",
-      "Precision"
-    ]
-  },
+  "temporal_context": {},
+  "cultural_context": {},
+  "practical_application": {},
+  "learning": {},
+  "communication": {},
+  "values": {},
   "category": "Math",
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
     "challenge_seeking": "N/A",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "learning_orientation_chips": [
-      "Practice",
-      "Deliberate"
-    ]
+    "learning_orientation": "Growth mindset with deliberate practice"
   },
   "self_actualization_indicators": {
     "peak_experiences": "N/A",
@@ -246,81 +124,28 @@
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "Always considers human impact",
-    "human_centered_thinking_chips": [
-      "Human",
-      "Always",
-      "Always"
-    ]
+    "human_centered_thinking": "Always considers human impact"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "collaboration_mode",
-      "communication_style",
-      "emotional_intelligence",
-      "impact_legacy",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "collaboration_mode": {
-        "name": "Collaboration",
-        "traits": [
-          "Collaborative"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "Geometric Understanding"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "Clear",
-          "Educational",
-          "Teaching"
-        ]
-      },
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "300 BCE"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "Academic",
-          "Ancient Greek",
-          "Author",
-          "Geometric Theory",
-          "Mathematician",
-          "Precision",
-          "Proof Systems",
-          "Proof-Based",
-          "Student",
-          "Teacher"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "Analytical",
-          "Logical",
-          "Logical Reasoning",
-          "Mathematical",
-          "Mathematical Education",
-          "Mathematical Logic",
-          "Mathematical Pioneer",
-          "Mathematical Truth",
-          "Methodical",
-          "Precise",
-          "Systematic",
-          "Systematic Knowledge"
-        ]
-      }
+      "collaboration_mode": {},
+      "emotional_intelligence": {},
+      "communication_style": {},
+      "impact_legacy": {},
+      "intellectual_depth": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Math professional known for mathematician.",
+  "subcategory": "Math Professional",
+  "expertise_areas": [
+    "Math"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

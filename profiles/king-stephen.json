@@ -26,30 +26,11 @@
   ],
   "communication_style": {
     "tone": "dark, suspenseful, character-driven, atmospheric, psychological",
-    "tone_parsed": [
-      "atmospheric",
-      "character-driven",
-      "dark",
-      "psychological",
-      "suspenseful"
-    ],
     "sentence_structure": "character-driven, darkly atmospheric, suspenseful",
-    "sentence_structure_parsed": [
-      "character-driven",
-      "darkly atmospheric",
-      "suspenseful"
-    ],
     "vocabulary_patterns": "horror terminology, psychological concepts, atmospheric language, suspenseful communication"
   },
   "behavioral_patterns": {
     "work_style": "dark, suspenseful, character-driven, atmospheric, psychological",
-    "work_style_parsed": [
-      "atmospheric",
-      "character-driven",
-      "dark",
-      "psychological",
-      "suspenseful"
-    ],
     "problem_solving_approach": "dark exploration, character-driven analysis, psychological suspense"
   },
   "psychological_profile": {
@@ -132,31 +113,16 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "atmospheric",
-          "atmospheric creation",
-          "character-driven",
-          "character-driven narratives",
-          "dark",
-          "dark storytelling",
-          "darkly atmospheric",
-          "suspenseful"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "psychological",
-          "psychological exploration"
-        ]
-      }
+      "intellectual_depth": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "description": "American modern authors professional known for horror writer.",
+  "subcategory": "Authors Professional",
+  "expertise_areas": [
+    "Authors"
+  ],
+  "influence_scope": "Modern Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

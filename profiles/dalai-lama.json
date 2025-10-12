@@ -135,19 +135,9 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "interfaith dialogue",
-          "peace",
-          "spiritual awakening",
-          "universal compassion"
-        ]
-      }
+      "intellectual_depth": {}
     }
-  }
+  },
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

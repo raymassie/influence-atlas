@@ -24,30 +24,11 @@
   ],
   "communication_style": {
     "tone": "mathematical, quantitative, systematic, data-driven, philanthropic",
-    "tone_parsed": [
-      "data-driven",
-      "mathematical",
-      "philanthropic",
-      "quantitative",
-      "systematic"
-    ],
     "sentence_structure": "mathematical, quantitatively systematic, data-driven",
-    "sentence_structure_parsed": [
-      "data-driven",
-      "mathematical",
-      "quantitatively systematic"
-    ],
     "vocabulary_patterns": "mathematical terminology, quantitative concepts, systematic language, data-driven communication"
   },
   "behavioral_patterns": {
     "work_style": "mathematical, quantitative, systematic, data-driven, philanthropic",
-    "work_style_parsed": [
-      "data-driven",
-      "mathematical",
-      "philanthropic",
-      "quantitative",
-      "systematic"
-    ],
     "problem_solving_approach": "mathematical analysis, quantitative modeling, systematic evaluation"
   },
   "psychological_profile": {
@@ -90,22 +71,7 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic approach to decision-making with bias awareness",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ]
+    "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
@@ -146,31 +112,16 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "philanthropic",
-          "philanthropic impact"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "data-driven",
-          "mathematical",
-          "mathematical excellence",
-          "quantitative",
-          "quantitative insight",
-          "quantitatively systematic",
-          "systematic",
-          "systematic investing"
-        ]
-      }
+      "intellectual_depth": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "description": "American modern investment professional known for quantitative investor.",
+  "subcategory": "Investment Professional",
+  "expertise_areas": [
+    "Investment"
+  ],
+  "influence_scope": "Modern Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

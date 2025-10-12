@@ -82,17 +82,7 @@
       "growth"
     ],
     "challenge_seeking": "Achievement-oriented growth mindset",
-    "learning_orientation": "Achievement-oriented growth mindset",
-    "challenge_seeking_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "learning_orientation_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ]
+    "learning_orientation": "Achievement-oriented growth mindset"
   },
   "self_actualization_indicators": {
     "peak_experiences": "N/A",
@@ -102,51 +92,31 @@
   "behavioral_growth": {
     "adaptation_patterns": "Achievement-oriented growth mindset",
     "resilience_indicators": "Achievement-oriented growth mindset",
-    "feedback_integration": "Achievement-oriented growth mindset",
-    "adaptation_patterns_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "resilience_indicators_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "feedback_integration_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ]
+    "feedback_integration": "Achievement-oriented growth mindset"
   },
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "Strong integrity-based ethical framework",
-    "human_centered_thinking": "Customer-focused decision making",
-    "ethical_framework_chips": [
-      "Ethical",
-      "Ethical",
-      "Integrity"
-    ],
-    "human_centered_thinking_chips": [
-      "Focused",
-      "Customer",
-      "Customer"
-    ]
+    "human_centered_thinking": "Customer-focused decision making"
   },
   "trait_constellations": {
-    "constellations": [
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "competitive advantage",
-          "organizational transformation",
-          "performance excellence"
-        ]
-      }
+      "intellectual_depth": {}
     }
-  }
+  },
+  "nationality": "Spanish",
+  "notable_works": [
+    "Business strategy",
+    "Company founded",
+    "Business innovation"
+  ],
+  "description": "Spanish business professional known for business leader.",
+  "subcategory": "Business Professional",
+  "expertise_areas": [
+    "Strategic Planning",
+    "Leadership",
+    "Innovation"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Visionary leader who transformed their industry and influenced business practices"
 }

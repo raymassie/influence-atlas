@@ -347,6 +347,7 @@
         let filteredProfiles = [];
         let currentView = 'grid';
 
+
         // Function to generate filename from name
         function generateFilename(name) {
             const parts = name.split(' ');
@@ -802,6 +803,7 @@
                 values.forEach(value => {
                     const option = document.createElement('option');
                     option.value = value;
+                    
                     option.textContent = value;
                     
                     // Add click handler for deselection
@@ -963,6 +965,7 @@
                 sortedValues.forEach(value => {
                     const option = document.createElement('option');
                     option.value = value;
+                    
                     option.textContent = value;
                     
                     // Restore selection if it was previously selected
@@ -2225,7 +2228,9 @@
                 Array.from(allValues).sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase())).forEach(value => {
                     const option = document.createElement('option');
                     option.value = value;
+                    
                     option.textContent = value;
+                    
                     filter.appendChild(option);
                 });
             });

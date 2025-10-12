@@ -138,32 +138,10 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "creative_expression",
-      "innovation_drive",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "challenging conventions",
-          "design complexity",
-          "theoretical exploration"
-        ]
-      },
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "architectural innovation"
-        ]
-      },
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "design complexity"
-        ]
-      }
+      "intellectual_depth": {},
+      "innovation_drive": {},
+      "creative_expression": {}
     }
   }
 }

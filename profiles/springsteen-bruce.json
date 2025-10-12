@@ -99,39 +99,28 @@
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "Strong integrity-based ethical framework",
-    "human_centered_thinking": "N/A",
-    "ethical_framework_chips": [
-      "Ethical",
-      "Ethical",
-      "Integrity"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "creative_expression",
-      "emotional_intelligence",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "musical authenticity"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "American storytelling",
-          "working-class expression"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "musical authenticity"
-        ]
-      }
+      "creative_expression": {},
+      "intellectual_depth": {},
+      "emotional_intelligence": {}
     }
-  }
+  },
+  "nationality": "European",
+  "notable_works": [
+    "Musical composition",
+    "Symphony",
+    "Musical work"
+  ],
+  "description": "European music professional known for rock musician.",
+  "subcategory": "Music Professional",
+  "expertise_areas": [
+    "Composition",
+    "Musical Theory",
+    "Performance"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Musician whose compositions have left an enduring mark on musical history"
 }

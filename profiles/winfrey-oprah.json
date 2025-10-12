@@ -190,22 +190,7 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic approach to decision-making with bias awareness",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ]
+    "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
     "intrinsic_drivers": "Continuous learning and development focus",
@@ -215,22 +200,7 @@
   "self_actualization_indicators": {
     "peak_experiences": "Purpose-driven work aligned with personal values",
     "autonomy_expression": "Purpose-driven work aligned with personal values",
-    "purpose_alignment": "Purpose-driven work aligned with personal values",
-    "peak_experiences_chips": [
-      "Work",
-      "Values",
-      "Values"
-    ],
-    "autonomy_expression_chips": [
-      "Work",
-      "Values",
-      "Values"
-    ],
-    "purpose_alignment_chips": [
-      "Work",
-      "Values",
-      "Values"
-    ]
+    "purpose_alignment": "Purpose-driven work aligned with personal values"
   },
   "behavioral_growth": {
     "adaptation_patterns": "Continuous learning and development focus",
@@ -243,30 +213,22 @@
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "emotional_intelligence",
-      "growth_learning",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "helping people transform"
-        ]
-      },
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "spiritual growth"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "authentic self-expression"
-        ]
-      }
+      "intellectual_depth": {},
+      "growth_learning": {},
+      "emotional_intelligence": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Entrepreneurship professional known for media empire builder & transformational influence leader.",
+  "subcategory": "Entrepreneurship Professional",
+  "expertise_areas": [
+    "Entrepreneurship"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

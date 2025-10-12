@@ -92,33 +92,27 @@
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "Strong integrity-based ethical framework",
-    "human_centered_thinking": "N/A",
-    "ethical_framework_chips": [
-      "Ethical",
-      "Ethical",
-      "Integrity"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "creative_expression",
-      "emotional_intelligence"
-    ],
     "constellation_details": {
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "musical authenticity"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "emotional expression",
-          "musical authenticity",
-          "personal connection"
-        ]
-      }
+      "creative_expression": {},
+      "emotional_intelligence": {}
     }
-  }
+  },
+  "nationality": "French",
+  "notable_works": [
+    "Musical composition",
+    "Symphony",
+    "Musical work"
+  ],
+  "description": "French music professional known for pop artist.",
+  "subcategory": "Music Professional",
+  "expertise_areas": [
+    "Composition",
+    "Musical Theory",
+    "Performance"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Musician whose compositions have left an enduring mark on musical history"
 }

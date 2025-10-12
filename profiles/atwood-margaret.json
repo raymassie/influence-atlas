@@ -98,52 +98,27 @@
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "Strong integrity-based ethical framework",
-    "human_centered_thinking": "N/A",
-    "ethical_framework_chips": [
-      "Ethical",
-      "Ethical",
-      "Integrity"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "creative_expression",
-      "emotional_intelligence",
-      "intellectual_depth",
-      "values_ethics"
-    ],
     "constellation_details": {
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "environmental awareness"
-        ]
-      },
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "literary expression"
-        ]
-      },
-      "values_ethics": {
-        "name": "Values & Ethics",
-        "traits": [
-          "environmental awareness"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "dystopian warning"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "ecological consciousness"
-        ]
-      }
+      "emotional_intelligence": {},
+      "creative_expression": {},
+      "values_ethics": {},
+      "intellectual_depth": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Environmental professional known for environmental activist.",
+  "subcategory": "Environmental Professional",
+  "expertise_areas": [
+    "Environmental"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

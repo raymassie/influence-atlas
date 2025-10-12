@@ -23,30 +23,11 @@
   ],
   "communication_style": {
     "tone": "irreverent, direct, humorous, persuasive, authentic",
-    "tone_parsed": [
-      "authentic",
-      "direct",
-      "humorous",
-      "irreverent",
-      "persuasive"
-    ],
     "sentence_structure": "irreverent, humorously direct, authentically engaging",
-    "sentence_structure_parsed": [
-      "authentically engaging",
-      "humorously direct",
-      "irreverent"
-    ],
     "vocabulary_patterns": "irreverent language, humorous copy, direct sales terminology, authentic persuasion"
   },
   "behavioral_patterns": {
     "work_style": "irreverent, humorous, direct, persuasive, authentic",
-    "work_style_parsed": [
-      "authentic",
-      "direct",
-      "humorous",
-      "irreverent",
-      "persuasive"
-    ],
     "problem_solving_approach": "irreverent persuasion, humorous engagement, direct sales optimization"
   },
   "psychological_profile": {
@@ -112,39 +93,17 @@
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "communication_style",
-      "emotional_intelligence",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "humorous",
-          "humorous engagement",
-          "irreverent",
-          "irreverent persuasion"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "authentically engaging",
-          "direct",
-          "direct communication",
-          "humorously direct",
-          "persuasive"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "authentic",
-          "authentic sales",
-          "authentically engaging"
-        ]
-      }
+      "intellectual_depth": {},
+      "communication_style": {},
+      "emotional_intelligence": {}
     }
-  }
+  },
+  "description": "American modern marketing professional known for sales copywriter.",
+  "subcategory": "Marketing Professional",
+  "expertise_areas": [
+    "Marketing"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

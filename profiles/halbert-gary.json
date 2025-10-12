@@ -24,30 +24,11 @@
   ],
   "communication_style": {
     "tone": "conversational, persuasive, storytelling, direct, engaging",
-    "tone_parsed": [
-      "conversational",
-      "direct",
-      "engaging",
-      "persuasive",
-      "storytelling"
-    ],
     "sentence_structure": "conversational, storytelling-based, engaging flow",
-    "sentence_structure_parsed": [
-      "conversational",
-      "engaging flow",
-      "storytelling-based"
-    ],
     "vocabulary_patterns": "conversational language, storytelling techniques, persuasive copy, sales terminology"
   },
   "behavioral_patterns": {
     "work_style": "conversational, storytelling, persuasive, engaging, sales-focused",
-    "work_style_parsed": [
-      "conversational",
-      "engaging",
-      "persuasive",
-      "sales-focused",
-      "storytelling"
-    ],
     "problem_solving_approach": "storytelling persuasion, conversational engagement, sales optimization"
   },
   "psychological_profile": {
@@ -113,33 +94,16 @@
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "communication_style",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "conversational",
-          "conversational engagement",
-          "copywriting education",
-          "sales optimization",
-          "sales-focused",
-          "storytelling",
-          "storytelling persuasion",
-          "storytelling-based"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "direct",
-          "engaging",
-          "engaging flow",
-          "persuasive"
-        ]
-      }
+      "intellectual_depth": {},
+      "communication_style": {}
     }
-  }
+  },
+  "description": "American modern marketing professional known for sales copywriter.",
+  "subcategory": "Marketing Professional",
+  "expertise_areas": [
+    "Marketing"
+  ],
+  "influence_scope": "Modern Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

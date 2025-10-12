@@ -138,37 +138,12 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "communication_style",
-      "intellectual_depth",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "spiritual wisdom"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "psychological integration"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "practical spirituality"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "Vipassana teaching"
-        ]
-      }
+      "intellectual_depth": {},
+      "analytical_thinking": {},
+      "practical_execution": {},
+      "communication_style": {}
     }
-  }
+  },
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

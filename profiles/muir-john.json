@@ -141,25 +141,9 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "intellectual_depth",
-      "values_ethics"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "conservation advocacy",
-          "nature preservation",
-          "wilderness protection"
-        ]
-      },
-      "values_ethics": {
-        "name": "Values & Ethics",
-        "traits": [
-          "environmental education"
-        ]
-      }
+      "intellectual_depth": {},
+      "values_ethics": {}
     }
   }
 }

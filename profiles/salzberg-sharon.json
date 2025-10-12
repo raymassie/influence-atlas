@@ -140,31 +140,11 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "communication_style",
-      "growth_learning",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "compassion development",
-          "spiritual growth"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "loving-kindness cultivation"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "mindfulness teaching"
-        ]
-      }
+      "growth_learning": {},
+      "intellectual_depth": {},
+      "communication_style": {}
     }
-  }
+  },
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

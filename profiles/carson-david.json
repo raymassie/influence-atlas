@@ -6,31 +6,11 @@
   "sub_domain": "Experimental Typography",
   "communication_style": {
     "tone": "experimental, rebellious, intuitive, expressive, unconventional, emotional, raw, authentic, innovative, disruptive",
-    "tone_parsed": [
-      "authentic",
-      "disruptive",
-      "emotional",
-      "experimental",
-      "expressive",
-      "innovative",
-      "intuitive",
-      "raw",
-      "rebellious",
-      "unconventional"
-    ],
     "vocabulary_patterns": "experimental design language, intuitive expression, unconventional terminology, emotional design concepts",
     "sentence_structure": "intuitive, expressive prose, experimental design language, emotional descriptions, unconventional communication"
   },
   "behavioral_patterns": {
     "work_style": "intuitive approach, experimental techniques, emotional expression, unconventional methods, collaborative art direction, innovative typography",
-    "work_style_parsed": [
-      "collaborative art direction",
-      "emotional expression",
-      "experimental techniques",
-      "innovative typography",
-      "intuitive approach",
-      "unconventional methods"
-    ],
     "problem_solving_approach": "through intuitive design, experimental exploration, emotional expression, unconventional solutions, typographic innovation"
   },
   "domain_expertise": {
@@ -73,49 +53,19 @@
   "bias_awareness": {
     "primary_biases": "Creative problem-solving with intuitive bias recognition",
     "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
-    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
-    "primary_biases_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ]
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "N/A",
-    "challenge_seeking_chips": [
-      "Seeks",
-      "Complex",
-      "Actively"
-    ]
+    "learning_orientation": "N/A"
   },
   "self_actualization_indicators": {
     "peak_experiences": [
       "creative breakthroughs"
     ],
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -127,17 +77,7 @@
   "cognitive_humanism": {
     "empathy_expression": "High emotional intelligence in team leadership",
     "ethical_framework": "Strong integrity-based ethical framework",
-    "human_centered_thinking": "N/A",
-    "empathy_expression_chips": [
-      "Team",
-      "Emotional",
-      "Leadership"
-    ],
-    "ethical_framework_chips": [
-      "Ethical",
-      "Ethical",
-      "Integrity"
-    ]
+    "human_centered_thinking": "N/A"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -147,77 +87,28 @@
     }
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Innovative approaches with user empathy",
-    "creative_problem_solving_chips": [
-      "User",
-      "Empathy",
-      "Empathy"
-    ]
+    "creative_problem_solving": "Innovative approaches with user empathy"
   },
   "trait_constellations": {
-    "constellations": [
-      "collaboration_mode",
-      "communication_style",
-      "creative_expression",
-      "emotional_intelligence",
-      "innovation_drive",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "disruptive",
-          "experimental",
-          "experimental expression",
-          "experimental techniques",
-          "innovative",
-          "innovative typography",
-          "typographic innovation"
-        ]
-      },
-      "collaboration_mode": {
-        "name": "Collaboration",
-        "traits": [
-          "collaborative art direction"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "authentic",
-          "authentic creativity",
-          "emotional",
-          "emotional communication",
-          "emotional expression",
-          "intuitive",
-          "intuitive approach"
-        ]
-      },
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "design rebellion",
-          "expressive",
-          "unconventional aesthetics"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "collaborative art direction",
-          "expressive"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "raw",
-          "rebellious",
-          "unconventional",
-          "unconventional methods"
-        ]
-      }
+      "innovation_drive": {},
+      "collaboration_mode": {},
+      "emotional_intelligence": {},
+      "creative_expression": {},
+      "communication_style": {},
+      "intellectual_depth": {}
     }
-  }
+  },
+  "nationality": "Italian",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Italian design professional known for experimental typographer.",
+  "subcategory": "Design Professional",
+  "expertise_areas": [
+    "Design"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

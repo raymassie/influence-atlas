@@ -6,31 +6,11 @@
   "sub_domain": "Swiss Design",
   "communication_style": {
     "tone": "systematic, precise, functional, mathematical, grid-based, objective, clear, disciplined, rational, influential",
-    "tone_parsed": [
-      "clear",
-      "disciplined",
-      "functional",
-      "grid-based",
-      "influential",
-      "mathematical",
-      "objective",
-      "precise",
-      "rational",
-      "systematic"
-    ],
     "vocabulary_patterns": "Swiss design terminology, mathematical precision, systematic design principles, functional aesthetics language",
     "sentence_structure": "systematic, precise prose, mathematical descriptions, functional design language, objective communication"
   },
   "behavioral_patterns": {
     "work_style": "grid-based systems, mathematical precision, systematic approach, functional design, educational focus, rational problem-solving",
-    "work_style_parsed": [
-      "educational focus",
-      "functional design",
-      "grid-based systems",
-      "mathematical precision",
-      "rational problem-solving",
-      "systematic approach"
-    ],
     "problem_solving_approach": "through systematic grid systems, mathematical analysis, functional design, rational solutions, objective design principles"
   },
   "domain_expertise": {
@@ -73,22 +53,7 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic approach to decision-making with bias awareness",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ]
+    "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
@@ -123,68 +88,25 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "communication_style",
-      "creative_expression",
-      "impact_legacy",
-      "intellectual_depth",
-      "leadership_approach"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "disciplined",
-          "functional",
-          "grid-based",
-          "grid-based systems",
-          "objective"
-        ]
-      },
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "design education",
-          "functional aesthetics",
-          "functional design",
-          "objective design principles",
-          "systematic design"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "influential"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "clear",
-          "educational focus"
-        ]
-      },
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "influential"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "mathematical",
-          "mathematical precision",
-          "precise",
-          "rational",
-          "rational communication",
-          "rational problem-solving",
-          "systematic",
-          "systematic approach",
-          "systematic design"
-        ]
-      }
+      "intellectual_depth": {},
+      "creative_expression": {},
+      "leadership_approach": {},
+      "communication_style": {},
+      "impact_legacy": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "nationality": "Unknown",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Design professional known for swiss design pioneer.",
+  "subcategory": "Design Professional",
+  "expertise_areas": [
+    "Design"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

@@ -24,30 +24,11 @@
   ],
   "communication_style": {
     "tone": "activist, contrarian, analytical, confrontational, value-focused",
-    "tone_parsed": [
-      "activist",
-      "analytical",
-      "confrontational",
-      "contrarian",
-      "value-focused"
-    ],
     "sentence_structure": "activist, analytically contrarian, confrontationally focused",
-    "sentence_structure_parsed": [
-      "analytically contrarian",
-      "activist",
-      "confrontationally focused"
-    ],
     "vocabulary_patterns": "activist terminology, contrarian concepts, analytical language, confrontational communication"
   },
   "behavioral_patterns": {
     "work_style": "activist, contrarian, analytical, confrontational, value-focused",
-    "work_style_parsed": [
-      "activist",
-      "analytical",
-      "confrontational",
-      "contrarian",
-      "value-focused"
-    ],
     "problem_solving_approach": "activist analysis, contrarian thinking, confrontational solutions"
   },
   "psychological_profile": {
@@ -90,40 +71,12 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic with bias checks",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Checks"
-    ]
+    "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
     "intrinsic_drivers": "Achievement-oriented growth mindset",
     "challenge_seeking": "Achievement-oriented growth mindset",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "intrinsic_drivers_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "challenge_seeking_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "learning_orientation_chips": [
-      "Practice",
-      "Deliberate"
-    ]
+    "learning_orientation": "Growth mindset with deliberate practice"
   },
   "self_actualization_indicators": {
     "peak_experiences": "N/A",
@@ -133,32 +86,12 @@
   "behavioral_growth": {
     "adaptation_patterns": "Achievement-oriented growth mindset",
     "resilience_indicators": "Achievement-oriented growth mindset",
-    "feedback_integration": "Achievement-oriented growth mindset",
-    "adaptation_patterns_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "resilience_indicators_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "feedback_integration_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ]
+    "feedback_integration": "Achievement-oriented growth mindset"
   },
   "cognitive_humanism": {
     "empathy_expression": "N/A",
     "ethical_framework": "N/A",
-    "human_centered_thinking": "Always considers human impact",
-    "human_centered_thinking_chips": [
-      "Human",
-      "Always",
-      "Always"
-    ]
+    "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -173,44 +106,18 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "growth_learning",
-      "impact_legacy",
-      "intellectual_depth"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "activist",
-          "confrontational",
-          "confrontationally focused",
-          "contrarian",
-          "contrarian success",
-          "value-focused"
-        ]
-      },
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "activist change"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "analytical",
-          "analytical insight",
-          "analytically contrarian"
-        ]
-      },
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "confrontational improvement"
-        ]
-      }
+      "intellectual_depth": {},
+      "impact_legacy": {},
+      "analytical_thinking": {},
+      "growth_learning": {}
     }
-  }
+  },
+  "description": "American modern investment professional known for activist investor.",
+  "subcategory": "Investment Professional",
+  "expertise_areas": [
+    "Investment"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

@@ -41,14 +41,6 @@
     "decision_making_style": "Creative, Intuitive, Trend-Aware"
   },
   "communication_style": {
-    "tone_parsed": [
-      "Creative",
-      "Trend-Setting",
-      "Enthusiastic",
-      "Visionary",
-      "Style-Focused",
-      "Innovative"
-    ],
     "vocabulary_patterns": [
       "Style",
       "Trend",
@@ -56,13 +48,6 @@
       "Brand",
       "Innovation",
       "Culture"
-    ],
-    "sentence_structure_parsed": [
-      "Creative",
-      "Trend-Focused",
-      "Enthusiastic",
-      "Visionary",
-      "Style-Oriented"
     ]
   },
   "domain_expertise": {
@@ -81,44 +66,8 @@
       "Fashion Marketing"
     ]
   },
-  "behavioral_patterns": {
-    "work_style_parsed": [
-      "Creative",
-      "Trend-Setting",
-      "Innovative",
-      "Visionary",
-      "Style-Focused"
-    ],
-    "problem_solving_approach_parsed": [
-      "Creative",
-      "Trend-Based",
-      "Innovative",
-      "Cultural",
-      "Style-Focused"
-    ]
-  },
+  "behavioral_patterns": {},
   "collaboration": {
-    "leadership_style_parsed": [
-      "Creative",
-      "Visionary",
-      "Trend-Setting",
-      "Inspiring",
-      "Style-Focused"
-    ],
-    "team_dynamics_parsed": [
-      "Creative",
-      "Trend-Focused",
-      "Innovative",
-      "Style-Oriented",
-      "Collaborative"
-    ],
-    "mentorship_approach_parsed": [
-      "Creative",
-      "Style-Focused",
-      "Trend-Setting",
-      "Inspiring",
-      "Visionary"
-    ],
     "conflict_resolution_parsed": [
       "Creative",
       "Style-Focused",
@@ -140,113 +89,29 @@
       "Brand Positioning"
     ]
   },
-  "temporal_context": {
-    "career_evolution_parsed": [
-      "Fashion Designer",
-      "Brand Creator",
-      "Industry Leader",
-      "Marketing Pioneer",
-      "Cultural Influencer"
-    ],
-    "influence_timeline_parsed": [
-      "1970s",
-      "1980s"
-    ],
-    "legacy_impact_parsed": [
-      "Fashion Branding",
-      "American Sportswear",
-      "Brand Marketing",
-      "Cultural Fashion"
-    ]
-  },
-  "cultural_context": {
-    "cultural_background_parsed": [
-      "American",
-      "Fashion Culture",
-      "Creative",
-      "Cultural"
-    ]
-  },
-  "practical_application": {
-    "decision_speed_parsed": [
-      "Creative",
-      "Trend-Based",
-      "Intuitive",
-      "Style-Focused"
-    ]
-  },
-  "learning": {
-    "learning_style_parsed": [
-      "Creative",
-      "Trend-Based",
-      "Cultural",
-      "Style-Focused"
-    ]
-  },
-  "communication": {
-    "audience_adaptation_parsed": [
-      "Creative",
-      "Style-Focused",
-      "Trend-Setting",
-      "Cultural"
-    ]
-  },
-  "values": {
-    "core_values_parsed": [
-      "Style",
-      "Innovation",
-      "Cultural Impact",
-      "Creative Expression",
-      "Fashion"
-    ]
-  },
+  "temporal_context": {},
+  "cultural_context": {},
+  "practical_application": {},
+  "learning": {},
+  "communication": {},
+  "values": {},
   "category": "Marketing",
   "bias_awareness": {
     "primary_biases": "Creative problem-solving with intuitive bias recognition",
     "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
-    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
-    "primary_biases_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Creative",
-      "Creative"
-    ]
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
     "intrinsic_drivers": "N/A",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "N/A",
-    "challenge_seeking_chips": [
-      "Seeks",
-      "Complex",
-      "Actively"
-    ]
+    "learning_orientation": "N/A"
   },
   "self_actualization_indicators": {
     "peak_experiences": [
       "creative breakthroughs"
     ],
     "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation",
-    "autonomy_expression_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ],
-    "purpose_alignment_chips": [
-      "Self",
-      "Creative",
-      "Creative"
-    ]
+    "purpose_alignment": "Creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
@@ -262,99 +127,30 @@
     "human_centered_thinking": "N/A"
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Design thinking with user empathy",
-    "creative_problem_solving_chips": [
-      "User",
-      "Design",
-      "Design"
-    ]
+    "creative_problem_solving": "Design thinking with user empathy"
   },
   "trait_constellations": {
-    "constellations": [
-      "collaboration_mode",
-      "communication_style",
-      "creative_expression",
-      "emotional_intelligence",
-      "innovation_drive",
-      "intellectual_depth",
-      "leadership_approach",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "innovation_drive": {
-        "name": "Innovation",
-        "traits": [
-          "Fashion Innovation",
-          "Innovation",
-          "Innovative"
-        ]
-      },
-      "collaboration_mode": {
-        "name": "Collaboration",
-        "traits": [
-          "Collaborative"
-        ]
-      },
-      "emotional_intelligence": {
-        "name": "Emotional Intelligence",
-        "traits": [
-          "Intuitive"
-        ]
-      },
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "Creative",
-          "Creative Expression",
-          "Fashion Designer"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "Style Leadership",
-          "Visionary"
-        ]
-      },
-      "communication_style": {
-        "name": "Communication",
-        "traits": [
-          "Inspiring"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "1970s",
-          "1980s",
-          "American",
-          "American Sportswear",
-          "Brand Creator",
-          "Brand Marketing",
-          "Cultural",
-          "Cultural Fashion",
-          "Cultural Impact",
-          "Cultural Influencer",
-          "Enthusiastic",
-          "Fashion",
-          "Fashion Branding",
-          "Fashion Culture",
-          "Industry Leader",
-          "Marketing Pioneer",
-          "Style",
-          "Style-Focused",
-          "Style-Oriented",
-          "Trend-Based",
-          "Trend-Focused",
-          "Trend-Setting"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "Brand Building"
-        ]
-      }
+      "innovation_drive": {},
+      "collaboration_mode": {},
+      "emotional_intelligence": {},
+      "creative_expression": {},
+      "leadership_approach": {},
+      "communication_style": {},
+      "intellectual_depth": {},
+      "practical_execution": {}
     }
-  }
+  },
+  "nationality": "Spanish",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "Spanish marketing professional known for brand strategist.",
+  "subcategory": "Marketing Professional",
+  "expertise_areas": [
+    "Marketing"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

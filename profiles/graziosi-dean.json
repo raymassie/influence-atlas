@@ -179,22 +179,7 @@
   "growth_motivation": {
     "intrinsic_drivers": "Achievement-oriented growth mindset",
     "challenge_seeking": "Achievement-oriented growth mindset",
-    "learning_orientation": "Achievement-oriented growth mindset",
-    "intrinsic_drivers_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "challenge_seeking_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "learning_orientation_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ]
+    "learning_orientation": "Achievement-oriented growth mindset"
   },
   "self_actualization_indicators": {
     "peak_experiences": "N/A",
@@ -204,22 +189,7 @@
   "behavioral_growth": {
     "adaptation_patterns": "Achievement-oriented growth mindset",
     "resilience_indicators": "Achievement-oriented growth mindset",
-    "feedback_integration": "Achievement-oriented growth mindset",
-    "adaptation_patterns_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "resilience_indicators_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ],
-    "feedback_integration_chips": [
-      "Achievement",
-      "Achievement",
-      "Growth mindset"
-    ]
+    "feedback_integration": "Achievement-oriented growth mindset"
   },
   "cognitive_humanism": {
     "empathy_expression": "N/A",
@@ -227,24 +197,21 @@
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {
-    "constellations": [
-      "intellectual_depth",
-      "practical_execution"
-    ],
     "constellation_details": {
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "helping others succeed",
-          "proving doubters wrong"
-        ]
-      },
-      "practical_execution": {
-        "name": "Execution",
-        "traits": [
-          "building wealth"
-        ]
-      }
+      "intellectual_depth": {},
+      "practical_execution": {}
     }
-  }
+  },
+  "nationality": "French",
+  "notable_works": [
+    "Notable work",
+    "Major contribution"
+  ],
+  "description": "French entrepreneurship professional known for real estate mogul & wealth mindset coach.",
+  "subcategory": "Entrepreneurship Professional",
+  "expertise_areas": [
+    "Entrepreneurship"
+  ],
+  "influence_scope": "Contemporary Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

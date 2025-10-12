@@ -24,30 +24,11 @@
   ],
   "communication_style": {
     "tone": "principled, systematic, thoughtful, character-focused, leadership-oriented",
-    "tone_parsed": [
-      "character-focused",
-      "leadership-oriented",
-      "principled",
-      "systematic",
-      "thoughtful"
-    ],
     "sentence_structure": "principled, systematically thoughtful, character-focused",
-    "sentence_structure_parsed": [
-      "character-focused",
-      "principled",
-      "systematically thoughtful"
-    ],
     "vocabulary_patterns": "leadership terminology, principled language, systematic concepts, character-based communication"
   },
   "behavioral_patterns": {
     "work_style": "principled, systematic, thoughtful, character-focused, leadership-oriented",
-    "work_style_parsed": [
-      "character-focused",
-      "leadership-oriented",
-      "principled",
-      "systematic",
-      "thoughtful"
-    ],
     "problem_solving_approach": "principled analysis, systematic thinking, character-based solutions"
   },
   "psychological_profile": {
@@ -90,22 +71,7 @@
   "bias_awareness": {
     "primary_biases": "Systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic approach to decision-making with bias awareness",
-    "primary_biases_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "bias_mitigation_strategies_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ],
-    "decision_making_style_chips": [
-      "Bias",
-      "Awareness",
-      "Bias awareness"
-    ]
+    "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
     "intrinsic_drivers": "Continuous learning and development focus",
@@ -146,52 +112,19 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "analytical_thinking",
-      "growth_learning",
-      "intellectual_depth",
-      "leadership_approach",
-      "values_ethics"
-    ],
     "constellation_details": {
-      "growth_learning": {
-        "name": "Growth & Learning",
-        "traits": [
-          "systematic development"
-        ]
-      },
-      "leadership_approach": {
-        "name": "Leadership",
-        "traits": [
-          "leadership-oriented",
-          "principled leadership"
-        ]
-      },
-      "values_ethics": {
-        "name": "Values & Ethics",
-        "traits": [
-          "principled",
-          "principled leadership"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "character-based coaching",
-          "character-focused",
-          "systematically thoughtful",
-          "thoughtful",
-          "thoughtful guidance"
-        ]
-      },
-      "analytical_thinking": {
-        "name": "Analytical Thinking",
-        "traits": [
-          "systematic",
-          "systematic development",
-          "systematically thoughtful"
-        ]
-      }
+      "growth_learning": {},
+      "leadership_approach": {},
+      "values_ethics": {},
+      "intellectual_depth": {},
+      "analytical_thinking": {}
     }
-  }
+  },
+  "description": "American modern motivation coaching professional known for leadership coach.",
+  "subcategory": "Motivation Coaching Professional",
+  "expertise_areas": [
+    "Motivation Coaching"
+  ],
+  "influence_scope": "Modern Influence",
+  "legacy": "Notable figure whose contributions continue to be recognized"
 }

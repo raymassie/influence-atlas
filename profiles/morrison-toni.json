@@ -149,37 +149,11 @@
     }
   },
   "trait_constellations": {
-    "constellations": [
-      "creative_expression",
-      "impact_legacy",
-      "intellectual_depth",
-      "values_ethics"
-    ],
     "constellation_details": {
-      "impact_legacy": {
-        "name": "Impact & Legacy",
-        "traits": [
-          "historical truth"
-        ]
-      },
-      "creative_expression": {
-        "name": "Creative Expression",
-        "traits": [
-          "literary excellence"
-        ]
-      },
-      "intellectual_depth": {
-        "name": "Intellectual Depth",
-        "traits": [
-          "cultural expression"
-        ]
-      },
-      "values_ethics": {
-        "name": "Values & Ethics",
-        "traits": [
-          "social justice"
-        ]
-      }
+      "impact_legacy": {},
+      "creative_expression": {},
+      "intellectual_depth": {},
+      "values_ethics": {}
     }
   }
 }
