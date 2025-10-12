@@ -10,25 +10,84 @@
   "birth_year": 1838,
   "death_year": 1914,
   "description": "American naturalist and conservationist who founded the Sierra Club and was instrumental in establishing the national park system.",
-  "notable_works": ["Sierra Club", "National parks", "Nature writing", "Conservation advocacy"],
+  "notable_works": [
+    "Sierra Club",
+    "National parks",
+    "Nature writing",
+    "Conservation advocacy"
+  ],
   "psychological_profile": {
-    "primary_traits": ["passionate", "observant", "influential", "nature-loving", "conservationist"],
-    "core_motivations": ["nature preservation", "conservation advocacy", "wilderness protection", "environmental education"],
-    "behavioral_patterns": ["conservation advocacy", "nature observation", "wilderness protection", "environmental writing"]
+    "primary_traits": [
+      "passionate",
+      "observant",
+      "influential",
+      "nature-loving",
+      "conservationist"
+    ],
+    "core_motivations": [
+      "nature preservation",
+      "conservation advocacy",
+      "wilderness protection",
+      "environmental education"
+    ],
+    "behavioral_patterns": [
+      "conservation advocacy",
+      "nature observation",
+      "wilderness protection",
+      "environmental writing"
+    ]
   },
   "communication_style": {
-    "tone": ["passionate", "observant", "nature-loving", "conservationist"],
-    "vocabulary_patterns": ["nature concepts", "conservation terminology", "wilderness language", "environmental advocacy"],
-    "rhetorical_strategies": ["conservation advocacy", "nature observation", "wilderness protection", "environmental writing"]
+    "tone": [
+      "passionate",
+      "observant",
+      "nature-loving",
+      "conservationist"
+    ],
+    "vocabulary_patterns": [
+      "nature concepts",
+      "conservation terminology",
+      "wilderness language",
+      "environmental advocacy"
+    ],
+    "rhetorical_strategies": [
+      "conservation advocacy",
+      "nature observation",
+      "wilderness protection",
+      "environmental writing"
+    ]
   },
   "values": {
-    "core_values": ["nature preservation", "conservation advocacy", "wilderness protection", "environmental education", "nature appreciation"],
-    "professional_principles": ["conservation advocacy", "nature observation", "wilderness protection", "environmental writing"]
+    "core_values": [
+      "nature preservation",
+      "conservation advocacy",
+      "wilderness protection",
+      "environmental education",
+      "nature appreciation"
+    ],
+    "professional_principles": [
+      "conservation advocacy",
+      "nature observation",
+      "wilderness protection",
+      "environmental writing"
+    ]
   },
   "collaboration_style": {
-    "approach": ["conservation partnerships", "nature collaborations", "wilderness alliances"],
-    "preferences": ["conservation advocacy", "nature observation", "wilderness protection"],
-    "conflict_resolution": ["conservation analysis", "nature reasoning", "wilderness protection"]
+    "approach": [
+      "conservation partnerships",
+      "nature collaborations",
+      "wilderness alliances"
+    ],
+    "preferences": [
+      "conservation advocacy",
+      "nature observation",
+      "wilderness protection"
+    ],
+    "conflict_resolution": [
+      "conservation analysis",
+      "nature reasoning",
+      "wilderness protection"
+    ]
   },
   "expertise_areas": [
     "Nature conservation",
@@ -39,5 +98,46 @@
     "Nature observation"
   ],
   "influence_scope": "Global - Environmental conservation and national parks",
-  "legacy": "Founded the Sierra Club and was instrumental in establishing the national park system, becoming one of the most influential conservationists in American history."
+  "legacy": "Founded the Sierra Club and was instrumental in establishing the national park system, becoming one of the most influential conservationists in American history.",
+  "bias_awareness": {
+    "primary_biases": "N/A",
+    "bias_mitigation_strategies": "N/A",
+    "decision_making_style": "N/A"
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Activist",
+        "Author",
+        "Philosopher"
+      ],
+      "achievement_indicators": [
+        "founded"
+      ],
+      "influence_indicators": [
+        "prominent"
+      ]
+    }
+  }
 }

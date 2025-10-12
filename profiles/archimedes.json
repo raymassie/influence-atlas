@@ -10,25 +10,84 @@
   "birth_year": 287,
   "death_year": 212,
   "description": "Ancient Greek mathematician, physicist, engineer, and inventor who made fundamental contributions to mathematics and engineering.",
-  "notable_works": ["Archimedes' principle", "Pi calculation", "Lever theory", "Hydrostatics"],
+  "notable_works": [
+    "Archimedes' principle",
+    "Pi calculation",
+    "Lever theory",
+    "Hydrostatics"
+  ],
   "psychological_profile": {
-    "primary_traits": ["analytical", "innovative", "practical", "systematic", "curious"],
-    "core_motivations": ["mathematical discovery", "engineering innovation", "scientific understanding", "practical application"],
-    "behavioral_patterns": ["mathematical analysis", "engineering innovation", "scientific experimentation", "practical problem-solving"]
+    "primary_traits": [
+      "analytical",
+      "innovative",
+      "practical",
+      "systematic",
+      "curious"
+    ],
+    "core_motivations": [
+      "mathematical discovery",
+      "engineering innovation",
+      "scientific understanding",
+      "practical application"
+    ],
+    "behavioral_patterns": [
+      "mathematical analysis",
+      "engineering innovation",
+      "scientific experimentation",
+      "practical problem-solving"
+    ]
   },
   "communication_style": {
-    "tone": ["analytical", "innovative", "practical", "systematic"],
-    "vocabulary_patterns": ["mathematical concepts", "engineering terminology", "scientific language", "practical analysis"],
-    "rhetorical_strategies": ["mathematical demonstration", "engineering innovation", "scientific argument", "practical application"]
+    "tone": [
+      "analytical",
+      "innovative",
+      "practical",
+      "systematic"
+    ],
+    "vocabulary_patterns": [
+      "mathematical concepts",
+      "engineering terminology",
+      "scientific language",
+      "practical analysis"
+    ],
+    "rhetorical_strategies": [
+      "mathematical demonstration",
+      "engineering innovation",
+      "scientific argument",
+      "practical application"
+    ]
   },
   "values": {
-    "core_values": ["mathematical truth", "engineering excellence", "scientific understanding", "practical application", "systematic analysis"],
-    "professional_principles": ["mathematical analysis", "engineering innovation", "scientific experimentation", "practical problem-solving"]
+    "core_values": [
+      "mathematical truth",
+      "engineering excellence",
+      "scientific understanding",
+      "practical application",
+      "systematic analysis"
+    ],
+    "professional_principles": [
+      "mathematical analysis",
+      "engineering innovation",
+      "scientific experimentation",
+      "practical problem-solving"
+    ]
   },
   "collaboration_style": {
-    "approach": ["mathematical collaboration", "engineering partnerships", "scientific alliances"],
-    "preferences": ["mathematical analysis", "engineering innovation", "scientific experimentation"],
-    "conflict_resolution": ["mathematical proof", "engineering demonstration", "scientific evidence"]
+    "approach": [
+      "mathematical collaboration",
+      "engineering partnerships",
+      "scientific alliances"
+    ],
+    "preferences": [
+      "mathematical analysis",
+      "engineering innovation",
+      "scientific experimentation"
+    ],
+    "conflict_resolution": [
+      "mathematical proof",
+      "engineering demonstration",
+      "scientific evidence"
+    ]
   },
   "expertise_areas": [
     "Geometry",
@@ -39,5 +98,99 @@
     "Scientific innovation"
   ],
   "influence_scope": "Global - Mathematics and engineering",
-  "legacy": "Made fundamental contributions to mathematics, physics, and engineering, establishing principles that remain foundational in modern science and engineering."
+  "legacy": "Made fundamental contributions to mathematics, physics, and engineering, establishing principles that remain foundational in modern science and engineering.",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ],
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "Always considers human impact",
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Scientist",
+        "Inventor",
+        "Engineer"
+      ],
+      "influence_indicators": [
+        "leading",
+        "influential",
+        "innovative"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ]
+  }
 }

@@ -10,25 +10,84 @@
   "birth_year": 1723,
   "death_year": 1790,
   "description": "Scottish economist and philosopher who is considered the father of modern economics and authored 'The Wealth of Nations'.",
-  "notable_works": ["The Wealth of Nations", "The Theory of Moral Sentiments", "Free market theory", "Division of labor"],
+  "notable_works": [
+    "The Wealth of Nations",
+    "The Theory of Moral Sentiments",
+    "Free market theory",
+    "Division of labor"
+  ],
   "psychological_profile": {
-    "primary_traits": ["analytical", "systematic", "philosophical", "observant", "principled"],
-    "core_motivations": ["economic understanding", "free market theory", "moral philosophy", "economic efficiency"],
-    "behavioral_patterns": ["economic analysis", "philosophical reasoning", "systematic observation", "free market advocacy"]
+    "primary_traits": [
+      "analytical",
+      "systematic",
+      "philosophical",
+      "observant",
+      "principled"
+    ],
+    "core_motivations": [
+      "economic understanding",
+      "free market theory",
+      "moral philosophy",
+      "economic efficiency"
+    ],
+    "behavioral_patterns": [
+      "economic analysis",
+      "philosophical reasoning",
+      "systematic observation",
+      "free market advocacy"
+    ]
   },
   "communication_style": {
-    "tone": ["analytical", "systematic", "philosophical", "observant"],
-    "vocabulary_patterns": ["economic concepts", "philosophical terminology", "moral language", "economic analysis"],
-    "rhetorical_strategies": ["economic analysis", "philosophical argument", "moral reasoning", "systematic observation"]
+    "tone": [
+      "analytical",
+      "systematic",
+      "philosophical",
+      "observant"
+    ],
+    "vocabulary_patterns": [
+      "economic concepts",
+      "philosophical terminology",
+      "moral language",
+      "economic analysis"
+    ],
+    "rhetorical_strategies": [
+      "economic analysis",
+      "philosophical argument",
+      "moral reasoning",
+      "systematic observation"
+    ]
   },
   "values": {
-    "core_values": ["economic efficiency", "free markets", "moral philosophy", "systematic analysis", "division of labor"],
-    "professional_principles": ["economic analysis", "philosophical reasoning", "free market advocacy", "moral philosophy"]
+    "core_values": [
+      "economic efficiency",
+      "free markets",
+      "moral philosophy",
+      "systematic analysis",
+      "division of labor"
+    ],
+    "professional_principles": [
+      "economic analysis",
+      "philosophical reasoning",
+      "free market advocacy",
+      "moral philosophy"
+    ]
   },
   "collaboration_style": {
-    "approach": ["academic collaboration", "philosophical partnerships", "economic alliances"],
-    "preferences": ["economic analysis", "philosophical reasoning", "moral philosophy"],
-    "conflict_resolution": ["economic analysis", "philosophical reasoning", "moral philosophy"]
+    "approach": [
+      "academic collaboration",
+      "philosophical partnerships",
+      "economic alliances"
+    ],
+    "preferences": [
+      "economic analysis",
+      "philosophical reasoning",
+      "moral philosophy"
+    ],
+    "conflict_resolution": [
+      "economic analysis",
+      "philosophical reasoning",
+      "moral philosophy"
+    ]
   },
   "expertise_areas": [
     "Classical economics",
@@ -39,5 +98,70 @@
     "Political economy"
   ],
   "influence_scope": "Global - Economics and political economy",
-  "legacy": "Founded modern economics with 'The Wealth of Nations' and established the foundation for free market theory and classical economics."
+  "legacy": "Founded modern economics with 'The Wealth of Nations' and established the foundation for free market theory and classical economics.",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "Always considers human impact",
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Philosopher",
+        "Professor",
+        "Economist"
+      ],
+      "education_indicators": [
+        "university",
+        "college"
+      ],
+      "achievement_indicators": [
+        "developed"
+      ]
+    }
+  }
 }

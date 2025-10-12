@@ -7,7 +7,28 @@
   "background_context": {
     "experience_level": "Senior",
     "career_stage": "Established",
-    "educational_background": "Hamilton College, Harvard University"
+    "educational_background": "Hamilton College, Harvard University",
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Professor",
+        "Author",
+        "Writer",
+        "Inventor",
+        "Psychologist",
+        "Philosopher"
+      ],
+      "education_indicators": [
+        "university"
+      ],
+      "achievement_indicators": [
+        "founded",
+        "invented",
+        "developed"
+      ],
+      "influence_indicators": [
+        "influential"
+      ]
+    }
   },
   "communication_style": {
     "tone": "systematic, experimental, analytical, behavioral, scientific",
@@ -59,5 +80,58 @@
   "values": {
     "core_values": "behavioral understanding, experimental excellence, systematic methodology, scientific precision",
     "ethical_principles": "experimental integrity, behavioral responsibility, systematic honesty"
+  },
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "Strong integrity-based ethical framework",
+    "human_centered_thinking": "Always considers human impact",
+    "ethical_framework_chips": [
+      "Ethical",
+      "Ethical",
+      "Integrity"
+    ],
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
   }
 }

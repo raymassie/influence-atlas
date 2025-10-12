@@ -69,5 +69,85 @@
   "communication": {
     "audience_adaptation": "typographers, designers, art directors, creative professionals, experimental artists, visual communicators, magazine professionals"
   },
-  "category": "Design"
+  "category": "Design",
+  "bias_awareness": {
+    "primary_biases": "Creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "N/A",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": [
+      "creative breakthroughs"
+    ],
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "creative pivots"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "High emotional intelligence in team leadership",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A",
+    "empathy_expression_chips": [
+      "Team",
+      "Emotional",
+      "Leadership"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Designer",
+        "Founder"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Innovative approaches with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Empathy",
+      "Empathy"
+    ]
+  }
 }

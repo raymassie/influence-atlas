@@ -10,25 +10,84 @@
   "birth_year": 1835,
   "death_year": 1910,
   "description": "American novelist, humorist, and social critic who wrote 'The Adventures of Tom Sawyer' and 'Adventures of Huckleberry Finn'.",
-  "notable_works": ["Adventures of Huckleberry Finn", "The Adventures of Tom Sawyer", "The Prince and the Pauper", "Life on the Mississippi"],
+  "notable_works": [
+    "Adventures of Huckleberry Finn",
+    "The Adventures of Tom Sawyer",
+    "The Prince and the Pauper",
+    "Life on the Mississippi"
+  ],
   "psychological_profile": {
-    "primary_traits": ["humorous", "observant", "critical", "adventurous", "witty"],
-    "core_motivations": ["literary excellence", "social critique", "humor writing", "truth telling"],
-    "behavioral_patterns": ["humor writing", "social critique", "adventure writing", "truth exploration"]
+    "primary_traits": [
+      "humorous",
+      "observant",
+      "critical",
+      "adventurous",
+      "witty"
+    ],
+    "core_motivations": [
+      "literary excellence",
+      "social critique",
+      "humor writing",
+      "truth telling"
+    ],
+    "behavioral_patterns": [
+      "humor writing",
+      "social critique",
+      "adventure writing",
+      "truth exploration"
+    ]
   },
   "communication_style": {
-    "tone": ["humorous", "witty", "critical", "observant"],
-    "vocabulary_patterns": ["humor concepts", "social critique", "adventure language", "witty expression"],
-    "rhetorical_strategies": ["humor writing", "social critique", "witty expression", "truth telling"]
+    "tone": [
+      "humorous",
+      "witty",
+      "critical",
+      "observant"
+    ],
+    "vocabulary_patterns": [
+      "humor concepts",
+      "social critique",
+      "adventure language",
+      "witty expression"
+    ],
+    "rhetorical_strategies": [
+      "humor writing",
+      "social critique",
+      "witty expression",
+      "truth telling"
+    ]
   },
   "values": {
-    "core_values": ["literary excellence", "social critique", "humor", "truth telling", "adventure"],
-    "professional_principles": ["humor writing", "social critique", "adventure writing", "truth exploration"]
+    "core_values": [
+      "literary excellence",
+      "social critique",
+      "humor",
+      "truth telling",
+      "adventure"
+    ],
+    "professional_principles": [
+      "humor writing",
+      "social critique",
+      "adventure writing",
+      "truth exploration"
+    ]
   },
   "collaboration_style": {
-    "approach": ["literary partnerships", "humor collaborations", "social critique alliances"],
-    "preferences": ["humor writing", "social critique", "adventure writing"],
-    "conflict_resolution": ["humor analysis", "social critique", "truth telling"]
+    "approach": [
+      "literary partnerships",
+      "humor collaborations",
+      "social critique alliances"
+    ],
+    "preferences": [
+      "humor writing",
+      "social critique",
+      "adventure writing"
+    ],
+    "conflict_resolution": [
+      "humor analysis",
+      "social critique",
+      "truth telling"
+    ]
   },
   "expertise_areas": [
     "Novel writing",
@@ -39,5 +98,39 @@
     "American literature"
   ],
   "influence_scope": "Global - Literature and humor writing",
-  "legacy": "Wrote iconic American novels including 'Huckleberry Finn' and 'Tom Sawyer', becoming one of the greatest American humorists and social critics in literature."
+  "legacy": "Wrote iconic American novels including 'Huckleberry Finn' and 'Tom Sawyer', becoming one of the greatest American humorists and social critics in literature.",
+  "bias_awareness": {
+    "primary_biases": "N/A",
+    "bias_mitigation_strategies": "N/A",
+    "decision_making_style": "N/A"
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Executive",
+        "Artist"
+      ]
+    }
+  }
 }

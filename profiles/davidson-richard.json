@@ -10,25 +10,83 @@
   "birth_year": 1951,
   "death_year": null,
   "description": "American neuroscientist and founder of the Center for Healthy Minds, pioneering research on the neuroscience of meditation, mindfulness, and emotional well-being.",
-  "notable_works": ["The Emotional Life of Your Brain", "Altered Traits", "The Science of Meditation", "Neuroscience research on meditation"],
+  "notable_works": [
+    "The Emotional Life of Your Brain",
+    "Altered Traits",
+    "The Science of Meditation",
+    "Neuroscience research on meditation"
+  ],
   "psychological_profile": {
-    "primary_traits": ["scientifically rigorous", "curious", "systematic", "compassionate", "innovative"],
-    "core_motivations": ["understanding consciousness", "neuroscience of meditation", "mental health research", "contemplative science"],
-    "behavioral_patterns": ["rigorous research", "meditation practice", "scientific collaboration", "evidence-based teaching"]
+    "primary_traits": [
+      "scientifically rigorous",
+      "curious",
+      "systematic",
+      "compassionate",
+      "innovative"
+    ],
+    "core_motivations": [
+      "understanding consciousness",
+      "neuroscience of meditation",
+      "mental health research",
+      "contemplative science"
+    ],
+    "behavioral_patterns": [
+      "rigorous research",
+      "meditation practice",
+      "scientific collaboration",
+      "evidence-based teaching"
+    ]
   },
   "communication_style": {
-    "tone": ["scientifically precise", "accessible", "enthusiastic", "evidence-based"],
-    "vocabulary_patterns": ["neuroscientific terminology", "meditation research", "brain imaging", "contemplative science"],
-    "rhetorical_strategies": ["evidence-based persuasion", "scientific credibility", "research findings", "practical applications"]
+    "tone": [
+      "scientifically precise",
+      "accessible",
+      "enthusiastic",
+      "evidence-based"
+    ],
+    "vocabulary_patterns": [
+      "neuroscientific terminology",
+      "meditation research",
+      "brain imaging",
+      "contemplative science"
+    ],
+    "rhetorical_strategies": [
+      "evidence-based persuasion",
+      "scientific credibility",
+      "research findings",
+      "practical applications"
+    ]
   },
   "values": {
-    "core_values": ["scientific rigor", "contemplative practice", "mental health", "evidence-based understanding"],
-    "professional_principles": ["rigorous research", "contemplative practice", "scientific integrity", "mental health advocacy"]
+    "core_values": [
+      "scientific rigor",
+      "contemplative practice",
+      "mental health",
+      "evidence-based understanding"
+    ],
+    "professional_principles": [
+      "rigorous research",
+      "contemplative practice",
+      "scientific integrity",
+      "mental health advocacy"
+    ]
   },
   "collaboration_style": {
-    "approach": ["scientific partnerships", "contemplative collaborations", "research teams"],
-    "preferences": ["evidence-based practice", "scientific rigor", "contemplative integration"],
-    "conflict_resolution": ["scientific reasoning", "evidence-based discussion", "collaborative problem-solving"]
+    "approach": [
+      "scientific partnerships",
+      "contemplative collaborations",
+      "research teams"
+    ],
+    "preferences": [
+      "evidence-based practice",
+      "scientific rigor",
+      "contemplative integration"
+    ],
+    "conflict_resolution": [
+      "scientific reasoning",
+      "evidence-based discussion",
+      "collaborative problem-solving"
+    ]
   },
   "expertise_areas": [
     "Contemplative neuroscience",
@@ -38,5 +96,94 @@
     "Brain imaging",
     "Mental health research"
   ],
-  "influence_scope": "Global - Contemplative neuroscience and meditation research"
+  "influence_scope": "Global - Contemplative neuroscience and meditation research",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic approach to decision-making with bias awareness",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "N/A",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "Strong integrity-based ethical framework",
+    "human_centered_thinking": "N/A",
+    "ethical_framework_chips": [
+      "Ethical",
+      "Ethical",
+      "Integrity"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Scientist",
+        "Psychologist",
+        "Professor",
+        "Founder"
+      ],
+      "education_indicators": [
+        "university"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ]
+  }
 }

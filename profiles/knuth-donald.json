@@ -10,25 +10,85 @@
   "birth_year": 1938,
   "death_year": null,
   "description": "American computer scientist who is considered the 'father of algorithm analysis' and author of 'The Art of Computer Programming'.",
-  "notable_works": ["The Art of Computer Programming", "TeX", "METAFONT", "Algorithm analysis", "Computer science"],
+  "notable_works": [
+    "The Art of Computer Programming",
+    "TeX",
+    "METAFONT",
+    "Algorithm analysis",
+    "Computer science"
+  ],
   "psychological_profile": {
-    "primary_traits": ["systematic", "precise", "methodical", "influential", "genius"],
-    "core_motivations": ["algorithm analysis", "computer science", "mathematical precision", "systematic programming"],
-    "behavioral_patterns": ["systematic analysis", "mathematical rigor", "algorithmic thinking", "precise documentation"]
+    "primary_traits": [
+      "systematic",
+      "precise",
+      "methodical",
+      "influential",
+      "genius"
+    ],
+    "core_motivations": [
+      "algorithm analysis",
+      "computer science",
+      "mathematical precision",
+      "systematic programming"
+    ],
+    "behavioral_patterns": [
+      "systematic analysis",
+      "mathematical rigor",
+      "algorithmic thinking",
+      "precise documentation"
+    ]
   },
   "communication_style": {
-    "tone": ["systematic", "precise", "mathematical", "educational"],
-    "vocabulary_patterns": ["algorithm analysis", "mathematical concepts", "computer science", "systematic programming"],
-    "rhetorical_strategies": ["mathematical proof", "algorithmic analysis", "systematic explanation", "precise documentation"]
+    "tone": [
+      "systematic",
+      "precise",
+      "mathematical",
+      "educational"
+    ],
+    "vocabulary_patterns": [
+      "algorithm analysis",
+      "mathematical concepts",
+      "computer science",
+      "systematic programming"
+    ],
+    "rhetorical_strategies": [
+      "mathematical proof",
+      "algorithmic analysis",
+      "systematic explanation",
+      "precise documentation"
+    ]
   },
   "values": {
-    "core_values": ["mathematical precision", "algorithmic excellence", "systematic thinking", "computer science", "educational excellence"],
-    "professional_principles": ["algorithmic rigor", "mathematical precision", "systematic analysis", "educational excellence"]
+    "core_values": [
+      "mathematical precision",
+      "algorithmic excellence",
+      "systematic thinking",
+      "computer science",
+      "educational excellence"
+    ],
+    "professional_principles": [
+      "algorithmic rigor",
+      "mathematical precision",
+      "systematic analysis",
+      "educational excellence"
+    ]
   },
   "collaboration_style": {
-    "approach": ["academic collaboration", "mathematical discourse", "algorithmic analysis"],
-    "preferences": ["mathematical rigor", "algorithmic analysis", "systematic thinking"],
-    "conflict_resolution": ["mathematical proof", "algorithmic analysis", "systematic reasoning"]
+    "approach": [
+      "academic collaboration",
+      "mathematical discourse",
+      "algorithmic analysis"
+    ],
+    "preferences": [
+      "mathematical rigor",
+      "algorithmic analysis",
+      "systematic thinking"
+    ],
+    "conflict_resolution": [
+      "mathematical proof",
+      "algorithmic analysis",
+      "systematic reasoning"
+    ]
   },
   "expertise_areas": [
     "Algorithm analysis",
@@ -39,5 +99,73 @@
     "Programming languages"
   ],
   "influence_scope": "Global - Computer science and algorithm analysis",
-  "legacy": "Established the foundation of algorithm analysis and computer science education through systematic mathematical approach."
+  "legacy": "Established the foundation of algorithm analysis and computer science education through systematic mathematical approach.",
+  "bias_awareness": {
+    "primary_biases": [
+      "optimism bias",
+      "confirmation bias"
+    ],
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": [
+      "innovation",
+      "problem-solving"
+    ],
+    "challenge_seeking": "N/A",
+    "learning_orientation": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Professor",
+        "Author",
+        "Writer",
+        "Scientist",
+        "Composer"
+      ],
+      "education_indicators": [
+        "university"
+      ],
+      "achievement_indicators": [
+        "nobel",
+        "prize",
+        "award"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "holistic_perspective": "Systems thinking with user focus",
+    "holistic_perspective_chips": [
+      "User",
+      "Systems",
+      "Systems"
+    ]
+  }
 }

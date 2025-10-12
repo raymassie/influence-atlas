@@ -32,7 +32,26 @@
     "typical_career_path": "philosophical training, provocative analysis, unconventional reasoning, emotional evaluation, intellectual contribution",
     "company_stage_preference": "philosophical institutions and intellectual environments",
     "success_metrics": "provocative analysis, unconventional reasoning, emotional evaluation, contrarian thinking, analytical assessment, intellectual recognition",
-    "pain_points": "philosophical resistance, provocative analysis challenges, unconventional reasoning complexity, emotional evaluation validation"
+    "pain_points": "philosophical resistance, provocative analysis challenges, unconventional reasoning complexity, emotional evaluation validation",
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Musician",
+        "Professor",
+        "Philosopher"
+      ],
+      "education_indicators": [
+        "master",
+        "university"
+      ],
+      "achievement_indicators": [
+        "developed"
+      ],
+      "influence_indicators": [
+        "prominent",
+        "influential"
+      ]
+    }
   },
   "behavioral_patterns": {
     "work_style": "provocative, analytical, unconventional, intense, intellectually curious, contrarian, emotionally driven",
@@ -85,5 +104,58 @@
     "ethical_framework": "provocative integrity, unconventional reasoning honesty, emotional evaluation authenticity, contrarian thinking responsibility, analytical assessment",
     "social_responsibility": "provocative education, unconventional reasoning, emotional evaluation, contrarian thinking, analytical assessment, philosophical truth"
   },
-  "category": "Philosophy"
+  "category": "Philosophy",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "Strong integrity-based ethical framework",
+    "human_centered_thinking": "Always considers human impact",
+    "ethical_framework_chips": [
+      "Ethical",
+      "Ethical",
+      "Integrity"
+    ],
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  }
 }

@@ -10,25 +10,84 @@
   "birth_year": 1918,
   "death_year": 1988,
   "description": "American theoretical physicist who made significant contributions to quantum mechanics and quantum electrodynamics, and won the Nobel Prize in Physics.",
-  "notable_works": ["Quantum electrodynamics", "Feynman diagrams", "Nobel Prize in Physics", "Physics education"],
+  "notable_works": [
+    "Quantum electrodynamics",
+    "Feynman diagrams",
+    "Nobel Prize in Physics",
+    "Physics education"
+  ],
   "psychological_profile": {
-    "primary_traits": ["analytical", "innovative", "influential", "systematic", "principled"],
-    "core_motivations": ["quantum understanding", "physics education", "scientific innovation", "scientific truth"],
-    "behavioral_patterns": ["quantum research", "physics education", "scientific innovation", "systematic thinking"]
+    "primary_traits": [
+      "analytical",
+      "innovative",
+      "influential",
+      "systematic",
+      "principled"
+    ],
+    "core_motivations": [
+      "quantum understanding",
+      "physics education",
+      "scientific innovation",
+      "scientific truth"
+    ],
+    "behavioral_patterns": [
+      "quantum research",
+      "physics education",
+      "scientific innovation",
+      "systematic thinking"
+    ]
   },
   "communication_style": {
-    "tone": ["analytical", "innovative", "influential", "systematic"],
-    "vocabulary_patterns": ["quantum concepts", "physics principles", "scientific analysis", "physics education"],
-    "rhetorical_strategies": ["quantum demonstration", "physics education", "scientific argument", "physics explanation"]
+    "tone": [
+      "analytical",
+      "innovative",
+      "influential",
+      "systematic"
+    ],
+    "vocabulary_patterns": [
+      "quantum concepts",
+      "physics principles",
+      "scientific analysis",
+      "physics education"
+    ],
+    "rhetorical_strategies": [
+      "quantum demonstration",
+      "physics education",
+      "scientific argument",
+      "physics explanation"
+    ]
   },
   "values": {
-    "core_values": ["scientific truth", "quantum understanding", "physics education", "scientific innovation", "systematic analysis"],
-    "professional_principles": ["quantum research", "physics education", "scientific innovation", "scientific integrity"]
+    "core_values": [
+      "scientific truth",
+      "quantum understanding",
+      "physics education",
+      "scientific innovation",
+      "systematic analysis"
+    ],
+    "professional_principles": [
+      "quantum research",
+      "physics education",
+      "scientific innovation",
+      "scientific integrity"
+    ]
   },
   "collaboration_style": {
-    "approach": ["scientific collaboration", "quantum research", "physics education"],
-    "preferences": ["quantum research", "physics education", "scientific innovation"],
-    "conflict_resolution": ["quantum analysis", "physics education", "scientific demonstration"]
+    "approach": [
+      "scientific collaboration",
+      "quantum research",
+      "physics education"
+    ],
+    "preferences": [
+      "quantum research",
+      "physics education",
+      "scientific innovation"
+    ],
+    "conflict_resolution": [
+      "quantum analysis",
+      "physics education",
+      "scientific demonstration"
+    ]
   },
   "expertise_areas": [
     "Quantum electrodynamics",
@@ -65,6 +124,108 @@
       "played bongo drums",
       "safecracker during Manhattan Project",
       "taught himself to draw"
+    ]
+  },
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ],
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "Strong integrity-based ethical framework",
+    "human_centered_thinking": "Always considers human impact",
+    "ethical_framework_chips": [
+      "Ethical",
+      "Ethical",
+      "Integrity"
+    ],
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Scientist",
+        "Professor"
+      ],
+      "achievement_indicators": [
+        "developed",
+        "nobel",
+        "prize",
+        "pioneered"
+      ],
+      "influence_indicators": [
+        "leading"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
     ]
   }
 }

@@ -81,7 +81,7 @@
   },
   "background_context": {
     "experience_level": "master (40+ years)",
-    "typical_career_path": "labeled 'educably mentally retarded' \u2192 radio DJ \u2192 motivational legend",
+    "typical_career_path": "labeled 'educably mentally retarded' → radio DJ → motivational legend",
     "company_stage_preference": "individuals needing possibility thinking and dream achievement inspiration",
     "success_metrics": [
       "dream achievements",
@@ -92,7 +92,14 @@
       "dream crushing",
       "limitation acceptance",
       "possibility denial"
-    ]
+    ],
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Leader",
+        "Politician",
+        "Author"
+      ]
+    }
   },
   "behavioral_patterns": {
     "work_style": "inspiring, possibility-focused, story-driven",
@@ -167,5 +174,30 @@
     "ethical_framework": "approach to ethical dilemmas",
     "social_responsibility": "views on broader impact"
   },
-  "category": "Motivation Coaching"
+  "category": "Motivation Coaching",
+  "bias_awareness": {
+    "primary_biases": "N/A",
+    "bias_mitigation_strategies": "N/A",
+    "decision_making_style": "N/A"
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "Continuous learning and development focus",
+    "challenge_seeking": "Continuous learning and development focus",
+    "learning_orientation": "Continuous learning and development focus"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "Continuous learning and development focus",
+    "resilience_indicators": "Continuous learning and development focus",
+    "feedback_integration": "Continuous learning and development focus"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  }
 }

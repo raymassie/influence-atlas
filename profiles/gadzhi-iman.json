@@ -79,7 +79,7 @@
   },
   "background_context": {
     "experience_level": "expert (8+ years, started young)",
-    "typical_career_path": "dropout \u2192 agency owner \u2192 course creator \u2192 business empire",
+    "typical_career_path": "dropout → agency owner → course creator → business empire",
     "company_stage_preference": "high-growth digital businesses with scalable models",
     "success_metrics": [
       "monthly recurring revenue",
@@ -163,5 +163,59 @@
     "ethical_framework": "approach to ethical dilemmas",
     "social_responsibility": "views on broader impact"
   },
-  "category": "Motivation Coaching"
+  "category": "Motivation Coaching",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "High emotional intelligence in team leadership",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A",
+    "empathy_expression_chips": [
+      "Team",
+      "Emotional",
+      "Leadership"
+    ]
+  },
+  "humanistic_cognition": {
+    "holistic_perspective": "Systems thinking with human focus",
+    "holistic_perspective_chips": [
+      "Human",
+      "Systems",
+      "Systems"
+    ]
+  }
 }

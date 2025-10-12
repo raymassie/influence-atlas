@@ -10,25 +10,84 @@
   "birth_year": 1901,
   "death_year": 1966,
   "description": "American entrepreneur who founded The Walt Disney Company and revolutionized animation, theme parks, and family entertainment.",
-  "notable_works": ["Disney Studios", "Mickey Mouse", "Disneyland", "Animated films"],
+  "notable_works": [
+    "Disney Studios",
+    "Mickey Mouse",
+    "Disneyland",
+    "Animated films"
+  ],
   "psychological_profile": {
-    "primary_traits": ["creative", "visionary", "innovative", "persistent", "optimistic"],
-    "core_motivations": ["creative expression", "family entertainment", "animation innovation", "theme park creation"],
-    "behavioral_patterns": ["creative leadership", "entertainment innovation", "animation development", "theme park design"]
+    "primary_traits": [
+      "creative",
+      "visionary",
+      "innovative",
+      "persistent",
+      "optimistic"
+    ],
+    "core_motivations": [
+      "creative expression",
+      "family entertainment",
+      "animation innovation",
+      "theme park creation"
+    ],
+    "behavioral_patterns": [
+      "creative leadership",
+      "entertainment innovation",
+      "animation development",
+      "theme park design"
+    ]
   },
   "communication_style": {
-    "tone": ["creative", "visionary", "optimistic", "inspiring"],
-    "vocabulary_patterns": ["creative concepts", "entertainment terminology", "animation language", "family entertainment"],
-    "rhetorical_strategies": ["creative vision", "entertainment advocacy", "animation innovation", "family entertainment"]
+    "tone": [
+      "creative",
+      "visionary",
+      "optimistic",
+      "inspiring"
+    ],
+    "vocabulary_patterns": [
+      "creative concepts",
+      "entertainment terminology",
+      "animation language",
+      "family entertainment"
+    ],
+    "rhetorical_strategies": [
+      "creative vision",
+      "entertainment advocacy",
+      "animation innovation",
+      "family entertainment"
+    ]
   },
   "values": {
-    "core_values": ["creative excellence", "family entertainment", "animation innovation", "theme park magic", "storytelling"],
-    "professional_principles": ["creative leadership", "entertainment innovation", "animation development", "family entertainment"]
+    "core_values": [
+      "creative excellence",
+      "family entertainment",
+      "animation innovation",
+      "theme park magic",
+      "storytelling"
+    ],
+    "professional_principles": [
+      "creative leadership",
+      "entertainment innovation",
+      "animation development",
+      "family entertainment"
+    ]
   },
   "collaboration_style": {
-    "approach": ["creative partnerships", "entertainment collaborations", "animation alliances"],
-    "preferences": ["creative development", "entertainment innovation", "animation collaboration"],
-    "conflict_resolution": ["creative solutions", "entertainment innovation", "family entertainment"]
+    "approach": [
+      "creative partnerships",
+      "entertainment collaborations",
+      "animation alliances"
+    ],
+    "preferences": [
+      "creative development",
+      "entertainment innovation",
+      "animation collaboration"
+    ],
+    "conflict_resolution": [
+      "creative solutions",
+      "entertainment innovation",
+      "family entertainment"
+    ]
   },
   "expertise_areas": [
     "Animation",
@@ -39,5 +98,90 @@
     "Entertainment innovation"
   ],
   "influence_scope": "Global - Animation and family entertainment",
-  "legacy": "Founded The Walt Disney Company and revolutionized animation, theme parks, and family entertainment, creating timeless characters and experiences."
+  "legacy": "Founded The Walt Disney Company and revolutionized animation, theme parks, and family entertainment, creating timeless characters and experiences.",
+  "bias_awareness": {
+    "primary_biases": "Creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "Continuous learning and development focus",
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "Continuous learning and development focus",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": [
+      "creative breakthroughs"
+    ],
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "resilience_indicators": "Continuous learning and development focus",
+    "feedback_integration": "Continuous learning and development focus"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Artist",
+        "Entrepreneur"
+      ],
+      "achievement_indicators": [
+        "developed",
+        "honor",
+        "award"
+      ],
+      "influence_indicators": [
+        "influential"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ]
+  }
 }

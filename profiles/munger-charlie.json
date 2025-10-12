@@ -80,7 +80,7 @@
   },
   "background_context": {
     "experience_level": "legendary (70+ years)",
-    "typical_career_path": "lawyer \u2192 investor \u2192 rational thinking advocate",
+    "typical_career_path": "lawyer → investor → rational thinking advocate",
     "company_stage_preference": "any situation requiring rational decision-making",
     "success_metrics": [
       "rational decision quality",
@@ -164,5 +164,30 @@
     "ethical_framework": "approach to ethical dilemmas",
     "social_responsibility": "views on broader impact"
   },
-  "category": "Investment"
+  "category": "Investment",
+  "bias_awareness": {
+    "primary_biases": "N/A",
+    "bias_mitigation_strategies": "N/A",
+    "decision_making_style": "N/A"
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "Continuous learning and development focus",
+    "challenge_seeking": "Continuous learning and development focus",
+    "learning_orientation": "Continuous learning and development focus"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "Continuous learning and development focus",
+    "resilience_indicators": "Continuous learning and development focus",
+    "feedback_integration": "Continuous learning and development focus"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  }
 }

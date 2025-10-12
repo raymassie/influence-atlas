@@ -10,25 +10,84 @@
   "birth_year": 1921,
   "death_year": 2002,
   "description": "American political philosopher who developed the theory of justice and influenced modern political philosophy with concepts of fairness and equality.",
-  "notable_works": ["A Theory of Justice", "Political Liberalism", "Justice as Fairness", "Political philosophy"],
+  "notable_works": [
+    "A Theory of Justice",
+    "Political Liberalism",
+    "Justice as Fairness",
+    "Political philosophy"
+  ],
   "psychological_profile": {
-    "primary_traits": ["systematic", "analytical", "egalitarian", "principled", "methodical"],
-    "core_motivations": ["justice theory", "political equality", "fairness principles", "liberal democracy"],
-    "behavioral_patterns": ["justice analysis", "egalitarian reasoning", "political philosophy", "fairness principles"]
+    "primary_traits": [
+      "systematic",
+      "analytical",
+      "egalitarian",
+      "principled",
+      "methodical"
+    ],
+    "core_motivations": [
+      "justice theory",
+      "political equality",
+      "fairness principles",
+      "liberal democracy"
+    ],
+    "behavioral_patterns": [
+      "justice analysis",
+      "egalitarian reasoning",
+      "political philosophy",
+      "fairness principles"
+    ]
   },
   "communication_style": {
-    "tone": ["systematic", "analytical", "egalitarian", "principled"],
-    "vocabulary_patterns": ["justice concepts", "egalitarian terminology", "political philosophy", "fairness principles"],
-    "rhetorical_strategies": ["justice analysis", "egalitarian argument", "political philosophy", "fairness demonstration"]
+    "tone": [
+      "systematic",
+      "analytical",
+      "egalitarian",
+      "principled"
+    ],
+    "vocabulary_patterns": [
+      "justice concepts",
+      "egalitarian terminology",
+      "political philosophy",
+      "fairness principles"
+    ],
+    "rhetorical_strategies": [
+      "justice analysis",
+      "egalitarian argument",
+      "political philosophy",
+      "fairness demonstration"
+    ]
   },
   "values": {
-    "core_values": ["justice theory", "political equality", "fairness principles", "liberal democracy", "egalitarian analysis"],
-    "professional_principles": ["justice analysis", "political philosophy", "egalitarian reasoning", "fairness principles"]
+    "core_values": [
+      "justice theory",
+      "political equality",
+      "fairness principles",
+      "liberal democracy",
+      "egalitarian analysis"
+    ],
+    "professional_principles": [
+      "justice analysis",
+      "political philosophy",
+      "egalitarian reasoning",
+      "fairness principles"
+    ]
   },
   "collaboration_style": {
-    "approach": ["political collaboration", "egalitarian partnerships", "justice alliances"],
-    "preferences": ["justice analysis", "political philosophy", "egalitarian reasoning"],
-    "conflict_resolution": ["justice analysis", "egalitarian reasoning", "fairness principles"]
+    "approach": [
+      "political collaboration",
+      "egalitarian partnerships",
+      "justice alliances"
+    ],
+    "preferences": [
+      "justice analysis",
+      "political philosophy",
+      "egalitarian reasoning"
+    ],
+    "conflict_resolution": [
+      "justice analysis",
+      "egalitarian reasoning",
+      "fairness principles"
+    ]
   },
   "expertise_areas": [
     "Political philosophy",
@@ -39,5 +98,73 @@
     "Political equality"
   ],
   "influence_scope": "Global - Political philosophy and justice theory",
-  "legacy": "Developed the theory of justice and influenced modern political philosophy, shaping concepts of fairness, equality, and liberal democracy."
+  "legacy": "Developed the theory of justice and influenced modern political philosophy, shaping concepts of fairness, equality, and liberal democracy.",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "Always considers human impact",
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Politician",
+        "Professor",
+        "Philosopher"
+      ],
+      "education_indicators": [
+        "college"
+      ],
+      "achievement_indicators": [
+        "prize",
+        "medal"
+      ],
+      "influence_indicators": [
+        "influential"
+      ]
+    }
+  }
 }

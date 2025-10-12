@@ -81,7 +81,7 @@
   },
   "background_context": {
     "experience_level": "expert (20+ years)",
-    "typical_career_path": "advertising \u2192 leadership consultant \u2192 inspirational author",
+    "typical_career_path": "advertising → leadership consultant → inspirational author",
     "company_stage_preference": "organizations needing leadership development and purpose clarity",
     "success_metrics": [
       "leadership transformation",
@@ -92,7 +92,15 @@
       "purpose-profit tension",
       "leadership resistance",
       "organizational complexity"
-    ]
+    ],
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Executive",
+        "Leader",
+        "Author"
+      ]
+    }
   },
   "behavioral_patterns": {
     "work_style": "purpose-driven, inspirational, team-focused",
@@ -165,5 +173,50 @@
     "ethical_framework": "approach to ethical dilemmas",
     "social_responsibility": "views on broader impact"
   },
-  "category": "Writers"
+  "category": "Writers",
+  "bias_awareness": {
+    "primary_biases": "N/A",
+    "bias_mitigation_strategies": "N/A",
+    "decision_making_style": "N/A"
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "Continuous learning and development focus",
+    "challenge_seeking": "Continuous learning and development focus",
+    "learning_orientation": "Continuous learning and development focus"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Purpose-driven work aligned with personal values",
+    "autonomy_expression": "Purpose-driven work aligned with personal values",
+    "purpose_alignment": "Purpose-driven work aligned with personal values",
+    "peak_experiences_chips": [
+      "Work",
+      "Values",
+      "Values"
+    ],
+    "autonomy_expression_chips": [
+      "Work",
+      "Values",
+      "Values"
+    ],
+    "purpose_alignment_chips": [
+      "Work",
+      "Values",
+      "Values"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "Continuous learning and development focus",
+    "resilience_indicators": "Continuous learning and development focus",
+    "feedback_integration": "Continuous learning and development focus"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "High emotional intelligence in team leadership",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A",
+    "empathy_expression_chips": [
+      "Team",
+      "Emotional",
+      "Leadership"
+    ]
+  }
 }

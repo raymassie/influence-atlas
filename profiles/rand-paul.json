@@ -10,25 +10,85 @@
   "birth_year": 1914,
   "death_year": 1996,
   "description": "American graphic designer who revolutionized corporate identity design and is considered one of the most influential designers of the 20th century.",
-  "notable_works": ["IBM logo", "UPS logo", "ABC logo", "NeXT logo", "Design books"],
+  "notable_works": [
+    "IBM logo",
+    "UPS logo",
+    "ABC logo",
+    "NeXT logo",
+    "Design books"
+  ],
   "psychological_profile": {
-    "primary_traits": ["innovative", "systematic", "bold", "precise", "influential"],
-    "core_motivations": ["design excellence", "visual communication", "brand identity", "creative innovation"],
-    "behavioral_patterns": ["methodical approach", "bold experimentation", "systematic thinking", "teaching through design"]
+    "primary_traits": [
+      "innovative",
+      "systematic",
+      "bold",
+      "precise",
+      "influential"
+    ],
+    "core_motivations": [
+      "design excellence",
+      "visual communication",
+      "brand identity",
+      "creative innovation"
+    ],
+    "behavioral_patterns": [
+      "methodical approach",
+      "bold experimentation",
+      "systematic thinking",
+      "teaching through design"
+    ]
   },
   "communication_style": {
-    "tone": ["authoritative", "educational", "direct", "philosophical"],
-    "vocabulary_patterns": ["design theory", "visual principles", "brand strategy", "creative process"],
-    "rhetorical_strategies": ["visual demonstration", "theoretical explanation", "case study analysis", "principled argument"]
+    "tone": [
+      "authoritative",
+      "educational",
+      "direct",
+      "philosophical"
+    ],
+    "vocabulary_patterns": [
+      "design theory",
+      "visual principles",
+      "brand strategy",
+      "creative process"
+    ],
+    "rhetorical_strategies": [
+      "visual demonstration",
+      "theoretical explanation",
+      "case study analysis",
+      "principled argument"
+    ]
   },
   "values": {
-    "core_values": ["design integrity", "visual clarity", "creative excellence", "professionalism", "innovation"],
-    "professional_principles": ["form follows function", "design for purpose", "visual hierarchy", "brand consistency"]
+    "core_values": [
+      "design integrity",
+      "visual clarity",
+      "creative excellence",
+      "professionalism",
+      "innovation"
+    ],
+    "professional_principles": [
+      "form follows function",
+      "design for purpose",
+      "visual hierarchy",
+      "brand consistency"
+    ]
   },
   "collaboration_style": {
-    "approach": ["client education", "collaborative problem-solving", "design leadership"],
-    "preferences": ["creative autonomy", "client trust", "design authority"],
-    "conflict_resolution": ["design rationale", "visual demonstration", "professional expertise"]
+    "approach": [
+      "client education",
+      "collaborative problem-solving",
+      "design leadership"
+    ],
+    "preferences": [
+      "creative autonomy",
+      "client trust",
+      "design authority"
+    ],
+    "conflict_resolution": [
+      "design rationale",
+      "visual demonstration",
+      "professional expertise"
+    ]
   },
   "expertise_areas": [
     "Corporate identity",
@@ -39,5 +99,91 @@
     "Visual communication"
   ],
   "influence_scope": "Global - Graphic design and branding industry",
-  "legacy": "Pioneered modern corporate identity design and established design as a strategic business tool."
+  "legacy": "Pioneered modern corporate identity design and established design as a strategic business tool.",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic approach to decision-making with bias awareness",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "N/A",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "innovative solutions"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "Strong integrity-based ethical framework",
+    "human_centered_thinking": "N/A",
+    "ethical_framework_chips": [
+      "Ethical",
+      "Ethical",
+      "Integrity"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Politician"
+      ],
+      "education_indicators": [
+        "university"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ]
+  }
 }

@@ -10,25 +10,84 @@
   "birth_year": 1891,
   "death_year": 1960,
   "description": "American novelist, anthropologist, and folklorist who was a leading figure in the Harlem Renaissance and wrote about African American culture.",
-  "notable_works": ["Their Eyes Were Watching God", "Mules and Men", "Dust Tracks on a Road", "Anthropological studies"],
+  "notable_works": [
+    "Their Eyes Were Watching God",
+    "Mules and Men",
+    "Dust Tracks on a Road",
+    "Anthropological studies"
+  ],
   "psychological_profile": {
-    "primary_traits": ["independent", "observant", "cultural", "resilient", "creative"],
-    "core_motivations": ["cultural preservation", "literary excellence", "anthropological understanding", "African American expression"],
-    "behavioral_patterns": ["cultural writing", "anthropological research", "literary excellence", "cultural preservation"]
+    "primary_traits": [
+      "independent",
+      "observant",
+      "cultural",
+      "resilient",
+      "creative"
+    ],
+    "core_motivations": [
+      "cultural preservation",
+      "literary excellence",
+      "anthropological understanding",
+      "African American expression"
+    ],
+    "behavioral_patterns": [
+      "cultural writing",
+      "anthropological research",
+      "literary excellence",
+      "cultural preservation"
+    ]
   },
   "communication_style": {
-    "tone": ["independent", "observant", "cultural", "resilient"],
-    "vocabulary_patterns": ["cultural concepts", "anthropological terminology", "literary language", "African American expression"],
-    "rhetorical_strategies": ["cultural preservation", "anthropological research", "literary excellence", "cultural expression"]
+    "tone": [
+      "independent",
+      "observant",
+      "cultural",
+      "resilient"
+    ],
+    "vocabulary_patterns": [
+      "cultural concepts",
+      "anthropological terminology",
+      "literary language",
+      "African American expression"
+    ],
+    "rhetorical_strategies": [
+      "cultural preservation",
+      "anthropological research",
+      "literary excellence",
+      "cultural expression"
+    ]
   },
   "values": {
-    "core_values": ["cultural preservation", "literary excellence", "anthropological understanding", "African American expression", "independence"],
-    "professional_principles": ["cultural writing", "anthropological research", "literary excellence", "cultural preservation"]
+    "core_values": [
+      "cultural preservation",
+      "literary excellence",
+      "anthropological understanding",
+      "African American expression",
+      "independence"
+    ],
+    "professional_principles": [
+      "cultural writing",
+      "anthropological research",
+      "literary excellence",
+      "cultural preservation"
+    ]
   },
   "collaboration_style": {
-    "approach": ["cultural partnerships", "anthropological collaborations", "literary alliances"],
-    "preferences": ["cultural writing", "anthropological research", "literary excellence"],
-    "conflict_resolution": ["cultural analysis", "anthropological reasoning", "literary excellence"]
+    "approach": [
+      "cultural partnerships",
+      "anthropological collaborations",
+      "literary alliances"
+    ],
+    "preferences": [
+      "cultural writing",
+      "anthropological research",
+      "literary excellence"
+    ],
+    "conflict_resolution": [
+      "cultural analysis",
+      "anthropological reasoning",
+      "literary excellence"
+    ]
   },
   "expertise_areas": [
     "Novel writing",
@@ -39,5 +98,83 @@
     "Harlem Renaissance"
   ],
   "influence_scope": "Global - Literature and anthropology",
-  "legacy": "Was a leading figure in the Harlem Renaissance, writing powerful novels about African American culture while contributing significantly to anthropology and folklore studies."
+  "legacy": "Was a leading figure in the Harlem Renaissance, writing powerful novels about African American culture while contributing significantly to anthropology and folklore studies.",
+  "bias_awareness": {
+    "primary_biases": "Creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": [
+      "creative breakthroughs"
+    ],
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "creative pivots"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Scientist",
+        "Writer",
+        "Author"
+      ],
+      "education_indicators": [
+        "college",
+        "university"
+      ],
+      "achievement_indicators": [
+        "discovered"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Innovative approaches with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Empathy",
+      "Empathy"
+    ]
+  }
 }

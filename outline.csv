@@ -1,100 +1,66 @@
-Category,Parameter
-Profile,profile_id
-Profile,name
-Profile,archetype
-Profile,domain
-Profile,sub_domain
-Profile,subdomain
-Profile,category
-Profile,birth_year
-Profile,death_year
-Profile,era
-Profile,nationality
-Profile,subcategory
-Profile,educational_background
-Profile,career_stage
-Profile,notable_achievements
-Profile,notable_works
-Profile,occupation
-Profile,primary_occupation
-Psychological Profile,primary_traits
-Psychological Profile,primary_traits_parsed
-Psychological Profile,cognitive_style
-Psychological Profile,core_motivations
-Psychological Profile,decision_making_framework
-Psychological Profile,stress_responses
-Psychological Profile,blind_spots
-Communication Style,tone
-Communication Style,tone_parsed
-Communication Style,vocabulary_patterns
-Communication Style,sentence_structure
-Communication Style,sentence_structure_parsed
-Communication Style,persuasion_methods
-Communication Style,content_preferences
-Communication Style,typical_phrases
-Communication Style,formality_level
-Communication Style,audience_adaptation
-Domain Expertise,core_competencies
-Domain Expertise,core_competencies_parsed
-Domain Expertise,tools_and_platforms
-Domain Expertise,mental_models
-Domain Expertise,reference_frameworks
-Domain Expertise,industry_knowledge
-Domain Expertise,specialized_knowledge
-Background Context,experience_level
-Background Context,career_stage
-Background Context,educational_background
-Background Context,typical_career_path
-Background Context,company_stage_preference
-Background Context,success_metrics
-Background Context,pain_points
-Behavioral Patterns,work_style
-Behavioral Patterns,work_style_parsed
-Behavioral Patterns,problem_solving_approach
-Behavioral Patterns,problem_solving_approach_parsed
-Behavioral Patterns,learning_preferences
-Behavioral Patterns,networking_style
-Behavioral Patterns,content_consumption
-Behavioral Patterns,decision_making
-Unique Identifiers,signature_methodologies
-Unique Identifiers,contrarian_beliefs
-Unique Identifiers,pet_peeves
-Unique Identifiers,aspirational_references
-Unique Identifiers,distinctive_quirks
-Temporal Context,career_evolution
-Temporal Context,career_evolution_parsed
-Temporal Context,influence_timeline
-Temporal Context,influence_timeline_parsed
-Temporal Context,legacy_impact
-Temporal Context,legacy_impact_parsed
-Collaboration,leadership_style
-Collaboration,leadership_approach
-Collaboration,team_dynamics
-Collaboration,mentorship_approach
-Collaboration,conflict_resolution
-Cultural Context,cultural_background
-Cultural Context,cultural_background_parsed
-Cultural Context,geographic_influence
-Cultural Context,generational_perspective
-Cultural Context,societal_influence
-Practical Application,decision_speed
-Practical Application,decision_speed_parsed
-Practical Application,risk_tolerance
-Practical Application,adaptability
-Practical Application,innovation_vs_optimization
-Practical Application,scale_preferences
-Communication,audience_adaptation
-Communication,audience_adaptation_parsed
-Communication,media_preferences
-Communication,influence_strategies
-Communication,persuasion_techniques
-Learning,learning_style
-Learning,learning_style_parsed
-Learning,adaptation_speed
-Learning,failure_response
-Learning,knowledge_sharing
-Values,core_values
-Values,core_values_parsed
-Values,ethical_framework
-Values,ethical_principles
-Values,social_responsibility
+category,field_name,field_type,description,example
+psychological_profile,primary_traits,array,Core personality characteristics that define this individual,"[""analytical"", ""driven"", ""innovative""]"
+psychological_profile,cognitive_style,string,How this person processes information and makes decisions,"Systematic and data-driven with intuitive insights"
+psychological_profile,risk_tolerance,string,Comfort level with uncertainty and calculated risks,"Moderate to high - takes calculated risks with data"
+psychological_profile,stress_response,string,How they handle pressure and challenging situations,"Thrives under pressure, uses stress as motivation"
+psychological_profile,decision_making_speed,string,Pace at which they make important decisions,"Deliberate but decisive - balances speed with thoroughness"
+communication_style,primary_medium,string,Favored method of communication,"Direct and concise, prefers written documentation"
+communication_style,tone_approach,string,General communication tone and style,"Professional but approachable, data-driven"
+communication_style,persuasion_techniques,string,How they influence and convince others,"Logical arguments with supporting evidence"
+communication_style,feedback_delivery,string,How they provide constructive feedback,"Direct but supportive, focuses on improvement"
+communication_style,conflict_resolution,string,Approach to handling disagreements,"Collaborative problem-solving, seeks win-win solutions"
+values,core_values,array,Fundamental principles that guide their decisions,"[""integrity"", ""innovation"", ""excellence""]"
+values,ethical_framework,string,Personal code of ethics and moral principles,"Strong integrity, transparency, and accountability"
+values,work_life_balance,string,Approach to balancing professional and personal life,"Values efficiency to maximize both work impact and personal time"
+values,legacy_considerations,string,How they think about long-term impact,"Focused on sustainable, scalable solutions"
+values,social_responsibility,string,Commitment to broader societal impact,"Believes in using success to create positive change"
+behavioral_patterns,work_habits,array,Typical patterns in how they approach work,"[""early riser"", ""detail-oriented"", ""collaborative""]"
+behavioral_patterns,leadership_style,string,How they lead and manage teams,"Servant leadership with clear direction"
+behavioral_patterns,collaboration_approach,string,How they work with others,"Values diverse perspectives and inclusive decision-making"
+behavioral_patterns,innovation_method,string,How they approach creative problem-solving,"Design thinking with rapid prototyping"
+behavioral_patterns,learning_strategy,string,How they acquire new knowledge and skills,"Continuous learning through experimentation and feedback"
+collaboration,team_dynamics,string,How they function within team environments,"Natural facilitator who brings out the best in others"
+collaboration,mentorship_approach,string,How they develop and guide others,"Hands-on mentorship with increasing autonomy"
+collaboration,cross_functional_work,string,Experience working across different departments,"Extensive experience bridging technical and business teams"
+collaboration,conflict_management,string,How they handle team disagreements,"Mediates conflicts by focusing on common goals"
+collaboration,decision_consensus,string,Approach to building agreement on decisions,"Seeks input from all stakeholders before deciding"
+learning,learning_style,string,Preferred methods for acquiring new information,"Visual and experiential learning with hands-on practice"
+learning,knowledge_application,string,How they apply new knowledge to real problems,"Rapid prototyping and iterative improvement"
+learning,teaching_ability,string,Capacity to share knowledge with others,"Excellent at breaking down complex concepts"
+learning,adaptation_speed,string,How quickly they adjust to new information,"Fast learner who adapts strategies based on new data"
+learning,expertise_depth,string,Level of specialization in their field,"Deep expertise with broad understanding of related fields"
+unique_identifiers,distinctive_traits,array,Unique characteristics that set them apart,"[""systems thinking"", ""user empathy"", ""technical depth""]"
+unique_identifiers,personal_brand,string,How they are known in their industry,"Innovator who bridges technology and human needs"
+unique_identifiers,reputation_factors,string,What they are respected for,"Technical excellence combined with leadership ability"
+unique_identifiers,networking_style,string,How they build professional relationships,"Authentic connections based on mutual respect"
+unique_identifiers,industry_influence,string,Impact they have on their field,"Thought leader who shapes industry direction"
+temporal_context,career_evolution,string,How their career has developed over time,"Progressive leadership roles with increasing scope"
+temporal_context,industry_experience,string,Length and breadth of experience in their field,"15+ years with experience across multiple sectors"
+temporal_context,technological_adaptation,string,How they've adapted to technological changes,"Early adopter who shapes technology adoption"
+temporal_context,market_timing,string,Ability to anticipate and respond to market changes,"Strong market intuition with data-driven validation"
+temporal_context,generation_characteristics,string,How generational factors influence their approach,"Millennial leader who values purpose and impact"
+cultural_context,national_background,string,Cultural influences on their professional approach,"American business culture with global perspective"
+cultural_context,organizational_culture,string,Types of organizational environments they thrive in,"Innovation-focused, collaborative, and mission-driven"
+cultural_context,diversity_experience,string,Experience working with diverse teams and markets,"Extensive experience with international and diverse teams"
+cultural_context,global_perspective,string,International experience and worldview,"Global citizen with local impact focus"
+cultural_context,societal_values,string,How broader cultural values influence their work,"Values innovation, equality, and sustainable progress"
+practical_application,implementation_focus,string,How they approach executing ideas,"Strategic planning with agile execution"
+practical_application,resource_optimization,string,How they maximize limited resources,"Creative problem-solving with efficient resource allocation"
+practical_application,stakeholder_management,string,How they work with different stakeholder groups,"Clear communication with tailored messaging for each group"
+practical_application,quality_standards,string,Standards they maintain in their work,"High standards with continuous improvement mindset"
+practical_application,scalability_thinking,string,How they design solutions for growth,"Builds scalable systems with sustainable architecture"
+bias_awareness,primary_biases,array,Common cognitive biases exhibited by this individual,"[""confirmation bias"", ""anchoring bias""]"
+bias_awareness,bias_mitigation_strategies,array,Methods used to overcome or work around biases,"[""peer review"", ""data validation""]"
+bias_awareness,decision_making_style,string,Approach to decision-making that acknowledges bias,"Systematic with bias checks"
+growth_motivation,intrinsic_drivers,array,Internal motivations that drive personal growth,"[""curiosity"", ""mastery""]"
+growth_motivation,challenge_seeking,string,Level of comfort with difficult challenges,"High - actively seeks complex problems"
+growth_motivation,learning_orientation,string,Approach to continuous learning and development,"Growth mindset with deliberate practice"
+self_actualization_indicators,peak_experiences,array,Types of flow states or peak moments,"[""creative breakthroughs"", ""team achievements""]"
+self_actualization_indicators,autonomy_expression,string,How they exercise independence and self-direction,"High autonomy in decision-making"
+self_actualization_indicators,purpose_alignment,string,How their work aligns with personal values,"Strong alignment with mission"
+behavioral_growth,adaptation_patterns,array,How they adapt to changing circumstances,"[""rapid learning"", ""strategic pivots""]"
+behavioral_growth,resilience_indicators,string,Evidence of bouncing back from setbacks,"High resilience with learning focus"
+behavioral_growth,feedback_integration,string,How they incorporate feedback for improvement,"Actively seeks and implements feedback"
+cognitive_humanism,empathy_expression,string,How they demonstrate understanding of others,"High emotional intelligence in leadership"
+cognitive_humanism,ethical_framework,string,Personal ethical principles and values,"Strong integrity-based decision making"
+cognitive_humanism,human_centered_thinking,string,Evidence of human-centered approach to problems,"Always considers human impact"

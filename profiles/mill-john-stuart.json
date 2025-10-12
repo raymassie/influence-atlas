@@ -11,25 +11,84 @@
   "birth_year": 1806,
   "death_year": 1873,
   "description": "British philosopher and political economist who was a leading advocate of utilitarianism and individual liberty, known for his work on ethics, politics, and economics.",
-  "notable_works": ["Utilitarianism", "On Liberty", "The Subjection of Women", "Principles of Political Economy"],
+  "notable_works": [
+    "Utilitarianism",
+    "On Liberty",
+    "The Subjection of Women",
+    "Principles of Political Economy"
+  ],
   "psychological_profile": {
-    "primary_traits": ["utilitarian", "liberal", "analytical", "principled", "progressive"],
-    "core_motivations": ["individual liberty", "utilitarian ethics", "social progress", "rational analysis"],
-    "behavioral_patterns": ["utilitarian analysis", "liberal reasoning", "social progress advocacy", "rational investigation"]
+    "primary_traits": [
+      "utilitarian",
+      "liberal",
+      "analytical",
+      "principled",
+      "progressive"
+    ],
+    "core_motivations": [
+      "individual liberty",
+      "utilitarian ethics",
+      "social progress",
+      "rational analysis"
+    ],
+    "behavioral_patterns": [
+      "utilitarian analysis",
+      "liberal reasoning",
+      "social progress advocacy",
+      "rational investigation"
+    ]
   },
   "communication_style": {
-    "tone": ["utilitarian", "liberal", "analytical", "progressive"],
-    "vocabulary_patterns": ["utilitarian ethics", "individual liberty", "social progress", "rational analysis"],
-    "rhetorical_strategies": ["utilitarian reasoning", "liberal argumentation", "social progress advocacy", "rational demonstration"]
+    "tone": [
+      "utilitarian",
+      "liberal",
+      "analytical",
+      "progressive"
+    ],
+    "vocabulary_patterns": [
+      "utilitarian ethics",
+      "individual liberty",
+      "social progress",
+      "rational analysis"
+    ],
+    "rhetorical_strategies": [
+      "utilitarian reasoning",
+      "liberal argumentation",
+      "social progress advocacy",
+      "rational demonstration"
+    ]
   },
   "values": {
-    "core_values": ["individual liberty", "utilitarian ethics", "social progress", "rational analysis", "human happiness"],
-    "professional_principles": ["utilitarian analysis", "liberal reasoning", "social progress advocacy", "rational investigation"]
+    "core_values": [
+      "individual liberty",
+      "utilitarian ethics",
+      "social progress",
+      "rational analysis",
+      "human happiness"
+    ],
+    "professional_principles": [
+      "utilitarian analysis",
+      "liberal reasoning",
+      "social progress advocacy",
+      "rational investigation"
+    ]
   },
   "collaboration_style": {
-    "approach": ["philosophical discourse", "utilitarian analysis", "liberal reasoning"],
-    "preferences": ["utilitarian methodology", "liberal principles", "social progress"],
-    "conflict_resolution": ["utilitarian analysis", "liberal reasoning", "rational investigation"]
+    "approach": [
+      "philosophical discourse",
+      "utilitarian analysis",
+      "liberal reasoning"
+    ],
+    "preferences": [
+      "utilitarian methodology",
+      "liberal principles",
+      "social progress"
+    ],
+    "conflict_resolution": [
+      "utilitarian analysis",
+      "liberal reasoning",
+      "rational investigation"
+    ]
   },
   "expertise_areas": [
     "Utilitarian ethics",
@@ -67,5 +126,70 @@
       "had mental breakdown at 20",
       "married feminist Harriet Taylor"
     ]
+  },
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "Always considers human impact",
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Economist",
+        "Author",
+        "Writer",
+        "Politician",
+        "Philosopher"
+      ],
+      "achievement_indicators": [
+        "developed"
+      ],
+      "influence_indicators": [
+        "influential"
+      ]
+    }
   }
 }

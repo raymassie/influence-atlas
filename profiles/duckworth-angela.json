@@ -69,5 +69,72 @@
   "communication": {
     "audience_adaptation": "psychologists, educators, researchers, performance professionals, resilience specialists, character development advocates, evidence-based thinkers, motivation researchers"
   },
-  "category": "Motivation Coaching"
+  "category": "Motivation Coaching",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "Continuous learning and development focus",
+    "challenge_seeking": "Continuous learning and development focus",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "Continuous learning and development focus",
+    "resilience_indicators": "Continuous learning and development focus",
+    "feedback_integration": "Continuous learning and development focus"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "High emotional intelligence in team leadership",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "Always considers human impact",
+    "empathy_expression_chips": [
+      "Team",
+      "Emotional",
+      "Leadership"
+    ],
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Professor",
+        "Author",
+        "Ceo",
+        "Founder",
+        "Psychologist"
+      ],
+      "education_indicators": [
+        "university"
+      ]
+    }
+  }
 }

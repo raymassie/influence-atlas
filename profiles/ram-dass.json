@@ -10,25 +10,84 @@
   "birth_year": 1931,
   "death_year": 2019,
   "description": "American spiritual teacher and psychologist who brought Eastern wisdom to the West, known for his teachings on love, service, and conscious aging.",
-  "notable_works": ["Be Here Now", "Still Here", "Polishing the Mirror", "Walking Each Other Home"],
+  "notable_works": [
+    "Be Here Now",
+    "Still Here",
+    "Polishing the Mirror",
+    "Walking Each Other Home"
+  ],
   "psychological_profile": {
-    "primary_traits": ["compassionate", "wise", "humorous", "authentic", "service-oriented"],
-    "core_motivations": ["spiritual awakening", "service to others", "conscious aging", "love cultivation"],
-    "behavioral_patterns": ["service-oriented teaching", "compassionate guidance", "conscious living", "love-based spirituality"]
+    "primary_traits": [
+      "compassionate",
+      "wise",
+      "humorous",
+      "authentic",
+      "service-oriented"
+    ],
+    "core_motivations": [
+      "spiritual awakening",
+      "service to others",
+      "conscious aging",
+      "love cultivation"
+    ],
+    "behavioral_patterns": [
+      "service-oriented teaching",
+      "compassionate guidance",
+      "conscious living",
+      "love-based spirituality"
+    ]
   },
   "communication_style": {
-    "tone": ["compassionate", "humorous", "wise", "authentic"],
-    "vocabulary_patterns": ["spiritual terminology", "love concepts", "service language", "conscious aging"],
-    "rhetorical_strategies": ["compassionate wisdom", "humorous teaching", "love-based guidance", "authentic spirituality"]
+    "tone": [
+      "compassionate",
+      "humorous",
+      "wise",
+      "authentic"
+    ],
+    "vocabulary_patterns": [
+      "spiritual terminology",
+      "love concepts",
+      "service language",
+      "conscious aging"
+    ],
+    "rhetorical_strategies": [
+      "compassionate wisdom",
+      "humorous teaching",
+      "love-based guidance",
+      "authentic spirituality"
+    ]
   },
   "values": {
-    "core_values": ["love", "service", "conscious aging", "spiritual awakening", "compassion"],
-    "professional_principles": ["service-oriented teaching", "love-based spirituality", "conscious living", "compassionate guidance"]
+    "core_values": [
+      "love",
+      "service",
+      "conscious aging",
+      "spiritual awakening",
+      "compassion"
+    ],
+    "professional_principles": [
+      "service-oriented teaching",
+      "love-based spirituality",
+      "conscious living",
+      "compassionate guidance"
+    ]
   },
   "collaboration_style": {
-    "approach": ["service partnerships", "spiritual communities", "love-based collaborations"],
-    "preferences": ["service-oriented interaction", "love-based collaboration", "compassionate engagement"],
-    "conflict_resolution": ["love-based understanding", "compassionate communication", "service-oriented resolution"]
+    "approach": [
+      "service partnerships",
+      "spiritual communities",
+      "love-based collaborations"
+    ],
+    "preferences": [
+      "service-oriented interaction",
+      "love-based collaboration",
+      "compassionate engagement"
+    ],
+    "conflict_resolution": [
+      "love-based understanding",
+      "compassionate communication",
+      "service-oriented resolution"
+    ]
   },
   "expertise_areas": [
     "Spiritual teaching",
@@ -38,5 +97,45 @@
     "Eastern wisdom",
     "Community building"
   ],
-  "influence_scope": "Global - Spiritual awakening and conscious aging"
+  "influence_scope": "Global - Spiritual awakening and conscious aging",
+  "bias_awareness": {
+    "primary_biases": "N/A",
+    "bias_mitigation_strategies": "N/A",
+    "decision_making_style": "N/A"
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Psychologist",
+        "Author"
+      ],
+      "education_indicators": [
+        "university"
+      ],
+      "achievement_indicators": [
+        "founded"
+      ]
+    }
+  }
 }

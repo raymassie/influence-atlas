@@ -32,7 +32,19 @@
     "typical_career_path": "early programming, startup experience, platform development, CEO leadership, fintech innovation",
     "company_stage_preference": "growth to scale",
     "success_metrics": "developer adoption, platform growth, technical excellence, user satisfaction, market share",
-    "pain_points": "regulatory compliance, technical complexity, developer experience, market competition, platform scaling"
+    "pain_points": "regulatory compliance, technical complexity, developer experience, market competition, platform scaling",
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Economist",
+        "Ceo",
+        "Scientist",
+        "Founder",
+        "Entrepreneur"
+      ],
+      "achievement_indicators": [
+        "founded"
+      ]
+    }
   },
   "behavioral_patterns": {
     "work_style": "technical, systematic, user-focused, analytical, determined, innovative, growth-oriented",
@@ -85,5 +97,95 @@
     "ethical_framework": "user privacy, developer fairness, technical transparency, platform responsibility, innovation ethics",
     "social_responsibility": "developer empowerment, fintech democratization, technical education, platform innovation"
   },
-  "category": "Technology"
+  "category": "Technology",
+  "bias_awareness": {
+    "primary_biases": [
+      "optimism bias",
+      "confirmation bias"
+    ],
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": [
+      "innovation",
+      "problem-solving"
+    ],
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ],
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "innovative solutions"
+    ],
+    "resilience_indicators": "Continuous learning and development focus",
+    "feedback_integration": "Continuous learning and development focus"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "Customer-focused empathy and understanding",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "Always considers human impact",
+    "empathy_expression_chips": [
+      "Empathy",
+      "Empathy",
+      "Focused"
+    ],
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "holistic_perspective": "Systems thinking with user focus",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ],
+    "holistic_perspective_chips": [
+      "User",
+      "Systems",
+      "Systems"
+    ]
+  }
 }

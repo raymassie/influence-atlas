@@ -1,6 +1,6 @@
 {
-  "profile_id": "brown-bren\u00e9",
-  "name": "Bren\u00e9 Brown",
+  "profile_id": "brown-brené",
+  "name": "Brené Brown",
   "archetype": "Vulnerability Researcher",
   "domain": "Thought Leadership",
   "sub_domain": "Vulnerability Research",
@@ -69,5 +69,48 @@
   "communication": {
     "audience_adaptation": "therapists, emotional intelligence professionals, vulnerability researchers, healing psychologists, authentic leaders, courage advocates, empathy specialists, shame resilience experts"
   },
-  "category": "Motivation Coaching"
+  "category": "Motivation Coaching",
+  "bias_awareness": {
+    "primary_biases": "N/A",
+    "bias_mitigation_strategies": "N/A",
+    "decision_making_style": "N/A"
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "Continuous learning and development focus",
+    "challenge_seeking": "Continuous learning and development focus",
+    "learning_orientation": "Continuous learning and development focus"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "Continuous learning and development focus",
+    "resilience_indicators": "Continuous learning and development focus",
+    "feedback_integration": "Continuous learning and development focus"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "High emotional intelligence in team leadership",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A",
+    "empathy_expression_chips": [
+      "Team",
+      "Emotional",
+      "Leadership"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Professor",
+        "Leader"
+      ],
+      "education_indicators": [
+        "university",
+        "college"
+      ]
+    }
+  }
 }

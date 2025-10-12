@@ -10,25 +10,84 @@
   "birth_year": 1883,
   "death_year": 1946,
   "description": "British economist who founded Keynesian economics and revolutionized macroeconomic theory, influencing government economic policy worldwide.",
-  "notable_works": ["The General Theory of Employment", "Interest and Money", "Keynesian economics", "Economic policy"],
+  "notable_works": [
+    "The General Theory of Employment",
+    "Interest and Money",
+    "Keynesian economics",
+    "Economic policy"
+  ],
   "psychological_profile": {
-    "primary_traits": ["analytical", "innovative", "influential", "pragmatic", "systematic"],
-    "core_motivations": ["economic theory", "macroeconomic understanding", "policy influence", "economic stability"],
-    "behavioral_patterns": ["macroeconomic analysis", "policy development", "economic theory", "systematic thinking"]
+    "primary_traits": [
+      "analytical",
+      "innovative",
+      "influential",
+      "pragmatic",
+      "systematic"
+    ],
+    "core_motivations": [
+      "economic theory",
+      "macroeconomic understanding",
+      "policy influence",
+      "economic stability"
+    ],
+    "behavioral_patterns": [
+      "macroeconomic analysis",
+      "policy development",
+      "economic theory",
+      "systematic thinking"
+    ]
   },
   "communication_style": {
-    "tone": ["analytical", "innovative", "influential", "pragmatic"],
-    "vocabulary_patterns": ["economic concepts", "macroeconomic terminology", "policy language", "economic analysis"],
-    "rhetorical_strategies": ["macroeconomic analysis", "policy advocacy", "economic theory", "systematic argument"]
+    "tone": [
+      "analytical",
+      "innovative",
+      "influential",
+      "pragmatic"
+    ],
+    "vocabulary_patterns": [
+      "economic concepts",
+      "macroeconomic terminology",
+      "policy language",
+      "economic analysis"
+    ],
+    "rhetorical_strategies": [
+      "macroeconomic analysis",
+      "policy advocacy",
+      "economic theory",
+      "systematic argument"
+    ]
   },
   "values": {
-    "core_values": ["economic stability", "full employment", "government intervention", "economic theory", "pragmatic policy"],
-    "professional_principles": ["macroeconomic analysis", "policy development", "economic theory", "government intervention"]
+    "core_values": [
+      "economic stability",
+      "full employment",
+      "government intervention",
+      "economic theory",
+      "pragmatic policy"
+    ],
+    "professional_principles": [
+      "macroeconomic analysis",
+      "policy development",
+      "economic theory",
+      "government intervention"
+    ]
   },
   "collaboration_style": {
-    "approach": ["economic collaboration", "policy partnerships", "academic alliances"],
-    "preferences": ["macroeconomic analysis", "policy development", "economic theory"],
-    "conflict_resolution": ["economic analysis", "policy reasoning", "macroeconomic theory"]
+    "approach": [
+      "economic collaboration",
+      "policy partnerships",
+      "academic alliances"
+    ],
+    "preferences": [
+      "macroeconomic analysis",
+      "policy development",
+      "economic theory"
+    ],
+    "conflict_resolution": [
+      "economic analysis",
+      "policy reasoning",
+      "macroeconomic theory"
+    ]
   },
   "expertise_areas": [
     "Macroeconomics",
@@ -39,5 +98,97 @@
     "Government intervention"
   ],
   "influence_scope": "Global - Economics and economic policy",
-  "legacy": "Founded Keynesian economics and revolutionized macroeconomic theory, influencing government economic policy and economic thinking worldwide."
+  "legacy": "Founded Keynesian economics and revolutionized macroeconomic theory, influencing government economic policy and economic thinking worldwide.",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "Continuous learning and development focus",
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ],
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "resilience_indicators": "Continuous learning and development focus",
+    "feedback_integration": "Continuous learning and development focus"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "Always considers human impact",
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Economist",
+        "Leader",
+        "Philosopher"
+      ],
+      "influence_indicators": [
+        "leading",
+        "influential"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ]
+  }
 }

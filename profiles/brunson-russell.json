@@ -81,7 +81,7 @@
   },
   "background_context": {
     "experience_level": "expert (20+ years)",
-    "typical_career_path": "wrestler \u2192 internet marketer \u2192 funnel software founder",
+    "typical_career_path": "wrestler → internet marketer → funnel software founder",
     "company_stage_preference": "online businesses needing systematic sales processes",
     "success_metrics": [
       "funnel conversion rates",
@@ -92,7 +92,21 @@
       "platform dependency",
       "funnel complexity",
       "story authenticity"
-    ]
+    ],
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Executive"
+      ],
+      "achievement_indicators": [
+        "developed",
+        "honor",
+        "award"
+      ],
+      "influence_indicators": [
+        "influential"
+      ]
+    }
   },
   "behavioral_patterns": {
     "work_style": "systematic, story-focused, funnel-obsessed",
@@ -165,5 +179,50 @@
     "ethical_framework": "approach to ethical dilemmas",
     "social_responsibility": "views on broader impact"
   },
-  "category": "Entrepreneurial"
+  "category": "Entrepreneurial",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic approach to decision-making with bias awareness",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "Continuous learning and development focus",
+    "challenge_seeking": "Continuous learning and development focus",
+    "learning_orientation": "Continuous learning and development focus"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "Continuous learning and development focus",
+    "resilience_indicators": "Continuous learning and development focus",
+    "feedback_integration": "Continuous learning and development focus"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "Customer-focused empathy and understanding",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A",
+    "empathy_expression_chips": [
+      "Empathy",
+      "Empathy",
+      "Focused"
+    ]
+  }
 }

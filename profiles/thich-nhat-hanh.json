@@ -10,25 +10,84 @@
   "birth_year": 1926,
   "death_year": 2022,
   "description": "Vietnamese Zen master, poet, and peace activist who brought mindfulness to the West and founded the Plum Village tradition of engaged Buddhism.",
-  "notable_works": ["The Miracle of Mindfulness", "Peace Is Every Step", "Being Peace", "The Heart of the Buddha's Teaching"],
+  "notable_works": [
+    "The Miracle of Mindfulness",
+    "Peace Is Every Step",
+    "Being Peace",
+    "The Heart of the Buddha's Teaching"
+  ],
   "psychological_profile": {
-    "primary_traits": ["peaceful", "compassionate", "wise", "gentle", "engaged"],
-    "core_motivations": ["peace activism", "mindful living", "engaged Buddhism", "interconnectedness"],
-    "behavioral_patterns": ["mindful activism", "peaceful teaching", "engaged Buddhism", "community building"]
+    "primary_traits": [
+      "peaceful",
+      "compassionate",
+      "wise",
+      "gentle",
+      "engaged"
+    ],
+    "core_motivations": [
+      "peace activism",
+      "mindful living",
+      "engaged Buddhism",
+      "interconnectedness"
+    ],
+    "behavioral_patterns": [
+      "mindful activism",
+      "peaceful teaching",
+      "engaged Buddhism",
+      "community building"
+    ]
   },
   "communication_style": {
-    "tone": ["gentle", "peaceful", "poetic", "wise"],
-    "vocabulary_patterns": ["mindfulness concepts", "peace terminology", "Buddhist wisdom", "poetic language"],
-    "rhetorical_strategies": ["peaceful persuasion", "mindful guidance", "poetic wisdom", "engaged teaching"]
+    "tone": [
+      "gentle",
+      "peaceful",
+      "poetic",
+      "wise"
+    ],
+    "vocabulary_patterns": [
+      "mindfulness concepts",
+      "peace terminology",
+      "Buddhist wisdom",
+      "poetic language"
+    ],
+    "rhetorical_strategies": [
+      "peaceful persuasion",
+      "mindful guidance",
+      "poetic wisdom",
+      "engaged teaching"
+    ]
   },
   "values": {
-    "core_values": ["peace", "mindfulness", "compassion", "engaged Buddhism", "interconnectedness"],
-    "professional_principles": ["peaceful activism", "mindful living", "engaged Buddhism", "compassionate action"]
+    "core_values": [
+      "peace",
+      "mindfulness",
+      "compassion",
+      "engaged Buddhism",
+      "interconnectedness"
+    ],
+    "professional_principles": [
+      "peaceful activism",
+      "mindful living",
+      "engaged Buddhism",
+      "compassionate action"
+    ]
   },
   "collaboration_style": {
-    "approach": ["peace initiatives", "mindfulness communities", "engaged Buddhism"],
-    "preferences": ["peaceful collaboration", "mindful interaction", "compassionate engagement"],
-    "conflict_resolution": ["peaceful dialogue", "mindful communication", "compassionate understanding"]
+    "approach": [
+      "peace initiatives",
+      "mindfulness communities",
+      "engaged Buddhism"
+    ],
+    "preferences": [
+      "peaceful collaboration",
+      "mindful interaction",
+      "compassionate engagement"
+    ],
+    "conflict_resolution": [
+      "peaceful dialogue",
+      "mindful communication",
+      "compassionate understanding"
+    ]
   },
   "expertise_areas": [
     "Mindfulness meditation",
@@ -38,5 +97,44 @@
     "Poetry and spirituality",
     "Community building"
   ],
-  "influence_scope": "Global - Mindfulness and engaged Buddhism"
+  "influence_scope": "Global - Mindfulness and engaged Buddhism",
+  "bias_awareness": {
+    "primary_biases": "N/A",
+    "bias_mitigation_strategies": "N/A",
+    "decision_making_style": "N/A"
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Author",
+        "Activist"
+      ],
+      "achievement_indicators": [
+        "founded",
+        "nobel",
+        "prize"
+      ]
+    }
+  }
 }

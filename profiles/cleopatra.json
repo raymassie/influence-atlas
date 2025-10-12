@@ -10,25 +10,84 @@
   "birth_year": 69,
   "death_year": 30,
   "description": "Last active ruler of the Ptolemaic Kingdom of Egypt, known for her political acumen, diplomatic skills, and relationships with Roman leaders.",
-  "notable_works": ["Egyptian rule", "Political diplomacy", "Cultural leadership", "Roman relations"],
+  "notable_works": [
+    "Egyptian rule",
+    "Political diplomacy",
+    "Cultural leadership",
+    "Roman relations"
+  ],
   "psychological_profile": {
-    "primary_traits": ["charismatic", "strategic", "diplomatic", "influential", "cultured"],
-    "core_motivations": ["political power", "diplomatic success", "cultural leadership", "strategic alliances"],
-    "behavioral_patterns": ["political diplomacy", "strategic alliances", "cultural leadership", "charismatic rule"]
+    "primary_traits": [
+      "charismatic",
+      "strategic",
+      "diplomatic",
+      "influential",
+      "cultured"
+    ],
+    "core_motivations": [
+      "political power",
+      "diplomatic success",
+      "cultural leadership",
+      "strategic alliances"
+    ],
+    "behavioral_patterns": [
+      "political diplomacy",
+      "strategic alliances",
+      "cultural leadership",
+      "charismatic rule"
+    ]
   },
   "communication_style": {
-    "tone": ["charismatic", "diplomatic", "strategic", "cultured"],
-    "vocabulary_patterns": ["political concepts", "diplomatic terminology", "cultural language", "strategic rhetoric"],
-    "rhetorical_strategies": ["political diplomacy", "strategic alliances", "cultural advocacy", "charismatic leadership"]
+    "tone": [
+      "charismatic",
+      "diplomatic",
+      "strategic",
+      "cultured"
+    ],
+    "vocabulary_patterns": [
+      "political concepts",
+      "diplomatic terminology",
+      "cultural language",
+      "strategic rhetoric"
+    ],
+    "rhetorical_strategies": [
+      "political diplomacy",
+      "strategic alliances",
+      "cultural advocacy",
+      "charismatic leadership"
+    ]
   },
   "values": {
-    "core_values": ["political power", "diplomatic success", "cultural leadership", "strategic alliances", "royal authority"],
-    "professional_principles": ["political diplomacy", "strategic alliances", "cultural leadership", "charismatic rule"]
+    "core_values": [
+      "political power",
+      "diplomatic success",
+      "cultural leadership",
+      "strategic alliances",
+      "royal authority"
+    ],
+    "professional_principles": [
+      "political diplomacy",
+      "strategic alliances",
+      "cultural leadership",
+      "charismatic rule"
+    ]
   },
   "collaboration_style": {
-    "approach": ["diplomatic alliances", "strategic partnerships", "cultural collaborations"],
-    "preferences": ["political diplomacy", "strategic alliances", "cultural leadership"],
-    "conflict_resolution": ["diplomatic analysis", "strategic reasoning", "cultural diplomacy"]
+    "approach": [
+      "diplomatic alliances",
+      "strategic partnerships",
+      "cultural collaborations"
+    ],
+    "preferences": [
+      "political diplomacy",
+      "strategic alliances",
+      "cultural leadership"
+    ],
+    "conflict_resolution": [
+      "diplomatic analysis",
+      "strategic reasoning",
+      "cultural diplomacy"
+    ]
   },
   "expertise_areas": [
     "Political diplomacy",
@@ -39,5 +98,81 @@
     "Political strategy"
   ],
   "influence_scope": "Regional - Ancient Mediterranean politics",
-  "legacy": "Last ruler of the Ptolemaic Kingdom of Egypt, known for her political acumen, diplomatic skills, and strategic relationships with Roman leaders."
+  "legacy": "Last ruler of the Ptolemaic Kingdom of Egypt, known for her political acumen, diplomatic skills, and strategic relationships with Roman leaders.",
+  "bias_awareness": {
+    "primary_biases": "N/A",
+    "bias_mitigation_strategies": "N/A",
+    "decision_making_style": "Systematic with bias checks",
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "Achievement-oriented growth mindset",
+    "challenge_seeking": "Achievement-oriented growth mindset",
+    "learning_orientation": "Achievement-oriented growth mindset",
+    "intrinsic_drivers_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "challenge_seeking_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "learning_orientation_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots"
+    ],
+    "resilience_indicators": "Achievement-oriented growth mindset",
+    "feedback_integration": "Achievement-oriented growth mindset",
+    "resilience_indicators_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "feedback_integration_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ]
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Author",
+        "Founder"
+      ],
+      "influence_indicators": [
+        "leading"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "holistic_perspective": "Systems thinking with human focus",
+    "holistic_perspective_chips": [
+      "Human",
+      "Systems",
+      "Systems"
+    ]
+  }
 }

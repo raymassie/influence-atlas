@@ -1,6 +1,6 @@
 {
   "profile_id": "muller-brockmann-josef",
-  "name": "Josef M\u00fcller-Brockmann",
+  "name": "Josef Müller-Brockmann",
   "archetype": "Swiss Design Pioneer",
   "domain": "Design",
   "sub_domain": "Swiss Design",
@@ -69,5 +69,57 @@
   "communication": {
     "audience_adaptation": "design professionals, design students, systematic designers, functional aesthetics, mathematical designers, rational communicators"
   },
-  "category": "Design"
+  "category": "Design",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic approach to decision-making with bias awareness",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Designer",
+        "Educator",
+        "Author"
+      ],
+      "education_indicators": [
+        "master"
+      ]
+    }
+  }
 }

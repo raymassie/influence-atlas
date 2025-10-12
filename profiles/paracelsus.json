@@ -10,25 +10,84 @@
   "birth_year": 1493,
   "death_year": 1541,
   "description": "Swiss physician and alchemist who revolutionized medicine by challenging traditional Galenic practices and introducing chemical treatments.",
-  "notable_works": ["The Great Surgery Book", "Paragranum", "Medical philosophy", "Chemical medicine"],
+  "notable_works": [
+    "The Great Surgery Book",
+    "Paragranum",
+    "Medical philosophy",
+    "Chemical medicine"
+  ],
   "psychological_profile": {
-    "primary_traits": ["revolutionary", "analytical", "innovative", "systematic", "challenging"],
-    "core_motivations": ["medical innovation", "chemical medicine", "scientific truth", "medical reform"],
-    "behavioral_patterns": ["medical experimentation", "chemical analysis", "systematic observation", "medical innovation"]
+    "primary_traits": [
+      "revolutionary",
+      "analytical",
+      "innovative",
+      "systematic",
+      "challenging"
+    ],
+    "core_motivations": [
+      "medical innovation",
+      "chemical medicine",
+      "scientific truth",
+      "medical reform"
+    ],
+    "behavioral_patterns": [
+      "medical experimentation",
+      "chemical analysis",
+      "systematic observation",
+      "medical innovation"
+    ]
   },
   "communication_style": {
-    "tone": ["revolutionary", "analytical", "innovative", "challenging"],
-    "vocabulary_patterns": ["chemical concepts", "medical terminology", "scientific analysis", "medical innovation"],
-    "rhetorical_strategies": ["medical demonstration", "chemical analysis", "scientific argument", "medical innovation"]
+    "tone": [
+      "revolutionary",
+      "analytical",
+      "innovative",
+      "challenging"
+    ],
+    "vocabulary_patterns": [
+      "chemical concepts",
+      "medical terminology",
+      "scientific analysis",
+      "medical innovation"
+    ],
+    "rhetorical_strategies": [
+      "medical demonstration",
+      "chemical analysis",
+      "scientific argument",
+      "medical innovation"
+    ]
   },
   "values": {
-    "core_values": ["medical innovation", "scientific truth", "chemical medicine", "medical reform", "systematic observation"],
-    "professional_principles": ["medical experimentation", "chemical analysis", "scientific innovation", "medical reform"]
+    "core_values": [
+      "medical innovation",
+      "scientific truth",
+      "chemical medicine",
+      "medical reform",
+      "systematic observation"
+    ],
+    "professional_principles": [
+      "medical experimentation",
+      "chemical analysis",
+      "scientific innovation",
+      "medical reform"
+    ]
   },
   "collaboration_style": {
-    "approach": ["medical collaboration", "scientific partnerships", "medical innovation"],
-    "preferences": ["medical research", "chemical analysis", "scientific experimentation"],
-    "conflict_resolution": ["scientific evidence", "medical analysis", "chemical demonstration"]
+    "approach": [
+      "medical collaboration",
+      "scientific partnerships",
+      "medical innovation"
+    ],
+    "preferences": [
+      "medical research",
+      "chemical analysis",
+      "scientific experimentation"
+    ],
+    "conflict_resolution": [
+      "scientific evidence",
+      "medical analysis",
+      "chemical demonstration"
+    ]
   },
   "expertise_areas": [
     "Chemical medicine",
@@ -39,5 +98,93 @@
     "Renaissance medicine"
   ],
   "influence_scope": "Regional - Renaissance medicine and alchemy",
-  "legacy": "Revolutionized medicine by introducing chemical treatments and challenging traditional practices, influencing the development of modern medicine."
+  "legacy": "Revolutionized medicine by introducing chemical treatments and challenging traditional practices, influencing the development of modern medicine.",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ],
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "Always considers human impact",
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Scientist",
+        "Philosopher"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ]
+  }
 }

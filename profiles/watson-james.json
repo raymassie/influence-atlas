@@ -86,5 +86,106 @@
   "communication": {
     "audience_adaptation": "scientific audiences, controversial statements, direct communication"
   },
-  "category": "Science"
+  "category": "Science",
+  "bias_awareness": {
+    "primary_biases": "Creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": [
+      "peer review",
+      "data validation"
+    ],
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": [
+      "curiosity",
+      "discovery"
+    ],
+    "challenge_seeking": "Achievement-oriented growth mindset",
+    "learning_orientation": "Achievement-oriented growth mindset",
+    "challenge_seeking_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "learning_orientation_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "Achievement-oriented growth mindset",
+    "resilience_indicators": "Achievement-oriented growth mindset",
+    "feedback_integration": "Evidence-based learning and adaptation",
+    "adaptation_patterns_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "resilience_indicators_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "feedback_integration_chips": [
+      "Adaptation",
+      "Adaptation"
+    ]
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Author"
+      ],
+      "education_indicators": [
+        "university",
+        "bachelor",
+        "phd"
+      ],
+      "achievement_indicators": [
+        "nobel",
+        "prize",
+        "award",
+        "honor"
+      ],
+      "influence_indicators": [
+        "leading"
+      ]
+    }
+  }
 }

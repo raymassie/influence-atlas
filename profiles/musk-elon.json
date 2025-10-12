@@ -10,25 +10,84 @@
   "birth_year": 1971,
   "death_year": null,
   "description": "American technology entrepreneur who founded SpaceX, Tesla, and other companies, revolutionizing space exploration, electric vehicles, and sustainable energy.",
-  "notable_works": ["SpaceX", "Tesla", "Neuralink", "The Boring Company"],
+  "notable_works": [
+    "SpaceX",
+    "Tesla",
+    "Neuralink",
+    "The Boring Company"
+  ],
   "psychological_profile": {
-    "primary_traits": ["visionary", "innovative", "ambitious", "disruptive", "futuristic"],
-    "core_motivations": ["space exploration", "sustainable energy", "technology innovation", "Mars colonization"],
-    "behavioral_patterns": ["technology disruption", "space innovation", "sustainable energy", "futuristic vision"]
+    "primary_traits": [
+      "visionary",
+      "innovative",
+      "ambitious",
+      "disruptive",
+      "futuristic"
+    ],
+    "core_motivations": [
+      "space exploration",
+      "sustainable energy",
+      "technology innovation",
+      "Mars colonization"
+    ],
+    "behavioral_patterns": [
+      "technology disruption",
+      "space innovation",
+      "sustainable energy",
+      "futuristic vision"
+    ]
   },
   "communication_style": {
-    "tone": ["visionary", "innovative", "ambitious", "disruptive"],
-    "vocabulary_patterns": ["technology concepts", "space terminology", "sustainable energy", "innovation language"],
-    "rhetorical_strategies": ["technology vision", "space advocacy", "sustainable energy", "innovation disruption"]
+    "tone": [
+      "visionary",
+      "innovative",
+      "ambitious",
+      "disruptive"
+    ],
+    "vocabulary_patterns": [
+      "technology concepts",
+      "space terminology",
+      "sustainable energy",
+      "innovation language"
+    ],
+    "rhetorical_strategies": [
+      "technology vision",
+      "space advocacy",
+      "sustainable energy",
+      "innovation disruption"
+    ]
   },
   "values": {
-    "core_values": ["space exploration", "sustainable energy", "technology innovation", "Mars colonization", "disruptive innovation"],
-    "professional_principles": ["technology disruption", "space innovation", "sustainable energy", "futuristic vision"]
+    "core_values": [
+      "space exploration",
+      "sustainable energy",
+      "technology innovation",
+      "Mars colonization",
+      "disruptive innovation"
+    ],
+    "professional_principles": [
+      "technology disruption",
+      "space innovation",
+      "sustainable energy",
+      "futuristic vision"
+    ]
   },
   "collaboration_style": {
-    "approach": ["technology partnerships", "space collaborations", "energy alliances"],
-    "preferences": ["technology development", "space exploration", "sustainable energy"],
-    "conflict_resolution": ["technology solutions", "space innovation", "sustainable energy"]
+    "approach": [
+      "technology partnerships",
+      "space collaborations",
+      "energy alliances"
+    ],
+    "preferences": [
+      "technology development",
+      "space exploration",
+      "sustainable energy"
+    ],
+    "conflict_resolution": [
+      "technology solutions",
+      "space innovation",
+      "sustainable energy"
+    ]
   },
   "expertise_areas": [
     "Space technology",
@@ -65,6 +124,104 @@
       "tweets controversial opinions",
       "works 80+ hours per week",
       "names cars after sci-fi references"
+    ]
+  },
+  "bias_awareness": {
+    "primary_biases": [
+      "optimism bias",
+      "confirmation bias"
+    ],
+    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": [
+      "innovation",
+      "problem-solving"
+    ],
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "N/A",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Leader",
+        "Entrepreneur",
+        "Engineer",
+        "Ceo"
+      ],
+      "education_indicators": [
+        "university",
+        "bachelor"
+      ],
+      "achievement_indicators": [
+        "founded"
+      ],
+      "influence_indicators": [
+        "leading"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "holistic_perspective": "Systems thinking with user focus",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ],
+    "holistic_perspective_chips": [
+      "User",
+      "Systems",
+      "Systems"
     ]
   }
 }

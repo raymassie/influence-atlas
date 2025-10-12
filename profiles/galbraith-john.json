@@ -10,25 +10,84 @@
   "birth_year": 1908,
   "death_year": 2006,
   "description": "American economist who was a leading voice in institutional economics and became known for his critiques of conventional economic wisdom.",
-  "notable_works": ["The Affluent Society", "The New Industrial State", "Institutional economics", "Economic critique"],
+  "notable_works": [
+    "The Affluent Society",
+    "The New Industrial State",
+    "Institutional economics",
+    "Economic critique"
+  ],
   "psychological_profile": {
-    "primary_traits": ["analytical", "critical", "influential", "systematic", "iconoclastic"],
-    "core_motivations": ["economic critique", "institutional analysis", "public education", "economic understanding"],
-    "behavioral_patterns": ["economic critique", "institutional analysis", "public communication", "systematic thinking"]
+    "primary_traits": [
+      "analytical",
+      "critical",
+      "influential",
+      "systematic",
+      "iconoclastic"
+    ],
+    "core_motivations": [
+      "economic critique",
+      "institutional analysis",
+      "public education",
+      "economic understanding"
+    ],
+    "behavioral_patterns": [
+      "economic critique",
+      "institutional analysis",
+      "public communication",
+      "systematic thinking"
+    ]
   },
   "communication_style": {
-    "tone": ["analytical", "critical", "influential", "systematic"],
-    "vocabulary_patterns": ["economic concepts", "institutional terminology", "critical language", "economic analysis"],
-    "rhetorical_strategies": ["economic critique", "institutional analysis", "public communication", "economic understanding"]
+    "tone": [
+      "analytical",
+      "critical",
+      "influential",
+      "systematic"
+    ],
+    "vocabulary_patterns": [
+      "economic concepts",
+      "institutional terminology",
+      "critical language",
+      "economic analysis"
+    ],
+    "rhetorical_strategies": [
+      "economic critique",
+      "institutional analysis",
+      "public communication",
+      "economic understanding"
+    ]
   },
   "values": {
-    "core_values": ["economic critique", "institutional analysis", "public education", "economic understanding", "systematic analysis"],
-    "professional_principles": ["economic critique", "institutional analysis", "public communication", "economic understanding"]
+    "core_values": [
+      "economic critique",
+      "institutional analysis",
+      "public education",
+      "economic understanding",
+      "systematic analysis"
+    ],
+    "professional_principles": [
+      "economic critique",
+      "institutional analysis",
+      "public communication",
+      "economic understanding"
+    ]
   },
   "collaboration_style": {
-    "approach": ["economic partnerships", "institutional collaborations", "public alliances"],
-    "preferences": ["economic critique", "institutional analysis", "public communication"],
-    "conflict_resolution": ["economic analysis", "institutional reasoning", "public education"]
+    "approach": [
+      "economic partnerships",
+      "institutional collaborations",
+      "public alliances"
+    ],
+    "preferences": [
+      "economic critique",
+      "institutional analysis",
+      "public communication"
+    ],
+    "conflict_resolution": [
+      "economic analysis",
+      "institutional reasoning",
+      "public education"
+    ]
   },
   "expertise_areas": [
     "Institutional economics",
@@ -39,5 +98,68 @@
     "Industrial organization"
   ],
   "influence_scope": "Global - Economics and public policy",
-  "legacy": "Became a leading voice in institutional economics and economic critique, influencing public understanding of economic policy and industrial organization."
+  "legacy": "Became a leading voice in institutional economics and economic critique, influencing public understanding of economic policy and industrial organization.",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "Always considers human impact",
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Professor",
+        "Author",
+        "Economist"
+      ],
+      "education_indicators": [
+        "university"
+      ],
+      "achievement_indicators": [
+        "medal"
+      ]
+    }
+  }
 }

@@ -10,25 +10,84 @@
   "birth_year": 1514,
   "death_year": 1564,
   "description": "Flemish anatomist who revolutionized anatomy with his detailed anatomical illustrations and challenged Galenic anatomy through direct observation.",
-  "notable_works": ["On the Fabric of the Human Body", "Anatomical illustrations", "Anatomical research", "Medical education"],
+  "notable_works": [
+    "On the Fabric of the Human Body",
+    "Anatomical illustrations",
+    "Anatomical research",
+    "Medical education"
+  ],
   "psychological_profile": {
-    "primary_traits": ["observant", "systematic", "innovative", "methodical", "challenging"],
-    "core_motivations": ["anatomical accuracy", "scientific observation", "medical education", "anatomical truth"],
-    "behavioral_patterns": ["anatomical observation", "systematic dissection", "scientific illustration", "medical education"]
+    "primary_traits": [
+      "observant",
+      "systematic",
+      "innovative",
+      "methodical",
+      "challenging"
+    ],
+    "core_motivations": [
+      "anatomical accuracy",
+      "scientific observation",
+      "medical education",
+      "anatomical truth"
+    ],
+    "behavioral_patterns": [
+      "anatomical observation",
+      "systematic dissection",
+      "scientific illustration",
+      "medical education"
+    ]
   },
   "communication_style": {
-    "tone": ["observant", "systematic", "methodical", "scientific"],
-    "vocabulary_patterns": ["anatomical concepts", "scientific observation", "medical terminology", "anatomical accuracy"],
-    "rhetorical_strategies": ["anatomical demonstration", "scientific observation", "medical illustration", "anatomical argument"]
+    "tone": [
+      "observant",
+      "systematic",
+      "methodical",
+      "scientific"
+    ],
+    "vocabulary_patterns": [
+      "anatomical concepts",
+      "scientific observation",
+      "medical terminology",
+      "anatomical accuracy"
+    ],
+    "rhetorical_strategies": [
+      "anatomical demonstration",
+      "scientific observation",
+      "medical illustration",
+      "anatomical argument"
+    ]
   },
   "values": {
-    "core_values": ["anatomical accuracy", "scientific observation", "medical education", "anatomical truth", "systematic analysis"],
-    "professional_principles": ["anatomical research", "scientific observation", "medical illustration", "anatomical accuracy"]
+    "core_values": [
+      "anatomical accuracy",
+      "scientific observation",
+      "medical education",
+      "anatomical truth",
+      "systematic analysis"
+    ],
+    "professional_principles": [
+      "anatomical research",
+      "scientific observation",
+      "medical illustration",
+      "anatomical accuracy"
+    ]
   },
   "collaboration_style": {
-    "approach": ["anatomical collaboration", "scientific partnerships", "medical education"],
-    "preferences": ["anatomical research", "scientific observation", "medical illustration"],
-    "conflict_resolution": ["anatomical evidence", "scientific observation", "medical demonstration"]
+    "approach": [
+      "anatomical collaboration",
+      "scientific partnerships",
+      "medical education"
+    ],
+    "preferences": [
+      "anatomical research",
+      "scientific observation",
+      "medical illustration"
+    ],
+    "conflict_resolution": [
+      "anatomical evidence",
+      "scientific observation",
+      "medical demonstration"
+    ]
   },
   "expertise_areas": [
     "Human anatomy",
@@ -39,5 +98,91 @@
     "Renaissance medicine"
   ],
   "influence_scope": "Global - Anatomy and medical education",
-  "legacy": "Revolutionized anatomy with detailed illustrations and direct observation, establishing the foundation for modern anatomical study."
+  "legacy": "Revolutionized anatomy with detailed illustrations and direct observation, establishing the foundation for modern anatomical study.",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic approach to decision-making with bias awareness",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "N/A",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Professor",
+        "Founder"
+      ],
+      "education_indicators": [
+        "university"
+      ],
+      "influence_indicators": [
+        "influential"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ]
+  }
 }

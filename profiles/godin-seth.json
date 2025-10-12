@@ -10,25 +10,85 @@
   "birth_year": 1960,
   "death_year": null,
   "description": "American author and marketing guru known for his insights on digital marketing, permission marketing, and the concept of 'purple cows' and 'tribes'.",
-  "notable_works": ["Purple Cow", "Permission Marketing", "Tribes", "The Dip", "Marketing philosophy"],
+  "notable_works": [
+    "Purple Cow",
+    "Permission Marketing",
+    "Tribes",
+    "The Dip",
+    "Marketing philosophy"
+  ],
   "psychological_profile": {
-    "primary_traits": ["innovative", "insightful", "thoughtful", "influential", "principled"],
-    "core_motivations": ["marketing innovation", "thought leadership", "digital marketing", "consumer insight"],
-    "behavioral_patterns": ["thought leadership", "marketing innovation", "digital strategy", "consumer insight"]
+    "primary_traits": [
+      "innovative",
+      "insightful",
+      "thoughtful",
+      "influential",
+      "principled"
+    ],
+    "core_motivations": [
+      "marketing innovation",
+      "thought leadership",
+      "digital marketing",
+      "consumer insight"
+    ],
+    "behavioral_patterns": [
+      "thought leadership",
+      "marketing innovation",
+      "digital strategy",
+      "consumer insight"
+    ]
   },
   "communication_style": {
-    "tone": ["thoughtful", "insightful", "innovative", "principled"],
-    "vocabulary_patterns": ["marketing concepts", "digital strategy", "consumer insight", "marketing philosophy"],
-    "rhetorical_strategies": ["thought leadership", "marketing insight", "digital strategy", "consumer analysis"]
+    "tone": [
+      "thoughtful",
+      "insightful",
+      "innovative",
+      "principled"
+    ],
+    "vocabulary_patterns": [
+      "marketing concepts",
+      "digital strategy",
+      "consumer insight",
+      "marketing philosophy"
+    ],
+    "rhetorical_strategies": [
+      "thought leadership",
+      "marketing insight",
+      "digital strategy",
+      "consumer analysis"
+    ]
   },
   "values": {
-    "core_values": ["marketing integrity", "consumer respect", "digital innovation", "thought leadership", "marketing ethics"],
-    "professional_principles": ["permission marketing", "consumer respect", "digital innovation", "marketing integrity"]
+    "core_values": [
+      "marketing integrity",
+      "consumer respect",
+      "digital innovation",
+      "thought leadership",
+      "marketing ethics"
+    ],
+    "professional_principles": [
+      "permission marketing",
+      "consumer respect",
+      "digital innovation",
+      "marketing integrity"
+    ]
   },
   "collaboration_style": {
-    "approach": ["thought leadership", "marketing collaboration", "digital partnerships"],
-    "preferences": ["marketing innovation", "digital strategy", "consumer insight"],
-    "conflict_resolution": ["marketing insight", "consumer research", "digital strategy"]
+    "approach": [
+      "thought leadership",
+      "marketing collaboration",
+      "digital partnerships"
+    ],
+    "preferences": [
+      "marketing innovation",
+      "digital strategy",
+      "consumer insight"
+    ],
+    "conflict_resolution": [
+      "marketing insight",
+      "consumer research",
+      "digital strategy"
+    ]
   },
   "expertise_areas": [
     "Digital marketing",
@@ -39,5 +99,90 @@
     "Thought leadership"
   ],
   "influence_scope": "Global - Digital marketing and marketing philosophy",
-  "legacy": "Pioneered permission marketing and digital marketing concepts, influencing how businesses approach customer relationships and digital strategy."
+  "legacy": "Pioneered permission marketing and digital marketing concepts, influencing how businesses approach customer relationships and digital strategy.",
+  "bias_awareness": {
+    "primary_biases": "Creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "N/A",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "Strong integrity-based ethical framework",
+    "human_centered_thinking": "N/A",
+    "ethical_framework_chips": [
+      "Ethical",
+      "Ethical",
+      "Integrity"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Executive",
+        "Author",
+        "Entrepreneur"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ]
+  }
 }

@@ -10,25 +10,84 @@
   "birth_year": 1911,
   "death_year": 1999,
   "description": "British-American advertising executive who founded Ogilvy & Mather and is considered the 'Father of Advertising' for his innovative approach to marketing.",
-  "notable_works": ["Ogilvy & Mather", "Confessions of an Advertising Man", "Advertising principles", "Brand strategy"],
+  "notable_works": [
+    "Ogilvy & Mather",
+    "Confessions of an Advertising Man",
+    "Advertising principles",
+    "Brand strategy"
+  ],
   "psychological_profile": {
-    "primary_traits": ["creative", "strategic", "persuasive", "innovative", "principled"],
-    "core_motivations": ["creative advertising", "brand building", "market persuasion", "advertising excellence"],
-    "behavioral_patterns": ["creative strategy", "brand development", "market research", "advertising innovation"]
+    "primary_traits": [
+      "creative",
+      "strategic",
+      "persuasive",
+      "innovative",
+      "principled"
+    ],
+    "core_motivations": [
+      "creative advertising",
+      "brand building",
+      "market persuasion",
+      "advertising excellence"
+    ],
+    "behavioral_patterns": [
+      "creative strategy",
+      "brand development",
+      "market research",
+      "advertising innovation"
+    ]
   },
   "communication_style": {
-    "tone": ["persuasive", "creative", "strategic", "principled"],
-    "vocabulary_patterns": ["advertising concepts", "brand strategy", "market persuasion", "creative principles"],
-    "rhetorical_strategies": ["persuasive advertising", "creative demonstration", "brand strategy", "market analysis"]
+    "tone": [
+      "persuasive",
+      "creative",
+      "strategic",
+      "principled"
+    ],
+    "vocabulary_patterns": [
+      "advertising concepts",
+      "brand strategy",
+      "market persuasion",
+      "creative principles"
+    ],
+    "rhetorical_strategies": [
+      "persuasive advertising",
+      "creative demonstration",
+      "brand strategy",
+      "market analysis"
+    ]
   },
   "values": {
-    "core_values": ["advertising excellence", "brand integrity", "creative innovation", "market persuasion", "professional ethics"],
-    "professional_principles": ["creative advertising", "brand development", "market research", "advertising ethics"]
+    "core_values": [
+      "advertising excellence",
+      "brand integrity",
+      "creative innovation",
+      "market persuasion",
+      "professional ethics"
+    ],
+    "professional_principles": [
+      "creative advertising",
+      "brand development",
+      "market research",
+      "advertising ethics"
+    ]
   },
   "collaboration_style": {
-    "approach": ["creative collaboration", "brand partnerships", "market research"],
-    "preferences": ["creative freedom", "brand development", "market analysis"],
-    "conflict_resolution": ["creative solutions", "brand strategy", "market research"]
+    "approach": [
+      "creative collaboration",
+      "brand partnerships",
+      "market research"
+    ],
+    "preferences": [
+      "creative freedom",
+      "brand development",
+      "market analysis"
+    ],
+    "conflict_resolution": [
+      "creative solutions",
+      "brand strategy",
+      "market research"
+    ]
   },
   "expertise_areas": [
     "Advertising strategy",
@@ -39,5 +98,91 @@
     "Marketing psychology"
   ],
   "influence_scope": "Global - Advertising and marketing",
-  "legacy": "Pioneered modern advertising and founded one of the world's leading advertising agencies, establishing principles that still guide the industry."
+  "legacy": "Pioneered modern advertising and founded one of the world's leading advertising agencies, establishing principles that still guide the industry.",
+  "bias_awareness": {
+    "primary_biases": "Creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "Continuous learning and development focus",
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "Continuous learning and development focus",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": [
+      "creative breakthroughs"
+    ],
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "resilience_indicators": "Continuous learning and development focus",
+    "feedback_integration": "Continuous learning and development focus"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "Strong integrity-based ethical framework",
+    "human_centered_thinking": "N/A",
+    "ethical_framework_chips": [
+      "Ethical",
+      "Ethical",
+      "Integrity"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Economist",
+        "Founder"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "holistic_perspective": "Systems thinking with human focus",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ],
+    "holistic_perspective_chips": [
+      "Human",
+      "Systems",
+      "Systems"
+    ]
+  }
 }

@@ -10,25 +10,84 @@
   "birth_year": 1935,
   "death_year": null,
   "description": "The 14th Dalai Lama, spiritual leader of Tibet and global advocate for compassion, non-violence, and the integration of Buddhist wisdom with modern science and ethics.",
-  "notable_works": ["The Art of Happiness", "Ethics for the New Millennium", "The Universe in a Single Atom", "Buddhism and Science"],
+  "notable_works": [
+    "The Art of Happiness",
+    "Ethics for the New Millennium",
+    "The Universe in a Single Atom",
+    "Buddhism and Science"
+  ],
   "psychological_profile": {
-    "primary_traits": ["compassionate", "wise", "peaceful", "empathetic", "intellectually curious"],
-    "core_motivations": ["universal compassion", "peace", "spiritual awakening", "interfaith dialogue"],
-    "behavioral_patterns": ["compassionate leadership", "peaceful activism", "interfaith dialogue", "scientific collaboration"]
+    "primary_traits": [
+      "compassionate",
+      "wise",
+      "peaceful",
+      "empathetic",
+      "intellectually curious"
+    ],
+    "core_motivations": [
+      "universal compassion",
+      "peace",
+      "spiritual awakening",
+      "interfaith dialogue"
+    ],
+    "behavioral_patterns": [
+      "compassionate leadership",
+      "peaceful activism",
+      "interfaith dialogue",
+      "scientific collaboration"
+    ]
   },
   "communication_style": {
-    "tone": ["gentle", "wise", "compassionate", "humorous"],
-    "vocabulary_patterns": ["Buddhist concepts", "compassion terminology", "peace language", "scientific metaphors"],
-    "rhetorical_strategies": ["compassionate wisdom", "peaceful persuasion", "interfaith dialogue", "scientific integration"]
+    "tone": [
+      "gentle",
+      "wise",
+      "compassionate",
+      "humorous"
+    ],
+    "vocabulary_patterns": [
+      "Buddhist concepts",
+      "compassion terminology",
+      "peace language",
+      "scientific metaphors"
+    ],
+    "rhetorical_strategies": [
+      "compassionate wisdom",
+      "peaceful persuasion",
+      "interfaith dialogue",
+      "scientific integration"
+    ]
   },
   "values": {
-    "core_values": ["compassion", "peace", "wisdom", "non-violence", "interconnectedness"],
-    "professional_principles": ["universal compassion", "peaceful activism", "interfaith dialogue", "scientific collaboration"]
+    "core_values": [
+      "compassion",
+      "peace",
+      "wisdom",
+      "non-violence",
+      "interconnectedness"
+    ],
+    "professional_principles": [
+      "universal compassion",
+      "peaceful activism",
+      "interfaith dialogue",
+      "scientific collaboration"
+    ]
   },
   "collaboration_style": {
-    "approach": ["interfaith dialogue", "scientific partnerships", "peace initiatives"],
-    "preferences": ["compassionate collaboration", "peaceful resolution", "wisdom sharing"],
-    "conflict_resolution": ["compassionate understanding", "peaceful dialogue", "wisdom-based mediation"]
+    "approach": [
+      "interfaith dialogue",
+      "scientific partnerships",
+      "peace initiatives"
+    ],
+    "preferences": [
+      "compassionate collaboration",
+      "peaceful resolution",
+      "wisdom sharing"
+    ],
+    "conflict_resolution": [
+      "compassionate understanding",
+      "peaceful dialogue",
+      "wisdom-based mediation"
+    ]
   },
   "expertise_areas": [
     "Buddhist meditation",
@@ -38,5 +97,41 @@
     "Peace activism",
     "Buddhist philosophy"
   ],
-  "influence_scope": "Global - Buddhist wisdom and universal compassion"
+  "influence_scope": "Global - Buddhist wisdom and universal compassion",
+  "bias_awareness": {
+    "primary_biases": "N/A",
+    "bias_mitigation_strategies": "N/A",
+    "decision_making_style": "N/A"
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Leader",
+        "Author"
+      ],
+      "achievement_indicators": [
+        "award"
+      ]
+    }
+  }
 }

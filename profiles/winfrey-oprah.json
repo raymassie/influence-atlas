@@ -82,7 +82,7 @@
   },
   "background_context": {
     "experience_level": "legendary (40+ years)",
-    "typical_career_path": "local news \u2192 talk show host \u2192 media mogul \u2192 transformational leader",
+    "typical_career_path": "local news → talk show host → media mogul → transformational leader",
     "company_stage_preference": "media and personal development businesses with transformational impact",
     "success_metrics": [
       "audience transformation",
@@ -94,7 +94,26 @@
       "maintaining authenticity at scale",
       "media criticism",
       "balancing business and mission"
-    ]
+    ],
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Author"
+      ],
+      "education_indicators": [
+        "doctorate"
+      ],
+      "achievement_indicators": [
+        "medal",
+        "pioneered",
+        "award",
+        "honor",
+        "invented"
+      ],
+      "influence_indicators": [
+        "influential"
+      ]
+    }
   },
   "behavioral_patterns": {
     "work_style": "emotionally intelligent, purpose-driven, transformational, community-focused, empathetic",
@@ -167,5 +186,60 @@
     "ethical_framework": "strong emphasis on doing good, helping others, and using influence responsibly",
     "social_responsibility": "committed to education, women's empowerment, and social justice through philanthropy and advocacy"
   },
-  "category": "Entrepreneurial"
+  "category": "Entrepreneurial",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic approach to decision-making with bias awareness",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "Continuous learning and development focus",
+    "challenge_seeking": "Continuous learning and development focus",
+    "learning_orientation": "Continuous learning and development focus"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Purpose-driven work aligned with personal values",
+    "autonomy_expression": "Purpose-driven work aligned with personal values",
+    "purpose_alignment": "Purpose-driven work aligned with personal values",
+    "peak_experiences_chips": [
+      "Work",
+      "Values",
+      "Values"
+    ],
+    "autonomy_expression_chips": [
+      "Work",
+      "Values",
+      "Values"
+    ],
+    "purpose_alignment_chips": [
+      "Work",
+      "Values",
+      "Values"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "Continuous learning and development focus",
+    "resilience_indicators": "Continuous learning and development focus",
+    "feedback_integration": "Continuous learning and development focus"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  }
 }

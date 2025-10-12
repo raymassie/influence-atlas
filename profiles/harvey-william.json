@@ -10,25 +10,84 @@
   "birth_year": 1578,
   "death_year": 1657,
   "description": "English physician who discovered the circulation of blood and revolutionized understanding of the cardiovascular system.",
-  "notable_works": ["On the Motion of the Heart and Blood", "Blood circulation theory", "Cardiovascular research", "Medical physiology"],
+  "notable_works": [
+    "On the Motion of the Heart and Blood",
+    "Blood circulation theory",
+    "Cardiovascular research",
+    "Medical physiology"
+  ],
   "psychological_profile": {
-    "primary_traits": ["observant", "analytical", "systematic", "innovative", "methodical"],
-    "core_motivations": ["physiological understanding", "medical discovery", "scientific observation", "cardiovascular research"],
-    "behavioral_patterns": ["physiological observation", "systematic research", "medical experimentation", "cardiovascular analysis"]
+    "primary_traits": [
+      "observant",
+      "analytical",
+      "systematic",
+      "innovative",
+      "methodical"
+    ],
+    "core_motivations": [
+      "physiological understanding",
+      "medical discovery",
+      "scientific observation",
+      "cardiovascular research"
+    ],
+    "behavioral_patterns": [
+      "physiological observation",
+      "systematic research",
+      "medical experimentation",
+      "cardiovascular analysis"
+    ]
   },
   "communication_style": {
-    "tone": ["observant", "analytical", "systematic", "scientific"],
-    "vocabulary_patterns": ["physiological concepts", "cardiovascular terminology", "scientific observation", "medical research"],
-    "rhetorical_strategies": ["physiological demonstration", "scientific observation", "medical research", "cardiovascular analysis"]
+    "tone": [
+      "observant",
+      "analytical",
+      "systematic",
+      "scientific"
+    ],
+    "vocabulary_patterns": [
+      "physiological concepts",
+      "cardiovascular terminology",
+      "scientific observation",
+      "medical research"
+    ],
+    "rhetorical_strategies": [
+      "physiological demonstration",
+      "scientific observation",
+      "medical research",
+      "cardiovascular analysis"
+    ]
   },
   "values": {
-    "core_values": ["physiological accuracy", "scientific observation", "medical discovery", "cardiovascular research", "systematic analysis"],
-    "professional_principles": ["physiological research", "scientific observation", "medical experimentation", "cardiovascular accuracy"]
+    "core_values": [
+      "physiological accuracy",
+      "scientific observation",
+      "medical discovery",
+      "cardiovascular research",
+      "systematic analysis"
+    ],
+    "professional_principles": [
+      "physiological research",
+      "scientific observation",
+      "medical experimentation",
+      "cardiovascular accuracy"
+    ]
   },
   "collaboration_style": {
-    "approach": ["physiological collaboration", "scientific partnerships", "medical research"],
-    "preferences": ["physiological research", "scientific observation", "cardiovascular analysis"],
-    "conflict_resolution": ["physiological evidence", "scientific observation", "medical demonstration"]
+    "approach": [
+      "physiological collaboration",
+      "scientific partnerships",
+      "medical research"
+    ],
+    "preferences": [
+      "physiological research",
+      "scientific observation",
+      "cardiovascular analysis"
+    ],
+    "conflict_resolution": [
+      "physiological evidence",
+      "scientific observation",
+      "medical demonstration"
+    ]
   },
   "expertise_areas": [
     "Cardiovascular physiology",
@@ -39,5 +98,95 @@
     "Physiological observation"
   ],
   "influence_scope": "Global - Cardiovascular medicine and physiology",
-  "legacy": "Discovered blood circulation and revolutionized understanding of the cardiovascular system, founding modern cardiovascular physiology."
+  "legacy": "Discovered blood circulation and revolutionized understanding of the cardiovascular system, founding modern cardiovascular physiology.",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ],
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "Always considers human impact",
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Scientist"
+      ],
+      "influence_indicators": [
+        "influential"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ]
+  }
 }

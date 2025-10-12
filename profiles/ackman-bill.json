@@ -86,5 +86,90 @@
   "communication": {
     "audience_adaptation": "activist audiences, contrarian discourse, confrontational communication"
   },
-  "category": "Investment"
+  "category": "Investment",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "Achievement-oriented growth mindset",
+    "challenge_seeking": "Achievement-oriented growth mindset",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "intrinsic_drivers_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "challenge_seeking_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "Achievement-oriented growth mindset",
+    "resilience_indicators": "Achievement-oriented growth mindset",
+    "feedback_integration": "Achievement-oriented growth mindset",
+    "adaptation_patterns_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "resilience_indicators_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "feedback_integration_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ]
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "Always considers human impact",
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Executive",
+        "Founder",
+        "Activist"
+      ],
+      "education_indicators": [
+        "university"
+      ]
+    }
+  }
 }

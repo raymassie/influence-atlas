@@ -81,7 +81,7 @@
   },
   "background_context": {
     "experience_level": "expert (15+ years)",
-    "typical_career_path": "personal crisis \u2192 performance research \u2192 high performance coach",
+    "typical_career_path": "personal crisis → performance research → high performance coach",
     "company_stage_preference": "high performers and organizations needing systematic optimization",
     "success_metrics": [
       "performance improvements",
@@ -92,7 +92,13 @@
       "performance plateaus",
       "habit inconsistency",
       "systematic resistance"
-    ]
+    ],
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Author"
+      ]
+    }
   },
   "behavioral_patterns": {
     "work_style": "systematic, high-energy, performance-focused",
@@ -165,5 +171,45 @@
     "ethical_framework": "approach to ethical dilemmas",
     "social_responsibility": "views on broader impact"
   },
-  "category": "Motivation Coaching"
+  "category": "Motivation Coaching",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic approach to decision-making with bias awareness",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "Continuous learning and development focus",
+    "challenge_seeking": "Continuous learning and development focus",
+    "learning_orientation": "Continuous learning and development focus"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "Continuous learning and development focus",
+    "resilience_indicators": "Continuous learning and development focus",
+    "feedback_integration": "Continuous learning and development focus"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  }
 }

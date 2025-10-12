@@ -32,7 +32,21 @@
     "typical_career_path": "academic research, experimental psychology, behavioral economics, thought leadership, research consulting",
     "company_stage_preference": "research institutions and companies focused on human behavior",
     "success_metrics": "research impact, behavioral insights, decision-making improvement, experimental findings, academic recognition",
-    "pain_points": "research funding, experimental constraints, human behavior complexity, decision-making resistance, academic publishing"
+    "pain_points": "research funding, experimental constraints, human behavior complexity, decision-making resistance, academic publishing",
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Author",
+        "Professor",
+        "Founder",
+        "Economist"
+      ],
+      "education_indicators": [
+        "university"
+      ],
+      "achievement_indicators": [
+        "discovered"
+      ]
+    }
   },
   "behavioral_patterns": {
     "work_style": "experimental, analytical, research-driven, systematic, curious, insightful, empathetic",
@@ -85,5 +99,58 @@
     "ethical_framework": "research ethics, behavioral transparency, experimental integrity, human psychology respect, decision-making responsibility",
     "social_responsibility": "decision-making education, behavioral awareness, human psychology understanding, experimental research, behavioral economics"
   },
-  "category": "Psychology"
+  "category": "Psychology",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "Strong integrity-based ethical framework",
+    "human_centered_thinking": "Always considers human impact",
+    "ethical_framework_chips": [
+      "Ethical",
+      "Ethical",
+      "Integrity"
+    ],
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  }
 }

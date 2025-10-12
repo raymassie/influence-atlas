@@ -10,25 +10,84 @@
   "birth_year": 460,
   "death_year": 370,
   "description": "Ancient Greek physician who is considered the father of medicine and established the Hippocratic Oath and principles of medical ethics.",
-  "notable_works": ["Hippocratic Oath", "Medical ethics", "Clinical observation", "Medical diagnosis"],
+  "notable_works": [
+    "Hippocratic Oath",
+    "Medical ethics",
+    "Clinical observation",
+    "Medical diagnosis"
+  ],
   "psychological_profile": {
-    "primary_traits": ["observant", "principled", "systematic", "influential", "ethical"],
-    "core_motivations": ["medical ethics", "clinical observation", "patient care", "medical knowledge"],
-    "behavioral_patterns": ["clinical observation", "medical ethics", "systematic diagnosis", "patient care"]
+    "primary_traits": [
+      "observant",
+      "principled",
+      "systematic",
+      "influential",
+      "ethical"
+    ],
+    "core_motivations": [
+      "medical ethics",
+      "clinical observation",
+      "patient care",
+      "medical knowledge"
+    ],
+    "behavioral_patterns": [
+      "clinical observation",
+      "medical ethics",
+      "systematic diagnosis",
+      "patient care"
+    ]
   },
   "communication_style": {
-    "tone": ["observant", "principled", "systematic", "ethical"],
-    "vocabulary_patterns": ["medical concepts", "clinical observation", "medical ethics", "patient care"],
-    "rhetorical_strategies": ["clinical demonstration", "medical ethics", "systematic diagnosis", "patient care"]
+    "tone": [
+      "observant",
+      "principled",
+      "systematic",
+      "ethical"
+    ],
+    "vocabulary_patterns": [
+      "medical concepts",
+      "clinical observation",
+      "medical ethics",
+      "patient care"
+    ],
+    "rhetorical_strategies": [
+      "clinical demonstration",
+      "medical ethics",
+      "systematic diagnosis",
+      "patient care"
+    ]
   },
   "values": {
-    "core_values": ["medical ethics", "patient care", "clinical observation", "medical knowledge", "systematic diagnosis"],
-    "professional_principles": ["medical ethics", "clinical observation", "patient care", "systematic diagnosis"]
+    "core_values": [
+      "medical ethics",
+      "patient care",
+      "clinical observation",
+      "medical knowledge",
+      "systematic diagnosis"
+    ],
+    "professional_principles": [
+      "medical ethics",
+      "clinical observation",
+      "patient care",
+      "systematic diagnosis"
+    ]
   },
   "collaboration_style": {
-    "approach": ["medical collaboration", "clinical partnerships", "ethical practice"],
-    "preferences": ["clinical observation", "medical ethics", "patient care"],
-    "conflict_resolution": ["medical ethics", "clinical observation", "patient care"]
+    "approach": [
+      "medical collaboration",
+      "clinical partnerships",
+      "ethical practice"
+    ],
+    "preferences": [
+      "clinical observation",
+      "medical ethics",
+      "patient care"
+    ],
+    "conflict_resolution": [
+      "medical ethics",
+      "clinical observation",
+      "patient care"
+    ]
   },
   "expertise_areas": [
     "Clinical medicine",
@@ -39,5 +98,53 @@
     "Medical philosophy"
   ],
   "influence_scope": "Global - Medicine and medical ethics",
-  "legacy": "Established the foundation of medical ethics and clinical practice, influencing medicine and medical ethics for over two millennia."
+  "legacy": "Established the foundation of medical ethics and clinical practice, influencing medicine and medical ethics for over two millennia.",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic approach to decision-making with bias awareness",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Philosopher"
+      ]
+    }
+  }
 }

@@ -69,5 +69,97 @@
   "communication": {
     "audience_adaptation": "varied complexity for different audiences, public readings, serial cliffhangers for engagement, moral lessons for children"
   },
-  "category": "Writers"
+  "category": "Writers",
+  "bias_awareness": {
+    "primary_biases": "Creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": [
+      "achievement",
+      "mastery"
+    ],
+    "challenge_seeking": "Continuous learning and development focus",
+    "learning_orientation": "Continuous learning and development focus"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": [
+      "creative breakthroughs"
+    ],
+    "autonomy_expression": "High autonomy in decision-making",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "autonomy_expression_chips": [
+      "Autonomy"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "creative pivots"
+    ],
+    "resilience_indicators": "Continuous learning and development focus",
+    "feedback_integration": "Continuous learning and development focus"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "High emotional intelligence in team leadership",
+    "ethical_framework": "Strong integrity-based ethical framework",
+    "human_centered_thinking": "N/A",
+    "empathy_expression_chips": [
+      "Team",
+      "Emotional",
+      "Leadership"
+    ],
+    "ethical_framework_chips": [
+      "Ethical",
+      "Ethical",
+      "Integrity"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Founder"
+      ],
+      "achievement_indicators": [
+        "pioneered"
+      ]
+    }
+  },
+  "human_needs_hierarchy": {
+    "esteem_sources": "Achievement and expertise recognition",
+    "esteem_sources_chips": [
+      "Expertise",
+      "Achievement",
+      "Recognition"
+    ]
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Innovative approaches with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Empathy",
+      "Empathy"
+    ]
+  }
 }

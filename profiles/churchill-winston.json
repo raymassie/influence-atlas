@@ -10,25 +10,84 @@
   "birth_year": 1874,
   "death_year": 1965,
   "description": "British statesman who served as Prime Minister during World War II and became one of the most influential leaders of the 20th century.",
-  "notable_works": ["World War II leadership", "Political speeches", "Historical writings", "Political leadership"],
+  "notable_works": [
+    "World War II leadership",
+    "Political speeches",
+    "Historical writings",
+    "Political leadership"
+  ],
   "psychological_profile": {
-    "primary_traits": ["resilient", "charismatic", "determined", "influential", "strategic"],
-    "core_motivations": ["national leadership", "war resistance", "political influence", "strategic thinking"],
-    "behavioral_patterns": ["political leadership", "strategic thinking", "war resistance", "charismatic communication"]
+    "primary_traits": [
+      "resilient",
+      "charismatic",
+      "determined",
+      "influential",
+      "strategic"
+    ],
+    "core_motivations": [
+      "national leadership",
+      "war resistance",
+      "political influence",
+      "strategic thinking"
+    ],
+    "behavioral_patterns": [
+      "political leadership",
+      "strategic thinking",
+      "war resistance",
+      "charismatic communication"
+    ]
   },
   "communication_style": {
-    "tone": ["charismatic", "resilient", "determined", "influential"],
-    "vocabulary_patterns": ["political concepts", "leadership terminology", "strategic language", "inspirational rhetoric"],
-    "rhetorical_strategies": ["political leadership", "inspirational speeches", "strategic argument", "charismatic communication"]
+    "tone": [
+      "charismatic",
+      "resilient",
+      "determined",
+      "influential"
+    ],
+    "vocabulary_patterns": [
+      "political concepts",
+      "leadership terminology",
+      "strategic language",
+      "inspirational rhetoric"
+    ],
+    "rhetorical_strategies": [
+      "political leadership",
+      "inspirational speeches",
+      "strategic argument",
+      "charismatic communication"
+    ]
   },
   "values": {
-    "core_values": ["national leadership", "war resistance", "political influence", "strategic thinking", "democratic values"],
-    "professional_principles": ["political leadership", "strategic thinking", "war resistance", "charismatic communication"]
+    "core_values": [
+      "national leadership",
+      "war resistance",
+      "political influence",
+      "strategic thinking",
+      "democratic values"
+    ],
+    "professional_principles": [
+      "political leadership",
+      "strategic thinking",
+      "war resistance",
+      "charismatic communication"
+    ]
   },
   "collaboration_style": {
-    "approach": ["political alliances", "strategic partnerships", "military collaborations"],
-    "preferences": ["political leadership", "strategic thinking", "war resistance"],
-    "conflict_resolution": ["strategic analysis", "political reasoning", "military strategy"]
+    "approach": [
+      "political alliances",
+      "strategic partnerships",
+      "military collaborations"
+    ],
+    "preferences": [
+      "political leadership",
+      "strategic thinking",
+      "war resistance"
+    ],
+    "conflict_resolution": [
+      "strategic analysis",
+      "political reasoning",
+      "military strategy"
+    ]
   },
   "expertise_areas": [
     "Political leadership",
@@ -39,5 +98,62 @@
     "International relations"
   ],
   "influence_scope": "Global - Political leadership and military strategy",
-  "legacy": "Led Britain through World War II and became one of the most influential political leaders of the 20th century, known for his resilience and strategic thinking."
+  "legacy": "Led Britain through World War II and became one of the most influential political leaders of the 20th century, known for his resilience and strategic thinking.",
+  "bias_awareness": {
+    "primary_biases": "N/A",
+    "bias_mitigation_strategies": "N/A",
+    "decision_making_style": "Systematic with bias checks",
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "Values-driven ethical decision making",
+    "human_centered_thinking": "N/A",
+    "ethical_framework_chips": [
+      "Values",
+      "Values",
+      "Ethical"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Leader"
+      ],
+      "achievement_indicators": [
+        "nobel",
+        "prize",
+        "award"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "holistic_perspective": "Systems thinking with human focus",
+    "holistic_perspective_chips": [
+      "Human",
+      "Systems",
+      "Systems"
+    ]
+  }
 }

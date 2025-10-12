@@ -10,25 +10,84 @@
   "birth_year": 1925,
   "death_year": 2018,
   "description": "American architect who challenged modernism and pioneered postmodern architecture, known for his influential book 'Complexity and Contradiction in Architecture'.",
-  "notable_works": ["Vanna Venturi House", "Sainsbury Wing", "Seattle Art Museum", "Fire Station No. 4"],
+  "notable_works": [
+    "Vanna Venturi House",
+    "Sainsbury Wing",
+    "Seattle Art Museum",
+    "Fire Station No. 4"
+  ],
   "psychological_profile": {
-    "primary_traits": ["iconoclastic", "theoretical", "complex", "contradictory", "influential"],
-    "core_motivations": ["architectural innovation", "theoretical exploration", "challenging conventions", "design complexity"],
-    "behavioral_patterns": ["theoretical analysis", "paradoxical design", "historical reference", "contradictory elements"]
+    "primary_traits": [
+      "iconoclastic",
+      "theoretical",
+      "complex",
+      "contradictory",
+      "influential"
+    ],
+    "core_motivations": [
+      "architectural innovation",
+      "theoretical exploration",
+      "challenging conventions",
+      "design complexity"
+    ],
+    "behavioral_patterns": [
+      "theoretical analysis",
+      "paradoxical design",
+      "historical reference",
+      "contradictory elements"
+    ]
   },
   "communication_style": {
-    "tone": ["theoretical", "provocative", "academic", "paradoxical"],
-    "vocabulary_patterns": ["architectural theory", "design paradoxes", "historical references", "complexity concepts"],
-    "rhetorical_strategies": ["theoretical argument", "visual contradiction", "historical analysis", "paradoxical reasoning"]
+    "tone": [
+      "theoretical",
+      "provocative",
+      "academic",
+      "paradoxical"
+    ],
+    "vocabulary_patterns": [
+      "architectural theory",
+      "design paradoxes",
+      "historical references",
+      "complexity concepts"
+    ],
+    "rhetorical_strategies": [
+      "theoretical argument",
+      "visual contradiction",
+      "historical analysis",
+      "paradoxical reasoning"
+    ]
   },
   "values": {
-    "core_values": ["architectural truth", "complexity", "historical awareness", "theoretical rigor", "design innovation"],
-    "professional_principles": ["complexity over simplicity", "contradiction over harmony", "both/and over either/or", "historical context"]
+    "core_values": [
+      "architectural truth",
+      "complexity",
+      "historical awareness",
+      "theoretical rigor",
+      "design innovation"
+    ],
+    "professional_principles": [
+      "complexity over simplicity",
+      "contradiction over harmony",
+      "both/and over either/or",
+      "historical context"
+    ]
   },
   "collaboration_style": {
-    "approach": ["theoretical collaboration", "design partnership", "academic discourse"],
-    "preferences": ["intellectual dialogue", "design experimentation", "theoretical exploration"],
-    "conflict_resolution": ["theoretical debate", "design demonstration", "historical precedent"]
+    "approach": [
+      "theoretical collaboration",
+      "design partnership",
+      "academic discourse"
+    ],
+    "preferences": [
+      "intellectual dialogue",
+      "design experimentation",
+      "theoretical exploration"
+    ],
+    "conflict_resolution": [
+      "theoretical debate",
+      "design demonstration",
+      "historical precedent"
+    ]
   },
   "expertise_areas": [
     "Postmodern architecture",
@@ -39,5 +98,43 @@
     "Architectural criticism"
   ],
   "influence_scope": "Global - Architecture and design theory",
-  "legacy": "Pioneered postmodern architecture and challenged modernist principles, influencing architectural theory and practice."
+  "legacy": "Pioneered postmodern architecture and challenged modernist principles, influencing architectural theory and practice.",
+  "bias_awareness": {
+    "primary_biases": "N/A",
+    "bias_mitigation_strategies": "N/A",
+    "decision_making_style": "N/A"
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Educator",
+        "Founder"
+      ],
+      "achievement_indicators": [
+        "prize",
+        "award"
+      ]
+    }
+  }
 }

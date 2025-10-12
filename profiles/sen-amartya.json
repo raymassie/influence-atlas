@@ -10,25 +10,84 @@
   "birth_year": 1933,
   "death_year": null,
   "description": "Indian economist who won the Nobel Prize in Economics and is known for his work on development economics, social choice theory, and welfare economics.",
-  "notable_works": ["Development as Freedom", "Social choice theory", "Welfare economics", "Development economics"],
+  "notable_works": [
+    "Development as Freedom",
+    "Social choice theory",
+    "Welfare economics",
+    "Development economics"
+  ],
   "psychological_profile": {
-    "primary_traits": ["analytical", "humanistic", "influential", "systematic", "compassionate"],
-    "core_motivations": ["human development", "economic justice", "welfare analysis", "social choice"],
-    "behavioral_patterns": ["development analysis", "welfare research", "social choice theory", "humanistic economics"]
+    "primary_traits": [
+      "analytical",
+      "humanistic",
+      "influential",
+      "systematic",
+      "compassionate"
+    ],
+    "core_motivations": [
+      "human development",
+      "economic justice",
+      "welfare analysis",
+      "social choice"
+    ],
+    "behavioral_patterns": [
+      "development analysis",
+      "welfare research",
+      "social choice theory",
+      "humanistic economics"
+    ]
   },
   "communication_style": {
-    "tone": ["analytical", "humanistic", "influential", "compassionate"],
-    "vocabulary_patterns": ["development concepts", "welfare terminology", "social choice language", "humanistic economics"],
-    "rhetorical_strategies": ["development analysis", "welfare advocacy", "social choice argument", "humanistic economics"]
+    "tone": [
+      "analytical",
+      "humanistic",
+      "influential",
+      "compassionate"
+    ],
+    "vocabulary_patterns": [
+      "development concepts",
+      "welfare terminology",
+      "social choice language",
+      "humanistic economics"
+    ],
+    "rhetorical_strategies": [
+      "development analysis",
+      "welfare advocacy",
+      "social choice argument",
+      "humanistic economics"
+    ]
   },
   "values": {
-    "core_values": ["human development", "economic justice", "welfare analysis", "social choice", "humanistic economics"],
-    "professional_principles": ["development analysis", "welfare research", "social choice theory", "humanistic economics"]
+    "core_values": [
+      "human development",
+      "economic justice",
+      "welfare analysis",
+      "social choice",
+      "humanistic economics"
+    ],
+    "professional_principles": [
+      "development analysis",
+      "welfare research",
+      "social choice theory",
+      "humanistic economics"
+    ]
   },
   "collaboration_style": {
-    "approach": ["development partnerships", "welfare collaborations", "social choice alliances"],
-    "preferences": ["development analysis", "welfare research", "social choice theory"],
-    "conflict_resolution": ["development analysis", "welfare reasoning", "social choice theory"]
+    "approach": [
+      "development partnerships",
+      "welfare collaborations",
+      "social choice alliances"
+    ],
+    "preferences": [
+      "development analysis",
+      "welfare research",
+      "social choice theory"
+    ],
+    "conflict_resolution": [
+      "development analysis",
+      "welfare reasoning",
+      "social choice theory"
+    ]
   },
   "expertise_areas": [
     "Development economics",
@@ -39,5 +98,75 @@
     "Capability approach"
   ],
   "influence_scope": "Global - Development economics and welfare theory",
-  "legacy": "Won the Nobel Prize in Economics and revolutionized development economics with the capability approach, influencing global development policy and welfare economics."
+  "legacy": "Won the Nobel Prize in Economics and revolutionized development economics with the capability approach, influencing global development policy and welfare economics.",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "Continuous learning and development focus",
+    "challenge_seeking": "Continuous learning and development focus",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "Continuous learning and development focus",
+    "resilience_indicators": "Continuous learning and development focus",
+    "feedback_integration": "Continuous learning and development focus"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "Always considers human impact",
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Philosopher",
+        "Professor",
+        "Economist"
+      ],
+      "education_indicators": [
+        "master",
+        "university",
+        "college"
+      ],
+      "achievement_indicators": [
+        "nobel",
+        "prize",
+        "award"
+      ],
+      "influence_indicators": [
+        "pioneering"
+      ]
+    }
+  }
 }

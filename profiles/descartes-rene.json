@@ -1,6 +1,6 @@
 {
   "profile_id": "descartes-rene",
-  "name": "Ren\u00e9 Descartes",
+  "name": "René Descartes",
   "archetype": "Philosopher",
   "domain": "Philosophy",
   "sub_domain": "Modern Philosophy",
@@ -32,7 +32,15 @@
     "typical_career_path": "philosophical training, analytical reasoning, methodical evaluation, systematic logic, intellectual contribution",
     "company_stage_preference": "philosophical institutions and intellectual environments",
     "success_metrics": "analytical reasoning, methodical evaluation, systematic logic, deductive thinking, conceptual assessment, intellectual recognition",
-    "pain_points": "philosophical resistance, analytical reasoning challenges, methodical evaluation complexity, systematic logic validation"
+    "pain_points": "philosophical resistance, analytical reasoning challenges, methodical evaluation complexity, systematic logic validation",
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Scientist",
+        "Author",
+        "Philosopher"
+      ]
+    }
   },
   "behavioral_patterns": {
     "work_style": "analytical, methodical, systematic, intellectually rigorous, observant, logically precise, conceptually structured",
@@ -85,5 +93,58 @@
     "ethical_framework": "analytical integrity, methodical evaluation honesty, systematic logic authenticity, deductive thinking responsibility, conceptual assessment",
     "social_responsibility": "analytical education, methodical evaluation, systematic logic, deductive thinking, conceptual assessment, philosophical truth"
   },
-  "category": "Philosophy"
+  "category": "Philosophy",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "Strong integrity-based ethical framework",
+    "human_centered_thinking": "Always considers human impact",
+    "ethical_framework_chips": [
+      "Ethical",
+      "Ethical",
+      "Integrity"
+    ],
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  }
 }

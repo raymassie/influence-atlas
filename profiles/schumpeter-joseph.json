@@ -10,25 +10,84 @@
   "birth_year": 1883,
   "death_year": 1950,
   "description": "Austrian-American economist who developed the theory of creative destruction and became a leading scholar of entrepreneurship and innovation.",
-  "notable_works": ["Capitalism, Socialism and Democracy", "The Theory of Economic Development", "Creative destruction", "Entrepreneurship theory"],
+  "notable_works": [
+    "Capitalism, Socialism and Democracy",
+    "The Theory of Economic Development",
+    "Creative destruction",
+    "Entrepreneurship theory"
+  ],
   "psychological_profile": {
-    "primary_traits": ["innovative", "analytical", "visionary", "systematic", "entrepreneurial"],
-    "core_motivations": ["innovation theory", "entrepreneurship understanding", "economic development", "creative destruction"],
-    "behavioral_patterns": ["innovation analysis", "entrepreneurship research", "economic development", "systematic thinking"]
+    "primary_traits": [
+      "innovative",
+      "analytical",
+      "visionary",
+      "systematic",
+      "entrepreneurial"
+    ],
+    "core_motivations": [
+      "innovation theory",
+      "entrepreneurship understanding",
+      "economic development",
+      "creative destruction"
+    ],
+    "behavioral_patterns": [
+      "innovation analysis",
+      "entrepreneurship research",
+      "economic development",
+      "systematic thinking"
+    ]
   },
   "communication_style": {
-    "tone": ["innovative", "analytical", "visionary", "systematic"],
-    "vocabulary_patterns": ["innovation concepts", "entrepreneurship terminology", "economic development", "creative destruction"],
-    "rhetorical_strategies": ["innovation analysis", "entrepreneurship advocacy", "economic development", "creative destruction"]
+    "tone": [
+      "innovative",
+      "analytical",
+      "visionary",
+      "systematic"
+    ],
+    "vocabulary_patterns": [
+      "innovation concepts",
+      "entrepreneurship terminology",
+      "economic development",
+      "creative destruction"
+    ],
+    "rhetorical_strategies": [
+      "innovation analysis",
+      "entrepreneurship advocacy",
+      "economic development",
+      "creative destruction"
+    ]
   },
   "values": {
-    "core_values": ["innovation", "entrepreneurship", "economic development", "creative destruction", "systematic analysis"],
-    "professional_principles": ["innovation research", "entrepreneurship analysis", "economic development", "creative destruction"]
+    "core_values": [
+      "innovation",
+      "entrepreneurship",
+      "economic development",
+      "creative destruction",
+      "systematic analysis"
+    ],
+    "professional_principles": [
+      "innovation research",
+      "entrepreneurship analysis",
+      "economic development",
+      "creative destruction"
+    ]
   },
   "collaboration_style": {
-    "approach": ["innovation partnerships", "entrepreneurship collaborations", "economic development"],
-    "preferences": ["innovation research", "entrepreneurship analysis", "economic development"],
-    "conflict_resolution": ["innovation analysis", "entrepreneurship reasoning", "economic development"]
+    "approach": [
+      "innovation partnerships",
+      "entrepreneurship collaborations",
+      "economic development"
+    ],
+    "preferences": [
+      "innovation research",
+      "entrepreneurship analysis",
+      "economic development"
+    ],
+    "conflict_resolution": [
+      "innovation analysis",
+      "entrepreneurship reasoning",
+      "economic development"
+    ]
   },
   "expertise_areas": [
     "Innovation economics",
@@ -39,5 +98,98 @@
     "Capitalism theory"
   ],
   "influence_scope": "Global - Economics and entrepreneurship",
-  "legacy": "Developed the theory of creative destruction and became a leading scholar of entrepreneurship and innovation, influencing modern business and economic theory."
+  "legacy": "Developed the theory of creative destruction and became a leading scholar of entrepreneurship and innovation, influencing modern business and economic theory.",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "Continuous learning and development focus",
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ],
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "innovative solutions"
+    ],
+    "resilience_indicators": "Continuous learning and development focus",
+    "feedback_integration": "Continuous learning and development focus"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "Always considers human impact",
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Professor",
+        "Economist"
+      ],
+      "education_indicators": [
+        "university"
+      ],
+      "influence_indicators": [
+        "influential"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ]
+  }
 }

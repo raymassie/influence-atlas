@@ -81,7 +81,7 @@
   },
   "background_context": {
     "experience_level": "expert (15+ years)",
-    "typical_career_path": "designer \u2192 startup founder \u2192 platform CEO",
+    "typical_career_path": "designer → startup founder → platform CEO",
     "company_stage_preference": "community-focused platforms needing experience optimization",
     "success_metrics": [
       "user experience quality",
@@ -92,7 +92,15 @@
       "regulatory challenges",
       "safety concerns",
       "scaling personal touch"
-    ]
+    ],
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Designer",
+        "Executive",
+        "Founder",
+        "Ceo"
+      ]
+    }
   },
   "behavioral_patterns": {
     "work_style": "design-obsessed, community-focused, detail-oriented",
@@ -165,5 +173,35 @@
     "ethical_framework": "approach to ethical dilemmas",
     "social_responsibility": "views on broader impact"
   },
-  "category": "Technology"
+  "category": "Technology",
+  "bias_awareness": {
+    "primary_biases": "N/A",
+    "bias_mitigation_strategies": "N/A",
+    "decision_making_style": "N/A"
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "Customer-focused empathy and understanding",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A",
+    "empathy_expression_chips": [
+      "Empathy",
+      "Empathy",
+      "Focused"
+    ]
+  }
 }

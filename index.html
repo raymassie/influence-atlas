@@ -1253,8 +1253,56 @@
         }
 
         // Badge search function - filter profiles by trait/badge value
-        function searchByBadge(badgeValue) {
+        function searchByBadge(badgeValue, event) {
+            if (event) {
+                event.stopPropagation(); // Prevent card selection
+            }
+            
             console.log('🔍 Searching by badge:', badgeValue);
+            
+            // Check if this is the same badge as currently active
+            const currentlyActiveBadge = window.currentActiveBadge;
+            
+            if (currentlyActiveBadge === badgeValue) {
+                // Same badge clicked - deselect and show all profiles
+                console.log('🔍 Deselecting badge:', badgeValue);
+                window.currentActiveBadge = null;
+                
+                // Remove active class from all badges
+                document.querySelectorAll('.clickable-badge').forEach(badge => {
+                    badge.classList.remove('active');
+                });
+                
+                // Clear any existing search
+                document.getElementById('search-filter').value = '';
+                
+                // Clear all filter selections
+                const allFilters = document.querySelectorAll('select[multiple]');
+                allFilters.forEach(filter => {
+                    Array.from(filter.options).forEach(option => option.selected = false);
+                });
+                
+                // Show all profiles
+                filteredProfiles = [...allProfiles];
+                
+                // Update quick navigation stats
+                updateQuickNavigationStats();
+                
+                // Display results
+                displayProfiles();
+                return;
+            }
+            
+            // New badge selected - store it and filter
+            window.currentActiveBadge = badgeValue;
+            
+            // Remove active class from all badges and add to clicked one
+            document.querySelectorAll('.clickable-badge').forEach(badge => {
+                badge.classList.remove('active');
+                if (badge.textContent.trim() === badgeValue) {
+                    badge.classList.add('active');
+                }
+            });
             
             // Clear any existing search
             document.getElementById('search-filter').value = '';
@@ -1598,7 +1646,7 @@
                                         const traits = profile.primary_traits || profile.psychological_profile?.primary_traits;
                                         if (!traits) return '';
                                         const traitArray = Array.isArray(traits) ? traits : traits.split(',').map(t => t.trim());
-                                        return traitArray.map(trait => `<span class="trait-tag clickable-badge" onclick="searchByBadge('${trait.replace(/'/g, "\\'")}')" title="Click to find other profiles with this trait">${trait}</span>`).join('');
+                                        return traitArray.map(trait => `<span class="trait-tag clickable-badge" onclick="searchByBadge('${trait.replace(/'/g, "\\'")}', event)" title="Click to find other profiles with this trait">${trait}</span>`).join('');
                                     })()}
                                 </div>
                             </div>

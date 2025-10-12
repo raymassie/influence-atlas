@@ -10,25 +10,84 @@
   "birth_year": 1911,
   "death_year": 1982,
   "description": "American advertising executive who co-founded Doyle Dane Bernbach and revolutionized advertising with creative, honest, and emotional campaigns.",
-  "notable_works": ["Doyle Dane Bernbach", "Creative advertising", "Volkswagen campaigns", "Advertising innovation"],
+  "notable_works": [
+    "Doyle Dane Bernbach",
+    "Creative advertising",
+    "Volkswagen campaigns",
+    "Advertising innovation"
+  ],
   "psychological_profile": {
-    "primary_traits": ["creative", "innovative", "influential", "systematic", "authentic"],
-    "core_motivations": ["creative excellence", "advertising innovation", "authentic communication", "creative leadership"],
-    "behavioral_patterns": ["creative leadership", "advertising innovation", "authentic communication", "creative excellence"]
+    "primary_traits": [
+      "creative",
+      "innovative",
+      "influential",
+      "systematic",
+      "authentic"
+    ],
+    "core_motivations": [
+      "creative excellence",
+      "advertising innovation",
+      "authentic communication",
+      "creative leadership"
+    ],
+    "behavioral_patterns": [
+      "creative leadership",
+      "advertising innovation",
+      "authentic communication",
+      "creative excellence"
+    ]
   },
   "communication_style": {
-    "tone": ["creative", "innovative", "authentic", "influential"],
-    "vocabulary_patterns": ["creative concepts", "advertising terminology", "authentic language", "creative innovation"],
-    "rhetorical_strategies": ["creative advocacy", "advertising innovation", "authentic communication", "creative excellence"]
+    "tone": [
+      "creative",
+      "innovative",
+      "authentic",
+      "influential"
+    ],
+    "vocabulary_patterns": [
+      "creative concepts",
+      "advertising terminology",
+      "authentic language",
+      "creative innovation"
+    ],
+    "rhetorical_strategies": [
+      "creative advocacy",
+      "advertising innovation",
+      "authentic communication",
+      "creative excellence"
+    ]
   },
   "values": {
-    "core_values": ["creative excellence", "advertising innovation", "authentic communication", "creative leadership", "advertising integrity"],
-    "professional_principles": ["creative leadership", "advertising innovation", "authentic communication", "creative excellence"]
+    "core_values": [
+      "creative excellence",
+      "advertising innovation",
+      "authentic communication",
+      "creative leadership",
+      "advertising integrity"
+    ],
+    "professional_principles": [
+      "creative leadership",
+      "advertising innovation",
+      "authentic communication",
+      "creative excellence"
+    ]
   },
   "collaboration_style": {
-    "approach": ["creative partnerships", "advertising collaborations", "creative alliances"],
-    "preferences": ["creative leadership", "advertising innovation", "authentic communication"],
-    "conflict_resolution": ["creative analysis", "advertising reasoning", "authentic communication"]
+    "approach": [
+      "creative partnerships",
+      "advertising collaborations",
+      "creative alliances"
+    ],
+    "preferences": [
+      "creative leadership",
+      "advertising innovation",
+      "authentic communication"
+    ],
+    "conflict_resolution": [
+      "creative analysis",
+      "advertising reasoning",
+      "authentic communication"
+    ]
   },
   "expertise_areas": [
     "Creative advertising",
@@ -39,5 +98,87 @@
     "Creative direction"
   ],
   "influence_scope": "Global - Advertising and creative marketing",
-  "legacy": "Revolutionized advertising with creative, honest, and emotional campaigns, founding Doyle Dane Bernbach and influencing modern creative advertising."
+  "legacy": "Revolutionized advertising with creative, honest, and emotional campaigns, founding Doyle Dane Bernbach and influencing modern creative advertising.",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic approach to decision-making with bias awareness",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "N/A",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": [
+      "creative breakthroughs"
+    ],
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "Strong integrity-based ethical framework",
+    "human_centered_thinking": "N/A",
+    "ethical_framework_chips": [
+      "Ethical",
+      "Ethical",
+      "Integrity"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Executive",
+        "Economist",
+        "Founder"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ]
+  }
 }

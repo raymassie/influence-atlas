@@ -7,7 +7,18 @@
   "background_context": {
     "experience_level": "Executive",
     "career_stage": "Established",
-    "educational_background": "Dartmouth College, Harvard Business School"
+    "educational_background": "Dartmouth College, Harvard Business School",
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Executive",
+        "Author",
+        "Entrepreneur",
+        "Ceo"
+      ],
+      "education_indicators": [
+        "college"
+      ]
+    }
   },
   "communication_style": {
     "tone": "strategic, analytical, transformation-focused, results-oriented, decisive",
@@ -59,5 +70,84 @@
   "values": {
     "core_values": "strategic excellence, organizational transformation, competitive advantage",
     "ethical_principles": "strategic integrity, transformation responsibility, competitive fairness"
+  },
+  "bias_awareness": {
+    "primary_biases": [
+      "overconfidence",
+      "anchoring bias"
+    ],
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": [
+      "achievement",
+      "growth"
+    ],
+    "challenge_seeking": "Achievement-oriented growth mindset",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "challenge_seeking_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots"
+    ],
+    "resilience_indicators": "Achievement-oriented growth mindset",
+    "feedback_integration": "Achievement-oriented growth mindset",
+    "resilience_indicators_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "feedback_integration_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ]
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "Strong integrity-based ethical framework",
+    "human_centered_thinking": "Customer-focused decision making",
+    "ethical_framework_chips": [
+      "Ethical",
+      "Ethical",
+      "Integrity"
+    ],
+    "human_centered_thinking_chips": [
+      "Focused",
+      "Customer",
+      "Customer"
+    ]
+  },
+  "humanistic_cognition": {
+    "holistic_perspective": "Systems thinking with human focus",
+    "holistic_perspective_chips": [
+      "Human",
+      "Systems",
+      "Systems"
+    ]
   }
 }

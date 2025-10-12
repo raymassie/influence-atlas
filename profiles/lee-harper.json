@@ -10,25 +10,84 @@
   "birth_year": 1926,
   "death_year": 2016,
   "description": "American novelist who wrote 'To Kill a Mockingbird', one of the most influential novels in American literature about racial injustice.",
-  "notable_works": ["To Kill a Mockingbird", "Go Set a Watchman", "Literary fiction", "Social commentary"],
+  "notable_works": [
+    "To Kill a Mockingbird",
+    "Go Set a Watchman",
+    "Literary fiction",
+    "Social commentary"
+  ],
   "psychological_profile": {
-    "primary_traits": ["observant", "principled", "introspective", "courageous", "empathetic"],
-    "core_motivations": ["social justice", "racial equality", "literary excellence", "truth telling"],
-    "behavioral_patterns": ["social justice writing", "racial equality advocacy", "literary excellence", "truth exploration"]
+    "primary_traits": [
+      "observant",
+      "principled",
+      "introspective",
+      "courageous",
+      "empathetic"
+    ],
+    "core_motivations": [
+      "social justice",
+      "racial equality",
+      "literary excellence",
+      "truth telling"
+    ],
+    "behavioral_patterns": [
+      "social justice writing",
+      "racial equality advocacy",
+      "literary excellence",
+      "truth exploration"
+    ]
   },
   "communication_style": {
-    "tone": ["observant", "principled", "empathetic", "courageous"],
-    "vocabulary_patterns": ["social justice concepts", "racial equality terminology", "literary language", "moral expression"],
-    "rhetorical_strategies": ["social justice advocacy", "racial equality", "moral storytelling", "truth telling"]
+    "tone": [
+      "observant",
+      "principled",
+      "empathetic",
+      "courageous"
+    ],
+    "vocabulary_patterns": [
+      "social justice concepts",
+      "racial equality terminology",
+      "literary language",
+      "moral expression"
+    ],
+    "rhetorical_strategies": [
+      "social justice advocacy",
+      "racial equality",
+      "moral storytelling",
+      "truth telling"
+    ]
   },
   "values": {
-    "core_values": ["social justice", "racial equality", "literary excellence", "moral courage", "truth telling"],
-    "professional_principles": ["social justice writing", "racial equality advocacy", "literary excellence", "moral storytelling"]
+    "core_values": [
+      "social justice",
+      "racial equality",
+      "literary excellence",
+      "moral courage",
+      "truth telling"
+    ],
+    "professional_principles": [
+      "social justice writing",
+      "racial equality advocacy",
+      "literary excellence",
+      "moral storytelling"
+    ]
   },
   "collaboration_style": {
-    "approach": ["literary partnerships", "social justice collaborations", "moral alliances"],
-    "preferences": ["social justice writing", "racial equality advocacy", "literary excellence"],
-    "conflict_resolution": ["moral analysis", "social justice reasoning", "truth telling"]
+    "approach": [
+      "literary partnerships",
+      "social justice collaborations",
+      "moral alliances"
+    ],
+    "preferences": [
+      "social justice writing",
+      "racial equality advocacy",
+      "literary excellence"
+    ],
+    "conflict_resolution": [
+      "moral analysis",
+      "social justice reasoning",
+      "truth telling"
+    ]
   },
   "expertise_areas": [
     "Novel writing",
@@ -39,5 +98,44 @@
     "American literature"
   ],
   "influence_scope": "Global - Literature and social justice",
-  "legacy": "Wrote 'To Kill a Mockingbird', one of the most influential novels in American literature, addressing racial injustice and moral courage with profound impact."
+  "legacy": "Wrote 'To Kill a Mockingbird', one of the most influential novels in American literature, addressing racial injustice and moral courage with profound impact.",
+  "bias_awareness": {
+    "primary_biases": "N/A",
+    "bias_mitigation_strategies": "N/A",
+    "decision_making_style": "N/A"
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer"
+      ],
+      "achievement_indicators": [
+        "medal",
+        "pulitzer",
+        "award",
+        "prize",
+        "honor"
+      ]
+    }
+  }
 }

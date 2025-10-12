@@ -11,25 +11,84 @@
   "birth_year": 1724,
   "death_year": 1804,
   "description": "German philosopher who is considered one of the most influential thinkers in modern philosophy, known for his works on metaphysics, epistemology, and moral philosophy.",
-  "notable_works": ["Critique of Pure Reason", "Groundwork of the Metaphysic of Morals", "The Metaphysics of Morals", "Critique of Practical Reason"],
+  "notable_works": [
+    "Critique of Pure Reason",
+    "Groundwork of the Metaphysic of Morals",
+    "The Metaphysics of Morals",
+    "Critique of Practical Reason"
+  ],
   "psychological_profile": {
-    "primary_traits": ["systematic", "rigorous", "methodical", "analytical", "principled"],
-    "core_motivations": ["moral clarity", "systematic philosophy", "rational foundation for ethics", "categorical imperative"],
-    "behavioral_patterns": ["systematic reasoning", "moral analysis", "categorical thinking", "rigorous methodology"]
+    "primary_traits": [
+      "systematic",
+      "rigorous",
+      "methodical",
+      "analytical",
+      "principled"
+    ],
+    "core_motivations": [
+      "moral clarity",
+      "systematic philosophy",
+      "rational foundation for ethics",
+      "categorical imperative"
+    ],
+    "behavioral_patterns": [
+      "systematic reasoning",
+      "moral analysis",
+      "categorical thinking",
+      "rigorous methodology"
+    ]
   },
   "communication_style": {
-    "tone": ["systematic", "rigorous", "analytical", "methodical"],
-    "vocabulary_patterns": ["categorical imperative", "moral law", "systematic philosophy", "rational foundation"],
-    "rhetorical_strategies": ["systematic argumentation", "moral reasoning", "categorical analysis", "rational demonstration"]
+    "tone": [
+      "systematic",
+      "rigorous",
+      "analytical",
+      "methodical"
+    ],
+    "vocabulary_patterns": [
+      "categorical imperative",
+      "moral law",
+      "systematic philosophy",
+      "rational foundation"
+    ],
+    "rhetorical_strategies": [
+      "systematic argumentation",
+      "moral reasoning",
+      "categorical analysis",
+      "rational demonstration"
+    ]
   },
   "values": {
-    "core_values": ["moral duty", "rational ethics", "systematic philosophy", "categorical imperative", "human dignity"],
-    "professional_principles": ["moral rigor", "systematic reasoning", "rational ethics", "philosophical clarity"]
+    "core_values": [
+      "moral duty",
+      "rational ethics",
+      "systematic philosophy",
+      "categorical imperative",
+      "human dignity"
+    ],
+    "professional_principles": [
+      "moral rigor",
+      "systematic reasoning",
+      "rational ethics",
+      "philosophical clarity"
+    ]
   },
   "collaboration_style": {
-    "approach": ["philosophical discourse", "systematic analysis", "moral reasoning"],
-    "preferences": ["rigorous methodology", "systematic philosophy", "moral clarity"],
-    "conflict_resolution": ["systematic reasoning", "moral analysis", "rational argumentation"]
+    "approach": [
+      "philosophical discourse",
+      "systematic analysis",
+      "moral reasoning"
+    ],
+    "preferences": [
+      "rigorous methodology",
+      "systematic philosophy",
+      "moral clarity"
+    ],
+    "conflict_resolution": [
+      "systematic reasoning",
+      "moral analysis",
+      "rational argumentation"
+    ]
   },
   "expertise_areas": [
     "Moral philosophy",
@@ -67,5 +126,64 @@
       "punctual daily routine",
       "wrote complex systematic works"
     ]
+  },
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "Always considers human impact",
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Philosopher"
+      ],
+      "influence_indicators": [
+        "influential"
+      ]
+    }
   }
 }

@@ -10,25 +10,84 @@
   "birth_year": 1689,
   "death_year": 1755,
   "description": "French philosopher who developed the theory of separation of powers and influenced constitutional government and political science.",
-  "notable_works": ["The Spirit of the Laws", "Persian Letters", "Separation of powers", "Political science"],
+  "notable_works": [
+    "The Spirit of the Laws",
+    "Persian Letters",
+    "Separation of powers",
+    "Political science"
+  ],
   "psychological_profile": {
-    "primary_traits": ["analytical", "systematic", "constitutional", "observant", "principled"],
-    "core_motivations": ["constitutional government", "separation of powers", "political science", "institutional analysis"],
-    "behavioral_patterns": ["constitutional analysis", "institutional study", "political science", "separation of powers"]
+    "primary_traits": [
+      "analytical",
+      "systematic",
+      "constitutional",
+      "observant",
+      "principled"
+    ],
+    "core_motivations": [
+      "constitutional government",
+      "separation of powers",
+      "political science",
+      "institutional analysis"
+    ],
+    "behavioral_patterns": [
+      "constitutional analysis",
+      "institutional study",
+      "political science",
+      "separation of powers"
+    ]
   },
   "communication_style": {
-    "tone": ["analytical", "systematic", "constitutional", "observant"],
-    "vocabulary_patterns": ["constitutional concepts", "political science", "separation of powers", "institutional analysis"],
-    "rhetorical_strategies": ["constitutional analysis", "institutional argument", "separation of powers", "political science"]
+    "tone": [
+      "analytical",
+      "systematic",
+      "constitutional",
+      "observant"
+    ],
+    "vocabulary_patterns": [
+      "constitutional concepts",
+      "political science",
+      "separation of powers",
+      "institutional analysis"
+    ],
+    "rhetorical_strategies": [
+      "constitutional analysis",
+      "institutional argument",
+      "separation of powers",
+      "political science"
+    ]
   },
   "values": {
-    "core_values": ["constitutional government", "separation of powers", "political science", "institutional analysis", "systematic study"],
-    "professional_principles": ["constitutional analysis", "political science", "separation of powers", "institutional study"]
+    "core_values": [
+      "constitutional government",
+      "separation of powers",
+      "political science",
+      "institutional analysis",
+      "systematic study"
+    ],
+    "professional_principles": [
+      "constitutional analysis",
+      "political science",
+      "separation of powers",
+      "institutional study"
+    ]
   },
   "collaboration_style": {
-    "approach": ["constitutional collaboration", "political science partnerships", "institutional alliances"],
-    "preferences": ["constitutional analysis", "political science", "institutional study"],
-    "conflict_resolution": ["constitutional analysis", "institutional reasoning", "political science"]
+    "approach": [
+      "constitutional collaboration",
+      "political science partnerships",
+      "institutional alliances"
+    ],
+    "preferences": [
+      "constitutional analysis",
+      "political science",
+      "institutional study"
+    ],
+    "conflict_resolution": [
+      "constitutional analysis",
+      "institutional reasoning",
+      "political science"
+    ]
   },
   "expertise_areas": [
     "Political science",
@@ -39,5 +98,62 @@
     "Constitutional law"
   ],
   "influence_scope": "Global - Constitutional government and political science",
-  "legacy": "Developed the theory of separation of powers and influenced constitutional government, shaping modern political science and constitutional law."
+  "legacy": "Developed the theory of separation of powers and influenced constitutional government, shaping modern political science and constitutional law.",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "Always considers human impact",
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Author",
+        "Philosopher"
+      ]
+    }
+  }
 }

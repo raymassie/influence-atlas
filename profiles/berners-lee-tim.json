@@ -10,25 +10,85 @@
   "birth_year": 1955,
   "death_year": null,
   "description": "British computer scientist who invented the World Wide Web and is considered one of the most influential figures in internet history.",
-  "notable_works": ["World Wide Web", "HTML", "HTTP", "URL", "Web standards"],
+  "notable_works": [
+    "World Wide Web",
+    "HTML",
+    "HTTP",
+    "URL",
+    "Web standards"
+  ],
   "psychological_profile": {
-    "primary_traits": ["innovative", "systematic", "collaborative", "visionary", "influential"],
-    "core_motivations": ["web innovation", "information sharing", "collaborative technology", "open standards"],
-    "behavioral_patterns": ["systematic innovation", "collaborative development", "open standards", "web architecture"]
+    "primary_traits": [
+      "innovative",
+      "systematic",
+      "collaborative",
+      "visionary",
+      "influential"
+    ],
+    "core_motivations": [
+      "web innovation",
+      "information sharing",
+      "collaborative technology",
+      "open standards"
+    ],
+    "behavioral_patterns": [
+      "systematic innovation",
+      "collaborative development",
+      "open standards",
+      "web architecture"
+    ]
   },
   "communication_style": {
-    "tone": ["technical", "collaborative", "visionary", "educational"],
-    "vocabulary_patterns": ["web technology", "information systems", "collaborative tools", "open standards"],
-    "rhetorical_strategies": ["technical demonstration", "systematic explanation", "collaborative discussion", "visionary presentation"]
+    "tone": [
+      "technical",
+      "collaborative",
+      "visionary",
+      "educational"
+    ],
+    "vocabulary_patterns": [
+      "web technology",
+      "information systems",
+      "collaborative tools",
+      "open standards"
+    ],
+    "rhetorical_strategies": [
+      "technical demonstration",
+      "systematic explanation",
+      "collaborative discussion",
+      "visionary presentation"
+    ]
   },
   "values": {
-    "core_values": ["open standards", "information sharing", "collaborative technology", "web accessibility", "technical innovation"],
-    "professional_principles": ["open web standards", "collaborative development", "information accessibility", "technical excellence"]
+    "core_values": [
+      "open standards",
+      "information sharing",
+      "collaborative technology",
+      "web accessibility",
+      "technical innovation"
+    ],
+    "professional_principles": [
+      "open web standards",
+      "collaborative development",
+      "information accessibility",
+      "technical excellence"
+    ]
   },
   "collaboration_style": {
-    "approach": ["collaborative development", "open standards", "technical partnerships"],
-    "preferences": ["open collaboration", "technical partnerships", "standards development"],
-    "conflict_resolution": ["technical analysis", "collaborative solutions", "standards-based resolution"]
+    "approach": [
+      "collaborative development",
+      "open standards",
+      "technical partnerships"
+    ],
+    "preferences": [
+      "open collaboration",
+      "technical partnerships",
+      "standards development"
+    ],
+    "conflict_resolution": [
+      "technical analysis",
+      "collaborative solutions",
+      "standards-based resolution"
+    ]
   },
   "expertise_areas": [
     "Web technology",
@@ -39,5 +99,123 @@
     "Internet architecture"
   ],
   "influence_scope": "Global - Internet and web technology",
-  "legacy": "Invented the World Wide Web and established the foundation for modern internet communication and information sharing."
+  "legacy": "Invented the World Wide Web and established the foundation for modern internet communication and information sharing.",
+  "bias_awareness": {
+    "primary_biases": [
+      "optimism bias",
+      "confirmation bias"
+    ],
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": [
+      "innovation",
+      "problem-solving"
+    ],
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "Continuous learning and development focus",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "resilience_indicators": "Continuous learning and development focus",
+    "feedback_integration": "Continuous learning and development focus"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "High emotional intelligence in leadership",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A",
+    "empathy_expression_chips": [
+      "Emotional",
+      "Leadership",
+      "Leadership"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Professor",
+        "Scientist",
+        "Inventor",
+        "Founder",
+        "Researcher"
+      ],
+      "education_indicators": [
+        "university"
+      ],
+      "achievement_indicators": [
+        "founded",
+        "award"
+      ],
+      "influence_indicators": [
+        "pioneering"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "collaborative_intelligence": "Exceptional team building and facilitation",
+    "holistic_perspective": "Systems thinking with user focus",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ],
+    "collaborative_intelligence_chips": [
+      "Team",
+      "Building",
+      "Exceptional"
+    ],
+    "holistic_perspective_chips": [
+      "User",
+      "Systems",
+      "Systems"
+    ]
+  },
+  "human_needs_hierarchy": {
+    "belonging_expression": "Strong - builds collaborative teams",
+    "belonging_expression_chips": [
+      "Teams",
+      "Builds",
+      "Collaborative"
+    ]
+  }
 }

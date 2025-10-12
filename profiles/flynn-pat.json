@@ -81,7 +81,7 @@
   },
   "background_context": {
     "experience_level": "expert (15+ years)",
-    "typical_career_path": "architect \u2192 accidental entrepreneur \u2192 passive income expert",
+    "typical_career_path": "architect → accidental entrepreneur → passive income expert",
     "company_stage_preference": "solopreneurs and small businesses wanting authentic growth",
     "success_metrics": [
       "passive income generation",
@@ -92,7 +92,13 @@
       "authenticity vs optimization",
       "passive income myths",
       "community management complexity"
-    ]
+    ],
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Musician"
+      ]
+    }
   },
   "behavioral_patterns": {
     "work_style": "authentic, helpful, community-focused",
@@ -165,5 +171,45 @@
     "ethical_framework": "approach to ethical dilemmas",
     "social_responsibility": "views on broader impact"
   },
-  "category": "Entrepreneurial"
+  "category": "Entrepreneurial",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic approach to decision-making with bias awareness",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  }
 }

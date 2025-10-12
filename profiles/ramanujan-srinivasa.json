@@ -10,25 +10,84 @@
   "birth_year": 1887,
   "death_year": 1920,
   "description": "Indian mathematician who made extraordinary contributions to number theory, mathematical analysis, and infinite series despite having no formal training in pure mathematics.",
-  "notable_works": ["Number theory", "Mathematical analysis", "Infinite series", "Modular forms"],
+  "notable_works": [
+    "Number theory",
+    "Mathematical analysis",
+    "Infinite series",
+    "Modular forms"
+  ],
   "psychological_profile": {
-    "primary_traits": ["intuitive", "brilliant", "creative", "persistent", "mathematical"],
-    "core_motivations": ["mathematical discovery", "number theory exploration", "mathematical intuition", "theoretical understanding"],
-    "behavioral_patterns": ["mathematical intuition", "number theory research", "creative analysis", "mathematical discovery"]
+    "primary_traits": [
+      "intuitive",
+      "brilliant",
+      "creative",
+      "persistent",
+      "mathematical"
+    ],
+    "core_motivations": [
+      "mathematical discovery",
+      "number theory exploration",
+      "mathematical intuition",
+      "theoretical understanding"
+    ],
+    "behavioral_patterns": [
+      "mathematical intuition",
+      "number theory research",
+      "creative analysis",
+      "mathematical discovery"
+    ]
   },
   "communication_style": {
-    "tone": ["intuitive", "brilliant", "creative", "mathematical"],
-    "vocabulary_patterns": ["mathematical concepts", "number theory terminology", "intuitive language", "mathematical analysis"],
-    "rhetorical_strategies": ["mathematical intuition", "number theory demonstration", "creative analysis", "mathematical discovery"]
+    "tone": [
+      "intuitive",
+      "brilliant",
+      "creative",
+      "mathematical"
+    ],
+    "vocabulary_patterns": [
+      "mathematical concepts",
+      "number theory terminology",
+      "intuitive language",
+      "mathematical analysis"
+    ],
+    "rhetorical_strategies": [
+      "mathematical intuition",
+      "number theory demonstration",
+      "creative analysis",
+      "mathematical discovery"
+    ]
   },
   "values": {
-    "core_values": ["mathematical truth", "number theory exploration", "mathematical intuition", "creative analysis", "theoretical understanding"],
-    "professional_principles": ["mathematical intuition", "number theory research", "creative analysis", "mathematical discovery"]
+    "core_values": [
+      "mathematical truth",
+      "number theory exploration",
+      "mathematical intuition",
+      "creative analysis",
+      "theoretical understanding"
+    ],
+    "professional_principles": [
+      "mathematical intuition",
+      "number theory research",
+      "creative analysis",
+      "mathematical discovery"
+    ]
   },
   "collaboration_style": {
-    "approach": ["mathematical partnerships", "number theory collaborations", "academic alliances"],
-    "preferences": ["mathematical intuition", "number theory research", "creative analysis"],
-    "conflict_resolution": ["mathematical intuition", "number theory reasoning", "creative analysis"]
+    "approach": [
+      "mathematical partnerships",
+      "number theory collaborations",
+      "academic alliances"
+    ],
+    "preferences": [
+      "mathematical intuition",
+      "number theory research",
+      "creative analysis"
+    ],
+    "conflict_resolution": [
+      "mathematical intuition",
+      "number theory reasoning",
+      "creative analysis"
+    ]
   },
   "expertise_areas": [
     "Number theory",
@@ -39,5 +98,86 @@
     "Analytic number theory"
   ],
   "influence_scope": "Global - Mathematics and number theory",
-  "legacy": "Made extraordinary contributions to number theory and mathematical analysis despite no formal training, becoming one of the most intuitive mathematicians in history."
+  "legacy": "Made extraordinary contributions to number theory and mathematical analysis despite no formal training, becoming one of the most intuitive mathematicians in history.",
+  "bias_awareness": {
+    "primary_biases": "Creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": [
+      "creative breakthroughs"
+    ],
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "creative pivots"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Researcher"
+      ],
+      "education_indicators": [
+        "university",
+        "college"
+      ],
+      "achievement_indicators": [
+        "discovered",
+        "developed"
+      ],
+      "influence_indicators": [
+        "leading",
+        "groundbreaking"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Innovative approaches with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Empathy",
+      "Empathy"
+    ]
+  }
 }

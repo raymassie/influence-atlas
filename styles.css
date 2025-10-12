@@ -559,6 +559,13 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 .trait-tag.active { 
     background: #283618; 
 }
+
+.clickable-badge.active {
+    background: #283618 !important;
+    color: #ccd5ae !important;
+    transform: scale(1.05);
+    box-shadow: 0 2px 8px rgba(40, 54, 24, 0.3);
+}
 .btn-primary { background: transparent !important; color: #0A0D06 !important; padding: 8px !important; border-radius: 4px; font-size: 12px; font-weight: 500; display: flex; align-items: center; justify-content: center; }
 .btn-primary:hover { background: transparent !important; border: none !important; outline: 1px solid #0A0D06 !important; outline-offset: -1px !important; }
 .btn-secondary { background: transparent !important; color: #0A0D06 !important; padding: 8px !important; border-radius: 4px; font-size: 12px; font-weight: 500; display: flex; align-items: center; justify-content: center; }
@@ -884,14 +891,14 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 
 /* Expanded profile view */
 .expanded-profile {
-    background: white;
+    background: #ccd5ae;
     border-radius: 4px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     display: none;
     position: fixed;
     top: 20px;
-    left: 400px;
+    left: 20px;
     right: 20px;
     bottom: 20px;
     z-index: 10;
@@ -913,7 +920,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     align-items: center;
     margin-bottom: 20px;
     padding-bottom: 15px;
-    border-bottom: 2px solid #e1e5e9;
+    border-bottom: 2px solid #283618;
 }
 
 .expanded-profile-actions {
@@ -929,7 +936,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 .expanded-profile-title {
     font-size: 1.8rem;
     font-weight: 600;
-    color: #333;
+    color: #283618;
 }
 
 .expanded-profile-subtitle {
@@ -939,8 +946,8 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 }
 
 .close-expanded {
-    background: #f8f9fa;
-    border: 1px solid #e1e5e9;
+    background: transparent;
+    border: none;
     border-radius: 4px;
     width: 40px;
     height: 40px;
@@ -949,13 +956,14 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     justify-content: center;
     cursor: pointer;
     font-size: 18px;
-    color: #666;
+    color: #283618;
     transition: all 0.2s ease;
 }
 
 .close-expanded:hover {
-    background: #e9ecef;
-    color: #606c38;
+    outline: 1px solid #0A0D06;
+    outline-offset: -1px;
+    color: #0A0D06;
 }
 
 .expanded-profile-content {
@@ -967,10 +975,11 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 }
 
 .expanded-section {
-    background: #f8f9fa;
+    background: #fefae0;
     padding: 15px;
     border-radius: 4px;
-    border-left: 4px solid #283618;
+    border-left: 4px solid #606c38;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.13);
 }
 
 .expanded-section h3 {
@@ -988,9 +997,9 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 }
 
 .expanded-trait {
-    background: #ccd5ae;
-    color: #283618;
-    padding: 4px 8px;
+    background: #606c38;
+    color: #ccd5ae;
+    padding: 6px 10px;
     border-radius: 4px;
     font-size: 12px;
     font-weight: 500;

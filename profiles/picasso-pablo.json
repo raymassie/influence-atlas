@@ -10,25 +10,84 @@
   "birth_year": 1881,
   "death_year": 1973,
   "description": "Spanish painter and sculptor who co-founded the Cubist movement and became one of the most influential artists of the 20th century.",
-  "notable_works": ["Guernica", "Les Demoiselles d'Avignon", "The Old Guitarist", "Cubist paintings"],
+  "notable_works": [
+    "Guernica",
+    "Les Demoiselles d'Avignon",
+    "The Old Guitarist",
+    "Cubist paintings"
+  ],
   "psychological_profile": {
-    "primary_traits": ["innovative", "experimental", "prolific", "revolutionary", "creative"],
-    "core_motivations": ["artistic innovation", "cubist revolution", "artistic experimentation", "creative expression"],
-    "behavioral_patterns": ["artistic innovation", "cubist experimentation", "artistic creation", "creative revolution"]
+    "primary_traits": [
+      "innovative",
+      "experimental",
+      "prolific",
+      "revolutionary",
+      "creative"
+    ],
+    "core_motivations": [
+      "artistic innovation",
+      "cubist revolution",
+      "artistic experimentation",
+      "creative expression"
+    ],
+    "behavioral_patterns": [
+      "artistic innovation",
+      "cubist experimentation",
+      "artistic creation",
+      "creative revolution"
+    ]
   },
   "communication_style": {
-    "tone": ["innovative", "experimental", "revolutionary", "creative"],
-    "vocabulary_patterns": ["artistic concepts", "cubist terminology", "artistic innovation", "creative expression"],
-    "rhetorical_strategies": ["artistic innovation", "cubist advocacy", "artistic experimentation", "creative revolution"]
+    "tone": [
+      "innovative",
+      "experimental",
+      "revolutionary",
+      "creative"
+    ],
+    "vocabulary_patterns": [
+      "artistic concepts",
+      "cubist terminology",
+      "artistic innovation",
+      "creative expression"
+    ],
+    "rhetorical_strategies": [
+      "artistic innovation",
+      "cubist advocacy",
+      "artistic experimentation",
+      "creative revolution"
+    ]
   },
   "values": {
-    "core_values": ["artistic innovation", "cubist revolution", "artistic experimentation", "creative expression", "artistic freedom"],
-    "professional_principles": ["artistic innovation", "cubist experimentation", "artistic creation", "creative revolution"]
+    "core_values": [
+      "artistic innovation",
+      "cubist revolution",
+      "artistic experimentation",
+      "creative expression",
+      "artistic freedom"
+    ],
+    "professional_principles": [
+      "artistic innovation",
+      "cubist experimentation",
+      "artistic creation",
+      "creative revolution"
+    ]
   },
   "collaboration_style": {
-    "approach": ["artistic partnerships", "creative collaborations", "artistic alliances"],
-    "preferences": ["artistic development", "creative experimentation", "artistic collaboration"],
-    "conflict_resolution": ["artistic solutions", "creative innovation", "artistic experimentation"]
+    "approach": [
+      "artistic partnerships",
+      "creative collaborations",
+      "artistic alliances"
+    ],
+    "preferences": [
+      "artistic development",
+      "creative experimentation",
+      "artistic collaboration"
+    ],
+    "conflict_resolution": [
+      "artistic solutions",
+      "creative innovation",
+      "artistic experimentation"
+    ]
   },
   "expertise_areas": [
     "Painting",
@@ -65,6 +124,90 @@
       "prolific output",
       "multiple artistic periods",
       "controversial relationships"
+    ]
+  },
+  "bias_awareness": {
+    "primary_biases": "Creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": [
+      "self-expression",
+      "beauty"
+    ],
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "N/A",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": [
+      "creative breakthroughs",
+      "artistic flow"
+    ],
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "creative pivots"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Designer",
+        "Artist",
+        "Leader"
+      ],
+      "influence_indicators": [
+        "influential",
+        "revolutionary"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Artistic innovation with human connection",
+    "creative_problem_solving_chips": [
+      "Human",
+      "Artistic",
+      "Artistic"
     ]
   }
 }

@@ -86,5 +86,67 @@
   "communication": {
     "audience_adaptation": "individual investors, educational audiences, practical communication"
   },
-  "category": "Investment"
+  "category": "Investment",
+  "bias_awareness": {
+    "primary_biases": "N/A",
+    "bias_mitigation_strategies": "N/A",
+    "decision_making_style": "N/A"
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "Achievement-oriented growth mindset",
+    "challenge_seeking": "Achievement-oriented growth mindset",
+    "learning_orientation": "Achievement-oriented growth mindset",
+    "intrinsic_drivers_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "challenge_seeking_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "learning_orientation_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "Achievement-oriented growth mindset",
+    "resilience_indicators": "Achievement-oriented growth mindset",
+    "feedback_integration": "Achievement-oriented growth mindset",
+    "adaptation_patterns_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "resilience_indicators_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "feedback_integration_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ]
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Author"
+      ]
+    }
+  }
 }

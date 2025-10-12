@@ -10,25 +10,84 @@
   "birth_year": 1950,
   "death_year": null,
   "description": "American computer engineer who co-founded Apple Inc. and designed the Apple I and Apple II computers, revolutionizing personal computing.",
-  "notable_works": ["Apple I", "Apple II", "Apple Inc. co-founder", "Computer engineering"],
+  "notable_works": [
+    "Apple I",
+    "Apple II",
+    "Apple Inc. co-founder",
+    "Computer engineering"
+  ],
   "psychological_profile": {
-    "primary_traits": ["innovative", "technical", "collaborative", "humble", "genius"],
-    "core_motivations": ["computer innovation", "technical excellence", "collaborative creation", "engineering advancement"],
-    "behavioral_patterns": ["technical innovation", "collaborative engineering", "systematic design", "engineering excellence"]
+    "primary_traits": [
+      "innovative",
+      "technical",
+      "collaborative",
+      "humble",
+      "genius"
+    ],
+    "core_motivations": [
+      "computer innovation",
+      "technical excellence",
+      "collaborative creation",
+      "engineering advancement"
+    ],
+    "behavioral_patterns": [
+      "technical innovation",
+      "collaborative engineering",
+      "systematic design",
+      "engineering excellence"
+    ]
   },
   "communication_style": {
-    "tone": ["technical", "collaborative", "humble", "educational"],
-    "vocabulary_patterns": ["computer engineering", "technical concepts", "system design", "engineering principles"],
-    "rhetorical_strategies": ["technical explanation", "engineering demonstration", "collaborative discussion", "systematic analysis"]
+    "tone": [
+      "technical",
+      "collaborative",
+      "humble",
+      "educational"
+    ],
+    "vocabulary_patterns": [
+      "computer engineering",
+      "technical concepts",
+      "system design",
+      "engineering principles"
+    ],
+    "rhetorical_strategies": [
+      "technical explanation",
+      "engineering demonstration",
+      "collaborative discussion",
+      "systematic analysis"
+    ]
   },
   "values": {
-    "core_values": ["engineering excellence", "technical innovation", "collaboration", "humble leadership", "engineering integrity"],
-    "professional_principles": ["engineering excellence", "technical innovation", "collaborative design", "system reliability"]
+    "core_values": [
+      "engineering excellence",
+      "technical innovation",
+      "collaboration",
+      "humble leadership",
+      "engineering integrity"
+    ],
+    "professional_principles": [
+      "engineering excellence",
+      "technical innovation",
+      "collaborative design",
+      "system reliability"
+    ]
   },
   "collaboration_style": {
-    "approach": ["collaborative engineering", "technical partnerships", "team-based innovation"],
-    "preferences": ["technical collaboration", "engineering partnerships", "team-based design"],
-    "conflict_resolution": ["technical analysis", "engineering solutions", "collaborative problem-solving"]
+    "approach": [
+      "collaborative engineering",
+      "technical partnerships",
+      "team-based innovation"
+    ],
+    "preferences": [
+      "technical collaboration",
+      "engineering partnerships",
+      "team-based design"
+    ],
+    "conflict_resolution": [
+      "technical analysis",
+      "engineering solutions",
+      "collaborative problem-solving"
+    ]
   },
   "expertise_areas": [
     "Computer engineering",
@@ -39,5 +98,126 @@
     "Engineering management"
   ],
   "influence_scope": "Global - Computer engineering and personal computing",
-  "legacy": "Co-founded Apple Inc. and designed revolutionary personal computers, fundamentally changing the computer industry."
+  "legacy": "Co-founded Apple Inc. and designed revolutionary personal computers, fundamentally changing the computer industry.",
+  "bias_awareness": {
+    "primary_biases": [
+      "optimism bias",
+      "confirmation bias"
+    ],
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": [
+      "innovation",
+      "problem-solving"
+    ],
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "N/A",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "High emotional intelligence in teamwork",
+    "ethical_framework": "Strong integrity-based ethical framework",
+    "human_centered_thinking": "N/A",
+    "empathy_expression_chips": [
+      "Teamwork",
+      "Emotional",
+      "Intelligence"
+    ],
+    "ethical_framework_chips": [
+      "Ethical",
+      "Ethical",
+      "Integrity"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Designer",
+        "Inventor",
+        "Entrepreneur",
+        "Engineer"
+      ],
+      "achievement_indicators": [
+        "founded",
+        "honor",
+        "award",
+        "developed"
+      ],
+      "influence_indicators": [
+        "prominent"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "collaborative_intelligence": "Exceptional team building and facilitation",
+    "holistic_perspective": "Systems thinking with user focus",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ],
+    "collaborative_intelligence_chips": [
+      "Team",
+      "Building",
+      "Exceptional"
+    ],
+    "holistic_perspective_chips": [
+      "User",
+      "Systems",
+      "Systems"
+    ]
+  },
+  "human_needs_hierarchy": {
+    "belonging_expression": "Strong - builds collaborative teams",
+    "belonging_expression_chips": [
+      "Teams",
+      "Builds",
+      "Collaborative"
+    ]
+  }
 }

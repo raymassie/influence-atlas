@@ -8,7 +8,23 @@
   "background_context": {
     "experience_level": "Senior",
     "career_stage": "Established",
-    "educational_background": "Cambridge University"
+    "educational_background": "Cambridge University",
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Author"
+      ],
+      "education_indicators": [
+        "university",
+        "college"
+      ],
+      "achievement_indicators": [
+        "developed"
+      ],
+      "influence_indicators": [
+        "influential"
+      ]
+    }
   },
   "communication_style": {
     "tone": "systematic, observational, analytical, evolutionary, comprehensive",
@@ -86,6 +102,64 @@
       "chronic illness",
       "meticulous note-taking",
       "reluctant to publish"
+    ]
+  },
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": [
+      "peer review",
+      "data validation"
+    ],
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": [
+      "curiosity",
+      "discovery"
+    ],
+    "challenge_seeking": "N/A",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "Evidence-based learning and adaptation",
+    "feedback_integration_chips": [
+      "Adaptation",
+      "Adaptation"
+    ]
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "Strong integrity-based ethical framework",
+    "human_centered_thinking": "Always considers human impact",
+    "ethical_framework_chips": [
+      "Ethical",
+      "Ethical",
+      "Integrity"
+    ],
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
     ]
   }
 }

@@ -10,25 +10,84 @@
   "birth_year": 1952,
   "death_year": null,
   "description": "American meditation teacher and co-founder of the Insight Meditation Society, specializing in loving-kindness meditation and mindfulness practices.",
-  "notable_works": ["Lovingkindness", "Real Happiness", "Real Change", "The Kindness Handbook"],
+  "notable_works": [
+    "Lovingkindness",
+    "Real Happiness",
+    "Real Change",
+    "The Kindness Handbook"
+  ],
   "psychological_profile": {
-    "primary_traits": ["compassionate", "gentle", "empathetic", "patient", "wise"],
-    "core_motivations": ["loving-kindness cultivation", "mindfulness teaching", "compassion development", "spiritual growth"],
-    "behavioral_patterns": ["loving-kindness meditation", "compassionate teaching", "mindful living", "community building"]
+    "primary_traits": [
+      "compassionate",
+      "gentle",
+      "empathetic",
+      "patient",
+      "wise"
+    ],
+    "core_motivations": [
+      "loving-kindness cultivation",
+      "mindfulness teaching",
+      "compassion development",
+      "spiritual growth"
+    ],
+    "behavioral_patterns": [
+      "loving-kindness meditation",
+      "compassionate teaching",
+      "mindful living",
+      "community building"
+    ]
   },
   "communication_style": {
-    "tone": ["gentle", "compassionate", "accessible", "encouraging"],
-    "vocabulary_patterns": ["loving-kindness terminology", "mindfulness concepts", "compassion language", "meditation instruction"],
-    "rhetorical_strategies": ["compassionate guidance", "loving-kindness cultivation", "mindful encouragement", "gentle persuasion"]
+    "tone": [
+      "gentle",
+      "compassionate",
+      "accessible",
+      "encouraging"
+    ],
+    "vocabulary_patterns": [
+      "loving-kindness terminology",
+      "mindfulness concepts",
+      "compassion language",
+      "meditation instruction"
+    ],
+    "rhetorical_strategies": [
+      "compassionate guidance",
+      "loving-kindness cultivation",
+      "mindful encouragement",
+      "gentle persuasion"
+    ]
   },
   "values": {
-    "core_values": ["loving-kindness", "compassion", "mindfulness", "spiritual growth", "community"],
-    "professional_principles": ["loving-kindness meditation", "compassionate teaching", "mindful living", "community support"]
+    "core_values": [
+      "loving-kindness",
+      "compassion",
+      "mindfulness",
+      "spiritual growth",
+      "community"
+    ],
+    "professional_principles": [
+      "loving-kindness meditation",
+      "compassionate teaching",
+      "mindful living",
+      "community support"
+    ]
   },
   "collaboration_style": {
-    "approach": ["compassionate partnerships", "mindfulness communities", "spiritual collaborations"],
-    "preferences": ["loving-kindness practice", "compassionate interaction", "mindful collaboration"],
-    "conflict_resolution": ["loving-kindness", "compassionate understanding", "mindful communication"]
+    "approach": [
+      "compassionate partnerships",
+      "mindfulness communities",
+      "spiritual collaborations"
+    ],
+    "preferences": [
+      "loving-kindness practice",
+      "compassionate interaction",
+      "mindful collaboration"
+    ],
+    "conflict_resolution": [
+      "loving-kindness",
+      "compassionate understanding",
+      "mindful communication"
+    ]
   },
   "expertise_areas": [
     "Loving-kindness meditation",
@@ -38,5 +97,46 @@
     "Spiritual teaching",
     "Community building"
   ],
-  "influence_scope": "Global - Loving-kindness meditation and mindfulness"
+  "influence_scope": "Global - Loving-kindness meditation and mindfulness",
+  "bias_awareness": {
+    "primary_biases": "N/A",
+    "bias_mitigation_strategies": "N/A",
+    "decision_making_style": "N/A"
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "Continuous learning and development focus",
+    "challenge_seeking": "Continuous learning and development focus",
+    "learning_orientation": "Continuous learning and development focus"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "Continuous learning and development focus",
+    "resilience_indicators": "Continuous learning and development focus",
+    "feedback_integration": "Continuous learning and development focus"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Educator",
+        "Author"
+      ],
+      "achievement_indicators": [
+        "founded"
+      ],
+      "influence_indicators": [
+        "leading",
+        "revolutionary"
+      ]
+    }
+  }
 }

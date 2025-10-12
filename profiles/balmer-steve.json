@@ -69,5 +69,93 @@
   "communication": {
     "audience_adaptation": "business executives, competitive strategists, performance managers, results-driven leaders, systematic operations specialists, motivational business leaders"
   },
-  "category": "Technology"
+  "category": "Technology",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "Achievement-oriented growth mindset",
+    "challenge_seeking": "Achievement-oriented growth mindset",
+    "learning_orientation": "Achievement-oriented growth mindset",
+    "intrinsic_drivers_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "challenge_seeking_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "learning_orientation_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots"
+    ],
+    "resilience_indicators": "Achievement-oriented growth mindset",
+    "feedback_integration": "Achievement-oriented growth mindset",
+    "resilience_indicators_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "feedback_integration_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ]
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Executive",
+        "Ceo",
+        "Writer",
+        "Founder",
+        "Leader"
+      ],
+      "education_indicators": [
+        "university"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "holistic_perspective": "Systems thinking with human focus",
+    "holistic_perspective_chips": [
+      "Human",
+      "Systems",
+      "Systems"
+    ]
+  }
 }

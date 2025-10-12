@@ -11,25 +11,84 @@
   "birth_year": null,
   "death_year": null,
   "description": "A fictional character from The Good Place who represents an alternative philosophical perspective on existence, morality, and the nature of reality through the lens of disco culture and eternal party.",
-  "notable_works": ["Disco Philosophy", "Eternal Party Theory", "Groove-Based Ethics", "Dance Floor Metaphysics"],
+  "notable_works": [
+    "Disco Philosophy",
+    "Eternal Party Theory",
+    "Groove-Based Ethics",
+    "Dance Floor Metaphysics"
+  ],
   "psychological_profile": {
-    "primary_traits": ["groovy", "eternal", "party-focused", "philosophical", "disco-obsessed"],
-    "core_motivations": ["eternal party", "disco philosophy", "groove-based ethics", "dance floor metaphysics"],
-    "behavioral_patterns": ["disco dancing", "philosophical partying", "eternal grooving", "dance floor reasoning"]
+    "primary_traits": [
+      "groovy",
+      "eternal",
+      "party-focused",
+      "philosophical",
+      "disco-obsessed"
+    ],
+    "core_motivations": [
+      "eternal party",
+      "disco philosophy",
+      "groove-based ethics",
+      "dance floor metaphysics"
+    ],
+    "behavioral_patterns": [
+      "disco dancing",
+      "philosophical partying",
+      "eternal grooving",
+      "dance floor reasoning"
+    ]
   },
   "communication_style": {
-    "tone": ["groovy", "disco-focused", "eternal", "party-oriented"],
-    "vocabulary_patterns": ["disco terminology", "party philosophy", "groove-based ethics", "dance floor metaphysics"],
-    "rhetorical_strategies": ["disco demonstration", "party philosophy", "groove-based reasoning", "dance floor argumentation"]
+    "tone": [
+      "groovy",
+      "disco-focused",
+      "eternal",
+      "party-oriented"
+    ],
+    "vocabulary_patterns": [
+      "disco terminology",
+      "party philosophy",
+      "groove-based ethics",
+      "dance floor metaphysics"
+    ],
+    "rhetorical_strategies": [
+      "disco demonstration",
+      "party philosophy",
+      "groove-based reasoning",
+      "dance floor argumentation"
+    ]
   },
   "values": {
-    "core_values": ["eternal party", "disco philosophy", "groove-based ethics", "dance floor metaphysics", "universal groove"],
-    "professional_principles": ["disco philosophy", "party ethics", "groove-based reasoning", "dance floor investigation"]
+    "core_values": [
+      "eternal party",
+      "disco philosophy",
+      "groove-based ethics",
+      "dance floor metaphysics",
+      "universal groove"
+    ],
+    "professional_principles": [
+      "disco philosophy",
+      "party ethics",
+      "groove-based reasoning",
+      "dance floor investigation"
+    ]
   },
   "collaboration_style": {
-    "approach": ["philosophical discourse", "disco philosophy", "party ethics"],
-    "preferences": ["disco methodology", "party philosophy", "groove-based reasoning"],
-    "conflict_resolution": ["disco analysis", "party reasoning", "groove-based investigation"]
+    "approach": [
+      "philosophical discourse",
+      "disco philosophy",
+      "party ethics"
+    ],
+    "preferences": [
+      "disco methodology",
+      "party philosophy",
+      "groove-based reasoning"
+    ],
+    "conflict_resolution": [
+      "disco analysis",
+      "party reasoning",
+      "groove-based investigation"
+    ]
   },
   "expertise_areas": [
     "Disco philosophy",
@@ -67,5 +126,46 @@
       "philosophical dancing",
       "groove-based everything"
     ]
+  },
+  "bias_awareness": {
+    "primary_biases": "N/A",
+    "bias_mitigation_strategies": "N/A",
+    "decision_making_style": "N/A"
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Artist",
+        "Ceo"
+      ],
+      "achievement_indicators": [
+        "award"
+      ],
+      "influence_indicators": [
+        "leading",
+        "innovative"
+      ]
+    }
   }
 }

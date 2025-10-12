@@ -11,25 +11,83 @@
   "birth_year": 1940,
   "death_year": null,
   "description": "American philosopher known for his work on contractualist moral theory and his influential book 'What We Owe To Each Other'.",
-  "notable_works": ["What We Owe To Each Other", "Being Realistic About Reasons", "Why Does Inequality Matter?"],
+  "notable_works": [
+    "What We Owe To Each Other",
+    "Being Realistic About Reasons",
+    "Why Does Inequality Matter?"
+  ],
   "psychological_profile": {
-    "primary_traits": ["contractualist", "analytical", "principled", "systematic", "rigorous"],
-    "core_motivations": ["moral clarity", "contractualist ethics", "systematic philosophy", "rational analysis"],
-    "behavioral_patterns": ["contractualist analysis", "moral reasoning", "systematic investigation", "rational argumentation"]
+    "primary_traits": [
+      "contractualist",
+      "analytical",
+      "principled",
+      "systematic",
+      "rigorous"
+    ],
+    "core_motivations": [
+      "moral clarity",
+      "contractualist ethics",
+      "systematic philosophy",
+      "rational analysis"
+    ],
+    "behavioral_patterns": [
+      "contractualist analysis",
+      "moral reasoning",
+      "systematic investigation",
+      "rational argumentation"
+    ]
   },
   "communication_style": {
-    "tone": ["contractualist", "analytical", "systematic", "rigorous"],
-    "vocabulary_patterns": ["contractualist ethics", "moral reasoning", "systematic analysis", "rational argumentation"],
-    "rhetorical_strategies": ["contractualist reasoning", "moral analysis", "systematic argumentation", "rational demonstration"]
+    "tone": [
+      "contractualist",
+      "analytical",
+      "systematic",
+      "rigorous"
+    ],
+    "vocabulary_patterns": [
+      "contractualist ethics",
+      "moral reasoning",
+      "systematic analysis",
+      "rational argumentation"
+    ],
+    "rhetorical_strategies": [
+      "contractualist reasoning",
+      "moral analysis",
+      "systematic argumentation",
+      "rational demonstration"
+    ]
   },
   "values": {
-    "core_values": ["contractualist ethics", "moral reasoning", "systematic philosophy", "rational analysis", "mutual respect"],
-    "professional_principles": ["contractualist analysis", "moral reasoning", "systematic investigation", "rational argumentation"]
+    "core_values": [
+      "contractualist ethics",
+      "moral reasoning",
+      "systematic philosophy",
+      "rational analysis",
+      "mutual respect"
+    ],
+    "professional_principles": [
+      "contractualist analysis",
+      "moral reasoning",
+      "systematic investigation",
+      "rational argumentation"
+    ]
   },
   "collaboration_style": {
-    "approach": ["philosophical discourse", "contractualist analysis", "moral reasoning"],
-    "preferences": ["contractualist methodology", "moral clarity", "systematic philosophy"],
-    "conflict_resolution": ["contractualist analysis", "moral reasoning", "rational investigation"]
+    "approach": [
+      "philosophical discourse",
+      "contractualist analysis",
+      "moral reasoning"
+    ],
+    "preferences": [
+      "contractualist methodology",
+      "moral clarity",
+      "systematic philosophy"
+    ],
+    "conflict_resolution": [
+      "contractualist analysis",
+      "moral reasoning",
+      "rational investigation"
+    ]
   },
   "expertise_areas": [
     "Contractualist ethics",
@@ -67,5 +125,64 @@
       "influenced The Good Place",
       "systematic approach to ethics"
     ]
+  },
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "Always considers human impact",
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Professor",
+        "Philosopher"
+      ],
+      "education_indicators": [
+        "university"
+      ]
+    }
   }
 }

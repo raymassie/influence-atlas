@@ -7,7 +7,18 @@
   "background_context": {
     "experience_level": "Executive",
     "career_stage": "Established",
-    "educational_background": "Self-taught"
+    "educational_background": "Self-taught",
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Inventor",
+        "Founder",
+        "Engineer"
+      ],
+      "achievement_indicators": [
+        "founded",
+        "award"
+      ]
+    }
   },
   "communication_style": {
     "tone": "innovative, practical, direct, efficiency-focused, revolutionary",
@@ -59,5 +70,87 @@
   "values": {
     "core_values": "industrial innovation, efficiency excellence, practical solutions, mass accessibility",
     "ethical_principles": "industrial integrity, efficiency responsibility, practical innovation"
+  },
+  "bias_awareness": {
+    "primary_biases": [
+      "overconfidence",
+      "anchoring bias"
+    ],
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": [
+      "achievement",
+      "growth"
+    ],
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "N/A",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "Strong integrity-based ethical framework",
+    "human_centered_thinking": "Customer-focused decision making",
+    "ethical_framework_chips": [
+      "Ethical",
+      "Ethical",
+      "Integrity"
+    ],
+    "human_centered_thinking_chips": [
+      "Focused",
+      "Customer",
+      "Customer"
+    ]
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ]
   }
 }

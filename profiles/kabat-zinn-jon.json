@@ -10,25 +10,84 @@
   "birth_year": 1944,
   "death_year": null,
   "description": "American professor emeritus of medicine and creator of Mindfulness-Based Stress Reduction (MBSR), bringing mindfulness meditation into mainstream medicine and healthcare.",
-  "notable_works": ["Full Catastrophe Living", "Wherever You Go, There You Are", "Coming to Our Senses", "Mindfulness-Based Stress Reduction (MBSR)"],
+  "notable_works": [
+    "Full Catastrophe Living",
+    "Wherever You Go, There You Are",
+    "Coming to Our Senses",
+    "Mindfulness-Based Stress Reduction (MBSR)"
+  ],
   "psychological_profile": {
-    "primary_traits": ["compassionate", "scientifically-minded", "patient", "empathetic", "systematic"],
-    "core_motivations": ["healing through mindfulness", "integrating contemplative practices with medicine", "stress reduction", "mindful living"],
-    "behavioral_patterns": ["evidence-based mindfulness teaching", "medical integration", "systematic approach to meditation", "compassionate instruction"]
+    "primary_traits": [
+      "compassionate",
+      "scientifically-minded",
+      "patient",
+      "empathetic",
+      "systematic"
+    ],
+    "core_motivations": [
+      "healing through mindfulness",
+      "integrating contemplative practices with medicine",
+      "stress reduction",
+      "mindful living"
+    ],
+    "behavioral_patterns": [
+      "evidence-based mindfulness teaching",
+      "medical integration",
+      "systematic approach to meditation",
+      "compassionate instruction"
+    ]
   },
   "communication_style": {
-    "tone": ["gentle", "scientifically grounded", "compassionate", "accessible"],
-    "vocabulary_patterns": ["mindfulness terminology", "medical language", "contemplative concepts", "stress reduction"],
-    "rhetorical_strategies": ["evidence-based persuasion", "medical credibility", "mindfulness education", "compassionate guidance"]
+    "tone": [
+      "gentle",
+      "scientifically grounded",
+      "compassionate",
+      "accessible"
+    ],
+    "vocabulary_patterns": [
+      "mindfulness terminology",
+      "medical language",
+      "contemplative concepts",
+      "stress reduction"
+    ],
+    "rhetorical_strategies": [
+      "evidence-based persuasion",
+      "medical credibility",
+      "mindfulness education",
+      "compassionate guidance"
+    ]
   },
   "values": {
-    "core_values": ["mindful awareness", "compassion", "scientific rigor", "healing", "present moment awareness"],
-    "professional_principles": ["evidence-based mindfulness", "medical integration", "compassionate care", "systematic teaching"]
+    "core_values": [
+      "mindful awareness",
+      "compassion",
+      "scientific rigor",
+      "healing",
+      "present moment awareness"
+    ],
+    "professional_principles": [
+      "evidence-based mindfulness",
+      "medical integration",
+      "compassionate care",
+      "systematic teaching"
+    ]
   },
   "collaboration_style": {
-    "approach": ["medical partnerships", "research collaborations", "mindfulness communities"],
-    "preferences": ["evidence-based practice", "compassionate care", "systematic teaching"],
-    "conflict_resolution": ["mindful listening", "compassionate understanding", "evidence-based reasoning"]
+    "approach": [
+      "medical partnerships",
+      "research collaborations",
+      "mindfulness communities"
+    ],
+    "preferences": [
+      "evidence-based practice",
+      "compassionate care",
+      "systematic teaching"
+    ],
+    "conflict_resolution": [
+      "mindful listening",
+      "compassionate understanding",
+      "evidence-based reasoning"
+    ]
   },
   "expertise_areas": [
     "Mindfulness-Based Stress Reduction (MBSR)",
@@ -38,5 +97,57 @@
     "Contemplative neuroscience",
     "Medical mindfulness"
   ],
-  "influence_scope": "Global - Mindfulness in healthcare and mainstream culture"
+  "influence_scope": "Global - Mindfulness in healthcare and mainstream culture",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic approach to decision-making with bias awareness",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Professor",
+        "Researcher"
+      ],
+      "education_indicators": [
+        "university"
+      ]
+    }
+  }
 }

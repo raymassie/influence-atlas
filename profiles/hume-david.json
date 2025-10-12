@@ -11,25 +11,84 @@
   "birth_year": 1711,
   "death_year": 1776,
   "description": "Scottish philosopher who was a key figure in the Scottish Enlightenment, known for his empiricist approach to philosophy and his work on human nature.",
-  "notable_works": ["A Treatise of Human Nature", "An Enquiry Concerning Human Understanding", "An Enquiry Concerning the Principles of Morals", "Dialogues Concerning Natural Religion"],
+  "notable_works": [
+    "A Treatise of Human Nature",
+    "An Enquiry Concerning Human Understanding",
+    "An Enquiry Concerning the Principles of Morals",
+    "Dialogues Concerning Natural Religion"
+  ],
   "psychological_profile": {
-    "primary_traits": ["empiricist", "skeptical", "analytical", "systematic", "observant"],
-    "core_motivations": ["empirical understanding", "human nature analysis", "skeptical inquiry", "systematic philosophy"],
-    "behavioral_patterns": ["empirical investigation", "skeptical analysis", "human nature study", "systematic reasoning"]
+    "primary_traits": [
+      "empiricist",
+      "skeptical",
+      "analytical",
+      "systematic",
+      "observant"
+    ],
+    "core_motivations": [
+      "empirical understanding",
+      "human nature analysis",
+      "skeptical inquiry",
+      "systematic philosophy"
+    ],
+    "behavioral_patterns": [
+      "empirical investigation",
+      "skeptical analysis",
+      "human nature study",
+      "systematic reasoning"
+    ]
   },
   "communication_style": {
-    "tone": ["empiricist", "skeptical", "analytical", "systematic"],
-    "vocabulary_patterns": ["empirical evidence", "human nature", "skeptical inquiry", "systematic analysis"],
-    "rhetorical_strategies": ["empirical demonstration", "skeptical reasoning", "human nature analysis", "systematic argumentation"]
+    "tone": [
+      "empiricist",
+      "skeptical",
+      "analytical",
+      "systematic"
+    ],
+    "vocabulary_patterns": [
+      "empirical evidence",
+      "human nature",
+      "skeptical inquiry",
+      "systematic analysis"
+    ],
+    "rhetorical_strategies": [
+      "empirical demonstration",
+      "skeptical reasoning",
+      "human nature analysis",
+      "systematic argumentation"
+    ]
   },
   "values": {
-    "core_values": ["empirical evidence", "skeptical inquiry", "human nature understanding", "systematic philosophy", "rational analysis"],
-    "professional_principles": ["empirical methodology", "skeptical analysis", "human nature investigation", "systematic reasoning"]
+    "core_values": [
+      "empirical evidence",
+      "skeptical inquiry",
+      "human nature understanding",
+      "systematic philosophy",
+      "rational analysis"
+    ],
+    "professional_principles": [
+      "empirical methodology",
+      "skeptical analysis",
+      "human nature investigation",
+      "systematic reasoning"
+    ]
   },
   "collaboration_style": {
-    "approach": ["philosophical discourse", "empirical analysis", "skeptical inquiry"],
-    "preferences": ["empirical methodology", "skeptical reasoning", "human nature study"],
-    "conflict_resolution": ["empirical analysis", "skeptical reasoning", "systematic investigation"]
+    "approach": [
+      "philosophical discourse",
+      "empirical analysis",
+      "skeptical inquiry"
+    ],
+    "preferences": [
+      "empirical methodology",
+      "skeptical reasoning",
+      "human nature study"
+    ],
+    "conflict_resolution": [
+      "empirical analysis",
+      "skeptical reasoning",
+      "systematic investigation"
+    ]
   },
   "expertise_areas": [
     "Empiricist philosophy",
@@ -67,5 +126,76 @@
       "worked as librarian",
       "friendly and sociable personality"
     ]
+  },
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "human_needs_hierarchy": {
+    "physiological_focus": "N/A",
+    "safety_concerns": "N/A",
+    "belonging_expression": "N/A",
+    "esteem_sources": "N/A",
+    "self_actualization_pursuit": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "Always considers human impact",
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "humanistic_cognition": {
+    "holistic_perspective": "N/A",
+    "creative_problem_solving": "N/A",
+    "collaborative_intelligence": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Economist",
+        "Philosopher"
+      ],
+      "influence_indicators": [
+        "influential"
+      ]
+    }
   }
 }

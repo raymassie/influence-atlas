@@ -10,25 +10,84 @@
   "birth_year": 1903,
   "death_year": 1950,
   "description": "British novelist, essayist, and journalist who wrote about political oppression and totalitarianism, most famously in '1984' and 'Animal Farm'.",
-  "notable_works": ["1984", "Animal Farm", "Down and Out in Paris and London", "Politics and the English Language"],
+  "notable_works": [
+    "1984",
+    "Animal Farm",
+    "Down and Out in Paris and London",
+    "Politics and the English Language"
+  ],
   "psychological_profile": {
-    "primary_traits": ["political", "critical", "observant", "truthful", "systematic"],
-    "core_motivations": ["political truth", "anti-totalitarianism", "social justice", "literary excellence"],
-    "behavioral_patterns": ["political writing", "social critique", "truth telling", "anti-totalitarianism"]
+    "primary_traits": [
+      "political",
+      "critical",
+      "observant",
+      "truthful",
+      "systematic"
+    ],
+    "core_motivations": [
+      "political truth",
+      "anti-totalitarianism",
+      "social justice",
+      "literary excellence"
+    ],
+    "behavioral_patterns": [
+      "political writing",
+      "social critique",
+      "truth telling",
+      "anti-totalitarianism"
+    ]
   },
   "communication_style": {
-    "tone": ["political", "critical", "truthful", "systematic"],
-    "vocabulary_patterns": ["political concepts", "social critique", "truth telling", "anti-totalitarianism"],
-    "rhetorical_strategies": ["political critique", "social justice advocacy", "truth telling", "anti-totalitarianism"]
+    "tone": [
+      "political",
+      "critical",
+      "truthful",
+      "systematic"
+    ],
+    "vocabulary_patterns": [
+      "political concepts",
+      "social critique",
+      "truth telling",
+      "anti-totalitarianism"
+    ],
+    "rhetorical_strategies": [
+      "political critique",
+      "social justice advocacy",
+      "truth telling",
+      "anti-totalitarianism"
+    ]
   },
   "values": {
-    "core_values": ["political truth", "anti-totalitarianism", "social justice", "literary excellence", "truth telling"],
-    "professional_principles": ["political writing", "social critique", "truth telling", "anti-totalitarianism"]
+    "core_values": [
+      "political truth",
+      "anti-totalitarianism",
+      "social justice",
+      "literary excellence",
+      "truth telling"
+    ],
+    "professional_principles": [
+      "political writing",
+      "social critique",
+      "truth telling",
+      "anti-totalitarianism"
+    ]
   },
   "collaboration_style": {
-    "approach": ["political partnerships", "social justice collaborations", "literary alliances"],
-    "preferences": ["political writing", "social critique", "truth telling"],
-    "conflict_resolution": ["political analysis", "social justice reasoning", "truth telling"]
+    "approach": [
+      "political partnerships",
+      "social justice collaborations",
+      "literary alliances"
+    ],
+    "preferences": [
+      "political writing",
+      "social critique",
+      "truth telling"
+    ],
+    "conflict_resolution": [
+      "political analysis",
+      "social justice reasoning",
+      "truth telling"
+    ]
   },
   "expertise_areas": [
     "Political fiction",
@@ -39,5 +98,57 @@
     "Dystopian literature"
   ],
   "influence_scope": "Global - Political literature and social critique",
-  "legacy": "Wrote influential works on political oppression and totalitarianism, including '1984' and 'Animal Farm', becoming a leading voice in political literature and social critique."
+  "legacy": "Wrote influential works on political oppression and totalitarianism, including '1984' and 'Animal Farm', becoming a leading voice in political literature and social critique.",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic approach to decision-making with bias awareness",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Author",
+        "Philosopher"
+      ],
+      "influence_indicators": [
+        "influential"
+      ]
+    }
+  }
 }

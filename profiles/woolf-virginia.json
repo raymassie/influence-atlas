@@ -10,25 +10,84 @@
   "birth_year": 1882,
   "death_year": 1941,
   "description": "British novelist, essayist, and literary critic who was a leading figure in modernist literature and the Bloomsbury Group.",
-  "notable_works": ["Mrs. Dalloway", "To the Lighthouse", "Orlando", "A Room of One's Own"],
+  "notable_works": [
+    "Mrs. Dalloway",
+    "To the Lighthouse",
+    "Orlando",
+    "A Room of One's Own"
+  ],
   "psychological_profile": {
-    "primary_traits": ["introspective", "innovative", "feminist", "sensitive", "intellectual"],
-    "core_motivations": ["literary innovation", "feminist expression", "stream of consciousness", "artistic truth"],
-    "behavioral_patterns": ["literary innovation", "feminist writing", "stream of consciousness", "artistic exploration"]
+    "primary_traits": [
+      "introspective",
+      "innovative",
+      "feminist",
+      "sensitive",
+      "intellectual"
+    ],
+    "core_motivations": [
+      "literary innovation",
+      "feminist expression",
+      "stream of consciousness",
+      "artistic truth"
+    ],
+    "behavioral_patterns": [
+      "literary innovation",
+      "feminist writing",
+      "stream of consciousness",
+      "artistic exploration"
+    ]
   },
   "communication_style": {
-    "tone": ["introspective", "innovative", "feminist", "intellectual"],
-    "vocabulary_patterns": ["literary concepts", "feminist terminology", "stream of consciousness", "artistic language"],
-    "rhetorical_strategies": ["stream of consciousness", "feminist advocacy", "literary innovation", "artistic truth"]
+    "tone": [
+      "introspective",
+      "innovative",
+      "feminist",
+      "intellectual"
+    ],
+    "vocabulary_patterns": [
+      "literary concepts",
+      "feminist terminology",
+      "stream of consciousness",
+      "artistic language"
+    ],
+    "rhetorical_strategies": [
+      "stream of consciousness",
+      "feminist advocacy",
+      "literary innovation",
+      "artistic truth"
+    ]
   },
   "values": {
-    "core_values": ["literary innovation", "feminist expression", "artistic truth", "stream of consciousness", "intellectual freedom"],
-    "professional_principles": ["literary innovation", "feminist writing", "stream of consciousness", "artistic exploration"]
+    "core_values": [
+      "literary innovation",
+      "feminist expression",
+      "artistic truth",
+      "stream of consciousness",
+      "intellectual freedom"
+    ],
+    "professional_principles": [
+      "literary innovation",
+      "feminist writing",
+      "stream of consciousness",
+      "artistic exploration"
+    ]
   },
   "collaboration_style": {
-    "approach": ["literary partnerships", "feminist collaborations", "artistic alliances"],
-    "preferences": ["literary innovation", "feminist writing", "artistic exploration"],
-    "conflict_resolution": ["literary analysis", "feminist reasoning", "artistic truth"]
+    "approach": [
+      "literary partnerships",
+      "feminist collaborations",
+      "artistic alliances"
+    ],
+    "preferences": [
+      "literary innovation",
+      "feminist writing",
+      "artistic exploration"
+    ],
+    "conflict_resolution": [
+      "literary analysis",
+      "feminist reasoning",
+      "artistic truth"
+    ]
   },
   "expertise_areas": [
     "Novel writing",
@@ -39,5 +98,91 @@
     "Modernist literature"
   ],
   "influence_scope": "Global - Literature and feminist writing",
-  "legacy": "Was a leading figure in modernist literature and feminist writing, revolutionizing narrative technique with stream of consciousness and advocating for women's literary expression."
+  "legacy": "Was a leading figure in modernist literature and feminist writing, revolutionizing narrative technique with stream of consciousness and advocating for women's literary expression.",
+  "bias_awareness": {
+    "primary_biases": "Creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "N/A",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Author"
+      ],
+      "education_indicators": [
+        "university",
+        "college"
+      ],
+      "influence_indicators": [
+        "influential"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ]
+  }
 }

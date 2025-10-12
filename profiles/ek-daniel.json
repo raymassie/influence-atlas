@@ -32,7 +32,13 @@
     "typical_career_path": "early tech career, startup experience, platform development, CEO leadership, industry disruption",
     "company_stage_preference": "growth to scale",
     "success_metrics": "user growth, artist success, platform revenue, market share, innovation impact",
-    "pain_points": "industry resistance, artist relations, regulatory challenges, competitive pressure, market disruption"
+    "pain_points": "industry resistance, artist relations, regulatory challenges, competitive pressure, market disruption",
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Founder",
+        "Ceo"
+      ]
+    }
   },
   "behavioral_patterns": {
     "work_style": "data-driven, user-focused, systematic, innovative, determined, analytical, visionary",
@@ -85,5 +91,95 @@
     "ethical_framework": "user privacy, artist fairness, data transparency, innovation ethics, platform responsibility",
     "social_responsibility": "artist economy, music access, innovation education, platform democratization"
   },
-  "category": "Technology"
+  "category": "Technology",
+  "bias_awareness": {
+    "primary_biases": [
+      "optimism bias",
+      "confirmation bias"
+    ],
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": [
+      "innovation",
+      "problem-solving"
+    ],
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ],
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "innovative solutions"
+    ],
+    "resilience_indicators": "Continuous learning and development focus",
+    "feedback_integration": "Continuous learning and development focus"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "Customer-focused empathy and understanding",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "Always considers human impact",
+    "empathy_expression_chips": [
+      "Empathy",
+      "Empathy",
+      "Focused"
+    ],
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "holistic_perspective": "Systems thinking with user focus",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ],
+    "holistic_perspective_chips": [
+      "User",
+      "Systems",
+      "Systems"
+    ]
+  }
 }

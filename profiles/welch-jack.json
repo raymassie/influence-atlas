@@ -7,7 +7,15 @@
   "background_context": {
     "experience_level": "Executive",
     "career_stage": "Established",
-    "educational_background": "University of Massachusetts, University of Illinois"
+    "educational_background": "University of Massachusetts, University of Illinois",
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Executive",
+        "Founder",
+        "Ceo"
+      ]
+    }
   },
   "communication_style": {
     "tone": "direct, aggressive, results-focused, confrontational, energetic",
@@ -59,5 +67,71 @@
   "values": {
     "core_values": "performance excellence, competitive advantage, results achievement",
     "ethical_principles": "performance integrity, competitive fairness, results accountability"
+  },
+  "bias_awareness": {
+    "primary_biases": [
+      "overconfidence",
+      "anchoring bias"
+    ],
+    "bias_mitigation_strategies": "N/A",
+    "decision_making_style": "N/A"
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": [
+      "achievement",
+      "growth"
+    ],
+    "challenge_seeking": "Achievement-oriented growth mindset",
+    "learning_orientation": "Achievement-oriented growth mindset",
+    "challenge_seeking_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "learning_orientation_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "Achievement-oriented growth mindset",
+    "resilience_indicators": "Achievement-oriented growth mindset",
+    "feedback_integration": "Achievement-oriented growth mindset",
+    "adaptation_patterns_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "resilience_indicators_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "feedback_integration_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ]
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "Strong integrity-based ethical framework",
+    "human_centered_thinking": "Customer-focused decision making",
+    "ethical_framework_chips": [
+      "Ethical",
+      "Ethical",
+      "Integrity"
+    ],
+    "human_centered_thinking_chips": [
+      "Focused",
+      "Customer",
+      "Customer"
+    ]
   }
 }

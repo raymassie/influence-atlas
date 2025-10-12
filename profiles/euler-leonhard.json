@@ -10,25 +10,84 @@
   "birth_year": 1707,
   "death_year": 1783,
   "description": "Swiss mathematician who made fundamental contributions to mathematics, including graph theory, number theory, and mathematical analysis.",
-  "notable_works": ["Euler's formula", "Graph theory", "Number theory", "Mathematical analysis"],
+  "notable_works": [
+    "Euler's formula",
+    "Graph theory",
+    "Number theory",
+    "Mathematical analysis"
+  ],
   "psychological_profile": {
-    "primary_traits": ["analytical", "prolific", "systematic", "innovative", "persistent"],
-    "core_motivations": ["mathematical discovery", "systematic analysis", "mathematical innovation", "theoretical understanding"],
-    "behavioral_patterns": ["mathematical analysis", "systematic research", "theoretical development", "mathematical innovation"]
+    "primary_traits": [
+      "analytical",
+      "prolific",
+      "systematic",
+      "innovative",
+      "persistent"
+    ],
+    "core_motivations": [
+      "mathematical discovery",
+      "systematic analysis",
+      "mathematical innovation",
+      "theoretical understanding"
+    ],
+    "behavioral_patterns": [
+      "mathematical analysis",
+      "systematic research",
+      "theoretical development",
+      "mathematical innovation"
+    ]
   },
   "communication_style": {
-    "tone": ["analytical", "systematic", "innovative", "precise"],
-    "vocabulary_patterns": ["mathematical concepts", "theoretical terminology", "analytical language", "mathematical precision"],
-    "rhetorical_strategies": ["mathematical proof", "theoretical argument", "analytical demonstration", "mathematical innovation"]
+    "tone": [
+      "analytical",
+      "systematic",
+      "innovative",
+      "precise"
+    ],
+    "vocabulary_patterns": [
+      "mathematical concepts",
+      "theoretical terminology",
+      "analytical language",
+      "mathematical precision"
+    ],
+    "rhetorical_strategies": [
+      "mathematical proof",
+      "theoretical argument",
+      "analytical demonstration",
+      "mathematical innovation"
+    ]
   },
   "values": {
-    "core_values": ["mathematical truth", "systematic analysis", "theoretical understanding", "mathematical innovation", "analytical precision"],
-    "professional_principles": ["mathematical analysis", "theoretical development", "systematic research", "mathematical innovation"]
+    "core_values": [
+      "mathematical truth",
+      "systematic analysis",
+      "theoretical understanding",
+      "mathematical innovation",
+      "analytical precision"
+    ],
+    "professional_principles": [
+      "mathematical analysis",
+      "theoretical development",
+      "systematic research",
+      "mathematical innovation"
+    ]
   },
   "collaboration_style": {
-    "approach": ["mathematical collaboration", "theoretical partnerships", "academic alliances"],
-    "preferences": ["mathematical analysis", "theoretical development", "systematic research"],
-    "conflict_resolution": ["mathematical proof", "theoretical analysis", "systematic reasoning"]
+    "approach": [
+      "mathematical collaboration",
+      "theoretical partnerships",
+      "academic alliances"
+    ],
+    "preferences": [
+      "mathematical analysis",
+      "theoretical development",
+      "systematic research"
+    ],
+    "conflict_resolution": [
+      "mathematical proof",
+      "theoretical analysis",
+      "systematic reasoning"
+    ]
   },
   "expertise_areas": [
     "Mathematical analysis",
@@ -39,5 +98,103 @@
     "Theoretical mathematics"
   ],
   "influence_scope": "Global - Mathematics and theoretical physics",
-  "legacy": "Made fundamental contributions to mathematics and theoretical physics, establishing foundational principles in graph theory, number theory, and mathematical analysis."
+  "legacy": "Made fundamental contributions to mathematics and theoretical physics, establishing foundational principles in graph theory, number theory, and mathematical analysis.",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "Continuous learning and development focus",
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ],
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "resilience_indicators": "Continuous learning and development focus",
+    "feedback_integration": "Continuous learning and development focus"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "Always considers human impact",
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Scientist",
+        "Engineer",
+        "Philosopher"
+      ],
+      "education_indicators": [
+        "master"
+      ],
+      "achievement_indicators": [
+        "founded"
+      ],
+      "influence_indicators": [
+        "influential"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ]
+  }
 }

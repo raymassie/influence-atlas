@@ -10,25 +10,84 @@
   "birth_year": 1941,
   "death_year": null,
   "description": "American climate scientist who was among the first to warn about global warming and became a leading voice in climate science and advocacy.",
-  "notable_works": ["Climate science", "Global warming research", "Climate advocacy", "Environmental science"],
+  "notable_works": [
+    "Climate science",
+    "Global warming research",
+    "Climate advocacy",
+    "Environmental science"
+  ],
   "psychological_profile": {
-    "primary_traits": ["analytical", "persistent", "influential", "systematic", "activist"],
-    "core_motivations": ["climate science", "environmental protection", "scientific truth", "climate advocacy"],
-    "behavioral_patterns": ["climate research", "scientific analysis", "climate advocacy", "environmental protection"]
+    "primary_traits": [
+      "analytical",
+      "persistent",
+      "influential",
+      "systematic",
+      "activist"
+    ],
+    "core_motivations": [
+      "climate science",
+      "environmental protection",
+      "scientific truth",
+      "climate advocacy"
+    ],
+    "behavioral_patterns": [
+      "climate research",
+      "scientific analysis",
+      "climate advocacy",
+      "environmental protection"
+    ]
   },
   "communication_style": {
-    "tone": ["analytical", "persistent", "influential", "systematic"],
-    "vocabulary_patterns": ["climate concepts", "scientific terminology", "environmental language", "climate analysis"],
-    "rhetorical_strategies": ["climate research", "scientific analysis", "climate advocacy", "environmental protection"]
+    "tone": [
+      "analytical",
+      "persistent",
+      "influential",
+      "systematic"
+    ],
+    "vocabulary_patterns": [
+      "climate concepts",
+      "scientific terminology",
+      "environmental language",
+      "climate analysis"
+    ],
+    "rhetorical_strategies": [
+      "climate research",
+      "scientific analysis",
+      "climate advocacy",
+      "environmental protection"
+    ]
   },
   "values": {
-    "core_values": ["climate science", "environmental protection", "scientific truth", "climate advocacy", "systematic analysis"],
-    "professional_principles": ["climate research", "scientific analysis", "climate advocacy", "environmental protection"]
+    "core_values": [
+      "climate science",
+      "environmental protection",
+      "scientific truth",
+      "climate advocacy",
+      "systematic analysis"
+    ],
+    "professional_principles": [
+      "climate research",
+      "scientific analysis",
+      "climate advocacy",
+      "environmental protection"
+    ]
   },
   "collaboration_style": {
-    "approach": ["climate partnerships", "scientific collaborations", "environmental alliances"],
-    "preferences": ["climate research", "scientific analysis", "climate advocacy"],
-    "conflict_resolution": ["climate analysis", "scientific reasoning", "environmental protection"]
+    "approach": [
+      "climate partnerships",
+      "scientific collaborations",
+      "environmental alliances"
+    ],
+    "preferences": [
+      "climate research",
+      "scientific analysis",
+      "climate advocacy"
+    ],
+    "conflict_resolution": [
+      "climate analysis",
+      "scientific reasoning",
+      "environmental protection"
+    ]
   },
   "expertise_areas": [
     "Climate science",
@@ -39,5 +98,67 @@
     "Environmental protection"
   ],
   "influence_scope": "Global - Climate science and environmental protection",
-  "legacy": "Was among the first to warn about global warming and became a leading voice in climate science and advocacy, influencing global climate policy and environmental protection."
+  "legacy": "Was among the first to warn about global warming and became a leading voice in climate science and advocacy, influencing global climate policy and environmental protection.",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "Always considers human impact",
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Professor",
+        "Activist"
+      ],
+      "education_indicators": [
+        "university"
+      ],
+      "influence_indicators": [
+        "leading"
+      ]
+    }
+  }
 }

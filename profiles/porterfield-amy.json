@@ -81,7 +81,7 @@
   },
   "background_context": {
     "experience_level": "expert (15+ years)",
-    "typical_career_path": "corporate marketing \u2192 online educator \u2192 course creation expert",
+    "typical_career_path": "corporate marketing → online educator → course creation expert",
     "company_stage_preference": "educators and coaches wanting to create online courses",
     "success_metrics": [
       "student course success",
@@ -92,7 +92,13 @@
       "course creation overwhelm",
       "launch complexity",
       "student success variation"
-    ]
+    ],
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Author"
+      ]
+    }
   },
   "behavioral_patterns": {
     "work_style": "systematic, student-focused, empathetic",
@@ -165,5 +171,80 @@
     "ethical_framework": "approach to ethical dilemmas",
     "social_responsibility": "views on broader impact"
   },
-  "category": "Entrepreneurial"
+  "category": "Entrepreneurial",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic approach to decision-making with bias awareness",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "Achievement-oriented growth mindset",
+    "challenge_seeking": "Achievement-oriented growth mindset",
+    "learning_orientation": "Achievement-oriented growth mindset",
+    "intrinsic_drivers_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "challenge_seeking_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "learning_orientation_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "Achievement-oriented growth mindset",
+    "resilience_indicators": "Achievement-oriented growth mindset",
+    "feedback_integration": "Achievement-oriented growth mindset",
+    "adaptation_patterns_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "resilience_indicators_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ],
+    "feedback_integration_chips": [
+      "Achievement",
+      "Achievement",
+      "Growth mindset"
+    ]
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "High emotional intelligence in team leadership",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A",
+    "empathy_expression_chips": [
+      "Team",
+      "Emotional",
+      "Leadership"
+    ]
+  }
 }

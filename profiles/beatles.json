@@ -7,7 +7,24 @@
   "background_context": {
     "experience_level": "Senior",
     "career_stage": "Established",
-    "educational_background": "Self-taught"
+    "educational_background": "Self-taught",
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Leader",
+        "Writer",
+        "Artist"
+      ],
+      "achievement_indicators": [
+        "founded",
+        "award",
+        "developed"
+      ],
+      "influence_indicators": [
+        "innovative",
+        "leading",
+        "influential"
+      ]
+    }
   },
   "communication_style": {
     "tone": "innovative, experimental, harmonious, rebellious, creative",
@@ -59,5 +76,96 @@
   "values": {
     "core_values": "creativity, innovation, collaboration, artistic integrity",
     "ethical_principles": "artistic freedom, cultural expression, musical excellence"
+  },
+  "bias_awareness": {
+    "primary_biases": "Creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "N/A",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": [
+      "creative breakthroughs"
+    ],
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "innovative solutions"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "High emotional intelligence in teamwork",
+    "ethical_framework": "Strong integrity-based ethical framework",
+    "human_centered_thinking": "N/A",
+    "empathy_expression_chips": [
+      "Teamwork",
+      "Emotional",
+      "Intelligence"
+    ],
+    "ethical_framework_chips": [
+      "Ethical",
+      "Ethical",
+      "Integrity"
+    ]
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "collaborative_intelligence": "Exceptional team building and facilitation",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ],
+    "collaborative_intelligence_chips": [
+      "Team",
+      "Building",
+      "Exceptional"
+    ]
+  },
+  "human_needs_hierarchy": {
+    "belonging_expression": "Strong - builds collaborative teams",
+    "belonging_expression_chips": [
+      "Teams",
+      "Builds",
+      "Collaborative"
+    ]
   }
 }

@@ -10,25 +10,85 @@
   "birth_year": 1949,
   "death_year": null,
   "description": "French industrial designer known for his innovative and often whimsical designs across furniture, interior design, and consumer products.",
-  "notable_works": ["Juicy Salif", "Ghost Chair", "Hotel interiors", "Consumer products", "Architecture"],
+  "notable_works": [
+    "Juicy Salif",
+    "Ghost Chair",
+    "Hotel interiors",
+    "Consumer products",
+    "Architecture"
+  ],
   "psychological_profile": {
-    "primary_traits": ["innovative", "playful", "eclectic", "provocative", "visionary"],
-    "core_motivations": ["design innovation", "aesthetic experimentation", "functional beauty", "design democratization"],
-    "behavioral_patterns": ["cross-disciplinary design", "aesthetic experimentation", "functional innovation", "design accessibility"]
+    "primary_traits": [
+      "innovative",
+      "playful",
+      "eclectic",
+      "provocative",
+      "visionary"
+    ],
+    "core_motivations": [
+      "design innovation",
+      "aesthetic experimentation",
+      "functional beauty",
+      "design democratization"
+    ],
+    "behavioral_patterns": [
+      "cross-disciplinary design",
+      "aesthetic experimentation",
+      "functional innovation",
+      "design accessibility"
+    ]
   },
   "communication_style": {
-    "tone": ["playful", "provocative", "philosophical", "accessible"],
-    "vocabulary_patterns": ["design philosophy", "aesthetic concepts", "functional innovation", "democratic design"],
-    "rhetorical_strategies": ["visual storytelling", "design demonstration", "philosophical reflection", "aesthetic argument"]
+    "tone": [
+      "playful",
+      "provocative",
+      "philosophical",
+      "accessible"
+    ],
+    "vocabulary_patterns": [
+      "design philosophy",
+      "aesthetic concepts",
+      "functional innovation",
+      "democratic design"
+    ],
+    "rhetorical_strategies": [
+      "visual storytelling",
+      "design demonstration",
+      "philosophical reflection",
+      "aesthetic argument"
+    ]
   },
   "values": {
-    "core_values": ["design democracy", "aesthetic innovation", "functional beauty", "creative freedom", "accessibility"],
-    "professional_principles": ["democratic design", "aesthetic excellence", "functional innovation", "creative expression"]
+    "core_values": [
+      "design democracy",
+      "aesthetic innovation",
+      "functional beauty",
+      "creative freedom",
+      "accessibility"
+    ],
+    "professional_principles": [
+      "democratic design",
+      "aesthetic excellence",
+      "functional innovation",
+      "creative expression"
+    ]
   },
   "collaboration_style": {
-    "approach": ["cross-disciplinary collaboration", "client education", "design leadership"],
-    "preferences": ["creative freedom", "aesthetic experimentation", "design innovation"],
-    "conflict_resolution": ["design rationale", "aesthetic demonstration", "creative compromise"]
+    "approach": [
+      "cross-disciplinary collaboration",
+      "client education",
+      "design leadership"
+    ],
+    "preferences": [
+      "creative freedom",
+      "aesthetic experimentation",
+      "design innovation"
+    ],
+    "conflict_resolution": [
+      "design rationale",
+      "aesthetic demonstration",
+      "creative compromise"
+    ]
   },
   "expertise_areas": [
     "Industrial design",
@@ -39,5 +99,83 @@
     "Design philosophy"
   ],
   "influence_scope": "Global - Industrial design and consumer products",
-  "legacy": "Pioneered accessible luxury design and demonstrated the power of playful, innovative industrial design."
+  "legacy": "Pioneered accessible luxury design and demonstrated the power of playful, innovative industrial design.",
+  "bias_awareness": {
+    "primary_biases": "Creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "decision_making_style": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "N/A",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Designer"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ]
+  }
 }

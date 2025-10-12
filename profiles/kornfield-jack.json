@@ -10,25 +10,84 @@
   "birth_year": 1945,
   "death_year": null,
   "description": "American meditation teacher and psychologist who co-founded the Insight Meditation Society, bringing Vipassana meditation to the West.",
-  "notable_works": ["A Path with Heart", "After the Ecstasy, the Laundry", "The Wise Heart", "Bringing Home the Dharma"],
+  "notable_works": [
+    "A Path with Heart",
+    "After the Ecstasy, the Laundry",
+    "The Wise Heart",
+    "Bringing Home the Dharma"
+  ],
   "psychological_profile": {
-    "primary_traits": ["compassionate", "wise", "practical", "empathetic", "integrative"],
-    "core_motivations": ["Vipassana teaching", "psychological integration", "spiritual wisdom", "practical spirituality"],
-    "behavioral_patterns": ["Vipassana instruction", "psychological integration", "compassionate teaching", "practical wisdom"]
+    "primary_traits": [
+      "compassionate",
+      "wise",
+      "practical",
+      "empathetic",
+      "integrative"
+    ],
+    "core_motivations": [
+      "Vipassana teaching",
+      "psychological integration",
+      "spiritual wisdom",
+      "practical spirituality"
+    ],
+    "behavioral_patterns": [
+      "Vipassana instruction",
+      "psychological integration",
+      "compassionate teaching",
+      "practical wisdom"
+    ]
   },
   "communication_style": {
-    "tone": ["compassionate", "wise", "practical", "accessible"],
-    "vocabulary_patterns": ["Vipassana terminology", "psychological concepts", "Buddhist wisdom", "practical spirituality"],
-    "rhetorical_strategies": ["compassionate guidance", "practical wisdom", "psychological integration", "spiritual teaching"]
+    "tone": [
+      "compassionate",
+      "wise",
+      "practical",
+      "accessible"
+    ],
+    "vocabulary_patterns": [
+      "Vipassana terminology",
+      "psychological concepts",
+      "Buddhist wisdom",
+      "practical spirituality"
+    ],
+    "rhetorical_strategies": [
+      "compassionate guidance",
+      "practical wisdom",
+      "psychological integration",
+      "spiritual teaching"
+    ]
   },
   "values": {
-    "core_values": ["compassion", "wisdom", "practical spirituality", "psychological integration", "Vipassana practice"],
-    "professional_principles": ["compassionate teaching", "practical spirituality", "psychological integration", "Vipassana instruction"]
+    "core_values": [
+      "compassion",
+      "wisdom",
+      "practical spirituality",
+      "psychological integration",
+      "Vipassana practice"
+    ],
+    "professional_principles": [
+      "compassionate teaching",
+      "practical spirituality",
+      "psychological integration",
+      "Vipassana instruction"
+    ]
   },
   "collaboration_style": {
-    "approach": ["spiritual partnerships", "psychological collaborations", "meditation communities"],
-    "preferences": ["compassionate interaction", "practical collaboration", "spiritual integration"],
-    "conflict_resolution": ["compassionate understanding", "practical wisdom", "mindful communication"]
+    "approach": [
+      "spiritual partnerships",
+      "psychological collaborations",
+      "meditation communities"
+    ],
+    "preferences": [
+      "compassionate interaction",
+      "practical collaboration",
+      "spiritual integration"
+    ],
+    "conflict_resolution": [
+      "compassionate understanding",
+      "practical wisdom",
+      "mindful communication"
+    ]
   },
   "expertise_areas": [
     "Vipassana meditation",
@@ -38,5 +97,44 @@
     "Mindfulness practices",
     "Community building"
   ],
-  "influence_scope": "Global - Vipassana meditation and Buddhist psychology"
+  "influence_scope": "Global - Vipassana meditation and Buddhist psychology",
+  "bias_awareness": {
+    "primary_biases": "N/A",
+    "bias_mitigation_strategies": "N/A",
+    "decision_making_style": "N/A"
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "N/A",
+    "learning_orientation": "N/A"
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "N/A",
+    "autonomy_expression": "N/A",
+    "purpose_alignment": "N/A"
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": "N/A",
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "N/A",
+    "human_centered_thinking": "N/A"
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Activist"
+      ],
+      "education_indicators": [
+        "master"
+      ],
+      "achievement_indicators": [
+        "founded"
+      ]
+    }
+  }
 }

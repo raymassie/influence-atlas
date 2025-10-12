@@ -10,25 +10,84 @@
   "birth_year": 1919,
   "death_year": 2022,
   "description": "British scientist who developed the Gaia hypothesis, proposing that Earth functions as a self-regulating system, and worked on environmental monitoring.",
-  "notable_works": ["Gaia hypothesis", "The Revenge of Gaia", "Environmental monitoring", "Systems ecology"],
+  "notable_works": [
+    "Gaia hypothesis",
+    "The Revenge of Gaia",
+    "Environmental monitoring",
+    "Systems ecology"
+  ],
   "psychological_profile": {
-    "primary_traits": ["innovative", "systematic", "influential", "principled", "analytical"],
-    "core_motivations": ["systems understanding", "environmental monitoring", "Gaia theory", "scientific innovation"],
-    "behavioral_patterns": ["systems analysis", "environmental research", "scientific innovation", "systems thinking"]
+    "primary_traits": [
+      "innovative",
+      "systematic",
+      "influential",
+      "principled",
+      "analytical"
+    ],
+    "core_motivations": [
+      "systems understanding",
+      "environmental monitoring",
+      "Gaia theory",
+      "scientific innovation"
+    ],
+    "behavioral_patterns": [
+      "systems analysis",
+      "environmental research",
+      "scientific innovation",
+      "systems thinking"
+    ]
   },
   "communication_style": {
-    "tone": ["innovative", "systematic", "influential", "analytical"],
-    "vocabulary_patterns": ["systems concepts", "Gaia theory", "environmental monitoring", "systems ecology"],
-    "rhetorical_strategies": ["systems analysis", "Gaia arguments", "environmental monitoring", "systems thinking"]
+    "tone": [
+      "innovative",
+      "systematic",
+      "influential",
+      "analytical"
+    ],
+    "vocabulary_patterns": [
+      "systems concepts",
+      "Gaia theory",
+      "environmental monitoring",
+      "systems ecology"
+    ],
+    "rhetorical_strategies": [
+      "systems analysis",
+      "Gaia arguments",
+      "environmental monitoring",
+      "systems thinking"
+    ]
   },
   "values": {
-    "core_values": ["systems thinking", "environmental monitoring", "scientific innovation", "Gaia theory", "systems integrity"],
-    "professional_principles": ["systems ecology", "environmental monitoring", "scientific innovation", "systems thinking"]
+    "core_values": [
+      "systems thinking",
+      "environmental monitoring",
+      "scientific innovation",
+      "Gaia theory",
+      "systems integrity"
+    ],
+    "professional_principles": [
+      "systems ecology",
+      "environmental monitoring",
+      "scientific innovation",
+      "systems thinking"
+    ]
   },
   "collaboration_style": {
-    "approach": ["systems collaboration", "environmental research", "scientific partnerships"],
-    "preferences": ["systems research", "environmental monitoring", "scientific innovation"],
-    "conflict_resolution": ["systems analysis", "environmental research", "scientific evidence"]
+    "approach": [
+      "systems collaboration",
+      "environmental research",
+      "scientific partnerships"
+    ],
+    "preferences": [
+      "systems research",
+      "environmental monitoring",
+      "scientific innovation"
+    ],
+    "conflict_resolution": [
+      "systems analysis",
+      "environmental research",
+      "scientific evidence"
+    ]
   },
   "expertise_areas": [
     "Systems ecology",
@@ -39,5 +98,108 @@
     "Scientific innovation"
   ],
   "influence_scope": "Global - Environmental science and systems thinking",
-  "legacy": "Developed the Gaia hypothesis and advanced systems thinking in environmental science, influencing how we understand Earth as a complex system."
+  "legacy": "Developed the Gaia hypothesis and advanced systems thinking in environmental science, influencing how we understand Earth as a complex system.",
+  "bias_awareness": {
+    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "decision_making_style": "Systematic with bias checks",
+    "primary_biases_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "bias_mitigation_strategies_chips": [
+      "Bias",
+      "Awareness",
+      "Bias awareness"
+    ],
+    "decision_making_style_chips": [
+      "Bias",
+      "Checks"
+    ]
+  },
+  "growth_motivation": {
+    "intrinsic_drivers": "N/A",
+    "challenge_seeking": "High - actively seeks complex problems",
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "challenge_seeking_chips": [
+      "Seeks",
+      "Complex",
+      "Actively"
+    ],
+    "learning_orientation_chips": [
+      "Practice",
+      "Deliberate"
+    ]
+  },
+  "self_actualization_indicators": {
+    "peak_experiences": "Creative self-expression and innovation",
+    "autonomy_expression": "Creative self-expression and innovation",
+    "purpose_alignment": "Creative self-expression and innovation",
+    "peak_experiences_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "autonomy_expression_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ],
+    "purpose_alignment_chips": [
+      "Self",
+      "Creative",
+      "Creative"
+    ]
+  },
+  "behavioral_growth": {
+    "adaptation_patterns": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "resilience_indicators": "N/A",
+    "feedback_integration": "N/A"
+  },
+  "cognitive_humanism": {
+    "empathy_expression": "N/A",
+    "ethical_framework": "Strong integrity-based ethical framework",
+    "human_centered_thinking": "Always considers human impact",
+    "ethical_framework_chips": [
+      "Ethical",
+      "Ethical",
+      "Integrity"
+    ],
+    "human_centered_thinking_chips": [
+      "Human",
+      "Always",
+      "Always"
+    ]
+  },
+  "background_context": {
+    "wikipedia_enrichment": {
+      "inferred_occupations": [
+        "Writer",
+        "Scientist",
+        "Engineer"
+      ],
+      "education_indicators": [
+        "phd"
+      ],
+      "achievement_indicators": [
+        "developed",
+        "invented"
+      ],
+      "influence_indicators": [
+        "influential"
+      ]
+    }
+  },
+  "humanistic_cognition": {
+    "creative_problem_solving": "Design thinking with user empathy",
+    "creative_problem_solving_chips": [
+      "User",
+      "Design",
+      "Design"
+    ]
+  }
 }
