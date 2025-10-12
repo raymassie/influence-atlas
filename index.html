@@ -2101,10 +2101,12 @@
 
             // Show the expanded profile
             document.getElementById('expanded-profile').classList.add('show');
+            document.body.classList.add('modal-open');
         }
 
         function closeExpandedProfile() {
             document.getElementById('expanded-profile').classList.remove('show');
+            document.body.classList.remove('modal-open');
             currentExpandedProfile = null;
         }
 
