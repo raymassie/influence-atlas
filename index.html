@@ -59,26 +59,28 @@
                     </div>
                     <div id="super-filters-content" class="filter-content super-filter-content">
                         <div class="super-filter-buttons">
-                            <button class="super-filter-btn" onclick="applySuperFilter('arts')">Arts</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('business')">Business</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('contemplative-practice')">Contemplative Practice</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('design')">Design</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('economics')">Economics</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('entrepreneurial')">Entrepreneurial</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('environmental')">Environmental</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('history')">History</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('investment')">Investment</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('marketing')">Marketing</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('math')">Math</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('medicine')">Medicine</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('motivation-coaching')">Motivation</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('music')">Music</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('philosophy')">Philosophy</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('psychology')">Psychology</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('public-policy')">Public Policy</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('science')">Science</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('technology')">Technology</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('writers')">Writers</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Arts')">Arts</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Business')">Business</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Contemplative Psychology')">Contemplative Psychology</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Design')">Design</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Economics')">Economics</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Entrepreneurial')">Entrepreneurial</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Environmental')">Environmental</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('History')">History</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Investment')">Investment</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Marketing')">Marketing</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Math')">Math</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Medicine')">Medicine</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Meditation')">Meditation</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Mindfulness')">Mindfulness</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Motivation Coaching')">Motivation Coaching</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Music')">Music</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Philosophy')">Philosophy</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Psychology')">Psychology</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Public Policy')">Public Policy</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Science')">Science</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Technology')">Technology</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Writers')">Writers</button>
                             <button class="super-filter-btn" onclick="clearAllFilters()">Clear All</button>
                         </div>
                     </div>
@@ -1033,122 +1035,25 @@
             // Clear all existing filters first
             clearAllFilters();
             
-            // Define category mappings
-            const categoryMappings = {
-                'technology': {
-                    'domain-filter': ['Technology', 'Technology Leadership', 'Software', 'AI', 'Tech'],
-                    'archetype-filter': ['Technology Entrepreneur', 'Tech Entrepreneur', 'Computer Scientist', 'Electrical Engineer', 'Tech Executive', 'AI Researcher', 'Computer Engineer', 'Web Inventor', 'Visionary Technologist', 'Experience-Obsessed Community Builder & Design-Thinking CEO', 'Minimalist Product Builder & Digital Payment Pioneer', 'Search Innovation Leader', 'Product Innovation Leader', 'Cloud Computing Leader', 'Algorithmic Innovation Leader', 'Business Operations Leader', 'Operations Leader']
-                },
-                'entrepreneurial': {
-                    'archetype-filter': ['Adventure-Driven Entrepreneur & Brand Maverick', 'Creative Entrepreneur', 'Female Empowerment Tech Entrepreneur & Social Impact CEO', 'Industrial Entrepreneur', 'Media Empire Builder & Transformational Influence Leader', 'Multi-passionate Entrepreneur & Everything is Figureoutable Philosopher', 'Online Course Queen & Digital Marketing Educator', 'Passive Income Pioneer & Authentic Online Business Builder', 'Problem-Solving Entrepreneur & Self-Made Billionaire', 'Real Estate Mogul & Wealth Mindset Coach', 'Sales Funnel Master & Direct Response Digital Strategist', 'Social Platform Builder & Connectivity Visionary', 'Visionary Product Designer & Technology Pioneer', 'Vulnerability-Driven Success Coach & Masculine Leadership Mentor'],
-                    'domain-filter': ['Entrepreneurial', 'Entrepreneurship']
-                },
-                'arts': {
-                    'archetype-filter': ['Abstract Artist', 'Abstract Expressionist', 'Artist', 'Color Field Painter', 'Painter', 'Renaissance Master', 'Surrealist Artist'],
-                    'domain-filter': ['Art', 'Arts']
-                },
-                'music': {
-                    'archetype-filter': ['Musician', 'Composer', 'Music Producer', 'Singer', 'Jazz Musician', 'Rock Musician', 'Classical Musician', 'Pop Artist', 'Songwriter', 'Conductor', 'Music Producer'],
-                    'domain-filter': ['Music', 'Entertainment', 'Performing Arts']
-                },
-                'science': {
-                    'archetype-filter': ['Biologist', 'Mathematical Logician', 'Microbiologist', 'Molecular Biologist', 'Naturalist', 'Primatologist', 'Physicist', 'Theoretical Physicist'],
-                    'domain-filter': ['Science']
-                },
-                'philosophy': {
-                    'archetype-filter': ['Applied Ethicist', 'Contractualist Philosopher', 'Empiricist Philosopher', 'Enlightenment Philosopher', 'Existentialist Philosopher', 'Fictional Philosophical Entity', 'Hedonist Philosopher', 'Idealist Philosopher', 'Moral Philosopher', 'Philosopher', 'Postmodern Philosopher', 'Utilitarian Philosopher'],
-                    'domain-filter': ['Philosophy']
-                },
-                'psychology': {
-                    'archetype-filter': ['Analytical Psychologist', 'Behavioral Economist', 'Behavioral Psychologist', 'Cognitive Scientist', 'Developmental Psychologist', 'Humanistic Psychologist', 'Organizational Psychologist', 'Social Cognitive Psychologist'],
-                    'domain-filter': ['Psychology']
-                },
-                'business': {
-                    'archetype-filter': ['Business Leader', 'Value Investor', 'Innovation Theorist'],
-                    'domain-filter': ['Business', 'Business Strategy']
-                },
-                'marketing': {
-                    'archetype-filter': ['Advertising Creative', 'Advertising Executive', 'Brand Strategist', 'Direct Response Copywriter', 'Marketing Expert', 'Marketing Guru', 'Marketing Strategist', 'Marketing Theorist', 'No B.S. Direct Marketing Authority & Info-Marketing Pioneer', 'Performance Marketing Expert', 'Sales Copywriter', 'Scientific Advertising Father & Reason-Why Pioneer', 'Scientific Advertising Pioneer & Headline Testing Master', 'Social Media Marketing Expert', 'Social Media Marketing Pioneer'],
-                    'domain-filter': ['Marketing']
-                },
-                'public-policy': {
-                    'archetype-filter': ['Government Official', 'Policy Advisor', 'Political Economist', 'Political Leader', 'Political Philosopher'],
-                    'domain-filter': ['Public Policy']
-                },
-                'economics': {
-                    'archetype-filter': ['Contrarian Thinker', 'Economist'],
-                    'domain-filter': ['Economics']
-                },
-                'environmental': {
-                    'archetype-filter': ['Biologist', 'Climate Scientist', 'Environmental Activist', 'Environmental Scientist', 'Environmentalist'],
-                    'domain-filter': ['Environmental']
-                },
-                'math': {
-                    'archetype-filter': ['Mathematician', 'Theoretical Physicist'],
-                    'domain-filter': ['Math']
-                },
-                'medicine': {
-                    'archetype-filter': ['Anatomist', 'Medical Researcher', 'Microbiologist', 'Nurse', 'Physician', 'Physiologist', 'Virologist'],
-                    'domain-filter': ['Medicine']
-                },
-                'history': {
-                    'archetype-filter': ['Philosophical Historian'],
-                    'domain-filter': ['History']
-                },
-                'investment': {
-                    'archetype-filter': ['Activist Investor', 'Bond King', 'Contrarian Investor & Zero-to-One Innovation Strategist', 'Hedge Fund Manager', 'Innovation Investor', 'Investment Philosopher', 'Mental Models Master & Rational Thinking Advocate', 'Mutual Fund Manager', 'Principles-Driven Hedge Fund Pioneer & Economic Strategist', 'Quantitative Investor', 'Value Investor'],
-                    'domain-filter': ['Finance', 'Investment']
-                },
-                'writers': {
-                    'archetype-filter': ['Absurdist Playwright', 'Deep Work Advocate & Digital Minimalism Pioneer', 'Horror Writer', 'Memoirist and Poet', 'Modern Stoicism Teacher & Ancient Wisdom Popularizer', 'Novelist', 'Personal Finance Psychology Expert & Systems-Based Wealth Builder', 'Power Dynamics Expert & Strategic Thinking Master', 'Purpose-Driven Leadership Expert & Why-Focused Strategist', 'Romantic Novelist', 'Victorian Novelist'],
-                    'domain-filter': ['Authors', 'Writers', 'Writing']
-                },
-                'design': {
-                    'archetype-filter': ['Conceptual Designer', 'Design Visionary', 'Experimental Typographer', 'Graphic Design Pioneer', 'Industrial Design Visionary', 'Motion Graphics Designer', 'Postmodern Architect', 'Socially Conscious Design Provocateur & Content-First Visual Communicator', 'Swiss Design Master', 'Swiss Design Pioneer', 'Typography Innovator', 'Usability Science Pioneer & Discount Usability Movement Leader'],
-                    'domain-filter': ['Design']
-                },
-                'motivation-coaching': {
-                    'archetype-filter': ['Action Coach', 'Direct-Response Business Scaling Expert', 'Grit Researcher', 'Habit Formation Expert', 'Habit Researcher', 'High Performance Habits Expert & Personal Development Strategist', 'Hip-Hop Preacher & Pain-Is-Temporary Motivator', 'Leadership Coach', 'Life Coach', 'Lifestyle Coach', 'Mental Toughness Coach', 'Motivation Researcher', 'Philosophy-Driven Angel Investor', 'Possibility Thinking Champion & Dream Achievement Catalyst', 'Social Media Agency & Course Creation Mogul', 'Social Science Storyteller', 'Vulnerability Researcher'],
-                    'domain-filter': ['Motivation Coaching', 'Thought Leadership']
-                },
-                'authors': {
-                    'archetype-filter': ['Absurdist Playwright', 'Deep Work Advocate & Digital Minimalism Pioneer', 'Horror Writer', 'Memoirist and Poet', 'Modern Stoicism Teacher & Ancient Wisdom Popularizer', 'Novelist', 'Personal Finance Psychology Expert & Systems-Based Wealth Builder', 'Power Dynamics Expert & Strategic Thinking Master', 'Purpose-Driven Leadership Expert & Why-Focused Strategist', 'Romantic Novelist', 'Victorian Novelist'],
-                    'domain-filter': ['Authors', 'Writers', 'Writing']
-                },
-                'contemplative-practice': {
-                    'archetype-filter': ['Mindfulness Teacher', 'Mindfulness Researcher', 'Mindfulness Coach', 'Contemplative Scientist', 'Meditation Teacher', 'Zen Master', 'Buddhist Teacher', 'Spiritual Guide', 'Contemplative Monk', 'Contemplative Psychologist', 'Transpersonal Psychologist', 'Mindfulness-Based Therapist'],
-                    'domain-filter': ['Contemplative Practice']
-                }
-            };
-            
-            const mappings = categoryMappings[category];
-            if (!mappings) {
-                console.log(`⚠️ Unknown category: ${category}`);
-                return;
-            }
-            
-            // Apply the category filters
-            Object.entries(mappings).forEach(([filterId, values]) => {
-                const filter = document.getElementById(filterId);
-                if (!filter) return;
-                
-                values.forEach(value => {
-                    const option = Array.from(filter.options).find(opt => opt.value === value);
-                    if (option) {
-                        option.selected = true;
-                    }
-                });
+            // Filter profiles by category directly
+            filteredProfiles = allProfiles.filter(profile => {
+                return profile.category === category;
             });
+            
+            // Sort filtered results alphabetically by last name
+            filteredProfiles.sort((a, b) => getLastName(a.name).localeCompare(getLastName(b.name)));
+            
+            // Update quick navigation stats
+            updateQuickNavigationStats();
+            
+            // Display results
+            displayProfiles();
             
             // Set active super filter
             activeSuperFilter = category;
             updateSuperFilterButtons();
             
-            // Update cascading filters and apply the filter
-            updateCascadingFilters();
-            filterProfiles();
-            
-            console.log(`✅ Applied ${category} super filter`);
+            console.log(`✅ Applied ${category} super filter - found ${filteredProfiles.length} profiles`);
         }
 
         function updateSuperFilterButtons() {
