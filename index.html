@@ -755,21 +755,21 @@
                 'archetype-filter': 'archetype',
                 'domain-filter': 'domain',
                 'subdomain-filter': 'sub_domain',
-                'trait-filter': 'psychological_profile.primary_traits_parsed',
+                'trait-filter': 'psychological_profile.primary_traits',
                 'communication-filter': 'communication_style.tone_parsed',
                 'sentence-structure-filter': 'communication_style.sentence_structure_parsed',
-                'expertise-filter': 'domain_expertise.core_competencies_parsed',
+                'expertise-filter': 'domain_expertise.core_competencies',
                 'background-filter': 'background_context.experience_level',
                 'behavior-filter': 'behavioral_patterns.work_style_parsed',
-                'problem-solving-filter': 'behavioral_patterns.problem_solving_approach_parsed',
+                'problem-solving-filter': 'behavioral_patterns.problem_solving_approach',
                 'identifier-filter': 'unique_identifiers.signature_methodologies',
-                'temporal-filter': 'temporal_context.career_evolution_parsed',
-                'collaboration-filter': 'collaboration.leadership_style_parsed',
-                'cultural-filter': 'cultural_context.cultural_background_parsed',
-                'practical-filter': 'practical_application.decision_speed_parsed',
-                'communication-new-filter': 'communication.audience_adaptation_parsed',
-                'learning-filter': 'learning.learning_style_parsed',
-                'values-filter': 'values.core_values_parsed'
+                'temporal-filter': 'temporal_context.career_evolution',
+                'collaboration-filter': 'collaboration.leadership_style',
+                'cultural-filter': 'cultural_context.cultural_background',
+                'practical-filter': 'practical_application.decision_speed',
+                'communication-new-filter': 'communication.audience_adaptation',
+                'learning-filter': 'learning.learning_style',
+                'values-filter': 'values.core_values'
             };
 
             console.log('🔍 Checking each filter element...');
@@ -785,6 +785,10 @@
                     const value = getNestedValue(profile, dataPath);
                     if (Array.isArray(value)) {
                         value.forEach(v => values.add(v));
+                    } else if (value && typeof value === 'string') {
+                        // Handle comma-separated strings
+                        const valueArray = value.split(',').map(v => v.trim());
+                        valueArray.forEach(v => values.add(v));
                     } else if (value) {
                         values.add(value);
                     }
@@ -837,21 +841,21 @@
                 'archetype-filter': 'archetype',
                 'domain-filter': 'domain',
                 'subdomain-filter': 'sub_domain',
-                'trait-filter': 'psychological_profile.primary_traits_parsed',
+                'trait-filter': 'psychological_profile.primary_traits',
                 'communication-filter': 'communication_style.tone_parsed',
                 'sentence-structure-filter': 'communication_style.sentence_structure_parsed',
-                'expertise-filter': 'domain_expertise.core_competencies_parsed',
+                'expertise-filter': 'domain_expertise.core_competencies',
                 'background-filter': 'background_context.experience_level',
                 'behavior-filter': 'behavioral_patterns.work_style_parsed',
-                'problem-solving-filter': 'behavioral_patterns.problem_solving_approach_parsed',
+                'problem-solving-filter': 'behavioral_patterns.problem_solving_approach',
                 'identifier-filter': 'unique_identifiers.signature_methodologies',
-                'temporal-filter': 'temporal_context.career_evolution_parsed',
-                'collaboration-filter': 'collaboration.leadership_style_parsed',
-                'cultural-filter': 'cultural_context.cultural_background_parsed',
-                'practical-filter': 'practical_application.decision_speed_parsed',
-                'communication-new-filter': 'communication.audience_adaptation_parsed',
-                'learning-filter': 'learning.learning_style_parsed',
-                'values-filter': 'values.core_values_parsed'
+                'temporal-filter': 'temporal_context.career_evolution',
+                'collaboration-filter': 'collaboration.leadership_style',
+                'cultural-filter': 'cultural_context.cultural_background',
+                'practical-filter': 'practical_application.decision_speed',
+                'communication-new-filter': 'communication.audience_adaptation',
+                'learning-filter': 'learning.learning_style',
+                'values-filter': 'values.core_values'
             };
 
             let filtered = allProfiles;
@@ -869,6 +873,10 @@
                     
                     if (Array.isArray(value)) {
                         return selectedValues.some(selected => value.includes(selected));
+                    } else if (value && typeof value === 'string') {
+                        // Handle comma-separated strings
+                        const valueArray = value.split(',').map(v => v.trim());
+                        return selectedValues.some(selected => valueArray.includes(selected));
                     } else if (value) {
                         return selectedValues.includes(value);
                     }
@@ -886,21 +894,21 @@
                 'archetype-filter': 'archetype',
                 'domain-filter': 'domain',
                 'subdomain-filter': 'sub_domain',
-                'trait-filter': 'psychological_profile.primary_traits_parsed',
+                'trait-filter': 'psychological_profile.primary_traits',
                 'communication-filter': 'communication_style.tone_parsed',
                 'sentence-structure-filter': 'communication_style.sentence_structure_parsed',
-                'expertise-filter': 'domain_expertise.core_competencies_parsed',
+                'expertise-filter': 'domain_expertise.core_competencies',
                 'background-filter': 'background_context.experience_level',
                 'behavior-filter': 'behavioral_patterns.work_style_parsed',
-                'problem-solving-filter': 'behavioral_patterns.problem_solving_approach_parsed',
+                'problem-solving-filter': 'behavioral_patterns.problem_solving_approach',
                 'identifier-filter': 'unique_identifiers.signature_methodologies',
-                'temporal-filter': 'temporal_context.career_evolution_parsed',
-                'collaboration-filter': 'collaboration.leadership_style_parsed',
-                'cultural-filter': 'cultural_context.cultural_background_parsed',
-                'practical-filter': 'practical_application.decision_speed_parsed',
-                'communication-new-filter': 'communication.audience_adaptation_parsed',
-                'learning-filter': 'learning.learning_style_parsed',
-                'values-filter': 'values.core_values_parsed'
+                'temporal-filter': 'temporal_context.career_evolution',
+                'collaboration-filter': 'collaboration.leadership_style',
+                'cultural-filter': 'cultural_context.cultural_background',
+                'practical-filter': 'practical_application.decision_speed',
+                'communication-new-filter': 'communication.audience_adaptation',
+                'learning-filter': 'learning.learning_style',
+                'values-filter': 'values.core_values'
             };
 
             // Get currently filtered profiles based on all current selections
@@ -921,6 +929,10 @@
                     const value = getNestedValue(profile, dataPath);
                     if (Array.isArray(value)) {
                         value.forEach(v => availableValues.add(v));
+                    } else if (value && typeof value === 'string') {
+                        // Handle comma-separated strings
+                        const valueArray = value.split(',').map(v => v.trim());
+                        valueArray.forEach(v => availableValues.add(v));
                     } else if (value) {
                         availableValues.add(value);
                     }
@@ -982,21 +994,21 @@
                 'archetype-filter': 'archetype',
                 'domain-filter': 'domain',
                 'subdomain-filter': 'sub_domain',
-                'trait-filter': 'psychological_profile.primary_traits_parsed',
+                'trait-filter': 'psychological_profile.primary_traits',
                 'communication-filter': 'communication_style.tone_parsed',
                 'sentence-structure-filter': 'communication_style.sentence_structure_parsed',
-                'expertise-filter': 'domain_expertise.core_competencies_parsed',
+                'expertise-filter': 'domain_expertise.core_competencies',
                 'background-filter': 'background_context.experience_level',
                 'behavior-filter': 'behavioral_patterns.work_style_parsed',
-                'problem-solving-filter': 'behavioral_patterns.problem_solving_approach_parsed',
+                'problem-solving-filter': 'behavioral_patterns.problem_solving_approach',
                 'identifier-filter': 'unique_identifiers.signature_methodologies',
-                'temporal-filter': 'temporal_context.career_evolution_parsed',
-                'collaboration-filter': 'collaboration.leadership_style_parsed',
-                'cultural-filter': 'cultural_context.cultural_background_parsed',
-                'practical-filter': 'practical_application.decision_speed_parsed',
-                'communication-new-filter': 'communication.audience_adaptation_parsed',
-                'learning-filter': 'learning.learning_style_parsed',
-                'values-filter': 'values.core_values_parsed'
+                'temporal-filter': 'temporal_context.career_evolution',
+                'collaboration-filter': 'collaboration.leadership_style',
+                'cultural-filter': 'cultural_context.cultural_background',
+                'practical-filter': 'practical_application.decision_speed',
+                'communication-new-filter': 'communication.audience_adaptation',
+                'learning-filter': 'learning.learning_style',
+                'values-filter': 'values.core_values'
             };
             
             // Clear all filter selections
@@ -2018,21 +2030,21 @@
                 'archetype-filter': 'archetype',
                 'domain-filter': 'domain',
                 'subdomain-filter': 'sub_domain',
-                'trait-filter': 'psychological_profile.primary_traits_parsed',
+                'trait-filter': 'psychological_profile.primary_traits',
                 'communication-filter': 'communication_style.tone_parsed',
                 'sentence-structure-filter': 'communication_style.sentence_structure_parsed',
-                'expertise-filter': 'domain_expertise.core_competencies_parsed',
+                'expertise-filter': 'domain_expertise.core_competencies',
                 'background-filter': 'background_context.experience_level',
                 'behavior-filter': 'behavioral_patterns.work_style_parsed',
-                'problem-solving-filter': 'behavioral_patterns.problem_solving_approach_parsed',
+                'problem-solving-filter': 'behavioral_patterns.problem_solving_approach',
                 'identifier-filter': 'unique_identifiers.signature_methodologies',
-                'temporal-filter': 'temporal_context.career_evolution_parsed',
-                'collaboration-filter': 'collaboration.leadership_style_parsed',
-                'cultural-filter': 'cultural_context.cultural_background_parsed',
-                'practical-filter': 'practical_application.decision_speed_parsed',
-                'communication-new-filter': 'communication.audience_adaptation_parsed',
-                'learning-filter': 'learning.learning_style_parsed',
-                'values-filter': 'values.core_values_parsed'
+                'temporal-filter': 'temporal_context.career_evolution',
+                'collaboration-filter': 'collaboration.leadership_style',
+                'cultural-filter': 'cultural_context.cultural_background',
+                'practical-filter': 'practical_application.decision_speed',
+                'communication-new-filter': 'communication.audience_adaptation',
+                'learning-filter': 'learning.learning_style',
+                'values-filter': 'values.core_values'
             };
 
             // Restore each filter with all available options from all profiles
