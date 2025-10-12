@@ -1636,6 +1636,92 @@
 
         let currentExpandedProfile = null;
 
+        // Hierarchical color system for trait categories
+        function getTraitColor(category, level = 'primary') {
+            const colorSystem = {
+                'Background & Experience': {
+                    primary: '#8B4513',
+                    secondary: '#A0522D',
+                    tertiary: '#CD853F',
+                    quaternary: '#DEB887'
+                },
+                'Behavioral Patterns': {
+                    primary: '#B8860B',
+                    secondary: '#DAA520',
+                    tertiary: '#F0E68C',
+                    quaternary: '#FFF8DC'
+                },
+                'Collaboration': {
+                    primary: '#006400',
+                    secondary: '#228B22',
+                    tertiary: '#32CD32',
+                    quaternary: '#90EE90'
+                },
+                'Communication': {
+                    primary: '#008B8B',
+                    secondary: '#20B2AA',
+                    tertiary: '#40E0D0',
+                    quaternary: '#AFEEEE'
+                },
+                'Communication Style': {
+                    primary: '#191970',
+                    secondary: '#4169E1',
+                    tertiary: '#6495ED',
+                    quaternary: '#B0C4DE'
+                },
+                'Cultural Context': {
+                    primary: '#4B0082',
+                    secondary: '#6A5ACD',
+                    tertiary: '#9370DB',
+                    quaternary: '#DDA0DD'
+                },
+                'Domain Expertise': {
+                    primary: '#8B008B',
+                    secondary: '#9932CC',
+                    tertiary: '#BA55D3',
+                    quaternary: '#DDA0DD'
+                },
+                'Learning': {
+                    primary: '#800080',
+                    secondary: '#9400D3',
+                    tertiary: '#DA70D6',
+                    quaternary: '#EE82EE'
+                },
+                'Practical Application': {
+                    primary: '#8B0000',
+                    secondary: '#DC143C',
+                    tertiary: '#F08080',
+                    quaternary: '#FFB6C1'
+                },
+                'Psychological Profile': {
+                    primary: '#B22222',
+                    secondary: '#DC143C',
+                    tertiary: '#F08080',
+                    quaternary: '#FFA07A'
+                },
+                'Temporal Context': {
+                    primary: '#FF4500',
+                    secondary: '#FF6347',
+                    tertiary: '#FF7F50',
+                    quaternary: '#FFA500'
+                },
+                'Unique Identifiers': {
+                    primary: '#DAA520',
+                    secondary: '#F4A460',
+                    tertiary: '#DEB887',
+                    quaternary: '#F5DEB3'
+                },
+                'Values': {
+                    primary: '#556B2F',
+                    secondary: '#6B8E23',
+                    tertiary: '#9ACD32',
+                    quaternary: '#ADFF2F'
+                }
+            };
+            
+            return colorSystem[category]?.[level] || '#6c757d';
+        }
+
         function expandProfile(profileName, event) {
             if (event) {
                 event.preventDefault();
@@ -1679,7 +1765,7 @@
                         </div>
                         <div class="expanded-trait-list">
                             ${profile.behavioral_patterns?.work_style_parsed?.map(style => 
-                                `<span class="expanded-trait" style="background: #28a745;">${style}</span>`
+                                `<span class="expanded-trait" style="background: ${getTraitColor('Behavioral Patterns', 'primary')};">${style}</span>`
                             ).join('') || ''}
                         </div>
                         <div class="expanded-text" style="margin-top: 15px;">
@@ -1687,7 +1773,7 @@
                         </div>
                         <div class="expanded-trait-list">
                             ${profile.behavioral_patterns?.problem_solving_approach_parsed?.map(approach => 
-                                `<span class="expanded-trait" style="background: #20c997;">${approach}</span>`
+                                `<span class="expanded-trait" style="background: ${getTraitColor('Behavioral Patterns', 'secondary')};">${approach}</span>`
                             ).join('') || ''}
                         </div>
                     `
@@ -1700,7 +1786,7 @@
                         </div>
                         <div class="expanded-trait-list">
                             ${profile.collaboration?.leadership_style_parsed?.map(style => 
-                                `<span class="expanded-trait" style="background: #dc3545;">${style}</span>`
+                                `<span class="expanded-trait" style="background: ${getTraitColor('Collaboration', 'primary')};">${style}</span>`
                             ).join('') || ''}
                         </div>
                         <div class="expanded-text" style="margin-top: 15px;">
@@ -1708,7 +1794,7 @@
                         </div>
                         <div class="expanded-trait-list">
                             ${profile.collaboration?.team_dynamics_parsed?.map(dynamic => 
-                                `<span class="expanded-trait" style="background: #fd7e14;">${dynamic}</span>`
+                                `<span class="expanded-trait" style="background: ${getTraitColor('Collaboration', 'secondary')};">${dynamic}</span>`
                             ).join('') || ''}
                         </div>
                         <div class="expanded-text" style="margin-top: 15px;">
@@ -1716,7 +1802,7 @@
                         </div>
                         <div class="expanded-trait-list">
                             ${profile.collaboration?.mentorship_approach_parsed?.map(approach => 
-                                `<span class="expanded-trait" style="background: #20c997;">${approach}</span>`
+                                `<span class="expanded-trait" style="background: ${getTraitColor('Collaboration', 'tertiary')};">${approach}</span>`
                             ).join('') || ''}
                         </div>
                         <div class="expanded-text" style="margin-top: 15px;">
@@ -1724,7 +1810,7 @@
                         </div>
                         <div class="expanded-trait-list">
                             ${profile.collaboration?.conflict_resolution_parsed?.map(resolution => 
-                                `<span class="expanded-trait" style="background: #6f42c1;">${resolution}</span>`
+                                `<span class="expanded-trait" style="background: ${getTraitColor('Collaboration', 'quaternary')};">${resolution}</span>`
                             ).join('') || ''}
                         </div>
                     `
@@ -1737,7 +1823,7 @@
                         </div>
                         <div class="expanded-trait-list">
                             ${profile.communication?.audience_adaptation_parsed?.map(adaptation => 
-                                `<span class="expanded-trait" style="background: #17a2b8;">${adaptation}</span>`
+                                `<span class="expanded-trait" style="background: ${getTraitColor('Communication', 'primary')};">${adaptation}</span>`
                             ).join('') || ''}
                         </div>
                         <div class="expanded-text" style="margin-top: 15px;">
@@ -1754,7 +1840,7 @@
                         </div>
                         <div class="expanded-trait-list">
                             ${profile.communication_style?.tone_parsed?.map(term => 
-                                `<span class="expanded-trait" style="background: #17a2b8;">${term}</span>`
+                                `<span class="expanded-trait" style="background: ${getTraitColor('Communication Style', 'primary')};">${term}</span>`
                             ).join('') || ''}
                         </div>
                         <div class="expanded-text" style="margin-top: 15px;">
@@ -1762,7 +1848,7 @@
                         </div>
                         <div class="expanded-trait-list">
                             ${profile.communication_style?.sentence_structure_parsed?.map(structure => 
-                                `<span class="expanded-trait" style="background: #ffc107; color: #333;">${structure}</span>`
+                                `<span class="expanded-trait" style="background: ${getTraitColor('Communication Style', 'secondary')};">${structure}</span>`
                             ).join('') || ''}
                         </div>
                         <div class="expanded-text" style="margin-top: 15px;">
@@ -1772,7 +1858,7 @@
                                 const patterns = profile.communication_style?.vocabulary_patterns;
                                 if (!patterns) return '';
                                 const patternArray = Array.isArray(patterns) ? patterns : patterns.split(',').map(p => p.trim());
-                                return patternArray.map(pattern => `<span class="expanded-trait" style="background: #6c757d;">${pattern}</span>`).join('');
+                                return patternArray.map(pattern => `<span class="expanded-trait" style="background: ${getTraitColor('Communication Style', 'tertiary')};">${pattern}</span>`).join('');
                             })()}
                             </div>
                         </div>
@@ -1786,7 +1872,7 @@
                         </div>
                         <div class="expanded-trait-list">
                             ${profile.cultural_context?.cultural_background_parsed?.map(background => 
-                                `<span class="expanded-trait" style="background: #17a2b8;">${background}</span>`
+                                `<span class="expanded-trait" style="background: ${getTraitColor('Cultural Context', 'primary')};">${background}</span>`
                             ).join('') || ''}
                         </div>
                         <div class="expanded-text" style="margin-top: 15px;">
@@ -1806,7 +1892,7 @@
                                 const competencies = profile.domain_expertise?.core_competencies;
                                 if (!competencies) return '';
                                 const competencyArray = Array.isArray(competencies) ? competencies : competencies.split(',').map(c => c.trim());
-                                return competencyArray.map(competency => `<span class="expanded-trait" style="background: #ffc107; color: #333;">${competency}</span>`).join('');
+                                return competencyArray.map(competency => `<span class="expanded-trait" style="background: ${getTraitColor('Domain Expertise', 'primary')};">${competency}</span>`).join('');
                             })()}
                         </div>
                     `
@@ -1819,7 +1905,7 @@
                         </div>
                         <div class="expanded-trait-list">
                             ${profile.learning?.learning_style_parsed?.map(style => 
-                                `<span class="expanded-trait" style="background: #28a745;">${style}</span>`
+                                `<span class="expanded-trait" style="background: ${getTraitColor('Learning', 'primary')};">${style}</span>`
                             ).join('') || ''}
                         </div>
                         <div class="expanded-text" style="margin-top: 15px;">
@@ -1836,7 +1922,7 @@
                         </div>
                         <div class="expanded-trait-list">
                             ${profile.practical_application?.decision_speed_parsed?.map(speed => 
-                                `<span class="expanded-trait" style="background: #fd7e14;">${speed}</span>`
+                                `<span class="expanded-trait" style="background: ${getTraitColor('Practical Application', 'primary')};">${speed}</span>`
                             ).join('') || ''}
                         </div>
                         <div class="expanded-text" style="margin-top: 15px;">
@@ -1868,7 +1954,7 @@
                                     const motivations = profile.psychological_profile?.core_motivations;
                                     if (!motivations) return '';
                                     const motivationArray = Array.isArray(motivations) ? motivations : motivations.split(',').map(m => m.trim());
-                                    return motivationArray.map(motivation => `<span class="expanded-trait" style="background: #28a745;">${motivation}</span>`).join('');
+                                    return motivationArray.map(motivation => `<span class="expanded-trait" style="background: ${getTraitColor('Psychological Profile', 'primary')};">${motivation}</span>`).join('');
                                 })()}
                             </div>
                         </div>
@@ -1882,7 +1968,7 @@
                         </div>
                         <div class="expanded-trait-list">
                             ${profile.temporal_context?.career_evolution_parsed?.map(evolution => 
-                                `<span class="expanded-trait" style="background: #6c757d;">${evolution}</span>`
+                                `<span class="expanded-trait" style="background: ${getTraitColor('Temporal Context', 'primary')};">${evolution}</span>`
                             ).join('') || ''}
                         </div>
                         <div class="expanded-text" style="margin-top: 15px;">
@@ -1890,7 +1976,7 @@
                         </div>
                         <div class="expanded-trait-list">
                             ${profile.temporal_context?.influence_timeline_parsed?.map(timeline => 
-                                `<span class="expanded-trait" style="background: #6c757d;">${timeline}</span>`
+                                `<span class="expanded-trait" style="background: ${getTraitColor('Temporal Context', 'secondary')};">${timeline}</span>`
                             ).join('') || ''}
                         </div>
                         <div class="expanded-text" style="margin-top: 15px;">
@@ -1898,7 +1984,7 @@
                         </div>
                         <div class="expanded-trait-list">
                             ${profile.temporal_context?.legacy_impact_parsed?.map(impact => 
-                                `<span class="expanded-trait" style="background: #6c757d;">${impact}</span>`
+                                `<span class="expanded-trait" style="background: ${getTraitColor('Temporal Context', 'tertiary')};">${impact}</span>`
                             ).join('') || ''}
                         </div>
                     `
@@ -1911,7 +1997,7 @@
                                 const methods = profile.unique_identifiers?.signature_methodologies;
                                 if (!methods) return '';
                                 const methodArray = Array.isArray(methods) ? methods : methods.split(',').map(m => m.trim());
-                                return methodArray.map(method => `<span class="expanded-trait" style="background: #6f42c1;">${method}</span>`).join('');
+                                return methodArray.map(method => `<span class="expanded-trait" style="background: ${getTraitColor('Unique Identifiers', 'primary')};">${method}</span>`).join('');
                             })()}
                         </div>
                     `
@@ -1924,7 +2010,7 @@
                         </div>
                         <div class="expanded-trait-list">
                             ${profile.values?.core_values_parsed?.map(value => 
-                                `<span class="expanded-trait" style="background: #e83e8c;">${value}</span>`
+                                `<span class="expanded-trait" style="background: ${getTraitColor('Values', 'primary')};">${value}</span>`
                             ).join('') || ''}
                         </div>
                         <div class="expanded-text" style="margin-top: 15px;">
