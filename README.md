@@ -58,16 +58,6 @@ Plus traditional categories:
 
 **Live Demo**: [https://raymassie.github.io/JSON-context-profiles/](https://raymassie.github.io/JSON-context-profiles/)
 
-## Usage
-
-Simply open `index.html` in a modern web browser, or serve via a local HTTP server:
-
-```bash
-python3 -m http.server 8080
-```
-
-Then navigate to `http://localhost:8080`
-
 ## Project Status
 
 - ✅ 265 profiles with comprehensive trait data
