@@ -1,0 +1,2431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>JSON Context Profiles - Layout Fixed v8.5</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+                <link rel="stylesheet" href="styles.css?v=7.2">
+</head>
+<body>
+    <div class="container">
+        <!-- Header - Full Width -->
+        <div class="header">
+            <h1>JSON Context Profiles</h1>
+            <p>An interactive index of psychological and behavioral profiles for leaders in many industries.</p>
+        </div>
+
+        <!-- Desktop Navigation - Full Width -->
+        <div class="desktop-nav">
+            <div class="nav-left">
+                <span id="visible-count-nav">0</span> of <span id="total-count-nav">0</span> profiles
+                <button class="view-toggle-single grid-view" onclick="toggleView()">Grid View</button>
+                <button id="download-btn" class="btn btn-secondary" onclick="downloadSelected()" disabled>Download Selected</button>
+                <button id="clear-btn" class="btn btn-outline" onclick="clearSelections()" disabled>Clear</button>
+            </div>
+            
+            <div class="nav-center">
+                <!-- Quick Navigation -->
+                <div class="quick-nav">
+                    <div class="alphabet-links" id="alphabet-nav">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nav-right">
+                <div class="search-container">
+                    <input type="text" id="search-filter" placeholder="Search profiles... (Ctrl+F)" onkeyup="debouncedFilterProfiles()">
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Filter Header -->
+        <div class="mobile-filter-header">
+            <button class="mobile-menu-toggle" onclick="toggleFilters()">☰ Filters</button>
+        </div>
+
+        <div class="main-content">
+            <div class="filters-section">
+                <div class="filters">
+                <!-- Super Filters - Broad Categories -->
+                <div class="filter-item super-filters">
+                    <div class="filter-header" onclick="toggleFilter('super-filters')">
+                        <span>Quick Categories</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div id="super-filters-content" class="filter-content super-filter-content">
+                        <div class="super-filter-buttons">
+                            <button class="super-filter-btn" onclick="applySuperFilter('Arts')">Arts</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Business')">Business</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Contemplative Psychology')">Contemplative Psychology</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Design')">Design</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Economics')">Economics</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Entrepreneurial')">Entrepreneurial</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Environmental')">Environmental</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('History')">History</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Investment')">Investment</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Marketing')">Marketing</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Math')">Math</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Medicine')">Medicine</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Meditation')">Meditation</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Mindfulness')">Mindfulness</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Motivation Coaching')">Motivation Coaching</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Music')">Music</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Philosophy')">Philosophy</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Psychology')">Psychology</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Public Policy')">Public Policy</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Science')">Science</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Technology')">Technology</button>
+                            <button class="super-filter-btn" onclick="applySuperFilter('Writers')">Writers</button>
+                            <button class="super-filter-btn" onclick="clearAllFilters()">Clear All</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Individual Collapsible Filters -->
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('archetype-filter')">
+                        <span>Archetype</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="archetype-filter-content">
+                        <div class="filter-group">
+                            <select id="archetype-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('domain-filter')">
+                        <span>Domain</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="domain-filter-content">
+                        <div class="filter-group">
+                            <select id="domain-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('subdomain-filter')">
+                        <span>Subdomain</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="subdomain-filter-content">
+                        <div class="filter-group">
+                            <select id="subdomain-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('trait-filter')">
+                        <span>Psychological Traits</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="trait-filter-content">
+                        <div class="filter-group">
+                            <select id="trait-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('communication-filter')">
+                        <span>Communication Style</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="communication-filter-content">
+                        <div class="filter-group">
+                            <select id="communication-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('sentence-structure-filter')">
+                        <span>Sentence Structure</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="sentence-structure-filter-content">
+                        <div class="filter-group">
+                            <select id="sentence-structure-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('expertise-filter')">
+                        <span>Domain Expertise</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="expertise-filter-content">
+                        <div class="filter-group">
+                            <select id="expertise-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('background-filter')">
+                        <span>Background Context</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="background-filter-content">
+                        <div class="filter-group">
+                            <select id="background-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('behavior-filter')">
+                        <span>Behavioral Patterns</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="behavior-filter-content">
+                        <div class="filter-group">
+                            <select id="behavior-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('problem-solving-filter')">
+                        <span>Problem Solving</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="problem-solving-filter-content">
+                        <div class="filter-group">
+                            <select id="problem-solving-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('identifier-filter')">
+                        <span>Unique Identifiers</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="identifier-filter-content">
+                        <div class="filter-group">
+                            <select id="identifier-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('temporal-filter')">
+                        <span>Temporal Context</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="temporal-filter-content">
+                        <div class="filter-group">
+                            <select id="temporal-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('collaboration-filter')">
+                        <span>Collaboration</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="collaboration-filter-content">
+                        <div class="filter-group">
+                            <select id="collaboration-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('cultural-filter')">
+                        <span>Cultural Context</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="cultural-filter-content">
+                        <div class="filter-group">
+                            <select id="cultural-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('practical-filter')">
+                        <span>Practical Application</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="practical-filter-content">
+                        <div class="filter-group">
+                            <select id="practical-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('communication-new-filter')">
+                        <span>Communication</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="communication-new-filter-content">
+                        <div class="filter-group">
+                            <select id="communication-new-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('learning-filter')">
+                        <span>Learning</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="learning-filter-content">
+                        <div class="filter-group">
+                            <select id="learning-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('values-filter')">
+                        <span>Values</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="values-filter-content">
+                        <div class="filter-group">
+                            <select id="values-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+            <div class="profiles-section">
+                <div id="profiles-container" class="profiles-grid">
+                    <div class="loading">Loading profiles... <span id="loading-progress">0%</span></div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="expanded-profile" class="expanded-profile">
+            <div class="expanded-profile-header">
+                <div>
+                    <div class="expanded-profile-title" id="expanded-name"></div>
+                    <div class="expanded-profile-subtitle" id="expanded-subtitle"></div>
+                </div>
+                <div class="expanded-profile-actions">
+                    <button class="btn btn-secondary" id="expanded-copy-btn" onclick="copyExpandedProfile()">Copy</button>
+                    <button class="btn btn-primary" id="expanded-download-btn" onclick="downloadExpandedProfile()">Download</button>
+                    <div class="close-expanded" onclick="closeExpandedProfile()">×</div>
+                </div>
+            </div>
+            <div class="expanded-profile-content" id="expanded-content">
+                <!-- Content will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <div id="comparison-panel" class="comparison-panel">
+        <div class="comparison-header">
+            <h3>Profile Comparison (<span id="comparison-count">0</span> selected)</h3>
+            <div>
+                <button id="compare-btn" class="btn btn-primary" disabled>Compare Profiles</button>
+                <button id="clear-comparison-btn" class="btn btn-secondary">Clear Selection</button>
+                <button id="close-comparison-btn" class="btn btn-secondary">Close</button>
+            </div>
+        </div>
+        <div id="comparison-content"></div>
+    </div>
+
+    <script>
+        let allProfiles = [];
+        let filteredProfiles = [];
+        let currentView = 'grid';
+
+
+        // Function to generate filename from name
+        function generateFilename(name) {
+            const parts = name.split(' ');
+            if (parts.length >= 2) {
+                const lastName = parts[parts.length - 1];
+                const firstName = parts.slice(0, -1).join(' ');
+                // Keep accented characters and only remove truly problematic characters
+                const formattedName = `${lastName}-${firstName}`;
+                return formattedName.toLowerCase()
+                    .replace(/[^\w\s\-àáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ]/g, '')
+                    .replace(/[\s]+/g, '-') + '.json';
+            }
+            return name.toLowerCase()
+                .replace(/[^\w\s\-àáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ]/g, '')
+                .replace(/[\s]+/g, '-') + '.json';
+        }
+
+        console.log('🔄 Script loaded and executing...');
+
+        // Helper function to get last name for sorting
+        function getLastName(fullName) {
+            const parts = fullName.trim().split(' ');
+            return parts[parts.length - 1] || fullName;
+        }
+
+        async function loadProfiles() {
+            try {
+                console.log('🔄 Loading profiles from all-profiles.json...');
+                
+                const response = await fetch('all-profiles.json?v=7.1');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                allProfiles = data;
+                console.log(`✅ Loaded ${allProfiles.length} profiles from server`);
+                
+                // Sort profiles alphabetically by last name
+                allProfiles.sort((a, b) => getLastName(a.name).localeCompare(getLastName(b.name)));
+                console.log(`📊 Profiles sorted alphabetically: ${allProfiles.length} total`);
+                
+                // Parse communication style tones for each profile
+                allProfiles.forEach(profile => {
+                    if (profile.communication_style?.tone) {
+                        // Handle both array and string formats
+                        const toneTerms = Array.isArray(profile.communication_style.tone) 
+                            ? profile.communication_style.tone.map(term => term.trim())
+                            : profile.communication_style.tone.split(',').map(term => term.trim());
+                        
+                        // Filter out empty terms
+                        const filteredTerms = toneTerms.filter(term => term.length > 0);
+                        
+                        // Remove duplicates and sort alphabetically
+                        const uniqueTerms = [...new Set(filteredTerms)].sort();
+                        profile.communication_style.tone_parsed = uniqueTerms;
+                    } else {
+                        profile.communication_style = profile.communication_style || {};
+                        profile.communication_style.tone_parsed = [];
+                    }
+                });
+                
+                // Parse work styles for each profile
+                allProfiles.forEach(profile => {
+                    if (profile.behavioral_patterns?.work_style) {
+                        // Handle both array and string formats
+                        const workStyleTerms = Array.isArray(profile.behavioral_patterns.work_style) 
+                            ? profile.behavioral_patterns.work_style.map(term => term.trim())
+                            : profile.behavioral_patterns.work_style.split(',').map(term => term.trim());
+                        
+                        // Filter out empty terms and remove duplicates
+                        const filteredTerms = workStyleTerms.filter(term => term.length > 0);
+                        const uniqueTerms = [...new Set(filteredTerms)].sort();
+                        profile.behavioral_patterns.work_style_parsed = uniqueTerms;
+                    } else {
+                        profile.behavioral_patterns = profile.behavioral_patterns || {};
+                        profile.behavioral_patterns.work_style_parsed = [];
+                    }
+                });
+                
+                // Parse collaboration fields for each profile
+                allProfiles.forEach(profile => {
+                    if (profile.collaboration) {
+                        const collaborationFields = ['leadership_style', 'team_dynamics', 'mentorship_approach', 'conflict_resolution'];
+                        
+                        collaborationFields.forEach(field => {
+                            if (profile.collaboration[field]) {
+                                // Handle both array and string formats
+                                const terms = Array.isArray(profile.collaboration[field]) 
+                                    ? profile.collaboration[field].map(term => term.trim())
+                                    : profile.collaboration[field].split(',').map(term => term.trim());
+                                
+                                // Filter out empty terms and remove duplicates
+                                const filteredTerms = terms.filter(term => term.length > 0);
+                                const uniqueTerms = [...new Set(filteredTerms)].sort();
+                                profile.collaboration[field + '_parsed'] = uniqueTerms;
+                            } else {
+                                profile.collaboration[field + '_parsed'] = [];
+                            }
+                        });
+                    } else {
+                        profile.collaboration = {};
+                        const collaborationFields = ['leadership_style', 'team_dynamics', 'mentorship_approach', 'conflict_resolution'];
+                        collaborationFields.forEach(field => {
+                            profile.collaboration[field + '_parsed'] = [];
+                        });
+                    }
+                });
+                
+                // Parse sentence structure for each profile
+                allProfiles.forEach(profile => {
+                    if (profile.communication_style?.sentence_structure) {
+                        // Split by comma, trim whitespace, remove duplicates, and alphabetize
+                        const sentenceStructureTerms = profile.communication_style.sentence_structure
+                            .split(',')
+                            .map(term => term.trim())
+                            .filter(term => term.length > 0);
+                        
+                        // Remove duplicates and sort alphabetically
+                        const uniqueTerms = [...new Set(sentenceStructureTerms)].sort();
+                        profile.communication_style.sentence_structure_parsed = uniqueTerms;
+                    } else {
+                        profile.communication_style = profile.communication_style || {};
+                        profile.communication_style.sentence_structure_parsed = [];
+                    }
+                });
+                
+                // Parse core values for each profile
+                allProfiles.forEach(profile => {
+                    if (profile.values?.core_values) {
+                        // Skip generic placeholder values
+                        if (profile.values.core_values !== 'fundamental principles that guide decisions') {
+                            // Handle both string and array formats
+                            let coreValuesTerms;
+                            if (Array.isArray(profile.values.core_values)) {
+                                coreValuesTerms = profile.values.core_values;
+                            } else {
+                                // Split by comma, trim whitespace, remove duplicates, and alphabetize
+                                coreValuesTerms = profile.values.core_values
+                                    .split(',')
+                                    .map(term => term.trim())
+                                    .filter(term => term.length > 0);
+                            }
+                            
+                            // Remove duplicates and sort alphabetically
+                            const uniqueTerms = [...new Set(coreValuesTerms)].sort();
+                            profile.values.core_values_parsed = uniqueTerms;
+                        } else {
+                            profile.values.core_values_parsed = [];
+                        }
+                    } else {
+                        profile.values = profile.values || {};
+                        profile.values.core_values_parsed = [];
+                    }
+                });
+                
+                // Parse problem solving approach for each profile
+                allProfiles.forEach(profile => {
+                    if (profile.behavioral_patterns?.problem_solving_approach) {
+                        // Handle both array and string formats
+                        const problemSolvingTerms = Array.isArray(profile.behavioral_patterns.problem_solving_approach) 
+                            ? profile.behavioral_patterns.problem_solving_approach.map(term => term.trim())
+                            : profile.behavioral_patterns.problem_solving_approach.split(',').map(term => term.trim());
+                        
+                        // Filter out empty terms and remove duplicates
+                        const filteredTerms = problemSolvingTerms.filter(term => term.length > 0);
+                        const uniqueTerms = [...new Set(filteredTerms)].sort();
+                        profile.behavioral_patterns.problem_solving_approach_parsed = uniqueTerms;
+                    } else {
+                        profile.behavioral_patterns = profile.behavioral_patterns || {};
+                        profile.behavioral_patterns.problem_solving_approach_parsed = [];
+                    }
+                });
+                
+                // Parse temporal context career evolution for each profile
+                allProfiles.forEach(profile => {
+                    if (profile.temporal_context?.career_evolution) {
+                        // Skip generic placeholder values
+                        if (profile.temporal_context.career_evolution !== 'career evolution over time') {
+                            // Handle both array and string formats
+                            const careerEvolutionTerms = Array.isArray(profile.temporal_context.career_evolution) 
+                                ? profile.temporal_context.career_evolution.map(term => term.trim())
+                                : profile.temporal_context.career_evolution.split(',').map(term => term.trim());
+                            
+                            // Filter out empty terms and remove duplicates
+                            const filteredTerms = careerEvolutionTerms.filter(term => term.length > 0);
+                            const uniqueTerms = [...new Set(filteredTerms)].sort();
+                            profile.temporal_context.career_evolution_parsed = uniqueTerms;
+                        } else {
+                            profile.temporal_context.career_evolution_parsed = [];
+                        }
+                    } else {
+                        profile.temporal_context = profile.temporal_context || {};
+                        profile.temporal_context.career_evolution_parsed = [];
+                    }
+                });
+                
+                // Parse cultural context cultural background for each profile
+                allProfiles.forEach(profile => {
+                    if (profile.cultural_context?.cultural_background) {
+                        // Skip generic placeholder values
+                        if (profile.cultural_context.cultural_background !== 'how background shapes their perspective') {
+                            // Handle both array and string formats
+                            const culturalBackgroundTerms = Array.isArray(profile.cultural_context.cultural_background) 
+                                ? profile.cultural_context.cultural_background.map(term => term.trim())
+                                : profile.cultural_context.cultural_background.split(',').map(term => term.trim());
+                            
+                            // Filter out empty terms and remove duplicates
+                            const filteredTerms = culturalBackgroundTerms.filter(term => term.length > 0);
+                            const uniqueTerms = [...new Set(filteredTerms)].sort();
+                            profile.cultural_context.cultural_background_parsed = uniqueTerms;
+                        } else {
+                            profile.cultural_context.cultural_background_parsed = [];
+                        }
+                    } else {
+                        profile.cultural_context = profile.cultural_context || {};
+                        profile.cultural_context.cultural_background_parsed = [];
+                    }
+                });
+                
+                // Parse practical application decision speed for each profile
+                allProfiles.forEach(profile => {
+                    if (profile.practical_application?.decision_speed) {
+                        // Skip generic placeholder values
+                        if (profile.practical_application.decision_speed !== 'how quickly they make decisions') {
+                            // Handle both array and string formats
+                            const decisionSpeedTerms = Array.isArray(profile.practical_application.decision_speed) 
+                                ? profile.practical_application.decision_speed.map(term => term.trim())
+                                : profile.practical_application.decision_speed.split(',').map(term => term.trim());
+                            
+                            // Filter out empty terms and remove duplicates
+                            const filteredTerms = decisionSpeedTerms.filter(term => term.length > 0);
+                            const uniqueTerms = [...new Set(filteredTerms)].sort();
+                            profile.practical_application.decision_speed_parsed = uniqueTerms;
+                        } else {
+                            profile.practical_application.decision_speed_parsed = [];
+                        }
+                    } else {
+                        profile.practical_application = profile.practical_application || {};
+                        profile.practical_application.decision_speed_parsed = [];
+                    }
+                });
+                
+                // Parse learning learning style for each profile
+                allProfiles.forEach(profile => {
+                    if (profile.learning?.learning_style) {
+                        // Skip generic placeholder values
+                        if (profile.learning.learning_style !== 'how they acquire new knowledge') {
+                            // Handle both array and string formats
+                            const learningStyleTerms = Array.isArray(profile.learning.learning_style) 
+                                ? profile.learning.learning_style.map(term => term.trim())
+                                : profile.learning.learning_style.split(',').map(term => term.trim());
+                            
+                            // Filter out empty terms and remove duplicates
+                            const filteredTerms = learningStyleTerms.filter(term => term.length > 0);
+                            const uniqueTerms = [...new Set(filteredTerms)].sort();
+                            profile.learning.learning_style_parsed = uniqueTerms;
+                        } else {
+                            profile.learning.learning_style_parsed = [];
+                        }
+                    } else {
+                        profile.learning = profile.learning || {};
+                        profile.learning.learning_style_parsed = [];
+                    }
+                });
+                
+                // Parse communication audience adaptation for each profile
+                allProfiles.forEach(profile => {
+                    if (profile.communication?.audience_adaptation) {
+                        // Handle both array and string formats
+                        if (Array.isArray(profile.communication.audience_adaptation) || profile.communication.audience_adaptation.includes(',')) {
+                            const audienceAdaptationTerms = Array.isArray(profile.communication.audience_adaptation) 
+                                ? profile.communication.audience_adaptation.map(term => term.trim())
+                                : profile.communication.audience_adaptation.split(',').map(term => term.trim());
+                            
+                            // Filter out empty terms and remove duplicates
+                            const filteredTerms = audienceAdaptationTerms.filter(term => term.length > 0);
+                            const uniqueTerms = [...new Set(filteredTerms)].sort();
+                            profile.communication.audience_adaptation_parsed = uniqueTerms;
+                        } else {
+                            profile.communication.audience_adaptation_parsed = [];
+                        }
+                    } else {
+                        profile.communication = profile.communication || {};
+                        profile.communication.audience_adaptation_parsed = [];
+                    }
+                });
+                
+                // Parse temporal context influence timeline for each profile
+                allProfiles.forEach(profile => {
+                    if (profile.temporal_context?.influence_timeline) {
+                        // Handle both array and string formats
+                        if (Array.isArray(profile.temporal_context.influence_timeline) || profile.temporal_context.influence_timeline.includes(',')) {
+                            const influenceTimelineTerms = Array.isArray(profile.temporal_context.influence_timeline) 
+                                ? profile.temporal_context.influence_timeline.map(term => term.trim())
+                                : profile.temporal_context.influence_timeline.split(',').map(term => term.trim());
+                            
+                            // Filter out empty terms and remove duplicates
+                            const filteredTerms = influenceTimelineTerms.filter(term => term.length > 0);
+                            const uniqueTerms = [...new Set(filteredTerms)].sort();
+                            profile.temporal_context.influence_timeline_parsed = uniqueTerms;
+                        } else {
+                            profile.temporal_context.influence_timeline_parsed = [];
+                        }
+                    } else {
+                        profile.temporal_context = profile.temporal_context || {};
+                        profile.temporal_context.influence_timeline_parsed = [];
+                    }
+                });
+                
+                // Parse temporal context legacy impact for each profile
+                allProfiles.forEach(profile => {
+                    if (profile.temporal_context?.legacy_impact) {
+                        // Handle both array and string formats
+                        if (Array.isArray(profile.temporal_context.legacy_impact) || profile.temporal_context.legacy_impact.includes(',')) {
+                            const legacyImpactTerms = Array.isArray(profile.temporal_context.legacy_impact) 
+                                ? profile.temporal_context.legacy_impact.map(term => term.trim())
+                                : profile.temporal_context.legacy_impact.split(',').map(term => term.trim());
+                            
+                            // Filter out empty terms and remove duplicates
+                            const filteredTerms = legacyImpactTerms.filter(term => term.length > 0);
+                            const uniqueTerms = [...new Set(filteredTerms)].sort();
+                            profile.temporal_context.legacy_impact_parsed = uniqueTerms;
+                        } else {
+                            profile.temporal_context.legacy_impact_parsed = [];
+                        }
+                    } else {
+                        profile.temporal_context = profile.temporal_context || {};
+                        profile.temporal_context.legacy_impact_parsed = [];
+                    }
+                });
+                
+                // Parse communication.audience_adaptation for each profile
+                allProfiles.forEach(profile => {
+                    if (profile.communication?.audience_adaptation) {
+                        // Handle both array and string formats
+                        const audienceAdaptationTerms = Array.isArray(profile.communication.audience_adaptation)
+                            ? profile.communication.audience_adaptation.map(term => term.trim())
+                            : profile.communication.audience_adaptation.split(',').map(term => term.trim());
+
+                        const filteredTerms = audienceAdaptationTerms.filter(term => term.length > 0);
+                        const uniqueTerms = [...new Set(filteredTerms)].sort();
+                        profile.communication.audience_adaptation_parsed = uniqueTerms;
+                    } else {
+                        profile.communication = profile.communication || {};
+                        profile.communication.audience_adaptation_parsed = [];
+                    }
+                });
+                
+                // Parse psychological_profile.primary_traits for each profile
+                allProfiles.forEach(profile => {
+                    if (profile.psychological_profile?.primary_traits) {
+                        // Handle both array and string formats
+                        const primaryTraitsTerms = Array.isArray(profile.psychological_profile.primary_traits)
+                            ? profile.psychological_profile.primary_traits.map(term => term.trim())
+                            : profile.psychological_profile.primary_traits.split(',').map(term => term.trim());
+
+                        const filteredTerms = primaryTraitsTerms.filter(term => term.length > 0);
+                        const uniqueTerms = [...new Set(filteredTerms)].sort();
+                        profile.psychological_profile.primary_traits_parsed = uniqueTerms;
+                    } else {
+                        profile.psychological_profile = profile.psychological_profile || {};
+                        profile.psychological_profile.primary_traits_parsed = [];
+                    }
+                });
+                
+                // Parse domain_expertise.core_competencies for each profile
+                allProfiles.forEach(profile => {
+                    if (profile.domain_expertise?.core_competencies) {
+                        // Handle both array and string formats
+                        const coreCompetenciesTerms = Array.isArray(profile.domain_expertise.core_competencies)
+                            ? profile.domain_expertise.core_competencies.map(term => term.trim())
+                            : profile.domain_expertise.core_competencies.split(',').map(term => term.trim());
+
+                        const filteredTerms = coreCompetenciesTerms.filter(term => term.length > 0);
+                        const uniqueTerms = [...new Set(filteredTerms)].sort();
+                        profile.domain_expertise.core_competencies_parsed = uniqueTerms;
+                    } else {
+                        profile.domain_expertise = profile.domain_expertise || {};
+                        profile.domain_expertise.core_competencies_parsed = [];
+                    }
+                });
+                
+                console.log(`✓ Loaded ${allProfiles.length} profiles from JSON file (sorted alphabetically)`);
+                
+                initializeFilters();
+                initializeQuickNavigation();
+                filteredProfiles = allProfiles.slice();
+                console.log('🔄 Initial state - allProfiles:', allProfiles.length, 'filteredProfiles:', filteredProfiles.length);
+                console.log('🔄 About to display profiles...');
+                displayProfiles();
+                
+                console.log('🚀 Profiles loaded and displayed successfully!');
+                
+            } catch (error) {
+                console.error('Error loading profiles:', error);
+                document.getElementById('profiles-container').innerHTML = 
+                    '<div class="no-results">Error loading profiles. Please check the console for details.</div>';
+            }
+        }
+
+        function initializeFilters() {
+            console.log('🔄 initializeFilters called with', allProfiles.length, 'profiles');
+            
+            const filters = {
+                'archetype-filter': 'archetype',
+                'domain-filter': 'domain',
+                'subdomain-filter': 'sub_domain',
+                'trait-filter': 'psychological_profile.primary_traits',
+                'communication-filter': 'communication_style.tone_parsed',
+                'sentence-structure-filter': 'communication_style.sentence_structure_parsed',
+                'expertise-filter': 'domain_expertise.core_competencies',
+                'background-filter': 'background_context.experience_level',
+                'behavior-filter': 'behavioral_patterns.work_style_parsed',
+                'problem-solving-filter': 'behavioral_patterns.problem_solving_approach',
+                'identifier-filter': 'unique_identifiers.signature_methodologies',
+                'temporal-filter': 'temporal_context.career_evolution',
+                'collaboration-filter': 'collaboration.leadership_style',
+                'cultural-filter': 'cultural_context.cultural_background',
+                'practical-filter': 'practical_application.decision_speed',
+                'communication-new-filter': 'communication.audience_adaptation',
+                'learning-filter': 'learning.learning_style',
+                'values-filter': 'values.core_values'
+            };
+
+            console.log('🔍 Checking each filter element...');
+            Object.entries(filters).forEach(([filterId, dataPath]) => {
+                const filter = document.getElementById(filterId);
+                if (!filter) {
+                    console.log('⚠️ Filter not found:', filterId);
+                    return;
+                }
+                const values = new Set();
+
+                allProfiles.forEach(profile => {
+                    const value = getNestedValue(profile, dataPath);
+                    if (Array.isArray(value)) {
+                        value.forEach(v => values.add(v));
+                    } else if (value && typeof value === 'string') {
+                        // Handle comma-separated strings
+                        const valueArray = value.split(',').map(v => v.trim());
+                        valueArray.forEach(v => values.add(v));
+                    } else if (value) {
+                        values.add(value);
+                    }
+                });
+
+                console.log(`✓ Populating ${filterId} with ${values.size} values:`, Array.from(values));
+
+                // Clear existing options
+                filter.innerHTML = '';
+
+                values.forEach(value => {
+                    const option = document.createElement('option');
+                    option.value = value;
+                    
+                    option.textContent = value;
+                    
+                    // Add click handler for deselection
+                    option.addEventListener('mousedown', function(e) {
+                        if (this.selected) {
+                            e.preventDefault();
+                            this.selected = false;
+                            filterProfiles();
+                        }
+                    });
+                    
+                    filter.appendChild(option);
+                });
+
+                // Don't add event listeners during initialization to avoid premature filtering
+                // filter.addEventListener('change', filterProfiles);
+            });
+
+            // Add event listeners after initialization is complete
+            setTimeout(() => {
+                Object.keys(filters).forEach(filterId => {
+                    const filter = document.getElementById(filterId);
+                    if (filter) {
+                        filter.addEventListener('change', function() {
+                            updateCascadingFilters();
+                            filterProfiles();
+                        });
+                    }
+                });
+                document.getElementById('search-filter').addEventListener('input', debouncedFilterProfiles);
+                console.log('✓ Event listeners added to all filters with cascading support');
+            }, 100);
+        }
+
+        function getCurrentlyFilteredProfiles() {
+            const filters = {
+                'archetype-filter': 'archetype',
+                'domain-filter': 'domain',
+                'subdomain-filter': 'sub_domain',
+                'trait-filter': 'psychological_profile.primary_traits',
+                'communication-filter': 'communication_style.tone_parsed',
+                'sentence-structure-filter': 'communication_style.sentence_structure_parsed',
+                'expertise-filter': 'domain_expertise.core_competencies',
+                'background-filter': 'background_context.experience_level',
+                'behavior-filter': 'behavioral_patterns.work_style_parsed',
+                'problem-solving-filter': 'behavioral_patterns.problem_solving_approach',
+                'identifier-filter': 'unique_identifiers.signature_methodologies',
+                'temporal-filter': 'temporal_context.career_evolution',
+                'collaboration-filter': 'collaboration.leadership_style',
+                'cultural-filter': 'cultural_context.cultural_background',
+                'practical-filter': 'practical_application.decision_speed',
+                'communication-new-filter': 'communication.audience_adaptation',
+                'learning-filter': 'learning.learning_style',
+                'values-filter': 'values.core_values'
+            };
+
+            let filtered = allProfiles;
+
+            // Apply each filter
+            Object.entries(filters).forEach(([filterId, dataPath]) => {
+                const filter = document.getElementById(filterId);
+                if (!filter) return;
+
+                const selectedValues = Array.from(filter.selectedOptions).map(option => option.value);
+                if (selectedValues.length === 0) return;
+
+                filtered = filtered.filter(profile => {
+                    const value = getNestedValue(profile, dataPath);
+                    
+                    if (Array.isArray(value)) {
+                        return selectedValues.some(selected => value.includes(selected));
+                    } else if (value && typeof value === 'string') {
+                        // Handle comma-separated strings
+                        const valueArray = value.split(',').map(v => v.trim());
+                        return selectedValues.some(selected => valueArray.includes(selected));
+                    } else if (value) {
+                        return selectedValues.includes(value);
+                    }
+                    return false;
+                });
+            });
+
+            return filtered;
+        }
+
+        function updateCascadingFilters() {
+            console.log('🔄 Updating cascading filters...');
+            
+            const filters = {
+                'archetype-filter': 'archetype',
+                'domain-filter': 'domain',
+                'subdomain-filter': 'sub_domain',
+                'trait-filter': 'psychological_profile.primary_traits',
+                'communication-filter': 'communication_style.tone_parsed',
+                'sentence-structure-filter': 'communication_style.sentence_structure_parsed',
+                'expertise-filter': 'domain_expertise.core_competencies',
+                'background-filter': 'background_context.experience_level',
+                'behavior-filter': 'behavioral_patterns.work_style_parsed',
+                'problem-solving-filter': 'behavioral_patterns.problem_solving_approach',
+                'identifier-filter': 'unique_identifiers.signature_methodologies',
+                'temporal-filter': 'temporal_context.career_evolution',
+                'collaboration-filter': 'collaboration.leadership_style',
+                'cultural-filter': 'cultural_context.cultural_background',
+                'practical-filter': 'practical_application.decision_speed',
+                'communication-new-filter': 'communication.audience_adaptation',
+                'learning-filter': 'learning.learning_style',
+                'values-filter': 'values.core_values'
+            };
+
+            // Get currently filtered profiles based on all current selections
+            const currentlyFilteredProfiles = getCurrentlyFilteredProfiles();
+            console.log(`📊 Cascading filters based on ${currentlyFilteredProfiles.length} currently matching profiles`);
+
+            // Update each filter's available options
+            Object.entries(filters).forEach(([filterId, dataPath]) => {
+                const filter = document.getElementById(filterId);
+                if (!filter) return;
+
+                // Get current selections for this filter
+                const currentSelections = Array.from(filter.selectedOptions).map(option => option.value);
+                
+                // Get available values from currently filtered profiles
+                const availableValues = new Set();
+                currentlyFilteredProfiles.forEach(profile => {
+                    const value = getNestedValue(profile, dataPath);
+                    if (Array.isArray(value)) {
+                        value.forEach(v => availableValues.add(v));
+                    } else if (value && typeof value === 'string') {
+                        // Handle comma-separated strings
+                        const valueArray = value.split(',').map(v => v.trim());
+                        valueArray.forEach(v => availableValues.add(v));
+                    } else if (value) {
+                        availableValues.add(value);
+                    }
+                });
+
+                // Store which options were selected before updating
+                const selectedValues = new Set(currentSelections);
+
+                // Update options
+                filter.innerHTML = '';
+                
+                // Custom sort for background context (experience levels)
+                let sortedValues;
+                if (filterId === 'background-filter') {
+                    const experienceOrder = ['Entry-level', 'Junior', 'Mid-level', 'Senior', 'Executive', 'C-level', 'Founder'];
+                    sortedValues = Array.from(availableValues).sort((a, b) => {
+                        const aIndex = experienceOrder.indexOf(a);
+                        const bIndex = experienceOrder.indexOf(b);
+                        if (aIndex !== -1 && bIndex !== -1) return aIndex - bIndex;
+                        if (aIndex !== -1) return -1;
+                        if (bIndex !== -1) return 1;
+                        return a.toLowerCase().localeCompare(b.toLowerCase());
+                    });
+                } else {
+                    sortedValues = Array.from(availableValues).sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
+                }
+                
+                sortedValues.forEach(value => {
+                    const option = document.createElement('option');
+                    option.value = value;
+                    
+                    option.textContent = value;
+                    
+                    // Restore selection if it was previously selected
+                    if (selectedValues.has(value)) {
+                        option.selected = true;
+                    }
+                    
+                    // Add click handler for deselection
+                    option.addEventListener('mousedown', function(e) {
+                        if (this.selected) {
+                            e.preventDefault();
+                            this.selected = false;
+                            updateCascadingFilters();
+                            filterProfiles();
+                        }
+                    });
+                    
+                    filter.appendChild(option);
+                });
+
+                console.log(`✓ Updated ${filterId}: ${availableValues.size} available options, ${selectedValues.size} selected`);
+            });
+        }
+
+        function clearAllFilters() {
+            console.log('🧹 Clearing all filters...');
+            
+            const filters = {
+                'archetype-filter': 'archetype',
+                'domain-filter': 'domain',
+                'subdomain-filter': 'sub_domain',
+                'trait-filter': 'psychological_profile.primary_traits',
+                'communication-filter': 'communication_style.tone_parsed',
+                'sentence-structure-filter': 'communication_style.sentence_structure_parsed',
+                'expertise-filter': 'domain_expertise.core_competencies',
+                'background-filter': 'background_context.experience_level',
+                'behavior-filter': 'behavioral_patterns.work_style_parsed',
+                'problem-solving-filter': 'behavioral_patterns.problem_solving_approach',
+                'identifier-filter': 'unique_identifiers.signature_methodologies',
+                'temporal-filter': 'temporal_context.career_evolution',
+                'collaboration-filter': 'collaboration.leadership_style',
+                'cultural-filter': 'cultural_context.cultural_background',
+                'practical-filter': 'practical_application.decision_speed',
+                'communication-new-filter': 'communication.audience_adaptation',
+                'learning-filter': 'learning.learning_style',
+                'values-filter': 'values.core_values'
+            };
+            
+            // Clear all filter selections
+            Object.keys(filters).forEach(filterId => {
+                const filter = document.getElementById(filterId);
+                if (filter) {
+                    filter.selectedIndex = -1; // Clear all selections
+                }
+            });
+            
+            // Clear search
+            const searchFilter = document.getElementById('search-filter');
+            if (searchFilter) {
+                searchFilter.value = '';
+            }
+            
+            // Update cascading filters and apply
+            updateCascadingFilters();
+            filterProfiles();
+            
+            console.log('✅ All filters cleared');
+        }
+
+        function applySuperFilter(category) {
+            console.log(`🎯 Applying super filter: ${category}`);
+            
+            // Check if clicking the same category (deselection)
+            if (activeSuperFilter === category) {
+                console.log(`🔄 Deselecting super filter: ${category}`);
+                clearAllFilters();
+                activeSuperFilter = null;
+                updateSuperFilterButtons();
+                return;
+            }
+            
+            // Clear all existing filters first
+            clearAllFilters();
+            
+            // Filter profiles by category directly
+            filteredProfiles = allProfiles.filter(profile => {
+                return profile.category === category;
+            });
+            
+            // Sort filtered results alphabetically by last name
+            filteredProfiles.sort((a, b) => getLastName(a.name).localeCompare(getLastName(b.name)));
+            
+            // Update quick navigation stats
+            updateQuickNavigationStats();
+            
+            // Display results
+            displayProfiles();
+            
+            // Set active super filter
+            activeSuperFilter = category;
+            updateSuperFilterButtons();
+            
+            console.log(`✅ Applied ${category} super filter - found ${filteredProfiles.length} profiles`);
+        }
+
+        function updateSuperFilterButtons() {
+            const buttons = document.querySelectorAll('.super-filter-btn');
+            buttons.forEach(button => {
+                const category = button.textContent.toLowerCase().replace(' ', '');
+                if (category === 'clearall') return; // Skip Clear All button
+                
+                if (activeSuperFilter === category) {
+                    button.classList.add('active');
+                } else {
+                    button.classList.remove('active');
+                }
+            });
+        }
+
+        function getNestedValue(obj, path) {
+            return path.split('.').reduce((current, key) => current && current[key], obj);
+        }
+
+        function initializeQuickNavigation() {
+            // Update navigation count display
+            document.getElementById('total-count-nav').textContent = allProfiles.length;
+            document.getElementById('visible-count-nav').textContent = allProfiles.length;
+            
+            // Create alphabet navigation
+            const alphabetNav = document.getElementById('alphabet-nav');
+            const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+            
+            // Get first letters of all profile last names
+            const firstLetters = new Set();
+            allProfiles.forEach(profile => {
+                const lastLetter = getLastName(profile.name).charAt(0).toUpperCase();
+                firstLetters.add(lastLetter);
+            });
+            
+            alphabet.forEach((letter, index) => {
+                const link = document.createElement('span');
+                link.className = 'alphabet-link';
+                link.textContent = letter;
+                
+                if (firstLetters.has(letter)) {
+                    link.onclick = () => jumpToLetter(letter);
+                } else {
+                    link.className += ' disabled';
+                }
+                
+                alphabetNav.appendChild(link);
+                
+                // Add separator after each letter except the last one
+                if (index < alphabet.length - 1) {
+                    const separator = document.createElement('span');
+                    separator.className = 'alphabet-separator';
+                    separator.textContent = '|';
+                    alphabetNav.appendChild(separator);
+                }
+            });
+        }
+
+        function jumpToLetter(letter) {
+            // Find first profile with last name starting with this letter
+            const targetProfile = allProfiles.find(profile => 
+                getLastName(profile.name).charAt(0).toUpperCase() === letter
+            );
+            
+            if (targetProfile) {
+                // Clear all filters to show all profiles
+                clearAllFilters();
+                
+                // Scroll to the profile card
+                setTimeout(() => {
+                    const profileCards = document.querySelectorAll('.profile-card');
+                    const targetCard = Array.from(profileCards).find(card => 
+                        card.querySelector('.card-name').textContent === targetProfile.name
+                    );
+                    
+                    if (targetCard) {
+                        targetCard.scrollIntoView({ 
+                            behavior: 'smooth', 
+                            block: 'start' 
+                        });
+                        
+                        // Highlight the card briefly
+                        targetCard.style.border = '3px solid #667eea';
+                        setTimeout(() => {
+                            targetCard.style.border = '';
+                        }, 2000);
+                    }
+                }, 100);
+            }
+        }
+
+        function updateQuickNavigationStats() {
+            document.getElementById('visible-count-nav').textContent = filteredProfiles.length;
+        }
+
+        // Debounced search for better performance
+        let searchTimeout;
+        function debouncedFilterProfiles() {
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(filterProfiles, 150); // 150ms delay
+        }
+
+        // Badge search function - filter profiles by trait/badge value
+        function searchByBadge(badgeValue, event) {
+            if (event) {
+                event.stopPropagation(); // Prevent card selection
+            }
+            
+            console.log('🔍 Searching by badge:', badgeValue);
+            
+            // Check if this is the same badge as currently active
+            const currentlyActiveBadge = window.currentActiveBadge;
+            
+            if (currentlyActiveBadge === badgeValue) {
+                // Same badge clicked - deselect and show all profiles
+                console.log('🔍 Deselecting badge:', badgeValue);
+                window.currentActiveBadge = null;
+                
+                // Remove active class from all badges
+                document.querySelectorAll('.clickable-badge').forEach(badge => {
+                    badge.classList.remove('active');
+                });
+                
+                // Clear any existing search
+                document.getElementById('search-filter').value = '';
+                
+                // Clear all filter selections
+                const allFilters = document.querySelectorAll('select[multiple]');
+                allFilters.forEach(filter => {
+                    Array.from(filter.options).forEach(option => option.selected = false);
+                });
+                
+                // Show all profiles
+                filteredProfiles = [...allProfiles];
+                
+                // Update quick navigation stats
+                updateQuickNavigationStats();
+                
+                // Display results
+                displayProfiles();
+                return;
+            }
+            
+            // New badge selected - store it and filter
+            window.currentActiveBadge = badgeValue;
+            
+            // Remove active class from all badges and add to clicked one
+            document.querySelectorAll('.clickable-badge').forEach(badge => {
+                badge.classList.remove('active');
+                if (badge.textContent.trim() === badgeValue) {
+                    badge.classList.add('active');
+                }
+            });
+            
+            // Clear any existing search
+            document.getElementById('search-filter').value = '';
+            
+            // Clear all filter selections
+            const allFilters = document.querySelectorAll('select[multiple]');
+            allFilters.forEach(filter => {
+                Array.from(filter.options).forEach(option => option.selected = false);
+            });
+            
+            // Filter profiles that contain this badge value
+            filteredProfiles = allProfiles.filter(profile => {
+                const traits = profile.primary_traits || profile.psychological_profile?.primary_traits;
+                if (!traits) return false;
+                
+                const traitArray = Array.isArray(traits) ? traits : traits.split(',').map(t => t.trim());
+                return traitArray.some(trait => trait.toLowerCase().includes(badgeValue.toLowerCase()));
+            });
+            
+            // Sort filtered results alphabetically by last name
+            filteredProfiles.sort((a, b) => getLastName(a.name).localeCompare(getLastName(b.name)));
+            
+            // Update quick navigation stats
+            updateQuickNavigationStats();
+            
+            // Display results
+            displayProfiles();
+            
+            console.log(`✅ Found ${filteredProfiles.length} profiles with badge: ${badgeValue}`);
+        }
+
+        function filterProfiles() {
+            const searchTerm = document.getElementById('search-filter').value.toLowerCase();
+            const selectedArchetypes = Array.from(document.getElementById('archetype-filter').selectedOptions).map(option => option.value);
+            const selectedDomains = Array.from(document.getElementById('domain-filter').selectedOptions).map(option => option.value);
+            const selectedSubDomains = Array.from(document.getElementById('subdomain-filter').selectedOptions).map(option => option.value);
+            const selectedTraits = Array.from(document.getElementById('trait-filter').selectedOptions).map(option => option.value);
+            const selectedCommunication = Array.from(document.getElementById('communication-filter').selectedOptions).map(option => option.value);
+            const selectedSentenceStructure = Array.from(document.getElementById('sentence-structure-filter').selectedOptions).map(option => option.value);
+            const selectedExpertise = Array.from(document.getElementById('expertise-filter').selectedOptions).map(option => option.value);
+            const selectedBackground = Array.from(document.getElementById('background-filter').selectedOptions).map(option => option.value);
+            const selectedBehavior = Array.from(document.getElementById('behavior-filter').selectedOptions).map(option => option.value);
+            const selectedProblemSolving = Array.from(document.getElementById('problem-solving-filter').selectedOptions).map(option => option.value);
+            const selectedIdentifiers = Array.from(document.getElementById('identifier-filter').selectedOptions).map(option => option.value);
+            
+            // New category filters
+            const selectedTemporal = Array.from(document.getElementById('temporal-filter').selectedOptions).map(option => option.value);
+            const selectedCollaboration = Array.from(document.getElementById('collaboration-filter').selectedOptions).map(option => option.value);
+            const selectedCultural = Array.from(document.getElementById('cultural-filter').selectedOptions).map(option => option.value);
+            const selectedPractical = Array.from(document.getElementById('practical-filter').selectedOptions).map(option => option.value);
+            const selectedCommunicationNew = Array.from(document.getElementById('communication-new-filter').selectedOptions).map(option => option.value);
+            const selectedLearning = Array.from(document.getElementById('learning-filter').selectedOptions).map(option => option.value);
+            const selectedValues = Array.from(document.getElementById('values-filter').selectedOptions).map(option => option.value);
+
+            console.log('🔍 Filtering profiles with:', {
+                searchTerm,
+                selectedArchetypes,
+                selectedDomains,
+                selectedSubDomains,
+                selectedTraits,
+                selectedCommunication,
+                selectedSentenceStructure,
+                selectedExpertise,
+                selectedBackground,
+                selectedBehavior,
+                selectedProblemSolving,
+                selectedIdentifiers,
+                selectedTemporal,
+                selectedCollaboration,
+                selectedCultural,
+                selectedPractical,
+                selectedCommunicationNew,
+                selectedLearning,
+                selectedValues
+            });
+
+            // If no filters are selected at all, show all profiles
+            const hasAnySelections = searchTerm || 
+                selectedArchetypes.length > 0 ||
+                selectedDomains.length > 0 ||
+                selectedSubDomains.length > 0 ||
+                selectedTraits.length > 0 ||
+                selectedCommunication.length > 0 ||
+                selectedSentenceStructure.length > 0 ||
+                selectedExpertise.length > 0 ||
+                selectedBackground.length > 0 ||
+                selectedBehavior.length > 0 ||
+                selectedProblemSolving.length > 0 ||
+                selectedIdentifiers.length > 0 ||
+                selectedTemporal.length > 0 ||
+                selectedCollaboration.length > 0 ||
+                selectedCultural.length > 0 ||
+                selectedPractical.length > 0 ||
+                selectedCommunicationNew.length > 0 ||
+                selectedLearning.length > 0 ||
+                selectedValues.length > 0;
+
+            if (!hasAnySelections) {
+                console.log('✓ No filters selected - showing all profiles');
+                filteredProfiles = allProfiles.slice();
+                // Keep alphabetical order when no filters (by last name)
+                filteredProfiles.sort((a, b) => getLastName(a.name).localeCompare(getLastName(b.name)));
+                
+                // Update quick navigation stats
+                updateQuickNavigationStats();
+                
+                displayProfiles();
+                return;
+            }
+
+            filteredProfiles = allProfiles.filter(profile => {
+                // Enhanced text search across all fields
+                const matchesSearch = !searchTerm || 
+                    profile.name.toLowerCase().includes(searchTerm) ||
+                    profile.archetype.toLowerCase().includes(searchTerm) ||
+                    profile.domain.toLowerCase().includes(searchTerm) ||
+                    (profile.sub_domain && profile.sub_domain.toLowerCase().includes(searchTerm)) ||
+                    (profile.psychological_profile?.cognitive_style && profile.psychological_profile.cognitive_style.toLowerCase().includes(searchTerm)) ||
+                    (profile.psychological_profile?.decision_making_framework && profile.psychological_profile.decision_making_framework.toLowerCase().includes(searchTerm)) ||
+                    (profile.communication_style?.tone && typeof profile.communication_style.tone === 'string' && profile.communication_style.tone.toLowerCase().includes(searchTerm)) ||
+                    (profile.communication_style?.tone_parsed && profile.communication_style.tone_parsed.some(term => term.toLowerCase().includes(searchTerm))) ||
+                    (profile.communication_style?.sentence_structure && typeof profile.communication_style.sentence_structure === 'string' && profile.communication_style.sentence_structure.toLowerCase().includes(searchTerm)) ||
+                    (profile.communication_style?.sentence_structure_parsed && profile.communication_style.sentence_structure_parsed.some(structure => structure.toLowerCase().includes(searchTerm))) ||
+                    (profile.domain_expertise?.core_competencies && Array.isArray(profile.domain_expertise.core_competencies) && profile.domain_expertise.core_competencies.some(comp => comp.toLowerCase().includes(searchTerm))) ||
+                    (profile.background_context?.experience_level && typeof profile.background_context.experience_level === 'string' && profile.background_context.experience_level.toLowerCase().includes(searchTerm)) ||
+                    (profile.background_context?.typical_career_path && profile.background_context.typical_career_path.toLowerCase().includes(searchTerm)) ||
+                    (profile.behavioral_patterns?.work_style && profile.behavioral_patterns.work_style.toLowerCase().includes(searchTerm)) ||
+                    (profile.behavioral_patterns?.work_style_parsed && profile.behavioral_patterns.work_style_parsed.some(style => style.toLowerCase().includes(searchTerm))) ||
+                    (profile.behavioral_patterns?.problem_solving_approach && profile.behavioral_patterns.problem_solving_approach.toLowerCase().includes(searchTerm)) ||
+                    (profile.behavioral_patterns?.problem_solving_approach_parsed && profile.behavioral_patterns.problem_solving_approach_parsed.some(approach => approach.toLowerCase().includes(searchTerm))) ||
+                    (profile.unique_identifiers?.signature_methodologies && Array.isArray(profile.unique_identifiers.signature_methodologies) && profile.unique_identifiers.signature_methodologies.some(method => method.toLowerCase().includes(searchTerm))) ||
+                    (profile.unique_identifiers?.contrarian_beliefs && Array.isArray(profile.unique_identifiers.contrarian_beliefs) && profile.unique_identifiers.contrarian_beliefs.some(belief => belief.toLowerCase().includes(searchTerm))) ||
+                    (profile.unique_identifiers?.pet_peeves && Array.isArray(profile.unique_identifiers.pet_peeves) && profile.unique_identifiers.pet_peeves.some(peeve => peeve.toLowerCase().includes(searchTerm))) ||
+                    (profile.unique_identifiers?.aspirational_references && Array.isArray(profile.unique_identifiers.aspirational_references) && profile.unique_identifiers.aspirational_references.some(ref => ref.toLowerCase().includes(searchTerm))) ||
+                    (profile.unique_identifiers?.distinctive_quirks && Array.isArray(profile.unique_identifiers.distinctive_quirks) && profile.unique_identifiers.distinctive_quirks.some(quirk => quirk.toLowerCase().includes(searchTerm))) ||
+                    // New category search fields
+                    (profile.temporal_context?.career_evolution && profile.temporal_context.career_evolution.toLowerCase().includes(searchTerm)) ||
+                    (profile.temporal_context?.career_evolution_parsed && profile.temporal_context.career_evolution_parsed.some(evolution => evolution.toLowerCase().includes(searchTerm))) ||
+                    (profile.temporal_context?.influence_timeline && profile.temporal_context.influence_timeline.toLowerCase().includes(searchTerm)) ||
+                    (profile.temporal_context?.influence_timeline_parsed && profile.temporal_context.influence_timeline_parsed.some(timeline => timeline.toLowerCase().includes(searchTerm))) ||
+                    (profile.temporal_context?.legacy_impact && profile.temporal_context.legacy_impact.toLowerCase().includes(searchTerm)) ||
+                    (profile.temporal_context?.legacy_impact_parsed && profile.temporal_context.legacy_impact_parsed.some(impact => impact.toLowerCase().includes(searchTerm))) ||
+                    (profile.collaboration?.leadership_style && profile.collaboration.leadership_style.toLowerCase().includes(searchTerm)) ||
+                    (profile.collaboration?.leadership_style_parsed && profile.collaboration.leadership_style_parsed.some(style => style.toLowerCase().includes(searchTerm))) ||
+                    (profile.collaboration?.team_dynamics && profile.collaboration.team_dynamics.toLowerCase().includes(searchTerm)) ||
+                    (profile.collaboration?.team_dynamics_parsed && profile.collaboration.team_dynamics_parsed.some(dynamic => dynamic.toLowerCase().includes(searchTerm))) ||
+                    (profile.collaboration?.mentorship_approach && profile.collaboration.mentorship_approach.toLowerCase().includes(searchTerm)) ||
+                    (profile.collaboration?.mentorship_approach_parsed && profile.collaboration.mentorship_approach_parsed.some(approach => approach.toLowerCase().includes(searchTerm))) ||
+                    (profile.collaboration?.conflict_resolution && profile.collaboration.conflict_resolution.toLowerCase().includes(searchTerm)) ||
+                    (profile.collaboration?.conflict_resolution_parsed && profile.collaboration.conflict_resolution_parsed.some(resolution => resolution.toLowerCase().includes(searchTerm))) ||
+                    (profile.cultural_context?.cultural_background && profile.cultural_context.cultural_background.toLowerCase().includes(searchTerm)) ||
+                    (profile.cultural_context?.cultural_background_parsed && profile.cultural_context.cultural_background_parsed.some(background => background.toLowerCase().includes(searchTerm))) ||
+                    (profile.cultural_context?.geographic_influence && profile.cultural_context.geographic_influence.toLowerCase().includes(searchTerm)) ||
+                    (profile.cultural_context?.generational_perspective && profile.cultural_context.generational_perspective.toLowerCase().includes(searchTerm)) ||
+                    (profile.practical_application?.decision_speed && profile.practical_application.decision_speed.toLowerCase().includes(searchTerm)) ||
+                    (profile.practical_application?.decision_speed_parsed && profile.practical_application.decision_speed_parsed.some(speed => speed.toLowerCase().includes(searchTerm))) ||
+                    (profile.practical_application?.risk_tolerance && profile.practical_application.risk_tolerance.toLowerCase().includes(searchTerm)) ||
+                    (profile.practical_application?.innovation_vs_optimization && profile.practical_application.innovation_vs_optimization.toLowerCase().includes(searchTerm)) ||
+                    (profile.practical_application?.scale_preferences && profile.practical_application.scale_preferences.toLowerCase().includes(searchTerm)) ||
+                    (profile.communication?.audience_adaptation && profile.communication.audience_adaptation.toLowerCase().includes(searchTerm)) ||
+                    (profile.communication?.audience_adaptation_parsed && profile.communication.audience_adaptation_parsed.some(adaptation => adaptation.toLowerCase().includes(searchTerm))) ||
+                    (profile.communication?.media_preferences && profile.communication.media_preferences.toLowerCase().includes(searchTerm)) ||
+                    (profile.communication?.influence_strategies && profile.communication.influence_strategies.toLowerCase().includes(searchTerm)) ||
+                    (profile.learning?.learning_style && profile.learning.learning_style.toLowerCase().includes(searchTerm)) ||
+                    (profile.learning?.learning_style_parsed && profile.learning.learning_style_parsed.some(style => style.toLowerCase().includes(searchTerm))) ||
+                    (profile.learning?.adaptation_speed && profile.learning.adaptation_speed.toLowerCase().includes(searchTerm)) ||
+                    (profile.learning?.failure_response && profile.learning.failure_response.toLowerCase().includes(searchTerm)) ||
+                    (profile.values?.core_values && typeof profile.values.core_values === 'string' && profile.values.core_values.toLowerCase().includes(searchTerm)) ||
+                    (profile.values?.core_values_parsed && profile.values.core_values_parsed.some(value => value.toLowerCase().includes(searchTerm))) ||
+                    (profile.values?.ethical_framework && profile.values.ethical_framework.toLowerCase().includes(searchTerm)) ||
+                    (profile.values?.social_responsibility && profile.values.social_responsibility.toLowerCase().includes(searchTerm));
+
+                // Filter by archetype
+                let matchesArchetype = selectedArchetypes.length === 0 || selectedArchetypes.includes(profile.archetype);
+
+                // Filter by domain
+                let matchesDomain = selectedDomains.length === 0 || selectedDomains.includes(profile.domain);
+
+                // Filter by subdomain
+                let matchesSubdomain = selectedSubDomains.length === 0 || selectedSubDomains.includes(profile.sub_domain);
+
+                // Filter by psychological traits
+                let matchesTraits = selectedTraits.length === 0 || 
+                    selectedTraits.some(trait => Array.isArray(profile.psychological_profile?.primary_traits) && profile.psychological_profile.primary_traits.includes(trait));
+
+                // Filter by communication style
+                let matchesCommunication = selectedCommunication.length === 0 || 
+                    selectedCommunication.some(style => Array.isArray(profile.communication_style?.tone_parsed) && profile.communication_style.tone_parsed.includes(style));
+
+                // Filter by sentence structure
+                let matchesSentenceStructure = selectedSentenceStructure.length === 0 || 
+                    selectedSentenceStructure.some(structure => Array.isArray(profile.communication_style?.sentence_structure_parsed) && profile.communication_style.sentence_structure_parsed.includes(structure));
+
+                // Filter by expertise
+                let matchesExpertise = selectedExpertise.length === 0 || 
+                    selectedExpertise.some(expertise => Array.isArray(profile.domain_expertise?.core_competencies) && profile.domain_expertise.core_competencies.includes(expertise));
+
+                // Filter by background
+                let matchesBackground = selectedBackground.length === 0 || 
+                    selectedBackground.includes(profile.background_context?.experience_level);
+
+                // Filter by behavior
+                let matchesBehavior = selectedBehavior.length === 0 || 
+                    selectedBehavior.some(style => Array.isArray(profile.behavioral_patterns?.work_style_parsed) && profile.behavioral_patterns.work_style_parsed.includes(style));
+
+                // Filter by problem solving approach
+                let matchesProblemSolving = selectedProblemSolving.length === 0 || 
+                    selectedProblemSolving.some(approach => Array.isArray(profile.behavioral_patterns?.problem_solving_approach_parsed) && profile.behavioral_patterns.problem_solving_approach_parsed.includes(approach));
+
+                // Filter by identifiers
+                let matchesIdentifiers = selectedIdentifiers.length === 0 || 
+                    selectedIdentifiers.some(identifier => Array.isArray(profile.unique_identifiers?.signature_methodologies) && profile.unique_identifiers.signature_methodologies.includes(identifier));
+
+                // New category filters
+                let matchesTemporal = selectedTemporal.length === 0 || 
+                    selectedTemporal.some(evolution => Array.isArray(profile.temporal_context?.career_evolution_parsed) && profile.temporal_context.career_evolution_parsed.includes(evolution));
+
+                let matchesCollaboration = selectedCollaboration.length === 0 || 
+                    selectedCollaboration.some(style => Array.isArray(profile.collaboration?.leadership_style_parsed) && profile.collaboration.leadership_style_parsed.includes(style));
+
+                let matchesCultural = selectedCultural.length === 0 || 
+                    selectedCultural.some(background => Array.isArray(profile.cultural_context?.cultural_background_parsed) && profile.cultural_context.cultural_background_parsed.includes(background));
+
+                let matchesPractical = selectedPractical.length === 0 || 
+                    selectedPractical.some(speed => Array.isArray(profile.practical_application?.decision_speed_parsed) && profile.practical_application.decision_speed_parsed.includes(speed));
+
+                let matchesCommunicationNew = selectedCommunicationNew.length === 0 || 
+                    selectedCommunicationNew.includes(profile.communication?.audience_adaptation);
+
+                let matchesLearning = selectedLearning.length === 0 || 
+                    selectedLearning.some(style => Array.isArray(profile.learning?.learning_style_parsed) && profile.learning.learning_style_parsed.includes(style));
+
+                let matchesValues = selectedValues.length === 0 || 
+                    selectedValues.some(value => Array.isArray(profile.values?.core_values_parsed) && profile.values.core_values_parsed.includes(value));
+
+                return matchesSearch && matchesArchetype && matchesDomain && matchesSubdomain && 
+                       matchesTraits && matchesCommunication && matchesSentenceStructure && matchesExpertise && matchesBackground && 
+                       matchesBehavior && matchesProblemSolving && matchesIdentifiers && matchesTemporal && matchesCollaboration && 
+                       matchesCultural && matchesPractical && matchesCommunicationNew && matchesLearning && matchesValues;
+            });
+
+            // Sort filtered results alphabetically by last name
+            filteredProfiles.sort((a, b) => getLastName(a.name).localeCompare(getLastName(b.name)));
+            
+            // Update quick navigation stats
+            updateQuickNavigationStats();
+            
+            displayProfiles();
+        }
+
+        // Event listeners removed - buttons now use onclick attributes
+
+        // Initialize view
+        currentView = 'grid';
+
+        function displayProfiles() {
+            console.log('🔄 displayProfiles called with', filteredProfiles.length, 'profiles');
+            
+            const container = document.getElementById('profiles-container');
+            // Count elements removed in new layout - counts now shown in navigation
+
+            // Remove loading message
+            const loadingElement = container.querySelector('.loading');
+            if (loadingElement) {
+                console.log('✓ Removing loading message');
+                loadingElement.remove();
+            }
+
+            // Count updates removed - counts now handled in navigation
+            
+            // Update navigation count display
+            document.getElementById('visible-count-nav').textContent = filteredProfiles.length;
+            document.getElementById('total-count-nav').textContent = allProfiles.length;
+
+            if (filteredProfiles.length === 0) {
+                console.log('⚠️ No profiles to display');
+                container.innerHTML = '<div class="no-results">No profiles match the current filters.</div>';
+                // Bulk download button removed in new layout
+                return;
+            }
+
+            console.log('✓ Rendering', filteredProfiles.length, 'profiles in', currentView, 'view');
+
+            const fragment = document.createDocumentFragment();
+            
+            if (currentView === 'grid') {
+                renderGrid(fragment);
+            } else {
+                renderList(fragment);
+            }
+            
+            container.innerHTML = '';
+            container.appendChild(fragment);
+            // Bulk download button removed in new layout
+            
+            console.log('✅ Profiles displayed successfully');
+        }
+
+        function renderGrid(fragment) {
+            const container = document.getElementById('profiles-container');
+            container.className = 'profiles-grid';
+            filteredProfiles.forEach(profile => {
+                const profileCard = document.createElement('div');
+                profileCard.className = 'profile-card';
+                profileCard.setAttribute('data-profile-name', profile.name);
+                profileCard.onclick = () => toggleProfileSelection(profile.name);
+                
+                // Generate filename from profile data
+                const filename = generateFilename(profile.name);
+                
+                // Debug subdomain display
+                if (profile.name === 'Bill Ackman') {
+                    console.log('🔍 Bill Ackman profile data:', profile);
+                    console.log('🔍 Bill Ackman sub_domain:', profile.sub_domain);
+                    console.log('🔍 Bill Ackman domain:', profile.domain);
+                }
+                
+                profileCard.innerHTML = `
+                    <div class="card-header">
+                        <div class="card-name-row">
+                            <div class="card-name">${profile.name}</div>
+                            <div class="card-selected" id="indicator-${profile.name.replace(/\s+/g, '-')}" style="display: none;">SELECTED</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="field-group">
+                                <div class="field-label">Archetype</div>
+                                <div class="field-value">${profile.archetype}</div>
+                            </div>
+                            <div class="field-group">
+                                <div class="field-label">Domain</div>
+                                <div class="field-value">${profile.domain}</div>
+                            </div>
+                            <div class="field-group">
+                                <div class="field-label">Subdomain</div>
+                                <div class="field-value">${profile.sub_domain || ''}</div>
+                            </div>
+                            <div class="field-group profile-traits">
+                                <div class="field-label">Primary Traits</div>
+                                <div class="traits-list">
+                                    ${(() => {
+                                        const traits = profile.primary_traits || profile.psychological_profile?.primary_traits;
+                                        if (!traits) return '';
+                                        const traitArray = Array.isArray(traits) ? traits : traits.split(',').map(t => t.trim());
+                                        return traitArray.map(trait => `<span class="trait-tag clickable-badge" onclick="searchByBadge('${trait.replace(/'/g, "\\'")}', event)" title="Click to find other profiles with this trait">${trait}</span>`).join('');
+                                    })()}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile-actions">
+                            <a href="profiles/${filename}" class="btn" download onclick="event.stopPropagation()">Download</a>
+                            <button class="btn" onclick="copyToClipboard('${filename}'); event.stopPropagation()">Copy</button>
+                            <button class="btn" onclick="expandProfile('${profile.name}', event); event.stopPropagation()">Details</button>
+                        </div>
+                    </div>
+                `;
+                
+                fragment.appendChild(profileCard);
+            });
+        }
+
+        function renderList(fragment) {
+            const container = document.getElementById('profiles-container');
+            container.className = 'profiles-list';
+            filteredProfiles.forEach(profile => {
+                const profileCard = document.createElement('div');
+                profileCard.className = 'profile-card';
+                profileCard.setAttribute('data-profile-name', profile.name);
+                profileCard.onclick = () => toggleProfileSelection(profile.name);
+                
+                // Generate filename from profile data
+                const filename = generateFilename(profile.name);
+                
+                profileCard.innerHTML = `
+                    <div class="profile-name">${profile.name}</div>
+                    <div class="profile-archetype">${profile.archetype}</div>
+                    <div class="profile-domain">${profile.domain}${profile.sub_domain ? ` - ${profile.sub_domain}` : ''}</div>
+                    <div class="profile-actions">
+                        <a href="profiles/${filename}" class="btn btn-primary" download onclick="event.stopPropagation()">Download</a>
+                        <button class="btn btn-secondary" onclick="copyToClipboard('${filename}'); event.stopPropagation()">Copy</button>
+                        <button class="btn btn-secondary" onclick="expandProfile('${profile.name}', event); event.stopPropagation()">Details</button>
+                    </div>
+                `;
+                
+                fragment.appendChild(profileCard);
+            });
+        }
+
+        function copyToClipboard(filename) {
+            console.log('🔄 Copying profile:', filename);
+            fetch(`profiles/${filename}`)
+                .then(response => {
+                    console.log('📡 Fetch response:', response.status);
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('📋 Profile data loaded:', data.name);
+                    navigator.clipboard.writeText(JSON.stringify(data, null, 2))
+                        .then(() => {
+                            alert('Profile copied to clipboard!');
+                        })
+                        .catch((clipError) => {
+                            console.error('📋 Clipboard error:', clipError);
+                            alert('Failed to copy to clipboard. Please try downloading instead.');
+                        });
+                })
+                .catch(error => {
+                    console.error('❌ Error copying profile:', error);
+                    alert(`Error copying profile: ${error.message}. Please try downloading instead.`);
+                });
+        }
+
+        let currentExpandedProfile = null;
+
+        // Calculate relative luminance for a hex color
+        function getLuminance(hexColor) {
+            // Remove # if present
+            const hex = hexColor.replace('#', '');
+            
+            // Convert to RGB
+            const r = parseInt(hex.substr(0, 2), 16) / 255;
+            const g = parseInt(hex.substr(2, 2), 16) / 255;
+            const b = parseInt(hex.substr(4, 2), 16) / 255;
+            
+            // Apply sRGB gamma correction
+            const rsRGB = r <= 0.03928 ? r / 12.92 : Math.pow((r + 0.055) / 1.055, 2.4);
+            const gsRGB = g <= 0.03928 ? g / 12.92 : Math.pow((g + 0.055) / 1.055, 2.4);
+            const bsRGB = b <= 0.03928 ? b / 12.92 : Math.pow((b + 0.055) / 1.055, 2.4);
+            
+            // Calculate relative luminance
+            return 0.2126 * rsRGB + 0.7152 * gsRGB + 0.0722 * bsRGB;
+        }
+        
+        // Get appropriate text color based on background luminance
+        function getTextColor(bgColor) {
+            const luminance = getLuminance(bgColor);
+            // WCAG recommends a threshold around 0.5 for optimal contrast
+            // Using 0.5 for better readability
+            return luminance > 0.5 ? '#000000' : '#FFFFFF';
+        }
+
+        // Hierarchical color system for trait categories
+        function getTraitColor(category, level = 'primary') {
+            const colorSystem = {
+                'Background & Experience': {
+                    primary: '#8B4513',
+                    secondary: '#A0522D',
+                    tertiary: '#CD853F',
+                    quaternary: '#DEB887'
+                },
+                'Behavioral Patterns': {
+                    primary: '#B8860B',
+                    secondary: '#DAA520',
+                    tertiary: '#F0E68C',
+                    quaternary: '#FFF8DC'
+                },
+                'Collaboration': {
+                    primary: '#006400',
+                    secondary: '#228B22',
+                    tertiary: '#32CD32',
+                    quaternary: '#90EE90'
+                },
+                'Communication': {
+                    primary: '#008B8B',
+                    secondary: '#20B2AA',
+                    tertiary: '#40E0D0',
+                    quaternary: '#AFEEEE'
+                },
+                'Communication Style': {
+                    primary: '#191970',
+                    secondary: '#4169E1',
+                    tertiary: '#6495ED',
+                    quaternary: '#B0C4DE'
+                },
+                'Cultural Context': {
+                    primary: '#4B0082',
+                    secondary: '#6A5ACD',
+                    tertiary: '#9370DB',
+                    quaternary: '#DDA0DD'
+                },
+                'Domain Expertise': {
+                    primary: '#8B008B',
+                    secondary: '#9932CC',
+                    tertiary: '#BA55D3',
+                    quaternary: '#DDA0DD'
+                },
+                'Learning': {
+                    primary: '#800080',
+                    secondary: '#9400D3',
+                    tertiary: '#DA70D6',
+                    quaternary: '#EE82EE'
+                },
+                'Practical Application': {
+                    primary: '#8B0000',
+                    secondary: '#DC143C',
+                    tertiary: '#F08080',
+                    quaternary: '#FFB6C1'
+                },
+                'Psychological Profile': {
+                    primary: '#B22222',
+                    secondary: '#DC143C',
+                    tertiary: '#F08080',
+                    quaternary: '#FFA07A'
+                },
+                'Temporal Context': {
+                    primary: '#FF4500',
+                    secondary: '#FF6347',
+                    tertiary: '#FF7F50',
+                    quaternary: '#FFA500'
+                },
+                'Unique Identifiers': {
+                    primary: '#DAA520',
+                    secondary: '#F4A460',
+                    tertiary: '#DEB887',
+                    quaternary: '#F5DEB3'
+                },
+                'Values': {
+                    primary: '#556B2F',
+                    secondary: '#6B8E23',
+                    tertiary: '#9ACD32',
+                    quaternary: '#ADFF2F'
+                }
+            };
+            
+            return colorSystem[category]?.[level] || '#6c757d';
+        }
+
+        function expandProfile(profileName, event) {
+            if (event) {
+                event.preventDefault();
+                event.stopPropagation();
+                event.stopImmediatePropagation();
+            }
+            console.log('🔍 expandProfile called with:', profileName);
+            const profile = allProfiles.find(p => p.name === profileName);
+            if (!profile) {
+                console.error('❌ Profile not found:', profileName);
+                console.log('Available profiles:', allProfiles.map(p => p.name).slice(0, 10));
+                return;
+            }
+            console.log('✅ Profile found:', profile.name);
+
+            // Store current profile for copy/download functions
+            currentExpandedProfile = profile;
+
+            // Update the expanded profile content
+            document.getElementById('expanded-name').textContent = profile.name;
+            document.getElementById('expanded-subtitle').textContent = `${profile.archetype} • ${profile.domain}`;
+            
+            const content = document.getElementById('expanded-content');
+            
+            // Create category cards structure
+            const categoryCards = createCategoryCards(profile);
+            content.innerHTML = categoryCards;
+            
+            // Show the modal
+            document.getElementById('expanded-profile').style.display = 'flex';
+        }
+
+        function createCategoryCards(profile) {
+            const categories = [
+                {
+                    title: 'Background & Experience',
+                    sections: [
+                        {
+                            title: 'Experience Level',
+                            traits: profile.background_context?.experience_level ? [profile.background_context.experience_level] : []
+                        },
+                        {
+                            title: 'Career Path',
+                            traits: profile.background_context?.typical_career_path ? [profile.background_context.typical_career_path] : []
+                        }
+                    ]
+                },
+                {
+                    title: 'Behavioral Patterns',
+                    sections: [
+                        {
+                            title: 'Work Style',
+                            traits: profile.behavioral_patterns?.work_style_parsed || []
+                        },
+                        {
+                            title: 'Problem Solving',
+                            traits: profile.behavioral_patterns?.problem_solving_approach_parsed || []
+                        }
+                    ]
+                },
+                {
+                    title: 'Collaboration',
+                    content: `
+                        <div class="expanded-text">
+                            <p><strong>Leadership Style:</strong> ${profile.collaboration?.leadership_style || 'N/A'}</p>
+                        </div>
+                        <div class="expanded-trait-list">
+                            ${profile.collaboration?.leadership_style_parsed?.map(style => {
+                                const bgColor = getTraitColor('Collaboration', 'primary');
+                                const textColor = getTextColor(bgColor);
+                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${style}</span>`;
+                            }).join('') || ''}
+                        </div>
+                        <div class="expanded-text" style="margin-top: 15px;">
+                            <p><strong>Team Dynamics:</strong> ${profile.collaboration?.team_dynamics || 'N/A'}</p>
+                        </div>
+                        <div class="expanded-trait-list">
+                            ${profile.collaboration?.team_dynamics_parsed?.map(dynamic => {
+                                const bgColor = getTraitColor('Collaboration', 'secondary');
+                                const textColor = getTextColor(bgColor);
+                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${dynamic}</span>`;
+                            }).join('') || ''}
+                        </div>
+                        <div class="expanded-text" style="margin-top: 15px;">
+                            <p><strong>Mentorship Approach:</strong> ${profile.collaboration?.mentorship_approach || 'N/A'}</p>
+                        </div>
+                        <div class="expanded-trait-list">
+                            ${profile.collaboration?.mentorship_approach_parsed?.map(approach => {
+                                const bgColor = getTraitColor('Collaboration', 'tertiary');
+                                const textColor = getTextColor(bgColor);
+                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${approach}</span>`;
+                            }).join('') || ''}
+                        </div>
+                        <div class="expanded-text" style="margin-top: 15px;">
+                            <p><strong>Conflict Resolution:</strong> ${profile.collaboration?.conflict_resolution || 'N/A'}</p>
+                        </div>
+                        <div class="expanded-trait-list">
+                            ${profile.collaboration?.conflict_resolution_parsed?.map(resolution => {
+                                const bgColor = getTraitColor('Collaboration', 'quaternary');
+                                const textColor = getTextColor(bgColor);
+                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${resolution}</span>`;
+                            }).join('') || ''}
+                        </div>
+                    `
+                },
+                {
+                    title: 'Communication',
+                    content: `
+                        <div class="expanded-text">
+                            <p><strong>Audience Adaptation:</strong> ${profile.communication?.audience_adaptation || 'N/A'}</p>
+                        </div>
+                        <div class="expanded-trait-list">
+                            ${profile.communication?.audience_adaptation_parsed?.map(adaptation => {
+                                const bgColor = getTraitColor('Communication', 'primary');
+                                const textColor = getTextColor(bgColor);
+                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${adaptation}</span>`;
+                            }).join('') || ''}
+                        </div>
+                        <div class="expanded-text" style="margin-top: 15px;">
+                            <p><strong>Media Preferences:</strong> ${profile.communication?.media_preferences || 'N/A'}</p>
+                            <p><strong>Influence Strategies:</strong> ${profile.communication?.influence_strategies || 'N/A'}</p>
+                        </div>
+                    `
+                },
+                {
+                    title: 'Communication Style',
+                    content: `
+                        <div class="expanded-text">
+                            <p><strong>Tone:</strong> ${profile.communication_style?.tone || 'N/A'}</p>
+                        </div>
+                        <div class="expanded-trait-list">
+                            ${profile.communication_style?.tone_parsed?.map(term => {
+                                const bgColor = getTraitColor('Communication Style', 'primary');
+                                const textColor = getTextColor(bgColor);
+                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${term}</span>`;
+                            }).join('') || ''}
+                        </div>
+                        <div class="expanded-text" style="margin-top: 15px;">
+                            <p><strong>Sentence Structure:</strong> ${profile.communication_style?.sentence_structure || 'N/A'}</p>
+                        </div>
+                        <div class="expanded-trait-list">
+                            ${profile.communication_style?.sentence_structure_parsed?.map(structure => {
+                                const bgColor = getTraitColor('Communication Style', 'secondary');
+                                const textColor = getTextColor(bgColor);
+                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${structure}</span>`;
+                            }).join('') || ''}
+                        </div>
+                        <div class="expanded-text" style="margin-top: 15px;">
+                            <p><strong>Vocabulary Patterns:</strong></p>
+                        <div class="expanded-trait-list">
+                            ${(() => {
+                                const patterns = profile.communication_style?.vocabulary_patterns;
+                                if (!patterns) return '';
+                                const patternArray = Array.isArray(patterns) ? patterns : patterns.split(',').map(p => p.trim());
+                                const bgColor = getTraitColor('Communication Style', 'tertiary');
+                                const textColor = getTextColor(bgColor);
+                                return patternArray.map(pattern => `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${pattern}</span>`).join('');
+                            })()}
+                            </div>
+                        </div>
+                    `
+                },
+                {
+                    title: 'Cultural Context',
+                    content: `
+                        <div class="expanded-text">
+                            <p><strong>Cultural Background:</strong> ${profile.cultural_context?.cultural_background || 'N/A'}</p>
+                        </div>
+                        <div class="expanded-trait-list">
+                            ${profile.cultural_context?.cultural_background_parsed?.map(background => {
+                                const bgColor = getTraitColor('Cultural Context', 'primary');
+                                const textColor = getTextColor(bgColor);
+                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${background}</span>`;
+                            }).join('') || ''}
+                        </div>
+                        <div class="expanded-text" style="margin-top: 15px;">
+                            <p><strong>Geographic Influence:</strong> ${profile.cultural_context?.geographic_influence || 'N/A'}</p>
+                            <p><strong>Generational Perspective:</strong> ${profile.cultural_context?.generational_perspective || 'N/A'}</p>
+                        </div>
+                    `
+                },
+                {
+                    title: 'Domain Expertise',
+                    content: `
+                        <div class="expanded-text">
+                            <p><strong>Subdomain:</strong> ${profile.sub_domain || 'N/A'}</p>
+                        </div>
+                        <div class="expanded-trait-list">
+                            ${(() => {
+                                const competencies = profile.domain_expertise?.core_competencies;
+                                if (!competencies) return '';
+                                const competencyArray = Array.isArray(competencies) ? competencies : competencies.split(',').map(c => c.trim());
+                                const bgColor = getTraitColor('Domain Expertise', 'primary');
+                                const textColor = getTextColor(bgColor);
+                                return competencyArray.map(competency => `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${competency}</span>`).join('');
+                            })()}
+                        </div>
+                    `
+                },
+                {
+                    title: 'Learning',
+                    content: `
+                        <div class="expanded-text">
+                            <p><strong>Learning Style:</strong> ${profile.learning?.learning_style || 'N/A'}</p>
+                        </div>
+                        <div class="expanded-trait-list">
+                            ${profile.learning?.learning_style_parsed?.map(style => {
+                                const bgColor = getTraitColor('Learning', 'primary');
+                                const textColor = getTextColor(bgColor);
+                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${style}</span>`;
+                            }).join('') || ''}
+                        </div>
+                        <div class="expanded-text" style="margin-top: 15px;">
+                            <p><strong>Adaptation Speed:</strong> ${profile.learning?.adaptation_speed || 'N/A'}</p>
+                            <p><strong>Failure Response:</strong> ${profile.learning?.failure_response || 'N/A'}</p>
+                        </div>
+                    `
+                },
+                {
+                    title: 'Practical Application',
+                    content: `
+                        <div class="expanded-text">
+                            <p><strong>Decision Speed:</strong> ${profile.practical_application?.decision_speed || 'N/A'}</p>
+                        </div>
+                        <div class="expanded-trait-list">
+                            ${profile.practical_application?.decision_speed_parsed?.map(speed => {
+                                const bgColor = getTraitColor('Practical Application', 'primary');
+                                const textColor = getTextColor(bgColor);
+                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${speed}</span>`;
+                            }).join('') || ''}
+                        </div>
+                        <div class="expanded-text" style="margin-top: 15px;">
+                            <p><strong>Risk Tolerance:</strong> ${profile.practical_application?.risk_tolerance || 'N/A'}</p>
+                            <p><strong>Innovation vs Optimization:</strong> ${profile.practical_application?.innovation_vs_optimization || 'N/A'}</p>
+                            <p><strong>Scale Preferences:</strong> ${profile.practical_application?.scale_preferences || 'N/A'}</p>
+                        </div>
+                    `
+                },
+                {
+                    title: 'Psychological Profile',
+                    content: `
+                        <div class="expanded-text">
+                            <p><strong>Cognitive Style:</strong> ${profile.psychological_profile?.cognitive_style || 'N/A'}</p>
+                            <p><strong>Decision Making Framework:</strong> ${profile.psychological_profile?.decision_making_framework || 'N/A'}</p>
+                        </div>
+                        <div class="expanded-trait-list">
+                            ${(() => {
+                                const traits = profile.psychological_profile?.primary_traits;
+                                if (!traits) return '';
+                                const traitArray = Array.isArray(traits) ? traits : traits.split(',').map(t => t.trim());
+                                return traitArray.map(trait => `<span class="expanded-trait">${trait}</span>`).join('');
+                            })()}
+                        </div>
+                        <div class="expanded-text" style="margin-top: 15px;">
+                            <p><strong>Core Motivations:</strong></p>
+                            <div class="expanded-trait-list">
+                                ${(() => {
+                                    const motivations = profile.psychological_profile?.core_motivations;
+                                    if (!motivations) return '';
+                                    const motivationArray = Array.isArray(motivations) ? motivations : motivations.split(',').map(m => m.trim());
+                                    const bgColor = getTraitColor('Psychological Profile', 'primary');
+                                    const textColor = getTextColor(bgColor);
+                                    return motivationArray.map(motivation => `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${motivation}</span>`).join('');
+                                })()}
+                            </div>
+                        </div>
+                    `
+                },
+                {
+                    title: 'Temporal Context',
+                    content: `
+                        <div class="expanded-text">
+                            <p><strong>Career Evolution:</strong> ${profile.temporal_context?.career_evolution || 'N/A'}</p>
+                        </div>
+                        <div class="expanded-trait-list">
+                            ${profile.temporal_context?.career_evolution_parsed?.map(evolution => {
+                                const bgColor = getTraitColor('Temporal Context', 'primary');
+                                const textColor = getTextColor(bgColor);
+                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${evolution}</span>`;
+                            }).join('') || ''}
+                        </div>
+                        <div class="expanded-text" style="margin-top: 15px;">
+                            <p><strong>Influence Timeline:</strong> ${profile.temporal_context?.influence_timeline || 'N/A'}</p>
+                        </div>
+                        <div class="expanded-trait-list">
+                            ${profile.temporal_context?.influence_timeline_parsed?.map(timeline => {
+                                const bgColor = getTraitColor('Temporal Context', 'secondary');
+                                const textColor = getTextColor(bgColor);
+                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${timeline}</span>`;
+                            }).join('') || ''}
+                        </div>
+                        <div class="expanded-text" style="margin-top: 15px;">
+                            <p><strong>Legacy Impact:</strong> ${profile.temporal_context?.legacy_impact || 'N/A'}</p>
+                        </div>
+                        <div class="expanded-trait-list">
+                            ${profile.temporal_context?.legacy_impact_parsed?.map(impact => {
+                                const bgColor = getTraitColor('Temporal Context', 'tertiary');
+                                const textColor = getTextColor(bgColor);
+                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${impact}</span>`;
+                            }).join('') || ''}
+                        </div>
+                    `
+                },
+                {
+                    title: 'Unique Identifiers',
+                    content: `
+                        <div class="expanded-trait-list">
+                            ${(() => {
+                                const methods = profile.unique_identifiers?.signature_methodologies;
+                                if (!methods) return '';
+                                const methodArray = Array.isArray(methods) ? methods : methods.split(',').map(m => m.trim());
+                                const bgColor = getTraitColor('Unique Identifiers', 'primary');
+                                const textColor = getTextColor(bgColor);
+                                return methodArray.map(method => `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${method}</span>`).join('');
+                            })()}
+                        </div>
+                    `
+                },
+                {
+                    title: 'Values',
+                    content: `
+                        <div class="expanded-text">
+                            <p><strong>Core Values:</strong> ${profile.values?.core_values || 'N/A'}</p>
+                        </div>
+                        <div class="expanded-trait-list">
+                            ${profile.values?.core_values_parsed?.map(value => {
+                                const bgColor = getTraitColor('Values', 'primary');
+                                const textColor = getTextColor(bgColor);
+                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${value}</span>`;
+                            }).join('') || ''}
+                        </div>
+                        <div class="expanded-text" style="margin-top: 15px;">
+                            <p><strong>Ethical Framework:</strong> ${profile.values?.ethical_framework || 'N/A'}</p>
+                            <p><strong>Social Responsibility:</strong> ${profile.values?.social_responsibility || 'N/A'}</p>
+                        </div>
+                    `
+                }
+            ];
+
+            // Filter out categories with no content
+            const categoriesWithContent = categories.filter(category => 
+                category.sections.some(section => section.traits.length > 0)
+            );
+
+            // Generate HTML for category cards
+            return categoriesWithContent.map(category => {
+                const categoryColor = getTraitColor(category.title, 'primary');
+                const categoryTextColor = getTextColor(categoryColor);
+                
+                return `
+                    <div class="expanded-category-card">
+                        <div class="expanded-category-header" style="background: ${categoryColor}; color: ${categoryTextColor};">
+                            ${category.title}
+                        </div>
+                        <div class="expanded-category-content">
+                            ${category.sections.filter(section => section.traits.length > 0).map(section => {
+                                const sectionColor = getTraitColor(category.title, 'secondary');
+                                const sectionTextColor = getTextColor(sectionColor);
+                                
+                                return `
+                                    <div class="expanded-section">
+                                        <div class="expanded-section-title" style="color: ${sectionColor};">
+                                            ${section.title}
+                                        </div>
+                                        <div class="expanded-trait-list">
+                                            ${section.traits.map(trait => {
+                                                const traitColor = getTraitColor(category.title, 'tertiary');
+                                                const traitTextColor = getTextColor(traitColor);
+                                                return `<span class="expanded-trait clickable-badge" style="background: ${traitColor}; color: ${traitTextColor};" onclick="searchByBadge(event, '${trait}')">${trait}</span>`;
+                                            }).join('')}
+                                        </div>
+                                    </div>
+                                `;
+                            }).join('')}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function closeExpandedProfile() {
+            document.getElementById('expanded-profile').classList.remove('show');
+            currentExpandedProfile = null;
+        }
+
+        function copyExpandedProfile() {
+            if (!currentExpandedProfile) {
+                alert('No profile selected');
+                return;
+            }
+
+            navigator.clipboard.writeText(JSON.stringify(currentExpandedProfile, null, 2))
+                .then(() => {
+                    alert('Profile copied to clipboard!');
+                })
+                .catch(() => {
+                    alert('Failed to copy to clipboard. Please try downloading instead.');
+                });
+        }
+
+        function downloadExpandedProfile() {
+            if (!currentExpandedProfile) {
+                alert('No profile selected');
+                return;
+            }
+
+            const filename = generateFilename(currentExpandedProfile.name);
+            const profileData = JSON.stringify(currentExpandedProfile, null, 2);
+            const blob = new Blob([profileData], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = filename;
+            link.click();
+            
+            URL.revokeObjectURL(url);
+        }
+
+        // Wait for DOM to be ready before initializing
+        console.log('🔄 Script loaded and executing...');
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🔄 DOM Content Loaded');
+            loadProfiles();
+            
+            // Add event listeners after DOM is ready
+            document.getElementById('compare-btn').addEventListener('click', showComparison);
+            document.getElementById('clear-comparison-btn').addEventListener('click', clearComparison);
+            document.getElementById('close-comparison-btn').addEventListener('click', hideComparison);
+        });
+
+        function clearAllFilters() {
+            const selects = document.querySelectorAll('select');
+            selects.forEach(select => {
+                if (select.multiple) {
+                    Array.from(select.options).forEach(option => option.selected = false);
+                } else {
+                    select.selectedIndex = 0;
+                }
+            });
+
+            document.getElementById('search-filter').value = '';
+            activeSuperFilter = null;
+            updateSuperFilterButtons();
+            
+            // Restore all filter options to their original state
+            restoreAllFilterOptions();
+            filterProfiles();
+        }
+
+        function restoreAllFilterOptions() {
+            console.log('🔄 Restoring all filter options...');
+            
+            if (!allProfiles || allProfiles.length === 0) {
+                console.log('⚠️ No profiles loaded yet, skipping filter restoration');
+                return;
+            }
+            
+            const filters = {
+                'archetype-filter': 'archetype',
+                'domain-filter': 'domain',
+                'subdomain-filter': 'sub_domain',
+                'trait-filter': 'psychological_profile.primary_traits',
+                'communication-filter': 'communication_style.tone_parsed',
+                'sentence-structure-filter': 'communication_style.sentence_structure_parsed',
+                'expertise-filter': 'domain_expertise.core_competencies',
+                'background-filter': 'background_context.experience_level',
+                'behavior-filter': 'behavioral_patterns.work_style_parsed',
+                'problem-solving-filter': 'behavioral_patterns.problem_solving_approach',
+                'identifier-filter': 'unique_identifiers.signature_methodologies',
+                'temporal-filter': 'temporal_context.career_evolution',
+                'collaboration-filter': 'collaboration.leadership_style',
+                'cultural-filter': 'cultural_context.cultural_background',
+                'practical-filter': 'practical_application.decision_speed',
+                'communication-new-filter': 'communication.audience_adaptation',
+                'learning-filter': 'learning.learning_style',
+                'values-filter': 'values.core_values'
+            };
+
+            // Restore each filter with all available options from all profiles
+            Object.entries(filters).forEach(([filterId, dataPath]) => {
+                const filter = document.getElementById(filterId);
+                if (!filter) return;
+
+                // Clear existing options
+                filter.innerHTML = '';
+
+                // Get all unique values from all profiles for this field
+                const allValues = new Set();
+                allProfiles.forEach(profile => {
+                    const value = getNestedValue(profile, dataPath);
+                    if (value) {
+                        if (Array.isArray(value)) {
+                            value.forEach(v => allValues.add(v));
+                        } else {
+                            allValues.add(value);
+                        }
+                    }
+                });
+
+                // Add all unique values as options
+                Array.from(allValues).sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase())).forEach(value => {
+                    const option = document.createElement('option');
+                    option.value = value;
+                    
+                    option.textContent = value;
+                    
+                    filter.appendChild(option);
+                });
+            });
+            
+            console.log('✅ All filter options restored');
+        }
+
+        function exportFilteredProfiles() {
+            if (filteredProfiles.length === 0) {
+                alert('No profiles to export.');
+                return;
+            }
+
+            if (filteredProfiles.length === 1) {
+                const profile = filteredProfiles[0];
+                const filename = generateFilename(profile.name);
+                const link = document.createElement('a');
+                link.href = `profiles/${filename}`;
+                link.download = filename;
+                link.click();
+                return;
+            }
+
+            const zip = new JSZip();
+            
+            filteredProfiles.forEach(profile => {
+                const filename = generateFilename(profile.name);
+                const profileData = JSON.stringify(profile, null, 2);
+                zip.file(filename, profileData);
+            });
+
+            zip.generateAsync({type: 'blob'}).then(content => {
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(content);
+                link.download = `profiles-${filteredProfiles.length}-files.zip`;
+                link.click();
+            });
+        }
+
+        let selectedProfiles = [];
+        let activeSuperFilter = null;
+
+        // Initialize button states on page load
+        updateComparisonUI();
+
+        function toggleProfileSelection(profileName) {
+            const index = selectedProfiles.findIndex(p => p.name === profileName);
+            const indicator = document.getElementById(`indicator-${profileName.replace(/\s+/g, '-')}`);
+            const profileCard = document.querySelector(`[data-profile-name="${profileName}"]`);
+            
+            if (index === -1) {
+                if (selectedProfiles.length >= 3) {
+                    alert('You can only select up to 3 profiles for comparison.');
+                    return;
+                }
+                const profile = allProfiles.find(p => p.name === profileName);
+                selectedProfiles.push(profile);
+                indicator.style.display = 'inline';
+                if (profileCard) profileCard.classList.add('selected');
+            } else {
+                selectedProfiles.splice(index, 1);
+                indicator.style.display = 'none';
+                if (profileCard) profileCard.classList.remove('selected');
+            }
+            
+            updateComparisonUI();
+        }
+
+        function updateComparisonUI() {
+            const count = selectedProfiles.length;
+            document.getElementById('comparison-count').textContent = count;
+            document.getElementById('compare-btn').disabled = count < 2;
+            
+            // Update download and clear button states
+            document.getElementById('download-btn').disabled = count === 0;
+            document.getElementById('clear-btn').disabled = count === 0;
+            
+            if (count > 0) {
+                document.getElementById('comparison-panel').classList.add('show');
+            } else {
+                document.getElementById('comparison-panel').classList.remove('show');
+            }
+        }
+
+        function showComparison() {
+            const content = document.getElementById('comparison-content');
+            content.innerHTML = selectedProfiles.map(profile => `
+                <div class="comparison-profile">
+                    <h4>${profile.name}</h4>
+                    <p><strong>Archetype:</strong> ${profile.archetype}</p>
+                    <p><strong>Domain:</strong> ${profile.domain}</p>
+                    <p><strong>Name:</strong> ${profile.name}</p>
+                </div>
+            `).join('');
+        }
+
+        function clearComparison() {
+            selectedProfiles = [];
+            document.querySelectorAll('.card-selected').forEach(indicator => {
+                indicator.style.display = 'none';
+            });
+            document.querySelectorAll('.profile-card').forEach(card => {
+                card.classList.remove('selected');
+            });
+            updateComparisonUI();
+        }
+
+        function hideComparison() {
+            document.getElementById('comparison-panel').classList.remove('show');
+        }
+
+        // Toggle filters on mobile
+        function toggleFilters() {
+            const filters = document.querySelector('.filters');
+            const toggleBtn = document.querySelector('.mobile-menu-toggle');
+            
+            if (filters.classList.contains('show')) {
+                filters.classList.remove('show');
+                toggleBtn.textContent = '☰ Filters';
+            } else {
+                filters.classList.add('show');
+                toggleBtn.textContent = '✕ Close';
+            }
+        }
+
+        // Toggle view between grid and list
+        function toggleView() {
+            const desktopBtn = document.querySelector('.desktop-nav .view-toggle-single');
+            if (currentView === 'grid') {
+                currentView = 'list';
+                if (desktopBtn) {
+                    desktopBtn.textContent = 'List View';
+                    desktopBtn.className = 'view-toggle-single list-view';
+                }
+            } else {
+                currentView = 'grid';
+                if (desktopBtn) {
+                    desktopBtn.textContent = 'Grid View';
+                    desktopBtn.className = 'view-toggle-single grid-view';
+                }
+            }
+            
+            displayProfiles();
+        }
+
+        function toggleFilter(filterId) {
+            const content = document.getElementById(filterId + '-content');
+            const header = content.previousElementSibling;
+            const icon = header.querySelector('.filter-icon');
+            
+            if (content.classList.contains('active')) {
+                content.classList.remove('active');
+                icon.textContent = '+';
+            } else {
+                content.classList.add('active');
+                icon.textContent = '−';
+            }
+        }
+
+        function clearSelections() {
+            clearComparison();
+        }
+
+        function downloadSelected() {
+            exportFilteredProfiles();
+        }
+    </script>
+</body>
+</html>

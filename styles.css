@@ -1025,3 +1025,73 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
         gap: 10px;
     }
 }
+
+/* Category card styles for details modal - matching home page cards */
+.expanded-category-card {
+    background: #FEFAE0;
+    border-radius: 4px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+    border: 1px solid #E9EDC9;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.expanded-category-header {
+    background: #ccd5ae;
+    color: #283618;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.expanded-category-content {
+    flex: 1;
+}
+
+.expanded-section {
+    margin-bottom: 12px;
+}
+
+.expanded-section:last-child {
+    margin-bottom: 0;
+}
+
+.expanded-section-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #283618;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.expanded-trait-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.expanded-trait {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 1px solid #E9EDC9;
+}
+
+.expanded-trait:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.expanded-trait.clickable-badge.active {
+    border: 1px solid #283618;
+    box-shadow: 0 0 0 4px rgba(40, 54, 24, 0.1);
+}
