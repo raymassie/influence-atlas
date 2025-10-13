@@ -757,11 +757,11 @@
                 'domain-filter': 'domain',
                 'subdomain-filter': 'sub_domain',
                 'trait-filter': 'psychological_profile.primary_traits',
-                'communication-filter': 'communication_style.tone_parsed',
-                'sentence-structure-filter': 'communication_style.sentence_structure_parsed',
+                'communication-filter': 'communication_style.tone',
+                'sentence-structure-filter': 'communication_style.sentence_structure',
                 'expertise-filter': 'domain_expertise.core_competencies',
                 'background-filter': 'background_context.experience_level',
-                'behavior-filter': 'behavioral_patterns.work_style_parsed',
+                'behavior-filter': 'behavioral_patterns.work_style',
                 'problem-solving-filter': 'behavioral_patterns.problem_solving_approach',
                 'identifier-filter': 'unique_identifiers.signature_methodologies',
                 'temporal-filter': 'temporal_context.career_evolution',
@@ -844,11 +844,11 @@
                 'domain-filter': 'domain',
                 'subdomain-filter': 'sub_domain',
                 'trait-filter': 'psychological_profile.primary_traits',
-                'communication-filter': 'communication_style.tone_parsed',
-                'sentence-structure-filter': 'communication_style.sentence_structure_parsed',
+                'communication-filter': 'communication_style.tone',
+                'sentence-structure-filter': 'communication_style.sentence_structure',
                 'expertise-filter': 'domain_expertise.core_competencies',
                 'background-filter': 'background_context.experience_level',
-                'behavior-filter': 'behavioral_patterns.work_style_parsed',
+                'behavior-filter': 'behavioral_patterns.work_style',
                 'problem-solving-filter': 'behavioral_patterns.problem_solving_approach',
                 'identifier-filter': 'unique_identifiers.signature_methodologies',
                 'temporal-filter': 'temporal_context.career_evolution',
@@ -897,11 +897,11 @@
                 'domain-filter': 'domain',
                 'subdomain-filter': 'sub_domain',
                 'trait-filter': 'psychological_profile.primary_traits',
-                'communication-filter': 'communication_style.tone_parsed',
-                'sentence-structure-filter': 'communication_style.sentence_structure_parsed',
+                'communication-filter': 'communication_style.tone',
+                'sentence-structure-filter': 'communication_style.sentence_structure',
                 'expertise-filter': 'domain_expertise.core_competencies',
                 'background-filter': 'background_context.experience_level',
-                'behavior-filter': 'behavioral_patterns.work_style_parsed',
+                'behavior-filter': 'behavioral_patterns.work_style',
                 'problem-solving-filter': 'behavioral_patterns.problem_solving_approach',
                 'identifier-filter': 'unique_identifiers.signature_methodologies',
                 'temporal-filter': 'temporal_context.career_evolution',
@@ -998,11 +998,11 @@
                 'domain-filter': 'domain',
                 'subdomain-filter': 'sub_domain',
                 'trait-filter': 'psychological_profile.primary_traits',
-                'communication-filter': 'communication_style.tone_parsed',
-                'sentence-structure-filter': 'communication_style.sentence_structure_parsed',
+                'communication-filter': 'communication_style.tone',
+                'sentence-structure-filter': 'communication_style.sentence_structure',
                 'expertise-filter': 'domain_expertise.core_competencies',
                 'background-filter': 'background_context.experience_level',
-                'behavior-filter': 'behavioral_patterns.work_style_parsed',
+                'behavior-filter': 'behavioral_patterns.work_style',
                 'problem-solving-filter': 'behavioral_patterns.problem_solving_approach',
                 'identifier-filter': 'unique_identifiers.signature_methodologies',
                 'temporal-filter': 'temporal_context.career_evolution',
@@ -1752,6 +1752,298 @@
             return colorSystem[category]?.[level] || '#6c757d';
         }
 
+        function createCategoryCards(profile) {
+            // Define category structure with their respective sections
+            const categories = [
+                {
+                    title: 'Background & Experience',
+                    category: 'Background & Experience',
+                    sections: [
+                        { title: 'EXPERIENCE LEVEL', field: 'background_context.experience_level' },
+                        { title: 'CAREER STAGE', field: 'background_context.career_stage' },
+                        { title: 'EDUCATIONAL BACKGROUND', field: 'background_context.educational_background' },
+                        { title: 'INFERRED OCCUPATIONS', field: 'background_context.wikipedia_enrichment.inferred_occupations' },
+                        { title: 'ACHIEVEMENT INDICATORS', field: 'background_context.wikipedia_enrichment.achievement_indicators' },
+                        { title: 'INFLUENCE INDICATORS', field: 'background_context.wikipedia_enrichment.influence_indicators' },
+                        { title: 'EDUCATION INDICATORS', field: 'background_context.wikipedia_enrichment.education_indicators' },
+                        { title: 'SUCCESS METRICS', field: 'background_context.success_metrics' },
+                        { title: 'PAIN POINTS', field: 'background_context.pain_points' },
+                        { title: 'NOTABLE ACHIEVEMENTS', field: 'background_context.notable_achievements' }
+                    ]
+                },
+                {
+                    title: 'Behavioral Patterns',
+                    category: 'Behavioral Patterns',
+                    sections: [
+                        { title: 'WORK STYLE', field: 'behavioral_patterns.work_style' },
+                        { title: 'PROBLEM SOLVING APPROACH', field: 'behavioral_patterns.problem_solving_approach' },
+                        { title: 'DECISION MAKING', field: 'behavioral_patterns.decision_making' },
+                        { title: 'LEARNING PREFERENCES', field: 'behavioral_patterns.learning_preferences' },
+                        { title: 'NETWORKING STYLE', field: 'behavioral_patterns.networking_style' },
+                        { title: 'CONTENT CONSUMPTION', field: 'behavioral_patterns.content_consumption' }
+                    ]
+                },
+                {
+                    title: 'Behavioral Growth',
+                    category: 'Behavioral Growth',
+                    sections: [
+                        { title: 'ADAPTATION PATTERNS', field: 'behavioral_growth.adaptation_patterns' },
+                        { title: 'FEEDBACK INTEGRATION', field: 'behavioral_growth.feedback_integration' },
+                        { title: 'RESILIENCE INDICATORS', field: 'behavioral_growth.resilience_indicators' }
+                    ]
+                },
+                {
+                    title: 'Bias Awareness',
+                    category: 'Bias Awareness',
+                    sections: [
+                        { title: 'DECISION MAKING STYLE', field: 'bias_awareness.decision_making_style' },
+                        { title: 'PRIMARY BIASES', field: 'bias_awareness.primary_biases' },
+                        { title: 'BIAS MITIGATION STRATEGIES', field: 'bias_awareness.bias_mitigation_strategies' }
+                    ]
+                },
+                {
+                    title: 'Cognitive Humanism',
+                    category: 'Cognitive Humanism',
+                    sections: [
+                        { title: 'HUMAN CENTERED THINKING', field: 'cognitive_humanism.human_centered_thinking' },
+                        { title: 'ETHICAL FRAMEWORK', field: 'cognitive_humanism.ethical_framework' },
+                        { title: 'EMPATHY EXPRESSION', field: 'cognitive_humanism.empathy_expression' }
+                    ]
+                },
+                {
+                    title: 'Collaboration',
+                    category: 'Collaboration',
+                    sections: [
+                        { title: 'LEADERSHIP STYLE', field: 'collaboration.leadership_style' },
+                        { title: 'TEAM DYNAMICS', field: 'collaboration.team_dynamics' },
+                        { title: 'CONFLICT RESOLUTION', field: 'collaboration.conflict_resolution' },
+                        { title: 'MENTORSHIP APPROACH', field: 'collaboration.mentorship_approach' },
+                        { title: 'LEADERSHIP APPROACH', field: 'collaboration.leadership_approach' }
+                    ]
+                },
+                {
+                    title: 'Communication',
+                    category: 'Communication',
+                    sections: [
+                        { title: 'AUDIENCE ADAPTATION', field: 'communication.audience_adaptation' },
+                        { title: 'PERSUASION TECHNIQUES', field: 'communication.persuasion_techniques' },
+                        { title: 'MEDIA PREFERENCES', field: 'communication.media_preferences' },
+                        { title: 'INFLUENCE STRATEGIES', field: 'communication.influence_strategies' },
+                        { title: 'MESSAGE CLARITY', field: 'communication.message_clarity' }
+                    ]
+                },
+                {
+                    title: 'Communication Style',
+                    category: 'Communication Style',
+                    sections: [
+                        { title: 'VOCABULARY PATTERNS', field: 'communication_style.vocabulary_patterns' },
+                        { title: 'TONE', field: 'communication_style.tone' },
+                        { title: 'SENTENCE STRUCTURE', field: 'communication_style.sentence_structure' },
+                        { title: 'RHETORICAL STRATEGIES', field: 'communication_style.rhetorical_strategies' },
+                        { title: 'FORMALITY LEVEL', field: 'communication_style.formality_level' },
+                        { title: 'PERSUASION METHODS', field: 'communication_style.persuasion_methods' },
+                        { title: 'TYPICAL PHRASES', field: 'communication_style.typical_phrases' },
+                        { title: 'RHETORICAL DEVICES', field: 'communication_style.rhetorical_devices' }
+                    ]
+                },
+                {
+                    title: 'Cultural Context',
+                    category: 'Cultural Context',
+                    sections: [
+                        { title: 'CULTURAL BACKGROUND', field: 'cultural_context.cultural_background' },
+                        { title: 'SOCIETAL INFLUENCE', field: 'cultural_context.societal_influence' },
+                        { title: 'GEOGRAPHIC INFLUENCE', field: 'cultural_context.geographic_influence' },
+                        { title: 'GENERATIONAL PERSPECTIVE', field: 'cultural_context.generational_perspective' },
+                        { title: 'INFLUENCES', field: 'cultural_context.influences' }
+                    ]
+                },
+                {
+                    title: 'Domain Expertise',
+                    category: 'Domain Expertise',
+                    sections: [
+                        { title: 'CORE COMPETENCIES', field: 'domain_expertise.core_competencies' },
+                        { title: 'SPECIALIZED KNOWLEDGE', field: 'domain_expertise.specialized_knowledge' },
+                        { title: 'TOOLS AND PLATFORMS', field: 'domain_expertise.tools_and_platforms' },
+                        { title: 'MENTAL MODELS', field: 'domain_expertise.mental_models' },
+                        { title: 'REFERENCE FRAMEWORKS', field: 'domain_expertise.reference_frameworks' },
+                        { title: 'INDUSTRY KNOWLEDGE', field: 'domain_expertise.industry_knowledge' },
+                        { title: 'METHODOLOGIES', field: 'domain_expertise.methodologies' },
+                        { title: 'TOOLS TECHNIQUES', field: 'domain_expertise.tools_techniques' }
+                    ]
+                },
+                {
+                    title: 'Growth Motivation',
+                    category: 'Growth Motivation',
+                    sections: [
+                        { title: 'LEARNING ORIENTATION', field: 'growth_motivation.learning_orientation' },
+                        { title: 'CHALLENGE SEEKING', field: 'growth_motivation.challenge_seeking' },
+                        { title: 'INTRINSIC DRIVERS', field: 'growth_motivation.intrinsic_drivers' }
+                    ]
+                },
+                {
+                    title: 'Human Needs Hierarchy',
+                    category: 'Human Needs Hierarchy',
+                    sections: [
+                        { title: 'BELONGING EXPRESSION', field: 'human_needs_hierarchy.belonging_expression' },
+                        { title: 'ESTEEM SOURCES', field: 'human_needs_hierarchy.esteem_sources' }
+                    ]
+                },
+                {
+                    title: 'Humanistic Cognition',
+                    category: 'Humanistic Cognition',
+                    sections: [
+                        { title: 'CREATIVE PROBLEM SOLVING', field: 'humanistic_cognition.creative_problem_solving' },
+                        { title: 'HOLISTIC PERSPECTIVE', field: 'humanistic_cognition.holistic_perspective' },
+                        { title: 'COLLABORATIVE INTELLIGENCE', field: 'humanistic_cognition.collaborative_intelligence' }
+                    ]
+                },
+                {
+                    title: 'Learning',
+                    category: 'Learning',
+                    sections: [
+                        { title: 'LEARNING STYLE', field: 'learning.learning_style' },
+                        { title: 'KNOWLEDGE SHARING', field: 'learning.knowledge_sharing' },
+                        { title: 'ADAPTATION SPEED', field: 'learning.adaptation_speed' },
+                        { title: 'FAILURE RESPONSE', field: 'learning.failure_response' },
+                        { title: 'KNOWLEDGE SOURCES', field: 'learning.knowledge_sources' }
+                    ]
+                },
+                {
+                    title: 'Practical Application',
+                    category: 'Practical Application',
+                    sections: [
+                        { title: 'DECISION SPEED', field: 'practical_application.decision_speed' },
+                        { title: 'RISK TOLERANCE', field: 'practical_application.risk_tolerance' },
+                        { title: 'ADAPTABILITY', field: 'practical_application.adaptability' },
+                        { title: 'INNOVATION VS OPTIMIZATION', field: 'practical_application.innovation_vs_optimization' },
+                        { title: 'SCALE PREFERENCES', field: 'practical_application.scale_preferences' },
+                        { title: 'SCALING APPROACH', field: 'practical_application.scaling_approach' }
+                    ]
+                },
+                {
+                    title: 'Psychological Profile',
+                    category: 'Psychological Profile',
+                    sections: [
+                        { title: 'PRIMARY TRAITS', field: 'psychological_profile.primary_traits' },
+                        { title: 'CORE MOTIVATIONS', field: 'psychological_profile.core_motivations' },
+                        { title: 'BEHAVIORAL PATTERNS', field: 'psychological_profile.behavioral_patterns' },
+                        { title: 'DECISION MAKING FRAMEWORK', field: 'psychological_profile.decision_making_framework' },
+                        { title: 'STRESS RESPONSES', field: 'psychological_profile.stress_responses' },
+                        { title: 'BLIND SPOTS', field: 'psychological_profile.blind_spots' },
+                        { title: 'LEARNING STYLE', field: 'psychological_profile.learning_style' },
+                        { title: 'COGNITIVE STYLE', field: 'psychological_profile.cognitive_style' },
+                        { title: 'DECISION MAKING STYLE', field: 'psychological_profile.decision_making_style' }
+                    ]
+                },
+                {
+                    title: 'Self Actualization',
+                    category: 'Self Actualization',
+                    sections: [
+                        { title: 'PEAK EXPERIENCES', field: 'self_actualization_indicators.peak_experiences' },
+                        { title: 'AUTONOMY EXPRESSION', field: 'self_actualization_indicators.autonomy_expression' },
+                        { title: 'PURPOSE ALIGNMENT', field: 'self_actualization_indicators.purpose_alignment' }
+                    ]
+                },
+                {
+                    title: 'Temporal Context',
+                    category: 'Temporal Context',
+                    sections: [
+                        { title: 'CAREER EVOLUTION', field: 'temporal_context.career_evolution' },
+                        { title: 'INFLUENCE TIMELINE', field: 'temporal_context.influence_timeline' },
+                        { title: 'LEGACY IMPACT', field: 'temporal_context.legacy_impact' }
+                    ]
+                },
+                {
+                    title: 'Unique Identifiers',
+                    category: 'Unique Identifiers',
+                    sections: [
+                        { title: 'SIGNATURE METHODOLOGIES', field: 'unique_identifiers.signature_methodologies' },
+                        { title: 'CONTRARIAN BELIEFS', field: 'unique_identifiers.contrarian_beliefs' },
+                        { title: 'PET PEEVES', field: 'unique_identifiers.pet_peeves' },
+                        { title: 'ASPIRATIONAL REFERENCES', field: 'unique_identifiers.aspirational_references' },
+                        { title: 'DISTINCTIVE QUIRKS', field: 'unique_identifiers.distinctive_quirks' },
+                        { title: 'DISTINCTIVE APPROACHES', field: 'unique_identifiers.distinctive_approaches' }
+                    ]
+                },
+                {
+                    title: 'Values',
+                    category: 'Values',
+                    sections: [
+                        { title: 'CORE VALUES', field: 'values.core_values' },
+                        { title: 'PROFESSIONAL PRINCIPLES', field: 'values.professional_principles' },
+                        { title: 'ETHICAL FRAMEWORK', field: 'values.ethical_framework' },
+                        { title: 'ETHICAL PRINCIPLES', field: 'values.ethical_principles' },
+                        { title: 'SOCIAL RESPONSIBILITY', field: 'values.social_responsibility' }
+                    ]
+                }
+            ];
+
+            // Helper function to get nested field value
+            function getFieldValue(obj, path) {
+                return path.split('.').reduce((acc, part) => acc?.[part], obj);
+            }
+
+            // Generate HTML for all category cards
+            let html = '';
+            
+            categories.forEach(category => {
+                // Filter out empty sections
+                const populatedSections = category.sections
+                    .map(section => {
+                        const value = getFieldValue(profile, section.field);
+                        return { ...section, value };
+                    })
+                    .filter(section => {
+                        if (!section.value) return false;
+                        if (Array.isArray(section.value)) return section.value.length > 0;
+                        if (typeof section.value === 'string') return section.value.trim() !== '';
+                        return true;
+                    });
+
+                // Skip category if all sections are empty
+                if (populatedSections.length === 0) return;
+
+                // Start category card
+                html += `<div class="expanded-category-card">`;
+                html += `<div class="expanded-category-header">${category.title}</div>`;
+                html += `<div class="expanded-category-content">`;
+
+                // Add each section
+                populatedSections.forEach((section, index) => {
+                    const levelIndex = index % 4; // Cycle through 4 color levels
+                    const levels = ['primary', 'secondary', 'tertiary', 'quaternary'];
+                    const bgColor = getTraitColor(category.category, levels[levelIndex]);
+                    const textColor = getTextColor(bgColor);
+
+                    html += `<div class="expanded-section">`;
+                    html += `<div class="expanded-section-title">${section.title}</div>`;
+                    html += `<div class="expanded-trait-list">`;
+
+                    // Handle different value types
+                    if (Array.isArray(section.value)) {
+                        section.value.forEach(item => {
+                            html += `<span class="expanded-trait clickable-badge" style="background: ${bgColor}; color: ${textColor};" onclick="searchByBadge('${item.replace(/'/g, "\\'")}', event)">${item}</span>`;
+                        });
+                    } else if (typeof section.value === 'string') {
+                        // Check if it's a comma-separated string
+                        const items = section.value.includes(',') 
+                            ? section.value.split(',').map(s => s.trim()).filter(s => s)
+                            : [section.value];
+                        
+                        items.forEach(item => {
+                            html += `<span class="expanded-trait clickable-badge" style="background: ${bgColor}; color: ${textColor};" onclick="searchByBadge('${item.replace(/'/g, "\\'")}', event)">${item}</span>`;
+                        });
+                    }
+
+                    html += `</div></div>`; // close expanded-trait-list and expanded-section
+                });
+
+                html += `</div></div>`; // close expanded-category-content and expanded-category-card
+            });
+
+            return html;
+        }
+
         function expandProfile(profileName, event) {
             if (event) {
                 event.preventDefault();
@@ -1776,328 +2068,9 @@
             
             const content = document.getElementById('expanded-content');
             
-            // Define all sections in alphabetical order
-            const sections = [
-                {
-                    title: 'Background & Experience',
-                    content: `
-                        <div class="expanded-text">
-                            <p><strong>Experience Level:</strong> ${profile.background_context?.experience_level || 'N/A'}</p>
-                            <p><strong>Typical Career Path:</strong> ${profile.background_context?.typical_career_path || 'N/A'}</p>
-                        </div>
-                    `
-                },
-                {
-                    title: 'Behavioral Patterns',
-                    content: `
-                        <div class="expanded-text">
-                            <p><strong>Work Style:</strong> ${profile.behavioral_patterns?.work_style || 'N/A'}</p>
-                        </div>
-                        <div class="expanded-trait-list">
-                            ${profile.behavioral_patterns?.work_style_parsed?.map(style => {
-                                const bgColor = getTraitColor('Behavioral Patterns', 'primary');
-                                const textColor = getTextColor(bgColor);
-                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${style}</span>`;
-                            }).join('') || ''}
-                        </div>
-                        <div class="expanded-text" style="margin-top: 15px;">
-                            <p><strong>Problem Solving Approach:</strong> ${profile.behavioral_patterns?.problem_solving_approach || 'N/A'}</p>
-                        </div>
-                        <div class="expanded-trait-list">
-                            ${profile.behavioral_patterns?.problem_solving_approach_parsed?.map(approach => {
-                                const bgColor = getTraitColor('Behavioral Patterns', 'secondary');
-                                const textColor = getTextColor(bgColor);
-                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${approach}</span>`;
-                            }).join('') || ''}
-                        </div>
-                    `
-                },
-                {
-                    title: 'Collaboration',
-                    content: `
-                        <div class="expanded-text">
-                            <p><strong>Leadership Style:</strong> ${profile.collaboration?.leadership_style || 'N/A'}</p>
-                        </div>
-                        <div class="expanded-trait-list">
-                            ${profile.collaboration?.leadership_style_parsed?.map(style => {
-                                const bgColor = getTraitColor('Collaboration', 'primary');
-                                const textColor = getTextColor(bgColor);
-                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${style}</span>`;
-                            }).join('') || ''}
-                        </div>
-                        <div class="expanded-text" style="margin-top: 15px;">
-                            <p><strong>Team Dynamics:</strong> ${profile.collaboration?.team_dynamics || 'N/A'}</p>
-                        </div>
-                        <div class="expanded-trait-list">
-                            ${profile.collaboration?.team_dynamics_parsed?.map(dynamic => {
-                                const bgColor = getTraitColor('Collaboration', 'secondary');
-                                const textColor = getTextColor(bgColor);
-                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${dynamic}</span>`;
-                            }).join('') || ''}
-                        </div>
-                        <div class="expanded-text" style="margin-top: 15px;">
-                            <p><strong>Mentorship Approach:</strong> ${profile.collaboration?.mentorship_approach || 'N/A'}</p>
-                        </div>
-                        <div class="expanded-trait-list">
-                            ${profile.collaboration?.mentorship_approach_parsed?.map(approach => {
-                                const bgColor = getTraitColor('Collaboration', 'tertiary');
-                                const textColor = getTextColor(bgColor);
-                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${approach}</span>`;
-                            }).join('') || ''}
-                        </div>
-                        <div class="expanded-text" style="margin-top: 15px;">
-                            <p><strong>Conflict Resolution:</strong> ${profile.collaboration?.conflict_resolution || 'N/A'}</p>
-                        </div>
-                        <div class="expanded-trait-list">
-                            ${profile.collaboration?.conflict_resolution_parsed?.map(resolution => {
-                                const bgColor = getTraitColor('Collaboration', 'quaternary');
-                                const textColor = getTextColor(bgColor);
-                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${resolution}</span>`;
-                            }).join('') || ''}
-                        </div>
-                    `
-                },
-                {
-                    title: 'Communication',
-                    content: `
-                        <div class="expanded-text">
-                            <p><strong>Audience Adaptation:</strong> ${profile.communication?.audience_adaptation || 'N/A'}</p>
-                        </div>
-                        <div class="expanded-trait-list">
-                            ${profile.communication?.audience_adaptation_parsed?.map(adaptation => {
-                                const bgColor = getTraitColor('Communication', 'primary');
-                                const textColor = getTextColor(bgColor);
-                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${adaptation}</span>`;
-                            }).join('') || ''}
-                        </div>
-                        <div class="expanded-text" style="margin-top: 15px;">
-                            <p><strong>Media Preferences:</strong> ${profile.communication?.media_preferences || 'N/A'}</p>
-                            <p><strong>Influence Strategies:</strong> ${profile.communication?.influence_strategies || 'N/A'}</p>
-                        </div>
-                    `
-                },
-                {
-                    title: 'Communication Style',
-                    content: `
-                        <div class="expanded-text">
-                            <p><strong>Tone:</strong> ${profile.communication_style?.tone || 'N/A'}</p>
-                        </div>
-                        <div class="expanded-trait-list">
-                            ${profile.communication_style?.tone_parsed?.map(term => {
-                                const bgColor = getTraitColor('Communication Style', 'primary');
-                                const textColor = getTextColor(bgColor);
-                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${term}</span>`;
-                            }).join('') || ''}
-                        </div>
-                        <div class="expanded-text" style="margin-top: 15px;">
-                            <p><strong>Sentence Structure:</strong> ${profile.communication_style?.sentence_structure || 'N/A'}</p>
-                        </div>
-                        <div class="expanded-trait-list">
-                            ${profile.communication_style?.sentence_structure_parsed?.map(structure => {
-                                const bgColor = getTraitColor('Communication Style', 'secondary');
-                                const textColor = getTextColor(bgColor);
-                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${structure}</span>`;
-                            }).join('') || ''}
-                        </div>
-                        <div class="expanded-text" style="margin-top: 15px;">
-                            <p><strong>Vocabulary Patterns:</strong></p>
-                        <div class="expanded-trait-list">
-                            ${(() => {
-                                const patterns = profile.communication_style?.vocabulary_patterns;
-                                if (!patterns) return '';
-                                const patternArray = Array.isArray(patterns) ? patterns : patterns.split(',').map(p => p.trim());
-                                const bgColor = getTraitColor('Communication Style', 'tertiary');
-                                const textColor = getTextColor(bgColor);
-                                return patternArray.map(pattern => `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${pattern}</span>`).join('');
-                            })()}
-                            </div>
-                        </div>
-                    `
-                },
-                {
-                    title: 'Cultural Context',
-                    content: `
-                        <div class="expanded-text">
-                            <p><strong>Cultural Background:</strong> ${profile.cultural_context?.cultural_background || 'N/A'}</p>
-                        </div>
-                        <div class="expanded-trait-list">
-                            ${profile.cultural_context?.cultural_background_parsed?.map(background => {
-                                const bgColor = getTraitColor('Cultural Context', 'primary');
-                                const textColor = getTextColor(bgColor);
-                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${background}</span>`;
-                            }).join('') || ''}
-                        </div>
-                        <div class="expanded-text" style="margin-top: 15px;">
-                            <p><strong>Geographic Influence:</strong> ${profile.cultural_context?.geographic_influence || 'N/A'}</p>
-                            <p><strong>Generational Perspective:</strong> ${profile.cultural_context?.generational_perspective || 'N/A'}</p>
-                        </div>
-                    `
-                },
-                {
-                    title: 'Domain Expertise',
-                    content: `
-                        <div class="expanded-text">
-                            <p><strong>Subdomain:</strong> ${profile.sub_domain || 'N/A'}</p>
-                        </div>
-                        <div class="expanded-trait-list">
-                            ${(() => {
-                                const competencies = profile.domain_expertise?.core_competencies;
-                                if (!competencies) return '';
-                                const competencyArray = Array.isArray(competencies) ? competencies : competencies.split(',').map(c => c.trim());
-                                const bgColor = getTraitColor('Domain Expertise', 'primary');
-                                const textColor = getTextColor(bgColor);
-                                return competencyArray.map(competency => `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${competency}</span>`).join('');
-                            })()}
-                        </div>
-                    `
-                },
-                {
-                    title: 'Learning',
-                    content: `
-                        <div class="expanded-text">
-                            <p><strong>Learning Style:</strong> ${profile.learning?.learning_style || 'N/A'}</p>
-                        </div>
-                        <div class="expanded-trait-list">
-                            ${profile.learning?.learning_style_parsed?.map(style => {
-                                const bgColor = getTraitColor('Learning', 'primary');
-                                const textColor = getTextColor(bgColor);
-                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${style}</span>`;
-                            }).join('') || ''}
-                        </div>
-                        <div class="expanded-text" style="margin-top: 15px;">
-                            <p><strong>Adaptation Speed:</strong> ${profile.learning?.adaptation_speed || 'N/A'}</p>
-                            <p><strong>Failure Response:</strong> ${profile.learning?.failure_response || 'N/A'}</p>
-                        </div>
-                    `
-                },
-                {
-                    title: 'Practical Application',
-                    content: `
-                        <div class="expanded-text">
-                            <p><strong>Decision Speed:</strong> ${profile.practical_application?.decision_speed || 'N/A'}</p>
-                        </div>
-                        <div class="expanded-trait-list">
-                            ${profile.practical_application?.decision_speed_parsed?.map(speed => {
-                                const bgColor = getTraitColor('Practical Application', 'primary');
-                                const textColor = getTextColor(bgColor);
-                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${speed}</span>`;
-                            }).join('') || ''}
-                        </div>
-                        <div class="expanded-text" style="margin-top: 15px;">
-                            <p><strong>Risk Tolerance:</strong> ${profile.practical_application?.risk_tolerance || 'N/A'}</p>
-                            <p><strong>Innovation vs Optimization:</strong> ${profile.practical_application?.innovation_vs_optimization || 'N/A'}</p>
-                            <p><strong>Scale Preferences:</strong> ${profile.practical_application?.scale_preferences || 'N/A'}</p>
-                        </div>
-                    `
-                },
-                {
-                    title: 'Psychological Profile',
-                    content: `
-                        <div class="expanded-text">
-                            <p><strong>Cognitive Style:</strong> ${profile.psychological_profile?.cognitive_style || 'N/A'}</p>
-                            <p><strong>Decision Making Framework:</strong> ${profile.psychological_profile?.decision_making_framework || 'N/A'}</p>
-                        </div>
-                        <div class="expanded-trait-list">
-                            ${(() => {
-                                const traits = profile.psychological_profile?.primary_traits;
-                                if (!traits) return '';
-                                const traitArray = Array.isArray(traits) ? traits : traits.split(',').map(t => t.trim());
-                                return traitArray.map(trait => `<span class="expanded-trait">${trait}</span>`).join('');
-                            })()}
-                        </div>
-                        <div class="expanded-text" style="margin-top: 15px;">
-                            <p><strong>Core Motivations:</strong></p>
-                            <div class="expanded-trait-list">
-                                ${(() => {
-                                    const motivations = profile.psychological_profile?.core_motivations;
-                                    if (!motivations) return '';
-                                    const motivationArray = Array.isArray(motivations) ? motivations : motivations.split(',').map(m => m.trim());
-                                    const bgColor = getTraitColor('Psychological Profile', 'primary');
-                                    const textColor = getTextColor(bgColor);
-                                    return motivationArray.map(motivation => `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${motivation}</span>`).join('');
-                                })()}
-                            </div>
-                        </div>
-                    `
-                },
-                {
-                    title: 'Temporal Context',
-                    content: `
-                        <div class="expanded-text">
-                            <p><strong>Career Evolution:</strong> ${profile.temporal_context?.career_evolution || 'N/A'}</p>
-                        </div>
-                        <div class="expanded-trait-list">
-                            ${profile.temporal_context?.career_evolution_parsed?.map(evolution => {
-                                const bgColor = getTraitColor('Temporal Context', 'primary');
-                                const textColor = getTextColor(bgColor);
-                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${evolution}</span>`;
-                            }).join('') || ''}
-                        </div>
-                        <div class="expanded-text" style="margin-top: 15px;">
-                            <p><strong>Influence Timeline:</strong> ${profile.temporal_context?.influence_timeline || 'N/A'}</p>
-                        </div>
-                        <div class="expanded-trait-list">
-                            ${profile.temporal_context?.influence_timeline_parsed?.map(timeline => {
-                                const bgColor = getTraitColor('Temporal Context', 'secondary');
-                                const textColor = getTextColor(bgColor);
-                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${timeline}</span>`;
-                            }).join('') || ''}
-                        </div>
-                        <div class="expanded-text" style="margin-top: 15px;">
-                            <p><strong>Legacy Impact:</strong> ${profile.temporal_context?.legacy_impact || 'N/A'}</p>
-                        </div>
-                        <div class="expanded-trait-list">
-                            ${profile.temporal_context?.legacy_impact_parsed?.map(impact => {
-                                const bgColor = getTraitColor('Temporal Context', 'tertiary');
-                                const textColor = getTextColor(bgColor);
-                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${impact}</span>`;
-                            }).join('') || ''}
-                        </div>
-                    `
-                },
-                {
-                    title: 'Unique Identifiers',
-                    content: `
-                        <div class="expanded-trait-list">
-                            ${(() => {
-                                const methods = profile.unique_identifiers?.signature_methodologies;
-                                if (!methods) return '';
-                                const methodArray = Array.isArray(methods) ? methods : methods.split(',').map(m => m.trim());
-                                const bgColor = getTraitColor('Unique Identifiers', 'primary');
-                                const textColor = getTextColor(bgColor);
-                                return methodArray.map(method => `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${method}</span>`).join('');
-                            })()}
-                        </div>
-                    `
-                },
-                {
-                    title: 'Values',
-                    content: `
-                        <div class="expanded-text">
-                            <p><strong>Core Values:</strong> ${profile.values?.core_values || 'N/A'}</p>
-                        </div>
-                        <div class="expanded-trait-list">
-                            ${profile.values?.core_values_parsed?.map(value => {
-                                const bgColor = getTraitColor('Values', 'primary');
-                                const textColor = getTextColor(bgColor);
-                                return `<span class="expanded-trait" style="background: ${bgColor}; color: ${textColor};">${value}</span>`;
-                            }).join('') || ''}
-                        </div>
-                        <div class="expanded-text" style="margin-top: 15px;">
-                            <p><strong>Ethical Framework:</strong> ${profile.values?.ethical_framework || 'N/A'}</p>
-                            <p><strong>Social Responsibility:</strong> ${profile.values?.social_responsibility || 'N/A'}</p>
-                        </div>
-                    `
-                }
-            ];
             
-            // Generate HTML for all sections
-            content.innerHTML = sections.map(section => 
-                `<div class="expanded-section">
-                    <h3>${section.title}</h3>
-                    ${section.content}
-                </div>`
-            ).join('');
+            // Generate HTML using the new category cards function
+            content.innerHTML = createCategoryCards(profile);
 
             // Show the expanded profile
             document.getElementById('expanded-profile').classList.add('show');
@@ -2189,11 +2162,11 @@
                 'domain-filter': 'domain',
                 'subdomain-filter': 'sub_domain',
                 'trait-filter': 'psychological_profile.primary_traits',
-                'communication-filter': 'communication_style.tone_parsed',
-                'sentence-structure-filter': 'communication_style.sentence_structure_parsed',
+                'communication-filter': 'communication_style.tone',
+                'sentence-structure-filter': 'communication_style.sentence_structure',
                 'expertise-filter': 'domain_expertise.core_competencies',
                 'background-filter': 'background_context.experience_level',
-                'behavior-filter': 'behavioral_patterns.work_style_parsed',
+                'behavior-filter': 'behavioral_patterns.work_style',
                 'problem-solving-filter': 'behavioral_patterns.problem_solving_approach',
                 'identifier-filter': 'unique_identifiers.signature_methodologies',
                 'temporal-filter': 'temporal_context.career_evolution',

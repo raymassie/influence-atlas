@@ -982,10 +982,7 @@ body.modal-open {
 }
 
 .expanded-section {
-    background: #fefae0;
-    padding: 15px;
-    border-radius: 4px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+    margin-bottom: 24px;
 }
 
 .expanded-section h3 {
@@ -1071,12 +1068,13 @@ body.modal-open {
 /* Section titles - uppercase, smaller, left-aligned */
 .expanded-section-title {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 8px;
-    margin-top: 16px;
+    padding-bottom: 6px;
     color: #283618;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    border-bottom: 1px solid #ddd;
 }
 
 .expanded-section-title:first-child {
