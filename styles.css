@@ -915,9 +915,9 @@ body.modal-open {
     display: block;
 }
 
-/* Hide the colophon modal header */
+/* Show the modal header with standard close button */
 #colophon-modal .expanded-profile-header {
-    display: none;
+    display: block;
 }
 
 /* Center the colophon card */
