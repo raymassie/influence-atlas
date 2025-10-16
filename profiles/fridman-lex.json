@@ -7,25 +7,36 @@
   "psychological_profile": {
     "primary_traits": "curious, analytical, thoughtful, empathetic, systematic, research-oriented, introspective",
     "cognitive_style": "analytical, research-oriented, pattern recognition, AI-focused, systematic, human-AI interaction oriented",
-    "core_motivations": "understanding artificial intelligence, exploring human-AI interaction, advancing AI research, fostering thoughtful dialogue",
+    "core_motivations": "understanding artificial intelligence, exploring human-ai interaction, advancing ai research, fostering thoughtful dialogue",
     "decision_making_framework": "research analysis, AI insights, systematic evaluation, human impact assessment, data-driven decisions",
-    "stress_responses": "seeks AI research, analyzes human-AI interaction, focuses on systematic understanding, develops new research directions",
-    "blind_spots": "can be overly focused on AI, may ignore practical constraints, sometimes too theoretical about human impact"
+    "stress_responses": "seeks ai research, analyzes human-ai interaction, focuses on systematic understanding, develops new research directions",
+    "blind_spots": "can be overly focused on ai, may ignore practical constraints, sometimes too theoretical about human impact"
   },
   "communication_style": {
-    "tone": "thoughtful, analytical, curious, empathetic, research-driven, systematic, AI-focused",
-    "vocabulary_patterns": "artificial intelligence, human-AI interaction, research findings, systematic analysis, thoughtful dialogue, AI ethics, machine learning",
+    "tone": "thoughtful, analytical, curious, empathetic, research-driven, systematic, ai-focused",
+    "vocabulary_patterns": "artificial intelligence, human-ai interaction, research findings, systematic analysis, thoughtful dialogue, ai ethics, machine learning",
     "sentence_structure": "analytical, research-driven, thoughtful, systematic, AI-focused",
     "persuasion_methods": "research evidence, AI insights, systematic analysis, human impact examples, thoughtful dialogue",
     "content_preferences": "AI research, human-AI interaction studies, machine learning insights, AI ethics, systematic analysis, thoughtful dialogue",
     "typical_phrases": "Research suggests, AI systems show, Human-AI interaction reveals, Thoughtful dialogue suggests"
   },
   "domain_expertise": {
-    "core_competencies": "artificial intelligence, machine learning, human-AI interaction, AI research, systematic analysis, AI ethics, research methodology",
+    "core_competencies": "artificial intelligence, machine learning, human-ai interaction, ai research, systematic analysis, ai ethics, research methodology",
     "tools_and_platforms": "AI research tools, machine learning frameworks, human-AI interaction studies, research methodology, AI ethics frameworks",
     "mental_models": "artificial intelligence, human-AI interaction, machine learning, AI ethics, systematic research, thoughtful dialogue",
     "reference_frameworks": "Artificial Intelligence, Human-AI Interaction, Machine Learning, AI Ethics, Systematic Research, Thoughtful Dialogue",
-    "industry_knowledge": "AI research, machine learning, human-AI interaction, AI ethics, research methodology, systematic analysis, thoughtful dialogue"
+    "industry_knowledge": "AI research, machine learning, human-AI interaction, AI ethics, research methodology, systematic analysis, thoughtful dialogue",
+    "primary_expertise": [
+      "artificial intelligence"
+    ],
+    "knowledge_depth": [
+      "deep specialization",
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "systematic innovation",
+      "data-informed innovation"
+    ]
   },
   "background_context": {
     "experience_level": "expert",
@@ -43,11 +54,12 @@
     }
   },
   "behavioral_patterns": {
-    "work_style": "research-driven, analytical, systematic, thoughtful, empathetic, AI-focused, introspective",
-    "problem_solving_approach": "AI research analysis, human-AI interaction insights, systematic evaluation, thoughtful dialogue, data-driven solutions",
-    "learning_preferences": "AI research, human-AI interaction studies, machine learning, AI ethics, systematic analysis, thoughtful dialogue",
+    "work_style": "research-driven, analytical, systematic, thoughtful, empathetic, ai-focused, introspective",
+    "problem_solving_approach": "ai research analysis, human-ai interaction insights, systematic evaluation, thoughtful dialogue, data-driven solutions",
+    "learning_preferences": "ai research, human-ai interaction studies, machine learning, ai ethics, systematic analysis, thoughtful dialogue",
     "networking_style": "research-focused, AI community, human-AI interaction, thoughtful dialogue, systematic analysis",
-    "content_consumption": "AI research, human-AI interaction, machine learning, AI ethics, systematic analysis, thoughtful dialogue"
+    "content_consumption": "AI research, human-AI interaction, machine learning, AI ethics, systematic analysis, thoughtful dialogue",
+    "decision_making": "systematic with bias checks"
   },
   "unique_identifiers": {
     "signature_methodologies": "AI research analysis, human-AI interaction studies, systematic research, thoughtful dialogue, AI ethics evaluation, machine learning insights",
@@ -62,10 +74,10 @@
     "legacy_impact": "ai-research, human-ai-interaction, systematic-analysis, thoughtful-dialogue, ai-ethics"
   },
   "collaboration": {
-    "leadership_style": "research-driven, analytical, thoughtful, empathetic, systematic, AI-focused, introspective",
-    "team_dynamics": "research-focused teams, AI community collaboration, human-AI interaction, systematic evaluation, thoughtful dialogue",
-    "mentorship_approach": "AI research, human-AI interaction, systematic analysis, thoughtful dialogue, AI ethics, research methodology",
-    "conflict_resolution": "AI research analysis, human-AI interaction insights, systematic evaluation, thoughtful dialogue, research evidence"
+    "leadership_style": "research-driven, analytical, thoughtful, empathetic, systematic, ai-focused, introspective",
+    "team_dynamics": "research-focused teams, ai community collaboration, human-ai interaction, systematic evaluation, thoughtful dialogue",
+    "mentorship_approach": "ai research, human-ai interaction, systematic analysis, thoughtful dialogue, ai ethics, research methodology",
+    "conflict_resolution": "ai research analysis, human-ai interaction insights, systematic evaluation, thoughtful dialogue, research evidence"
   },
   "cultural_context": {
     "cultural_background": "russian-american, academic, research-culture, ai-community, systematic-analysis",
@@ -81,17 +93,35 @@
   "communication": {
     "audience_adaptation": "research-focused, AI-community, human-AI-interaction, thoughtful-dialogue-oriented",
     "media_preferences": "AI research, human-AI interaction studies, machine learning, AI ethics, systematic analysis, thoughtful dialogue",
-    "influence_strategies": "AI research evidence, human-AI interaction insights, systematic analysis, thoughtful dialogue, AI ethics examples"
+    "influence_strategies": "AI research evidence, human-AI interaction insights, systematic analysis, thoughtful dialogue, AI ethics examples",
+    "medium_preferences": [
+      "asynchronous collaboration",
+      "written documentation",
+      "digital communication"
+    ],
+    "message_framing": [
+      "evidence-based arguments"
+    ]
   },
   "learning": {
-    "learning_style": "research-driven, AI-focused, human-AI-interaction, analytical, systematic",
-    "adaptation_speed": "research-tested, AI-informed, human-AI-interaction-driven, systematic",
-    "failure_response": "AI research analysis, human-AI interaction insights, systematic evaluation, thoughtful dialogue, research improvement"
+    "learning_style": "research-driven, ai-focused, human-ai-interaction, analytical, systematic",
+    "adaptation_speed": "research-tested, ai-informed, human-ai-interaction-driven, systematic",
+    "failure_response": "ai research analysis, human-ai interaction insights, systematic evaluation, thoughtful dialogue, research improvement",
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ]
   },
   "values": {
-    "core_values": "AI research, human-AI interaction, systematic analysis, thoughtful dialogue, AI ethics, research integrity, machine learning excellence",
+    "core_values": "ai research, human-ai interaction, systematic analysis, thoughtful dialogue, ai ethics, research integrity, machine learning excellence",
     "ethical_framework": "AI ethics, research integrity, human-AI interaction respect, systematic analysis honesty, thoughtful dialogue responsibility",
-    "social_responsibility": "AI education, human-AI interaction understanding, systematic analysis, thoughtful dialogue, AI ethics, research contribution"
+    "social_responsibility": "AI education, human-AI interaction understanding, systematic analysis, thoughtful dialogue, AI ethics, research contribution",
+    "ethical_standards": [
+      "pursuit of excellence",
+      "commitment to integrity"
+    ],
+    "priority_framework": [
+      "quality over quantity"
+    ]
   },
   "category": "Technology",
   "bias_awareness": {
@@ -99,7 +129,7 @@
       "optimism bias",
       "confirmation bias"
     ],
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
@@ -108,25 +138,29 @@
       "problem-solving"
     ],
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "natural curiosity",
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Continuous learning and development focus",
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "adaptation_patterns": "continuous learning and development focus",
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "n/a",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "Always considers human impact"
   },
   "humanistic_cognition": {
-    "holistic_perspective": "Systems thinking with user focus"
+    "holistic_perspective": "systems thinking with user focus"
   },
   "trait_constellations": {
     "constellation_details": {

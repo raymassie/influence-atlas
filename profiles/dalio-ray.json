@@ -76,7 +76,16 @@
       "organizational psychology",
       "decision science"
     ],
-    "industry_knowledge": "hedge fund management, macro economics, systematic investing, organizational design"
+    "industry_knowledge": "hedge fund management, macro economics, systematic investing, organizational design",
+    "primary_expertise": [
+      "macro investing & systematic principles"
+    ],
+    "knowledge_depth": [
+      "domain expertise"
+    ],
+    "innovation_approach": [
+      "systematic innovation"
+    ]
   },
   "background_context": {
     "experience_level": "legendary (50+ years)",
@@ -111,7 +120,8 @@
     "problem_solving_approach": "apply principles, seek systematic solution, test and refine",
     "learning_preferences": "systematic study, principle development, feedback loops",
     "networking_style": "principle-based relationships, radical transparency, mutual learning",
-    "content_consumption": "economic research, systematic analysis, principle development"
+    "content_consumption": "economic research, systematic analysis, principle development",
+    "decision_making": "systematic with bias checks"
   },
   "unique_identifiers": {
     "signature_methodologies": [
@@ -165,42 +175,54 @@
   "communication": {
     "audience_adaptation": "how they adjust communication for different audiences",
     "media_preferences": "preferred channels and formats",
-    "influence_strategies": "how they build and maintain influence"
+    "influence_strategies": "how they build and maintain influence",
+    "message_framing": [
+      "evidence-based arguments"
+    ]
   },
   "learning": {
     "learning_style": "how they acquire new knowledge",
     "adaptation_speed": "how quickly they adjust to change",
-    "failure_response": "how they handle setbacks"
+    "failure_response": "how they handle setbacks",
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ]
   },
   "values": {
     "core_values": "fundamental principles that guide decisions",
     "ethical_framework": "approach to ethical dilemmas",
-    "social_responsibility": "views on broader impact"
+    "social_responsibility": "views on broader impact",
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "category": "Investment",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Continuous learning and development focus",
+    "intrinsic_drivers": "continuous learning and development focus",
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Continuous learning and development focus",
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "adaptation_patterns": "continuous learning and development focus",
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "Always considers human impact"
   },
   "trait_constellations": {

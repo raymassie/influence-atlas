@@ -29,17 +29,33 @@
   },
   "behavioral_patterns": {
     "work_style": "principled, systematic, thoughtful, character-focused, leadership-oriented",
-    "problem_solving_approach": "principled analysis, systematic thinking, character-based solutions"
+    "problem_solving_approach": "principled analysis, systematic thinking, character-based solutions",
+    "decision_making": "systematic approach to decision-making with bias awareness",
+    "learning_preferences": [
+      "varied learning methods"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "principled, systematic, thoughtful, character-focused, leadership-oriented",
     "core_motivations": "principled leadership, systematic development, character-based coaching, thoughtful guidance"
   },
   "values": {
-    "core_values": "principles, character, systematic thinking, leadership development, thoughtful guidance"
+    "core_values": "principles, character, systematic thinking, leadership development, thoughtful guidance",
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "leadership development, character-based coaching, systematic thinking, principled leadership, time management"
+    "core_competencies": "leadership development, character-based coaching, systematic thinking, principled leadership, time management",
+    "primary_expertise": [
+      "leadership coaching"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "systematic innovation"
+    ]
   },
   "unique_identifiers": {
     "signature_methodologies": "7 Habits framework, character-based leadership, principled coaching, systematic development"
@@ -62,35 +78,43 @@
     "decision_speed": "principled, systematically informed, character-considered"
   },
   "learning": {
-    "learning_style": "principled study, systematic exploration, character-focused discovery"
+    "learning_style": "principled study, systematic exploration, character-focused discovery",
+    "knowledge_sharing": [
+      "teaching and mentoring"
+    ],
+    "adaptation_speed": "continuous learning and development focus",
+    "failure_response": "continuous learning and development focus"
   },
   "communication": {
     "audience_adaptation": "leadership audiences, principled discourse, character-focused communication"
   },
   "category": "Motivation Coaching",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Continuous learning and development focus",
+    "intrinsic_drivers": "continuous learning and development focus",
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Continuous learning and development focus"
+    "learning_orientation": "Continuous learning and development focus",
+    "curiosity_indicators": [
+      "continuous learning drive"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Continuous learning and development focus",
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "adaptation_patterns": "continuous learning and development focus",
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "background_context": {

@@ -34,7 +34,7 @@
       "user behavior",
       "heuristic evaluation",
       "empirical studies",
-      "Jakob's Law"
+      "jakob's law"
     ],
     "sentence_structure": "data-supported, research-referenced, methodologically precise",
     "persuasion_methods": [
@@ -87,6 +87,17 @@
       "human-computer interaction",
       "user experience design",
       "interface design principles"
+    ],
+    "primary_expertise": [
+      "usability engineering & human-computer interaction"
+    ],
+    "knowledge_depth": [
+      "foundational expertise",
+      "broad competency portfolio"
+    ],
+    "innovation_approach": [
+      "collaborative ideation",
+      "systematic innovation"
     ]
   },
   "background_context": {
@@ -116,7 +127,8 @@
     "problem_solving_approach": "identify usability issues, conduct research, analyze data, provide evidence-based solutions",
     "learning_preferences": "research methodology study, empirical data analysis, scientific literature review",
     "networking_style": "academic and industry research community, UX professional networks",
-    "content_consumption": "research papers, usability studies, scientific literature, empirical data"
+    "content_consumption": "research papers, usability studies, scientific literature, empirical data",
+    "decision_making": "systematic approach to decision-making with bias awareness"
   },
   "unique_identifiers": {
     "signature_methodologies": [
@@ -175,42 +187,53 @@
   "communication": {
     "audience_adaptation": "how they adjust communication for different audiences",
     "media_preferences": "preferred channels and formats",
-    "influence_strategies": "how they build and maintain influence"
+    "influence_strategies": "how they build and maintain influence",
+    "medium_preferences": [
+      "collaborative platforms",
+      "visual presentation",
+      "in-person collaboration"
+    ]
   },
   "learning": {
     "learning_style": "how they acquire new knowledge",
     "adaptation_speed": "how quickly they adjust to change",
-    "failure_response": "how they handle setbacks"
+    "failure_response": "how they handle setbacks",
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ]
   },
   "values": {
     "core_values": "fundamental principles that guide decisions",
     "ethical_framework": "approach to ethical dilemmas",
-    "social_responsibility": "views on broader impact"
+    "social_responsibility": "views on broader impact",
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "category": "Design",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
     "learning_orientation": "N/A"
   },
   "self_actualization_indicators": {
-    "peak_experiences": "Creative self-expression and innovation",
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "peak_experiences": "creative self-expression and innovation",
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "High emotional intelligence in team leadership",
-    "ethical_framework": "N/A",
+    "empathy_expression": "high emotional intelligence in team leadership",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {

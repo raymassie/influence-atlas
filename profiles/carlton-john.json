@@ -28,17 +28,36 @@
   },
   "behavioral_patterns": {
     "work_style": "irreverent, humorous, direct, persuasive, authentic",
-    "problem_solving_approach": "irreverent persuasion, humorous engagement, direct sales optimization"
+    "problem_solving_approach": "irreverent persuasion, humorous engagement, direct sales optimization",
+    "decision_making": "n/a",
+    "learning_preferences": [
+      "varied learning methods"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "irreverent, humorous, direct, persuasive, authentic",
     "core_motivations": "irreverent persuasion, humorous engagement, direct communication, authentic sales"
   },
   "values": {
-    "core_values": "authenticity, irreverent humor, direct communication, persuasive excellence, sales mastery"
+    "core_values": "authenticity, irreverent humor, direct communication, persuasive excellence, sales mastery",
+    "ethical_standards": [
+      "pursuit of excellence"
+    ],
+    "priority_framework": [
+      "quality over quantity"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "sales copywriting, irreverent marketing, humorous persuasion, direct response, authentic communication"
+    "core_competencies": "sales copywriting, irreverent marketing, humorous persuasion, direct response, authentic communication",
+    "primary_expertise": [
+      "sales copywriting"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "unique_identifiers": {
     "signature_methodologies": "irreverent copywriting, humorous persuasion, direct sales optimization, authentic marketing"
@@ -61,35 +80,44 @@
     "decision_speed": "irreverent, humorously informed, authentically considered"
   },
   "learning": {
-    "learning_style": "irreverent study, humorous exploration, authentic discovery"
+    "learning_style": "irreverent study, humorous exploration, authentic discovery",
+    "knowledge_sharing": [
+      "teaching and mentoring"
+    ],
+    "adaptation_speed": "n/a",
+    "failure_response": "n/a"
   },
   "communication": {
-    "audience_adaptation": "sales audiences, irreverent discourse, humorous communication"
+    "audience_adaptation": "sales audiences, irreverent discourse, humorous communication",
+    "message_framing": [
+      "clear bottom-line messaging",
+      "motivational narratives"
+    ]
   },
   "category": "Marketing",
   "bias_awareness": {
-    "primary_biases": "N/A",
-    "bias_mitigation_strategies": "N/A",
+    "primary_biases": "n/a",
+    "bias_mitigation_strategies": "n/a",
     "decision_making_style": "N/A"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
     "learning_orientation": "N/A"
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {

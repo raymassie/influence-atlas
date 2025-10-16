@@ -66,7 +66,12 @@
   },
   "behavioral_patterns": {
     "work_style": "systematic research, long-form writing, public engagement, contemplative",
-    "problem_solving_approach": "historical analysis, systemic thinking, long-term perspective, evidence synthesis"
+    "problem_solving_approach": "historical analysis, systemic thinking, long-term perspective, evidence synthesis",
+    "decision_making": "systematic with bias checks",
+    "learning_preferences": [
+      "deep reading",
+      "peer discussion"
+    ]
   },
   "domain_expertise": {
     "core_competencies": [
@@ -87,6 +92,16 @@
       "cross-disciplinary synthesis",
       "narrative construction",
       "systemic thinking"
+    ],
+    "primary_expertise": [
+      "human development"
+    ],
+    "knowledge_depth": [
+      "broad competency portfolio"
+    ],
+    "innovation_approach": [
+      "visionary foresight",
+      "systematic innovation"
     ]
   },
   "collaboration": {
@@ -121,7 +136,12 @@
       "scientific studies",
       "philosophical texts",
       "cross-disciplinary insights"
-    ]
+    ],
+    "knowledge_sharing": [
+      "accessible explanations"
+    ],
+    "adaptation_speed": "n/a",
+    "failure_response": "n/a"
   },
   "values": {
     "core_values": [
@@ -131,7 +151,14 @@
       "global perspective",
       "intellectual honesty"
     ],
-    "ethical_framework": "humanistic, global perspective, evidence-based, contemplative ethics"
+    "ethical_framework": "humanistic, global perspective, evidence-based, contemplative ethics",
+    "ethical_standards": [
+      "commitment to integrity",
+      "commitment to honesty"
+    ],
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "unique_identifiers": {
     "signature_methodologies": [
@@ -147,32 +174,41 @@
   },
   "communication": {
     "audience_adaptation": "general public, academic audiences, policymakers, global leaders",
-    "message_clarity": "accessible complexity, engaging narratives, systematic analysis, global perspective"
+    "message_clarity": "accessible complexity, engaging narratives, systematic analysis, global perspective",
+    "message_framing": [
+      "strategic vision framing",
+      "evidence-based arguments"
+    ]
   },
   "category": "History",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "natural curiosity",
+      "interdisciplinary interests",
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "n/a",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {

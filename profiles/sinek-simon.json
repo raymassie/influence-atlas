@@ -72,7 +72,16 @@
       "purpose-driven business",
       "team dynamics"
     ],
-    "industry_knowledge": "leadership development, organizational consulting, team building, corporate culture"
+    "industry_knowledge": "leadership development, organizational consulting, team building, corporate culture",
+    "primary_expertise": [
+      "leadership & organizational purpose"
+    ],
+    "knowledge_depth": [
+      "deep specialization"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "background_context": {
     "experience_level": "expert (20+ years)",
@@ -102,7 +111,8 @@
     "problem_solving_approach": "start with why, build trust, create safety, inspire action",
     "learning_preferences": "leadership examples, organizational case studies, human connection",
     "networking_style": "purpose-aligned connections, inspirational relationships, mutual growth",
-    "content_consumption": "leadership stories, organizational research, inspirational content"
+    "content_consumption": "leadership stories, organizational research, inspirational content",
+    "decision_making": "n/a"
   },
   "unique_identifiers": {
     "signature_methodologies": [
@@ -161,37 +171,46 @@
   "learning": {
     "learning_style": "how they acquire new knowledge",
     "adaptation_speed": "how quickly they adjust to change",
-    "failure_response": "how they handle setbacks"
+    "failure_response": "how they handle setbacks",
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ]
   },
   "values": {
     "core_values": "fundamental principles that guide decisions",
     "ethical_framework": "approach to ethical dilemmas",
-    "social_responsibility": "views on broader impact"
+    "social_responsibility": "views on broader impact",
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "category": "Writers",
   "bias_awareness": {
-    "primary_biases": "N/A",
-    "bias_mitigation_strategies": "N/A",
+    "primary_biases": "n/a",
+    "bias_mitigation_strategies": "n/a",
     "decision_making_style": "N/A"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Continuous learning and development focus",
+    "intrinsic_drivers": "continuous learning and development focus",
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Continuous learning and development focus"
+    "learning_orientation": "Continuous learning and development focus",
+    "curiosity_indicators": [
+      "continuous learning drive"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "Purpose-driven work aligned with personal values",
-    "autonomy_expression": "Purpose-driven work aligned with personal values",
-    "purpose_alignment": "Purpose-driven work aligned with personal values"
+    "peak_experiences": "purpose-driven work aligned with personal values",
+    "autonomy_expression": "purpose-driven work aligned with personal values",
+    "purpose_alignment": "purpose-driven work aligned with personal values"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Continuous learning and development focus",
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "adaptation_patterns": "continuous learning and development focus",
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "High emotional intelligence in team leadership",
-    "ethical_framework": "N/A",
+    "empathy_expression": "high emotional intelligence in team leadership",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {

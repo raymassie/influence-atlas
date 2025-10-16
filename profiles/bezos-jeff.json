@@ -32,7 +32,10 @@
   "behavioral_patterns": {
     "work_style": "innovative, customer-focused, long-term, data-driven, visionary",
     "problem_solving_approach": "customer-focused, data-driven, innovative",
-    "decision_making": "data-driven, long-term, customer-focused"
+    "decision_making": "data-driven, long-term, customer-focused",
+    "learning_preferences": [
+      "varied learning methods"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "innovative, customer-focused, long-term, data-driven, visionary",
@@ -41,7 +44,17 @@
   },
   "domain_expertise": {
     "core_competencies": "e-commerce, customer experience, logistics, data analytics, innovation",
-    "specialized_knowledge": "supply chain optimization, customer behavior analysis, platform economics"
+    "specialized_knowledge": "supply chain optimization, customer behavior analysis, platform economics",
+    "primary_expertise": [
+      "e-commerce"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "visionary foresight",
+      "data-informed innovation"
+    ]
   },
   "collaboration": {
     "team_dynamics": "innovative, customer-focused, data-driven",
@@ -64,15 +77,38 @@
   },
   "learning": {
     "learning_style": "data-driven, customer-focused, innovative",
-    "knowledge_sharing": "customer-centric business, innovation culture"
+    "knowledge_sharing": "customer-centric business, innovation culture",
+    "adaptation_speed": [
+      "innovative solutions"
+    ],
+    "failure_response": "n/a"
   },
   "communication": {
     "audience_adaptation": "innovative, customer-focused, data-driven",
-    "persuasion_techniques": "customer obsession, data-driven insights, long-term vision"
+    "persuasion_techniques": "customer obsession, data-driven insights, long-term vision",
+    "medium_preferences": [
+      "presentations",
+      "strategic memos",
+      "executive briefings"
+    ],
+    "message_framing": [
+      "strategic vision framing",
+      "evidence-based arguments"
+    ]
   },
   "values": {
     "core_values": "customer obsession, innovation, long-term thinking, data-driven excellence",
-    "ethical_principles": "customer integrity, innovation responsibility, long-term sustainability"
+    "ethical_principles": "customer integrity, innovation responsibility, long-term sustainability",
+    "ethical_standards": [
+      "pursuit of excellence",
+      "commitment to integrity",
+      "ethical innovation"
+    ],
+    "priority_framework": [
+      "intuition-guided choices",
+      "quality over quantity",
+      "innovation-driven decisions"
+    ]
   },
   "unique_identifiers": {
     "signature_methodologies": [
@@ -106,7 +142,7 @@
       "overconfidence",
       "anchoring bias"
     ],
-    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "creative problem-solving with intuitive bias recognition",
     "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
@@ -115,27 +151,30 @@
       "growth"
     ],
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "N/A"
+    "learning_orientation": "N/A",
+    "curiosity_indicators": [
+      "exploratory thinking"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "Creative self-expression and innovation",
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "peak_experiences": "creative self-expression and innovation",
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "innovative solutions"
     ],
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "Customer-focused empathy and understanding",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "customer-focused empathy and understanding",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "Customer-focused decision making"
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Design thinking with user empathy"
+    "creative_problem_solving": "design thinking with user empathy"
   },
   "trait_constellations": {
     "constellation_details": {

@@ -77,7 +77,17 @@
       "Zen philosophy",
       "consumer psychology"
     ],
-    "industry_knowledge": "consumer electronics, software design, retail experience, manufacturing"
+    "industry_knowledge": "consumer electronics, software design, retail experience, manufacturing",
+    "primary_expertise": [
+      "product innovation & design"
+    ],
+    "knowledge_depth": [
+      "domain expertise"
+    ],
+    "innovation_approach": [
+      "collaborative ideation",
+      "visionary foresight"
+    ]
   },
   "background_context": {
     "experience_level": "legendary (30+ years)",
@@ -122,7 +132,8 @@
     "problem_solving_approach": "start with user experience, work backwards to technology, test and refine, optimize continuously, build authentic relationships",
     "learning_preferences": "hands-on experimentation, cross-industry inspiration, direct observation",
     "networking_style": "selective, focused on learning and inspiration, values artistic sensibility",
-    "content_consumption": "design magazines, art exhibitions, technology demos, philosophy"
+    "content_consumption": "design magazines, art exhibitions, technology demos, philosophy",
+    "decision_making": "n/a"
   },
   "unique_identifiers": {
     "signature_methodologies": [
@@ -178,44 +189,63 @@
   "communication": {
     "audience_adaptation": "masterful at simplifying complex technology for general audiences, used storytelling effectively",
     "media_preferences": "keynote presentations, product launches, interviews, written communication through Apple marketing",
-    "influence_strategies": "led through vision and inspiration, built cult-like following through product excellence and marketing"
+    "influence_strategies": "led through vision and inspiration, built cult-like following through product excellence and marketing",
+    "medium_preferences": [
+      "collaborative platforms"
+    ],
+    "message_framing": [
+      "strategic vision framing"
+    ]
   },
   "learning": {
     "learning_style": "experiential, intuitive, real-world-application, design-focused, hands-on",
     "adaptation_speed": "quick to pivot when needed, but stubborn about core vision and design principles",
-    "failure_response": "viewed failures as learning opportunities, famously said 'stay hungry, stay foolish'"
+    "failure_response": "viewed failures as learning opportunities, famously said 'stay hungry, stay foolish'",
+    "knowledge_sharing": [
+      "leading by example"
+    ]
   },
   "values": {
     "core_values": "simplicity, elegance, innovation, user experience, perfectionism, thinking different, long-term thinking",
     "ethical_framework": "focused on creating products that enhanced human potential and creativity",
-    "social_responsibility": "believed technology should be accessible and beautiful, democratized design and innovation"
+    "social_responsibility": "believed technology should be accessible and beautiful, democratized design and innovation",
+    "ethical_standards": [
+      "ethical innovation"
+    ],
+    "priority_framework": [
+      "innovation-driven decisions"
+    ]
   },
   "category": "Entrepreneurial",
   "bias_awareness": {
-    "primary_biases": "N/A",
-    "bias_mitigation_strategies": "N/A",
+    "primary_biases": "n/a",
+    "bias_mitigation_strategies": "n/a",
     "decision_making_style": "N/A"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Continuous learning and development focus",
+    "intrinsic_drivers": "continuous learning and development focus",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Continuous learning and development focus"
+    "learning_orientation": "Continuous learning and development focus",
+    "curiosity_indicators": [
+      "continuous learning drive",
+      "experimental exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "innovative solutions"
     ],
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "High emotional intelligence in team leadership",
-    "ethical_framework": "Values-driven ethical decision making",
+    "empathy_expression": "high emotional intelligence in team leadership",
+    "ethical_framework": "values-driven ethical decision making",
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {

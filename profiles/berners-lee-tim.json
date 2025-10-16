@@ -71,6 +71,12 @@
       "collaborative development",
       "information accessibility",
       "technical excellence"
+    ],
+    "ethical_standards": [
+      "ethical innovation"
+    ],
+    "priority_framework": [
+      "innovation-driven decisions"
     ]
   },
   "collaboration_style": {
@@ -105,7 +111,7 @@
       "optimism bias",
       "confirmation bias"
     ],
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
@@ -114,24 +120,28 @@
       "problem-solving"
     ],
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Continuous learning and development focus"
+    "learning_orientation": "Continuous learning and development focus",
+    "curiosity_indicators": [
+      "continuous learning drive",
+      "exploratory thinking"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "Creative self-expression and innovation",
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "peak_experiences": "creative self-expression and innovation",
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "strategic pivots",
       "creative solutions"
     ],
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "High emotional intelligence in leadership",
-    "ethical_framework": "N/A",
+    "empathy_expression": "high emotional intelligence in leadership",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "background_context": {
@@ -156,9 +166,9 @@
     }
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Design thinking with user empathy",
-    "collaborative_intelligence": "Exceptional team building and facilitation",
-    "holistic_perspective": "Systems thinking with user focus"
+    "creative_problem_solving": "design thinking with user empathy",
+    "collaborative_intelligence": "exceptional team building and facilitation",
+    "holistic_perspective": "systems thinking with user focus"
   },
   "human_needs_hierarchy": {
     "belonging_expression": "Strong - builds collaborative teams"
@@ -169,5 +179,44 @@
       "innovation_drive": {},
       "collaboration_mode": {}
     }
+  },
+  "communication": {
+    "medium_preferences": [
+      "asynchronous collaboration",
+      "written documentation",
+      "digital communication"
+    ],
+    "message_framing": [
+      "detailed technical explanations",
+      "strategic vision framing"
+    ]
+  },
+  "domain_expertise": {
+    "primary_expertise": [
+      "computer science"
+    ],
+    "knowledge_depth": [
+      "domain expertise"
+    ],
+    "innovation_approach": [
+      "visionary foresight"
+    ]
+  },
+  "behavioral_patterns": {
+    "decision_making": "systematic approach to decision-making with bias awareness",
+    "learning_preferences": [
+      "experiential learning",
+      "continuous development"
+    ]
+  },
+  "learning": {
+    "knowledge_sharing": [
+      "detailed documentation"
+    ],
+    "adaptation_speed": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "failure_response": "continuous learning and development focus"
   }
 }

@@ -25,7 +25,17 @@
     "tools_and_platforms": "financial analysis, market data, credit research, risk models, historical analysis",
     "mental_models": "contrarian investing, market cycles, risk-return analysis, value identification, patience",
     "reference_frameworks": "Benjamin Graham value investing, market cycle theory, risk management, contrarian philosophy",
-    "industry_knowledge": "credit markets, distressed investing, market psychology, economic cycles, financial instruments"
+    "industry_knowledge": "credit markets, distressed investing, market psychology, economic cycles, financial instruments",
+    "primary_expertise": [
+      "value investing"
+    ],
+    "knowledge_depth": [
+      "deep specialization",
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "background_context": {
     "experience_level": "master",
@@ -44,7 +54,8 @@
     "problem_solving_approach": "market analysis, risk assessment, contrarian thinking, historical research, patient evaluation",
     "learning_preferences": "market history, investment philosophy, risk analysis, contrarian thinking, economic cycles",
     "networking_style": "investment-focused, philosophical discussions, contrarian thinking, educational",
-    "content_consumption": "market analysis, investment philosophy, economic research, contrarian thinking, risk assessment"
+    "content_consumption": "market analysis, investment philosophy, economic research, contrarian thinking, risk assessment",
+    "decision_making": "systematic with bias checks"
   },
   "unique_identifiers": {
     "signature_methodologies": "contrarian investing, risk assessment, market cycle analysis, value identification, patient capital allocation",
@@ -78,42 +89,57 @@
   "communication": {
     "audience_adaptation": "investment-focused, contrarian, analytical, educational",
     "media_preferences": "investment memos, market analysis, contrarian thinking, risk assessment",
-    "influence_strategies": "contrarian arguments, market data, risk assessment, investment philosophy"
+    "influence_strategies": "contrarian arguments, market data, risk assessment, investment philosophy",
+    "message_framing": [
+      "evidence-based arguments"
+    ]
   },
   "learning": {
     "learning_style": "analytical, contrarian, market-focused, risk-aware, patient",
     "adaptation_speed": "deliberate, contrarian, risk-aware, patient",
-    "failure_response": "market analysis, risk assessment, contrarian thinking, patient evaluation"
+    "failure_response": "market analysis, risk assessment, contrarian thinking, patient evaluation",
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ]
   },
   "values": {
     "core_values": "contrarian thinking, risk management, capital preservation, patient investing, market cycles, investment philosophy",
     "ethical_framework": "client interests, risk transparency, contrarian integrity, investment discipline",
-    "social_responsibility": "investment education, risk awareness, contrarian thinking, market understanding"
+    "social_responsibility": "investment education, risk awareness, contrarian thinking, market understanding",
+    "ethical_standards": [
+      "commitment to integrity"
+    ],
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "category": "Investment",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "n/a",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "Always considers human impact"
   },
   "trait_constellations": {

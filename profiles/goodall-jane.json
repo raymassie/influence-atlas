@@ -29,17 +29,33 @@
   },
   "behavioral_patterns": {
     "work_style": "patient, observational, empathetic, dedicated, long-term focused",
-    "problem_solving_approach": "patient observation, empathetic understanding, long-term perspective"
+    "problem_solving_approach": "patient observation, empathetic understanding, long-term perspective",
+    "decision_making": "n/a",
+    "learning_preferences": [
+      "deep reading"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "patient, empathetic, dedicated, observant, gentle",
     "core_motivations": "understanding nature, conservation, animal welfare, scientific discovery"
   },
   "values": {
-    "core_values": "conservation, empathy, scientific truth, animal welfare, environmental protection"
+    "core_values": "conservation, empathy, scientific truth, animal welfare, environmental protection",
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "primatology, ethology, conservation, field research, wildlife observation"
+    "core_competencies": "primatology, ethology, conservation, field research, wildlife observation",
+    "primary_expertise": [
+      "primatology"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "unique_identifiers": {
     "signature_methodologies": "long-term field observation, empathetic research, conservation advocacy, wildlife documentation"
@@ -62,14 +78,22 @@
     "decision_speed": "patient, thoughtful, conservation-focused decisions"
   },
   "learning": {
-    "learning_style": "observational learning, empathetic understanding, field-based research"
+    "learning_style": "observational learning, empathetic understanding, field-based research",
+    "knowledge_sharing": [
+      "teaching and mentoring"
+    ],
+    "adaptation_speed": "n/a",
+    "failure_response": "n/a"
   },
   "communication": {
-    "audience_adaptation": "general audiences, conservation messaging, scientific communication"
+    "audience_adaptation": "general audiences, conservation messaging, scientific communication",
+    "message_framing": [
+      "motivational narratives"
+    ]
   },
   "category": "Science",
   "bias_awareness": {
-    "primary_biases": "N/A",
+    "primary_biases": "n/a",
     "bias_mitigation_strategies": [
       "peer review",
       "data validation"
@@ -85,18 +109,18 @@
     "learning_orientation": "N/A"
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "Evidence-based learning and adaptation"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "evidence-based learning and adaptation"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "background_context": {

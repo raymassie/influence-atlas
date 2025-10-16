@@ -29,17 +29,36 @@
   },
   "behavioral_patterns": {
     "work_style": "conversational, storytelling, persuasive, engaging, sales-focused",
-    "problem_solving_approach": "storytelling persuasion, conversational engagement, sales optimization"
+    "problem_solving_approach": "storytelling persuasion, conversational engagement, sales optimization",
+    "decision_making": "n/a",
+    "learning_preferences": [
+      "varied learning methods"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "conversational, storytelling, persuasive, engaging, sales-oriented",
     "core_motivations": "storytelling persuasion, conversational engagement, sales optimization, copywriting education"
   },
   "values": {
-    "core_values": "storytelling, conversational engagement, persuasive communication, sales excellence, copywriting mastery"
+    "core_values": "storytelling, conversational engagement, persuasive communication, sales excellence, copywriting mastery",
+    "ethical_standards": [
+      "pursuit of excellence"
+    ],
+    "priority_framework": [
+      "quality over quantity"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "sales copywriting, storytelling, conversational copy, direct mail marketing, persuasive communication"
+    "core_competencies": "sales copywriting, storytelling, conversational copy, direct mail marketing, persuasive communication",
+    "primary_expertise": [
+      "sales copywriting"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "unique_identifiers": {
     "signature_methodologies": "storytelling copywriting, conversational persuasion, sales optimization, direct mail mastery"
@@ -62,35 +81,44 @@
     "decision_speed": "conversational, story-informed, persuasively considered"
   },
   "learning": {
-    "learning_style": "storytelling study, conversational exploration, engaging discovery"
+    "learning_style": "storytelling study, conversational exploration, engaging discovery",
+    "knowledge_sharing": [
+      "teaching and mentoring"
+    ],
+    "adaptation_speed": "n/a",
+    "failure_response": "n/a"
   },
   "communication": {
-    "audience_adaptation": "sales audiences, conversational discourse, storytelling communication"
+    "audience_adaptation": "sales audiences, conversational discourse, storytelling communication",
+    "message_framing": [
+      "clear bottom-line messaging",
+      "motivational narratives"
+    ]
   },
   "category": "Marketing",
   "bias_awareness": {
-    "primary_biases": "N/A",
-    "bias_mitigation_strategies": "N/A",
+    "primary_biases": "n/a",
+    "bias_mitigation_strategies": "n/a",
     "decision_making_style": "N/A"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
     "learning_orientation": "N/A"
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {

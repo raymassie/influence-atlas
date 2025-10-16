@@ -11,17 +11,42 @@
   },
   "behavioral_patterns": {
     "work_style": "strategic planning, systematic execution, data-driven decisions, scalable solutions, collaborative leadership, growth-focused innovation",
-    "problem_solving_approach": "through strategic analysis, systematic solutions, data-driven insights, scalable approaches, collaborative innovation, growth-focused thinking"
+    "problem_solving_approach": "through strategic analysis, systematic solutions, data-driven insights, scalable approaches, collaborative innovation, growth-focused thinking",
+    "decision_making": "systematic with bias checks",
+    "learning_preferences": [
+      "peer discussion",
+      "experimental exploration"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "technology strategy, scalable systems, data-driven decisions, growth management, collaborative leadership, systematic execution, innovative solutions, organizational scaling"
+    "core_competencies": "technology strategy, scalable systems, data-driven decisions, growth management, collaborative leadership, systematic execution, innovative solutions, organizational scaling",
+    "primary_expertise": [
+      "technology strategy"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "collaborative ideation",
+      "systematic innovation",
+      "data-informed innovation"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "strategic, analytical, systematic, data-driven, collaborative, growth-oriented, innovative, methodical, scalable, transformative",
     "core_motivations": "strategic growth, systematic excellence, data-driven decisions, scalable innovation, collaborative leadership, organizational scaling, transformative impact"
   },
   "values": {
-    "core_values": "strategic excellence, systematic execution, data-driven decisions, scalable growth, collaborative innovation, organizational excellence, systematic improvement, transformative impact"
+    "core_values": "strategic excellence, systematic execution, data-driven decisions, scalable growth, collaborative innovation, organizational excellence, systematic improvement, transformative impact",
+    "ethical_standards": [
+      "pursuit of excellence",
+      "ethical innovation"
+    ],
+    "priority_framework": [
+      "quality over quantity",
+      "innovation-driven decisions",
+      "growth-oriented priorities"
+    ]
   },
   "collaboration": {
     "leadership_style": "strategic guidance, systematic mentorship, data-driven leadership, collaborative direction, growth-focused inspiration, scalable team building",
@@ -44,38 +69,60 @@
     "decision_speed": "strategic analysis with systematic execution, data-driven evaluation, collaborative consultation, scalable growth principles"
   },
   "learning": {
-    "learning_style": "strategic study, systematic analysis, data-driven experimentation, collaborative innovation, scalable growth, technology leadership development"
+    "learning_style": "strategic study, systematic analysis, data-driven experimentation, collaborative innovation, scalable growth, technology leadership development",
+    "knowledge_sharing": [
+      "collaborative learning",
+      "leading by example"
+    ],
+    "adaptation_speed": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "failure_response": "n/a"
   },
   "communication": {
-    "audience_adaptation": "technology executives, strategic planners, data-driven decision makers, scalable systems specialists, collaborative leaders, growth-focused innovators"
+    "audience_adaptation": "technology executives, strategic planners, data-driven decision makers, scalable systems specialists, collaborative leaders, growth-focused innovators",
+    "medium_preferences": [
+      "asynchronous collaboration",
+      "written documentation",
+      "collaborative platforms"
+    ],
+    "message_framing": [
+      "evidence-based arguments"
+    ]
   },
   "category": "Technology",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "exploratory thinking",
+      "experimental exploration",
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "Creative self-expression and innovation",
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "peak_experiences": "creative self-expression and innovation",
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "strategic pivots",
       "creative solutions"
     ],
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "High emotional intelligence in leadership",
-    "ethical_framework": "N/A",
+    "empathy_expression": "high emotional intelligence in leadership",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {
@@ -96,9 +143,9 @@
     }
   },
   "humanistic_cognition": {
-    "holistic_perspective": "Systems thinking with human focus",
-    "collaborative_intelligence": "Exceptional team building and facilitation",
-    "creative_problem_solving": "Design thinking with user empathy"
+    "holistic_perspective": "systems thinking with human focus",
+    "collaborative_intelligence": "exceptional team building and facilitation",
+    "creative_problem_solving": "design thinking with user empathy"
   },
   "human_needs_hierarchy": {
     "belonging_expression": "Strong - builds collaborative teams"

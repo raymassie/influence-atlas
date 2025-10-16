@@ -29,17 +29,37 @@
   },
   "behavioral_patterns": {
     "work_style": "analytical, value-focused, fundamental, educational, systematic",
-    "problem_solving_approach": "analytical value, fundamental analysis, systematic evaluation"
+    "problem_solving_approach": "analytical value, fundamental analysis, systematic evaluation",
+    "decision_making": "systematic with bias checks",
+    "learning_preferences": [
+      "varied learning methods"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "analytical, value-focused, fundamental, educational, systematic",
     "core_motivations": "analytical value, fundamental understanding, systematic investing, educational excellence"
   },
   "values": {
-    "core_values": "value investing, fundamental analysis, systematic thinking, educational excellence, analytical precision"
+    "core_values": "value investing, fundamental analysis, systematic thinking, educational excellence, analytical precision",
+    "ethical_standards": [
+      "pursuit of excellence"
+    ],
+    "priority_framework": [
+      "quality over quantity"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "value investing, fundamental analysis, security analysis, financial statement analysis, systematic investing"
+    "core_competencies": "value investing, fundamental analysis, security analysis, financial statement analysis, systematic investing",
+    "primary_expertise": [
+      "value investing"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "systematic innovation",
+      "data-informed innovation"
+    ]
   },
   "unique_identifiers": {
     "signature_methodologies": "value investing framework, fundamental analysis, security analysis, systematic evaluation"
@@ -62,35 +82,46 @@
     "decision_speed": "analytical, value-focused, systematically considered"
   },
   "learning": {
-    "learning_style": "analytical study, value-focused exploration, systematic discovery"
+    "learning_style": "analytical study, value-focused exploration, systematic discovery",
+    "knowledge_sharing": [
+      "teaching and mentoring"
+    ],
+    "adaptation_speed": "n/a",
+    "failure_response": "n/a"
   },
   "communication": {
-    "audience_adaptation": "investment professionals, value investors, analytical communication"
+    "audience_adaptation": "investment professionals, value investors, analytical communication",
+    "message_framing": [
+      "evidence-based arguments"
+    ]
   },
   "category": "Investment",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {

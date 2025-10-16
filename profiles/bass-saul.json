@@ -11,17 +11,43 @@
   },
   "behavioral_patterns": {
     "work_style": "cinematic approach, experimental techniques, collaborative film work, visual storytelling, innovative motion graphics, narrative design",
-    "problem_solving_approach": "through visual storytelling, cinematic techniques, experimental design, narrative structure, motion graphics innovation"
+    "problem_solving_approach": "through visual storytelling, cinematic techniques, experimental design, narrative structure, motion graphics innovation",
+    "decision_making": "creative problem-solving with intuitive bias recognition",
+    "learning_preferences": [
+      "visual learning",
+      "experimental exploration"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "title sequences, motion graphics, film design, visual storytelling, logo animation, cinematic design, brand identity, experimental typography"
+    "core_competencies": "title sequences, motion graphics, film design, visual storytelling, logo animation, cinematic design, brand identity, experimental typography",
+    "primary_expertise": [
+      "motion graphics"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "collaborative ideation",
+      "visionary foresight",
+      "experimental iteration"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "innovative, cinematic, experimental, narrative-focused, visual, influential, creative, dynamic, determined, visionary",
     "core_motivations": "visual storytelling, cinematic innovation, narrative design, motion graphics, experimental expression, lasting visual impact"
   },
   "values": {
-    "core_values": "visual storytelling, cinematic innovation, narrative excellence, experimental design, lasting visual impact, creative expression, artistic integrity, dynamic communication"
+    "core_values": "visual storytelling, cinematic innovation, narrative excellence, experimental design, lasting visual impact, creative expression, artistic integrity, dynamic communication",
+    "ethical_standards": [
+      "pursuit of excellence",
+      "commitment to integrity",
+      "ethical innovation"
+    ],
+    "priority_framework": [
+      "quality over quantity",
+      "intuition-guided choices",
+      "innovation-driven decisions"
+    ]
   },
   "collaboration": {
     "leadership_style": "cinematic direction, visual storytelling guidance, experimental collaboration, narrative mentorship, creative leadership",
@@ -44,39 +70,55 @@
     "decision_speed": "cinematic vision with experimental execution, narrative analysis, collaborative consultation, visual storytelling principles"
   },
   "learning": {
-    "learning_style": "cinematic study, experimental exploration, visual analysis, narrative techniques, motion graphics experimentation, film collaboration"
+    "learning_style": "cinematic study, experimental exploration, visual analysis, narrative techniques, motion graphics experimentation, film collaboration",
+    "knowledge_sharing": [
+      "leading by example"
+    ],
+    "adaptation_speed": [
+      "creative pivots"
+    ],
+    "failure_response": "n/a"
   },
   "communication": {
-    "audience_adaptation": "filmmakers, motion graphics artists, design professionals, visual storytellers, cinematic audiences, experimental designers"
+    "audience_adaptation": "filmmakers, motion graphics artists, design professionals, visual storytellers, cinematic audiences, experimental designers",
+    "medium_preferences": [
+      "collaborative platforms",
+      "visual presentation",
+      "in-person collaboration"
+    ]
   },
   "category": "Design",
   "bias_awareness": {
-    "primary_biases": "Creative problem-solving with intuitive bias recognition",
-    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases": "creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "creative problem-solving with intuitive bias recognition",
     "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "N/A"
+    "learning_orientation": "N/A",
+    "curiosity_indicators": [
+      "exploratory thinking",
+      "experimental exploration"
+    ]
   },
   "self_actualization_indicators": {
     "peak_experiences": [
       "creative breakthroughs"
     ],
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "creative pivots"
     ],
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "High emotional intelligence in team leadership",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "high emotional intelligence in team leadership",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "N/A"
   },
   "background_context": {
@@ -91,7 +133,7 @@
     }
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Innovative approaches with user empathy"
+    "creative_problem_solving": "innovative approaches with user empathy"
   },
   "trait_constellations": {
     "constellation_details": {

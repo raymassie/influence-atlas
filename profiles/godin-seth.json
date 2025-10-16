@@ -71,6 +71,15 @@
       "consumer respect",
       "digital innovation",
       "marketing integrity"
+    ],
+    "ethical_standards": [
+      "commitment to integrity",
+      "respect for others",
+      "ethical innovation"
+    ],
+    "priority_framework": [
+      "intuition-guided choices",
+      "innovation-driven decisions"
     ]
   },
   "collaboration_style": {
@@ -101,31 +110,34 @@
   "influence_scope": "Global - Digital marketing and marketing philosophy",
   "legacy": "Pioneered permission marketing and digital marketing concepts, influencing how businesses approach customer relationships and digital strategy.",
   "bias_awareness": {
-    "primary_biases": "Creative problem-solving with intuitive bias recognition",
-    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases": "creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "creative problem-solving with intuitive bias recognition",
     "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "N/A"
+    "learning_orientation": "N/A",
+    "curiosity_indicators": [
+      "exploratory thinking"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "Creative self-expression and innovation",
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "peak_experiences": "creative self-expression and innovation",
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "strategic pivots",
       "creative solutions"
     ],
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "n/a",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "N/A"
   },
   "background_context": {
@@ -138,7 +150,7 @@
     }
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Design thinking with user empathy"
+    "creative_problem_solving": "design thinking with user empathy"
   },
   "trait_constellations": {
     "constellation_details": {
@@ -146,5 +158,33 @@
       "innovation_drive": {},
       "leadership_approach": {}
     }
+  },
+  "domain_expertise": {
+    "primary_expertise": [
+      "digital marketing"
+    ],
+    "knowledge_depth": [
+      "domain expertise"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
+  },
+  "behavioral_patterns": {
+    "decision_making": "creative problem-solving with intuitive bias recognition",
+    "learning_preferences": [
+      "experiential learning",
+      "continuous development"
+    ]
+  },
+  "learning": {
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ],
+    "adaptation_speed": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "failure_response": "n/a"
   }
 }

@@ -76,7 +76,16 @@
       "platform business models",
       "network science"
     ],
-    "industry_knowledge": "social media, digital advertising, virtual reality, artificial intelligence"
+    "industry_knowledge": "social media, digital advertising, virtual reality, artificial intelligence",
+    "primary_expertise": [
+      "social technology & platform building"
+    ],
+    "knowledge_depth": [
+      "deep specialization"
+    ],
+    "innovation_approach": [
+      "systematic innovation"
+    ]
   },
   "background_context": {
     "experience_level": "expert (20+ years, started young)",
@@ -113,7 +122,8 @@
     "problem_solving_approach": "analyze data, test hypotheses, iterate based on results",
     "learning_preferences": "direct experimentation, data analysis, expert consultation",
     "networking_style": "awkward but purposeful, focused on learning and strategic partnerships",
-    "content_consumption": "technical papers, product reports, competitive analysis, user research"
+    "content_consumption": "technical papers, product reports, competitive analysis, user research",
+    "decision_making": "systematic with bias checks"
   },
   "unique_identifiers": {
     "signature_methodologies": [
@@ -168,42 +178,54 @@
   "communication": {
     "audience_adaptation": "how they adjust communication for different audiences",
     "media_preferences": "preferred channels and formats",
-    "influence_strategies": "how they build and maintain influence"
+    "influence_strategies": "how they build and maintain influence",
+    "message_framing": [
+      "evidence-based arguments"
+    ]
   },
   "learning": {
     "learning_style": "how they acquire new knowledge",
     "adaptation_speed": "how quickly they adjust to change",
-    "failure_response": "how they handle setbacks"
+    "failure_response": "how they handle setbacks",
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ]
   },
   "values": {
     "core_values": "fundamental principles that guide decisions",
     "ethical_framework": "approach to ethical dilemmas",
-    "social_responsibility": "views on broader impact"
+    "social_responsibility": "views on broader impact",
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "category": "Entrepreneurial",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Continuous learning and development focus",
+    "intrinsic_drivers": "continuous learning and development focus",
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "Purpose-driven work aligned with personal values",
-    "autonomy_expression": "Purpose-driven work aligned with personal values",
-    "purpose_alignment": "Purpose-driven work aligned with personal values"
+    "peak_experiences": "purpose-driven work aligned with personal values",
+    "autonomy_expression": "purpose-driven work aligned with personal values",
+    "purpose_alignment": "purpose-driven work aligned with personal values"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Continuous learning and development focus",
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "adaptation_patterns": "continuous learning and development focus",
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "Customer-focused empathy and understanding",
-    "ethical_framework": "N/A",
+    "empathy_expression": "customer-focused empathy and understanding",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "Always considers human impact"
   },
   "trait_constellations": {

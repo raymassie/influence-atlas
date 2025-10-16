@@ -30,17 +30,33 @@
   },
   "behavioral_patterns": {
     "work_style": "contemplative, methodical, spiritual, introspective, emotionally engaged",
-    "problem_solving_approach": "contemplative analysis, spiritual exploration, emotional expression"
+    "problem_solving_approach": "contemplative analysis, spiritual exploration, emotional expression",
+    "decision_making": "n/a",
+    "learning_preferences": [
+      "varied learning methods"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "contemplative, spiritual, introspective, emotional, philosophical",
     "core_motivations": "spiritual expression, emotional truth, contemplative art, philosophical exploration"
   },
   "values": {
-    "core_values": "spiritual truth, emotional expression, contemplative art, philosophical depth, color harmony"
+    "core_values": "spiritual truth, emotional expression, contemplative art, philosophical depth, color harmony",
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "color field painting, spiritual art, emotional expression, contemplative composition, color theory"
+    "core_competencies": "color field painting, spiritual art, emotional expression, contemplative composition, color theory",
+    "primary_expertise": [
+      "abstract expressionism"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "systematic innovation"
+    ]
   },
   "unique_identifiers": {
     "signature_methodologies": "color field technique, spiritual abstraction, contemplative composition, emotional color"
@@ -63,35 +79,45 @@
     "decision_speed": "contemplative, spiritually informed, emotionally considered"
   },
   "learning": {
-    "learning_style": "contemplative study, spiritual exploration, emotional discovery"
+    "learning_style": "contemplative study, spiritual exploration, emotional discovery",
+    "knowledge_sharing": [
+      "teaching and mentoring"
+    ],
+    "adaptation_speed": "n/a",
+    "failure_response": "n/a"
   },
   "communication": {
-    "audience_adaptation": "artistic audiences, spiritual communication, contemplative discourse"
+    "audience_adaptation": "artistic audiences, spiritual communication, contemplative discourse",
+    "medium_preferences": [
+      "visual presentation",
+      "in-person collaboration",
+      "iterative feedback"
+    ]
   },
   "category": "Arts",
   "bias_awareness": {
-    "primary_biases": "N/A",
-    "bias_mitigation_strategies": "N/A",
+    "primary_biases": "n/a",
+    "bias_mitigation_strategies": "n/a",
     "decision_making_style": "N/A"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
     "learning_orientation": "N/A"
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "background_context": {

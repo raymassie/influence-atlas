@@ -11,17 +11,39 @@
   },
   "behavioral_patterns": {
     "work_style": "systematic approach, evidence-based insights, practical application, habit formation research, educational focus, methodical improvement",
-    "problem_solving_approach": "through systematic analysis, evidence-based solutions, habit formation methodology, practical optimization, methodical improvement frameworks"
+    "problem_solving_approach": "through systematic analysis, evidence-based solutions, habit formation methodology, practical optimization, methodical improvement frameworks",
+    "decision_making": "systematic approach to decision-making with bias awareness",
+    "learning_preferences": [
+      "hands-on practice",
+      "deep reading",
+      "peer discussion",
+      "experimental exploration"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "habit formation, behavioral psychology, systematic improvement, performance optimization, evidence-based behavior, practical psychology, methodical development, productivity systems"
+    "core_competencies": "habit formation, behavioral psychology, systematic improvement, performance optimization, evidence-based behavior, practical psychology, methodical development, productivity systems",
+    "primary_expertise": [
+      "habit formation"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "systematic innovation"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "systematic, evidence-based, practical, methodical, clear-thinking, research-oriented, transformative, accessible, habit-focused, actionable",
     "core_motivations": "habit formation research, systematic improvement, evidence-based behavior, practical optimization, performance enhancement, methodical development, transformative insights"
   },
   "values": {
-    "core_values": "systematic improvement, evidence-based behavior, habit formation excellence, practical optimization, methodical development, performance enhancement, transformative insights, accessible knowledge"
+    "core_values": "systematic improvement, evidence-based behavior, habit formation excellence, practical optimization, methodical development, performance enhancement, transformative insights, accessible knowledge",
+    "ethical_standards": [
+      "pursuit of excellence"
+    ],
+    "priority_framework": [
+      "quality over quantity"
+    ]
   },
   "collaboration": {
     "leadership_style": "systematic guidance, evidence-based mentorship, practical leadership, methodical direction, educational influence, habit formation inspiration",
@@ -44,35 +66,45 @@
     "decision_speed": "systematic analysis with evidence-based execution, practical evaluation, methodical consultation, habit formation principles"
   },
   "learning": {
-    "learning_style": "systematic research, evidence-based analysis, practical experimentation, habit formation studies, methodical improvement, collaborative behavioral psychology"
+    "learning_style": "systematic research, evidence-based analysis, practical experimentation, habit formation studies, methodical improvement, collaborative behavioral psychology",
+    "knowledge_sharing": [
+      "leading by example",
+      "accessible explanations"
+    ],
+    "adaptation_speed": "continuous learning and development focus",
+    "failure_response": "continuous learning and development focus"
   },
   "communication": {
     "audience_adaptation": "productivity professionals, behavioral psychologists, habit formation specialists, performance optimizers, systematic improvement advocates, evidence-based thinkers, practical psychology enthusiasts"
   },
   "category": "Motivation Coaching",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Continuous learning and development focus",
+    "intrinsic_drivers": "continuous learning and development focus",
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Continuous learning and development focus"
+    "learning_orientation": "Continuous learning and development focus",
+    "curiosity_indicators": [
+      "continuous learning drive",
+      "experimental exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Continuous learning and development focus",
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "adaptation_patterns": "continuous learning and development focus",
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "background_context": {

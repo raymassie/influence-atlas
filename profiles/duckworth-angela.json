@@ -11,17 +11,35 @@
   },
   "behavioral_patterns": {
     "work_style": "scientific research approach, evidence-based insights, motivational psychology, collaborative studies, educational focus, resilience research",
-    "problem_solving_approach": "through psychological research, evidence-based analysis, grit and resilience studies, scientific methodology, transformative insights"
+    "problem_solving_approach": "through psychological research, evidence-based analysis, grit and resilience studies, scientific methodology, transformative insights",
+    "decision_making": "systematic with bias checks",
+    "learning_preferences": [
+      "deep reading",
+      "peer discussion",
+      "experimental exploration"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "psychological research, grit and resilience studies, motivation psychology, educational psychology, performance psychology, character development, evidence-based insights, scientific methodology"
+    "core_competencies": "psychological research, grit and resilience studies, motivation psychology, educational psychology, performance psychology, character development, evidence-based insights, scientific methodology",
+    "primary_expertise": [
+      "psychology research"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "collaborative ideation"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "scientific, research-oriented, evidence-based, motivational, analytical, inspiring, resilient, transformative, determined, insightful",
     "core_motivations": "psychological research, evidence-based insights, motivation psychology, resilience studies, character development, transformative thinking, performance improvement"
   },
   "values": {
-    "core_values": "scientific rigor, evidence-based research, psychological insights, resilience and grit, character development, motivation psychology, performance improvement, transformative thinking"
+    "core_values": "scientific rigor, evidence-based research, psychological insights, resilience and grit, character development, motivation psychology, performance improvement, transformative thinking",
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "collaboration": {
     "leadership_style": "scientific guidance, research-based mentorship, evidence-based leadership, collaborative research, educational influence, resilience inspiration",
@@ -44,35 +62,52 @@
     "decision_speed": "scientific analysis with evidence-based execution, psychological evaluation, research-driven consultation, grit and resilience principles"
   },
   "learning": {
-    "learning_style": "scientific research, psychological analysis, evidence-based experimentation, resilience studies, motivation psychology, collaborative scientific methodology"
+    "learning_style": "scientific research, psychological analysis, evidence-based experimentation, resilience studies, motivation psychology, collaborative scientific methodology",
+    "knowledge_sharing": [
+      "leading by example",
+      "accessible explanations"
+    ],
+    "adaptation_speed": "continuous learning and development focus",
+    "failure_response": "continuous learning and development focus"
   },
   "communication": {
-    "audience_adaptation": "psychologists, educators, researchers, performance professionals, resilience specialists, character development advocates, evidence-based thinkers, motivation researchers"
+    "audience_adaptation": "psychologists, educators, researchers, performance professionals, resilience specialists, character development advocates, evidence-based thinkers, motivation researchers",
+    "medium_preferences": [
+      "collaborative platforms"
+    ],
+    "message_framing": [
+      "motivational narratives",
+      "evidence-based arguments"
+    ]
   },
   "category": "Motivation Coaching",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Continuous learning and development focus",
+    "intrinsic_drivers": "continuous learning and development focus",
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "experimental exploration",
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Continuous learning and development focus",
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "adaptation_patterns": "continuous learning and development focus",
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "High emotional intelligence in team leadership",
-    "ethical_framework": "N/A",
+    "empathy_expression": "high emotional intelligence in team leadership",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {

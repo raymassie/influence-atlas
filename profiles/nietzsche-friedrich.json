@@ -25,7 +25,18 @@
     "tools_and_platforms": "provocative analysis, unconventional reasoning, emotional evaluation, contrarian thinking, analytical assessment, philosophical methods",
     "mental_models": "provocative analysis, unconventional reasoning, emotional evaluation, contrarian thinking, analytical assessment, philosophical truth",
     "reference_frameworks": "Provocative Analysis, Unconventional Reasoning, Emotional Evaluation, Contrarian Thinking, Analytical Assessment, Philosophical Truth",
-    "industry_knowledge": "philosophy, provocative analysis, unconventional reasoning, emotional evaluation, contrarian thinking, analytical assessment, philosophical truth"
+    "industry_knowledge": "philosophy, provocative analysis, unconventional reasoning, emotional evaluation, contrarian thinking, analytical assessment, philosophical truth",
+    "primary_expertise": [
+      "modern philosophy"
+    ],
+    "knowledge_depth": [
+      "deep specialization",
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "data-informed innovation",
+      "disruptive thinking"
+    ]
   },
   "background_context": {
     "experience_level": "master",
@@ -58,7 +69,8 @@
     "problem_solving_approach": "provocative analysis, unconventional reasoning, emotional evaluation, contrarian thinking, analytical assessment",
     "learning_preferences": "provocative analysis, unconventional reasoning, emotional evaluation, contrarian thinking, analytical assessment, philosophical truth",
     "networking_style": "intellectual community, provocative collaboration, unconventional reasoning, emotional evaluation, contrarian discourse",
-    "content_consumption": "provocative analysis, unconventional reasoning, emotional evaluation, contrarian thinking, analytical assessment, philosophical truth"
+    "content_consumption": "provocative analysis, unconventional reasoning, emotional evaluation, contrarian thinking, analytical assessment, philosophical truth",
+    "decision_making": "systematic with bias checks"
   },
   "unique_identifiers": {
     "signature_methodologies": "provocative analysis, unconventional reasoning, emotional evaluation, contrarian thinking, analytical assessment, philosophical truth",
@@ -92,42 +104,58 @@
   "communication": {
     "audience_adaptation": "provocative, unconventional, emotional, analytically-oriented",
     "media_preferences": "provocative analysis, unconventional reasoning, emotional evaluation, contrarian thinking, analytical assessment",
-    "influence_strategies": "provocative examples, unconventional reasoning, emotional analysis, contrarian thinking, analytical assessment"
+    "influence_strategies": "provocative examples, unconventional reasoning, emotional analysis, contrarian thinking, analytical assessment",
+    "message_framing": [
+      "evidence-based arguments"
+    ]
   },
   "learning": {
     "learning_style": "provocative, unconventional, emotional, analytically-focused, provocatively rigorous",
     "adaptation_speed": "provocative, unconventional, emotionally informed, analytically-driven",
-    "failure_response": "provocative analysis, unconventional reasoning, emotional evaluation, contrarian thinking, analytical assessment"
+    "failure_response": "provocative analysis, unconventional reasoning, emotional evaluation, contrarian thinking, analytical assessment",
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ]
   },
   "values": {
     "core_values": "provocative analysis, unconventional reasoning, emotional evaluation, contrarian thinking, analytical assessment, philosophical truth",
     "ethical_framework": "provocative integrity, unconventional reasoning honesty, emotional evaluation authenticity, contrarian thinking responsibility, analytical assessment",
-    "social_responsibility": "provocative education, unconventional reasoning, emotional evaluation, contrarian thinking, analytical assessment, philosophical truth"
+    "social_responsibility": "provocative education, unconventional reasoning, emotional evaluation, contrarian thinking, analytical assessment, philosophical truth",
+    "ethical_standards": [
+      "commitment to integrity"
+    ],
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "category": "Philosophy",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "natural curiosity",
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "n/a",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "Always considers human impact"
   },
   "trait_constellations": {

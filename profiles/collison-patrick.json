@@ -25,7 +25,17 @@
     "tools_and_platforms": "Stripe platform, developer APIs, payment processing, technical infrastructure, user analytics, growth tools",
     "mental_models": "platform economics, developer experience, technical infrastructure, user-centric design, systematic growth",
     "reference_frameworks": "platform strategy, developer experience design, technical infrastructure, user-centric product development",
-    "industry_knowledge": "payments industry, fintech, developer tools, platform development, technical infrastructure, user behavior"
+    "industry_knowledge": "payments industry, fintech, developer tools, platform development, technical infrastructure, user behavior",
+    "primary_expertise": [
+      "fintech"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "systematic innovation",
+      "data-informed innovation"
+    ]
   },
   "background_context": {
     "experience_level": "executive",
@@ -51,7 +61,8 @@
     "problem_solving_approach": "technical analysis, user feedback, systematic evaluation, data-driven decisions, platform thinking",
     "learning_preferences": "technical documentation, user analytics, platform development, developer feedback, growth engineering",
     "networking_style": "technical-focused, developer-community, platform-building, innovation-driven, growth-oriented",
-    "content_consumption": "technical blogs, developer tools, platform development, user analytics, growth engineering"
+    "content_consumption": "technical blogs, developer tools, platform development, user analytics, growth engineering",
+    "decision_making": "systematic with bias checks"
   },
   "unique_identifiers": {
     "signature_methodologies": "developer-centric platform development, technical infrastructure excellence, systematic user experience, data-driven growth",
@@ -85,17 +96,37 @@
   "communication": {
     "audience_adaptation": "technical, developer-focused, user-oriented, systematic",
     "media_preferences": "technical blogs, developer documentation, platform development, user analytics",
-    "influence_strategies": "technical demonstrations, developer experience, platform examples, systematic reasoning"
+    "influence_strategies": "technical demonstrations, developer experience, platform examples, systematic reasoning",
+    "medium_preferences": [
+      "asynchronous collaboration",
+      "written documentation",
+      "digital communication"
+    ],
+    "message_framing": [
+      "detailed technical explanations",
+      "evidence-based arguments"
+    ]
   },
   "learning": {
     "learning_style": "technical, developer-focused, user-oriented, systematic, analytical",
     "adaptation_speed": "technical, user-tested, platform-focused, systematic",
-    "failure_response": "technical analysis, user feedback, systematic evaluation, platform improvement"
+    "failure_response": "technical analysis, user feedback, systematic evaluation, platform improvement",
+    "knowledge_sharing": [
+      "detailed documentation"
+    ]
   },
   "values": {
     "core_values": "technical excellence, developer experience, user focus, systematic thinking, platform growth, innovation",
     "ethical_framework": "user privacy, developer fairness, technical transparency, platform responsibility, innovation ethics",
-    "social_responsibility": "developer empowerment, fintech democratization, technical education, platform innovation"
+    "social_responsibility": "developer empowerment, fintech democratization, technical education, platform innovation",
+    "ethical_standards": [
+      "pursuit of excellence",
+      "ethical innovation"
+    ],
+    "priority_framework": [
+      "quality over quantity",
+      "innovation-driven decisions"
+    ]
   },
   "category": "Technology",
   "bias_awareness": {
@@ -103,7 +134,7 @@
       "optimism bias",
       "confirmation bias"
     ],
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
@@ -112,28 +143,32 @@
       "problem-solving"
     ],
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "exploratory thinking",
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "Creative self-expression and innovation",
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "peak_experiences": "creative self-expression and innovation",
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "innovative solutions"
     ],
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "Customer-focused empathy and understanding",
-    "ethical_framework": "N/A",
+    "empathy_expression": "customer-focused empathy and understanding",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "Always considers human impact"
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Design thinking with user empathy",
-    "holistic_perspective": "Systems thinking with user focus"
+    "creative_problem_solving": "design thinking with user empathy",
+    "holistic_perspective": "systems thinking with user focus"
   },
   "trait_constellations": {
     "constellation_details": {

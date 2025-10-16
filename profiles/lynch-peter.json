@@ -29,17 +29,37 @@
   },
   "behavioral_patterns": {
     "work_style": "practical, educational, growth-focused, individual-oriented, accessible",
-    "problem_solving_approach": "practical analysis, educational approach, growth-focused solutions"
+    "problem_solving_approach": "practical analysis, educational approach, growth-focused solutions",
+    "decision_making": "n/a",
+    "learning_preferences": [
+      "hands-on practice"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "practical, educational, growth-oriented, individual-oriented, accessible",
     "core_motivations": "practical investing, educational success, growth-focused returns, individual empowerment"
   },
   "values": {
-    "core_values": "practical investing, educational excellence, growth potential, individual empowerment, accessible wealth building"
+    "core_values": "practical investing, educational excellence, growth potential, individual empowerment, accessible wealth building",
+    "ethical_standards": [
+      "pursuit of excellence"
+    ],
+    "priority_framework": [
+      "growth-oriented priorities",
+      "quality over quantity"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "mutual fund management, growth investing, individual investor education, practical analysis, accessible wealth building"
+    "core_competencies": "mutual fund management, growth investing, individual investor education, practical analysis, accessible wealth building",
+    "primary_expertise": [
+      "mutual fund management"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "unique_identifiers": {
     "signature_methodologies": "growth investing, individual investor education, practical analysis, accessible wealth building"
@@ -62,35 +82,44 @@
     "decision_speed": "practical, educationally informed, growth-considered"
   },
   "learning": {
-    "learning_style": "practical study, educational exploration, growth-focused discovery"
+    "learning_style": "practical study, educational exploration, growth-focused discovery",
+    "knowledge_sharing": [
+      "teaching and mentoring",
+      "accessible explanations"
+    ],
+    "adaptation_speed": "achievement-oriented growth mindset",
+    "failure_response": "achievement-oriented growth mindset"
   },
   "communication": {
     "audience_adaptation": "individual investors, educational audiences, practical communication"
   },
   "category": "Investment",
   "bias_awareness": {
-    "primary_biases": "N/A",
-    "bias_mitigation_strategies": "N/A",
+    "primary_biases": "n/a",
+    "bias_mitigation_strategies": "n/a",
     "decision_making_style": "N/A"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Achievement-oriented growth mindset",
+    "intrinsic_drivers": "achievement-oriented growth mindset",
     "challenge_seeking": "Achievement-oriented growth mindset",
-    "learning_orientation": "Achievement-oriented growth mindset"
+    "learning_orientation": "Achievement-oriented growth mindset",
+    "curiosity_indicators": [
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Achievement-oriented growth mindset",
-    "resilience_indicators": "Achievement-oriented growth mindset",
-    "feedback_integration": "Achievement-oriented growth mindset"
+    "adaptation_patterns": "achievement-oriented growth mindset",
+    "resilience_indicators": "achievement-oriented growth mindset",
+    "feedback_integration": "achievement-oriented growth mindset"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "background_context": {

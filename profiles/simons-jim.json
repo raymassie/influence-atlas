@@ -29,17 +29,33 @@
   },
   "behavioral_patterns": {
     "work_style": "mathematical, quantitative, systematic, data-driven, philanthropic",
-    "problem_solving_approach": "mathematical analysis, quantitative modeling, systematic evaluation"
+    "problem_solving_approach": "mathematical analysis, quantitative modeling, systematic evaluation",
+    "decision_making": "systematic approach to decision-making with bias awareness",
+    "learning_preferences": [
+      "varied learning methods"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "mathematical, quantitative, systematic, data-driven, philanthropic",
     "core_motivations": "mathematical excellence, quantitative insight, systematic investing, philanthropic impact"
   },
   "values": {
-    "core_values": "mathematical precision, quantitative analysis, systematic thinking, data-driven decisions, philanthropic giving"
+    "core_values": "mathematical precision, quantitative analysis, systematic thinking, data-driven decisions, philanthropic giving",
+    "priority_framework": [
+      "long-term legacy focus"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "quantitative investing, mathematical modeling, systematic trading, data analysis, philanthropic strategy"
+    "core_competencies": "quantitative investing, mathematical modeling, systematic trading, data analysis, philanthropic strategy",
+    "primary_expertise": [
+      "quantitative investing"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "systematic innovation"
+    ]
   },
   "unique_identifiers": {
     "signature_methodologies": "quantitative investing, mathematical modeling, systematic trading, data-driven analysis"
@@ -62,35 +78,43 @@
     "decision_speed": "mathematical, quantitatively informed, systematically considered"
   },
   "learning": {
-    "learning_style": "mathematical study, quantitative exploration, systematic discovery"
+    "learning_style": "mathematical study, quantitative exploration, systematic discovery",
+    "knowledge_sharing": [
+      "teaching and mentoring"
+    ],
+    "adaptation_speed": "n/a",
+    "failure_response": "n/a"
   },
   "communication": {
-    "audience_adaptation": "quantitative investors, mathematical audiences, systematic communication"
+    "audience_adaptation": "quantitative investors, mathematical audiences, systematic communication",
+    "message_framing": [
+      "evidence-based arguments"
+    ]
   },
   "category": "Investment",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
     "learning_orientation": "N/A"
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "background_context": {

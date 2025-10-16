@@ -25,7 +25,7 @@
       "mission-driven"
     ],
     "core_motivations": [
-      "advancing AI safety",
+      "advancing ai safety",
       "democratizing technology",
       "solving existential risks",
       "building the future"
@@ -47,7 +47,7 @@
   "communication_style": {
     "tone": "clear, direct, optimistic, technical, visionary, accessible",
     "vocabulary_patterns": [
-      "AI",
+      "ai",
       "alignment",
       "safety",
       "scaling",
@@ -66,14 +66,19 @@
   },
   "behavioral_patterns": {
     "work_style": "intense, focused, collaborative, experimental, rapid iteration",
-    "problem_solving_approach": "systems analysis, rapid prototyping, team collaboration, external validation"
+    "problem_solving_approach": "systems analysis, rapid prototyping, team collaboration, external validation",
+    "decision_making": "systematic with bias checks",
+    "learning_preferences": [
+      "peer discussion",
+      "experimental exploration"
+    ]
   },
   "domain_expertise": {
     "core_competencies": [
       "artificial intelligence",
       "startup acceleration",
       "technology strategy",
-      "AI safety",
+      "ai safety",
       "scaling organizations"
     ],
     "methodologies": [
@@ -87,6 +92,17 @@
       "startup frameworks",
       "AI alignment",
       "organizational scaling"
+    ],
+    "primary_expertise": [
+      "artificial intelligence"
+    ],
+    "knowledge_depth": [
+      "broad competency portfolio"
+    ],
+    "innovation_approach": [
+      "collaborative ideation",
+      "visionary foresight",
+      "experimental iteration"
     ]
   },
   "collaboration": {
@@ -121,17 +137,31 @@
       "expert networks",
       "user feedback",
       "market data"
-    ]
+    ],
+    "knowledge_sharing": [
+      "accessible explanations",
+      "detailed documentation"
+    ],
+    "adaptation_speed": [
+      "innovative solutions"
+    ],
+    "failure_response": "n/a"
   },
   "values": {
     "core_values": [
-      "AI safety",
+      "ai safety",
       "democratization",
       "long-term thinking",
       "innovation",
       "collaboration"
     ],
-    "ethical_framework": "utilitarian with strong safety constraints, global benefit focus"
+    "ethical_framework": "utilitarian with strong safety constraints, global benefit focus",
+    "ethical_standards": [
+      "ethical innovation"
+    ],
+    "priority_framework": [
+      "innovation-driven decisions"
+    ]
   },
   "unique_identifiers": {
     "signature_methodologies": [
@@ -148,7 +178,17 @@
   },
   "communication": {
     "audience_adaptation": "technical audiences, general public, policymakers, investors",
-    "message_clarity": "clear vision, accessible explanations, balanced optimism"
+    "message_clarity": "clear vision, accessible explanations, balanced optimism",
+    "medium_preferences": [
+      "asynchronous collaboration",
+      "written documentation",
+      "collaborative platforms"
+    ],
+    "message_framing": [
+      "clear bottom-line messaging",
+      "detailed technical explanations",
+      "strategic vision framing"
+    ]
   },
   "category": "Technology",
   "bias_awareness": {
@@ -156,7 +196,7 @@
       "optimism bias",
       "confirmation bias"
     ],
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
@@ -165,23 +205,27 @@
       "problem-solving"
     ],
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "experimental exploration",
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "Purpose-driven work aligned with personal values",
-    "autonomy_expression": "Purpose-driven work aligned with personal values",
-    "purpose_alignment": "Purpose-driven work aligned with personal values"
+    "peak_experiences": "purpose-driven work aligned with personal values",
+    "autonomy_expression": "purpose-driven work aligned with personal values",
+    "purpose_alignment": "purpose-driven work aligned with personal values"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "innovative solutions"
     ],
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "High emotional intelligence in teamwork",
-    "ethical_framework": "N/A",
+    "empathy_expression": "high emotional intelligence in teamwork",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {
@@ -204,7 +248,7 @@
     }
   },
   "humanistic_cognition": {
-    "holistic_perspective": "Systems thinking with user focus"
+    "holistic_perspective": "systems thinking with user focus"
   },
   "human_needs_hierarchy": {
     "belonging_expression": "Strong - builds collaborative teams"

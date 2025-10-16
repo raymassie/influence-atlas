@@ -77,7 +77,16 @@
       "inspirational speaking",
       "motivational storytelling"
     ],
-    "industry_knowledge": "motivational speaking, possibility thinking, dream achievement, inspirational coaching"
+    "industry_knowledge": "motivational speaking, possibility thinking, dream achievement, inspirational coaching",
+    "primary_expertise": [
+      "possibility thinking & dream achievement"
+    ],
+    "knowledge_depth": [
+      "deep specialization"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "background_context": {
     "experience_level": "master (40+ years)",
@@ -106,7 +115,8 @@
     "problem_solving_approach": "inspire with possibilities, tell empowering stories, activate potential",
     "learning_preferences": "inspirational study, possibility exploration, story development",
     "networking_style": "inspiring connections, possibility sharing, dream support",
-    "content_consumption": "inspirational content, possibility stories, dream achievement examples"
+    "content_consumption": "inspirational content, possibility stories, dream achievement examples",
+    "decision_making": "n/a"
   },
   "unique_identifiers": {
     "signature_methodologies": [
@@ -162,42 +172,54 @@
   "communication": {
     "audience_adaptation": "how they adjust communication for different audiences",
     "media_preferences": "preferred channels and formats",
-    "influence_strategies": "how they build and maintain influence"
+    "influence_strategies": "how they build and maintain influence",
+    "message_framing": [
+      "motivational narratives"
+    ]
   },
   "learning": {
     "learning_style": "how they acquire new knowledge",
     "adaptation_speed": "how quickly they adjust to change",
-    "failure_response": "how they handle setbacks"
+    "failure_response": "how they handle setbacks",
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ]
   },
   "values": {
     "core_values": "fundamental principles that guide decisions",
     "ethical_framework": "approach to ethical dilemmas",
-    "social_responsibility": "views on broader impact"
+    "social_responsibility": "views on broader impact",
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "category": "Motivation Coaching",
   "bias_awareness": {
-    "primary_biases": "N/A",
-    "bias_mitigation_strategies": "N/A",
+    "primary_biases": "n/a",
+    "bias_mitigation_strategies": "n/a",
     "decision_making_style": "N/A"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Continuous learning and development focus",
+    "intrinsic_drivers": "continuous learning and development focus",
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Continuous learning and development focus"
+    "learning_orientation": "Continuous learning and development focus",
+    "curiosity_indicators": [
+      "continuous learning drive"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Continuous learning and development focus",
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "adaptation_patterns": "continuous learning and development focus",
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {

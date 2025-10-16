@@ -70,6 +70,12 @@
       "moral reasoning",
       "systematic investigation",
       "rational argumentation"
+    ],
+    "ethical_standards": [
+      "respect for others"
+    ],
+    "priority_framework": [
+      "value-aligned decisions"
     ]
   },
   "collaboration_style": {
@@ -127,28 +133,31 @@
     ]
   },
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {
@@ -168,5 +177,35 @@
       "values_ethics": {},
       "analytical_thinking": {}
     }
+  },
+  "communication": {
+    "message_framing": [
+      "evidence-based arguments"
+    ]
+  },
+  "domain_expertise": {
+    "primary_expertise": [
+      "moral philosophy"
+    ],
+    "knowledge_depth": [
+      "domain expertise"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
+  },
+  "behavioral_patterns": {
+    "decision_making": "systematic with bias checks",
+    "learning_preferences": [
+      "experiential learning",
+      "continuous development"
+    ]
+  },
+  "learning": {
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ],
+    "adaptation_speed": "n/a",
+    "failure_response": "n/a"
   }
 }

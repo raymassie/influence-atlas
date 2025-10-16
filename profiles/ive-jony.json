@@ -25,7 +25,18 @@
     "tools_and_platforms": "sketching, prototyping, CAD, material samples, user testing, design workshops",
     "mental_models": "form follows function, minimalism, user-centered design, material honesty, aesthetic purity",
     "reference_frameworks": "Bauhaus principles, Dieter Rams design, Japanese aesthetics, functional design",
-    "industry_knowledge": "consumer electronics, luxury goods, manufacturing, materials, user behavior, design trends"
+    "industry_knowledge": "consumer electronics, luxury goods, manufacturing, materials, user behavior, design trends",
+    "primary_expertise": [
+      "industrial design"
+    ],
+    "knowledge_depth": [
+      "deep specialization",
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "collaborative ideation",
+      "experimental iteration"
+    ]
   },
   "background_context": {
     "experience_level": "master",
@@ -58,7 +69,8 @@
     "problem_solving_approach": "design thinking, user research, material exploration, iterative refinement, aesthetic evaluation",
     "learning_preferences": "material studies, design history, user observation, craftsmanship, aesthetic philosophy",
     "networking_style": "design-focused, selective, inspiration-seeking, mentorship-oriented",
-    "content_consumption": "design books, material research, user studies, aesthetic philosophy, craftsmanship videos"
+    "content_consumption": "design books, material research, user studies, aesthetic philosophy, craftsmanship videos",
+    "decision_making": "creative problem-solving with intuitive bias recognition"
   },
   "unique_identifiers": {
     "signature_methodologies": "design thinking, material exploration, user-centered design, iterative refinement, aesthetic evaluation",
@@ -92,49 +104,74 @@
   "communication": {
     "audience_adaptation": "design-focused, aesthetic-driven, user-centric, inspiring",
     "media_preferences": "design presentations, material demonstrations, user studies, aesthetic philosophy",
-    "influence_strategies": "visual demonstrations, aesthetic arguments, user experience, design philosophy"
+    "influence_strategies": "visual demonstrations, aesthetic arguments, user experience, design philosophy",
+    "medium_preferences": [
+      "collaborative platforms",
+      "visual presentation",
+      "in-person collaboration"
+    ],
+    "message_framing": [
+      "detailed technical explanations",
+      "motivational narratives"
+    ]
   },
   "learning": {
     "learning_style": "visual, hands-on, material-focused, user-observation, aesthetic-study",
     "adaptation_speed": "deliberate, iterative, user-tested, aesthetic-evaluated",
-    "failure_response": "design iteration, user feedback, material exploration, aesthetic refinement"
+    "failure_response": "design iteration, user feedback, material exploration, aesthetic refinement",
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ]
   },
   "values": {
     "core_values": "design excellence, user experience, aesthetic beauty, material honesty, functional elegance, craftsmanship",
     "ethical_framework": "user-centered design, material sustainability, aesthetic integrity, functional honesty",
-    "social_responsibility": "design education, user empowerment, aesthetic culture, functional beauty"
+    "social_responsibility": "design education, user empowerment, aesthetic culture, functional beauty",
+    "ethical_standards": [
+      "pursuit of excellence",
+      "commitment to integrity",
+      "commitment to honesty"
+    ],
+    "priority_framework": [
+      "quality over quantity",
+      "intuition-guided choices"
+    ]
   },
   "category": "Design",
   "bias_awareness": {
-    "primary_biases": "Creative problem-solving with intuitive bias recognition",
-    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases": "creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "creative problem-solving with intuitive bias recognition",
     "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "N/A"
+    "learning_orientation": "N/A",
+    "curiosity_indicators": [
+      "exploratory thinking",
+      "experimental exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "Creative self-expression and innovation",
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "peak_experiences": "creative self-expression and innovation",
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "strategic pivots",
       "creative solutions"
     ],
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "High emotional intelligence in team leadership",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "high emotional intelligence in team leadership",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "N/A"
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Design thinking with user empathy"
+    "creative_problem_solving": "design thinking with user empathy"
   },
   "trait_constellations": {
     "constellation_details": {

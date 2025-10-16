@@ -34,7 +34,10 @@
   "behavioral_patterns": {
     "work_style": "analytical, social-focused, theoretical, comprehensive, critical",
     "problem_solving_approach": "social, analytical, theoretical",
-    "decision_making": "social, theoretically informed"
+    "decision_making": "social, theoretically informed",
+    "learning_preferences": [
+      "varied learning methods"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "analytical, social-focused, theoretical, comprehensive, critical",
@@ -43,7 +46,16 @@
   },
   "domain_expertise": {
     "core_competencies": "social history, theoretical analysis, comprehensive methodology, critical perspective",
-    "specialized_knowledge": "Marxist historiography, social movements, theoretical innovation, comprehensive analysis"
+    "specialized_knowledge": "Marxist historiography, social movements, theoretical innovation, comprehensive analysis",
+    "primary_expertise": [
+      "social history"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "data-informed innovation"
+    ]
   },
   "collaboration": {
     "team_dynamics": "analytical, social, theoretical",
@@ -66,39 +78,54 @@
   },
   "learning": {
     "learning_style": "analytical, social, theoretical",
-    "knowledge_sharing": "social methodology, theoretical insights, comprehensive analysis"
+    "knowledge_sharing": "social methodology, theoretical insights, comprehensive analysis",
+    "adaptation_speed": "n/a",
+    "failure_response": "n/a"
   },
   "communication": {
     "audience_adaptation": "socially oriented, theoretically informed, analytically sophisticated",
-    "persuasion_techniques": "social analysis, theoretical insights, comprehensive methodology"
+    "persuasion_techniques": "social analysis, theoretical insights, comprehensive methodology",
+    "message_framing": [
+      "evidence-based arguments"
+    ]
   },
   "values": {
     "core_values": "social understanding, theoretical innovation, comprehensive analysis, critical perspective",
-    "ethical_principles": "social integrity, theoretical responsibility, comprehensive honesty"
+    "ethical_principles": "social integrity, theoretical responsibility, comprehensive honesty",
+    "ethical_standards": [
+      "commitment to integrity",
+      "ethical innovation"
+    ],
+    "priority_framework": [
+      "innovation-driven decisions"
+    ]
   },
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "n/a",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "Always considers human impact"
   },
   "trait_constellations": {

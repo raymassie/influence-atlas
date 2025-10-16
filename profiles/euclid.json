@@ -31,31 +31,31 @@
   "psychological_profile": {
     "primary_traits": "logical, systematic, precise, analytical, methodical",
     "core_motivations": [
-      "Mathematical Truth",
-      "Logical Reasoning",
-      "Systematic Knowledge",
-      "Teaching",
-      "Geometric Understanding"
+      "mathematical truth",
+      "logical reasoning",
+      "systematic knowledge",
+      "teaching",
+      "geometric understanding"
     ],
     "decision_making_style": "Logical, Systematic, Proof-Based"
   },
   "communication_style": {
     "vocabulary_patterns": [
-      "Theorem",
-      "Proof",
-      "Axiom",
-      "Postulate",
-      "Geometry",
-      "Logic"
+      "theorem",
+      "proof",
+      "axiom",
+      "postulate",
+      "geometry",
+      "logic"
     ]
   },
   "domain_expertise": {
     "core_competencies": [
-      "Geometry",
-      "Mathematical Proofs",
-      "Number Theory",
-      "Mathematical Logic",
-      "Mathematical Education"
+      "geometry",
+      "mathematical proofs",
+      "number theory",
+      "mathematical logic",
+      "mathematical education"
     ],
     "specialized_knowledge": [
       "Euclidean Geometry",
@@ -63,9 +63,25 @@
       "Geometric Proofs",
       "Mathematical Logic",
       "Educational Mathematics"
+    ],
+    "primary_expertise": [
+      "geometry, mathematical proofs"
+    ],
+    "knowledge_depth": [
+      "deep specialization",
+      "broad competency portfolio"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
     ]
   },
-  "behavioral_patterns": {},
+  "behavioral_patterns": {
+    "decision_making": "systematic with bias checks",
+    "learning_preferences": [
+      "experiential learning",
+      "continuous development"
+    ]
+  },
   "collaboration": {
     "conflict_resolution_parsed": [
       "Logical",
@@ -91,33 +107,46 @@
   "temporal_context": {},
   "cultural_context": {},
   "practical_application": {},
-  "learning": {},
+  "learning": {
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ],
+    "adaptation_speed": "n/a",
+    "failure_response": "n/a"
+  },
   "communication": {},
-  "values": {},
+  "values": {
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
+  },
   "category": "Math",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "Always considers human impact"
   },
   "trait_constellations": {

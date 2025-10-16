@@ -28,17 +28,33 @@
   },
   "behavioral_patterns": {
     "work_style": "patient, moral, practical, wise, educational",
-    "problem_solving_approach": "moral analysis, practical wisdom, patient teaching"
+    "problem_solving_approach": "moral analysis, practical wisdom, patient teaching",
+    "decision_making": "n/a",
+    "learning_preferences": [
+      "hands-on practice"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "wise, moral, patient, practical, educational",
     "core_motivations": "moral education, social harmony, practical wisdom, ethical leadership"
   },
   "values": {
-    "core_values": "moral virtue, social harmony, filial piety, righteousness, wisdom"
+    "core_values": "moral virtue, social harmony, filial piety, righteousness, wisdom",
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "moral philosophy, ethics, political philosophy, education, social harmony"
+    "core_competencies": "moral philosophy, ethics, political philosophy, education, social harmony",
+    "primary_expertise": [
+      "ethics"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "unique_identifiers": {
     "signature_methodologies": "moral analysis, practical wisdom, ethical teaching, social harmony principles"
@@ -61,35 +77,40 @@
     "decision_speed": "wise, morally informed, practically considered"
   },
   "learning": {
-    "learning_style": "moral study, practical wisdom, educational discovery"
+    "learning_style": "moral study, practical wisdom, educational discovery",
+    "knowledge_sharing": [
+      "teaching and mentoring"
+    ],
+    "adaptation_speed": "n/a",
+    "failure_response": "n/a"
   },
   "communication": {
     "audience_adaptation": "educational audiences, moral discourse, practical wisdom communication"
   },
   "category": "Philosophy",
   "bias_awareness": {
-    "primary_biases": "N/A",
-    "bias_mitigation_strategies": "N/A",
+    "primary_biases": "n/a",
+    "bias_mitigation_strategies": "n/a",
     "decision_making_style": "N/A"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
     "learning_orientation": "N/A"
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "background_context": {

@@ -77,7 +77,16 @@
       "financial technology",
       "meditation practices"
     ],
-    "industry_knowledge": "social media, financial technology, digital payments, blockchain, meditation"
+    "industry_knowledge": "social media, financial technology, digital payments, blockchain, meditation",
+    "primary_expertise": [
+      "social media & financial technology"
+    ],
+    "knowledge_depth": [
+      "deep specialization"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "background_context": {
     "experience_level": "expert (20+ years)",
@@ -106,7 +115,8 @@
     "problem_solving_approach": "simplify to essence, focus on core user need, apply minimalist principles",
     "learning_preferences": "meditation, philosophical study, user observation",
     "networking_style": "minimalist connections, philosophical discussions, mindful relationships",
-    "content_consumption": "meditation texts, minimalist design, philosophical works"
+    "content_consumption": "meditation texts, minimalist design, philosophical works",
+    "decision_making": "n/a"
   },
   "unique_identifiers": {
     "signature_methodologies": [
@@ -160,42 +170,59 @@
   "communication": {
     "audience_adaptation": "how they adjust communication for different audiences",
     "media_preferences": "preferred channels and formats",
-    "influence_strategies": "how they build and maintain influence"
+    "influence_strategies": "how they build and maintain influence",
+    "medium_preferences": [
+      "asynchronous collaboration",
+      "written documentation",
+      "digital communication"
+    ],
+    "message_framing": [
+      "clear bottom-line messaging"
+    ]
   },
   "learning": {
     "learning_style": "how they acquire new knowledge",
     "adaptation_speed": "how quickly they adjust to change",
-    "failure_response": "how they handle setbacks"
+    "failure_response": "how they handle setbacks",
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ]
   },
   "values": {
     "core_values": "fundamental principles that guide decisions",
     "ethical_framework": "approach to ethical dilemmas",
-    "social_responsibility": "views on broader impact"
+    "social_responsibility": "views on broader impact",
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "category": "Technology",
   "bias_awareness": {
-    "primary_biases": "N/A",
-    "bias_mitigation_strategies": "N/A",
+    "primary_biases": "n/a",
+    "bias_mitigation_strategies": "n/a",
     "decision_making_style": "N/A"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Continuous learning and development focus",
+    "intrinsic_drivers": "continuous learning and development focus",
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Continuous learning and development focus"
+    "learning_orientation": "Continuous learning and development focus",
+    "curiosity_indicators": [
+      "continuous learning drive"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Continuous learning and development focus",
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "adaptation_patterns": "continuous learning and development focus",
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "Customer-focused empathy and understanding",
-    "ethical_framework": "N/A",
+    "empathy_expression": "customer-focused empathy and understanding",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {

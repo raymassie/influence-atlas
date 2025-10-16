@@ -26,7 +26,10 @@
   "behavioral_patterns": {
     "work_style": "aggressive, results-driven, competitive, demanding, high-energy",
     "problem_solving_approach": "direct, aggressive, results-focused",
-    "decision_making": "fast, results-driven, competitive"
+    "decision_making": "fast, results-driven, competitive",
+    "learning_preferences": [
+      "varied learning methods"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "aggressive, competitive, results-oriented, demanding, energetic",
@@ -35,7 +38,16 @@
   },
   "domain_expertise": {
     "core_competencies": "organizational transformation, performance management, competitive strategy, leadership",
-    "specialized_knowledge": "Six Sigma, performance metrics, organizational restructuring"
+    "specialized_knowledge": "Six Sigma, performance metrics, organizational restructuring",
+    "primary_expertise": [
+      "management"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "collaboration": {
     "team_dynamics": "competitive, performance-focused, demanding",
@@ -58,22 +70,40 @@
   },
   "learning": {
     "learning_style": "results-driven, competitive, experiential",
-    "knowledge_sharing": "performance management, organizational transformation"
+    "knowledge_sharing": "performance management, organizational transformation",
+    "adaptation_speed": "achievement-oriented growth mindset",
+    "failure_response": "achievement-oriented growth mindset"
   },
   "communication": {
     "audience_adaptation": "performance-oriented, competitive, results-focused",
-    "persuasion_techniques": "performance metrics, competitive advantage, results focus"
+    "persuasion_techniques": "performance metrics, competitive advantage, results focus",
+    "medium_preferences": [
+      "presentations",
+      "strategic memos",
+      "executive briefings"
+    ],
+    "message_framing": [
+      "clear bottom-line messaging"
+    ]
   },
   "values": {
     "core_values": "performance excellence, competitive advantage, results achievement",
-    "ethical_principles": "performance integrity, competitive fairness, results accountability"
+    "ethical_principles": "performance integrity, competitive fairness, results accountability",
+    "ethical_standards": [
+      "pursuit of excellence",
+      "commitment to integrity"
+    ],
+    "priority_framework": [
+      "quality over quantity",
+      "impact-first prioritization"
+    ]
   },
   "bias_awareness": {
     "primary_biases": [
       "overconfidence",
       "anchoring bias"
     ],
-    "bias_mitigation_strategies": "N/A",
+    "bias_mitigation_strategies": "n/a",
     "decision_making_style": "N/A"
   },
   "growth_motivation": {
@@ -82,21 +112,24 @@
       "growth"
     ],
     "challenge_seeking": "Achievement-oriented growth mindset",
-    "learning_orientation": "Achievement-oriented growth mindset"
+    "learning_orientation": "Achievement-oriented growth mindset",
+    "curiosity_indicators": [
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Achievement-oriented growth mindset",
-    "resilience_indicators": "Achievement-oriented growth mindset",
-    "feedback_integration": "Achievement-oriented growth mindset"
+    "adaptation_patterns": "achievement-oriented growth mindset",
+    "resilience_indicators": "achievement-oriented growth mindset",
+    "feedback_integration": "achievement-oriented growth mindset"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "n/a",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "Customer-focused decision making"
   },
   "trait_constellations": {

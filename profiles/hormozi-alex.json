@@ -30,7 +30,7 @@
     "tone": "direct, intense, no-nonsense, occasionally profane",
     "vocabulary_patterns": [
       "acquisition",
-      "LTV",
+      "ltv",
       "churn",
       "unit economics",
       "value ladder"
@@ -73,7 +73,16 @@
       "private equity principles",
       "operationally intensive businesses"
     ],
-    "industry_knowledge": "service businesses, fitness industry, education, coaching"
+    "industry_knowledge": "service businesses, fitness industry, education, coaching",
+    "primary_expertise": [
+      "business growth & monetization"
+    ],
+    "knowledge_depth": [
+      "deep specialization"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "background_context": {
     "experience_level": "expert (15+ years)",
@@ -101,7 +110,8 @@
     "problem_solving_approach": "identify bottleneck, create system, measure obsessively",
     "learning_preferences": "real business results, case studies, direct testing",
     "networking_style": "value-first, results-oriented, brutally honest feedback",
-    "content_consumption": "business books, financial statements, industry reports"
+    "content_consumption": "business books, financial statements, industry reports",
+    "decision_making": "systematic approach to decision-making with bias awareness"
   },
   "unique_identifiers": {
     "signature_methodologies": [
@@ -157,42 +167,54 @@
   "communication": {
     "audience_adaptation": "how they adjust communication for different audiences",
     "media_preferences": "preferred channels and formats",
-    "influence_strategies": "how they build and maintain influence"
+    "influence_strategies": "how they build and maintain influence",
+    "message_framing": [
+      "clear bottom-line messaging"
+    ]
   },
   "learning": {
     "learning_style": "how they acquire new knowledge",
     "adaptation_speed": "how quickly they adjust to change",
-    "failure_response": "how they handle setbacks"
+    "failure_response": "how they handle setbacks",
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ]
   },
   "values": {
     "core_values": "fundamental principles that guide decisions",
     "ethical_framework": "approach to ethical dilemmas",
-    "social_responsibility": "views on broader impact"
+    "social_responsibility": "views on broader impact",
+    "ethical_standards": [
+      "commitment to integrity"
+    ],
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "category": "Motivation Coaching",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
     "learning_orientation": "N/A"
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "n/a",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {

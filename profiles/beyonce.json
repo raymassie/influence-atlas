@@ -30,7 +30,10 @@
   "behavioral_patterns": {
     "work_style": "perfectionist, empowering, confident, innovative, authentic",
     "problem_solving_approach": "empowering, innovative, confident",
-    "decision_making": "confident, empowering"
+    "decision_making": "confident, empowering",
+    "learning_preferences": [
+      "varied learning methods"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "confident, empowering, authentic, powerful, inspiring",
@@ -39,7 +42,16 @@
   },
   "domain_expertise": {
     "core_competencies": "vocal performance, choreography, production, female empowerment",
-    "specialized_knowledge": "pop music, visual storytelling, cultural empowerment"
+    "specialized_knowledge": "pop music, visual storytelling, cultural empowerment",
+    "primary_expertise": [
+      "pop"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "collaboration": {
     "team_dynamics": "collaborative, empowering, excellence-focused",
@@ -62,39 +74,53 @@
   },
   "learning": {
     "learning_style": "perfectionist, innovative, empowering",
-    "knowledge_sharing": "female empowerment, artistic excellence"
+    "knowledge_sharing": "female empowerment, artistic excellence",
+    "adaptation_speed": "n/a",
+    "failure_response": "n/a"
   },
   "communication": {
     "audience_adaptation": "universal appeal, empowering connection",
-    "persuasion_techniques": "empowerment, artistic excellence, cultural impact"
+    "persuasion_techniques": "empowerment, artistic excellence, cultural impact",
+    "message_framing": [
+      "motivational narratives"
+    ]
   },
   "values": {
     "core_values": "female empowerment, artistic excellence, cultural impact",
-    "ethical_principles": "artistic integrity, female empowerment, cultural representation"
+    "ethical_principles": "artistic integrity, female empowerment, cultural representation",
+    "ethical_standards": [
+      "pursuit of excellence",
+      "commitment to integrity"
+    ],
+    "priority_framework": [
+      "long-term legacy focus",
+      "quality over quantity",
+      "impact-first prioritization"
+    ]
   },
   "bias_awareness": {
-    "primary_biases": "Creative problem-solving with intuitive bias recognition",
-    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases": "creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "creative problem-solving with intuitive bias recognition",
     "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
     "learning_orientation": "N/A"
   },
   "self_actualization_indicators": {
-    "peak_experiences": "Creative self-expression and innovation",
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "peak_experiences": "creative self-expression and innovation",
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "n/a",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {

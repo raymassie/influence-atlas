@@ -29,7 +29,10 @@
   "behavioral_patterns": {
     "work_style": "innovative, provocative, confident, boundary-pushing, reinventing",
     "problem_solving_approach": "provocative, innovative, boundary-pushing",
-    "decision_making": "confident, provocative"
+    "decision_making": "confident, provocative",
+    "learning_preferences": [
+      "varied learning methods"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "confident, provocative, innovative, empowering, boundary-pushing",
@@ -38,7 +41,16 @@
   },
   "domain_expertise": {
     "core_competencies": "performance, cultural commentary, reinvention, female empowerment",
-    "specialized_knowledge": "pop culture, fashion, music videos, cultural provocation"
+    "specialized_knowledge": "pop culture, fashion, music videos, cultural provocation",
+    "primary_expertise": [
+      "pop"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "collaboration": {
     "team_dynamics": "collaborative, innovative, provocative",
@@ -61,7 +73,11 @@
   },
   "learning": {
     "learning_style": "innovative, provocative, experiential",
-    "knowledge_sharing": "cultural innovation, female empowerment"
+    "knowledge_sharing": "cultural innovation, female empowerment",
+    "adaptation_speed": [
+      "innovative solutions"
+    ],
+    "failure_response": "n/a"
   },
   "communication": {
     "audience_adaptation": "mass appeal, provocative engagement",
@@ -69,37 +85,47 @@
   },
   "values": {
     "core_values": "innovation, female empowerment, cultural provocation",
-    "ethical_principles": "artistic freedom, female empowerment, cultural innovation"
+    "ethical_principles": "artistic freedom, female empowerment, cultural innovation",
+    "ethical_standards": [
+      "ethical innovation"
+    ],
+    "priority_framework": [
+      "intuition-guided choices",
+      "innovation-driven decisions"
+    ]
   },
   "bias_awareness": {
-    "primary_biases": "Creative problem-solving with intuitive bias recognition",
-    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases": "creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "creative problem-solving with intuitive bias recognition",
     "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "N/A"
+    "learning_orientation": "N/A",
+    "curiosity_indicators": [
+      "exploratory thinking"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "Creative self-expression and innovation",
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "peak_experiences": "creative self-expression and innovation",
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "innovative solutions"
     ],
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Design thinking with user empathy"
+    "creative_problem_solving": "design thinking with user empathy"
   },
   "trait_constellations": {
     "constellation_details": {

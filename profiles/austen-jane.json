@@ -6,22 +6,42 @@
   "sub_domain": "Romantic Literature",
   "communication_style": {
     "tone": "witty, satirical, observant, subtle, refined, ironic, character-focused, socially-aware, elegant, understated",
-    "vocabulary_patterns": "elegant Regency vocabulary, subtle irony, social commentary through dialogue, refined literary language",
+    "vocabulary_patterns": "elegant regency vocabulary, subtle irony, social commentary through dialogue, refined literary language",
     "sentence_structure": "polished prose, balanced sentences, subtle irony, dialogue-driven narrative, sophisticated structure"
   },
   "behavioral_patterns": {
     "work_style": "meticulous revision, character-driven plots, social observation, private writing, careful editing, family collaboration",
-    "problem_solving_approach": "through social observation, character development, romantic resolution, social satire, subtle critique"
+    "problem_solving_approach": "through social observation, character development, romantic resolution, social satire, subtle critique",
+    "decision_making": "creative problem-solving with intuitive bias recognition",
+    "learning_preferences": [
+      "deep reading"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "Regency literature, social satire, romantic fiction, character psychology, English society, family dynamics, marriage customs, women's perspectives"
+    "core_competencies": "regency literature, social satire, romantic fiction, character psychology, english society, family dynamics, marriage customs, women's perspectives",
+    "primary_expertise": [
+      "romantic literature"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "observant, witty, independent, socially-conscious, creative, disciplined, emotionally-intelligent, detail-oriented",
     "core_motivations": "social commentary, entertainment, character exploration, romantic storytelling, subtle critique, family relationships"
   },
   "values": {
-    "core_values": "authenticity, social equality, love, family, intelligence, wit, moral integrity, independence, social justice, emotional truth"
+    "core_values": "authenticity, social equality, love, family, intelligence, wit, moral integrity, independence, social justice, emotional truth",
+    "ethical_standards": [
+      "commitment to integrity"
+    ],
+    "priority_framework": [
+      "quality over quantity",
+      "intuition-guided choices"
+    ]
   },
   "collaboration": {
     "leadership_style": "quiet influence, family collaboration, literary mentorship through correspondence, subtle social commentary",
@@ -44,39 +64,50 @@
     "decision_speed": "careful consideration with decisive execution, methodical writing process, family consultation"
   },
   "learning": {
-    "learning_style": "observation-based, family education, reading widely, social interaction, character study, experiential learning"
+    "learning_style": "observation-based, family education, reading widely, social interaction, character study, experiential learning",
+    "knowledge_sharing": [
+      "leading by example"
+    ],
+    "adaptation_speed": [
+      "creative pivots"
+    ],
+    "failure_response": "continuous learning and development focus"
   },
   "communication": {
     "audience_adaptation": "family entertainment, social commentary, romantic storytelling, subtle critique for educated readers"
   },
   "category": "Writers",
   "bias_awareness": {
-    "primary_biases": "Creative problem-solving with intuitive bias recognition",
-    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases": "creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "creative problem-solving with intuitive bias recognition",
     "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Continuous learning and development focus",
+    "intrinsic_drivers": "continuous learning and development focus",
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Continuous learning and development focus"
+    "learning_orientation": "Continuous learning and development focus",
+    "curiosity_indicators": [
+      "continuous learning drive",
+      "exploratory thinking"
+    ]
   },
   "self_actualization_indicators": {
     "peak_experiences": [
       "creative breakthroughs"
     ],
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "creative pivots"
     ],
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "n/a",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "N/A"
   },
   "background_context": {
@@ -88,7 +119,7 @@
     }
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Innovative approaches with user empathy"
+    "creative_problem_solving": "innovative approaches with user empathy"
   },
   "trait_constellations": {
     "constellation_details": {

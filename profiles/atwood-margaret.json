@@ -33,7 +33,10 @@
   "behavioral_patterns": {
     "work_style": "literary, environmental, prophetic, dystopian, eloquent",
     "problem_solving_approach": "literary, environmental, dystopian awareness",
-    "decision_making": "environmental, literary, prophetic"
+    "decision_making": "environmental, literary, prophetic",
+    "learning_preferences": [
+      "varied learning methods"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "literary, environmental, prophetic, dystopian, eloquent",
@@ -42,7 +45,16 @@
   },
   "domain_expertise": {
     "core_competencies": "environmental literature, dystopian fiction, ecological awareness, literary activism",
-    "specialized_knowledge": "climate fiction, environmental storytelling, dystopian literature, ecological consciousness"
+    "specialized_knowledge": "climate fiction, environmental storytelling, dystopian literature, ecological consciousness",
+    "primary_expertise": [
+      "environmental literature"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "collaboration": {
     "team_dynamics": "literary, environmental, activist",
@@ -65,7 +77,9 @@
   },
   "learning": {
     "learning_style": "literary, environmental, dystopian awareness",
-    "knowledge_sharing": "environmental literature, dystopian awareness, ecological consciousness"
+    "knowledge_sharing": "environmental literature, dystopian awareness, ecological consciousness",
+    "adaptation_speed": "n/a",
+    "failure_response": "n/a"
   },
   "communication": {
     "audience_adaptation": "literary, environmental, dystopian awareness",
@@ -73,31 +87,38 @@
   },
   "values": {
     "core_values": "environmental consciousness, literary excellence, dystopian awareness, ecological responsibility",
-    "ethical_principles": "environmental integrity, literary responsibility, ecological consciousness"
+    "ethical_principles": "environmental integrity, literary responsibility, ecological consciousness",
+    "ethical_standards": [
+      "pursuit of excellence",
+      "commitment to integrity"
+    ],
+    "priority_framework": [
+      "quality over quantity"
+    ]
   },
   "bias_awareness": {
-    "primary_biases": "N/A",
-    "bias_mitigation_strategies": "N/A",
+    "primary_biases": "n/a",
+    "bias_mitigation_strategies": "n/a",
     "decision_making_style": "N/A"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
     "learning_orientation": "N/A"
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "n/a",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {

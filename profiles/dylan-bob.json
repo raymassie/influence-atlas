@@ -32,7 +32,10 @@
   "behavioral_patterns": {
     "work_style": "independent, prolific, experimental, authentic",
     "problem_solving_approach": "creative, intuitive, unconventional",
-    "decision_making": "autonomous, instinctive"
+    "decision_making": "autonomous, instinctive",
+    "learning_preferences": [
+      "varied learning methods"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "independent, creative, enigmatic, authentic, rebellious",
@@ -41,7 +44,17 @@
   },
   "domain_expertise": {
     "core_competencies": "songwriting, lyrical poetry, musical innovation, performance",
-    "specialized_knowledge": "folk tradition, social commentary, literary influences"
+    "specialized_knowledge": "folk tradition, social commentary, literary influences",
+    "primary_expertise": [
+      "folk rock"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "creative problem solving",
+      "experimental iteration"
+    ]
   },
   "collaboration": {
     "team_dynamics": "selective collaboration, artistic partnerships",
@@ -64,47 +77,63 @@
   },
   "learning": {
     "learning_style": "self-directed, intuitive, literary",
-    "knowledge_sharing": "musical innovation, cultural commentary"
+    "knowledge_sharing": "musical innovation, cultural commentary",
+    "adaptation_speed": [
+      "creative pivots"
+    ],
+    "failure_response": "n/a"
   },
   "communication": {
     "audience_adaptation": "intellectual, artistic, countercultural",
-    "persuasion_techniques": "poetic imagery, social commentary"
+    "persuasion_techniques": "poetic imagery, social commentary",
+    "medium_preferences": [
+      "written reports"
+    ]
   },
   "values": {
     "core_values": "authenticity, artistic integrity, social consciousness",
-    "ethical_principles": "artistic freedom, social commentary, musical innovation"
+    "ethical_principles": "artistic freedom, social commentary, musical innovation",
+    "ethical_standards": [
+      "commitment to integrity"
+    ],
+    "priority_framework": [
+      "intuition-guided choices"
+    ]
   },
   "bias_awareness": {
-    "primary_biases": "Creative problem-solving with intuitive bias recognition",
-    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases": "creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "creative problem-solving with intuitive bias recognition",
     "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
-    "learning_orientation": "N/A"
+    "learning_orientation": "N/A",
+    "curiosity_indicators": [
+      "exploratory thinking"
+    ]
   },
   "self_actualization_indicators": {
     "peak_experiences": [
       "creative breakthroughs"
     ],
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "creative pivots"
     ],
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "n/a",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "N/A"
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Innovative approaches with user empathy"
+    "creative_problem_solving": "innovative approaches with user empathy"
   },
   "trait_constellations": {
     "constellation_details": {

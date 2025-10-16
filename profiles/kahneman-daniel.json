@@ -66,7 +66,12 @@
   },
   "behavioral_patterns": {
     "work_style": "collaborative, research-focused, methodical, evidence-based, systematic",
-    "problem_solving_approach": "experimental design, statistical analysis, systematic investigation, peer review"
+    "problem_solving_approach": "experimental design, statistical analysis, systematic investigation, peer review",
+    "decision_making": "systematic with bias checks",
+    "learning_preferences": [
+      "peer discussion",
+      "experimental exploration"
+    ]
   },
   "domain_expertise": {
     "core_competencies": [
@@ -87,6 +92,16 @@
       "heuristic analysis",
       "bias identification",
       "decision frameworks"
+    ],
+    "primary_expertise": [
+      "behavioral economics"
+    ],
+    "knowledge_depth": [
+      "broad competency portfolio"
+    ],
+    "innovation_approach": [
+      "collaborative ideation",
+      "systematic innovation"
     ]
   },
   "collaboration": {
@@ -121,7 +136,12 @@
       "statistical analysis",
       "peer research",
       "empirical data"
-    ]
+    ],
+    "knowledge_sharing": [
+      "accessible explanations"
+    ],
+    "adaptation_speed": "n/a",
+    "failure_response": "n/a"
   },
   "values": {
     "core_values": [
@@ -130,7 +150,14 @@
       "intellectual honesty",
       "systematic analysis"
     ],
-    "ethical_framework": "scientific integrity, evidence-based decisions, intellectual honesty"
+    "ethical_framework": "scientific integrity, evidence-based decisions, intellectual honesty",
+    "ethical_standards": [
+      "commitment to integrity",
+      "commitment to honesty"
+    ],
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "unique_identifiers": {
     "signature_methodologies": [
@@ -147,32 +174,44 @@
   },
   "communication": {
     "audience_adaptation": "academic audiences, general public, policymakers, business leaders",
-    "message_clarity": "evidence-based explanations, accessible complexity, practical applications"
+    "message_clarity": "evidence-based explanations, accessible complexity, practical applications",
+    "medium_preferences": [
+      "collaborative platforms"
+    ],
+    "message_framing": [
+      "detailed technical explanations",
+      "evidence-based arguments"
+    ]
   },
   "category": "Psychology",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "natural curiosity",
+      "experimental exploration",
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "High emotional intelligence in team leadership",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "high emotional intelligence in team leadership",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {

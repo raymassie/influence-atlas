@@ -11,17 +11,40 @@
   },
   "behavioral_patterns": {
     "work_style": "growth mindset approach, inclusive leadership, collaborative culture, customer-focused innovation, strategic transformation, empathetic management",
-    "problem_solving_approach": "through growth mindset, inclusive collaboration, customer focus, cultural transformation, strategic innovation, empathetic leadership"
+    "problem_solving_approach": "through growth mindset, inclusive collaboration, customer focus, cultural transformation, strategic innovation, empathetic leadership",
+    "decision_making": "systematic with bias checks",
+    "learning_preferences": [
+      "peer discussion",
+      "experimental exploration"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "cloud computing leadership, cultural transformation, inclusive management, growth mindset development, strategic innovation, customer-centric technology, organizational change, empathetic leadership"
+    "core_competencies": "cloud computing leadership, cultural transformation, inclusive management, growth mindset development, strategic innovation, customer-centric technology, organizational change, empathetic leadership",
+    "primary_expertise": [
+      "cloud computing"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "collaborative ideation"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "empathetic, growth-oriented, inclusive, collaborative, strategic, innovative, authentic, transformative, customer-focused, cultural",
     "core_motivations": "cultural transformation, inclusive growth, customer success, strategic innovation, empathetic leadership, growth mindset development, collaborative excellence"
   },
   "values": {
-    "core_values": "growth mindset, inclusive culture, customer success, empathetic leadership, strategic innovation, collaborative excellence, cultural transformation, authentic growth"
+    "core_values": "growth mindset, inclusive culture, customer success, empathetic leadership, strategic innovation, collaborative excellence, cultural transformation, authentic growth",
+    "ethical_standards": [
+      "pursuit of excellence",
+      "ethical innovation"
+    ],
+    "priority_framework": [
+      "growth-oriented priorities",
+      "quality over quantity",
+      "innovation-driven decisions"
+    ]
   },
   "collaboration": {
     "leadership_style": "empathetic guidance, inclusive mentorship, growth mindset leadership, collaborative direction, cultural inspiration, transformative team building",
@@ -44,38 +67,57 @@
     "decision_speed": "empathetic analysis with inclusive execution, growth mindset evaluation, cultural consultation, collaborative leadership principles"
   },
   "learning": {
-    "learning_style": "growth mindset study, inclusive analysis, empathetic experimentation, cultural transformation, collaborative technology leadership, strategic innovation"
+    "learning_style": "growth mindset study, inclusive analysis, empathetic experimentation, cultural transformation, collaborative technology leadership, strategic innovation",
+    "knowledge_sharing": [
+      "collaborative learning",
+      "leading by example"
+    ],
+    "adaptation_speed": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "failure_response": "continuous learning and development focus"
   },
   "communication": {
-    "audience_adaptation": "technology leaders, cultural transformation specialists, inclusive management advocates, growth mindset developers, collaborative leaders, empathetic executives, strategic innovators"
+    "audience_adaptation": "technology leaders, cultural transformation specialists, inclusive management advocates, growth mindset developers, collaborative leaders, empathetic executives, strategic innovators",
+    "medium_preferences": [
+      "asynchronous collaboration",
+      "written documentation",
+      "collaborative platforms"
+    ]
   },
   "category": "Technology",
   "bias_awareness": {
-    "primary_biases": "Creative problem-solving with intuitive bias recognition",
-    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases": "creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "creative problem-solving with intuitive bias recognition",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Continuous learning and development focus",
+    "intrinsic_drivers": "continuous learning and development focus",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Continuous learning and development focus"
+    "learning_orientation": "Continuous learning and development focus",
+    "curiosity_indicators": [
+      "continuous learning drive",
+      "exploratory thinking",
+      "experimental exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "Creative self-expression and innovation",
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "peak_experiences": "creative self-expression and innovation",
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "strategic pivots",
       "creative solutions"
     ],
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "High emotional intelligence in leadership",
-    "ethical_framework": "N/A",
+    "empathy_expression": "high emotional intelligence in leadership",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "background_context": {
@@ -91,9 +133,9 @@
     "belonging_expression": "Strong - builds collaborative teams"
   },
   "humanistic_cognition": {
-    "collaborative_intelligence": "Exceptional team building and facilitation",
-    "holistic_perspective": "Systems thinking with human focus",
-    "creative_problem_solving": "Design thinking with user empathy"
+    "collaborative_intelligence": "exceptional team building and facilitation",
+    "holistic_perspective": "systems thinking with human focus",
+    "creative_problem_solving": "design thinking with user empathy"
   },
   "trait_constellations": {
     "constellation_details": {

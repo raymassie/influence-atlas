@@ -30,7 +30,10 @@
   "behavioral_patterns": {
     "work_style": "philosophical, sustainable, analytical, practical, thoughtful",
     "problem_solving_approach": "sustainable, philosophical, practical",
-    "decision_making": "sustainable, philosophically informed"
+    "decision_making": "sustainable, philosophically informed",
+    "learning_preferences": [
+      "hands-on practice"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "philosophical, sustainable, analytical, practical, thoughtful",
@@ -39,7 +42,16 @@
   },
   "domain_expertise": {
     "core_competencies": "sustainable economics, environmental philosophy, practical solutions, thoughtful analysis",
-    "specialized_knowledge": "small is beautiful, sustainable development, environmental economics, practical philosophy"
+    "specialized_knowledge": "small is beautiful, sustainable development, environmental economics, practical philosophy",
+    "primary_expertise": [
+      "sustainable economics"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "collaboration": {
     "team_dynamics": "philosophical, sustainable, practical",
@@ -62,39 +74,53 @@
   },
   "learning": {
     "learning_style": "philosophical, sustainable, practical",
-    "knowledge_sharing": "sustainable methodology, philosophical insights, practical solutions"
+    "knowledge_sharing": "sustainable methodology, philosophical insights, practical solutions",
+    "adaptation_speed": "continuous learning and development focus",
+    "failure_response": "continuous learning and development focus"
   },
   "communication": {
     "audience_adaptation": "philosophically oriented, sustainably informed, practically focused",
-    "persuasion_techniques": "sustainable analysis, philosophical insights, practical solutions"
+    "persuasion_techniques": "sustainable analysis, philosophical insights, practical solutions",
+    "message_framing": [
+      "evidence-based arguments"
+    ]
   },
   "values": {
     "core_values": "sustainable development, philosophical understanding, practical solutions, thoughtful analysis",
-    "ethical_principles": "sustainable responsibility, philosophical integrity, practical honesty"
+    "ethical_principles": "sustainable responsibility, philosophical integrity, practical honesty",
+    "ethical_standards": [
+      "commitment to integrity"
+    ],
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Continuous learning and development focus",
+    "intrinsic_drivers": "continuous learning and development focus",
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Continuous learning and development focus",
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "adaptation_patterns": "continuous learning and development focus",
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "n/a",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "Always considers human impact"
   },
   "trait_constellations": {

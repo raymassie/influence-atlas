@@ -70,6 +70,9 @@
       "compassionate teaching",
       "mindful living",
       "community support"
+    ],
+    "priority_framework": [
+      "growth-oriented priorities"
     ]
   },
   "collaboration_style": {
@@ -99,28 +102,31 @@
   ],
   "influence_scope": "Global - Loving-kindness meditation and mindfulness",
   "bias_awareness": {
-    "primary_biases": "N/A",
-    "bias_mitigation_strategies": "N/A",
+    "primary_biases": "n/a",
+    "bias_mitigation_strategies": "n/a",
     "decision_making_style": "N/A"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Continuous learning and development focus",
+    "intrinsic_drivers": "continuous learning and development focus",
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Continuous learning and development focus"
+    "learning_orientation": "Continuous learning and development focus",
+    "curiosity_indicators": [
+      "continuous learning drive"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Continuous learning and development focus",
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "adaptation_patterns": "continuous learning and development focus",
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "background_context": {
@@ -146,5 +152,30 @@
       "communication_style": {}
     }
   },
-  "legacy": "Notable figure whose contributions continue to be recognized"
+  "legacy": "Notable figure whose contributions continue to be recognized",
+  "domain_expertise": {
+    "primary_expertise": [
+      "mindfulness"
+    ],
+    "knowledge_depth": [
+      "domain expertise"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
+  },
+  "behavioral_patterns": {
+    "decision_making": "n/a",
+    "learning_preferences": [
+      "experiential learning",
+      "continuous development"
+    ]
+  },
+  "learning": {
+    "knowledge_sharing": [
+      "accessible explanations"
+    ],
+    "adaptation_speed": "continuous learning and development focus",
+    "failure_response": "continuous learning and development focus"
+  }
 }

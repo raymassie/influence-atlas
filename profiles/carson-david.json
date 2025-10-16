@@ -11,17 +11,40 @@
   },
   "behavioral_patterns": {
     "work_style": "intuitive approach, experimental techniques, emotional expression, unconventional methods, collaborative art direction, innovative typography",
-    "problem_solving_approach": "through intuitive design, experimental exploration, emotional expression, unconventional solutions, typographic innovation"
+    "problem_solving_approach": "through intuitive design, experimental exploration, emotional expression, unconventional solutions, typographic innovation",
+    "decision_making": "creative problem-solving with intuitive bias recognition",
+    "learning_preferences": [
+      "experimental exploration"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "experimental typography, magazine design, art direction, visual communication, emotional design, unconventional layouts, expressive typography, design rebellion"
+    "core_competencies": "experimental typography, magazine design, art direction, visual communication, emotional design, unconventional layouts, expressive typography, design rebellion",
+    "primary_expertise": [
+      "experimental typography"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "collaborative ideation",
+      "experimental iteration",
+      "disruptive thinking"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "experimental, intuitive, rebellious, expressive, innovative, emotional, authentic, unconventional, creative, disruptive",
     "core_motivations": "experimental expression, typographic innovation, emotional communication, design rebellion, authentic creativity, unconventional aesthetics"
   },
   "values": {
-    "core_values": "authentic expression, experimental innovation, emotional communication, design rebellion, intuitive creativity, unconventional aesthetics, artistic integrity, expressive freedom"
+    "core_values": "authentic expression, experimental innovation, emotional communication, design rebellion, intuitive creativity, unconventional aesthetics, artistic integrity, expressive freedom",
+    "ethical_standards": [
+      "commitment to integrity",
+      "ethical innovation"
+    ],
+    "priority_framework": [
+      "intuition-guided choices",
+      "innovation-driven decisions"
+    ]
   },
   "collaboration": {
     "leadership_style": "experimental guidance, intuitive mentorship, expressive collaboration, unconventional direction, creative rebellion, emotional inspiration",
@@ -44,39 +67,55 @@
     "decision_speed": "intuitive decisions with experimental execution, emotional evaluation, unconventional consultation, creative rebellion principles"
   },
   "learning": {
-    "learning_style": "experimental exploration, intuitive study, emotional analysis, unconventional techniques, typographic experimentation, creative rebellion"
+    "learning_style": "experimental exploration, intuitive study, emotional analysis, unconventional techniques, typographic experimentation, creative rebellion",
+    "knowledge_sharing": [
+      "leading by example"
+    ],
+    "adaptation_speed": [
+      "creative pivots"
+    ],
+    "failure_response": "n/a"
   },
   "communication": {
-    "audience_adaptation": "experimental designers, typographers, art directors, creative rebels, emotional communicators, unconventional artists"
+    "audience_adaptation": "experimental designers, typographers, art directors, creative rebels, emotional communicators, unconventional artists",
+    "medium_preferences": [
+      "collaborative platforms",
+      "visual presentation",
+      "in-person collaboration"
+    ]
   },
   "category": "Design",
   "bias_awareness": {
-    "primary_biases": "Creative problem-solving with intuitive bias recognition",
-    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases": "creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "creative problem-solving with intuitive bias recognition",
     "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "N/A"
+    "learning_orientation": "N/A",
+    "curiosity_indicators": [
+      "exploratory thinking",
+      "experimental exploration"
+    ]
   },
   "self_actualization_indicators": {
     "peak_experiences": [
       "creative breakthroughs"
     ],
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "creative pivots"
     ],
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "High emotional intelligence in team leadership",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "high emotional intelligence in team leadership",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "N/A"
   },
   "background_context": {
@@ -87,7 +126,7 @@
     }
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Innovative approaches with user empathy"
+    "creative_problem_solving": "innovative approaches with user empathy"
   },
   "trait_constellations": {
     "constellation_details": {

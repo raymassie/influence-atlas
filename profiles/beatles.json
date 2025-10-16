@@ -35,7 +35,11 @@
   "behavioral_patterns": {
     "work_style": "collaborative, experimental, perfectionist, innovative",
     "problem_solving_approach": "creative, experimental, boundary-pushing",
-    "decision_making": "collaborative, consensus-driven"
+    "decision_making": "collaborative, consensus-driven",
+    "learning_preferences": [
+      "peer discussion",
+      "experimental exploration"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "creative, innovative, collaborative, rebellious, perfectionist",
@@ -44,7 +48,18 @@
   },
   "domain_expertise": {
     "core_competencies": "songwriting, musical arrangement, studio innovation, performance",
-    "specialized_knowledge": "psychedelic rock, studio techniques, cultural revolution"
+    "specialized_knowledge": "psychedelic rock, studio techniques, cultural revolution",
+    "primary_expertise": [
+      "rock"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "collaborative ideation",
+      "creative problem solving",
+      "experimental iteration"
+    ]
   },
   "collaboration": {
     "team_dynamics": "collaborative, creative synergy, mutual inspiration",
@@ -67,48 +82,68 @@
   },
   "learning": {
     "learning_style": "experimental, collaborative, intuitive",
-    "knowledge_sharing": "musical innovation, cultural influence"
+    "knowledge_sharing": "musical innovation, cultural influence",
+    "adaptation_speed": [
+      "innovative solutions"
+    ],
+    "failure_response": "n/a"
   },
   "communication": {
     "audience_adaptation": "mass appeal, generational connection",
-    "persuasion_techniques": "musical innovation, cultural relevance"
+    "persuasion_techniques": "musical innovation, cultural relevance",
+    "medium_preferences": [
+      "collaborative platforms"
+    ]
   },
   "values": {
     "core_values": "creativity, innovation, collaboration, artistic integrity",
-    "ethical_principles": "artistic freedom, cultural expression, musical excellence"
+    "ethical_principles": "artistic freedom, cultural expression, musical excellence",
+    "ethical_standards": [
+      "commitment to integrity",
+      "ethical innovation"
+    ],
+    "priority_framework": [
+      "intuition-guided choices",
+      "innovation-driven decisions",
+      "long-term legacy focus"
+    ]
   },
   "bias_awareness": {
-    "primary_biases": "Creative problem-solving with intuitive bias recognition",
-    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases": "creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "creative problem-solving with intuitive bias recognition",
     "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "N/A"
+    "learning_orientation": "N/A",
+    "curiosity_indicators": [
+      "exploratory thinking",
+      "experimental exploration"
+    ]
   },
   "self_actualization_indicators": {
     "peak_experiences": [
       "creative breakthroughs"
     ],
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "innovative solutions"
     ],
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "High emotional intelligence in teamwork",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "high emotional intelligence in teamwork",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "N/A"
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Design thinking with user empathy",
-    "collaborative_intelligence": "Exceptional team building and facilitation"
+    "creative_problem_solving": "design thinking with user empathy",
+    "collaborative_intelligence": "exceptional team building and facilitation"
   },
   "human_needs_hierarchy": {
     "belonging_expression": "Strong - builds collaborative teams"

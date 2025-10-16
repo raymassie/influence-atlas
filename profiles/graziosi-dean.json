@@ -76,7 +76,16 @@
       "success mindset",
       "opportunity analysis"
     ],
-    "industry_knowledge": "real estate investing, wealth building, motivational coaching, success psychology"
+    "industry_knowledge": "real estate investing, wealth building, motivational coaching, success psychology",
+    "primary_expertise": [
+      "real estate & wealth building"
+    ],
+    "knowledge_depth": [
+      "deep specialization"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "background_context": {
     "experience_level": "expert (25+ years)",
@@ -104,7 +113,8 @@
     "problem_solving_approach": "find opportunities, build wealth, motivate others to succeed",
     "learning_preferences": "real estate study, wealth building, success psychology",
     "networking_style": "wealth-focused connections, opportunity sharing, success relationships",
-    "content_consumption": "real estate content, wealth building strategies, success stories"
+    "content_consumption": "real estate content, wealth building strategies, success stories",
+    "decision_making": "n/a"
   },
   "unique_identifiers": {
     "signature_methodologies": [
@@ -158,42 +168,54 @@
   "communication": {
     "audience_adaptation": "how they adjust communication for different audiences",
     "media_preferences": "preferred channels and formats",
-    "influence_strategies": "how they build and maintain influence"
+    "influence_strategies": "how they build and maintain influence",
+    "message_framing": [
+      "motivational narratives"
+    ]
   },
   "learning": {
     "learning_style": "how they acquire new knowledge",
     "adaptation_speed": "how quickly they adjust to change",
-    "failure_response": "how they handle setbacks"
+    "failure_response": "how they handle setbacks",
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ]
   },
   "values": {
     "core_values": "fundamental principles that guide decisions",
     "ethical_framework": "approach to ethical dilemmas",
-    "social_responsibility": "views on broader impact"
+    "social_responsibility": "views on broader impact",
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "category": "Entrepreneurial",
   "bias_awareness": {
-    "primary_biases": "N/A",
-    "bias_mitigation_strategies": "N/A",
+    "primary_biases": "n/a",
+    "bias_mitigation_strategies": "n/a",
     "decision_making_style": "N/A"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Achievement-oriented growth mindset",
+    "intrinsic_drivers": "achievement-oriented growth mindset",
     "challenge_seeking": "Achievement-oriented growth mindset",
-    "learning_orientation": "Achievement-oriented growth mindset"
+    "learning_orientation": "Achievement-oriented growth mindset",
+    "curiosity_indicators": [
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Achievement-oriented growth mindset",
-    "resilience_indicators": "Achievement-oriented growth mindset",
-    "feedback_integration": "Achievement-oriented growth mindset"
+    "adaptation_patterns": "achievement-oriented growth mindset",
+    "resilience_indicators": "achievement-oriented growth mindset",
+    "feedback_integration": "achievement-oriented growth mindset"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {

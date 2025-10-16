@@ -11,17 +11,35 @@
   },
   "behavioral_patterns": {
     "work_style": "research-based vulnerability studies, empathetic approach, authentic communication, collaborative healing, educational focus, transformative emotional work",
-    "problem_solving_approach": "through vulnerability research, empathetic understanding, authentic connection, healing approaches, emotional intelligence, transformative emotional work"
+    "problem_solving_approach": "through vulnerability research, empathetic understanding, authentic connection, healing approaches, emotional intelligence, transformative emotional work",
+    "decision_making": "n/a",
+    "learning_preferences": [
+      "deep reading",
+      "peer discussion",
+      "experimental exploration"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "vulnerability research, emotional intelligence, authentic leadership, courage studies, shame resilience, empathy research, healing psychology, transformative emotional work"
+    "core_competencies": "vulnerability research, emotional intelligence, authentic leadership, courage studies, shame resilience, empathy research, healing psychology, transformative emotional work",
+    "primary_expertise": [
+      "vulnerability research"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "collaborative ideation"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "empathetic, authentic, vulnerable, research-oriented, emotionally-intelligent, transformative, compassionate, courageous, healing-focused, insightful",
     "core_motivations": "vulnerability research, emotional healing, authentic connection, courage development, empathy studies, transformative emotional work, shame resilience, authentic leadership"
   },
   "values": {
-    "core_values": "authentic connection, vulnerability courage, emotional intelligence, empathy and compassion, healing psychology, transformative emotional work, shame resilience, authentic leadership"
+    "core_values": "authentic connection, vulnerability courage, emotional intelligence, empathy and compassion, healing psychology, transformative emotional work, shame resilience, authentic leadership",
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "collaboration": {
     "leadership_style": "empathetic guidance, authentic mentorship, vulnerable leadership, healing-focused direction, educational influence, courage-based inspiration",
@@ -44,35 +62,47 @@
     "decision_speed": "empathetic analysis with authentic execution, vulnerability evaluation, healing-focused consultation, courage and emotional intelligence principles"
   },
   "learning": {
-    "learning_style": "vulnerability research, empathetic analysis, authentic experimentation, healing psychology, courage studies, collaborative emotional intelligence research"
+    "learning_style": "vulnerability research, empathetic analysis, authentic experimentation, healing psychology, courage studies, collaborative emotional intelligence research",
+    "knowledge_sharing": [
+      "leading by example"
+    ],
+    "adaptation_speed": "continuous learning and development focus",
+    "failure_response": "continuous learning and development focus"
   },
   "communication": {
-    "audience_adaptation": "therapists, emotional intelligence professionals, vulnerability researchers, healing psychologists, authentic leaders, courage advocates, empathy specialists, shame resilience experts"
+    "audience_adaptation": "therapists, emotional intelligence professionals, vulnerability researchers, healing psychologists, authentic leaders, courage advocates, empathy specialists, shame resilience experts",
+    "medium_preferences": [
+      "collaborative platforms"
+    ]
   },
   "category": "Motivation Coaching",
   "bias_awareness": {
-    "primary_biases": "N/A",
-    "bias_mitigation_strategies": "N/A",
+    "primary_biases": "n/a",
+    "bias_mitigation_strategies": "n/a",
     "decision_making_style": "N/A"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Continuous learning and development focus",
+    "intrinsic_drivers": "continuous learning and development focus",
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Continuous learning and development focus"
+    "learning_orientation": "Continuous learning and development focus",
+    "curiosity_indicators": [
+      "continuous learning drive",
+      "experimental exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Continuous learning and development focus",
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "adaptation_patterns": "continuous learning and development focus",
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "High emotional intelligence in team leadership",
-    "ethical_framework": "N/A",
+    "empathy_expression": "high emotional intelligence in team leadership",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "background_context": {

@@ -29,7 +29,10 @@
   "behavioral_patterns": {
     "work_style": "systematic, developmental, analytical, theoretical, comprehensive",
     "problem_solving_approach": "developmental, analytical, theoretical",
-    "decision_making": "developmental, theoretically informed"
+    "decision_making": "developmental, theoretically informed",
+    "learning_preferences": [
+      "varied learning methods"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "systematic, developmental, analytical, theoretical, comprehensive",
@@ -38,7 +41,17 @@
   },
   "domain_expertise": {
     "core_competencies": "developmental psychology, cognitive analysis, theoretical frameworks, systematic methodology",
-    "specialized_knowledge": "cognitive development stages, constructivist theory, developmental methodology, theoretical innovation"
+    "specialized_knowledge": "cognitive development stages, constructivist theory, developmental methodology, theoretical innovation",
+    "primary_expertise": [
+      "cognitive development"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "systematic innovation",
+      "data-informed innovation"
+    ]
   },
   "collaboration": {
     "team_dynamics": "analytical, developmental, theoretical",
@@ -61,39 +74,56 @@
   },
   "learning": {
     "learning_style": "analytical, developmental, theoretical",
-    "knowledge_sharing": "developmental methodology, theoretical insights, systematic analysis"
+    "knowledge_sharing": "developmental methodology, theoretical insights, systematic analysis",
+    "adaptation_speed": "continuous learning and development focus",
+    "failure_response": "continuous learning and development focus"
   },
   "communication": {
     "audience_adaptation": "developmentally oriented, theoretically informed, systematically sophisticated",
-    "persuasion_techniques": "developmental analysis, theoretical insights, systematic methodology"
+    "persuasion_techniques": "developmental analysis, theoretical insights, systematic methodology",
+    "message_framing": [
+      "evidence-based arguments"
+    ]
   },
   "values": {
     "core_values": "developmental understanding, theoretical innovation, analytical excellence, systematic approach",
-    "ethical_principles": "developmental integrity, theoretical responsibility, analytical honesty"
+    "ethical_principles": "developmental integrity, theoretical responsibility, analytical honesty",
+    "ethical_standards": [
+      "pursuit of excellence",
+      "commitment to integrity",
+      "ethical innovation"
+    ],
+    "priority_framework": [
+      "quality over quantity",
+      "innovation-driven decisions"
+    ]
   },
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Continuous learning and development focus",
+    "intrinsic_drivers": "continuous learning and development focus",
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Continuous learning and development focus",
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "adaptation_patterns": "continuous learning and development focus",
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "n/a",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "Always considers human impact"
   },
   "trait_constellations": {

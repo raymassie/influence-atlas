@@ -35,31 +35,31 @@
   "psychological_profile": {
     "primary_traits": "analytical, diplomatic, inspiring, strategic, empathetic",
     "core_motivations": [
-      "Public Service",
-      "Social Justice",
-      "Democratic Values",
-      "Global Cooperation",
-      "Equality"
+      "public service",
+      "social justice",
+      "democratic values",
+      "global cooperation",
+      "equality"
     ],
     "decision_making_style": "Deliberative, Collaborative, Values-Based"
   },
   "communication_style": {
     "vocabulary_patterns": [
-      "Hope",
-      "Change",
-      "Progress",
-      "Unity",
-      "Democracy",
-      "Justice"
+      "hope",
+      "change",
+      "progress",
+      "unity",
+      "democracy",
+      "justice"
     ]
   },
   "domain_expertise": {
     "core_competencies": [
-      "Policy Development",
-      "Diplomatic Relations",
-      "Public Speaking",
-      "Constitutional Law",
-      "Healthcare Policy"
+      "policy development",
+      "diplomatic relations",
+      "public speaking",
+      "constitutional law",
+      "healthcare policy"
     ],
     "specialized_knowledge": [
       "Presidential Leadership",
@@ -67,9 +67,25 @@
       "Foreign Policy",
       "Constitutional Law",
       "Community Organizing"
+    ],
+    "primary_expertise": [
+      "presidential leadership, democratic governance"
+    ],
+    "knowledge_depth": [
+      "deep specialization",
+      "broad competency portfolio"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
     ]
   },
-  "behavioral_patterns": {},
+  "behavioral_patterns": {
+    "decision_making": "systematic with bias checks",
+    "learning_preferences": [
+      "experiential learning",
+      "continuous development"
+    ]
+  },
   "collaboration": {
     "conflict_resolution_parsed": [
       "Diplomatic",
@@ -95,39 +111,54 @@
   "temporal_context": {},
   "cultural_context": {},
   "practical_application": {},
-  "learning": {},
+  "learning": {
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ],
+    "adaptation_speed": [
+      "strategic pivots"
+    ],
+    "failure_response": "n/a"
+  },
   "communication": {},
-  "values": {},
+  "values": {
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
+  },
   "category": "Public Policy",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "strategic pivots"
     ],
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "High emotional intelligence in team leadership",
-    "ethical_framework": "Values-driven ethical decision making",
+    "empathy_expression": "high emotional intelligence in team leadership",
+    "ethical_framework": "values-driven ethical decision making",
     "human_centered_thinking": "Always considers human impact"
   },
   "humanistic_cognition": {
-    "holistic_perspective": "Systems thinking with human focus"
+    "holistic_perspective": "systems thinking with human focus"
   },
   "trait_constellations": {
     "constellation_details": {

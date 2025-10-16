@@ -30,17 +30,36 @@
   },
   "behavioral_patterns": {
     "work_style": "theoretical, systematic, spiritual, innovative, analytical",
-    "problem_solving_approach": "theoretical analysis, spiritual exploration, systematic innovation"
+    "problem_solving_approach": "theoretical analysis, spiritual exploration, systematic innovation",
+    "decision_making": "systematic with bias checks",
+    "learning_preferences": [
+      "varied learning methods"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "theoretical, spiritual, innovative, analytical, systematic",
     "core_motivations": "artistic innovation, spiritual expression, theoretical understanding, abstract creation"
   },
   "values": {
-    "core_values": "spiritual truth, artistic innovation, theoretical understanding, abstract expression, color harmony"
+    "core_values": "spiritual truth, artistic innovation, theoretical understanding, abstract expression, color harmony",
+    "ethical_standards": [
+      "ethical innovation"
+    ],
+    "priority_framework": [
+      "innovation-driven decisions"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "abstract art, color theory, art theory, spiritual art, composition"
+    "core_competencies": "abstract art, color theory, art theory, spiritual art, composition",
+    "primary_expertise": [
+      "abstract art"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "systematic innovation"
+    ]
   },
   "unique_identifiers": {
     "signature_methodologies": "color theory, spiritual abstraction, theoretical art, composition principles"
@@ -63,38 +82,58 @@
     "decision_speed": "theoretical, systematic, spiritually informed"
   },
   "learning": {
-    "learning_style": "theoretical study, spiritual exploration, systematic analysis"
+    "learning_style": "theoretical study, spiritual exploration, systematic analysis",
+    "knowledge_sharing": [
+      "teaching and mentoring"
+    ],
+    "adaptation_speed": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "failure_response": "n/a"
   },
   "communication": {
-    "audience_adaptation": "artistic audiences, theoretical discourse, spiritual communication"
+    "audience_adaptation": "artistic audiences, theoretical discourse, spiritual communication",
+    "medium_preferences": [
+      "visual presentation",
+      "in-person collaboration",
+      "iterative feedback"
+    ],
+    "message_framing": [
+      "evidence-based arguments"
+    ]
   },
   "category": "Arts",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "exploratory thinking",
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "Creative self-expression and innovation",
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "peak_experiences": "creative self-expression and innovation",
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "strategic pivots",
       "creative solutions"
     ],
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {
@@ -108,7 +147,7 @@
     }
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Design thinking with user empathy"
+    "creative_problem_solving": "design thinking with user empathy"
   },
   "trait_constellations": {
     "constellation_details": {

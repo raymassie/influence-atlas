@@ -6,22 +6,38 @@
   "sub_domain": "Swiss Design",
   "communication_style": {
     "tone": "systematic, precise, functional, mathematical, grid-based, objective, clear, disciplined, rational, influential",
-    "vocabulary_patterns": "Swiss design terminology, mathematical precision, systematic design principles, functional aesthetics language",
+    "vocabulary_patterns": "swiss design terminology, mathematical precision, systematic design principles, functional aesthetics language",
     "sentence_structure": "systematic, precise prose, mathematical descriptions, functional design language, objective communication"
   },
   "behavioral_patterns": {
     "work_style": "grid-based systems, mathematical precision, systematic approach, functional design, educational focus, rational problem-solving",
-    "problem_solving_approach": "through systematic grid systems, mathematical analysis, functional design, rational solutions, objective design principles"
+    "problem_solving_approach": "through systematic grid systems, mathematical analysis, functional design, rational solutions, objective design principles",
+    "decision_making": "systematic approach to decision-making with bias awareness",
+    "learning_preferences": [
+      "experimental exploration"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "Swiss design, grid systems, typography, poster design, systematic design, mathematical design, functional aesthetics, design education"
+    "core_competencies": "swiss design, grid systems, typography, poster design, systematic design, mathematical design, functional aesthetics, design education",
+    "primary_expertise": [
+      "swiss design"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "systematic innovation"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "systematic, precise, mathematical, functional, rational, disciplined, objective, influential, methodical, clear-thinking",
     "core_motivations": "systematic design, functional aesthetics, mathematical precision, design education, rational communication, objective design principles"
   },
   "values": {
-    "core_values": "functional design, mathematical precision, systematic approach, objective communication, rational aesthetics, design education, clarity, discipline, order, efficiency"
+    "core_values": "functional design, mathematical precision, systematic approach, objective communication, rational aesthetics, design education, clarity, discipline, order, efficiency",
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "collaboration": {
     "leadership_style": "systematic guidance, mathematical precision, functional mentorship, educational leadership, rational direction, objective collaboration",
@@ -44,35 +60,52 @@
     "decision_speed": "systematic analysis with mathematical precision, functional evaluation, rational consultation, objective design principles"
   },
   "learning": {
-    "learning_style": "systematic study, mathematical analysis, functional experimentation, rational design, objective evaluation, systematic education"
+    "learning_style": "systematic study, mathematical analysis, functional experimentation, rational design, objective evaluation, systematic education",
+    "knowledge_sharing": [
+      "teaching and mentoring",
+      "accessible explanations"
+    ],
+    "adaptation_speed": "n/a",
+    "failure_response": "n/a"
   },
   "communication": {
-    "audience_adaptation": "design professionals, design students, systematic designers, functional aesthetics, mathematical designers, rational communicators"
+    "audience_adaptation": "design professionals, design students, systematic designers, functional aesthetics, mathematical designers, rational communicators",
+    "medium_preferences": [
+      "visual presentation",
+      "in-person collaboration",
+      "iterative feedback"
+    ],
+    "message_framing": [
+      "detailed technical explanations"
+    ]
   },
   "category": "Design",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
-    "learning_orientation": "N/A"
+    "learning_orientation": "N/A",
+    "curiosity_indicators": [
+      "experimental exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "background_context": {

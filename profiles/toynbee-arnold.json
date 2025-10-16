@@ -31,7 +31,10 @@
   "behavioral_patterns": {
     "work_style": "scholarly, comprehensive, analytical, philosophical, systematic",
     "problem_solving_approach": "analytical, philosophical, systematic",
-    "decision_making": "analytical, philosophically informed"
+    "decision_making": "analytical, philosophically informed",
+    "learning_preferences": [
+      "varied learning methods"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "scholarly, comprehensive, analytical, philosophical, systematic",
@@ -40,7 +43,17 @@
   },
   "domain_expertise": {
     "core_competencies": "civilizational studies, historical analysis, philosophical methodology, comparative history",
-    "specialized_knowledge": "civilization patterns, historical cycles, philosophical history, comparative civilizations"
+    "specialized_knowledge": "civilization patterns, historical cycles, philosophical history, comparative civilizations",
+    "primary_expertise": [
+      "civilization studies"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "systematic innovation",
+      "data-informed innovation"
+    ]
   },
   "collaboration": {
     "team_dynamics": "scholarly, analytical, philosophical",
@@ -63,39 +76,54 @@
   },
   "learning": {
     "learning_style": "scholarly, analytical, philosophical",
-    "knowledge_sharing": "civilizational studies, historical methodology, philosophical insight"
+    "knowledge_sharing": "civilizational studies, historical methodology, philosophical insight",
+    "adaptation_speed": "n/a",
+    "failure_response": "n/a"
   },
   "communication": {
     "audience_adaptation": "scholarly, philosophical, historically informed",
-    "persuasion_techniques": "analytical insights, philosophical perspective, historical patterns"
+    "persuasion_techniques": "analytical insights, philosophical perspective, historical patterns",
+    "message_framing": [
+      "evidence-based arguments"
+    ]
   },
   "values": {
     "core_values": "scholarly excellence, civilizational understanding, historical analysis, philosophical insight",
-    "ethical_principles": "scholarly integrity, historical accuracy, philosophical responsibility"
+    "ethical_principles": "scholarly integrity, historical accuracy, philosophical responsibility",
+    "ethical_standards": [
+      "pursuit of excellence",
+      "commitment to integrity"
+    ],
+    "priority_framework": [
+      "quality over quantity"
+    ]
   },
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "n/a",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "Always considers human impact"
   },
   "trait_constellations": {

@@ -78,7 +78,16 @@
       "transformational psychology",
       "authentic leadership"
     ],
-    "industry_knowledge": "media production, personal development, publishing, entertainment, spiritual growth"
+    "industry_knowledge": "media production, personal development, publishing, entertainment, spiritual growth",
+    "primary_expertise": [
+      "media & personal development"
+    ],
+    "knowledge_depth": [
+      "domain expertise"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "background_context": {
     "experience_level": "legendary (40+ years)",
@@ -120,7 +129,8 @@
     "problem_solving_approach": "connect emotionally, find authentic solution, inspire transformation, build authentic relationships",
     "learning_preferences": "personal growth work, spiritual study, authentic conversations",
     "networking_style": "authentic connection, mutual transformation, spiritual alignment",
-    "content_consumption": "personal development, spiritual texts, transformational stories"
+    "content_consumption": "personal development, spiritual texts, transformational stories",
+    "decision_making": "systematic approach to decision-making with bias awareness"
   },
   "unique_identifiers": {
     "signature_methodologies": [
@@ -179,37 +189,46 @@
   "learning": {
     "learning_style": "experiential and intuitive, learns through relationships and real-world experiences",
     "adaptation_speed": "adapts quickly to changing media landscape and audience needs",
-    "failure_response": "views failures as growth opportunities, shares struggles openly to help others"
+    "failure_response": "views failures as growth opportunities, shares struggles openly to help others",
+    "knowledge_sharing": [
+      "leading by example"
+    ]
   },
   "values": {
     "core_values": "authenticity, empowerment, education, spirituality, giving back, personal growth",
     "ethical_framework": "strong emphasis on doing good, helping others, and using influence responsibly",
-    "social_responsibility": "committed to education, women's empowerment, and social justice through philanthropy and advocacy"
+    "social_responsibility": "committed to education, women's empowerment, and social justice through philanthropy and advocacy",
+    "priority_framework": [
+      "growth-oriented priorities"
+    ]
   },
   "category": "Entrepreneurial",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Continuous learning and development focus",
+    "intrinsic_drivers": "continuous learning and development focus",
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Continuous learning and development focus"
+    "learning_orientation": "Continuous learning and development focus",
+    "curiosity_indicators": [
+      "continuous learning drive"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "Purpose-driven work aligned with personal values",
-    "autonomy_expression": "Purpose-driven work aligned with personal values",
-    "purpose_alignment": "Purpose-driven work aligned with personal values"
+    "peak_experiences": "purpose-driven work aligned with personal values",
+    "autonomy_expression": "purpose-driven work aligned with personal values",
+    "purpose_alignment": "purpose-driven work aligned with personal values"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Continuous learning and development focus",
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "adaptation_patterns": "continuous learning and development focus",
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {

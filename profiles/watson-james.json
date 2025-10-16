@@ -29,17 +29,33 @@
   },
   "behavioral_patterns": {
     "work_style": "competitive, ambitious, results-driven, controversial, innovative",
-    "problem_solving_approach": "competitive collaboration, direct confrontation, ambitious goals"
+    "problem_solving_approach": "competitive collaboration, direct confrontation, ambitious goals",
+    "decision_making": "creative problem-solving with intuitive bias recognition",
+    "learning_preferences": [
+      "varied learning methods"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "ambitious, competitive, controversial, confident, direct",
     "core_motivations": "scientific discovery, recognition, advancing knowledge, competitive success"
   },
   "values": {
-    "core_values": "scientific truth, competition, recognition, genetic research, human advancement"
+    "core_values": "scientific truth, competition, recognition, genetic research, human advancement",
+    "priority_framework": [
+      "intuition-guided choices"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "molecular biology, genetics, DNA research, scientific leadership, laboratory management"
+    "core_competencies": "molecular biology, genetics, dna research, scientific leadership, laboratory management",
+    "primary_expertise": [
+      "molecular biology"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "unique_identifiers": {
     "signature_methodologies": "X-ray crystallography, model building, competitive collaboration, controversial research"
@@ -62,14 +78,22 @@
     "decision_speed": "quick, confident, sometimes controversial decisions"
   },
   "learning": {
-    "learning_style": "competitive learning, ambitious goals, direct feedback, controversial exploration"
+    "learning_style": "competitive learning, ambitious goals, direct feedback, controversial exploration",
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ],
+    "adaptation_speed": "achievement-oriented growth mindset",
+    "failure_response": "achievement-oriented growth mindset"
   },
   "communication": {
-    "audience_adaptation": "scientific audiences, controversial statements, direct communication"
+    "audience_adaptation": "scientific audiences, controversial statements, direct communication",
+    "message_framing": [
+      "clear bottom-line messaging"
+    ]
   },
   "category": "Science",
   "bias_awareness": {
-    "primary_biases": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases": "creative problem-solving with intuitive bias recognition",
     "bias_mitigation_strategies": [
       "peer review",
       "data validation"
@@ -82,21 +106,24 @@
       "discovery"
     ],
     "challenge_seeking": "Achievement-oriented growth mindset",
-    "learning_orientation": "Achievement-oriented growth mindset"
+    "learning_orientation": "Achievement-oriented growth mindset",
+    "curiosity_indicators": [
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "Creative self-expression and innovation",
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "peak_experiences": "creative self-expression and innovation",
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Achievement-oriented growth mindset",
-    "resilience_indicators": "Achievement-oriented growth mindset",
-    "feedback_integration": "Evidence-based learning and adaptation"
+    "adaptation_patterns": "achievement-oriented growth mindset",
+    "resilience_indicators": "achievement-oriented growth mindset",
+    "feedback_integration": "evidence-based learning and adaptation"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "background_context": {

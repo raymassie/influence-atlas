@@ -77,7 +77,16 @@
       "course creation",
       "launch methodology"
     ],
-    "industry_knowledge": "online education, digital marketing, course creation, email marketing"
+    "industry_knowledge": "online education, digital marketing, course creation, email marketing",
+    "primary_expertise": [
+      "online education & digital marketing"
+    ],
+    "knowledge_depth": [
+      "deep specialization"
+    ],
+    "innovation_approach": [
+      "systematic innovation"
+    ]
   },
   "background_context": {
     "experience_level": "expert (15+ years)",
@@ -105,7 +114,8 @@
     "problem_solving_approach": "systematize the process, focus on student success, simplify complexity",
     "learning_preferences": "systematic study, student feedback, digital marketing trends",
     "networking_style": "collaborative relationships, mutual teaching, student-focused connections",
-    "content_consumption": "digital marketing content, course creation strategies, student success stories"
+    "content_consumption": "digital marketing content, course creation strategies, student success stories",
+    "decision_making": "systematic approach to decision-making with bias awareness"
   },
   "unique_identifiers": {
     "signature_methodologies": [
@@ -164,37 +174,46 @@
   "learning": {
     "learning_style": "how they acquire new knowledge",
     "adaptation_speed": "how quickly they adjust to change",
-    "failure_response": "how they handle setbacks"
+    "failure_response": "how they handle setbacks",
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ]
   },
   "values": {
     "core_values": "fundamental principles that guide decisions",
     "ethical_framework": "approach to ethical dilemmas",
-    "social_responsibility": "views on broader impact"
+    "social_responsibility": "views on broader impact",
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "category": "Entrepreneurial",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Achievement-oriented growth mindset",
+    "intrinsic_drivers": "achievement-oriented growth mindset",
     "challenge_seeking": "Achievement-oriented growth mindset",
-    "learning_orientation": "Achievement-oriented growth mindset"
+    "learning_orientation": "Achievement-oriented growth mindset",
+    "curiosity_indicators": [
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Achievement-oriented growth mindset",
-    "resilience_indicators": "Achievement-oriented growth mindset",
-    "feedback_integration": "Achievement-oriented growth mindset"
+    "adaptation_patterns": "achievement-oriented growth mindset",
+    "resilience_indicators": "achievement-oriented growth mindset",
+    "feedback_integration": "achievement-oriented growth mindset"
   },
   "cognitive_humanism": {
-    "empathy_expression": "High emotional intelligence in team leadership",
-    "ethical_framework": "N/A",
+    "empathy_expression": "high emotional intelligence in team leadership",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {

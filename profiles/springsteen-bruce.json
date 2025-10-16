@@ -27,23 +27,35 @@
   },
   "communication_style": {
     "tone": "authentic, working-class, passionate, storytelling, relatable",
-    "vocabulary_patterns": "working-class narratives, American themes, emotional storytelling",
+    "vocabulary_patterns": "working-class narratives, american themes, emotional storytelling",
     "formality_level": "Casual",
     "audience_adaptation": "working-class appeal, emotional connection"
   },
   "behavioral_patterns": {
     "work_style": "hardworking, passionate, authentic, dedicated, storytelling",
     "problem_solving_approach": "authentic, working-class perspective, emotional",
-    "decision_making": "heart-driven, authentic"
+    "decision_making": "heart-driven, authentic",
+    "learning_preferences": [
+      "varied learning methods"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "authentic, passionate, hardworking, relatable, storytelling",
-    "core_motivations": "working-class expression, American storytelling, musical authenticity",
+    "core_motivations": "working-class expression, american storytelling, musical authenticity",
     "learning_style": "experiential, authentic, working-class"
   },
   "domain_expertise": {
     "core_competencies": "songwriting, storytelling, performance, working-class narratives",
-    "specialized_knowledge": "American rock, working-class themes, emotional storytelling"
+    "specialized_knowledge": "American rock, working-class themes, emotional storytelling",
+    "primary_expertise": [
+      "rock"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "collaboration": {
     "team_dynamics": "collaborative, authentic, working-class solidarity",
@@ -66,39 +78,47 @@
   },
   "learning": {
     "learning_style": "experiential, authentic, working-class",
-    "knowledge_sharing": "working-class expression, American storytelling"
+    "knowledge_sharing": "working-class expression, american storytelling",
+    "adaptation_speed": "n/a",
+    "failure_response": "n/a"
   },
   "communication": {
     "audience_adaptation": "working-class appeal, emotional connection",
     "persuasion_techniques": "authenticity, working-class narratives, emotional storytelling"
   },
   "values": {
-    "core_values": "authenticity, working-class solidarity, American values",
-    "ethical_principles": "artistic integrity, working-class expression, cultural authenticity"
+    "core_values": "authenticity, working-class solidarity, american values",
+    "ethical_principles": "artistic integrity, working-class expression, cultural authenticity",
+    "ethical_standards": [
+      "commitment to integrity"
+    ],
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "bias_awareness": {
-    "primary_biases": "N/A",
-    "bias_mitigation_strategies": "N/A",
+    "primary_biases": "n/a",
+    "bias_mitigation_strategies": "n/a",
     "decision_making_style": "N/A"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
     "learning_orientation": "N/A"
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "n/a",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {

@@ -29,17 +29,33 @@
   },
   "behavioral_patterns": {
     "work_style": "activist, contrarian, analytical, confrontational, value-focused",
-    "problem_solving_approach": "activist analysis, contrarian thinking, confrontational solutions"
+    "problem_solving_approach": "activist analysis, contrarian thinking, confrontational solutions",
+    "decision_making": "systematic with bias checks",
+    "learning_preferences": [
+      "varied learning methods"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "activist, contrarian, analytical, confrontational, value-focused",
     "core_motivations": "activist change, contrarian success, analytical insight, confrontational improvement"
   },
   "values": {
-    "core_values": "activist change, contrarian thinking, analytical precision, confrontational improvement, value creation"
+    "core_values": "activist change, contrarian thinking, analytical precision, confrontational improvement, value creation",
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "activist investing, contrarian analysis, corporate governance, confrontational strategy, value investing"
+    "core_competencies": "activist investing, contrarian analysis, corporate governance, confrontational strategy, value investing",
+    "primary_expertise": [
+      "activist investing"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
   },
   "unique_identifiers": {
     "signature_methodologies": "activist investing, contrarian analysis, confrontational strategy, value-focused activism"
@@ -62,35 +78,46 @@
     "decision_speed": "activist, contrarian-informed, confrontationally considered"
   },
   "learning": {
-    "learning_style": "activist study, contrarian exploration, confrontational discovery"
+    "learning_style": "activist study, contrarian exploration, confrontational discovery",
+    "knowledge_sharing": [
+      "teaching and mentoring"
+    ],
+    "adaptation_speed": "achievement-oriented growth mindset",
+    "failure_response": "achievement-oriented growth mindset"
   },
   "communication": {
-    "audience_adaptation": "activist audiences, contrarian discourse, confrontational communication"
+    "audience_adaptation": "activist audiences, contrarian discourse, confrontational communication",
+    "message_framing": [
+      "evidence-based arguments"
+    ]
   },
   "category": "Investment",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Achievement-oriented growth mindset",
+    "intrinsic_drivers": "achievement-oriented growth mindset",
     "challenge_seeking": "Achievement-oriented growth mindset",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Achievement-oriented growth mindset",
-    "resilience_indicators": "Achievement-oriented growth mindset",
-    "feedback_integration": "Achievement-oriented growth mindset"
+    "adaptation_patterns": "achievement-oriented growth mindset",
+    "resilience_indicators": "achievement-oriented growth mindset",
+    "feedback_integration": "achievement-oriented growth mindset"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {

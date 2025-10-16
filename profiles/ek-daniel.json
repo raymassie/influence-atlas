@@ -25,7 +25,17 @@
     "tools_and_platforms": "Spotify platform, data analytics, user research, market analysis, artist tools, subscription management",
     "mental_models": "platform economics, user-centric design, data-driven decisions, market disruption, subscription models",
     "reference_frameworks": "platform strategy, user experience design, data-driven product development, market disruption theory",
-    "industry_knowledge": "music industry, streaming technology, artist economy, subscription business, platform development, user behavior"
+    "industry_knowledge": "music industry, streaming technology, artist economy, subscription business, platform development, user behavior",
+    "primary_expertise": [
+      "music technology"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "visionary foresight",
+      "systematic innovation"
+    ]
   },
   "background_context": {
     "experience_level": "executive",
@@ -45,7 +55,8 @@
     "problem_solving_approach": "user data analysis, market research, systematic evaluation, innovation focus, long-term thinking",
     "learning_preferences": "user analytics, market research, innovation case studies, platform development, artist feedback",
     "networking_style": "industry-focused, innovation-driven, data-oriented, platform-building, artist-relations",
-    "content_consumption": "user analytics, market research, innovation trends, platform development, artist success stories"
+    "content_consumption": "user analytics, market research, innovation trends, platform development, artist success stories",
+    "decision_making": "systematic with bias checks"
   },
   "unique_identifiers": {
     "signature_methodologies": "data-driven product development, user-centric platform design, systematic market disruption, artist economy building",
@@ -79,17 +90,35 @@
   "communication": {
     "audience_adaptation": "data-driven, user-focused, innovation-oriented, systematic",
     "media_preferences": "data presentations, user analytics, innovation discussions, platform development",
-    "influence_strategies": "user data, market analysis, innovation examples, systematic reasoning"
+    "influence_strategies": "user data, market analysis, innovation examples, systematic reasoning",
+    "medium_preferences": [
+      "asynchronous collaboration",
+      "written documentation",
+      "digital communication"
+    ],
+    "message_framing": [
+      "strategic vision framing",
+      "evidence-based arguments"
+    ]
   },
   "learning": {
     "learning_style": "data-driven, user-focused, innovation-oriented, systematic, analytical",
     "adaptation_speed": "data-driven, user-tested, innovation-focused, systematic",
-    "failure_response": "user data analysis, market research, systematic evaluation, innovation focus"
+    "failure_response": "user data analysis, market research, systematic evaluation, innovation focus",
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ]
   },
   "values": {
     "core_values": "user experience, data-driven decisions, innovation, artist empowerment, platform growth, systematic thinking",
     "ethical_framework": "user privacy, artist fairness, data transparency, innovation ethics, platform responsibility",
-    "social_responsibility": "artist economy, music access, innovation education, platform democratization"
+    "social_responsibility": "artist economy, music access, innovation education, platform democratization",
+    "ethical_standards": [
+      "ethical innovation"
+    ],
+    "priority_framework": [
+      "innovation-driven decisions"
+    ]
   },
   "category": "Technology",
   "bias_awareness": {
@@ -97,7 +126,7 @@
       "optimism bias",
       "confirmation bias"
     ],
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
@@ -106,28 +135,32 @@
       "problem-solving"
     ],
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "exploratory thinking",
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "Creative self-expression and innovation",
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "peak_experiences": "creative self-expression and innovation",
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "innovative solutions"
     ],
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "Customer-focused empathy and understanding",
-    "ethical_framework": "N/A",
+    "empathy_expression": "customer-focused empathy and understanding",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "Always considers human impact"
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Design thinking with user empathy",
-    "holistic_perspective": "Systems thinking with user focus"
+    "creative_problem_solving": "design thinking with user empathy",
+    "holistic_perspective": "systems thinking with user focus"
   },
   "trait_constellations": {
     "constellation_details": {

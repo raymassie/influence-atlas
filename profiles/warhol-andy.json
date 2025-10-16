@@ -25,7 +25,19 @@
     "tools_and_platforms": "artistic materials, social observation, visual experimentation, creative tools, unconventional approaches, artistic techniques",
     "mental_models": "artistic expression, social commentary, creative exploration, visual experimentation, artistic innovation, unconventional thinking",
     "reference_frameworks": "Artistic Expression, Social Commentary, Creative Exploration, Visual Experimentation, Artistic Innovation, Unconventional Thinking",
-    "industry_knowledge": "visual arts, artistic expression, social commentary, creative exploration, visual experimentation, artistic innovation, unconventional thinking"
+    "industry_knowledge": "visual arts, artistic expression, social commentary, creative exploration, visual experimentation, artistic innovation, unconventional thinking",
+    "primary_expertise": [
+      "visual arts"
+    ],
+    "knowledge_depth": [
+      "deep specialization",
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "creative problem solving",
+      "experimental iteration",
+      "disruptive thinking"
+    ]
   },
   "background_context": {
     "experience_level": "master",
@@ -54,7 +66,8 @@
     "problem_solving_approach": "artistic intuition, social observation, creative experimentation, visual exploration, unconventional thinking",
     "learning_preferences": "artistic expression, social commentary, creative exploration, visual experimentation, artistic innovation, unconventional thinking",
     "networking_style": "artistic community, social collaboration, visual experimentation, artistic innovation, unconventional discourse",
-    "content_consumption": "artistic expression, social commentary, creative exploration, visual experimentation, artistic innovation, unconventional thinking"
+    "content_consumption": "artistic expression, social commentary, creative exploration, visual experimentation, artistic innovation, unconventional thinking",
+    "decision_making": "creative problem-solving with intuitive bias recognition"
   },
   "unique_identifiers": {
     "signature_methodologies": "artistic expression, social commentary, creative exploration, visual experimentation, artistic innovation, unconventional thinking",
@@ -88,50 +101,70 @@
   "communication": {
     "audience_adaptation": "innovative, experimental, social, artistically-oriented",
     "media_preferences": "artistic expression, social commentary, visual experimentation, creative exploration, unconventional thinking",
-    "influence_strategies": "artistic examples, social commentary, creative demonstrations, visual experimentation, unconventional approaches"
+    "influence_strategies": "artistic examples, social commentary, creative demonstrations, visual experimentation, unconventional approaches",
+    "medium_preferences": [
+      "visual presentation",
+      "in-person collaboration",
+      "iterative feedback"
+    ]
   },
   "learning": {
     "learning_style": "innovative, experimental, social, artistically-focused, experimentally rigorous",
     "adaptation_speed": "innovative, experimental, artistically informed, socially-driven",
-    "failure_response": "artistic analysis, social evaluation, visual experimentation, unconventional thinking, creative exploration"
+    "failure_response": "artistic analysis, social evaluation, visual experimentation, unconventional thinking, creative exploration",
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ]
   },
   "values": {
     "core_values": "artistic expression, social commentary, creative exploration, visual experimentation, artistic innovation, unconventional thinking",
     "ethical_framework": "artistic integrity, social commentary honesty, visual experimentation authenticity, unconventional thinking responsibility, creative innovation",
-    "social_responsibility": "artistic education, social commentary, visual experimentation, creative exploration, unconventional thinking, artistic innovation"
+    "social_responsibility": "artistic education, social commentary, visual experimentation, creative exploration, unconventional thinking, artistic innovation",
+    "ethical_standards": [
+      "commitment to integrity",
+      "ethical innovation"
+    ],
+    "priority_framework": [
+      "intuition-guided choices",
+      "innovation-driven decisions"
+    ]
   },
   "category": "Arts",
   "bias_awareness": {
-    "primary_biases": "Creative problem-solving with intuitive bias recognition",
-    "bias_mitigation_strategies": "Creative problem-solving with intuitive bias recognition",
+    "primary_biases": "creative problem-solving with intuitive bias recognition",
+    "bias_mitigation_strategies": "creative problem-solving with intuitive bias recognition",
     "decision_making_style": "Creative problem-solving with intuitive bias recognition"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "N/A"
+    "learning_orientation": "N/A",
+    "curiosity_indicators": [
+      "exploratory thinking",
+      "experimental exploration"
+    ]
   },
   "self_actualization_indicators": {
     "peak_experiences": [
       "creative breakthroughs"
     ],
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "creative pivots"
     ],
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "n/a",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "N/A"
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Innovative approaches with user empathy"
+    "creative_problem_solving": "innovative approaches with user empathy"
   },
   "trait_constellations": {
     "constellation_details": {

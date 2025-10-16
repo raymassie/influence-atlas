@@ -72,7 +72,16 @@
       "funnel optimization",
       "digital marketing"
     ],
-    "industry_knowledge": "digital marketing, sales funnels, online education, direct response, e-commerce"
+    "industry_knowledge": "digital marketing, sales funnels, online education, direct response, e-commerce",
+    "primary_expertise": [
+      "digital marketing & sales funnel optimization"
+    ],
+    "knowledge_depth": [
+      "deep specialization"
+    ],
+    "innovation_approach": [
+      "systematic innovation"
+    ]
   },
   "background_context": {
     "experience_level": "expert (20+ years)",
@@ -108,7 +117,8 @@
     "problem_solving_approach": "map customer journey, craft compelling story, optimize funnel systematically",
     "learning_preferences": "direct response study, funnel analysis, story development",
     "networking_style": "story sharing, funnel discussions, mutual value creation",
-    "content_consumption": "direct response materials, funnel case studies, story frameworks"
+    "content_consumption": "direct response materials, funnel case studies, story frameworks",
+    "decision_making": "systematic approach to decision-making with bias awareness"
   },
   "unique_identifiers": {
     "signature_methodologies": [
@@ -167,37 +177,46 @@
   "learning": {
     "learning_style": "how they acquire new knowledge",
     "adaptation_speed": "how quickly they adjust to change",
-    "failure_response": "how they handle setbacks"
+    "failure_response": "how they handle setbacks",
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ]
   },
   "values": {
     "core_values": "fundamental principles that guide decisions",
     "ethical_framework": "approach to ethical dilemmas",
-    "social_responsibility": "views on broader impact"
+    "social_responsibility": "views on broader impact",
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "category": "Entrepreneurial",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic approach to decision-making with bias awareness"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Continuous learning and development focus",
+    "intrinsic_drivers": "continuous learning and development focus",
     "challenge_seeking": "Continuous learning and development focus",
-    "learning_orientation": "Continuous learning and development focus"
+    "learning_orientation": "Continuous learning and development focus",
+    "curiosity_indicators": [
+      "continuous learning drive"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "Continuous learning and development focus",
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "adaptation_patterns": "continuous learning and development focus",
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "Customer-focused empathy and understanding",
-    "ethical_framework": "N/A",
+    "empathy_expression": "customer-focused empathy and understanding",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "N/A"
   },
   "trait_constellations": {

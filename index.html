@@ -302,6 +302,91 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Behavioral Humanism Filters -->
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('bias-awareness-filter')">
+                        <span>Bias Awareness</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="bias-awareness-filter-content">
+                        <div class="filter-group">
+                            <select id="bias-awareness-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('growth-motivation-filter')">
+                        <span>Growth Motivation</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="growth-motivation-filter-content">
+                        <div class="filter-group">
+                            <select id="growth-motivation-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('cognitive-humanism-filter')">
+                        <span>Cognitive Humanism</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="cognitive-humanism-filter-content">
+                        <div class="filter-group">
+                            <select id="cognitive-humanism-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('humanistic-cognition-filter')">
+                        <span>Humanistic Cognition</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="humanistic-cognition-filter-content">
+                        <div class="filter-group">
+                            <select id="humanistic-cognition-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('human-needs-hierarchy-filter')">
+                        <span>Human Needs Hierarchy</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="human-needs-hierarchy-filter-content">
+                        <div class="filter-group">
+                            <select id="human-needs-hierarchy-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('self-actualization-filter')">
+                        <span>Self Actualization</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="self-actualization-filter-content">
+                        <div class="filter-group">
+                            <select id="self-actualization-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('behavioral-growth-filter')">
+                        <span>Behavioral Growth</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="behavioral-growth-filter-content">
+                        <div class="filter-group">
+                            <select id="behavioral-growth-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
             </div>
             </div>
             
@@ -770,7 +855,14 @@
                 'practical-filter': 'practical_application.decision_speed',
                 'communication-new-filter': 'communication.audience_adaptation',
                 'learning-filter': 'learning.learning_style',
-                'values-filter': 'values.core_values'
+                'values-filter': 'values.core_values',
+                'bias-awareness-filter': 'bias_awareness.primary_biases',
+                'growth-motivation-filter': 'growth_motivation.intrinsic_drivers',
+                'cognitive-humanism-filter': 'cognitive_humanism.empathy_expression',
+                'humanistic-cognition-filter': 'humanistic_cognition.creative_problem_solving',
+                'human-needs-hierarchy-filter': 'human_needs_hierarchy.need_priorities',
+                'self-actualization-filter': 'self_actualization_indicators.peak_experiences',
+                'behavioral-growth-filter': 'behavioral_growth.adaptation_patterns'
             };
 
             console.log('🔍 Checking each filter element...');
@@ -857,7 +949,14 @@
                 'practical-filter': 'practical_application.decision_speed',
                 'communication-new-filter': 'communication.audience_adaptation',
                 'learning-filter': 'learning.learning_style',
-                'values-filter': 'values.core_values'
+                'values-filter': 'values.core_values',
+                'bias-awareness-filter': 'bias_awareness.primary_biases',
+                'growth-motivation-filter': 'growth_motivation.intrinsic_drivers',
+                'cognitive-humanism-filter': 'cognitive_humanism.empathy_expression',
+                'humanistic-cognition-filter': 'humanistic_cognition.creative_problem_solving',
+                'human-needs-hierarchy-filter': 'human_needs_hierarchy.need_priorities',
+                'self-actualization-filter': 'self_actualization_indicators.peak_experiences',
+                'behavioral-growth-filter': 'behavioral_growth.adaptation_patterns'
             };
 
             let filtered = allProfiles;
@@ -910,7 +1009,14 @@
                 'practical-filter': 'practical_application.decision_speed',
                 'communication-new-filter': 'communication.audience_adaptation',
                 'learning-filter': 'learning.learning_style',
-                'values-filter': 'values.core_values'
+                'values-filter': 'values.core_values',
+                'bias-awareness-filter': 'bias_awareness.primary_biases',
+                'growth-motivation-filter': 'growth_motivation.intrinsic_drivers',
+                'cognitive-humanism-filter': 'cognitive_humanism.empathy_expression',
+                'humanistic-cognition-filter': 'humanistic_cognition.creative_problem_solving',
+                'human-needs-hierarchy-filter': 'human_needs_hierarchy.need_priorities',
+                'self-actualization-filter': 'self_actualization_indicators.peak_experiences',
+                'behavioral-growth-filter': 'behavioral_growth.adaptation_patterns'
             };
 
             // Get currently filtered profiles based on all current selections
@@ -1011,7 +1117,14 @@
                 'practical-filter': 'practical_application.decision_speed',
                 'communication-new-filter': 'communication.audience_adaptation',
                 'learning-filter': 'learning.learning_style',
-                'values-filter': 'values.core_values'
+                'values-filter': 'values.core_values',
+                'bias-awareness-filter': 'bias_awareness.primary_biases',
+                'growth-motivation-filter': 'growth_motivation.intrinsic_drivers',
+                'cognitive-humanism-filter': 'cognitive_humanism.empathy_expression',
+                'humanistic-cognition-filter': 'humanistic_cognition.creative_problem_solving',
+                'human-needs-hierarchy-filter': 'human_needs_hierarchy.need_priorities',
+                'self-actualization-filter': 'self_actualization_indicators.peak_experiences',
+                'behavioral-growth-filter': 'behavioral_growth.adaptation_patterns'
             };
             
             // Clear all filter selections
@@ -1276,6 +1389,13 @@
             const selectedCommunicationNew = Array.from(document.getElementById('communication-new-filter').selectedOptions).map(option => option.value);
             const selectedLearning = Array.from(document.getElementById('learning-filter').selectedOptions).map(option => option.value);
             const selectedValues = Array.from(document.getElementById('values-filter').selectedOptions).map(option => option.value);
+            const selectedBiasAwareness = Array.from(document.getElementById('bias-awareness-filter').selectedOptions).map(option => option.value);
+            const selectedGrowthMotivation = Array.from(document.getElementById('growth-motivation-filter').selectedOptions).map(option => option.value);
+            const selectedCognitiveHumanism = Array.from(document.getElementById('cognitive-humanism-filter').selectedOptions).map(option => option.value);
+            const selectedHumanisticCognition = Array.from(document.getElementById('humanistic-cognition-filter').selectedOptions).map(option => option.value);
+            const selectedHumanNeedsHierarchy = Array.from(document.getElementById('human-needs-hierarchy-filter').selectedOptions).map(option => option.value);
+            const selectedSelfActualization = Array.from(document.getElementById('self-actualization-filter').selectedOptions).map(option => option.value);
+            const selectedBehavioralGrowth = Array.from(document.getElementById('behavioral-growth-filter').selectedOptions).map(option => option.value);
 
             console.log('🔍 Filtering profiles with:', {
                 searchTerm,
@@ -1296,7 +1416,14 @@
                 selectedPractical,
                 selectedCommunicationNew,
                 selectedLearning,
-                selectedValues
+                selectedValues,
+                selectedBiasAwareness,
+                selectedGrowthMotivation,
+                selectedCognitiveHumanism,
+                selectedHumanisticCognition,
+                selectedHumanNeedsHierarchy,
+                selectedSelfActualization,
+                selectedBehavioralGrowth
             });
 
             // If no filters are selected at all, show all profiles
@@ -1318,7 +1445,14 @@
                 selectedPractical.length > 0 ||
                 selectedCommunicationNew.length > 0 ||
                 selectedLearning.length > 0 ||
-                selectedValues.length > 0;
+                selectedValues.length > 0 ||
+                selectedBiasAwareness.length > 0 ||
+                selectedGrowthMotivation.length > 0 ||
+                selectedCognitiveHumanism.length > 0 ||
+                selectedHumanisticCognition.length > 0 ||
+                selectedHumanNeedsHierarchy.length > 0 ||
+                selectedSelfActualization.length > 0 ||
+                selectedBehavioralGrowth.length > 0;
 
             if (!hasAnySelections) {
                 console.log('✓ No filters selected - showing all profiles');
@@ -1752,8 +1886,22 @@
             return colorSystem[category]?.[level] || '#6c757d';
         }
 
+        /**
+         * Creates HTML for category cards displayed in the expanded profile modal.
+         * 
+         * This function generates the detailed view of a profile by:
+         * 1. Defining the category structure (20 behavioral categories)
+         * 2. Extracting trait data from the profile object
+         * 3. Filtering out empty categories and sections
+         * 4. Applying hierarchical color coding to trait chips
+         * 5. Making trait chips clickable for search functionality
+         * 
+         * @param {Object} profile - The complete profile object containing all traits
+         * @returns {String} HTML string with category cards and trait chips
+         */
         function createCategoryCards(profile) {
-            // Define category structure with their respective sections
+            // Define all 20 behavioral categories with their respective trait sections
+            // Each category contains sections that map to specific fields in the profile data
             const categories = [
                 {
                     title: 'Background & Experience',
@@ -1978,69 +2126,85 @@
                 }
             ];
 
-            // Helper function to get nested field value
+            /**
+             * Helper function to safely access nested object properties using dot notation.
+             * Example: getFieldValue(profile, 'communication_style.tone') returns profile.communication_style.tone
+             * 
+             * @param {Object} obj - The object to query
+             * @param {String} path - Dot-notation path to the desired property
+             * @returns {*} The value at the specified path, or undefined if not found
+             */
             function getFieldValue(obj, path) {
                 return path.split('.').reduce((acc, part) => acc?.[part], obj);
             }
 
-            // Generate HTML for all category cards
+            // Initialize HTML string for all category cards
             let html = '';
             
+            // Process each category and generate its HTML
             categories.forEach(category => {
-                // Filter out empty sections
+                // Step 1: Extract values for all sections and filter out empty ones
+                // This ensures we only show sections with actual data
                 const populatedSections = category.sections
                     .map(section => {
                         const value = getFieldValue(profile, section.field);
                         return { ...section, value };
                     })
                     .filter(section => {
+                        // Filter out sections with no data or empty values
                         if (!section.value) return false;
                         if (Array.isArray(section.value)) return section.value.length > 0;
                         if (typeof section.value === 'string') return section.value.trim() !== '';
                         return true;
                     });
 
-                // Skip category if all sections are empty
+                // Step 2: Skip the entire category if it has no populated sections
+                // This prevents empty category cards from appearing in the UI
                 if (populatedSections.length === 0) return;
 
-                // Start category card
+                // Step 3: Generate the category card HTML
                 html += `<div class="expanded-category-card">`;
                 html += `<div class="expanded-category-header">${category.title}</div>`;
                 html += `<div class="expanded-category-content">`;
 
-                // Add each section
+                // Step 4: Generate HTML for each section within the category
                 populatedSections.forEach((section, index) => {
-                    const levelIndex = index % 4; // Cycle through 4 color levels
+                    // Apply hierarchical color coding (cycles through 4 color levels per category)
+                    const levelIndex = index % 4; // Cycle through primary, secondary, tertiary, quaternary
                     const levels = ['primary', 'secondary', 'tertiary', 'quaternary'];
                     const bgColor = getTraitColor(category.category, levels[levelIndex]);
-                    const textColor = getTextColor(bgColor);
+                    const textColor = getTextColor(bgColor); // Ensures WCAG-compliant contrast
 
                     html += `<div class="expanded-section">`;
                     html += `<div class="expanded-section-title">${section.title}</div>`;
                     html += `<div class="expanded-trait-list">`;
 
-                    // Handle different value types
+                    // Step 5: Handle different value types (arrays or strings)
                     if (Array.isArray(section.value)) {
+                        // For array values: create a clickable trait chip for each item
                         section.value.forEach(item => {
                             html += `<span class="expanded-trait clickable-badge" style="background: ${bgColor}; color: ${textColor};" onclick="searchByBadge('${item.replace(/'/g, "\\'")}', event)">${item}</span>`;
                         });
                     } else if (typeof section.value === 'string') {
-                        // Check if it's a comma-separated string
+                        // For string values: check if comma-separated, split if needed
                         const items = section.value.includes(',') 
                             ? section.value.split(',').map(s => s.trim()).filter(s => s)
                             : [section.value];
                         
+                        // Create clickable trait chips for each item
                         items.forEach(item => {
+                            // Escape single quotes to prevent JS errors in onclick handler
                             html += `<span class="expanded-trait clickable-badge" style="background: ${bgColor}; color: ${textColor};" onclick="searchByBadge('${item.replace(/'/g, "\\'")}', event)">${item}</span>`;
                         });
                     }
 
-                    html += `</div></div>`; // close expanded-trait-list and expanded-section
+                    html += `</div></div>`; // Close expanded-trait-list and expanded-section
                 });
 
-                html += `</div></div>`; // close expanded-category-content and expanded-category-card
+                html += `</div></div>`; // Close expanded-category-content and expanded-category-card
             });
 
+            // Return the complete HTML string for all populated category cards
             return html;
         }
 

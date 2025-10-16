@@ -71,6 +71,9 @@
       "skeptical analysis",
       "human nature investigation",
       "systematic reasoning"
+    ],
+    "priority_framework": [
+      "value-aligned decisions"
     ]
   },
   "collaboration_style": {
@@ -128,14 +131,17 @@
     ]
   },
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "N/A",
+    "intrinsic_drivers": "n/a",
     "challenge_seeking": "N/A",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "growth-oriented exploration"
+    ]
   },
   "human_needs_hierarchy": {
     "physiological_focus": "N/A",
@@ -145,24 +151,24 @@
     "self_actualization_pursuit": "N/A"
   },
   "self_actualization_indicators": {
-    "peak_experiences": "N/A",
-    "autonomy_expression": "N/A",
-    "purpose_alignment": "N/A"
+    "peak_experiences": "n/a",
+    "autonomy_expression": "n/a",
+    "purpose_alignment": "n/a"
   },
   "behavioral_growth": {
-    "adaptation_patterns": "N/A",
-    "resilience_indicators": "N/A",
-    "feedback_integration": "N/A"
+    "adaptation_patterns": "n/a",
+    "resilience_indicators": "n/a",
+    "feedback_integration": "n/a"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "N/A",
+    "empathy_expression": "n/a",
+    "ethical_framework": "n/a",
     "human_centered_thinking": "Always considers human impact"
   },
   "humanistic_cognition": {
-    "holistic_perspective": "N/A",
-    "creative_problem_solving": "N/A",
-    "collaborative_intelligence": "N/A"
+    "holistic_perspective": "n/a",
+    "creative_problem_solving": "n/a",
+    "collaborative_intelligence": "n/a"
   },
   "background_context": {
     "wikipedia_enrichment": {
@@ -181,5 +187,35 @@
       "analytical_thinking": {},
       "emotional_intelligence": {}
     }
+  },
+  "communication": {
+    "message_framing": [
+      "evidence-based arguments"
+    ]
+  },
+  "domain_expertise": {
+    "primary_expertise": [
+      "empiricist philosophy"
+    ],
+    "knowledge_depth": [
+      "domain expertise"
+    ],
+    "innovation_approach": [
+      "incremental improvement"
+    ]
+  },
+  "behavioral_patterns": {
+    "decision_making": "systematic with bias checks",
+    "learning_preferences": [
+      "experiential learning",
+      "continuous development"
+    ]
+  },
+  "learning": {
+    "knowledge_sharing": [
+      "knowledge transfer"
+    ],
+    "adaptation_speed": "n/a",
+    "failure_response": "n/a"
   }
 }

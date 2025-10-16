@@ -29,17 +29,38 @@
   },
   "behavioral_patterns": {
     "work_style": "systematic, methodical, rigorous, experimental, innovative",
-    "problem_solving_approach": "algorithmic thinking, step-by-step analysis, logical deduction"
+    "problem_solving_approach": "algorithmic thinking, step-by-step analysis, logical deduction",
+    "decision_making": "systematic with bias checks",
+    "learning_preferences": [
+      "experimental exploration"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "analytical, introverted, creative, persistent, independent",
     "core_motivations": "truth-seeking, problem-solving, intellectual challenge, scientific advancement"
   },
   "values": {
-    "core_values": "truth, logic, scientific method, intellectual honesty, human rights"
+    "core_values": "truth, logic, scientific method, intellectual honesty, human rights",
+    "ethical_standards": [
+      "commitment to integrity",
+      "commitment to honesty"
+    ],
+    "priority_framework": [
+      "value-aligned decisions"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "mathematical logic, cryptography, computer science, artificial intelligence, theoretical computing"
+    "core_competencies": "mathematical logic, cryptography, computer science, artificial intelligence, theoretical computing",
+    "primary_expertise": [
+      "computer science"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "systematic innovation",
+      "experimental iteration"
+    ]
   },
   "unique_identifiers": {
     "signature_methodologies": "Turing machine concept, computational theory, algorithmic thinking, formal logic"
@@ -62,14 +83,25 @@
     "decision_speed": "methodical, evidence-based, logical analysis"
   },
   "learning": {
-    "learning_style": "theoretical, abstract thinking, mathematical reasoning, experimental validation"
+    "learning_style": "theoretical, abstract thinking, mathematical reasoning, experimental validation",
+    "knowledge_sharing": [
+      "leading by example"
+    ],
+    "adaptation_speed": [
+      "creative pivots"
+    ],
+    "failure_response": "n/a"
   },
   "communication": {
-    "audience_adaptation": "technical audiences, academic papers, formal presentations"
+    "audience_adaptation": "technical audiences, academic papers, formal presentations",
+    "message_framing": [
+      "detailed technical explanations",
+      "evidence-based arguments"
+    ]
   },
   "category": "Science",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
     "bias_mitigation_strategies": [
       "peer review",
       "data validation"
@@ -82,25 +114,30 @@
       "discovery"
     ],
     "challenge_seeking": "N/A",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "exploratory thinking",
+      "experimental exploration",
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
     "peak_experiences": [
       "creative breakthroughs"
     ],
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "creative pivots"
     ],
-    "resilience_indicators": "N/A",
-    "feedback_integration": "Evidence-based learning and adaptation"
+    "resilience_indicators": "n/a",
+    "feedback_integration": "evidence-based learning and adaptation"
   },
   "cognitive_humanism": {
-    "empathy_expression": "N/A",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "n/a",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {
@@ -123,7 +160,7 @@
     }
   },
   "humanistic_cognition": {
-    "creative_problem_solving": "Innovative approaches with user empathy"
+    "creative_problem_solving": "innovative approaches with user empathy"
   },
   "trait_constellations": {
     "constellation_details": {

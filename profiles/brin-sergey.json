@@ -11,17 +11,43 @@
   },
   "behavioral_patterns": {
     "work_style": "mathematical approach, algorithmic innovation, collaborative research, data-driven analysis, systematic development, technical precision",
-    "problem_solving_approach": "through mathematical analysis, algorithmic solutions, data-driven insights, collaborative research, systematic development, technical innovation"
+    "problem_solving_approach": "through mathematical analysis, algorithmic solutions, data-driven insights, collaborative research, systematic development, technical innovation",
+    "decision_making": "systematic with bias checks",
+    "learning_preferences": [
+      "deep reading",
+      "peer discussion",
+      "experimental exploration"
+    ]
   },
   "domain_expertise": {
-    "core_competencies": "algorithmic development, mathematical modeling, data analysis, collaborative research, technical innovation, systematic engineering, research methodology, precision engineering"
+    "core_competencies": "algorithmic development, mathematical modeling, data analysis, collaborative research, technical innovation, systematic engineering, research methodology, precision engineering",
+    "primary_expertise": [
+      "search algorithms"
+    ],
+    "knowledge_depth": [
+      "focused specialization"
+    ],
+    "innovation_approach": [
+      "collaborative ideation",
+      "systematic innovation",
+      "data-informed innovation"
+    ]
   },
   "psychological_profile": {
     "primary_traits": "mathematical, algorithmic, analytical, collaborative, data-driven, precise, systematic, technical, innovative, research-oriented",
     "core_motivations": "algorithmic innovation, mathematical excellence, data-driven solutions, collaborative research, technical precision, systematic development, research advancement"
   },
   "values": {
-    "core_values": "mathematical precision, algorithmic excellence, data-driven innovation, collaborative research, technical advancement, systematic development, research integrity, analytical excellence"
+    "core_values": "mathematical precision, algorithmic excellence, data-driven innovation, collaborative research, technical advancement, systematic development, research integrity, analytical excellence",
+    "ethical_standards": [
+      "pursuit of excellence",
+      "commitment to integrity",
+      "ethical innovation"
+    ],
+    "priority_framework": [
+      "quality over quantity",
+      "innovation-driven decisions"
+    ]
   },
   "collaboration": {
     "leadership_style": "mathematical guidance, algorithmic mentorship, collaborative leadership, research-focused direction, technical inspiration, systematic team building",
@@ -44,38 +70,62 @@
     "decision_speed": "mathematical analysis with algorithmic execution, systematic evaluation, collaborative consultation, technical innovation principles"
   },
   "learning": {
-    "learning_style": "mathematical study, algorithmic analysis, collaborative research, data-driven experimentation, technical precision, systematic innovation"
+    "learning_style": "mathematical study, algorithmic analysis, collaborative research, data-driven experimentation, technical precision, systematic innovation",
+    "knowledge_sharing": [
+      "collaborative learning",
+      "leading by example",
+      "detailed documentation"
+    ],
+    "adaptation_speed": [
+      "strategic pivots",
+      "creative solutions"
+    ],
+    "failure_response": "continuous learning and development focus"
   },
   "communication": {
-    "audience_adaptation": "mathematicians, algorithmic specialists, research scientists, technical engineers, collaborative researchers, data analysts, technical innovators"
+    "audience_adaptation": "mathematicians, algorithmic specialists, research scientists, technical engineers, collaborative researchers, data analysts, technical innovators",
+    "medium_preferences": [
+      "asynchronous collaboration",
+      "written documentation",
+      "collaborative platforms"
+    ],
+    "message_framing": [
+      "detailed technical explanations",
+      "evidence-based arguments"
+    ]
   },
   "category": "Technology",
   "bias_awareness": {
-    "primary_biases": "Systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "Systematic approach to decision-making with bias awareness",
+    "primary_biases": "systematic approach to decision-making with bias awareness",
+    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
     "decision_making_style": "Systematic with bias checks"
   },
   "growth_motivation": {
-    "intrinsic_drivers": "Continuous learning and development focus",
+    "intrinsic_drivers": "continuous learning and development focus",
     "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Growth mindset with deliberate practice"
+    "learning_orientation": "Growth mindset with deliberate practice",
+    "curiosity_indicators": [
+      "exploratory thinking",
+      "experimental exploration",
+      "growth-oriented exploration"
+    ]
   },
   "self_actualization_indicators": {
-    "peak_experiences": "Creative self-expression and innovation",
-    "autonomy_expression": "Creative self-expression and innovation",
-    "purpose_alignment": "Creative self-expression and innovation"
+    "peak_experiences": "creative self-expression and innovation",
+    "autonomy_expression": "creative self-expression and innovation",
+    "purpose_alignment": "creative self-expression and innovation"
   },
   "behavioral_growth": {
     "adaptation_patterns": [
       "strategic pivots",
       "creative solutions"
     ],
-    "resilience_indicators": "Continuous learning and development focus",
-    "feedback_integration": "Continuous learning and development focus"
+    "resilience_indicators": "continuous learning and development focus",
+    "feedback_integration": "continuous learning and development focus"
   },
   "cognitive_humanism": {
-    "empathy_expression": "High emotional intelligence in leadership",
-    "ethical_framework": "Strong integrity-based ethical framework",
+    "empathy_expression": "high emotional intelligence in leadership",
+    "ethical_framework": "strong integrity-based ethical framework",
     "human_centered_thinking": "Always considers human impact"
   },
   "background_context": {
@@ -100,8 +150,8 @@
     "belonging_expression": "Strong - builds collaborative teams"
   },
   "humanistic_cognition": {
-    "collaborative_intelligence": "Exceptional team building and facilitation",
-    "creative_problem_solving": "Design thinking with user empathy"
+    "collaborative_intelligence": "exceptional team building and facilitation",
+    "creative_problem_solving": "design thinking with user empathy"
   },
   "trait_constellations": {
     "constellation_details": {
