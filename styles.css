@@ -915,7 +915,12 @@ body.modal-open {
     display: block;
 }
 
-/* Colophon Modal - Centered Card */
+/* Hide the colophon modal header */
+#colophon-modal .expanded-profile-header {
+    display: none;
+}
+
+/* Center the colophon card */
 #colophon-modal .expanded-profile-content {
     display: flex;
     justify-content: center;
