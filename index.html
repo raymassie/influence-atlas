@@ -2274,15 +2274,11 @@
         }
 
         function openColophon() {
-            console.log('🔵 openColophon() called');
             const modal = document.getElementById('colophon-modal');
             const content = document.getElementById('colophon-content');
             
-            console.log('🔵 Modal element:', modal);
-            console.log('🔵 Content element:', content);
-            
             if (!modal) {
-                console.error('❌ Colophon modal not found');
+                console.error('Colophon modal not found');
                 return;
             }
             
@@ -2301,10 +2297,8 @@
                 </div>
             `;
             
-            console.log('🔵 About to show modal');
             modal.classList.add('show');
             document.body.classList.add('modal-open');
-            console.log('🔵 Modal should now be visible');
         }
 
         function closeColophon() {
@@ -2361,14 +2355,7 @@
             // Add colophon button listener
             const colophonBtn = document.getElementById('colophon-btn');
             if (colophonBtn) {
-                colophonBtn.addEventListener('click', function(e) {
-                    console.log('🔵 Colophon button clicked!');
-                    e.preventDefault();
-                    openColophon();
-                });
-                console.log('✅ Colophon button listener added');
-            } else {
-                console.error('❌ Colophon button not found');
+                colophonBtn.addEventListener('click', openColophon);
             }
         });
 
