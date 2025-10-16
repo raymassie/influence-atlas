@@ -392,7 +392,7 @@
             <!-- Colophon Button - Bottom of left column, outside filters frame -->
             <div class="filters" style="margin-top: 16px;">
                 <div class="filter-item" style="padding: 8px;">
-                    <button class="super-filter-btn" onclick="openColophon()" style="width: 100%; padding: 12px; font-size: 14px; text-align: center;">
+                    <button id="colophon-btn" class="super-filter-btn" style="width: 100%; padding: 12px; font-size: 14px; text-align: center;">
                         ℹ About This Project
                     </button>
                 </div>
@@ -2351,6 +2351,15 @@
             document.getElementById('compare-btn').addEventListener('click', showComparison);
             document.getElementById('clear-comparison-btn').addEventListener('click', clearComparison);
             document.getElementById('close-comparison-btn').addEventListener('click', hideComparison);
+            
+            // Add colophon button listener
+            const colophonBtn = document.getElementById('colophon-btn');
+            if (colophonBtn) {
+                colophonBtn.addEventListener('click', openColophon);
+                console.log('✅ Colophon button listener added');
+            } else {
+                console.error('❌ Colophon button not found');
+            }
         });
 
         function clearAllFilters() {
