@@ -916,19 +916,12 @@ body.modal-open {
 }
 
 /* Colophon Modal - Centered Card */
-#colophon-modal.show {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-}
-
-#colophon-modal .expanded-profile-header {
-    display: none;
-}
-
 #colophon-modal .expanded-profile-content {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px;
 }
 
 #colophon-modal .expanded-category-card {
