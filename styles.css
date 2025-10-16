@@ -915,9 +915,11 @@ body.modal-open {
     display: block;
 }
 
-/* Show the modal header with standard close button */
+/* Ensure colophon modal header uses same layout as other modals */
 #colophon-modal .expanded-profile-header {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Center the colophon card */
