@@ -1536,6 +1536,11 @@
             const selectedHumanNeedsHierarchy = Array.from(document.getElementById('human-needs-hierarchy-filter').selectedOptions).map(option => option.value);
             const selectedSelfActualization = Array.from(document.getElementById('self-actualization-filter').selectedOptions).map(option => option.value);
             const selectedBehavioralGrowth = Array.from(document.getElementById('behavioral-growth-filter').selectedOptions).map(option => option.value);
+            
+            // Tier 1 category filters
+            const selectedTechnology = Array.from(document.getElementById('technology-filter').selectedOptions).map(option => option.value);
+            const selectedCrisisResponse = Array.from(document.getElementById('crisis-response-filter').selectedOptions).map(option => option.value);
+            const selectedInfluenceStyle = Array.from(document.getElementById('influence-style-filter').selectedOptions).map(option => option.value);
 
             // 🚀 PERFORMANCE: Create filter state signature for memoization
             const filterState = JSON.stringify({
@@ -1564,7 +1569,10 @@
                 selectedHumanisticCognition,
                 selectedHumanNeedsHierarchy,
                 selectedSelfActualization,
-                selectedBehavioralGrowth
+                selectedBehavioralGrowth,
+                selectedTechnology,
+                selectedCrisisResponse,
+                selectedInfluenceStyle
             });
             
             // Check cache
@@ -1605,7 +1613,10 @@
                 selectedHumanisticCognition.length > 0 ||
                 selectedHumanNeedsHierarchy.length > 0 ||
                 selectedSelfActualization.length > 0 ||
-                selectedBehavioralGrowth.length > 0;
+                selectedBehavioralGrowth.length > 0 ||
+                selectedTechnology.length > 0 ||
+                selectedCrisisResponse.length > 0 ||
+                selectedInfluenceStyle.length > 0;
 
             if (!hasAnySelections) {
                 console.log('✓ No filters selected - showing all profiles');
@@ -1823,6 +1834,40 @@
                         return false;
                     });
 
+                // Tier 1 Expansion: Technology Relationship filters
+                // technology_relationship.technology_adoption
+                let matchesTechnology = selectedTechnology.length === 0 || 
+                    selectedTechnology.some(tech => {
+                        const value = profile.technology_relationship?.technology_adoption;
+                        if (!value) return false;
+                        if (typeof value === 'string') {
+                            return value.toLowerCase().includes(tech.toLowerCase());
+                        }
+                        return false;
+                    });
+
+                // crisis_response.stress_response_pattern
+                let matchesCrisisResponse = selectedCrisisResponse.length === 0 || 
+                    selectedCrisisResponse.some(crisis => {
+                        const value = profile.crisis_response?.stress_response_pattern;
+                        if (!value) return false;
+                        if (typeof value === 'string') {
+                            return value.toLowerCase().includes(crisis.toLowerCase());
+                        }
+                        return false;
+                    });
+
+                // influence_style.persuasion_approach
+                let matchesInfluenceStyle = selectedInfluenceStyle.length === 0 || 
+                    selectedInfluenceStyle.some(influence => {
+                        const value = profile.influence_style?.persuasion_approach;
+                        if (!value) return false;
+                        if (typeof value === 'string') {
+                            return value.toLowerCase().includes(influence.toLowerCase());
+                        }
+                        return false;
+                    });
+
                 // Only apply filters that have actual selections
                 let passesAllFilters = true;
                 
@@ -1852,6 +1897,9 @@
                 if (selectedHumanNeedsHierarchy.length > 0) passesAllFilters = passesAllFilters && matchesHumanNeedsHierarchy;
                 if (selectedSelfActualization.length > 0) passesAllFilters = passesAllFilters && matchesSelfActualization;
                 if (selectedBehavioralGrowth.length > 0) passesAllFilters = passesAllFilters && matchesBehavioralGrowth;
+                if (selectedTechnology.length > 0) passesAllFilters = passesAllFilters && matchesTechnology;
+                if (selectedCrisisResponse.length > 0) passesAllFilters = passesAllFilters && matchesCrisisResponse;
+                if (selectedInfluenceStyle.length > 0) passesAllFilters = passesAllFilters && matchesInfluenceStyle;
                 
                 return passesAllFilters;
             });
