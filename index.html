@@ -388,6 +388,15 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Colophon Button - Bottom of left column, outside filters frame -->
+            <div class="filters" style="margin-top: 16px;">
+                <div class="filter-item" style="padding: 8px;">
+                    <button class="super-filter-btn" onclick="openColophon()" style="width: 100%; padding: 12px; font-size: 14px; text-align: center;">
+                        ℹ About This Project
+                    </button>
+                </div>
+            </div>
             </div>
             
             <div class="profiles-section">
@@ -411,6 +420,23 @@
             </div>
             <div class="expanded-profile-content" id="expanded-content">
                 <!-- Content will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Colophon Modal -->
+        <div id="colophon-modal" class="expanded-profile" style="display: none;">
+            <div class="expanded-profile-header">
+                <div>
+                    <div class="expanded-profile-title">Colophon</div>
+                    <div class="expanded-profile-subtitle">About This Project</div>
+                </div>
+                <div class="expanded-profile-actions">
+                    <button class="btn btn-secondary" onclick="closeColophon()">Close</button>
+                    <div class="close-expanded" onclick="closeColophon()">×</div>
+                </div>
+            </div>
+            <div class="expanded-profile-content colophon-content" id="colophon-content">
+                <!-- Colophon content will be populated by JavaScript -->
             </div>
         </div>
     </div>
@@ -2245,6 +2271,39 @@
             document.getElementById('expanded-profile').classList.remove('show');
             document.body.classList.remove('modal-open');
             currentExpandedProfile = null;
+        }
+
+        function openColophon() {
+            const modal = document.getElementById('colophon-modal');
+            const content = document.getElementById('colophon-content');
+            
+            if (!modal) {
+                console.error('Colophon modal not found');
+                return;
+            }
+            
+            // Populate colophon content
+            content.innerHTML = `
+                <div class="expanded-category-card">
+                    <div class="expanded-category-header">About This Project</div>
+                    <div class="expanded-category-content" style="padding: 20px;">
+                        <p><strong>JSON Context Profiles</strong> - An interactive index of 265 influential figures evaluated through a Behavioral Humanism framework combining Daniel Kahneman and Abraham Maslow.</p>
+                        <p style="margin-top: 12px;"><strong>Technology:</strong> Vanilla JavaScript, HTML5, CSS3, GitHub Pages</p>
+                        <p style="margin-top: 12px;"><strong>Data Methodology:</strong> Factually-grounded, verifiable, pattern-based analysis with 90%+ coverage</p>
+                        <p style="margin-top: 12px;"><strong>Quality:</strong> 3,887 traits standardized, WCAG 2.1 AA compliant, cross-browser tested</p>
+                        <p style="margin-top: 12px;"><strong>Repository:</strong> <a href="https://github.com/raymassie/JSON-context-profiles" target="_blank">github.com/raymassie/JSON-context-profiles</a></p>
+                        <p style="margin-top: 16px; font-size: 0.9em; color: #666;">Built with attention to data integrity and user experience • © 2025 • Version 8.5</p>
+                    </div>
+                </div>
+            `;
+            
+            modal.classList.add('show');
+            document.body.classList.add('modal-open');
+        }
+
+        function closeColophon() {
+            document.getElementById('colophon-modal').classList.remove('show');
+            document.body.classList.remove('modal-open');
         }
 
         function copyExpandedProfile() {
