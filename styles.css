@@ -915,6 +915,19 @@ body.modal-open {
     display: block;
 }
 
+/* Colophon Modal - Centered Card */
+#colophon-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#colophon-modal .expanded-category-card {
+    width: 66.666%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .main-content {
     position: relative;
 }
