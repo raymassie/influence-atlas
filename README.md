@@ -90,10 +90,19 @@ Profiles are evaluated through an integrated framework combining:
 - **Medium Coverage (50-69%)**: 12 fields
 - **Critical fields reduced by 68%** (19 → 6)
 
+### 🎯 Current Development (v8.6 - In Progress)
+- **3 new category groups** (Tier 1 expansion):
+  - **Technology Relationship**: digital fluency, AI perspective, platform preferences
+  - **Crisis Response & Resilience**: stress patterns, failure recovery, uncertainty tolerance
+  - **Influence & Persuasion Style**: rhetoric approach, credibility source, change mechanisms
+- Performance optimizations (consolidated parsing, filter memoization)
+- Project rebranding exploration
+
 ### 🎯 Future Enhancements
 - Profile comparison tools (side-by-side view)
 - Advanced trait analytics and visualizations
 - Export to additional formats
+- Tier 2 & 3 category expansions
 
 ## Data Methodology
 
