@@ -71,9 +71,9 @@ Profiles are evaluated through an integrated framework combining:
 
 ## Demo
 
-**Live Demo**: [https://raymassie.github.io/JSON-context-profiles/](https://raymassie.github.io/JSON-context-profiles/)
+**Live Demo**: [https://raymassie.github.io/influence-atlas/](https://raymassie.github.io/influence-atlas/)
 
-*Note: GitHub repository URL will be updated to reflect new name.*
+**Repository**: [https://github.com/raymassie/influence-atlas](https://github.com/raymassie/influence-atlas)
 
 ## Project Status
 
