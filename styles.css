@@ -930,6 +930,11 @@ body.modal-open {
     margin: 0 auto;
 }
 
+/* Hide the original modal header and close button */
+#colophon-modal .expanded-profile-header {
+    display: none;
+}
+
 .main-content {
     position: relative;
 }
