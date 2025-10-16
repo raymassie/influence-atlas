@@ -94,13 +94,15 @@ Profiles are evaluated through an integrated framework combining:
 - **Medium Coverage (50-69%)**: 12 fields
 - **Critical fields reduced by 68%** (19 → 6)
 
-### 🎯 Current Development (v8.6 - In Progress)
-- **3 new category groups** (Tier 1 expansion):
-  - **Technology Relationship**: digital fluency, AI perspective, platform preferences
-  - **Crisis Response & Resilience**: stress patterns, failure recovery, uncertainty tolerance
-  - **Influence & Persuasion Style**: rhetoric approach, credibility source, change mechanisms
-- Performance optimizations (consolidated parsing, filter memoization)
-- Project rebranding exploration
+### ✅ Latest Release (v9.0 - October 2025)
+- **Complete rebrand**: "Influence Atlas - Context for expert authenticity"
+- **Tier 1 category expansion** - 3 new category groups with 15 fields:
+  - **Technology Relationship**: adoption level, digital fluency, AI perspective, platform preference, tech integration
+  - **Crisis Response**: stress patterns, failure recovery, uncertainty tolerance, pressure performance, crisis leadership
+  - **Influence Style**: persuasion approach, influence scope, rhetoric style, credibility source, change mechanism
+- **Performance optimizations**: ~93% faster parsing, filter result memoization
+- **265 profiles enhanced** with intelligent inference based on biographical data
+- **Full UI integration**: new filters + details modal display
 
 ### 🎯 Future Enhancements
 - Profile comparison tools (side-by-side view)
