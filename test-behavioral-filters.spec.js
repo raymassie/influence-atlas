@@ -167,8 +167,10 @@ test.describe('Behavioral Humanism Filters', () => {
     
     const filteredCount = await page.locator('.profile-card').count();
     
-    // Clear all filters
-    await page.click('button:has-text("Clear All Filters")');
+    // Clear all filters - first expand the filters section
+    await page.locator('.filter-header', { hasText: 'Quick Categories' }).click();
+    await page.waitForTimeout(200);
+    await page.click('button:has-text("Clear All")');
     await page.waitForTimeout(500);
     
     const clearedCount = await page.locator('.profile-card').count();
@@ -180,8 +182,8 @@ test.describe('Behavioral Humanism Filters', () => {
   });
 
   test('Behavioral Humanism filters display in details modal', async ({ page }) => {
-    // Open first profile
-    await page.locator('.profile-card').first().click();
+    // Click Details button on first profile
+    await page.locator('.profile-card').first().locator('button:has-text("Details")').click();
     await page.waitForSelector('#expanded-profile', { state: 'visible' });
     
     // Check for Behavioral Humanism category cards

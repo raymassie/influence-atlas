@@ -1617,10 +1617,115 @@
                 let matchesValues = selectedValues.length === 0 || 
                     selectedValues.some(value => Array.isArray(profile.values?.core_values_parsed) && profile.values.core_values_parsed.includes(value));
 
-                return matchesSearch && matchesArchetype && matchesDomain && matchesSubdomain && 
-                       matchesTraits && matchesCommunication && matchesSentenceStructure && matchesExpertise && matchesBackground && 
-                       matchesBehavior && matchesProblemSolving && matchesIdentifiers && matchesTemporal && matchesCollaboration && 
-                       matchesCultural && matchesPractical && matchesCommunicationNew && matchesLearning && matchesValues;
+                // Behavioral Humanism filters
+                // bias_awareness.primary_biases
+                let matchesBiasAwareness = selectedBiasAwareness.length === 0 || 
+                    selectedBiasAwareness.some(bias => {
+                        const value = profile.bias_awareness?.primary_biases;
+                        if (!value) return false;
+                        if (typeof value === 'string') {
+                            return value.toLowerCase().includes(bias.toLowerCase());
+                        }
+                        return false;
+                    });
+
+                // growth_motivation.intrinsic_drivers
+                let matchesGrowthMotivation = selectedGrowthMotivation.length === 0 || 
+                    selectedGrowthMotivation.some(motivation => {
+                        const value = profile.growth_motivation?.intrinsic_drivers;
+                        if (!value) return false;
+                        if (typeof value === 'string') {
+                            return value.toLowerCase().includes(motivation.toLowerCase());
+                        }
+                        return false;
+                    });
+
+                // cognitive_humanism.empathy_expression
+                let matchesCognitiveHumanism = selectedCognitiveHumanism.length === 0 || 
+                    selectedCognitiveHumanism.some(pattern => {
+                        const value = profile.cognitive_humanism?.empathy_expression;
+                        if (!value) return false;
+                        if (typeof value === 'string') {
+                            return value.toLowerCase().includes(pattern.toLowerCase());
+                        }
+                        return false;
+                    });
+
+                // humanistic_cognition.creative_problem_solving
+                let matchesHumanisticCognition = selectedHumanisticCognition.length === 0 || 
+                    selectedHumanisticCognition.some(value => {
+                        const fieldValue = profile.humanistic_cognition?.creative_problem_solving;
+                        if (!fieldValue) return false;
+                        if (typeof fieldValue === 'string') {
+                            return fieldValue.toLowerCase().includes(value.toLowerCase());
+                        }
+                        return false;
+                    });
+
+                // human_needs_hierarchy.need_priorities
+                let matchesHumanNeedsHierarchy = selectedHumanNeedsHierarchy.length === 0 || 
+                    selectedHumanNeedsHierarchy.some(need => {
+                        const value = profile.human_needs_hierarchy?.need_priorities;
+                        if (!value) return false;
+                        if (typeof value === 'string') {
+                            return value.toLowerCase().includes(need.toLowerCase());
+                        }
+                        return false;
+                    });
+
+                // self_actualization_indicators.peak_experiences
+                let matchesSelfActualization = selectedSelfActualization.length === 0 || 
+                    selectedSelfActualization.some(indicator => {
+                        const value = profile.self_actualization_indicators?.peak_experiences;
+                        if (!value) return false;
+                        if (typeof value === 'string') {
+                            return value.toLowerCase().includes(indicator.toLowerCase());
+                        }
+                        return false;
+                    });
+
+                // behavioral_growth.adaptation_patterns
+                let matchesBehavioralGrowth = selectedBehavioralGrowth.length === 0 || 
+                    selectedBehavioralGrowth.some(pattern => {
+                        const value = profile.behavioral_growth?.adaptation_patterns;
+                        if (!value) return false;
+                        if (typeof value === 'string') {
+                            return value.toLowerCase().includes(pattern.toLowerCase());
+                        }
+                        return false;
+                    });
+
+                // Only apply filters that have actual selections
+                let passesAllFilters = true;
+                
+                if (searchTerm) passesAllFilters = passesAllFilters && matchesSearch;
+                if (selectedArchetypes.length > 0) passesAllFilters = passesAllFilters && matchesArchetype;
+                if (selectedDomains.length > 0) passesAllFilters = passesAllFilters && matchesDomain;
+                if (selectedSubDomains.length > 0) passesAllFilters = passesAllFilters && matchesSubdomain;
+                if (selectedTraits.length > 0) passesAllFilters = passesAllFilters && matchesTraits;
+                if (selectedCommunication.length > 0) passesAllFilters = passesAllFilters && matchesCommunication;
+                if (selectedSentenceStructure.length > 0) passesAllFilters = passesAllFilters && matchesSentenceStructure;
+                if (selectedExpertise.length > 0) passesAllFilters = passesAllFilters && matchesExpertise;
+                if (selectedBackground.length > 0) passesAllFilters = passesAllFilters && matchesBackground;
+                if (selectedBehavior.length > 0) passesAllFilters = passesAllFilters && matchesBehavior;
+                if (selectedProblemSolving.length > 0) passesAllFilters = passesAllFilters && matchesProblemSolving;
+                if (selectedIdentifiers.length > 0) passesAllFilters = passesAllFilters && matchesIdentifiers;
+                if (selectedTemporal.length > 0) passesAllFilters = passesAllFilters && matchesTemporal;
+                if (selectedCollaboration.length > 0) passesAllFilters = passesAllFilters && matchesCollaboration;
+                if (selectedCultural.length > 0) passesAllFilters = passesAllFilters && matchesCultural;
+                if (selectedPractical.length > 0) passesAllFilters = passesAllFilters && matchesPractical;
+                if (selectedCommunicationNew.length > 0) passesAllFilters = passesAllFilters && matchesCommunicationNew;
+                if (selectedLearning.length > 0) passesAllFilters = passesAllFilters && matchesLearning;
+                if (selectedValues.length > 0) passesAllFilters = passesAllFilters && matchesValues;
+                if (selectedBiasAwareness.length > 0) passesAllFilters = passesAllFilters && matchesBiasAwareness;
+                if (selectedGrowthMotivation.length > 0) passesAllFilters = passesAllFilters && matchesGrowthMotivation;
+                if (selectedCognitiveHumanism.length > 0) passesAllFilters = passesAllFilters && matchesCognitiveHumanism;
+                if (selectedHumanisticCognition.length > 0) passesAllFilters = passesAllFilters && matchesHumanisticCognition;
+                if (selectedHumanNeedsHierarchy.length > 0) passesAllFilters = passesAllFilters && matchesHumanNeedsHierarchy;
+                if (selectedSelfActualization.length > 0) passesAllFilters = passesAllFilters && matchesSelfActualization;
+                if (selectedBehavioralGrowth.length > 0) passesAllFilters = passesAllFilters && matchesBehavioralGrowth;
+                
+                return passesAllFilters;
             });
 
             // Sort filtered results alphabetically by last name
