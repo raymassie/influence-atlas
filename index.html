@@ -387,6 +387,45 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Tier 1 Expansion: Technology Relationship -->
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('technology-filter')">
+                        <span>Technology Relationship</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="technology-filter-content">
+                        <div class="filter-group">
+                            <select id="technology-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tier 1 Expansion: Crisis Response -->
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('crisis-response-filter')">
+                        <span>Crisis Response</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="crisis-response-filter-content">
+                        <div class="filter-group">
+                            <select id="crisis-response-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tier 1 Expansion: Influence Style -->
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('influence-style-filter')">
+                        <span>Influence Style</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="influence-style-filter-content">
+                        <div class="filter-group">
+                            <select id="influence-style-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- Colophon Button - Bottom of left column, outside filters frame -->
@@ -950,7 +989,10 @@
                 'humanistic-cognition-filter': 'humanistic_cognition.creative_problem_solving',
                 'human-needs-hierarchy-filter': 'human_needs_hierarchy.need_priorities',
                 'self-actualization-filter': 'self_actualization_indicators.peak_experiences',
-                'behavioral-growth-filter': 'behavioral_growth.adaptation_patterns'
+                'behavioral-growth-filter': 'behavioral_growth.adaptation_patterns',
+                'technology-filter': 'technology_relationship.technology_adoption',
+                'crisis-response-filter': 'crisis_response.stress_response_pattern',
+                'influence-style-filter': 'influence_style.persuasion_approach'
             };
 
             console.log('🔍 Checking each filter element...');
@@ -1044,7 +1086,10 @@
                 'humanistic-cognition-filter': 'humanistic_cognition.creative_problem_solving',
                 'human-needs-hierarchy-filter': 'human_needs_hierarchy.need_priorities',
                 'self-actualization-filter': 'self_actualization_indicators.peak_experiences',
-                'behavioral-growth-filter': 'behavioral_growth.adaptation_patterns'
+                'behavioral-growth-filter': 'behavioral_growth.adaptation_patterns',
+                'technology-filter': 'technology_relationship.technology_adoption',
+                'crisis-response-filter': 'crisis_response.stress_response_pattern',
+                'influence-style-filter': 'influence_style.persuasion_approach'
             };
 
             let filtered = allProfiles;
@@ -1104,9 +1149,12 @@
                 'humanistic-cognition-filter': 'humanistic_cognition.creative_problem_solving',
                 'human-needs-hierarchy-filter': 'human_needs_hierarchy.need_priorities',
                 'self-actualization-filter': 'self_actualization_indicators.peak_experiences',
-                'behavioral-growth-filter': 'behavioral_growth.adaptation_patterns'
+                'behavioral-growth-filter': 'behavioral_growth.adaptation_patterns',
+                'technology-filter': 'technology_relationship.technology_adoption',
+                'crisis-response-filter': 'crisis_response.stress_response_pattern',
+                'influence-style-filter': 'influence_style.persuasion_approach'
             };
-
+            
             // Get currently filtered profiles based on all current selections
             const currentlyFilteredProfiles = getCurrentlyFilteredProfiles();
             console.log(`📊 Cascading filters based on ${currentlyFilteredProfiles.length} currently matching profiles`);
@@ -1212,7 +1260,10 @@
                 'humanistic-cognition-filter': 'humanistic_cognition.creative_problem_solving',
                 'human-needs-hierarchy-filter': 'human_needs_hierarchy.need_priorities',
                 'self-actualization-filter': 'self_actualization_indicators.peak_experiences',
-                'behavioral-growth-filter': 'behavioral_growth.adaptation_patterns'
+                'behavioral-growth-filter': 'behavioral_growth.adaptation_patterns',
+                'technology-filter': 'technology_relationship.technology_adoption',
+                'crisis-response-filter': 'crisis_response.stress_response_pattern',
+                'influence-style-filter': 'influence_style.persuasion_approach'
             };
             
             // Clear all filter selections

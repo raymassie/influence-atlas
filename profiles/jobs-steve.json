@@ -265,5 +265,26 @@
     "Entrepreneurship"
   ],
   "influence_scope": "Contemporary Influence",
-  "legacy": "Notable figure whose contributions continue to be recognized"
+  "legacy": "Notable figure whose contributions continue to be recognized",
+  "technology_relationship": {
+    "technology_adoption": "early adopter",
+    "digital_fluency": "native",
+    "ai_perspective": "cautious optimist",
+    "platform_preference": "proprietary integrated ecosystems",
+    "tech_integration": "seamlessly integrated"
+  },
+  "crisis_response": {
+    "stress_response_pattern": "energized by challenge",
+    "failure_recovery": "bounce back stronger",
+    "uncertainty_tolerance": "thrives in ambiguity",
+    "pressure_performance": "performs best under pressure",
+    "crisis_leadership": "steps up as leader"
+  },
+  "influence_style": {
+    "persuasion_approach": "emotional appeal",
+    "influence_scope": "mass audience",
+    "rhetoric_style": "storytelling",
+    "credibility_source": "track record",
+    "change_mechanism": "radical disruption"
+  }
 }
