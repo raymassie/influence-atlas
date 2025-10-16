@@ -1,6 +1,8 @@
-# JSON Context Profiles
+# Influence Atlas
 
-An interactive index of industry leaders drawn from a Behavioral Humanism framework.
+**Context for expert authenticity**
+
+An interactive index of 265 influential figures evaluated through a Behavioral Humanism framework.
 
 ## Overview
 
@@ -70,6 +72,8 @@ Profiles are evaluated through an integrated framework combining:
 ## Demo
 
 **Live Demo**: [https://raymassie.github.io/JSON-context-profiles/](https://raymassie.github.io/JSON-context-profiles/)
+
+*Note: GitHub repository URL will be updated to reflect new name.*
 
 ## Project Status
 
