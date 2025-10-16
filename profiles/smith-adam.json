@@ -183,5 +183,26 @@
     ],
     "adaptation_speed": "n/a",
     "failure_response": "n/a"
+  },
+  "technology_relationship": {
+    "technology_adoption": "pragmatic",
+    "digital_fluency": "analog-preferring",
+    "ai_perspective": "cautious optimist",
+    "platform_preference": "varies by domain",
+    "tech_integration": "strategic use"
+  },
+  "crisis_response": {
+    "stress_response_pattern": "calm under pressure",
+    "failure_recovery": "learn and adapt",
+    "uncertainty_tolerance": "manages discomfort",
+    "pressure_performance": "maintains quality",
+    "crisis_leadership": "provides calm guidance"
+  },
+  "influence_style": {
+    "persuasion_approach": "logical argument",
+    "influence_scope": "mass audience",
+    "rhetoric_style": "socratic",
+    "credibility_source": "expertise",
+    "change_mechanism": "incremental progress"
   }
 }

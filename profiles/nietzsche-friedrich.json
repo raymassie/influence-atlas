@@ -178,5 +178,26 @@
     "Applied Ethics"
   ],
   "influence_scope": "Contemporary Influence",
-  "legacy": "Influential thinker whose ideas continue to shape philosophical discourse"
+  "legacy": "Influential thinker whose ideas continue to shape philosophical discourse",
+  "technology_relationship": {
+    "technology_adoption": "skeptical",
+    "digital_fluency": "basic",
+    "ai_perspective": "concerned",
+    "platform_preference": "varies by domain",
+    "tech_integration": "strategic use"
+  },
+  "crisis_response": {
+    "stress_response_pattern": "energized by challenge",
+    "failure_recovery": "learn and adapt",
+    "uncertainty_tolerance": "manages discomfort",
+    "pressure_performance": "maintains quality",
+    "crisis_leadership": "provides calm guidance"
+  },
+  "influence_style": {
+    "persuasion_approach": "logical argument",
+    "influence_scope": "mass audience",
+    "rhetoric_style": "storytelling",
+    "credibility_source": "expertise",
+    "change_mechanism": "incremental progress"
+  }
 }
