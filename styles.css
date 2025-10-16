@@ -919,8 +919,7 @@ body.modal-open {
 #colophon-modal .expanded-profile-content {
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    align-items: flex-start;
     padding: 40px;
 }
 
@@ -928,11 +927,6 @@ body.modal-open {
     width: 66.666%;
     max-width: 900px;
     margin: 0 auto;
-}
-
-/* Show the original modal header with standard close button */
-#colophon-modal .expanded-profile-header {
-    display: block;
 }
 
 .main-content {
