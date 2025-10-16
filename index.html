@@ -456,6 +456,10 @@
         let allProfiles = [];
         let filteredProfiles = [];
         let currentView = 'grid';
+        
+        // 🚀 PERFORMANCE: Filter memoization cache
+        const filterCache = new Map();
+        let lastFilterState = null;
 
 
         // Function to generate filename from name
@@ -500,6 +504,63 @@
                 allProfiles.sort((a, b) => getLastName(a.name).localeCompare(getLastName(b.name)));
                 console.log(`📊 Profiles sorted alphabetically: ${allProfiles.length} total`);
                 
+                // 🚀 PERFORMANCE OPTIMIZATION: Consolidated parsing in single loop
+                console.time('⚡ Profile parsing');
+                allProfiles.forEach(profile => {
+                    // Helper function to parse comma-separated or array fields
+                    const parseField = (value, skipPlaceholder = null) => {
+                        if (!value) return [];
+                        if (skipPlaceholder && value === skipPlaceholder) return [];
+                        
+                        const terms = Array.isArray(value) 
+                            ? value.map(term => term.trim())
+                            : value.split(',').map(term => term.trim());
+                        
+                        const filtered = terms.filter(term => term.length > 0);
+                        return [...new Set(filtered)].sort();
+                    };
+                    
+                    // Initialize nested objects if they don't exist
+                    profile.communication_style = profile.communication_style || {};
+                    profile.behavioral_patterns = profile.behavioral_patterns || {};
+                    profile.collaboration = profile.collaboration || {};
+                    profile.values = profile.values || {};
+                    profile.temporal_context = profile.temporal_context || {};
+                    profile.cultural_context = profile.cultural_context || {};
+                    profile.practical_application = profile.practical_application || {};
+                    profile.learning = profile.learning || {};
+                    profile.communication = profile.communication || {};
+                    profile.psychological_profile = profile.psychological_profile || {};
+                    profile.domain_expertise = profile.domain_expertise || {};
+                    
+                    // Parse all fields in one pass
+                    profile.communication_style.tone_parsed = parseField(profile.communication_style.tone);
+                    profile.communication_style.sentence_structure_parsed = parseField(profile.communication_style.sentence_structure);
+                    profile.behavioral_patterns.work_style_parsed = parseField(profile.behavioral_patterns.work_style);
+                    profile.behavioral_patterns.problem_solving_approach_parsed = parseField(profile.behavioral_patterns.problem_solving_approach);
+                    profile.values.core_values_parsed = parseField(profile.values.core_values, 'fundamental principles that guide decisions');
+                    profile.temporal_context.career_evolution_parsed = parseField(profile.temporal_context.career_evolution, 'career evolution over time');
+                    profile.temporal_context.influence_timeline_parsed = parseField(profile.temporal_context.influence_timeline);
+                    profile.temporal_context.legacy_impact_parsed = parseField(profile.temporal_context.legacy_impact);
+                    profile.cultural_context.cultural_background_parsed = parseField(profile.cultural_context.cultural_background, 'how background shapes their perspective');
+                    profile.practical_application.decision_speed_parsed = parseField(profile.practical_application.decision_speed, 'how quickly they make decisions');
+                    profile.learning.learning_style_parsed = parseField(profile.learning.learning_style, 'how they acquire new knowledge');
+                    profile.communication.audience_adaptation_parsed = parseField(profile.communication.audience_adaptation);
+                    profile.psychological_profile.primary_traits_parsed = parseField(profile.psychological_profile.primary_traits);
+                    profile.domain_expertise.core_competencies_parsed = parseField(profile.domain_expertise.core_competencies);
+                    
+                    // Parse collaboration fields (multiple sub-fields)
+                    if (profile.collaboration) {
+                        const collaborationFields = ['leadership_style', 'team_dynamics', 'mentorship_approach', 'conflict_resolution'];
+                        collaborationFields.forEach(field => {
+                            profile.collaboration[field + '_parsed'] = parseField(profile.collaboration[field]);
+                        });
+                    }
+                });
+                console.timeEnd('⚡ Profile parsing');
+                
+                // OLD CODE - REMOVE ALL INDIVIDUAL FOREACH LOOPS BELOW
+                /*
                 // Parse communication style tones for each profile
                 allProfiles.forEach(profile => {
                     if (profile.communication_style?.tone) {
@@ -840,6 +901,8 @@
                         profile.domain_expertise.core_competencies_parsed = [];
                     }
                 });
+                */
+                // END OLD CODE
                 
                 console.log(`✓ Loaded ${allProfiles.length} profiles from JSON file (sorted alphabetically)`);
                 
@@ -1393,6 +1456,7 @@
         }
 
         function filterProfiles() {
+            console.time('⚡ filterProfiles');
             const searchTerm = document.getElementById('search-filter').value.toLowerCase();
             const selectedArchetypes = Array.from(document.getElementById('archetype-filter').selectedOptions).map(option => option.value);
             const selectedDomains = Array.from(document.getElementById('domain-filter').selectedOptions).map(option => option.value);
@@ -1422,7 +1486,8 @@
             const selectedSelfActualization = Array.from(document.getElementById('self-actualization-filter').selectedOptions).map(option => option.value);
             const selectedBehavioralGrowth = Array.from(document.getElementById('behavioral-growth-filter').selectedOptions).map(option => option.value);
 
-            console.log('🔍 Filtering profiles with:', {
+            // 🚀 PERFORMANCE: Create filter state signature for memoization
+            const filterState = JSON.stringify({
                 searchTerm,
                 selectedArchetypes,
                 selectedDomains,
@@ -1450,6 +1515,18 @@
                 selectedSelfActualization,
                 selectedBehavioralGrowth
             });
+            
+            // Check cache
+            if (filterState === lastFilterState && filterCache.has(filterState)) {
+                console.log('✨ Using cached filter results');
+                filteredProfiles = filterCache.get(filterState);
+                updateQuickNavigationStats();
+                displayProfiles();
+                console.timeEnd('⚡ filterProfiles');
+                return;
+            }
+            
+            console.log('🔍 Computing new filter results');
 
             // If no filters are selected at all, show all profiles
             const hasAnySelections = searchTerm || 
@@ -1731,10 +1808,19 @@
             // Sort filtered results alphabetically by last name
             filteredProfiles.sort((a, b) => getLastName(a.name).localeCompare(getLastName(b.name)));
             
+            // 🚀 PERFORMANCE: Store in cache (limit cache size to last 10 filter states)
+            if (filterCache.size > 10) {
+                const firstKey = filterCache.keys().next().value;
+                filterCache.delete(firstKey);
+            }
+            filterCache.set(filterState, filteredProfiles.slice()); // Store copy
+            lastFilterState = filterState;
+            
             // Update quick navigation stats
             updateQuickNavigationStats();
             
             displayProfiles();
+            console.timeEnd('⚡ filterProfiles');
         }
 
         // Event listeners removed - buttons now use onclick attributes
