@@ -875,7 +875,8 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     gap: 0; 
     width: 100%; 
     background: #FEFAE0;
-    margin-top: 12px;
+    margin-top: auto;
+    margin-bottom: 0;
 }
 .btn { 
     padding: 8px; 
