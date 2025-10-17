@@ -18,6 +18,40 @@
             <p>Context for expert authenticity</p>
         </div>
 
+        <!-- Top Navigation Bar -->
+        <div class="top-nav">
+            <div class="top-nav-left">
+                <div class="selection-counter">
+                    <span id="selected-count">0</span> of <span id="total-count">256</span> SELECTED
+                </div>
+                <button id="clear-selections-btn" class="btn-clear" onclick="clearSelections()" disabled>CLEAR</button>
+            </div>
+            
+            <div class="top-nav-center">
+                <div class="format-toggles">
+                    <div class="format-option">
+                        <input type="radio" id="format-markdown" name="export-format" value="markdown" checked>
+                        <label for="format-markdown">MARKDOWN</label>
+                    </div>
+                    <div class="format-option">
+                        <input type="radio" id="format-json" name="export-format" value="json">
+                        <label for="format-json">JSON</label>
+                    </div>
+                    <div class="format-option">
+                        <input type="radio" id="format-agent" name="export-format" value="agent">
+                        <label for="format-agent">AGENT</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="top-nav-right">
+                <button id="copy-selected-btn" class="btn-action" onclick="copySelected()" disabled>COPY</button>
+                <button id="download-selected-btn" class="btn-action" onclick="downloadSelected()" disabled>DOWNLOAD</button>
+                <div class="search-container">
+                    <input type="text" id="search-filter" placeholder="Search Profiles" onkeyup="debouncedFilterProfiles()">
+                </div>
+            </div>
+        </div>
 
         <!-- Mobile Filter Header -->
         <div class="mobile-filter-header">
