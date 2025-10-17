@@ -199,6 +199,12 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     margin-bottom: 20px;
 }
 
+.nav-separator {
+    width: 1px;
+    align-self: stretch;
+    background: rgba(40, 54, 24, 0.66);
+}
+
 /* Selection Counter */
 .desktop-nav .selection-counter {
     align-self: stretch;
@@ -409,11 +415,10 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 }
 
 .nav-center {
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 20px;
+    gap: 16px;
 }
 
 .nav-right {
