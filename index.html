@@ -2062,9 +2062,7 @@
                             </div>
                         </div>
                         <div class="profile-actions">
-                            <a href="profiles/${filename}" class="btn" download onclick="event.stopPropagation()">Download</a>
-                            <button class="btn" onclick="copyToClipboard('${filename}'); event.stopPropagation()">Copy</button>
-                            <button class="btn" onclick="expandProfile('${profile.name}', event); event.stopPropagation()">Details</button>
+                            <button class="btn btn-details" onclick="expandProfile('${profile.name}', event); event.stopPropagation()">Details</button>
                         </div>
                     </div>
                 `;
@@ -2090,9 +2088,7 @@
                     <div class="profile-archetype">${profile.archetype}</div>
                     <div class="profile-domain">${profile.domain}${profile.sub_domain ? ` - ${profile.sub_domain}` : ''}</div>
                     <div class="profile-actions">
-                        <a href="profiles/${filename}" class="btn btn-primary" download onclick="event.stopPropagation()">Download</a>
-                        <button class="btn btn-secondary" onclick="copyToClipboard('${filename}'); event.stopPropagation()">Copy</button>
-                        <button class="btn btn-secondary" onclick="expandProfile('${profile.name}', event); event.stopPropagation()">Details</button>
+                        <button class="btn btn-details" onclick="expandProfile('${profile.name}', event); event.stopPropagation()">Details</button>
                     </div>
                 `;
                 

@@ -938,10 +938,30 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     transform: scale(1.05);
     box-shadow: 0 2px 8px rgba(40, 54, 24, 0.3);
 }
-.btn-primary { background: transparent !important; color: #0A0D06 !important; padding: 8px !important; border-radius: 4px; font-size: 12px; font-weight: 500; display: flex; align-items: center; justify-content: center; }
-.btn-primary:hover { background: transparent !important; border: none !important; outline: 1px solid #0A0D06 !important; outline-offset: -1px !important; }
-.btn-secondary { background: transparent !important; color: #0A0D06 !important; padding: 8px !important; border-radius: 4px; font-size: 12px; font-weight: 500; display: flex; align-items: center; justify-content: center; }
-.btn-secondary:hover { background: transparent !important; border: none !important; outline: 1px solid #0A0D06 !important; outline-offset: -1px !important; }
+.btn-details {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    transition: all 0.2s ease;
+    opacity: 0.8;
+    color: #0A0D06;
+    background: transparent;
+}
+
+.btn-details:hover {
+    outline: 1px solid #0A0D06;
+    outline-offset: -1px;
+}
 .no-results { text-align: center; padding: 40px; color: #283618; font-size: 1.2rem; }
 .loading { text-align: center; padding: 40px; color: #283618; font-size: 1.2rem; }
 .stats { background: white; padding: 15px; border-radius: 4px; margin-bottom: 20px; text-align: center; font-weight: 600; }
