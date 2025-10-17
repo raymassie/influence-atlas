@@ -2,11 +2,11 @@
 
 **Context for expert authenticity**
 
-An interactive index of 265 influential figures evaluated through a Behavioral Humanism framework.
+An interactive index of 308 influential figures evaluated through a Behavioral Humanism framework.
 
 ## Overview
 
-This application provides rich, searchable profiles of 265+ influential figures across various domains including technology, business, psychology, philosophy, design, and more. Each profile includes detailed behavioral traits, communication patterns, decision-making styles, and psychological characteristics.
+This application provides rich, searchable profiles of 308+ influential figures across various domains including technology, business, psychology, philosophy, design, film, legal, culinary arts, journalism, medical specialties, and more. Each profile includes detailed behavioral traits, communication patterns, decision-making styles, and psychological characteristics.
 
 ## Features
 
@@ -21,11 +21,11 @@ This application provides rich, searchable profiles of 265+ influential figures 
 
 ## Data Structure
 
-- **265 Profiles**: Industry leaders, innovators, and influential thinkers
-- **21 Categories**: Broad classifications (Business, Technology, Psychology, etc.)
-- **165 Archetypes**: Specific role types and professional identities
-- **28 Domains**: Primary fields of work
-- **193 Subdomains**: Specialized areas within domains
+- **308 Profiles**: Industry leaders, innovators, and influential thinkers
+- **37 Categories**: Broad classifications (Business, Technology, Psychology, Film, Legal, Culinary Arts, etc.)
+- **200+ Archetypes**: Specific role types and professional identities
+- **37 Domains**: Primary fields of work including new service industries
+- **200+ Subdomains**: Specialized areas within domains
 - **23 Behavioral Categories**: Comprehensive framework including Behavioral Humanism + Tier 1/2
 - **320+ Standardized Traits**: Consolidated and verified characteristics
 - **170 Data Fields**: Comprehensive profile attributes with 90%+ coverage (added 15 Tier 2 fields)
@@ -88,7 +88,7 @@ Profiles are evaluated through an integrated framework combining:
 ## Project Status
 
 ### ✅ Completed (October 2025)
-- **265 profiles** with comprehensive, standardized trait data
+- **308 profiles** with comprehensive, standardized trait data
 - **7 Behavioral Humanism filters** fully integrated
 - **90%+ field coverage** across all profiles
 - **3,887 traits standardized** to lowercase convention
@@ -104,21 +104,26 @@ Profiles are evaluated through an integrated framework combining:
 - **Medium Coverage (50-69%)**: 12 fields
 - **Critical fields reduced by 68%** (19 → 6)
 
-### ✅ Latest Release (v9.0 - October 2025)
+### ✅ Latest Release (v10.0 - October 2025)
 - **Complete rebrand**: "Influence Atlas - Context for expert authenticity"
+- **Major expansion**: 52 new service industry profiles across 9 domains
 - **Tier 1 category expansion** - 3 new category groups with 15 fields:
   - **Technology Relationship**: adoption level, digital fluency, AI perspective, platform preference, tech integration
   - **Crisis Response**: stress patterns, failure recovery, uncertainty tolerance, pressure performance, crisis leadership
   - **Influence Style**: persuasion approach, influence scope, rhetoric style, credibility source, change mechanism
+- **Tier 2 category expansion** - 3 new category groups with 15 fields:
+  - **Resource Relationship**: wealth perspective, resource allocation, generosity patterns, financial risk appetite, resource transparency
+  - **Time Orientation**: time horizon, legacy concern, present vs future balance, intergenerational thinking, urgency vs patience
+  - **Collaboration Enhancement**: conflict resolution style, credit sharing behavior, mentorship inclination, feedback style, delegation approach
 - **Performance optimizations**: ~93% faster parsing, filter result memoization
-- **265 profiles enhanced** with intelligent inference based on biographical data
+- **308 profiles enhanced** with intelligent inference based on biographical data
 - **Full UI integration**: new filters + details modal display
 
 ### 🎯 Future Enhancements
 - Profile comparison tools (side-by-side view)
 - Advanced trait analytics and visualizations
 - Export to additional formats
-- Tier 2 & 3 category expansions
+- Additional service industry domains (politics, sports, etc.)
 
 ## Data Methodology
 

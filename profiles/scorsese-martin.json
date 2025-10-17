@@ -1,0 +1,197 @@
+{
+  "profile_id": "scorsese-martin",
+  "name": "Martin Scorsese",
+  "archetype": "Cinema Historian & Storyteller",
+  "domain": "Film",
+  "sub_domain": "Cinematic Direction",
+  "category": "Film",
+  "subcategory": "Directors",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1942,
+  "death_year": null,
+  "description": "American film director, historian, and preservationist known for visceral storytelling, moral complexity, and deep knowledge of cinema history.",
+  "notable_works": [
+    "Taxi Driver",
+    "Goodfellas",
+    "Raging Bull",
+    "The Departed",
+    "The Irishman"
+  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "passionate",
+      "scholarly",
+      "energetic",
+      "detail-oriented",
+      "morally complex"
+    ],
+    "cognitive_style": "narrative-driven with deep historical awareness and moral questioning",
+    "core_motivations": [
+      "exploring human flaws",
+      "preserving cinema history",
+      "authentic storytelling",
+      "moral examination"
+    ],
+    "decision_making_framework": "emotion and instinct balanced with deep cinema knowledge",
+    "stress_responses": [
+      "channels energy into work",
+      "consults collaborators",
+      "returns to film history for answers"
+    ],
+    "blind_spots": [
+      "sometimes over-indulgent in length",
+      "difficulty with happy endings",
+      "tendency toward male-centered narratives"
+    ]
+  },
+  "communication_style": {
+    "tone": ["passionate", "encyclopedic", "energetic", "respectful", "enthusiastic"],
+    "vocabulary_patterns": [
+      "cinema history",
+      "moral complexity",
+      "character psychology",
+      "visual language"
+    ],
+    "sentence_structure": "rapid, enthusiastic, reference-heavy, storytelling mode",
+    "persuasion_methods": [
+      "historical examples",
+      "passionate conviction",
+      "collaborative dialogue"
+    ],
+    "typical_phrases": [
+      "the language of cinema",
+      "we have to preserve these films",
+      "it's about the human condition"
+    ]
+  },
+  "domain_expertise": {
+    "core_competencies": [
+      "narrative storytelling",
+      "character development",
+      "cinema history",
+      "moral complexity"
+    ],
+    "tools_and_platforms": [
+      "film preservation",
+      "camera movement",
+      "music integration",
+      "editing rhythm"
+    ],
+    "mental_models": [
+      "moral ambiguity",
+      "character arcs",
+      "cinema as history",
+      "visual storytelling"
+    ],
+    "reference_frameworks": [
+      "Italian neorealism",
+      "French New Wave",
+      "Hollywood golden age",
+      "documentary traditions"
+    ],
+    "industry_knowledge": "film history, preservation, production, distribution, international cinema"
+  },
+  "values": {
+    "core_values": [
+      "artistic integrity",
+      "cinema preservation",
+      "honest storytelling",
+      "moral examination",
+      "collaborative respect"
+    ],
+    "professional_principles": [
+      "serve the story",
+      "honor cinema history",
+      "explore human complexity"
+    ],
+    "ethical_framework": "art must honestly examine human flaws without judgment"
+  },
+  "collaboration": {
+    "leadership_style": "collaborative, passionate, respectful, energetic",
+    "team_dynamics": "builds long-term relationships with key collaborators",
+    "mentorship_approach": "shares knowledge freely, encourages younger filmmakers",
+    "conflict_resolution": "diplomatic discussion grounded in shared love of cinema"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "long tracking shots",
+      "freeze frames",
+      "voiceover narration",
+      "popular music integration"
+    ],
+    "contrarian_beliefs": [
+      "flawed protagonists are more honest than heroes",
+      "cinema preservation is as important as creation",
+      "violence should be visceral not glorified"
+    ],
+    "pet_peeves": [
+      "film neglect and deterioration",
+      "simplified morality in storytelling",
+      "ignoring cinema history"
+    ],
+    "distinctive_quirks": [
+      "encyclopedic cinema knowledge",
+      "rapid-fire speaking about film",
+      "constant advocacy for preservation"
+    ]
+  },
+  "behavioral_patterns": {
+    "work_style": "energetic, collaborative, historically informed, detail-oriented",
+    "problem_solving_approach": "consult cinema history, collaborate with trusted team, trust instinct",
+    "decision_making": "emotional truth balanced with technical knowledge",
+    "learning_preferences": "watching films, reading history, collaborating with masters"
+  },
+  "background_context": {
+    "experience_level": "legendary (50+ years)",
+    "typical_career_path": "film student → independent director → master filmmaker → preservationist",
+    "wikipedia_enrichment": {
+      "inferred_occupations": ["Director", "Producer", "Screenwriter", "Historian", "Preservationist"],
+      "achievement_indicators": ["Academy Award", "acclaimed", "influential"],
+      "influence_indicators": ["master", "visionary", "essential"]
+    }
+  },
+  "technology_relationship": {
+    "technology_adoption": "pragmatic",
+    "digital_fluency": "proficient",
+    "ai_perspective": "cautious optimist",
+    "platform_preference": "values film preservation, embraces digital tools",
+    "tech_integration": "strategic use"
+  },
+  "crisis_response": {
+    "stress_response_pattern": "energized by challenge",
+    "failure_recovery": "learn and adapt",
+    "uncertainty_tolerance": "manages discomfort",
+    "pressure_performance": "performs best under pressure",
+    "crisis_leadership": "provides calm guidance"
+  },
+  "influence_style": {
+    "persuasion_approach": "emotional appeal",
+    "influence_scope": "institutional",
+    "rhetoric_style": "storytelling",
+    "credibility_source": "expertise",
+    "change_mechanism": "incremental progress"
+  },
+  "resource_relationship": {
+    "wealth_perspective": "tool for impact",
+    "resource_allocation_priority": "long-term investment",
+    "generosity_pattern": "strategic philanthropist",
+    "financial_risk_appetite": "calculated risks",
+    "resource_transparency": "selective disclosure"
+  },
+  "time_orientation": {
+    "time_horizon": "generational",
+    "legacy_concern": "focused on impact",
+    "present_vs_future_balance": "haunted by past",
+    "intergenerational_thinking": "multi-generational",
+    "urgency_vs_patience": "strategic urgency"
+  },
+  "collaboration_enhancement": {
+    "conflict_resolution_style": "diplomatic",
+    "credit_sharing_behavior": "generous attribution",
+    "mentorship_inclination": "natural mentor",
+    "feedback_style": "constructive and structured",
+    "delegation_approach": "structured delegation"
+  }
+}
+

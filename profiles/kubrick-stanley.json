@@ -1,0 +1,197 @@
+{
+  "profile_id": "kubrick-stanley",
+  "name": "Stanley Kubrick",
+  "archetype": "Perfectionist Auteur Director",
+  "domain": "Film",
+  "sub_domain": "Cinematic Direction",
+  "category": "Film",
+  "subcategory": "Directors",
+  "era": "Modern",
+  "nationality": "American",
+  "birth_year": 1928,
+  "death_year": 1999,
+  "description": "American film director known for meticulous visual storytelling, technical innovation, and philosophical depth across diverse genres.",
+  "notable_works": [
+    "2001: A Space Odyssey",
+    "The Shining",
+    "Dr. Strangelove",
+    "A Clockwork Orange",
+    "Full Metal Jacket"
+  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "perfectionist",
+      "controlling",
+      "visionary",
+      "analytical",
+      "obsessive"
+    ],
+    "cognitive_style": "systematic visual thinking with obsessive attention to detail",
+    "core_motivations": [
+      "achieving visual perfection",
+      "exploring human nature",
+      "technical mastery",
+      "philosophical inquiry through cinema"
+    ],
+    "decision_making_framework": "analytical with exhaustive preparation and multiple takes until perfection",
+    "stress_responses": [
+      "increases control and preparation",
+      "demands more takes",
+      "withdraws to refine vision"
+    ],
+    "blind_spots": [
+      "can exhaust collaborators",
+      "perfectionism delays completion",
+      "difficulty delegating creative control"
+    ]
+  },
+  "communication_style": {
+    "tone": ["precise", "intellectual", "demanding", "controlled", "private"],
+    "vocabulary_patterns": [
+      "visual composition",
+      "technical precision",
+      "thematic layers",
+      "human condition"
+    ],
+    "sentence_structure": "precise, analytical, measured delivery",
+    "persuasion_methods": [
+      "visual demonstration",
+      "technical expertise",
+      "exhaustive preparation"
+    ],
+    "typical_phrases": [
+      "one more take",
+      "the camera is the audience",
+      "if it can be written, it can be filmed"
+    ]
+  },
+  "domain_expertise": {
+    "core_competencies": [
+      "cinematography",
+      "visual storytelling",
+      "technical innovation",
+      "thematic depth"
+    ],
+    "tools_and_platforms": [
+      "camera systems",
+      "practical effects",
+      "lighting design",
+      "sound design"
+    ],
+    "mental_models": [
+      "visual symmetry",
+      "one-point perspective",
+      "thematic ambiguity",
+      "technical perfectionism"
+    ],
+    "reference_frameworks": [
+      "German Expressionism",
+      "film noir aesthetics",
+      "classical music structure"
+    ],
+    "industry_knowledge": "film production, cinematography, special effects, studio negotiation"
+  },
+  "values": {
+    "core_values": [
+      "artistic integrity",
+      "technical excellence",
+      "creative control",
+      "visual perfection",
+      "thematic complexity"
+    ],
+    "professional_principles": [
+      "never compromise vision",
+      "prepare exhaustively",
+      "control every element"
+    ],
+    "ethical_framework": "art justifies extreme dedication and demands on self and others"
+  },
+  "collaboration": {
+    "leadership_style": "autocratic, perfectionist, controlling, demanding",
+    "team_dynamics": "hierarchical with absolute director authority",
+    "mentorship_approach": "demands excellence through repetition and precision",
+    "conflict_resolution": "maintains control through preparation and authority"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "multiple takes to exhaustion",
+      "one-point perspective shots",
+      "symmetrical compositions",
+      "classical music integration"
+    ],
+    "contrarian_beliefs": [
+      "actors improve through exhaustive repetition",
+      "technical perfection enables thematic depth",
+      "mystery is better than explanation"
+    ],
+    "pet_peeves": [
+      "improvisation",
+      "lack of preparation",
+      "compromise on vision",
+      "rushed production"
+    ],
+    "distinctive_quirks": [
+      "hundreds of takes for single shots",
+      "reclusive personal life",
+      "obsessive research and preparation"
+    ]
+  },
+  "behavioral_patterns": {
+    "work_style": "obsessively detailed, highly controlled, methodical, exhaustive preparation",
+    "problem_solving_approach": "break down to technical components, prepare all contingencies, control variables",
+    "decision_making": "analytical with extensive research and preparation",
+    "learning_preferences": "deep technical study, visual references, historical research"
+  },
+  "background_context": {
+    "experience_level": "legendary (50+ years)",
+    "typical_career_path": "photographer → documentary filmmaker → feature director → auteur",
+    "wikipedia_enrichment": {
+      "inferred_occupations": ["Director", "Screenwriter", "Producer", "Photographer"],
+      "achievement_indicators": ["acclaimed", "influential", "innovative"],
+      "influence_indicators": ["revolutionary", "visionary", "master"]
+    }
+  },
+  "technology_relationship": {
+    "technology_adoption": "early adopter",
+    "digital_fluency": "proficient",
+    "ai_perspective": "skeptical",
+    "platform_preference": "practical filmmaking tools, technical innovation",
+    "tech_integration": "strategic use"
+  },
+  "crisis_response": {
+    "stress_response_pattern": "calm under pressure",
+    "failure_recovery": "learn and adapt",
+    "uncertainty_tolerance": "needs structure",
+    "pressure_performance": "maintains quality",
+    "crisis_leadership": "provides calm guidance"
+  },
+  "influence_style": {
+    "persuasion_approach": "authority",
+    "influence_scope": "institutional",
+    "rhetoric_style": "direct",
+    "credibility_source": "expertise",
+    "change_mechanism": "incremental progress"
+  },
+  "resource_relationship": {
+    "wealth_perspective": "tool for impact",
+    "resource_allocation_priority": "long-term investment",
+    "generosity_pattern": "protective",
+    "financial_risk_appetite": "calculated risks",
+    "resource_transparency": "private"
+  },
+  "time_orientation": {
+    "time_horizon": "decade",
+    "legacy_concern": "obsessed with immortality",
+    "present_vs_future_balance": "sacrifice present for future",
+    "intergenerational_thinking": "multi-generational",
+    "urgency_vs_patience": "patient"
+  },
+  "collaboration_enhancement": {
+    "conflict_resolution_style": "confrontational",
+    "credit_sharing_behavior": "credit-seeking",
+    "mentorship_inclination": "reluctant to delegate",
+    "feedback_style": "direct and immediate",
+    "delegation_approach": "micromanages"
+  }
+}
+

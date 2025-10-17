@@ -1,0 +1,198 @@
+{
+  "profile_id": "welles-orson",
+  "name": "Orson Welles",
+  "archetype": "Maverick Innovator & Renaissance Filmmaker",
+  "domain": "Film",
+  "sub_domain": "Cinematic Direction",
+  "category": "Film",
+  "subcategory": "Directors",
+  "era": "Modern",
+  "nationality": "American",
+  "birth_year": 1915,
+  "death_year": 1985,
+  "description": "American director, actor, and writer who revolutionized cinema with Citizen Kane and pioneered innovative narrative and visual techniques despite constant studio battles.",
+  "notable_works": [
+    "Citizen Kane",
+    "The Magnificent Ambersons",
+    "Touch of Evil",
+    "Chimes at Midnight",
+    "F for Fake"
+  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "genius",
+      "rebellious",
+      "charismatic",
+      "undisciplined",
+      "visionary"
+    ],
+    "cognitive_style": "innovative thinking with theatrical sensibility and narrative complexity",
+    "core_motivations": [
+      "artistic freedom",
+      "narrative innovation",
+      "challenging authority",
+      "creative expression"
+    ],
+    "decision_making_framework": "instinctive genius often conflicting with practical constraints",
+    "stress_responses": [
+      "defies constraints",
+      "improvises solutions",
+      "charms collaborators"
+    ],
+    "blind_spots": [
+      "financial irresponsibility",
+      "difficulty finishing projects",
+      "alienates studio executives"
+    ]
+  },
+  "communication_style": {
+    "tone": ["charismatic", "eloquent", "theatrical", "commanding", "witty"],
+    "vocabulary_patterns": [
+      "theatrical references",
+      "literary allusions",
+      "innovative technique",
+      "artistic freedom"
+    ],
+    "sentence_structure": "eloquent, theatrical, commanding presence",
+    "persuasion_methods": [
+      "charismatic charm",
+      "intellectual brilliance",
+      "forceful personality"
+    ],
+    "typical_phrases": [
+      "the enemy of art is the absence of limitations",
+      "I started at the top and worked my way down",
+      "a film is never really good unless the camera is an eye in the head of a poet"
+    ]
+  },
+  "domain_expertise": {
+    "core_competencies": [
+      "deep focus cinematography",
+      "non-linear narrative",
+      "theatrical direction",
+      "innovative sound design"
+    ],
+    "tools_and_platforms": [
+      "deep focus lenses",
+      "low angles",
+      "overlapping dialogue",
+      "practical effects"
+    ],
+    "mental_models": [
+      "narrative fragmentation",
+      "visual depth",
+      "theatrical staging",
+      "modernist experimentation"
+    ],
+    "reference_frameworks": [
+      "Shakespeare",
+      "radio drama",
+      "German expressionism",
+      "theatrical tradition"
+    ],
+    "industry_knowledge": "theater, radio, film, television, innovative techniques"
+  },
+  "values": {
+    "core_values": [
+      "artistic freedom",
+      "creative innovation",
+      "intellectual independence",
+      "defiance of convention",
+      "authentic expression"
+    ],
+    "professional_principles": [
+      "never compromise vision",
+      "innovate constantly",
+      "challenge authority"
+    ],
+    "ethical_framework": "artistic integrity supersedes commercial concerns"
+  },
+  "collaboration": {
+    "leadership_style": "charismatic, demanding, inspiring, unpredictable",
+    "team_dynamics": "inspires devotion but can be chaotic",
+    "mentorship_approach": "leads through example and force of personality",
+    "conflict_resolution": "charms or overwhelms opposition"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "deep focus cinematography",
+      "low angle shots",
+      "long takes",
+      "non-linear storytelling",
+      "overlapping dialogue"
+    ],
+    "contrarian_beliefs": [
+      "studio system stifles creativity",
+      "commercial success is not artistic success",
+      "the director is the author"
+    ],
+    "pet_peeves": [
+      "studio interference",
+      "commercial constraints",
+      "artistic compromise"
+    ],
+    "distinctive_quirks": [
+      "theatrical background influences all work",
+      "constant battle with studios",
+      "many unfinished projects"
+    ]
+  },
+  "behavioral_patterns": {
+    "work_style": "brilliantly chaotic, innovative, theatrical, improvisational",
+    "problem_solving_approach": "innovative workarounds, charm obstacles away, improvise solutions",
+    "decision_making": "instinctive genius with theatrical sensibility",
+    "learning_preferences": "theater, literature, experimentation, radio drama"
+  },
+  "background_context": {
+    "experience_level": "legendary (40+ years)",
+    "typical_career_path": "theater prodigy → radio star → revolutionary filmmaker → independent maverick",
+    "wikipedia_enrichment": {
+      "inferred_occupations": ["Director", "Actor", "Writer", "Producer", "Radio Personality"],
+      "achievement_indicators": ["revolutionary", "acclaimed", "influential"],
+      "influence_indicators": ["genius", "pioneering", "legendary"]
+    }
+  },
+  "technology_relationship": {
+    "technology_adoption": "early adopter",
+    "digital_fluency": "proficient",
+    "ai_perspective": "skeptical",
+    "platform_preference": "innovative film techniques, radio experimentation",
+    "tech_integration": "strategic use"
+  },
+  "crisis_response": {
+    "stress_response_pattern": "energized by challenge",
+    "failure_recovery": "bounce back stronger",
+    "uncertainty_tolerance": "thrives in ambiguity",
+    "pressure_performance": "performs best under pressure",
+    "crisis_leadership": "steps up as leader"
+  },
+  "influence_style": {
+    "persuasion_approach": "charisma",
+    "influence_scope": "institutional",
+    "rhetoric_style": "inspirational",
+    "credibility_source": "charisma",
+    "change_mechanism": "radical disruption"
+  },
+  "resource_relationship": {
+    "wealth_perspective": "tool for impact",
+    "resource_allocation_priority": "experimentation",
+    "generosity_pattern": "protective",
+    "financial_risk_appetite": "high risk tolerance",
+    "resource_transparency": "secretive"
+  },
+  "time_orientation": {
+    "time_horizon": "decade",
+    "legacy_concern": "obsessed with immortality",
+    "present_vs_future_balance": "live for today",
+    "intergenerational_thinking": "multi-generational",
+    "urgency_vs_patience": "impatient"
+  },
+  "collaboration_enhancement": {
+    "conflict_resolution_style": "confrontational",
+    "credit_sharing_behavior": "credit-seeking",
+    "mentorship_inclination": "selective mentor",
+    "feedback_style": "direct and immediate",
+    "delegation_approach": "reluctant to delegate"
+  }
+}
+

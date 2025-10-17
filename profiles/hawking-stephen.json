@@ -1,238 +1,197 @@
 {
+  "profile_id": "hawking-stephen",
   "name": "Stephen Hawking",
-  "archetype": "Theoretical Physicist",
-  "domain": "Science",
-  "category": "Science",
-  "sub_domain": "Physics",
-  "background_context": {
-    "experience_level": "Senior",
-    "career_stage": "Established",
-    "educational_background": "Oxford University, Cambridge University",
-    "wikipedia_enrichment": {
-      "inferred_occupations": [
-        "Writer",
-        "Professor",
-        "Author"
-      ],
-      "education_indicators": [
-        "university",
-        "phd",
-        "college"
-      ],
-      "achievement_indicators": [
-        "award",
-        "medal"
-      ]
-    }
+  "archetype": "Theoretical Physicist & Cosmology Pioneer",
+  "domain": "Trades & Technical Services",
+  "sub_domain": "Scientific Research",
+  "category": "Trades & Technical Services",
+  "subcategory": "Research Scientists",
+  "era": "Contemporary",
+  "nationality": "British",
+  "birth_year": 1942,
+  "death_year": 2018,
+  "description": "British theoretical physicist and cosmologist who made groundbreaking contributions to our understanding of black holes, cosmology, and quantum gravity while overcoming physical limitations to become one of the most influential scientists of the modern era.",
+  "notable_works": [
+    "A Brief History of Time",
+    "Black hole theory",
+    "Cosmology research",
+    "Quantum gravity",
+    "Scientific communication"
+  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "theoretical",
+      "persistent",
+      "analytical",
+      "innovative",
+      "resilient"
+    ],
+    "cognitive_style": "theoretical persistence with analytical innovation and resilient scientific thinking",
+    "core_motivations": [
+      "cosmological discovery",
+      "theoretical innovation",
+      "analytical thinking",
+      "persistent research"
+    ],
+    "decision_making_framework": "theoretical analysis with innovative consideration and persistent scientific approach",
+    "stress_responses": [
+      "increases theoretical focus",
+      "maintains analytical approach",
+      "channels into innovation"
+    ],
+    "blind_spots": [
+      "can be overly theoretical",
+      "sometimes too analytical",
+      "difficulty with practical applications"
+    ]
   },
   "communication_style": {
-    "tone": "theoretical, analytical, innovative, accessible, comprehensive",
-    "vocabulary_patterns": "theoretical analysis, cosmological insights, mathematical frameworks, accessible communication",
-    "formality_level": "Formal",
-    "audience_adaptation": "theoretically sophisticated, analytically informed, accessible communication"
-  },
-  "behavioral_patterns": {
-    "work_style": "theoretical, analytical, innovative, accessible, comprehensive",
-    "problem_solving_approach": "theoretical, analytical, innovative",
-    "decision_making": "theoretical, analytically informed",
-    "learning_preferences": [
-      "varied learning methods"
+    "tone": ["theoretical", "persistent", "analytical", "innovative", "resilient"],
+    "vocabulary_patterns": [
+      "cosmological discovery",
+      "theoretical innovation",
+      "analytical thinking",
+      "persistent research"
+    ],
+    "sentence_structure": "theoretical, persistent, analytically innovative",
+    "persuasion_methods": [
+      "theoretical reasoning",
+      "innovative appeal",
+      "analytical persistence"
+    ],
+    "typical_phrases": [
+      "cosmological discovery",
+      "theoretical innovation",
+      "analytical thinking",
+      "persistent research"
     ]
-  },
-  "psychological_profile": {
-    "primary_traits": "theoretical, analytical, innovative, accessible, comprehensive",
-    "core_motivations": "cosmological understanding, theoretical excellence, innovative insight, accessible communication",
-    "learning_style": "analytical, theoretical, innovative"
   },
   "domain_expertise": {
-    "core_competencies": "cosmology, theoretical physics, mathematical frameworks, accessible communication",
-    "specialized_knowledge": "black hole theory, quantum cosmology, theoretical innovation, mathematical physics",
-    "primary_expertise": [
-      "physics"
+    "core_competencies": [
+      "cosmology research",
+      "black hole theory",
+      "quantum gravity",
+      "theoretical innovation"
     ],
-    "knowledge_depth": [
-      "focused specialization"
+    "tools_and_platforms": [
+      "theoretical analysis",
+      "cosmological research",
+      "quantum physics",
+      "scientific communication"
     ],
-    "innovation_approach": [
-      "data-informed innovation"
-    ]
-  },
-  "collaboration": {
-    "team_dynamics": "analytical, theoretical, innovative",
-    "leadership_approach": "theoretical leadership, analytical vision, accessible communication",
-    "conflict_resolution": "theoretical approach, analytical perspective"
-  },
-  "temporal_context": {
-    "career_evolution": "physicist, theoretical innovator, cosmological analyst, accessible communicator",
-    "influence_timeline": "1960s-2010s",
-    "legacy_impact": "cosmological theory, black hole physics, accessible science communication, theoretical innovation"
-  },
-  "cultural_context": {
-    "cultural_background": "British, academic culture, theoretical tradition",
-    "societal_influence": "cosmological understanding, theoretical physics, accessible science, scientific communication"
-  },
-  "practical_application": {
-    "decision_speed": "theoretical, analytically informed",
-    "risk_tolerance": "moderate, theoretical",
-    "adaptability": "high, theoretical"
-  },
-  "learning": {
-    "learning_style": "analytical, theoretical, innovative",
-    "knowledge_sharing": "theoretical methodology, cosmological insights, accessible communication",
-    "adaptation_speed": [
-      "strategic pivots",
-      "creative solutions"
+    "mental_models": [
+      "cosmological theory",
+      "theoretical innovation",
+      "analytical thinking",
+      "persistent research"
     ],
-    "failure_response": "n/a"
-  },
-  "communication": {
-    "audience_adaptation": "theoretically sophisticated, analytically informed, accessible communication",
-    "persuasion_techniques": "theoretical analysis, cosmological insights, accessible methodology",
-    "message_framing": [
-      "evidence-based arguments"
-    ]
+    "reference_frameworks": [
+      "Cosmology research",
+      "Black hole theory",
+      "Quantum gravity",
+      "Theoretical innovation"
+    ],
+    "industry_knowledge": "cosmology research, black hole theory, quantum gravity, theoretical innovation"
   },
   "values": {
-    "core_values": "theoretical excellence, cosmological understanding, innovative insight, accessible communication",
-    "ethical_principles": "scientific integrity, theoretical responsibility, accessible honesty",
-    "ethical_standards": [
-      "pursuit of excellence",
-      "commitment to integrity"
+    "core_values": [
+      "cosmological discovery",
+      "theoretical innovation",
+      "analytical thinking",
+      "persistent research",
+      "resilient pursuit"
     ],
-    "priority_framework": [
-      "quality over quantity"
-    ]
+    "professional_principles": [
+      "discover cosmologically",
+      "innovate theoretically",
+      "think analytically"
+    ],
+    "ethical_framework": "scientific research must serve discovery through theoretical innovation and analytical persistence"
+  },
+  "collaboration": {
+    "leadership_style": "theoretical, persistent, analytical, innovative",
+    "team_dynamics": "builds theoretical teams, values cosmological innovation",
+    "mentorship_approach": "leads through theoretical example and analytical teaching",
+    "conflict_resolution": "theoretical analysis and persistent innovation"
   },
   "unique_identifiers": {
     "signature_methodologies": [
-      "black hole radiation theory",
-      "accessible science communication",
-      "mathematical cosmology"
+      "black hole theory",
+      "cosmological research",
+      "quantum gravity",
+      "theoretical innovation",
+      "persistent discovery"
     ],
     "contrarian_beliefs": [
       "black holes emit radiation",
-      "time has a beginning",
-      "science should be accessible to all"
+      "theoretical innovation drives progress",
+      "persistence serves discovery"
     ],
     "pet_peeves": [
-      "pseudoscience",
-      "lack of scientific rigor",
-      "inaccessible academic writing"
-    ],
-    "aspirational_references": [
-      "Albert Einstein",
-      "Isaac Newton",
-      "Galileo Galilei"
+      "lack of theoretical depth",
+      "poor analytical quality",
+      "lack of persistence"
     ],
     "distinctive_quirks": [
-      "communicated through voice synthesizer",
-      "wheelchair-bound from ALS",
-      "wrote best-selling science books"
+      "black hole radiation theory",
+      "cosmological innovation",
+      "theoretical persistence",
+      "resilient research"
     ]
   },
-  "bias_awareness": {
-    "primary_biases": "systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": [
-      "peer review",
-      "data validation"
-    ],
-    "decision_making_style": "Systematic with bias checks"
+  "behavioral_patterns": {
+    "work_style": "theoretical, persistent, analytical, innovatively focused",
+    "problem_solving_approach": "theoretical analysis, persistent solutions, analytical innovation",
+    "decision_making": "theoretical analysis with persistent consideration",
+    "learning_preferences": "cosmological study, theoretical practice, analytical research"
   },
-  "growth_motivation": {
-    "intrinsic_drivers": [
-      "curiosity",
-      "discovery"
-    ],
-    "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "curiosity_indicators": [
-      "exploratory thinking",
-      "growth-oriented exploration"
-    ]
-  },
-  "self_actualization_indicators": {
-    "peak_experiences": "creative self-expression and innovation",
-    "autonomy_expression": "creative self-expression and innovation",
-    "purpose_alignment": "creative self-expression and innovation"
-  },
-  "behavioral_growth": {
-    "adaptation_patterns": [
-      "strategic pivots",
-      "creative solutions"
-    ],
-    "resilience_indicators": "n/a",
-    "feedback_integration": "evidence-based learning and adaptation"
-  },
-  "cognitive_humanism": {
-    "empathy_expression": "n/a",
-    "ethical_framework": "strong integrity-based ethical framework",
-    "human_centered_thinking": "Always considers human impact"
-  },
-  "humanistic_cognition": {
-    "creative_problem_solving": "design thinking with user empathy"
-  },
-  "trait_constellations": {
-    "constellation_details": {
-      "innovation_drive": {},
-      "emotional_intelligence": {},
-      "communication_style": {},
-      "intellectual_depth": {},
-      "analytical_thinking": {}
+  "background_context": {
+    "experience_level": "legendary (50+ years)",
+    "typical_career_path": "physics student → theoretical physicist → cosmology pioneer → scientific legend",
+    "wikipedia_enrichment": {
+      "inferred_occupations": ["Theoretical Physicist", "Cosmologist", "Scientist"],
+      "achievement_indicators": ["acclaimed", "influential", "revolutionary"],
+      "influence_indicators": ["legendary", "trailblazing", "essential"]
     }
   },
-  "nationality": "Unknown",
-  "notable_works": [
-    "Scientific discovery",
-    "Research paper",
-    "Scientific theory"
-  ],
-  "description": "Science professional known for theoretical physicist.",
-  "subcategory": "Science Professional",
-  "expertise_areas": [
-    "Research",
-    "Scientific Method",
-    "Data Analysis"
-  ],
-  "influence_scope": "Contemporary Influence",
-  "legacy": "Pioneering scientist whose discoveries advanced human knowledge",
   "technology_relationship": {
-    "technology_adoption": "pragmatic",
-    "digital_fluency": "basic",
+    "technology_adoption": "early adopter",
+    "digital_fluency": "proficient",
     "ai_perspective": "cautious optimist",
-    "platform_preference": "varies by domain",
+    "platform_preference": "theoretical analysis, cosmological research, quantum physics",
     "tech_integration": "strategic use"
   },
   "crisis_response": {
-    "stress_response_pattern": "maintains quality",
-    "failure_recovery": "learn and adapt",
-    "uncertainty_tolerance": "manages discomfort",
-    "pressure_performance": "maintains quality",
-    "crisis_leadership": "provides calm guidance"
+    "stress_response_pattern": "energized by challenge",
+    "failure_recovery": "bounce back stronger",
+    "uncertainty_tolerance": "thrives in ambiguity",
+    "pressure_performance": "performs best under pressure",
+    "crisis_leadership": "steps up as leader"
   },
   "influence_style": {
-    "persuasion_approach": "logical argument",
+    "persuasion_approach": "authority",
     "influence_scope": "mass audience",
-    "rhetoric_style": "storytelling",
+    "rhetoric_style": "inspirational",
     "credibility_source": "expertise",
-    "change_mechanism": "incremental progress"
+    "change_mechanism": "radical disruption"
   },
   "resource_relationship": {
     "wealth_perspective": "tool for impact",
     "resource_allocation_priority": "long-term investment",
-    "generosity_pattern": "reciprocal",
+    "generosity_pattern": "strategic philanthropist",
     "financial_risk_appetite": "calculated risks",
-    "resource_transparency": "selective disclosure"
+    "resource_transparency": "private"
   },
   "time_orientation": {
-    "time_horizon": "decade",
+    "time_horizon": "generational",
     "legacy_concern": "focused on impact",
     "present_vs_future_balance": "balanced",
     "intergenerational_thinking": "multi-generational",
-    "urgency_vs_patience": "patient"
+    "urgency_vs_patience": "strategic urgency"
   },
   "collaboration_enhancement": {
     "conflict_resolution_style": "diplomatic",
-    "credit_sharing_behavior": "balanced",
+    "credit_sharing_behavior": "generous attribution",
     "mentorship_inclination": "natural mentor",
     "feedback_style": "constructive and structured",
     "delegation_approach": "structured delegation"

@@ -1,0 +1,200 @@
+{
+  "profile_id": "stallman-richard",
+  "name": "Richard Stallman",
+  "archetype": "Software Freedom Activist & Free Software Pioneer",
+  "domain": "Technology Services",
+  "sub_domain": "Software Development",
+  "category": "Technology Services",
+  "subcategory": "Software Developers",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1953,
+  "death_year": null,
+  "description": "American software developer and activist who founded the Free Software Foundation and GNU Project, advocating for software freedom and creating the GNU General Public License (GPL).",
+  "notable_works": [
+    "GNU Project",
+    "Free Software Foundation",
+    "GNU General Public License",
+    "Free software advocacy",
+    "Software freedom"
+  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "activist",
+      "principled",
+      "systematic",
+      "idealistic",
+      "persistent"
+    ],
+    "cognitive_style": "principled activism with systematic idealism and persistent advocacy",
+    "core_motivations": [
+      "software freedom",
+      "principled advocacy",
+      "systematic change",
+      "idealistic vision"
+    ],
+    "decision_making_framework": "principled analysis with systematic consideration and idealistic vision",
+    "stress_responses": [
+      "increases activism",
+      "focuses on principles",
+      "maintains systematic approach"
+    ],
+    "blind_spots": [
+      "can be overly idealistic",
+      "sometimes too principled",
+      "difficulty with practical compromise"
+    ]
+  },
+  "communication_style": {
+    "tone": ["activist", "principled", "systematic", "idealistic", "persistent"],
+    "vocabulary_patterns": [
+      "software freedom",
+      "principled advocacy",
+      "systematic change",
+      "idealistic vision"
+    ],
+    "sentence_structure": "activist, principled, systematically idealistic",
+    "persuasion_methods": [
+      "principled reasoning",
+      "activist appeal",
+      "systematic advocacy"
+    ],
+    "typical_phrases": [
+      "software freedom",
+      "principled advocacy",
+      "systematic change",
+      "idealistic vision"
+    ]
+  },
+  "domain_expertise": {
+    "core_competencies": [
+      "free software development",
+      "software freedom advocacy",
+      "systematic activism",
+      "principled leadership"
+    ],
+    "tools_and_platforms": [
+      "GNU tools",
+      "free software",
+      "activist platforms",
+      "principled advocacy"
+    ],
+    "mental_models": [
+      "software freedom",
+      "principled activism",
+      "systematic change",
+      "idealistic vision"
+    ],
+    "reference_frameworks": [
+      "Free software",
+      "Software freedom",
+      "Principled activism",
+      "Systematic change"
+    ],
+    "industry_knowledge": "free software development, software freedom advocacy, systematic activism, principled leadership"
+  },
+  "values": {
+    "core_values": [
+      "software freedom",
+      "principled advocacy",
+      "systematic change",
+      "idealistic vision",
+      "persistent activism"
+    ],
+    "professional_principles": [
+      "advocate for software freedom",
+      "maintain principled stance",
+      "pursue systematic change"
+    ],
+    "ethical_framework": "software development must serve freedom through principled advocacy and systematic change"
+  },
+  "collaboration": {
+    "leadership_style": "activist, principled, systematic, idealistic",
+    "team_dynamics": "builds activist teams, values principled approach",
+    "mentorship_approach": "leads through activist example and principled teaching",
+    "conflict_resolution": "principled analysis and systematic advocacy"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "free software development",
+      "principled activism",
+      "systematic advocacy",
+      "idealistic vision",
+      "persistent change"
+    ],
+    "contrarian_beliefs": [
+      "software must be free",
+      "principles serve progress",
+      "activism drives change"
+    ],
+    "pet_peeves": [
+      "proprietary software",
+      "lack of principles",
+      "compromise on freedom"
+    ],
+    "distinctive_quirks": [
+      "GNU Project founder",
+      "free software advocate",
+      "principled activism",
+      "systematic change"
+    ]
+  },
+  "behavioral_patterns": {
+    "work_style": "activist, principled, systematic, idealistically focused",
+    "problem_solving_approach": "principled analysis, activist solutions, systematic advocacy",
+    "decision_making": "principled analysis with systematic consideration",
+    "learning_preferences": "free software study, activist practice, principled research"
+  },
+  "background_context": {
+    "experience_level": "master (40+ years)",
+    "typical_career_path": "computer science student → software developer → free software advocate → activist legend",
+    "wikipedia_enrichment": {
+      "inferred_occupations": ["Software Developer", "Activist", "Free Software Advocate"],
+      "achievement_indicators": ["acclaimed", "influential", "revolutionary"],
+      "influence_indicators": ["legendary", "trailblazing", "essential"]
+    }
+  },
+  "technology_relationship": {
+    "technology_adoption": "early adopter",
+    "digital_fluency": "expert",
+    "ai_perspective": "cautious optimist",
+    "platform_preference": "free software tools, activist platforms, principled technology",
+    "tech_integration": "strategic use"
+  },
+  "crisis_response": {
+    "stress_response_pattern": "energized by challenge",
+    "failure_recovery": "bounce back stronger",
+    "uncertainty_tolerance": "thrives in ambiguity",
+    "pressure_performance": "performs best under pressure",
+    "crisis_leadership": "steps up as leader"
+  },
+  "influence_style": {
+    "persuasion_approach": "activism",
+    "influence_scope": "mass audience",
+    "rhetoric_style": "inspirational",
+    "credibility_source": "principles",
+    "change_mechanism": "radical disruption"
+  },
+  "resource_relationship": {
+    "wealth_perspective": "tool for impact",
+    "resource_allocation_priority": "immediate needs",
+    "generosity_pattern": "proactive giver",
+    "financial_risk_appetite": "high risk tolerance",
+    "resource_transparency": "fully transparent"
+  },
+  "time_orientation": {
+    "time_horizon": "generational",
+    "legacy_concern": "focused on impact",
+    "present_vs_future_balance": "balanced",
+    "intergenerational_thinking": "multi-generational",
+    "urgency_vs_patience": "strategic urgency"
+  },
+  "collaboration_enhancement": {
+    "conflict_resolution_style": "confrontational",
+    "credit_sharing_behavior": "generous attribution",
+    "mentorship_inclination": "natural mentor",
+    "feedback_style": "direct and immediate",
+    "delegation_approach": "empowers fully"
+  }
+}
+

@@ -1,208 +1,164 @@
 {
   "profile_id": "einstein-albert",
   "name": "Albert Einstein",
-  "archetype": "Theoretical Physicist",
-  "domain": "Science",
-  "category": "Science",
-  "sub_domain": "Physics",
-  "background_context": {
-    "experience_level": "Senior",
-    "career_stage": "Established",
-    "educational_background": "Swiss Federal Polytechnic",
-    "wikipedia_enrichment": {
-      "inferred_occupations": [
-        "Writer",
-        "Inventor",
-        "Engineer"
-      ],
-      "education_indicators": [
-        "university",
-        "phd"
-      ],
-      "achievement_indicators": [
-        "nobel",
-        "prize"
-      ],
-      "influence_indicators": [
-        "groundbreaking"
-      ]
-    }
+  "archetype": "Theoretical Physicist & Scientific Genius",
+  "domain": "Trades & Technical Services",
+  "sub_domain": "Scientific Research",
+  "category": "Trades & Technical Services",
+  "subcategory": "Research Scientists",
+  "era": "Modern",
+  "nationality": "German-American",
+  "birth_year": 1879,
+  "death_year": 1955,
+  "description": "German-American theoretical physicist who developed the theory of relativity and won the Nobel Prize in Physics, revolutionizing our understanding of space, time, and energy while establishing new paradigms in scientific thinking.",
+  "notable_works": [
+    "Theory of relativity",
+    "E=mc²",
+    "Nobel Prize in Physics",
+    "Theoretical physics",
+    "Scientific innovation"
+  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "theoretical",
+      "innovative",
+      "analytical",
+      "systematic",
+      "visionary"
+    ],
+    "cognitive_style": "theoretical innovation with analytical vision and systematic scientific thinking",
+    "core_motivations": [
+      "theoretical discovery",
+      "scientific innovation",
+      "analytical thinking",
+      "systematic research"
+    ],
+    "decision_making_framework": "theoretical analysis with innovative consideration and systematic scientific approach",
+    "stress_responses": [
+      "increases theoretical focus",
+      "maintains analytical approach",
+      "channels into innovation"
+    ],
+    "blind_spots": [
+      "can be overly theoretical",
+      "sometimes too analytical",
+      "difficulty with practical applications"
+    ]
   },
   "communication_style": {
-    "tone": "theoretical, analytical, innovative, systematic, comprehensive",
-    "vocabulary_patterns": "theoretical analysis, physical insights, mathematical frameworks, systematic methodology",
-    "formality_level": "Formal",
-    "audience_adaptation": "theoretically sophisticated, analytically informed, systematically oriented"
-  },
-  "behavioral_patterns": {
-    "work_style": "theoretical, analytical, innovative, systematic, comprehensive",
-    "problem_solving_approach": "theoretical, analytical, innovative",
-    "decision_making": "theoretical, analytically informed",
-    "learning_preferences": [
-      "varied learning methods"
+    "tone": ["theoretical", "innovative", "analytical", "systematic", "visionary"],
+    "vocabulary_patterns": [
+      "theoretical discovery",
+      "scientific innovation",
+      "analytical thinking",
+      "systematic research"
+    ],
+    "sentence_structure": "theoretical, innovative, analytically systematic",
+    "persuasion_methods": [
+      "theoretical reasoning",
+      "innovative appeal",
+      "analytical innovation"
+    ],
+    "typical_phrases": [
+      "theoretical discovery",
+      "scientific innovation",
+      "analytical thinking",
+      "systematic research"
     ]
-  },
-  "psychological_profile": {
-    "primary_traits": "theoretical, analytical, innovative, systematic, comprehensive",
-    "core_motivations": "theoretical understanding, analytical excellence, innovative insight, systematic methodology",
-    "learning_style": "analytical, theoretical, innovative"
   },
   "domain_expertise": {
-    "core_competencies": "theoretical physics, analytical methodology, mathematical frameworks, systematic research",
-    "specialized_knowledge": "relativity theory, quantum mechanics, theoretical innovation, mathematical physics",
-    "primary_expertise": [
-      "physics"
+    "core_competencies": [
+      "theoretical physics",
+      "relativity theory",
+      "scientific innovation",
+      "analytical thinking"
     ],
-    "knowledge_depth": [
-      "focused specialization"
+    "tools_and_platforms": [
+      "theoretical analysis",
+      "scientific innovation",
+      "analytical thinking",
+      "systematic research"
     ],
-    "innovation_approach": [
-      "systematic innovation",
-      "data-informed innovation"
-    ]
-  },
-  "collaboration": {
-    "team_dynamics": "analytical, theoretical, innovative",
-    "leadership_approach": "theoretical leadership, analytical vision, innovative methodology",
-    "conflict_resolution": "theoretical approach, analytical perspective"
-  },
-  "temporal_context": {
-    "career_evolution": "physicist, theoretical innovator, mathematical analyst, systematic scholar",
-    "influence_timeline": "1900s-1950s",
-    "legacy_impact": "theoretical physics, relativity theory, quantum mechanics, scientific innovation"
-  },
-  "cultural_context": {
-    "cultural_background": "German-Jewish, academic culture, theoretical tradition",
-    "societal_influence": "theoretical physics, scientific innovation, mathematical methodology, cultural bridge-building"
-  },
-  "practical_application": {
-    "decision_speed": "theoretical, analytically informed",
-    "risk_tolerance": "moderate, theoretical",
-    "adaptability": "high, theoretical"
-  },
-  "learning": {
-    "learning_style": "analytical, theoretical, innovative",
-    "knowledge_sharing": "theoretical methodology, analytical insights, innovative frameworks",
-    "adaptation_speed": [
-      "strategic pivots",
-      "creative solutions"
+    "mental_models": [
+      "relativity theory",
+      "theoretical innovation",
+      "analytical thinking",
+      "systematic research"
     ],
-    "failure_response": "n/a"
-  },
-  "communication": {
-    "audience_adaptation": "theoretically sophisticated, analytically informed, systematically oriented",
-    "persuasion_techniques": "theoretical analysis, analytical insights, systematic methodology",
-    "message_framing": [
-      "evidence-based arguments"
-    ]
+    "reference_frameworks": [
+      "Theoretical physics",
+      "Relativity theory",
+      "Scientific innovation",
+      "Analytical thinking"
+    ],
+    "industry_knowledge": "theoretical physics, relativity theory, scientific innovation, analytical thinking"
   },
   "values": {
-    "core_values": "theoretical excellence, analytical insight, innovative methodology, systematic understanding",
-    "ethical_principles": "scientific integrity, theoretical responsibility, analytical honesty",
-    "ethical_standards": [
-      "pursuit of excellence",
-      "commitment to integrity"
+    "core_values": [
+      "theoretical discovery",
+      "scientific innovation",
+      "analytical thinking",
+      "systematic research",
+      "visionary approach"
     ],
-    "priority_framework": [
-      "quality over quantity"
-    ]
+    "professional_principles": [
+      "discover theoretically",
+      "innovate scientifically",
+      "think analytically"
+    ],
+    "ethical_framework": "scientific research must serve discovery through theoretical innovation and analytical thinking"
+  },
+  "collaboration": {
+    "leadership_style": "theoretical, innovative, analytical, systematic",
+    "team_dynamics": "builds theoretical teams, values scientific innovation",
+    "mentorship_approach": "leads through theoretical example and analytical teaching",
+    "conflict_resolution": "theoretical analysis and scientific innovation"
   },
   "unique_identifiers": {
     "signature_methodologies": [
-      "thought experiments",
-      "visual imagery in physics",
-      "mathematical elegance over complexity"
+      "relativity theory",
+      "theoretical innovation",
+      "analytical thinking",
+      "scientific discovery",
+      "systematic research"
     ],
     "contrarian_beliefs": [
-      "God does not play dice with the universe",
-      "common sense is just prejudices laid down before age 18",
-      "imagination is more important than knowledge"
+      "space and time are relative",
+      "theoretical innovation drives progress",
+      "analysis serves discovery"
     ],
     "pet_peeves": [
-      "unnecessary complexity in explanations",
-      "blind acceptance of authority",
-      "separation of science and philosophy"
-    ],
-    "aspirational_references": [
-      "Isaac Newton",
-      "James Clerk Maxwell",
-      "Ernst Mach"
+      "lack of theoretical depth",
+      "poor analytical quality",
+      "lack of innovation"
     ],
     "distinctive_quirks": [
-      "famous tongue-out photo",
-      "disheveled appearance",
-      "played violin while thinking"
+      "relativity theory creator",
+      "E=mc² formula",
+      "theoretical innovation",
+      "analytical thinking"
     ]
   },
-  "bias_awareness": {
-    "primary_biases": "systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": [
-      "peer review",
-      "data validation"
-    ],
-    "decision_making_style": "Systematic with bias checks"
+  "behavioral_patterns": {
+    "work_style": "theoretical, innovative, analytical, systematically focused",
+    "problem_solving_approach": "theoretical analysis, innovative solutions, analytical thinking",
+    "decision_making": "theoretical analysis with innovative consideration",
+    "learning_preferences": "theoretical study, scientific practice, analytical research"
   },
-  "growth_motivation": {
-    "intrinsic_drivers": [
-      "curiosity",
-      "discovery"
-    ],
-    "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "curiosity_indicators": [
-      "exploratory thinking",
-      "growth-oriented exploration"
-    ]
-  },
-  "self_actualization_indicators": {
-    "peak_experiences": "creative self-expression and innovation",
-    "autonomy_expression": "creative self-expression and innovation",
-    "purpose_alignment": "creative self-expression and innovation"
-  },
-  "behavioral_growth": {
-    "adaptation_patterns": [
-      "strategic pivots",
-      "creative solutions"
-    ],
-    "resilience_indicators": "n/a",
-    "feedback_integration": "evidence-based learning and adaptation"
-  },
-  "cognitive_humanism": {
-    "empathy_expression": "n/a",
-    "ethical_framework": "strong integrity-based ethical framework",
-    "human_centered_thinking": "Always considers human impact"
-  },
-  "humanistic_cognition": {
-    "creative_problem_solving": "design thinking with user empathy"
-  },
-  "trait_constellations": {
-    "constellation_details": {
-      "innovation_drive": {},
-      "intellectual_depth": {},
-      "analytical_thinking": {},
-      "emotional_intelligence": {}
+  "background_context": {
+    "experience_level": "legendary (50+ years)",
+    "typical_career_path": "physics student → theoretical physicist → relativity pioneer → scientific legend",
+    "wikipedia_enrichment": {
+      "inferred_occupations": ["Theoretical Physicist", "Scientist", "Innovation Pioneer"],
+      "achievement_indicators": ["acclaimed", "influential", "revolutionary"],
+      "influence_indicators": ["legendary", "trailblazing", "essential"]
     }
   },
-  "nationality": "Unknown",
-  "notable_works": [
-    "Scientific discovery",
-    "Research paper",
-    "Scientific theory"
-  ],
-  "description": "Science professional known for theoretical physicist.",
-  "subcategory": "Science Professional",
-  "expertise_areas": [
-    "Research",
-    "Scientific Method",
-    "Data Analysis"
-  ],
-  "influence_scope": "Contemporary Influence",
-  "legacy": "Revolutionary physicist who transformed our understanding of space, time, and energy",
   "technology_relationship": {
     "technology_adoption": "pragmatic",
     "digital_fluency": "basic",
     "ai_perspective": "cautious optimist",
-    "platform_preference": "varies by domain",
+    "platform_preference": "theoretical analysis, scientific innovation, analytical tools",
     "tech_integration": "strategic use"
   },
   "crisis_response": {
@@ -213,21 +169,21 @@
     "crisis_leadership": "provides calm guidance"
   },
   "influence_style": {
-    "persuasion_approach": "logical argument",
-    "influence_scope": "mass audience",
-    "rhetoric_style": "storytelling",
+    "persuasion_approach": "authority",
+    "influence_scope": "institutional",
+    "rhetoric_style": "logical",
     "credibility_source": "expertise",
     "change_mechanism": "incremental progress"
   },
   "resource_relationship": {
     "wealth_perspective": "tool for impact",
     "resource_allocation_priority": "long-term investment",
-    "generosity_pattern": "reciprocal",
+    "generosity_pattern": "strategic philanthropist",
     "financial_risk_appetite": "calculated risks",
-    "resource_transparency": "selective disclosure"
+    "resource_transparency": "private"
   },
   "time_orientation": {
-    "time_horizon": "decade",
+    "time_horizon": "generational",
     "legacy_concern": "focused on impact",
     "present_vs_future_balance": "balanced",
     "intergenerational_thinking": "multi-generational",

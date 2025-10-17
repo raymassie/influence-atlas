@@ -1,210 +1,164 @@
 {
+  "profile_id": "curie-marie",
   "name": "Marie Curie",
-  "archetype": "Physicist",
-  "domain": "Science",
-  "category": "Science",
-  "sub_domain": "Physics",
-  "background_context": {
-    "experience_level": "Senior",
-    "career_stage": "Established",
-    "educational_background": "Sorbonne University",
-    "wikipedia_enrichment": {
-      "inferred_occupations": [
-        "Scientist",
-        "Professor",
-        "Inventor"
-      ],
-      "education_indicators": [
-        "university"
-      ],
-      "achievement_indicators": [
-        "nobel",
-        "discovered",
-        "developed",
-        "founded",
-        "prize",
-        "invented"
-      ],
-      "influence_indicators": [
-        "pioneering"
-      ]
-    }
+  "archetype": "Research Scientist & Scientific Pioneer",
+  "domain": "Trades & Technical Services",
+  "sub_domain": "Scientific Research",
+  "category": "Trades & Technical Services",
+  "subcategory": "Research Scientists",
+  "era": "Modern",
+  "nationality": "Polish-French",
+  "birth_year": 1867,
+  "death_year": 1934,
+  "description": "Polish-French physicist and chemist who conducted pioneering research on radioactivity, becoming the first woman to win a Nobel Prize and the first person to win Nobel Prizes in two different scientific fields.",
+  "notable_works": [
+    "Radioactivity research",
+    "Radium discovery",
+    "Polonium discovery",
+    "Scientific research",
+    "Nobel Prize winner"
+  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "systematic",
+      "persistent",
+      "analytical",
+      "dedicated",
+      "innovative"
+    ],
+    "cognitive_style": "systematic analysis with persistent dedication and innovative scientific thinking",
+    "core_motivations": [
+      "scientific discovery",
+      "systematic research",
+      "persistent analysis",
+      "innovative thinking"
+    ],
+    "decision_making_framework": "systematic analysis with scientific consideration and persistent research",
+    "stress_responses": [
+      "increases systematic analysis",
+      "focuses on research",
+      "maintains persistent approach"
+    ],
+    "blind_spots": [
+      "can be overly systematic",
+      "sometimes too persistent",
+      "difficulty with practical applications"
+    ]
   },
   "communication_style": {
-    "tone": "systematic, analytical, innovative, pioneering, methodical",
-    "vocabulary_patterns": "scientific analysis, systematic methodology, pioneering research, analytical frameworks",
-    "formality_level": "Formal",
-    "audience_adaptation": "scientifically oriented, analytically informed, systematically sophisticated"
-  },
-  "behavioral_patterns": {
-    "work_style": "systematic, analytical, innovative, pioneering, methodical",
-    "problem_solving_approach": "systematic, analytical, innovative",
-    "decision_making": "systematic, analytically informed",
-    "learning_preferences": [
-      "varied learning methods"
+    "tone": ["systematic", "persistent", "analytical", "dedicated", "innovative"],
+    "vocabulary_patterns": [
+      "scientific discovery",
+      "systematic research",
+      "persistent analysis",
+      "innovative thinking"
+    ],
+    "sentence_structure": "systematic, persistent, analytically innovative",
+    "persuasion_methods": [
+      "systematic reasoning",
+      "scientific appeal",
+      "persistent analysis"
+    ],
+    "typical_phrases": [
+      "scientific discovery",
+      "systematic research",
+      "persistent analysis",
+      "innovative thinking"
     ]
-  },
-  "psychological_profile": {
-    "primary_traits": "systematic, analytical, innovative, pioneering, methodical",
-    "core_motivations": "scientific understanding, analytical excellence, pioneering research, systematic methodology",
-    "learning_style": "analytical, systematic, innovative"
   },
   "domain_expertise": {
-    "core_competencies": "radioactivity research, analytical chemistry, systematic methodology, pioneering physics",
-    "specialized_knowledge": "radioactive elements, analytical techniques, systematic research, scientific innovation",
-    "primary_expertise": [
-      "physics"
+    "core_competencies": [
+      "radioactivity research",
+      "scientific analysis",
+      "systematic research",
+      "innovative discovery"
     ],
-    "knowledge_depth": [
-      "focused specialization"
+    "tools_and_platforms": [
+      "scientific instruments",
+      "research methods",
+      "systematic analysis",
+      "innovative thinking"
     ],
-    "innovation_approach": [
-      "systematic innovation",
-      "data-informed innovation"
-    ]
-  },
-  "collaboration": {
-    "team_dynamics": "analytical, systematic, innovative",
-    "leadership_approach": "systematic leadership, analytical vision, pioneering methodology",
-    "conflict_resolution": "systematic approach, analytical perspective"
-  },
-  "temporal_context": {
-    "career_evolution": "scientist, pioneering researcher, analytical innovator, systematic scholar",
-    "influence_timeline": "1890s-1930s",
-    "legacy_impact": "radioactivity research, scientific innovation, systematic methodology, pioneering physics"
-  },
-  "cultural_context": {
-    "cultural_background": "Polish-French, academic culture, scientific tradition",
-    "societal_influence": "scientific innovation, radioactivity research, systematic methodology, pioneering achievement"
-  },
-  "practical_application": {
-    "decision_speed": "systematic, analytically informed",
-    "risk_tolerance": "moderate, systematic",
-    "adaptability": "high, systematic"
-  },
-  "learning": {
-    "learning_style": "analytical, systematic, innovative",
-    "knowledge_sharing": "scientific methodology, analytical insights, pioneering research",
-    "adaptation_speed": [
-      "strategic pivots",
-      "creative solutions"
+    "mental_models": [
+      "scientific discovery",
+      "systematic research",
+      "persistent analysis",
+      "innovative thinking"
     ],
-    "failure_response": "n/a"
-  },
-  "communication": {
-    "audience_adaptation": "scientifically oriented, analytically informed, systematically sophisticated",
-    "persuasion_techniques": "systematic analysis, scientific insights, analytical methodology",
-    "message_framing": [
-      "evidence-based arguments"
-    ]
+    "reference_frameworks": [
+      "Radioactivity research",
+      "Scientific analysis",
+      "Systematic research",
+      "Innovative discovery"
+    ],
+    "industry_knowledge": "radioactivity research, scientific analysis, systematic research, innovative discovery"
   },
   "values": {
-    "core_values": "scientific excellence, analytical insight, pioneering research, systematic methodology",
-    "ethical_principles": "scientific integrity, analytical responsibility, pioneering honesty",
-    "ethical_standards": [
-      "pursuit of excellence",
-      "commitment to integrity"
+    "core_values": [
+      "scientific discovery",
+      "systematic research",
+      "persistent analysis",
+      "innovative thinking",
+      "dedicated pursuit"
     ],
-    "priority_framework": [
-      "quality over quantity"
-    ]
+    "professional_principles": [
+      "discover scientifically",
+      "research systematically",
+      "analyze persistently"
+    ],
+    "ethical_framework": "scientific research must serve discovery through systematic analysis and persistent innovation"
+  },
+  "collaboration": {
+    "leadership_style": "systematic, persistent, analytical, dedicated",
+    "team_dynamics": "builds research teams, values systematic approach",
+    "mentorship_approach": "leads through systematic example and scientific teaching",
+    "conflict_resolution": "systematic analysis and persistent research"
   },
   "unique_identifiers": {
     "signature_methodologies": [
-      "radioactivity measurement",
-      "systematic element isolation",
-      "collaborative research with Pierre"
+      "radioactivity research",
+      "systematic analysis",
+      "persistent discovery",
+      "innovative thinking",
+      "scientific excellence"
     ],
     "contrarian_beliefs": [
       "women can excel in science",
-      "radioactivity has medical applications",
-      "science should serve humanity"
+      "systematic research drives discovery",
+      "persistence serves innovation"
     ],
     "pet_peeves": [
-      "gender discrimination in science",
-      "lack of scientific rigor",
-      "ignoring safety in research"
-    ],
-    "aspirational_references": [
-      "Pierre Curie",
-      "Henri Becquerel",
-      "Wilhelm Röntgen"
+      "lack of systematic approach",
+      "poor research quality",
+      "lack of persistence"
     ],
     "distinctive_quirks": [
-      "first woman to win Nobel Prize",
-      "first person to win Nobel in two fields",
-      "worked with radioactive materials without protection"
+      "first woman Nobel winner",
+      "radioactivity pioneer",
+      "systematic research",
+      "persistent analysis"
     ]
   },
-  "bias_awareness": {
-    "primary_biases": "systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": [
-      "peer review",
-      "data validation"
-    ],
-    "decision_making_style": "Systematic with bias checks"
+  "behavioral_patterns": {
+    "work_style": "systematic, persistent, analytical, dedicated",
+    "problem_solving_approach": "systematic analysis, persistent research, innovative discovery",
+    "decision_making": "systematic analysis with scientific consideration",
+    "learning_preferences": "scientific study, systematic practice, persistent research"
   },
-  "growth_motivation": {
-    "intrinsic_drivers": [
-      "curiosity",
-      "discovery"
-    ],
-    "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "Growth mindset with deliberate practice",
-    "curiosity_indicators": [
-      "exploratory thinking",
-      "growth-oriented exploration"
-    ]
-  },
-  "self_actualization_indicators": {
-    "peak_experiences": "creative self-expression and innovation",
-    "autonomy_expression": "creative self-expression and innovation",
-    "purpose_alignment": "creative self-expression and innovation"
-  },
-  "behavioral_growth": {
-    "adaptation_patterns": [
-      "strategic pivots",
-      "creative solutions"
-    ],
-    "resilience_indicators": "n/a",
-    "feedback_integration": "evidence-based learning and adaptation"
-  },
-  "cognitive_humanism": {
-    "empathy_expression": "n/a",
-    "ethical_framework": "strong integrity-based ethical framework",
-    "human_centered_thinking": "Always considers human impact"
-  },
-  "humanistic_cognition": {
-    "creative_problem_solving": "design thinking with user empathy"
-  },
-  "trait_constellations": {
-    "constellation_details": {
-      "impact_legacy": {},
-      "innovation_drive": {},
-      "analytical_thinking": {},
-      "emotional_intelligence": {}
+  "background_context": {
+    "experience_level": "legendary (40+ years)",
+    "typical_career_path": "physics student → research scientist → radioactivity pioneer → Nobel legend",
+    "wikipedia_enrichment": {
+      "inferred_occupations": ["Physicist", "Chemist", "Research Scientist"],
+      "achievement_indicators": ["acclaimed", "influential", "pioneering"],
+      "influence_indicators": ["legendary", "trailblazing", "essential"]
     }
   },
-  "nationality": "Unknown",
-  "notable_works": [
-    "Scientific discovery",
-    "Research paper",
-    "Scientific theory"
-  ],
-  "description": "Science professional known for physicist.",
-  "subcategory": "Theoretical Physics",
-  "expertise_areas": [
-    "Research",
-    "Scientific Method",
-    "Data Analysis"
-  ],
-  "influence_scope": "Contemporary Influence",
-  "legacy": "Pioneering scientist whose discoveries advanced human knowledge",
   "technology_relationship": {
     "technology_adoption": "pragmatic",
     "digital_fluency": "basic",
     "ai_perspective": "cautious optimist",
-    "platform_preference": "varies by domain",
+    "platform_preference": "scientific instruments, research tools, systematic analysis",
     "tech_integration": "strategic use"
   },
   "crisis_response": {
@@ -215,21 +169,21 @@
     "crisis_leadership": "provides calm guidance"
   },
   "influence_style": {
-    "persuasion_approach": "logical argument",
-    "influence_scope": "mass audience",
-    "rhetoric_style": "storytelling",
+    "persuasion_approach": "authority",
+    "influence_scope": "institutional",
+    "rhetoric_style": "logical",
     "credibility_source": "expertise",
     "change_mechanism": "incremental progress"
   },
   "resource_relationship": {
     "wealth_perspective": "tool for impact",
     "resource_allocation_priority": "long-term investment",
-    "generosity_pattern": "reciprocal",
+    "generosity_pattern": "strategic philanthropist",
     "financial_risk_appetite": "calculated risks",
-    "resource_transparency": "selective disclosure"
+    "resource_transparency": "private"
   },
   "time_orientation": {
-    "time_horizon": "decade",
+    "time_horizon": "generational",
     "legacy_concern": "focused on impact",
     "present_vs_future_balance": "balanced",
     "intergenerational_thinking": "multi-generational",

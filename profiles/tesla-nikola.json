@@ -1,279 +1,199 @@
 {
+  "profile_id": "tesla-nikola",
   "name": "Nikola Tesla",
-  "archetype": "Electrical Engineer",
-  "domain": "Technology",
+  "archetype": "Electrical Engineer & Innovation Pioneer",
+  "domain": "Trades & Technical Services",
   "sub_domain": "Electrical Engineering",
-  "category": "Technology",
-  "subcategory": "Engineers",
-  "era": "Industrial",
+  "category": "Trades & Technical Services",
+  "subcategory": "Electrical Engineers",
+  "era": "Modern",
   "nationality": "Serbian-American",
   "birth_year": 1856,
   "death_year": 1943,
-  "description": "Serbian-American inventor and electrical engineer who pioneered alternating current (AC) electrical systems and made numerous groundbreaking inventions.",
+  "description": "Serbian-American electrical engineer and inventor who pioneered alternating current (AC) electrical systems, wireless communication, and numerous electrical innovations that revolutionized modern technology.",
   "notable_works": [
-    "AC electrical system",
+    "Alternating current (AC)",
     "Tesla coil",
     "Wireless communication",
-    "Induction motor",
-    "Radio technology"
+    "Electrical engineering",
+    "Innovation pioneer"
   ],
   "psychological_profile": {
     "primary_traits": [
       "innovative",
       "visionary",
-      "eccentric",
-      "persistent",
-      "genius"
+      "systematic",
+      "experimental",
+      "persistent"
     ],
+    "cognitive_style": "systematic innovation with visionary experimentation and persistent technical thinking",
     "core_motivations": [
       "electrical innovation",
-      "wireless technology",
-      "scientific discovery",
-      "technological advancement"
+      "systematic experimentation",
+      "visionary technology",
+      "persistent research"
     ],
-    "behavioral_patterns": [
-      "intensive experimentation",
-      "visionary thinking",
-      "scientific method",
-      "technological innovation"
+    "decision_making_framework": "systematic analysis with innovative consideration and visionary experimentation",
+    "stress_responses": [
+      "increases experimentation",
+      "focuses on innovation",
+      "maintains systematic approach"
+    ],
+    "blind_spots": [
+      "can be overly experimental",
+      "sometimes too visionary",
+      "difficulty with practical implementation"
     ]
   },
   "communication_style": {
-    "tone": [
-      "technical",
-      "visionary",
-      "passionate",
-      "scientific"
-    ],
+    "tone": ["innovative", "visionary", "systematic", "experimental", "persistent"],
     "vocabulary_patterns": [
-      "electrical concepts",
-      "scientific principles",
-      "technological innovation",
-      "wireless technology"
+      "electrical innovation",
+      "systematic experimentation",
+      "visionary technology",
+      "persistent research"
     ],
-    "rhetorical_strategies": [
-      "technical demonstration",
-      "scientific explanation",
-      "visionary presentation",
-      "experimental evidence"
-    ]
-  },
-  "values": {
-    "core_values": [
-      "scientific truth",
-      "technological innovation",
-      "electrical advancement",
-      "wireless communication",
-      "scientific method"
+    "sentence_structure": "innovative, visionary, systematically experimental",
+    "persuasion_methods": [
+      "innovative reasoning",
+      "visionary appeal",
+      "systematic experimentation"
     ],
-    "professional_principles": [
-      "scientific rigor",
-      "technological innovation",
-      "electrical safety",
-      "experimental validation"
-    ],
-    "ethical_standards": [
-      "ethical innovation"
-    ],
-    "priority_framework": [
-      "intuition-guided choices",
-      "innovation-driven decisions"
-    ]
-  },
-  "collaboration_style": {
-    "approach": [
-      "scientific collaboration",
-      "technical demonstration",
-      "inventor partnerships"
-    ],
-    "preferences": [
-      "technical freedom",
-      "experimental autonomy",
-      "scientific rigor"
-    ],
-    "conflict_resolution": [
-      "scientific evidence",
-      "technical demonstration",
-      "experimental validation"
-    ]
-  },
-  "expertise_areas": [
-    "Electrical engineering",
-    "AC power systems",
-    "Wireless communication",
-    "Radio technology",
-    "Electromagnetic theory",
-    "Electrical safety"
-  ],
-  "influence_scope": "Global - Electrical engineering and power systems",
-  "legacy": "Pioneered AC electrical systems and wireless communication, fundamentally changing electrical engineering and power distribution.",
-  "unique_identifiers": {
-    "signature_methodologies": [
-      "AC electrical systems",
-      "wireless transmission experiments",
-      "Tesla coil demonstrations"
-    ],
-    "contrarian_beliefs": [
-      "AC is superior to DC",
-      "wireless power transmission is possible",
-      "earth can be used as conductor"
-    ],
-    "pet_peeves": [
-      "Thomas Edison's DC system",
-      "commercial exploitation of inventions",
-      "lack of scientific recognition"
-    ],
-    "aspirational_references": [
-      "Michael Faraday",
-      "James Clerk Maxwell",
-      "Heinrich Hertz"
-    ],
-    "distinctive_quirks": [
-      "photographic memory",
-      "obsessive about cleanliness",
-      "claimed communication with pigeons"
-    ]
-  },
-  "bias_awareness": {
-    "primary_biases": [
-      "optimism bias",
-      "confirmation bias"
-    ],
-    "bias_mitigation_strategies": "creative problem-solving with intuitive bias recognition",
-    "decision_making_style": "Creative problem-solving with intuitive bias recognition"
-  },
-  "growth_motivation": {
-    "intrinsic_drivers": [
-      "innovation",
-      "problem-solving"
-    ],
-    "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "N/A",
-    "curiosity_indicators": [
-      "exploratory thinking"
-    ]
-  },
-  "self_actualization_indicators": {
-    "peak_experiences": "creative self-expression and innovation",
-    "autonomy_expression": "creative self-expression and innovation",
-    "purpose_alignment": "creative self-expression and innovation"
-  },
-  "behavioral_growth": {
-    "adaptation_patterns": [
-      "strategic pivots",
-      "creative solutions"
-    ],
-    "resilience_indicators": "n/a",
-    "feedback_integration": "n/a"
-  },
-  "cognitive_humanism": {
-    "empathy_expression": "n/a",
-    "ethical_framework": "n/a",
-    "human_centered_thinking": "N/A"
-  },
-  "background_context": {
-    "wikipedia_enrichment": {
-      "inferred_occupations": [
-        "Inventor",
-        "Engineer"
-      ],
-      "achievement_indicators": [
-        "honor"
-      ]
-    }
-  },
-  "humanistic_cognition": {
-    "creative_problem_solving": "design thinking with user empathy",
-    "holistic_perspective": "systems thinking with user focus"
-  },
-  "trait_constellations": {
-    "constellation_details": {
-      "innovation_drive": {},
-      "growth_learning": {},
-      "impact_legacy": {},
-      "intellectual_depth": {},
-      "analytical_thinking": {}
-    }
-  },
-  "communication": {
-    "medium_preferences": [
-      "asynchronous collaboration",
-      "written documentation",
-      "digital communication"
-    ],
-    "message_framing": [
-      "detailed technical explanations",
-      "strategic vision framing"
+    "typical_phrases": [
+      "electrical innovation",
+      "systematic experimentation",
+      "visionary technology",
+      "persistent research"
     ]
   },
   "domain_expertise": {
-    "primary_expertise": [
-      "electrical engineering"
+    "core_competencies": [
+      "electrical engineering",
+      "alternating current systems",
+      "wireless communication",
+      "systematic innovation"
     ],
-    "knowledge_depth": [
-      "domain expertise"
+    "tools_and_platforms": [
+      "Tesla coil",
+      "AC systems",
+      "wireless technology",
+      "electrical innovation"
     ],
-    "innovation_approach": [
-      "visionary foresight"
+    "mental_models": [
+      "electrical innovation",
+      "systematic experimentation",
+      "visionary technology",
+      "persistent research"
+    ],
+    "reference_frameworks": [
+      "Electrical engineering",
+      "Alternating current",
+      "Wireless communication",
+      "Systematic innovation"
+    ],
+    "industry_knowledge": "electrical engineering, alternating current systems, wireless communication, systematic innovation"
+  },
+  "values": {
+    "core_values": [
+      "electrical innovation",
+      "systematic experimentation",
+      "visionary technology",
+      "persistent research",
+      "scientific advancement"
+    ],
+    "professional_principles": [
+      "innovate electrically",
+      "experiment systematically",
+      "pursue visionary technology"
+    ],
+    "ethical_framework": "electrical engineering must serve innovation through systematic experimentation and visionary technology"
+  },
+  "collaboration": {
+    "leadership_style": "innovative, visionary, systematic, experimental",
+    "team_dynamics": "builds innovative teams, values systematic experimentation",
+    "mentorship_approach": "leads through innovative example and systematic teaching",
+    "conflict_resolution": "systematic analysis and innovative experimentation"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "alternating current systems",
+      "Tesla coil technology",
+      "wireless communication",
+      "systematic innovation",
+      "visionary experimentation"
+    ],
+    "contrarian_beliefs": [
+      "AC serves better than DC",
+      "wireless communication is possible",
+      "innovation requires systematic experimentation"
+    ],
+    "pet_peeves": [
+      "lack of innovation",
+      "poor systematic approach",
+      "resistance to experimentation"
+    ],
+    "distinctive_quirks": [
+      "AC pioneer",
+      "Tesla coil inventor",
+      "wireless communication",
+      "systematic innovation"
     ]
   },
   "behavioral_patterns": {
-    "decision_making": "creative problem-solving with intuitive bias recognition",
-    "learning_preferences": [
-      "experiential learning",
-      "continuous development"
-    ]
+    "work_style": "innovative, visionary, systematic, experimentally focused",
+    "problem_solving_approach": "systematic analysis, innovative solutions, visionary experimentation",
+    "decision_making": "systematic analysis with innovative consideration",
+    "learning_preferences": "electrical engineering study, innovative practice, systematic research"
   },
-  "learning": {
-    "knowledge_sharing": [
-      "detailed documentation"
-    ],
-    "adaptation_speed": [
-      "strategic pivots",
-      "creative solutions"
-    ],
-    "failure_response": "n/a"
+  "background_context": {
+    "experience_level": "legendary (60+ years)",
+    "typical_career_path": "engineering student → electrical engineer → AC pioneer → innovation legend",
+    "wikipedia_enrichment": {
+      "inferred_occupations": ["Electrical Engineer", "Inventor", "Innovation Pioneer"],
+      "achievement_indicators": ["acclaimed", "influential", "revolutionary"],
+      "influence_indicators": ["legendary", "trailblazing", "essential"]
+    }
   },
   "technology_relationship": {
     "technology_adoption": "early adopter",
-    "digital_fluency": "analog-preferring",
-    "ai_perspective": "enthusiast",
-    "platform_preference": "varies by domain",
+    "digital_fluency": "expert",
+    "ai_perspective": "cautious optimist",
+    "platform_preference": "electrical innovation, systematic experimentation, visionary technology",
     "tech_integration": "strategic use"
   },
   "crisis_response": {
-    "stress_response_pattern": "maintains quality",
-    "failure_recovery": "learn and adapt",
-    "uncertainty_tolerance": "manages discomfort",
-    "pressure_performance": "maintains quality",
-    "crisis_leadership": "provides calm guidance"
+    "stress_response_pattern": "energized by challenge",
+    "failure_recovery": "bounce back stronger",
+    "uncertainty_tolerance": "thrives in ambiguity",
+    "pressure_performance": "performs best under pressure",
+    "crisis_leadership": "steps up as leader"
   },
   "influence_style": {
-    "persuasion_approach": "emotional appeal",
+    "persuasion_approach": "charisma",
     "influence_scope": "mass audience",
     "rhetoric_style": "inspirational",
-    "credibility_source": "expertise",
-    "change_mechanism": "incremental progress"
+    "credibility_source": "charisma",
+    "change_mechanism": "radical disruption"
   },
   "resource_relationship": {
     "wealth_perspective": "tool for impact",
     "resource_allocation_priority": "experimentation",
-    "generosity_pattern": "reciprocal",
-    "financial_risk_appetite": "calculated risks",
-    "resource_transparency": "selective disclosure"
+    "generosity_pattern": "proactive giver",
+    "financial_risk_appetite": "high risk tolerance",
+    "resource_transparency": "fully transparent"
   },
   "time_orientation": {
-    "time_horizon": "decade",
+    "time_horizon": "generational",
     "legacy_concern": "focused on impact",
     "present_vs_future_balance": "balanced",
     "intergenerational_thinking": "multi-generational",
     "urgency_vs_patience": "strategic urgency"
   },
   "collaboration_enhancement": {
-    "conflict_resolution_style": "diplomatic",
-    "credit_sharing_behavior": "balanced",
+    "conflict_resolution_style": "confrontational",
+    "credit_sharing_behavior": "generous attribution",
     "mentorship_inclination": "natural mentor",
-    "feedback_style": "constructive and structured",
-    "delegation_approach": "structured delegation"
+    "feedback_style": "direct and immediate",
+    "delegation_approach": "empowers fully"
   }
 }

@@ -277,7 +277,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     border-radius: 4px;
     justify-content: center;
     align-items: center;
-    gap: 17px;
+    gap: 24px;
     display: flex;
 }
 
@@ -285,7 +285,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     align-self: stretch;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 8px;
     display: flex;
 }
 

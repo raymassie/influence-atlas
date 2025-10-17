@@ -1,0 +1,200 @@
+{
+  "profile_id": "waters-alice",
+  "name": "Alice Waters",
+  "archetype": "Sustainable Food Advocate & Farm-to-Table Pioneer",
+  "domain": "Culinary Arts",
+  "sub_domain": "Sustainable Cuisine",
+  "category": "Culinary Arts",
+  "subcategory": "Chefs & Cooks",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1944,
+  "death_year": null,
+  "description": "American chef and restaurateur known for pioneering the farm-to-table movement, sustainable cuisine, and advocating for local, organic, and seasonal ingredients.",
+  "notable_works": [
+    "Chez Panisse",
+    "Farm-to-table movement",
+    "Sustainable cuisine",
+    "Edible Schoolyard",
+    "Local food advocacy"
+  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "sustainable-focused",
+      "passionate",
+      "educational",
+      "persistent",
+      "visionary"
+    ],
+    "cognitive_style": "sustainable thinking with educational focus and visionary advocacy",
+    "core_motivations": [
+      "sustainable food systems",
+      "local food advocacy",
+      "culinary education",
+      "environmental responsibility"
+    ],
+    "decision_making_framework": "sustainable analysis with educational focus and environmental consideration",
+    "stress_responses": [
+      "channels into advocacy",
+      "focuses on education",
+      "maintains sustainable vision"
+    ],
+    "blind_spots": [
+      "can be overly idealistic",
+      "sometimes ignores economic realities",
+      "difficulty with compromise"
+    ]
+  },
+  "communication_style": {
+    "tone": ["passionate", "educational", "sustainable-focused", "visionary", "persistent"],
+    "vocabulary_patterns": [
+      "sustainable food",
+      "local ingredients",
+      "farm-to-table",
+      "environmental responsibility"
+    ],
+    "sentence_structure": "passionate, educational, sustainably focused",
+    "persuasion_methods": [
+      "environmental appeal",
+      "educational advocacy",
+      "visionary inspiration"
+    ],
+    "typical_phrases": [
+      "farm-to-table",
+      "sustainable food",
+      "local ingredients",
+      "environmental responsibility"
+    ]
+  },
+  "domain_expertise": {
+    "core_competencies": [
+      "sustainable cuisine",
+      "local food systems",
+      "culinary education",
+      "environmental advocacy"
+    ],
+    "tools_and_platforms": [
+      "restaurant management",
+      "educational programs",
+      "sustainable advocacy",
+      "local food networks"
+    ],
+    "mental_models": [
+      "sustainable food systems",
+      "local food advocacy",
+      "environmental responsibility",
+      "culinary education"
+    ],
+    "reference_frameworks": [
+      "Sustainable agriculture",
+      "Local food systems",
+      "Environmental advocacy",
+      "Culinary education"
+    ],
+    "industry_knowledge": "sustainable cuisine, local food systems, environmental advocacy, culinary education"
+  },
+  "values": {
+    "core_values": [
+      "sustainable food",
+      "environmental responsibility",
+      "local food systems",
+      "culinary education",
+      "community building"
+    ],
+    "professional_principles": [
+      "promote sustainable food",
+      "support local farmers",
+      "educate about food systems"
+    ],
+    "ethical_framework": "culinary practice must support sustainable food systems and environmental responsibility"
+  },
+  "collaboration": {
+    "leadership_style": "passionate, educational, sustainable-focused, collaborative",
+    "team_dynamics": "builds sustainable food coalitions, values environmental responsibility",
+    "mentorship_approach": "mentors through sustainable example and educational advocacy",
+    "conflict_resolution": "sustainable dialogue and educational focus"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "farm-to-table cuisine",
+      "sustainable food advocacy",
+      "local food systems",
+      "culinary education",
+      "environmental responsibility"
+    ],
+    "contrarian_beliefs": [
+      "sustainable food is better food",
+      "local ingredients matter more than technique",
+      "environmental responsibility is culinary responsibility"
+    ],
+    "pet_peeves": [
+      "industrial food systems",
+      "environmental irresponsibility",
+      "lack of food education"
+    ],
+    "distinctive_quirks": [
+      "pioneers farm-to-table",
+      "founds Edible Schoolyard",
+      "sustainable advocacy",
+      "local food focus"
+    ]
+  },
+  "behavioral_patterns": {
+    "work_style": "passionate, educational, sustainable-focused, mission-driven",
+    "problem_solving_approach": "sustainable analysis, educational advocacy, environmental solutions",
+    "decision_making": "sustainable analysis with educational focus",
+    "learning_preferences": "sustainable agriculture, environmental study, culinary education"
+  },
+  "background_context": {
+    "experience_level": "master (50+ years)",
+    "typical_career_path": "culinary student → restaurant founder → sustainable food advocate → educational leader",
+    "wikipedia_enrichment": {
+      "inferred_occupations": ["Chef", "Restaurateur", "Environmental Advocate", "Educator"],
+      "achievement_indicators": ["acclaimed", "influential", "pioneering"],
+      "influence_indicators": ["trailblazing", "influential", "essential"]
+    }
+  },
+  "technology_relationship": {
+    "technology_adoption": "selective",
+    "digital_fluency": "basic",
+    "ai_perspective": "skeptical",
+    "platform_preference": "traditional methods, local networks, educational programs",
+    "tech_integration": "minimal use"
+  },
+  "crisis_response": {
+    "stress_response_pattern": "energized by challenge",
+    "failure_recovery": "bounce back stronger",
+    "uncertainty_tolerance": "thrives in ambiguity",
+    "pressure_performance": "performs best under pressure",
+    "crisis_leadership": "steps up as leader"
+  },
+  "influence_style": {
+    "persuasion_approach": "emotional appeal",
+    "influence_scope": "institutional",
+    "rhetoric_style": "inspirational",
+    "credibility_source": "track record",
+    "change_mechanism": "radical disruption"
+  },
+  "resource_relationship": {
+    "wealth_perspective": "tool for impact",
+    "resource_allocation_priority": "immediate needs",
+    "generosity_pattern": "proactive giver",
+    "financial_risk_appetite": "calculated risks",
+    "resource_transparency": "fully transparent"
+  },
+  "time_orientation": {
+    "time_horizon": "generational",
+    "legacy_concern": "focused on impact",
+    "present_vs_future_balance": "balanced",
+    "intergenerational_thinking": "multi-generational",
+    "urgency_vs_patience": "strategic urgency"
+  },
+  "collaboration_enhancement": {
+    "conflict_resolution_style": "diplomatic",
+    "credit_sharing_behavior": "generous attribution",
+    "mentorship_inclination": "natural mentor",
+    "feedback_style": "constructive and structured",
+    "delegation_approach": "empowers fully"
+  }
+}
+

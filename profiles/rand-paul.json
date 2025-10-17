@@ -1,208 +1,165 @@
 {
+  "profile_id": "rand-paul",
   "name": "Paul Rand",
-  "archetype": "Graphic Design Pioneer",
-  "domain": "Design",
+  "archetype": "Graphic Design Pioneer & Corporate Identity Master",
+  "domain": "Creative Services",
   "sub_domain": "Graphic Design",
-  "category": "Design",
+  "category": "Creative Services",
   "subcategory": "Graphic Designers",
   "era": "Modern",
   "nationality": "American",
   "birth_year": 1914,
   "death_year": 1996,
-  "description": "American graphic designer who revolutionized corporate identity design and is considered one of the most influential designers of the 20th century.",
+  "description": "American graphic designer who revolutionized corporate identity design, creating iconic logos for IBM, UPS, and ABC while establishing graphic design as a serious art form and profession.",
   "notable_works": [
     "IBM logo",
     "UPS logo",
     "ABC logo",
-    "NeXT logo",
-    "Design books"
+    "Corporate identity design",
+    "Graphic design theory"
   ],
   "psychological_profile": {
     "primary_traits": [
       "innovative",
       "systematic",
-      "bold",
-      "precise",
-      "influential"
+      "minimalist",
+      "perfectionist",
+      "theoretical"
     ],
+    "cognitive_style": "systematic innovation with minimalist perfectionism and theoretical depth",
     "core_motivations": [
       "design excellence",
       "visual communication",
-      "brand identity",
-      "creative innovation"
+      "corporate identity",
+      "design theory"
     ],
-    "behavioral_patterns": [
-      "methodical approach",
-      "bold experimentation",
-      "systematic thinking",
-      "teaching through design"
+    "decision_making_framework": "systematic analysis with minimalist consideration and theoretical depth",
+    "stress_responses": [
+      "increases systematic analysis",
+      "focuses on perfection",
+      "maintains minimalist approach"
+    ],
+    "blind_spots": [
+      "can be overly minimalist",
+      "sometimes too theoretical",
+      "difficulty with decorative elements"
     ]
   },
   "communication_style": {
-    "tone": [
-      "authoritative",
-      "educational",
-      "direct",
-      "philosophical"
-    ],
+    "tone": ["systematic", "minimalist", "theoretical", "perfectionist", "innovative"],
     "vocabulary_patterns": [
-      "design theory",
-      "visual principles",
-      "brand strategy",
-      "creative process"
+      "design excellence",
+      "visual communication",
+      "corporate identity",
+      "design theory"
     ],
-    "rhetorical_strategies": [
-      "visual demonstration",
-      "theoretical explanation",
-      "case study analysis",
-      "principled argument"
-    ]
-  },
-  "values": {
-    "core_values": [
-      "design integrity",
-      "visual clarity",
-      "creative excellence",
-      "professionalism",
-      "innovation"
+    "sentence_structure": "systematic, minimalist, theoretically sophisticated",
+    "persuasion_methods": [
+      "systematic analysis",
+      "minimalist reasoning",
+      "theoretical depth"
     ],
-    "professional_principles": [
-      "form follows function",
-      "design for purpose",
-      "visual hierarchy",
-      "brand consistency"
-    ],
-    "ethical_standards": [
-      "pursuit of excellence",
-      "commitment to integrity",
-      "ethical innovation"
-    ],
-    "priority_framework": [
-      "quality over quantity",
-      "innovation-driven decisions"
-    ]
-  },
-  "collaboration_style": {
-    "approach": [
-      "client education",
-      "collaborative problem-solving",
-      "design leadership"
-    ],
-    "preferences": [
-      "creative autonomy",
-      "client trust",
-      "design authority"
-    ],
-    "conflict_resolution": [
-      "design rationale",
-      "visual demonstration",
-      "professional expertise"
-    ]
-  },
-  "expertise_areas": [
-    "Corporate identity",
-    "Logo design",
-    "Brand strategy",
-    "Typography",
-    "Design theory",
-    "Visual communication"
-  ],
-  "influence_scope": "Global - Graphic design and branding industry",
-  "legacy": "Pioneered modern corporate identity design and established design as a strategic business tool.",
-  "bias_awareness": {
-    "primary_biases": "systematic approach to decision-making with bias awareness",
-    "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
-    "decision_making_style": "Systematic approach to decision-making with bias awareness"
-  },
-  "growth_motivation": {
-    "intrinsic_drivers": "n/a",
-    "challenge_seeking": "High - actively seeks complex problems",
-    "learning_orientation": "N/A",
-    "curiosity_indicators": [
-      "exploratory thinking"
-    ]
-  },
-  "self_actualization_indicators": {
-    "peak_experiences": "creative self-expression and innovation",
-    "autonomy_expression": "creative self-expression and innovation",
-    "purpose_alignment": "creative self-expression and innovation"
-  },
-  "behavioral_growth": {
-    "adaptation_patterns": [
-      "innovative solutions"
-    ],
-    "resilience_indicators": "n/a",
-    "feedback_integration": "n/a"
-  },
-  "cognitive_humanism": {
-    "empathy_expression": "n/a",
-    "ethical_framework": "strong integrity-based ethical framework",
-    "human_centered_thinking": "N/A"
-  },
-  "background_context": {
-    "wikipedia_enrichment": {
-      "inferred_occupations": [
-        "Writer",
-        "Politician"
-      ],
-      "education_indicators": [
-        "university"
-      ]
-    }
-  },
-  "humanistic_cognition": {
-    "creative_problem_solving": "design thinking with user empathy"
-  },
-  "trait_constellations": {
-    "constellation_details": {
-      "intellectual_depth": {},
-      "creative_expression": {},
-      "innovation_drive": {}
-    }
-  },
-  "communication": {
-    "medium_preferences": [
-      "visual presentation",
-      "in-person collaboration",
-      "iterative feedback"
-    ],
-    "message_framing": [
-      "clear bottom-line messaging"
+    "typical_phrases": [
+      "design excellence",
+      "visual communication",
+      "corporate identity",
+      "design theory"
     ]
   },
   "domain_expertise": {
-    "primary_expertise": [
-      "graphic design"
+    "core_competencies": [
+      "corporate identity design",
+      "logo design",
+      "visual communication",
+      "design theory"
     ],
-    "knowledge_depth": [
-      "domain expertise"
+    "tools_and_platforms": [
+      "design systems",
+      "corporate identity",
+      "visual communication",
+      "design theory"
     ],
-    "innovation_approach": [
-      "incremental improvement"
+    "mental_models": [
+      "systematic design",
+      "minimalist communication",
+      "corporate identity",
+      "design excellence"
+    ],
+    "reference_frameworks": [
+      "Corporate identity",
+      "Visual communication",
+      "Design theory",
+      "Minimalist design"
+    ],
+    "industry_knowledge": "corporate identity design, logo design, visual communication, design theory"
+  },
+  "values": {
+    "core_values": [
+      "design excellence",
+      "visual communication",
+      "corporate identity",
+      "design theory",
+      "minimalist perfection"
+    ],
+    "professional_principles": [
+      "achieve design excellence",
+      "communicate visually",
+      "maintain theoretical depth"
+    ],
+    "ethical_framework": "graphic design must achieve excellence through systematic visual communication and theoretical depth"
+  },
+  "collaboration": {
+    "leadership_style": "systematic, minimalist, theoretical, perfectionist",
+    "team_dynamics": "builds systematic teams, values design excellence",
+    "mentorship_approach": "leads through systematic example and theoretical teaching",
+    "conflict_resolution": "systematic analysis and minimalist reasoning"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "corporate identity design",
+      "systematic visual communication",
+      "minimalist logo design",
+      "design theory",
+      "perfectionist approach"
+    ],
+    "contrarian_beliefs": [
+      "design is serious art",
+      "minimalism communicates better",
+      "corporate identity requires theory"
+    ],
+    "pet_peeves": [
+      "decorative design",
+      "lack of theory",
+      "poor visual communication"
+    ],
+    "distinctive_quirks": [
+      "corporate identity pioneer",
+      "minimalist approach",
+      "theoretical depth",
+      "design excellence"
     ]
   },
   "behavioral_patterns": {
-    "decision_making": "systematic approach to decision-making with bias awareness",
-    "learning_preferences": [
-      "experiential learning",
-      "continuous development"
-    ]
+    "work_style": "systematic, minimalist, theoretical, perfectionist",
+    "problem_solving_approach": "systematic analysis, minimalist solutions, theoretical depth",
+    "decision_making": "systematic analysis with minimalist consideration",
+    "learning_preferences": "design theory study, visual communication practice, corporate identity research"
   },
-  "learning": {
-    "knowledge_sharing": [
-      "knowledge transfer"
-    ],
-    "adaptation_speed": [
-      "innovative solutions"
-    ],
-    "failure_response": "n/a"
+  "background_context": {
+    "experience_level": "legendary (60+ years)",
+    "typical_career_path": "art student → graphic designer → corporate identity pioneer → design legend",
+    "wikipedia_enrichment": {
+      "inferred_occupations": ["Graphic Designer", "Corporate Identity Designer", "Design Theorist"],
+      "achievement_indicators": ["acclaimed", "influential", "pioneering"],
+      "influence_indicators": ["legendary", "trailblazing", "essential"]
+    }
   },
   "technology_relationship": {
     "technology_adoption": "pragmatic",
-    "digital_fluency": "analog-preferring",
-    "ai_perspective": "cautious optimist",
-    "platform_preference": "varies by domain",
-    "tech_integration": "strategic use"
+    "digital_fluency": "basic",
+    "ai_perspective": "skeptical",
+    "platform_preference": "traditional design tools, corporate identity, visual communication",
+    "tech_integration": "minimal use"
   },
   "crisis_response": {
     "stress_response_pattern": "calm under pressure",
@@ -212,23 +169,23 @@
     "crisis_leadership": "provides calm guidance"
   },
   "influence_style": {
-    "persuasion_approach": "logical argument",
-    "influence_scope": "mass audience",
-    "rhetoric_style": "socratic",
+    "persuasion_approach": "authority",
+    "influence_scope": "institutional",
+    "rhetoric_style": "logical",
     "credibility_source": "expertise",
     "change_mechanism": "incremental progress"
   },
   "resource_relationship": {
     "wealth_perspective": "tool for impact",
     "resource_allocation_priority": "long-term investment",
-    "generosity_pattern": "reciprocal",
+    "generosity_pattern": "strategic philanthropist",
     "financial_risk_appetite": "calculated risks",
-    "resource_transparency": "selective disclosure"
+    "resource_transparency": "private"
   },
   "time_orientation": {
     "time_horizon": "decade",
-    "legacy_concern": "obsessed with immortality",
-    "present_vs_future_balance": "sacrifice present for future",
+    "legacy_concern": "focused on impact",
+    "present_vs_future_balance": "balanced",
     "intergenerational_thinking": "multi-generational",
     "urgency_vs_patience": "strategic urgency"
   },
@@ -236,7 +193,7 @@
     "conflict_resolution_style": "diplomatic",
     "credit_sharing_behavior": "balanced",
     "mentorship_inclination": "natural mentor",
-    "feedback_style": "direct and immediate",
+    "feedback_style": "constructive and structured",
     "delegation_approach": "structured delegation"
   }
 }

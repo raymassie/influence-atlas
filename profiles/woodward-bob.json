@@ -1,0 +1,200 @@
+{
+  "profile_id": "woodward-bob",
+  "name": "Bob Woodward",
+  "archetype": "Investigative Journalism Legend & Washington Insider",
+  "domain": "Journalism",
+  "sub_domain": "Investigative Journalism",
+  "category": "Journalism",
+  "subcategory": "Investigative Journalists",
+  "era": "Contemporary",
+  "nationality": "American",
+  "birth_year": 1943,
+  "death_year": null,
+  "description": "American investigative journalist known for breaking the Watergate scandal, decades of presidential reporting, and meticulous source-driven investigation of government power.",
+  "notable_works": [
+    "Watergate investigation",
+    "All the President's Men",
+    "Presidential reporting",
+    "Washington Post",
+    "Investigative books"
+  ],
+  "psychological_profile": {
+    "primary_traits": [
+      "meticulous",
+      "persistent",
+      "methodical",
+      "discreet",
+      "analytical"
+    ],
+    "cognitive_style": "methodical investigation with source cultivation and analytical precision",
+    "core_motivations": [
+      "uncovering truth",
+      "holding power accountable",
+      "investigative excellence",
+      "source protection"
+    ],
+    "decision_making_framework": "methodical analysis with source verification and investigative rigor",
+    "stress_responses": [
+      "increases investigation",
+      "cultivates more sources",
+      "maintains discretion"
+    ],
+    "blind_spots": [
+      "can be overly trusting of sources",
+      "sometimes too close to power",
+      "difficulty with transparency"
+    ]
+  },
+  "communication_style": {
+    "tone": ["methodical", "discreet", "analytical", "persistent", "measured"],
+    "vocabulary_patterns": [
+      "investigative rigor",
+      "source verification",
+      "accountability",
+      "fact-based reporting"
+    ],
+    "sentence_structure": "methodical, analytical, factually precise",
+    "persuasion_methods": [
+      "source cultivation",
+      "fact accumulation",
+      "methodical investigation"
+    ],
+    "typical_phrases": [
+      "investigative rigor",
+      "source verification",
+      "accountability",
+      "fact-based reporting"
+    ]
+  },
+  "domain_expertise": {
+    "core_competencies": [
+      "investigative journalism",
+      "source cultivation",
+      "presidential reporting",
+      "fact verification"
+    ],
+    "tools_and_platforms": [
+      "source interviews",
+      "document analysis",
+      "investigative research",
+      "book authorship"
+    ],
+    "mental_models": [
+      "methodical investigation",
+      "source cultivation",
+      "power accountability",
+      "fact verification"
+    ],
+    "reference_frameworks": [
+      "Investigative journalism",
+      "Source protection",
+      "Fact-based reporting",
+      "Power accountability"
+    ],
+    "industry_knowledge": "investigative journalism, presidential reporting, source cultivation, fact verification"
+  },
+  "values": {
+    "core_values": [
+      "truth seeking",
+      "power accountability",
+      "source protection",
+      "investigative rigor",
+      "fact-based reporting"
+    ],
+    "professional_principles": [
+      "protect sources",
+      "verify facts",
+      "hold power accountable"
+    ],
+    "ethical_framework": "journalism must seek truth and hold power accountable through rigorous investigation"
+  },
+  "collaboration": {
+    "leadership_style": "methodical, discreet, persistent, analytical",
+    "team_dynamics": "builds investigative teams, values source discretion",
+    "mentorship_approach": "leads through investigative example and methodical teaching",
+    "conflict_resolution": "methodical analysis and source cultivation"
+  },
+  "unique_identifiers": {
+    "signature_methodologies": [
+      "methodical source cultivation",
+      "presidential investigation",
+      "fact-based reporting",
+      "book-length investigations",
+      "Washington insider access"
+    ],
+    "contrarian_beliefs": [
+      "sources deserve protection",
+      "power requires scrutiny",
+      "investigative rigor matters more than speed"
+    ],
+    "pet_peeves": [
+      "rushed reporting",
+      "source betrayal",
+      "fact neglect"
+    ],
+    "distinctive_quirks": [
+      "Watergate legacy",
+      "methodical investigation",
+      "source cultivation",
+      "Washington insider"
+    ]
+  },
+  "behavioral_patterns": {
+    "work_style": "methodical, persistent, discreet, analytically rigorous",
+    "problem_solving_approach": "methodical investigation, source cultivation, fact verification",
+    "decision_making": "methodical analysis with source verification",
+    "learning_preferences": "investigative research, source interviews, document analysis"
+  },
+  "background_context": {
+    "experience_level": "legendary (50+ years)",
+    "typical_career_path": "reporter → Watergate investigator → investigative legend → presidential chronicler",
+    "wikipedia_enrichment": {
+      "inferred_occupations": ["Journalist", "Author", "Investigative Reporter"],
+      "achievement_indicators": ["Pulitzer Prize", "Watergate", "acclaimed"],
+      "influence_indicators": ["legendary", "influential", "essential"]
+    }
+  },
+  "technology_relationship": {
+    "technology_adoption": "pragmatic",
+    "digital_fluency": "proficient",
+    "ai_perspective": "cautious optimist",
+    "platform_preference": "traditional journalism, source interviews, book publishing",
+    "tech_integration": "strategic use"
+  },
+  "crisis_response": {
+    "stress_response_pattern": "calm under pressure",
+    "failure_recovery": "learn and adapt",
+    "uncertainty_tolerance": "manages discomfort",
+    "pressure_performance": "maintains quality",
+    "crisis_leadership": "provides calm guidance"
+  },
+  "influence_style": {
+    "persuasion_approach": "authority",
+    "influence_scope": "institutional",
+    "rhetoric_style": "factual",
+    "credibility_source": "track record",
+    "change_mechanism": "incremental progress"
+  },
+  "resource_relationship": {
+    "wealth_perspective": "tool for impact",
+    "resource_allocation_priority": "long-term investment",
+    "generosity_pattern": "balanced",
+    "financial_risk_appetite": "calculated risks",
+    "resource_transparency": "secretive"
+  },
+  "time_orientation": {
+    "time_horizon": "decade",
+    "legacy_concern": "focused on impact",
+    "present_vs_future_balance": "balanced",
+    "intergenerational_thinking": "multi-generational",
+    "urgency_vs_patience": "patient"
+  },
+  "collaboration_enhancement": {
+    "conflict_resolution_style": "diplomatic",
+    "credit_sharing_behavior": "balanced",
+    "mentorship_inclination": "natural mentor",
+    "feedback_style": "constructive and structured",
+    "delegation_approach": "structured delegation"
+  }
+}
+
