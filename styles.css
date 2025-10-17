@@ -191,7 +191,6 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     border-radius: 2px;
     outline: 1px solid rgba(40, 54, 24, 0.66);
     outline-offset: -1px;
-    justify-content: space-between;
     align-items: center;
     gap: 16px;
     display: flex;
@@ -402,7 +401,8 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     display: flex;
     align-items: center;
     gap: 8px;
-    flex-shrink: 0;
+    flex: 1;
+    justify-content: flex-start;
 }
 
 .nav-center {
@@ -410,11 +410,14 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     justify-content: center;
     align-items: center;
     gap: 16px;
+    flex: 1;
 }
 
 .nav-right {
     display: flex;
     align-items: center;
+    flex: 1;
+    justify-content: flex-end;
 }
 
 .nav-left span {
