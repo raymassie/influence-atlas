@@ -828,7 +828,6 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     gap: 16px; 
     width: 100%;
     flex: 1;
-    padding-bottom: 50px;
 }
 .card-fields { 
     display: flex; 
