@@ -45,9 +45,9 @@
                         <div class="radio-button checked">
                             <div class="radio-outer"></div>
                             <div class="radio-inner"></div>
-                        </div>
-                        <label for="format-markdown">MARKDOWN</label>
                     </div>
+                        <label for="format-markdown">MARKDOWN</label>
+                </div>
                     <div class="format-option">
                         <div class="radio-button">
                             <div class="radio-outer"></div>
@@ -463,10 +463,11 @@
 
             <!-- Colophon Button - Bottom of left column, outside filters frame -->
             <div class="filters" style="margin-top: 16px;">
-                <div class="filter-item" style="padding: 8px;">
-                    <button id="colophon-btn" class="super-filter-btn" style="width: 100%; padding: 12px; font-size: 14px; text-align: center;">
-                        ℹ About This Project
-                    </button>
+                <div class="filter-item">
+                    <div class="filter-header" onclick="openColophon()">
+                        <span>Colophon</span>
+                        <span class="filter-icon">+</span>
+                    </div>
                 </div>
             </div>
             </div>
@@ -1188,7 +1189,7 @@
                 'crisis-response-filter': 'crisis_response.stress_response_pattern',
                 'influence-style-filter': 'influence_style.persuasion_approach'
             };
-            
+
             // Get currently filtered profiles based on all current selections
             const currentlyFilteredProfiles = getCurrentlyFilteredProfiles();
             console.log(`📊 Cascading filters based on ${currentlyFilteredProfiles.length} currently matching profiles`);
@@ -2731,11 +2732,7 @@
             if (clearComparisonBtn) clearComparisonBtn.addEventListener('click', clearComparison);
             if (closeComparisonBtn) closeComparisonBtn.addEventListener('click', hideComparison);
             
-            // Add colophon button listener
-            const colophonBtn = document.getElementById('colophon-btn');
-            if (colophonBtn) {
-                colophonBtn.addEventListener('click', openColophon);
-            }
+            // Colophon button now uses onclick directly
             
             // Add format radio button listeners
             const formatOptions = document.querySelectorAll('.format-option');
@@ -2935,9 +2932,9 @@
             if (clearBtnLegacy) clearBtnLegacy.disabled = count === 0;
             
             if (comparisonPanel) {
-                if (count > 0) {
+            if (count > 0) {
                     comparisonPanel.classList.add('show');
-                } else {
+            } else {
                     comparisonPanel.classList.remove('show');
                 }
             }
