@@ -58,7 +58,7 @@
                         <div class="radio-button">
                             <div class="radio-outer"></div>
                         </div>
-                        <label for="format-agent">AGENT</label>
+                        <label for="format-yaml">YAML</label>
                     </div>
                 </div>
                 <button id="copy-selected-btn" class="btn-action" onclick="copySelected()" disabled>COPY</button>
@@ -556,7 +556,7 @@
                             <div class="expanded-radio-button">
                                 <div class="expanded-radio-outer"></div>
                             </div>
-                            <label for="expanded-format-agent">AGENT</label>
+                            <label for="expanded-format-yaml">YAML</label>
                         </div>
                     </div>
                     <button class="btn btn-secondary" id="expanded-copy-btn" onclick="copyExpandedProfile()">COPY</button>
@@ -2827,7 +2827,7 @@
                             <li>Manual review to eliminate speculation and ensure factual grounding</li>
                         </ul>
                         
-                        <p style="margin-top: 16px;"><strong>Technology & Quality:</strong> Built with vanilla JavaScript, HTML5, and CSS3 for maximum performance and accessibility. The interface features hierarchical color-coded traits (WCAG 2.1 AA compliant), multi-dimensional filtering across 7 behavioral dimensions, and comprehensive search. All 265 profiles are available as downloadable JSON, Markdown, and AI agent-formatted files.</p>
+                        <p style="margin-top: 16px;"><strong>Technology & Quality:</strong> Built with vanilla JavaScript, HTML5, and CSS3 for maximum performance and accessibility. The interface features hierarchical color-coded traits (WCAG 2.1 AA compliant), multi-dimensional filtering across 7 behavioral dimensions, and comprehensive search. All 265 profiles are available as downloadable JSON, Markdown, and YAML files optimized for AI persona injection.</p>
                         
                         <p style="margin-top: 16px;"><strong>Repository:</strong> <a href="https://github.com/raymassie/influence-atlas" target="_blank" style="color: #283618; text-decoration: underline;">github.com/raymassie/influence-atlas</a></p>
                         
@@ -3221,17 +3221,206 @@
         function formatProfileForExport(profile, format) {
             if (format === 'json') {
                 return JSON.stringify(profile, null, 2);
-            } else if (format === 'agent') {
-                // Agent format - simplified text format for AI agents
-                let output = `# ${profile.name}\n\n`;
-                output += `**Archetype:** ${profile.archetype}\n`;
-                output += `**Domain:** ${profile.domain}\n`;
-                if (profile.sub_domain) output += `**Subdomain:** ${profile.sub_domain}\n`;
-                output += `\n## Profile Data\n\n`;
-                output += '```json\n';
-                output += JSON.stringify(profile, null, 2);
-                output += '\n```\n';
-                return output;
+            } else if (format === 'yaml') {
+                // YAML format - optimized for AI persona injection
+                let yaml = `# AI Persona: ${profile.name}\n`;
+                yaml += `persona: "${profile.name}"\n`;
+                yaml += `role: "${profile.archetype}"\n`;
+                yaml += `domain: "${profile.domain}"\n`;
+                if (profile.sub_domain) yaml += `subdomain: "${profile.sub_domain}"\n`;
+                yaml += `\n`;
+                
+                // Core Identity
+                yaml += `# Core Identity\n`;
+                yaml += `core_identity:\n`;
+                
+                // Primary traits
+                const traits = profile.psychological_profile?.primary_traits;
+                if (traits && Array.isArray(traits) && traits.length > 0) {
+                    yaml += `  primary_traits:\n`;
+                    traits.slice(0, 5).forEach(trait => {
+                        yaml += `    - ${trait}\n`;
+                    });
+                }
+                
+                // Communication style
+                const commStyle = profile.communication_style;
+                if (commStyle) {
+                    yaml += `  communication_style:\n`;
+                    if (commStyle.tone) {
+                        const tones = Array.isArray(commStyle.tone) ? commStyle.tone : 
+                                     typeof commStyle.tone === 'string' ? commStyle.tone.split(',').map(t => t.trim()) : [];
+                        if (tones.length > 0) {
+                            yaml += `    tone: [${tones.slice(0, 3).join(', ')}]\n`;
+                        }
+                    }
+                    if (commStyle.typical_phrases && Array.isArray(commStyle.typical_phrases)) {
+                        yaml += `    signature_phrases:\n`;
+                        commStyle.typical_phrases.slice(0, 3).forEach(phrase => {
+                            yaml += `      - "${phrase}"\n`;
+                        });
+                    }
+                }
+                
+                // Decision making
+                const decisionStyle = profile.psychological_profile?.decision_making_framework || 
+                                     profile.behavioral_patterns?.decision_making;
+                if (decisionStyle) {
+                    yaml += `  decision_making: "${decisionStyle}"\n`;
+                }
+                
+                yaml += `\n`;
+                
+                // Behavioral Guidelines
+                yaml += `# Behavioral Guidelines\n`;
+                yaml += `behavioral_guidelines:\n`;
+                
+                // Core motivations
+                const motivations = profile.psychological_profile?.core_motivations;
+                if (motivations && Array.isArray(motivations) && motivations.length > 0) {
+                    yaml += `  core_motivations:\n`;
+                    motivations.slice(0, 3).forEach(m => {
+                        yaml += `    - ${m}\n`;
+                    });
+                }
+                
+                // Values
+                const values = profile.values?.core_values;
+                if (values && Array.isArray(values) && values.length > 0) {
+                    yaml += `  core_values:\n`;
+                    values.slice(0, 3).forEach(v => {
+                        yaml += `    - ${v}\n`;
+                    });
+                }
+                
+                // Contrarian beliefs (unique identifiers)
+                const contrarian = profile.unique_identifiers?.contrarian_beliefs;
+                if (contrarian && Array.isArray(contrarian) && contrarian.length > 0) {
+                    yaml += `  contrarian_beliefs:\n`;
+                    contrarian.slice(0, 3).forEach(b => {
+                        yaml += `    - "${b}"\n`;
+                    });
+                }
+                
+                yaml += `\n`;
+                
+                // Response Patterns
+                yaml += `# Response Patterns\n`;
+                yaml += `response_patterns:\n`;
+                
+                // Communication approach
+                const persuasion = profile.communication?.persuasion_techniques || 
+                                  profile.communication_style?.persuasion_methods;
+                if (persuasion) {
+                    const methods = Array.isArray(persuasion) ? persuasion : [persuasion];
+                    yaml += `  persuasion_approach:\n`;
+                    methods.slice(0, 2).forEach(m => {
+                        yaml += `    - ${m}\n`;
+                    });
+                }
+                
+                // Problem solving
+                const problemSolving = profile.behavioral_patterns?.problem_solving_approach;
+                if (problemSolving) {
+                    yaml += `  problem_solving: "${problemSolving}"\n`;
+                }
+                
+                // Work style
+                const workStyle = profile.behavioral_patterns?.work_style;
+                if (workStyle) {
+                    yaml += `  work_style: "${workStyle}"\n`;
+                }
+                
+                yaml += `\n`;
+                
+                // Context-Specific Behaviors (Tier 1 & 2)
+                yaml += `# Context-Specific Behaviors\n`;
+                
+                // Technology Relationship
+                if (profile.technology_relationship) {
+                    yaml += `technology_relationship:\n`;
+                    if (profile.technology_relationship.technology_adoption) {
+                        yaml += `  adoption_level: ${profile.technology_relationship.technology_adoption}\n`;
+                    }
+                    if (profile.technology_relationship.digital_fluency) {
+                        yaml += `  digital_fluency: ${profile.technology_relationship.digital_fluency}\n`;
+                    }
+                    if (profile.technology_relationship.ai_perspective) {
+                        yaml += `  ai_perspective: ${profile.technology_relationship.ai_perspective}\n`;
+                    }
+                }
+                
+                // Crisis Response
+                if (profile.crisis_response) {
+                    yaml += `\ncrisis_response:\n`;
+                    if (profile.crisis_response.stress_response_pattern) {
+                        yaml += `  under_pressure: ${profile.crisis_response.stress_response_pattern}\n`;
+                    }
+                    if (profile.crisis_response.failure_recovery) {
+                        yaml += `  after_failure: ${profile.crisis_response.failure_recovery}\n`;
+                    }
+                    if (profile.crisis_response.uncertainty_tolerance) {
+                        yaml += `  with_ambiguity: ${profile.crisis_response.uncertainty_tolerance}\n`;
+                    }
+                }
+                
+                // Influence Style
+                if (profile.influence_style) {
+                    yaml += `\ninfluence_style:\n`;
+                    if (profile.influence_style.persuasion_approach) {
+                        yaml += `  persuasion: ${profile.influence_style.persuasion_approach}\n`;
+                    }
+                    if (profile.influence_style.rhetoric_style) {
+                        yaml += `  rhetoric: ${profile.influence_style.rhetoric_style}\n`;
+                    }
+                    if (profile.influence_style.change_mechanism) {
+                        yaml += `  change_approach: ${profile.influence_style.change_mechanism}\n`;
+                    }
+                }
+                
+                // Resource Relationship
+                if (profile.resource_relationship) {
+                    yaml += `\nresource_relationship:\n`;
+                    if (profile.resource_relationship.wealth_perspective) {
+                        yaml += `  wealth_view: ${profile.resource_relationship.wealth_perspective}\n`;
+                    }
+                    if (profile.resource_relationship.financial_risk_appetite) {
+                        yaml += `  risk_appetite: ${profile.resource_relationship.financial_risk_appetite}\n`;
+                    }
+                    if (profile.resource_relationship.generosity_pattern) {
+                        yaml += `  generosity: ${profile.resource_relationship.generosity_pattern}\n`;
+                    }
+                }
+                
+                // Time Orientation
+                if (profile.time_orientation) {
+                    yaml += `\ntime_orientation:\n`;
+                    if (profile.time_orientation.time_horizon) {
+                        yaml += `  planning_horizon: ${profile.time_orientation.time_horizon}\n`;
+                    }
+                    if (profile.time_orientation.legacy_concern) {
+                        yaml += `  legacy_focus: ${profile.time_orientation.legacy_concern}\n`;
+                    }
+                    if (profile.time_orientation.urgency_vs_patience) {
+                        yaml += `  pace: ${profile.time_orientation.urgency_vs_patience}\n`;
+                    }
+                }
+                
+                // Collaboration Enhancement
+                if (profile.collaboration_enhancement) {
+                    yaml += `\ncollaboration_style:\n`;
+                    if (profile.collaboration_enhancement.conflict_resolution_style) {
+                        yaml += `  conflict_resolution: ${profile.collaboration_enhancement.conflict_resolution_style}\n`;
+                    }
+                    if (profile.collaboration_enhancement.mentorship_inclination) {
+                        yaml += `  mentorship: ${profile.collaboration_enhancement.mentorship_inclination}\n`;
+                    }
+                    if (profile.collaboration_enhancement.feedback_style) {
+                        yaml += `  feedback_style: ${profile.collaboration_enhancement.feedback_style}\n`;
+                    }
+                }
+                
+                return yaml;
             } else {
                 // Markdown format (default)
                 let output = `# ${profile.name}\n\n`;
@@ -3291,10 +3480,10 @@
                 content = JSON.stringify(selectedProfiles, null, 2);
                 filename = `selected-profiles-${selectedProfiles.length}.json`;
                 mimeType = 'application/json';
-            } else if (format === 'agent') {
+            } else if (format === 'yaml') {
                 content = selectedProfiles.map(p => formatProfileForExport(p, format)).join('\n\n---\n\n');
-                filename = `selected-profiles-${selectedProfiles.length}-agent.md`;
-                mimeType = 'text/markdown';
+                filename = `selected-profiles-${selectedProfiles.length}.yaml`;
+                mimeType = 'text/yaml';
             } else {
                 content = selectedProfiles.map(p => formatProfileForExport(p, format)).join('\n\n---\n\n');
                 filename = `selected-profiles-${selectedProfiles.length}.md`;
