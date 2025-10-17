@@ -182,7 +182,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     color: rgba(10, 13, 6, 0.66);
 }
 
-/* Desktop Navigation - Legacy (keeping for compatibility) */
+/* Desktop Navigation - Enhanced */
 .desktop-nav {
     display: flex;
     justify-content: space-between;
@@ -192,6 +192,53 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     margin-bottom: 20px;
+}
+
+/* Format Toggles in Desktop Nav */
+.desktop-nav .format-toggles {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.desktop-nav .format-option {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.desktop-nav .format-option input[type="radio"] {
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    border-radius: 50%;
+    border: 0.67px solid #606C38;
+    background: #FEFAE0;
+    cursor: pointer;
+}
+
+.desktop-nav .format-option input[type="radio"]:checked {
+    background: #606C38;
+    border-color: #606C38;
+}
+
+.desktop-nav .format-option input[type="radio"]:checked::after {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #FEFAE0;
+    margin: 2px auto;
+}
+
+.desktop-nav .format-option label {
+    font-size: 10px;
+    font-weight: 400;
+    color: rgba(10, 13, 6, 0.66);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    cursor: pointer;
 }
 
 .nav-left {
