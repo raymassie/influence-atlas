@@ -205,9 +205,9 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 
 .nav-separator {
     width: 2px;
-    height: 100%;
-    background: rgba(40, 54, 24, 0.66);
-    align-self: stretch;
+    height: 40px;
+    background: #283618;
+    align-self: center;
 }
 
 /* Selection Counter */
