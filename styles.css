@@ -962,6 +962,97 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     outline: 1px solid #0A0D06;
     outline-offset: -1px;
 }
+
+/* Expanded Profile Header Styles */
+.expanded-profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.expanded-profile-metadata {
+    display: flex;
+    gap: 24px;
+}
+
+.expanded-metadata-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.expanded-metadata-label {
+    font-size: 10px;
+    color: rgba(10, 13, 6, 0.66);
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.expanded-metadata-value {
+    font-size: 14px;
+    color: #283618;
+    font-weight: 400;
+}
+
+.expanded-profile-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.expanded-format-toggles {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.expanded-format-option {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.expanded-radio-button {
+    width: 14px;
+    height: 14px;
+    position: relative;
+}
+
+.expanded-radio-outer {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    background: #FEFAE0;
+    border-radius: 9999px;
+    border: 1px solid rgba(96, 108, 56, 0.66);
+}
+
+.expanded-radio-button.checked .expanded-radio-outer {
+    border: 1px solid #606C38;
+}
+
+.expanded-radio-inner {
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    background: #606C38;
+    border-radius: 9999px;
+}
+
+.expanded-format-option label {
+    opacity: 0.66;
+    color: #0A0D06;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 24px;
+    letter-spacing: 0.30px;
+    cursor: pointer;
+}
 .no-results { text-align: center; padding: 40px; color: #283618; font-size: 1.2rem; }
 .loading { text-align: center; padding: 40px; color: #283618; font-size: 1.2rem; }
 .stats { background: white; padding: 15px; border-radius: 4px; margin-bottom: 20px; text-align: center; font-weight: 600; }

@@ -481,13 +481,47 @@
         
         <div id="expanded-profile" class="expanded-profile">
             <div class="expanded-profile-header">
-                <div>
+                <div class="expanded-profile-info">
                     <div class="expanded-profile-title" id="expanded-name"></div>
-                    <div class="expanded-profile-subtitle" id="expanded-subtitle"></div>
+                    <div class="expanded-profile-metadata">
+                        <div class="expanded-metadata-item">
+                            <div class="expanded-metadata-label">ARCHETYPE</div>
+                            <div class="expanded-metadata-value" id="expanded-archetype"></div>
+                        </div>
+                        <div class="expanded-metadata-item">
+                            <div class="expanded-metadata-label">DOMAIN</div>
+                            <div class="expanded-metadata-value" id="expanded-domain"></div>
+                        </div>
+                        <div class="expanded-metadata-item">
+                            <div class="expanded-metadata-label">SUBDOMAIN</div>
+                            <div class="expanded-metadata-value" id="expanded-subdomain"></div>
+                        </div>
+                    </div>
                 </div>
                 <div class="expanded-profile-actions">
-                    <button class="btn btn-secondary" id="expanded-copy-btn" onclick="copyExpandedProfile()">Copy</button>
-                    <button class="btn btn-primary" id="expanded-download-btn" onclick="downloadExpandedProfile()">Download</button>
+                    <div class="expanded-format-toggles">
+                        <div class="expanded-format-option">
+                            <div class="expanded-radio-button checked">
+                                <div class="expanded-radio-outer"></div>
+                                <div class="expanded-radio-inner"></div>
+                            </div>
+                            <label for="expanded-format-markdown">MARKDOWN</label>
+                        </div>
+                        <div class="expanded-format-option">
+                            <div class="expanded-radio-button">
+                                <div class="expanded-radio-outer"></div>
+                            </div>
+                            <label for="expanded-format-json">JSON</label>
+                        </div>
+                        <div class="expanded-format-option">
+                            <div class="expanded-radio-button">
+                                <div class="expanded-radio-outer"></div>
+                            </div>
+                            <label for="expanded-format-agent">AGENT</label>
+                        </div>
+                    </div>
+                    <button class="btn btn-secondary" id="expanded-copy-btn" onclick="copyExpandedProfile()">COPY</button>
+                    <button class="btn btn-primary" id="expanded-download-btn" onclick="downloadExpandedProfile()">DOWNLOAD</button>
                     <div class="close-expanded" onclick="closeExpandedProfile()">×</div>
                 </div>
             </div>
@@ -2613,7 +2647,9 @@
 
             // Update the expanded profile content
             document.getElementById('expanded-name').textContent = profile.name;
-            document.getElementById('expanded-subtitle').textContent = `${profile.archetype} • ${profile.domain}`;
+            document.getElementById('expanded-archetype').textContent = profile.archetype || '';
+            document.getElementById('expanded-domain').textContent = profile.domain || '';
+            document.getElementById('expanded-subdomain').textContent = profile.sub_domain || '';
             
             const content = document.getElementById('expanded-content');
             
@@ -2728,6 +2764,29 @@
             if (closeComparisonBtn) closeComparisonBtn.addEventListener('click', hideComparison);
             
             // Colophon button now uses onclick directly
+            
+            // Add expanded modal format radio button listeners
+            const expandedFormatOptions = document.querySelectorAll('.expanded-format-option');
+            expandedFormatOptions.forEach((option, index) => {
+                option.addEventListener('click', () => {
+                    // Remove checked class from all expanded radio buttons
+                    expandedFormatOptions.forEach(opt => {
+                        const radioBtn = opt.querySelector('.expanded-radio-button');
+                        const radioInner = opt.querySelector('.expanded-radio-inner');
+                        radioBtn.classList.remove('checked');
+                        if (radioInner) radioInner.remove();
+                    });
+                    
+                    // Add checked class to clicked radio button
+                    const radioBtn = option.querySelector('.expanded-radio-button');
+                    radioBtn.classList.add('checked');
+                    
+                    // Add inner circle
+                    const radioInner = document.createElement('div');
+                    radioInner.className = 'expanded-radio-inner';
+                    radioBtn.appendChild(radioInner);
+                });
+            });
             
             // Add format radio button listeners
             const formatOptions = document.querySelectorAll('.format-option');
