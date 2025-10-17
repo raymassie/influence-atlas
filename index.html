@@ -1029,7 +1029,10 @@
                         });
                     }
                 });
-                document.getElementById('search-filter').addEventListener('input', debouncedFilterProfiles);
+                const searchFilter = document.getElementById('search-filter');
+                if (searchFilter) {
+                    searchFilter.addEventListener('input', debouncedFilterProfiles);
+                }
                 console.log('✓ Event listeners added to all filters with cascading support');
             }, 100);
         }
@@ -1319,7 +1322,8 @@
             // Update navigation count display
             const totalCountNav = document.getElementById('total-count-nav');
             if (totalCountNav) totalCountNav.textContent = allProfiles.length;
-            document.getElementById('visible-count-nav').textContent = allProfiles.length;
+            const visibleCountNav = document.getElementById('visible-count-nav');
+            if (visibleCountNav) visibleCountNav.textContent = allProfiles.length;
             
             // Create alphabet navigation
             const alphabetNav = document.getElementById('alphabet-nav');
