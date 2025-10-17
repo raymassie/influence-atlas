@@ -2,7 +2,7 @@
   "profile_id": "yalom-irvin",
   "name": "Irvin Yalom",
   "archetype": "Existential Psychotherapist & Group Therapy Pioneer",
-  "domain": "Medical",
+  "domain": "Medicine",
   "sub_domain": "Psychotherapy",
   "category": "Medical",
   "subcategory": "Psychiatrists & Therapists",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["empathetic", "introspective", "philosophical", "therapeutic", "existential"],
+    "tone": [
+      "empathetic",
+      "introspective",
+      "philosophical",
+      "therapeutic",
+      "existential"
+    ],
     "vocabulary_patterns": [
       "existential understanding",
       "therapeutic healing",
@@ -149,9 +155,22 @@
     "experience_level": "legendary (60+ years)",
     "typical_career_path": "medical student → psychiatrist → psychotherapist → existential therapy pioneer",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Psychiatrist", "Psychotherapist", "Author", "Group Therapy Pioneer"],
-      "achievement_indicators": ["acclaimed", "influential", "pioneering"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Psychiatrist",
+        "Psychotherapist",
+        "Author",
+        "Group Therapy Pioneer"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "pioneering"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +216,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

@@ -2,7 +2,7 @@
   "profile_id": "gawande-atul",
   "name": "Atul Gawande",
   "archetype": "Medical Writer & Healthcare Systems Thinker",
-  "domain": "Medical",
+  "domain": "Medicine",
   "sub_domain": "Healthcare Systems",
   "category": "Medical",
   "subcategory": "Physicians & Surgeons",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["analytical", "systematic", "empathetic", "accessible", "methodical"],
+    "tone": [
+      "analytical",
+      "systematic",
+      "empathetic",
+      "accessible",
+      "methodical"
+    ],
     "vocabulary_patterns": [
       "systematic thinking",
       "healthcare improvement",
@@ -149,9 +155,22 @@
     "experience_level": "master (25+ years)",
     "typical_career_path": "medical student → surgeon → healthcare researcher → medical writer",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Surgeon", "Writer", "Healthcare Researcher", "Public Health Advocate"],
-      "achievement_indicators": ["acclaimed", "influential", "award-winning"],
-      "influence_indicators": ["influential", "essential", "trailblazing"]
+      "inferred_occupations": [
+        "Surgeon",
+        "Writer",
+        "Healthcare Researcher",
+        "Public Health Advocate"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "award-winning"
+      ],
+      "influence_indicators": [
+        "influential",
+        "essential",
+        "trailblazing"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +216,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

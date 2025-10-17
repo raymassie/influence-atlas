@@ -2,7 +2,7 @@
   "profile_id": "knuth-donald",
   "name": "Donald Knuth",
   "archetype": "Computer Scientist & Algorithm Pioneer",
-  "domain": "Technology Services",
+  "domain": "Technology",
   "sub_domain": "Computer Science",
   "category": "Technology Services",
   "subcategory": "Computer Scientists",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["systematic", "mathematical", "educational", "perfectionist", "analytical"],
+    "tone": [
+      "systematic",
+      "mathematical",
+      "educational",
+      "perfectionist",
+      "analytical"
+    ],
     "vocabulary_patterns": [
       "mathematical precision",
       "educational excellence",
@@ -149,9 +155,22 @@
     "experience_level": "legendary (60+ years)",
     "typical_career_path": "mathematics student → computer scientist → algorithm pioneer → educational legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Computer Scientist", "Mathematician", "Educator", "Algorithm Pioneer"],
-      "achievement_indicators": ["acclaimed", "influential", "pioneering"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Computer Scientist",
+        "Mathematician",
+        "Educator",
+        "Algorithm Pioneer"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "pioneering"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {

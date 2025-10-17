@@ -2,7 +2,7 @@
   "profile_id": "sacks-oliver",
   "name": "Oliver Sacks",
   "archetype": "Neurologist & Medical Storyteller",
-  "domain": "Medical",
+  "domain": "Medicine",
   "sub_domain": "Neurology",
   "category": "Medical",
   "subcategory": "Neurologists",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["compassionate", "curious", "observant", "literary", "empathetic"],
+    "tone": [
+      "compassionate",
+      "curious",
+      "observant",
+      "literary",
+      "empathetic"
+    ],
     "vocabulary_patterns": [
       "neurological understanding",
       "human compassion",
@@ -149,9 +155,21 @@
     "experience_level": "legendary (50+ years)",
     "typical_career_path": "medical student → neurologist → literary storyteller → medical legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Neurologist", "Author", "Medical Storyteller"],
-      "achievement_indicators": ["acclaimed", "influential", "award-winning"],
-      "influence_indicators": ["legendary", "essential", "master"]
+      "inferred_occupations": [
+        "Neurologist",
+        "Author",
+        "Medical Storyteller"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "award-winning"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "essential",
+        "master"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +215,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

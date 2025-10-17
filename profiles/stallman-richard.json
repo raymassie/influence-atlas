@@ -2,7 +2,7 @@
   "profile_id": "stallman-richard",
   "name": "Richard Stallman",
   "archetype": "Software Freedom Activist & Free Software Pioneer",
-  "domain": "Technology Services",
+  "domain": "Technology",
   "sub_domain": "Software Development",
   "category": "Technology Services",
   "subcategory": "Software Developers",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["activist", "principled", "systematic", "idealistic", "persistent"],
+    "tone": [
+      "activist",
+      "principled",
+      "systematic",
+      "idealistic",
+      "persistent"
+    ],
     "vocabulary_patterns": [
       "software freedom",
       "principled advocacy",
@@ -149,9 +155,21 @@
     "experience_level": "master (40+ years)",
     "typical_career_path": "computer science student → software developer → free software advocate → activist legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Software Developer", "Activist", "Free Software Advocate"],
-      "achievement_indicators": ["acclaimed", "influential", "revolutionary"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Software Developer",
+        "Activist",
+        "Free Software Advocate"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "revolutionary"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +215,3 @@
     "delegation_approach": "empowers fully"
   }
 }
-

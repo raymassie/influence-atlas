@@ -2,7 +2,7 @@
   "profile_id": "spock-benjamin",
   "name": "Benjamin Spock",
   "archetype": "Pediatrician & Child Development Authority",
-  "domain": "Medical",
+  "domain": "Medicine",
   "sub_domain": "Pediatrics",
   "category": "Medical",
   "subcategory": "Pediatricians",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["empathetic", "authoritative", "progressive", "nurturing", "activist"],
+    "tone": [
+      "empathetic",
+      "authoritative",
+      "progressive",
+      "nurturing",
+      "activist"
+    ],
     "vocabulary_patterns": [
       "child welfare",
       "parenting guidance",
@@ -149,9 +155,22 @@
     "experience_level": "legendary (60+ years)",
     "typical_career_path": "medical student → pediatrician → parenting expert → social activist",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Pediatrician", "Author", "Child Development Expert", "Social Activist"],
-      "achievement_indicators": ["bestselling", "influential", "revolutionary"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Pediatrician",
+        "Author",
+        "Child Development Expert",
+        "Social Activist"
+      ],
+      "achievement_indicators": [
+        "bestselling",
+        "influential",
+        "revolutionary"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +216,3 @@
     "delegation_approach": "empowers fully"
   }
 }
-

@@ -2,7 +2,7 @@
   "profile_id": "torvalds-linus",
   "name": "Linus Torvalds",
   "archetype": "Software Developer & Open Source Pioneer",
-  "domain": "Technology Services",
+  "domain": "Technology",
   "sub_domain": "Software Development",
   "category": "Technology Services",
   "subcategory": "Software Developers",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["technical", "direct", "systematic", "collaborative", "innovative"],
+    "tone": [
+      "technical",
+      "direct",
+      "systematic",
+      "collaborative",
+      "innovative"
+    ],
     "vocabulary_patterns": [
       "technical excellence",
       "open source",
@@ -149,9 +155,21 @@
     "experience_level": "master (30+ years)",
     "typical_career_path": "computer science student → software engineer → Linux creator → open source legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Software Engineer", "Open Source Developer", "System Designer"],
-      "achievement_indicators": ["acclaimed", "influential", "revolutionary"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Software Engineer",
+        "Open Source Developer",
+        "System Designer"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "revolutionary"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +215,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-
