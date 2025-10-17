@@ -18,30 +18,6 @@
             <p>Context for expert authenticity</p>
         </div>
 
-        <!-- Desktop Navigation - Full Width -->
-        <div class="desktop-nav">
-            <div class="nav-left">
-                <span id="visible-count-nav">0</span> of <span id="total-count-nav">0</span> profiles
-                <button class="view-toggle-single grid-view" onclick="toggleView()">Grid View</button>
-                <button id="download-btn" class="btn btn-secondary" onclick="downloadSelected()" disabled>Download Selected</button>
-                <button id="clear-btn" class="btn btn-outline" onclick="clearSelections()" disabled>Clear</button>
-            </div>
-            
-            <div class="nav-center">
-                <!-- Quick Navigation -->
-                <div class="quick-nav">
-                    <div class="alphabet-links" id="alphabet-nav">
-                        <!-- Will be populated by JavaScript -->
-                    </div>
-                </div>
-            </div>
-            
-            <div class="nav-right">
-                <div class="search-container">
-                    <input type="text" id="search-filter" placeholder="Search profiles... (Ctrl+F)" onkeyup="debouncedFilterProfiles()">
-                </div>
-            </div>
-        </div>
 
         <!-- Mobile Filter Header -->
         <div class="mobile-filter-header">
