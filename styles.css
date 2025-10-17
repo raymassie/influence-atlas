@@ -205,7 +205,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 
 .nav-separator {
     width: 2px;
-    height: 48px;
+    height: 24px;
     background: rgba(40, 54, 24, 0.66);
 }
 
