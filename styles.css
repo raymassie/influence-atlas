@@ -868,7 +868,6 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     align-content: flex-start; 
 }
 .profile-actions { 
-    padding: 4px 16px; 
     border-radius: 4px; 
     display: flex; 
     justify-content: flex-end; 
@@ -939,7 +938,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     box-shadow: 0 2px 8px rgba(40, 54, 24, 0.3);
 }
 .btn-details {
-    flex: 1;
+    width: 100%;
     padding: 16px;
     border: none;
     border-radius: 4px;
