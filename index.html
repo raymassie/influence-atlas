@@ -32,14 +32,12 @@
                     <span class="count-text">SELECTED</span>
                 </div>
                 <button id="clear-selections-btn" class="btn-clear" onclick="clearSelections()" disabled>CLEAR</button>
-                <button id="copy-selected-btn" class="btn-action" onclick="copySelected()" disabled>COPY</button>
-                <button id="download-selected-btn" class="btn-action" onclick="downloadSelected()" disabled>DOWNLOAD</button>
             </div>
             
             <div class="nav-separator"></div>
             
             <div class="nav-center">
-                <!-- Format Toggles -->
+                <!-- Format Toggles with Actions -->
                 <div class="format-toggles">
                     <div class="format-option">
                         <div class="radio-button checked">
@@ -61,6 +59,8 @@
                         <label for="format-agent">AGENT</label>
                     </div>
                 </div>
+                <button id="copy-selected-btn" class="btn-action" onclick="copySelected()" disabled>COPY</button>
+                <button id="download-selected-btn" class="btn-action" onclick="downloadSelected()" disabled>DOWNLOAD</button>
             </div>
             
             <div class="nav-separator"></div>
