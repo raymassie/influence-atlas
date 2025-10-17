@@ -1327,6 +1327,8 @@
             
             // Create alphabet navigation
             const alphabetNav = document.getElementById('alphabet-nav');
+            if (!alphabetNav) return; // Skip if alphabet nav doesn't exist
+            
             const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
             
             // Get first letters of all profile last names
