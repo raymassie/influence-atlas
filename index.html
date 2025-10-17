@@ -18,37 +18,27 @@
             <p>Context for expert authenticity</p>
         </div>
 
-        <!-- Top Navigation Bar -->
-        <div class="top-nav">
-            <div class="top-nav-left">
-                <div class="selection-counter">
-                    <span id="selected-count">0</span> of <span id="total-count">256</span> SELECTED
-                </div>
-                <button id="clear-selections-btn" class="btn-clear" onclick="clearSelections()" disabled>CLEAR</button>
+        <!-- Desktop Navigation - Full Width -->
+        <div class="desktop-nav">
+            <div class="nav-left">
+                <span id="visible-count-nav">0</span> of <span id="total-count-nav">0</span> profiles
+                <button class="view-toggle-single grid-view" onclick="toggleView()">Grid View</button>
+                <button id="download-btn" class="btn btn-secondary" onclick="downloadSelected()" disabled>Download Selected</button>
+                <button id="clear-btn" class="btn btn-outline" onclick="clearSelections()" disabled>Clear</button>
             </div>
             
-            <div class="top-nav-center">
-                <div class="format-toggles">
-                    <div class="format-option">
-                        <input type="radio" id="format-markdown" name="export-format" value="markdown" checked>
-                        <label for="format-markdown">MARKDOWN</label>
-                    </div>
-                    <div class="format-option">
-                        <input type="radio" id="format-json" name="export-format" value="json">
-                        <label for="format-json">JSON</label>
-                    </div>
-                    <div class="format-option">
-                        <input type="radio" id="format-agent" name="export-format" value="agent">
-                        <label for="format-agent">AGENT</label>
+            <div class="nav-center">
+                <!-- Quick Navigation -->
+                <div class="quick-nav">
+                    <div class="alphabet-links" id="alphabet-nav">
+                        <!-- Will be populated by JavaScript -->
                     </div>
                 </div>
             </div>
             
-            <div class="top-nav-right">
-                <button id="copy-selected-btn" class="btn-action" onclick="copySelected()" disabled>COPY</button>
-                <button id="download-selected-btn" class="btn-action" onclick="downloadSelected()" disabled>DOWNLOAD</button>
+            <div class="nav-right">
                 <div class="search-container">
-                    <input type="text" id="search-filter" placeholder="Search Profiles" onkeyup="debouncedFilterProfiles()">
+                    <input type="text" id="search-filter" placeholder="Search profiles... (Ctrl+F)" onkeyup="debouncedFilterProfiles()">
                 </div>
             </div>
         </div>
@@ -1351,7 +1341,8 @@
 
         function initializeQuickNavigation() {
             // Update navigation count display
-            document.getElementById('total-count-nav').textContent = allProfiles.length;
+            const totalCountNav = document.getElementById('total-count-nav');
+            if (totalCountNav) totalCountNav.textContent = allProfiles.length;
             document.getElementById('visible-count-nav').textContent = allProfiles.length;
             
             // Create alphabet navigation
@@ -1422,7 +1413,8 @@
         }
 
         function updateQuickNavigationStats() {
-            document.getElementById('visible-count-nav').textContent = filteredProfiles.length;
+            const visibleCountNav = document.getElementById('visible-count-nav');
+            if (visibleCountNav) visibleCountNav.textContent = filteredProfiles.length;
         }
 
         // Debounced search for better performance
@@ -1951,8 +1943,10 @@
             // Count updates removed - counts now handled in navigation
             
             // Update navigation count display
-            document.getElementById('visible-count-nav').textContent = filteredProfiles.length;
-            document.getElementById('total-count-nav').textContent = allProfiles.length;
+            const visibleCountNav = document.getElementById('visible-count-nav');
+            if (visibleCountNav) visibleCountNav.textContent = filteredProfiles.length;
+            const totalCountNav = document.getElementById('total-count-nav');
+            if (totalCountNav) totalCountNav.textContent = allProfiles.length;
 
             if (filteredProfiles.length === 0) {
                 console.log('⚠️ No profiles to display');
@@ -2689,17 +2683,10 @@
             console.log('🔄 DOM Content Loaded');
             loadProfiles();
             
-            // Initialize top navigation bar
-            updateComparisonUI();
-            
             // Add event listeners after DOM is ready
-            const compareBtn = document.getElementById('compare-btn');
-            const clearComparisonBtn = document.getElementById('clear-comparison-btn');
-            const closeComparisonBtn = document.getElementById('close-comparison-btn');
-            
-            if (compareBtn) compareBtn.addEventListener('click', showComparison);
-            if (clearComparisonBtn) clearComparisonBtn.addEventListener('click', clearComparison);
-            if (closeComparisonBtn) closeComparisonBtn.addEventListener('click', hideComparison);
+            document.getElementById('compare-btn').addEventListener('click', showComparison);
+            document.getElementById('clear-comparison-btn').addEventListener('click', clearComparison);
+            document.getElementById('close-comparison-btn').addEventListener('click', hideComparison);
             
             // Add colophon button listener
             const colophonBtn = document.getElementById('colophon-btn');
@@ -2854,33 +2841,17 @@
 
         function updateComparisonUI() {
             const count = selectedProfiles.length;
-            const totalCount = allProfiles.length;
+            document.getElementById('comparison-count').textContent = count;
+            document.getElementById('compare-btn').disabled = count < 2;
             
-            // Update top navigation bar
-            document.getElementById('selected-count').textContent = count;
-            document.getElementById('total-count').textContent = totalCount;
-            document.getElementById('clear-selections-btn').disabled = count === 0;
-            document.getElementById('copy-selected-btn').disabled = count === 0;
-            document.getElementById('download-selected-btn').disabled = count === 0;
+            // Update download and clear button states
+            document.getElementById('download-btn').disabled = count === 0;
+            document.getElementById('clear-btn').disabled = count === 0;
             
-            // Update legacy comparison UI (if elements exist)
-            const comparisonCount = document.getElementById('comparison-count');
-            const compareBtn = document.getElementById('compare-btn');
-            const downloadBtn = document.getElementById('download-btn');
-            const clearBtn = document.getElementById('clear-btn');
-            
-            if (comparisonCount) comparisonCount.textContent = count;
-            if (compareBtn) compareBtn.disabled = count < 2;
-            if (downloadBtn) downloadBtn.disabled = count === 0;
-            if (clearBtn) clearBtn.disabled = count === 0;
-            
-            const comparisonPanel = document.getElementById('comparison-panel');
-            if (comparisonPanel) {
-                if (count > 0) {
-                    comparisonPanel.classList.add('show');
-                } else {
-                    comparisonPanel.classList.remove('show');
-                }
+            if (count > 0) {
+                document.getElementById('comparison-panel').classList.add('show');
+            } else {
+                document.getElementById('comparison-panel').classList.remove('show');
             }
         }
 
@@ -2963,71 +2934,8 @@
             clearComparison();
         }
 
-        function copySelected() {
-            if (selectedProfiles.length === 0) return;
-            
-            const format = document.querySelector('input[name="export-format"]:checked').value;
-            let content = '';
-            
-            if (format === 'markdown') {
-                content = selectedProfiles.map(profile => 
-                    `# ${profile.name}\n\n**Archetype:** ${profile.archetype}\n**Domain:** ${profile.domain}\n**Subdomain:** ${profile.subdomain}\n\n`
-                ).join('\n---\n\n');
-            } else if (format === 'json') {
-                content = JSON.stringify(selectedProfiles, null, 2);
-            } else if (format === 'agent') {
-                content = selectedProfiles.map(profile => 
-                    `Profile: ${profile.name}\nArchetype: ${profile.archetype}\nDomain: ${profile.domain}\nSubdomain: ${profile.subdomain}\nTraits: ${profile.psychological_profile?.primary_traits || 'N/A'}\n\n`
-                ).join('---\n\n');
-            }
-            
-            navigator.clipboard.writeText(content).then(() => {
-                // Show brief success feedback
-                const btn = document.getElementById('copy-selected-btn');
-                const originalText = btn.textContent;
-                btn.textContent = 'COPIED!';
-                btn.style.color = '#606C38';
-                setTimeout(() => {
-                    btn.textContent = originalText;
-                    btn.style.color = '';
-                }, 1000);
-            }).catch(err => {
-                console.error('Failed to copy: ', err);
-                alert('Failed to copy to clipboard');
-            });
-        }
-
         function downloadSelected() {
-            if (selectedProfiles.length === 0) return;
-            
-            const format = document.querySelector('input[name="export-format"]:checked').value;
-            let content = '';
-            let filename = '';
-            
-            if (format === 'markdown') {
-                content = selectedProfiles.map(profile => 
-                    `# ${profile.name}\n\n**Archetype:** ${profile.archetype}\n**Domain:** ${profile.domain}\n**Subdomain:** ${profile.subdomain}\n\n`
-                ).join('\n---\n\n');
-                filename = `selected-profiles-${selectedProfiles.length}.md`;
-            } else if (format === 'json') {
-                content = JSON.stringify(selectedProfiles, null, 2);
-                filename = `selected-profiles-${selectedProfiles.length}.json`;
-            } else if (format === 'agent') {
-                content = selectedProfiles.map(profile => 
-                    `Profile: ${profile.name}\nArchetype: ${profile.archetype}\nDomain: ${profile.domain}\nSubdomain: ${profile.subdomain}\nTraits: ${profile.psychological_profile?.primary_traits || 'N/A'}\n\n`
-                ).join('---\n\n');
-                filename = `selected-profiles-${selectedProfiles.length}.txt`;
-            }
-            
-            const blob = new Blob([content], { type: 'text/plain' });
-            const url = URL.createObjectURL(blob);
-            const link = document.createElement('a');
-            link.href = url;
-            link.download = filename;
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-            URL.revokeObjectURL(url);
+            exportFilteredProfiles();
         }
     </script>
 </body>
