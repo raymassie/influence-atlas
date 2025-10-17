@@ -10,8 +10,8 @@ This application provides rich, searchable profiles of 265+ influential figures 
 
 ## Features
 
-- **Rich Profile Data**: 320+ standardized traits across 20 behavioral categories
-- **Advanced Filtering**: 25+ filters including 7 Behavioral Humanism dimensions
+- **Rich Profile Data**: 320+ standardized traits across 23 behavioral categories
+- **Advanced Filtering**: 28+ filters including 10 Behavioral Humanism dimensions + 6 Tier 1/2 categories
 - **Trait-Based Discovery**: Click any trait chip to find similar profiles
 - **Hierarchical Color System**: Color-coded traits by category with automatic contrast adjustment for accessibility
 - **Full-Screen Detail View**: Clean category cards with clickable trait chips
@@ -26,9 +26,9 @@ This application provides rich, searchable profiles of 265+ influential figures 
 - **165 Archetypes**: Specific role types and professional identities
 - **28 Domains**: Primary fields of work
 - **193 Subdomains**: Specialized areas within domains
-- **20 Behavioral Categories**: Comprehensive framework including Behavioral Humanism
+- **23 Behavioral Categories**: Comprehensive framework including Behavioral Humanism + Tier 1/2
 - **320+ Standardized Traits**: Consolidated and verified characteristics
-- **155 Data Fields**: Comprehensive profile attributes with 90%+ coverage
+- **170 Data Fields**: Comprehensive profile attributes with 90%+ coverage (added 15 Tier 2 fields)
 
 ## Behavioral Humanism Framework
 
@@ -47,7 +47,17 @@ Profiles are evaluated through an integrated framework combining:
 6. **Self Actualization**: Peak experiences, autonomy, purpose alignment
 7. **Behavioral Growth**: Adaptation patterns and resilience indicators
 
-**Traditional Categories (18 additional):**
+**Tier 1 Expansion (3 modern dimensions - v9.0):**
+8. **Technology Relationship**: Technology adoption, digital fluency, AI perspective
+9. **Crisis Response**: Stress patterns, failure recovery, uncertainty tolerance
+10. **Influence Style**: Persuasion approach, rhetoric style, change mechanism
+
+**Tier 2 Expansion (3 interpersonal dimensions - v10.0):**
+11. **Resource Relationship**: Wealth perspective, generosity patterns, financial risk appetite
+12. **Time Orientation**: Time horizon, legacy concern, intergenerational thinking
+13. **Collaboration Enhancement**: Conflict resolution, mentorship, delegation approach
+
+**Traditional Categories (17 additional):**
 - Psychological Profile
 - Communication Style & Communication
 - Collaboration

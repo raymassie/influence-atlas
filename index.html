@@ -459,6 +459,45 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Tier 2 Expansion: Resource Relationship -->
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('resource-relationship-filter')">
+                        <span>Resource Relationship</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="resource-relationship-filter-content">
+                        <div class="filter-group">
+                            <select id="resource-relationship-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tier 2 Expansion: Time Orientation -->
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('time-orientation-filter')">
+                        <span>Time Orientation</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="time-orientation-filter-content">
+                        <div class="filter-group">
+                            <select id="time-orientation-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tier 2 Expansion: Collaboration Enhancement -->
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('collaboration-enhancement-filter')">
+                        <span>Collaboration Enhancement</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div class="filter-content" id="collaboration-enhancement-filter-content">
+                        <div class="filter-group">
+                            <select id="collaboration-enhancement-filter" multiple></select>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- Colophon Button - Bottom of left column, outside filters frame -->
@@ -1057,7 +1096,10 @@
                 'behavioral-growth-filter': 'behavioral_growth.adaptation_patterns',
                 'technology-filter': 'technology_relationship.technology_adoption',
                 'crisis-response-filter': 'crisis_response.stress_response_pattern',
-                'influence-style-filter': 'influence_style.persuasion_approach'
+                'influence-style-filter': 'influence_style.persuasion_approach',
+                'resource-relationship-filter': 'resource_relationship.wealth_perspective',
+                'time-orientation-filter': 'time_orientation.time_horizon',
+                'collaboration-enhancement-filter': 'collaboration_enhancement.conflict_resolution_style'
             };
 
             console.log('🔍 Checking each filter element...');
@@ -1157,7 +1199,10 @@
                 'behavioral-growth-filter': 'behavioral_growth.adaptation_patterns',
                 'technology-filter': 'technology_relationship.technology_adoption',
                 'crisis-response-filter': 'crisis_response.stress_response_pattern',
-                'influence-style-filter': 'influence_style.persuasion_approach'
+                'influence-style-filter': 'influence_style.persuasion_approach',
+                'resource-relationship-filter': 'resource_relationship.wealth_perspective',
+                'time-orientation-filter': 'time_orientation.time_horizon',
+                'collaboration-enhancement-filter': 'collaboration_enhancement.conflict_resolution_style'
             };
 
             let filtered = allProfiles;
@@ -1220,7 +1265,10 @@
                 'behavioral-growth-filter': 'behavioral_growth.adaptation_patterns',
                 'technology-filter': 'technology_relationship.technology_adoption',
                 'crisis-response-filter': 'crisis_response.stress_response_pattern',
-                'influence-style-filter': 'influence_style.persuasion_approach'
+                'influence-style-filter': 'influence_style.persuasion_approach',
+                'resource-relationship-filter': 'resource_relationship.wealth_perspective',
+                'time-orientation-filter': 'time_orientation.time_horizon',
+                'collaboration-enhancement-filter': 'collaboration_enhancement.conflict_resolution_style'
             };
 
             // Get currently filtered profiles based on all current selections
@@ -1331,7 +1379,10 @@
                 'behavioral-growth-filter': 'behavioral_growth.adaptation_patterns',
                 'technology-filter': 'technology_relationship.technology_adoption',
                 'crisis-response-filter': 'crisis_response.stress_response_pattern',
-                'influence-style-filter': 'influence_style.persuasion_approach'
+                'influence-style-filter': 'influence_style.persuasion_approach',
+                'resource-relationship-filter': 'resource_relationship.wealth_perspective',
+                'time-orientation-filter': 'time_orientation.time_horizon',
+                'collaboration-enhancement-filter': 'collaboration_enhancement.conflict_resolution_style'
             };
             
             // Clear all filter selections
@@ -1614,6 +1665,11 @@
             const selectedTechnology = Array.from(document.getElementById('technology-filter').selectedOptions).map(option => option.value);
             const selectedCrisisResponse = Array.from(document.getElementById('crisis-response-filter').selectedOptions).map(option => option.value);
             const selectedInfluenceStyle = Array.from(document.getElementById('influence-style-filter').selectedOptions).map(option => option.value);
+            
+            // Tier 2 category filters
+            const selectedResourceRelationship = Array.from(document.getElementById('resource-relationship-filter').selectedOptions).map(option => option.value);
+            const selectedTimeOrientation = Array.from(document.getElementById('time-orientation-filter').selectedOptions).map(option => option.value);
+            const selectedCollaborationEnhancement = Array.from(document.getElementById('collaboration-enhancement-filter').selectedOptions).map(option => option.value);
 
             // 🚀 PERFORMANCE: Create filter state signature for memoization
             const filterState = JSON.stringify({
@@ -1645,7 +1701,10 @@
                 selectedBehavioralGrowth,
                 selectedTechnology,
                 selectedCrisisResponse,
-                selectedInfluenceStyle
+                selectedInfluenceStyle,
+                selectedResourceRelationship,
+                selectedTimeOrientation,
+                selectedCollaborationEnhancement
             });
             
             // Check cache
@@ -1689,7 +1748,10 @@
                 selectedBehavioralGrowth.length > 0 ||
                 selectedTechnology.length > 0 ||
                 selectedCrisisResponse.length > 0 ||
-                selectedInfluenceStyle.length > 0;
+                selectedInfluenceStyle.length > 0 ||
+                selectedResourceRelationship.length > 0 ||
+                selectedTimeOrientation.length > 0 ||
+                selectedCollaborationEnhancement.length > 0;
 
             if (!hasAnySelections) {
                 console.log('✓ No filters selected - showing all profiles');
@@ -1941,6 +2003,40 @@
                         return false;
                     });
 
+                // Tier 2 Expansion: Resource Relationship filters
+                // resource_relationship.wealth_perspective
+                let matchesResourceRelationship = selectedResourceRelationship.length === 0 || 
+                    selectedResourceRelationship.some(resource => {
+                        const value = profile.resource_relationship?.wealth_perspective;
+                        if (!value) return false;
+                        if (typeof value === 'string') {
+                            return value.toLowerCase().includes(resource.toLowerCase());
+                        }
+                        return false;
+                    });
+
+                // time_orientation.time_horizon
+                let matchesTimeOrientation = selectedTimeOrientation.length === 0 || 
+                    selectedTimeOrientation.some(time => {
+                        const value = profile.time_orientation?.time_horizon;
+                        if (!value) return false;
+                        if (typeof value === 'string') {
+                            return value.toLowerCase().includes(time.toLowerCase());
+                        }
+                        return false;
+                    });
+
+                // collaboration_enhancement.conflict_resolution_style
+                let matchesCollaborationEnhancement = selectedCollaborationEnhancement.length === 0 || 
+                    selectedCollaborationEnhancement.some(collab => {
+                        const value = profile.collaboration_enhancement?.conflict_resolution_style;
+                        if (!value) return false;
+                        if (typeof value === 'string') {
+                            return value.toLowerCase().includes(collab.toLowerCase());
+                        }
+                        return false;
+                    });
+
                 // Only apply filters that have actual selections
                 let passesAllFilters = true;
                 
@@ -1973,6 +2069,9 @@
                 if (selectedTechnology.length > 0) passesAllFilters = passesAllFilters && matchesTechnology;
                 if (selectedCrisisResponse.length > 0) passesAllFilters = passesAllFilters && matchesCrisisResponse;
                 if (selectedInfluenceStyle.length > 0) passesAllFilters = passesAllFilters && matchesInfluenceStyle;
+                if (selectedResourceRelationship.length > 0) passesAllFilters = passesAllFilters && matchesResourceRelationship;
+                if (selectedTimeOrientation.length > 0) passesAllFilters = passesAllFilters && matchesTimeOrientation;
+                if (selectedCollaborationEnhancement.length > 0) passesAllFilters = passesAllFilters && matchesCollaborationEnhancement;
                 
                 return passesAllFilters;
             });
@@ -2093,10 +2192,10 @@
                                         return traitArray.map(trait => `<span class="trait-tag clickable-badge" onclick="searchByBadge('${trait.replace(/'/g, "\\'")}', event)" title="Click to find other profiles with this trait">${trait}</span>`).join('');
                                     })()}
                                 </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="profile-actions">
+                        <div class="profile-actions">
                         <button class="btn btn-details" onclick="expandProfile('${profile.name}', event); event.stopPropagation()">Details</button>
                     </div>
                 `;
@@ -2357,6 +2456,39 @@
                         { title: 'RHETORIC STYLE', field: 'influence_style.rhetoric_style' },
                         { title: 'CREDIBILITY SOURCE', field: 'influence_style.credibility_source' },
                         { title: 'CHANGE MECHANISM', field: 'influence_style.change_mechanism' }
+                    ]
+                },
+                {
+                    title: 'Resource Relationship',
+                    category: 'Resource Relationship',
+                    sections: [
+                        { title: 'WEALTH PERSPECTIVE', field: 'resource_relationship.wealth_perspective' },
+                        { title: 'RESOURCE ALLOCATION PRIORITY', field: 'resource_relationship.resource_allocation_priority' },
+                        { title: 'GENEROSITY PATTERN', field: 'resource_relationship.generosity_pattern' },
+                        { title: 'FINANCIAL RISK APPETITE', field: 'resource_relationship.financial_risk_appetite' },
+                        { title: 'RESOURCE TRANSPARENCY', field: 'resource_relationship.resource_transparency' }
+                    ]
+                },
+                {
+                    title: 'Time Orientation',
+                    category: 'Time Orientation',
+                    sections: [
+                        { title: 'TIME HORIZON', field: 'time_orientation.time_horizon' },
+                        { title: 'LEGACY CONCERN', field: 'time_orientation.legacy_concern' },
+                        { title: 'PRESENT VS FUTURE BALANCE', field: 'time_orientation.present_vs_future_balance' },
+                        { title: 'INTERGENERATIONAL THINKING', field: 'time_orientation.intergenerational_thinking' },
+                        { title: 'URGENCY VS PATIENCE', field: 'time_orientation.urgency_vs_patience' }
+                    ]
+                },
+                {
+                    title: 'Collaboration Enhancement',
+                    category: 'Collaboration Enhancement',
+                    sections: [
+                        { title: 'CONFLICT RESOLUTION STYLE', field: 'collaboration_enhancement.conflict_resolution_style' },
+                        { title: 'CREDIT SHARING BEHAVIOR', field: 'collaboration_enhancement.credit_sharing_behavior' },
+                        { title: 'MENTORSHIP INCLINATION', field: 'collaboration_enhancement.mentorship_inclination' },
+                        { title: 'FEEDBACK STYLE', field: 'collaboration_enhancement.feedback_style' },
+                        { title: 'DELEGATION APPROACH', field: 'collaboration_enhancement.delegation_approach' }
                     ]
                 },
                 {

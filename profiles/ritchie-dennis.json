@@ -230,5 +230,26 @@
     "rhetoric_style": "storytelling",
     "credibility_source": "expertise",
     "change_mechanism": "incremental progress"
+  },
+  "resource_relationship": {
+    "wealth_perspective": "security need",
+    "resource_allocation_priority": "experimentation",
+    "generosity_pattern": "reciprocal",
+    "financial_risk_appetite": "calculated risks",
+    "resource_transparency": "selective disclosure"
+  },
+  "time_orientation": {
+    "time_horizon": "decade",
+    "legacy_concern": "focused on impact",
+    "present_vs_future_balance": "balanced",
+    "intergenerational_thinking": "multi-generational",
+    "urgency_vs_patience": "strategic urgency"
+  },
+  "collaboration_enhancement": {
+    "conflict_resolution_style": "diplomatic",
+    "credit_sharing_behavior": "balanced",
+    "mentorship_inclination": "natural mentor",
+    "feedback_style": "constructive and structured",
+    "delegation_approach": "structured delegation"
   }
 }

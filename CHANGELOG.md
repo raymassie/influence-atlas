@@ -2,6 +2,37 @@
 
 All notable changes to Influence Atlas will be documented in this file.
 
+## [10.0.0] - 2025-10-17
+
+### 🎉 Major Release - Tier 2 Expansion
+
+#### Added
+- **3 new category groups** with 15 total fields across all 265 profiles:
+  - **Resource Relationship** (5 fields): wealth perspective, resource allocation priority, generosity pattern, financial risk appetite, resource transparency
+  - **Time Orientation** (5 fields): time horizon, legacy concern, present vs future balance, intergenerational thinking, urgency vs patience
+  - **Collaboration Enhancement** (5 fields): conflict resolution style, credit sharing behavior, mentorship inclination, feedback style, delegation approach
+- **New filter sections** in UI for all 3 Tier 2 categories
+- **Details modal display** for all new categories with trait cards
+- **Intelligent inference system** for populating data based on existing profile fields
+- **Complete documentation**: `docs/TIER2-CATEGORIES.md` with field definitions and inference logic
+- **Population script**: `scripts/populate-tier2-categories.py`
+
+#### Changed
+- **Data fields**: 155 → 170 total profile fields
+- **Behavioral categories**: 20 → 23 categories
+- **Filters**: 25 → 28 total filters
+- **Framework depth**: Now includes resource management, temporal thinking, and interpersonal dynamics
+- **100% coverage**: All 265 profiles have complete Tier 2 data
+
+#### Technical
+- Updated `outline-cleaned.csv` with 15 new field definitions
+- Added Tier 2 filter initialization to `initializeFilters()`
+- Added Tier 2 filter matching logic to `filterProfiles()`
+- Updated category cards array with 3 new category sections
+- Regenerated `all-profiles.json` with Tier 2 data
+
+---
+
 ## [9.0.0] - 2025-10-16
 
 ### 🎉 Major Release - Tier 1 Expansion

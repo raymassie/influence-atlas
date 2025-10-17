@@ -286,5 +286,26 @@
     "rhetoric_style": "storytelling",
     "credibility_source": "track record",
     "change_mechanism": "radical disruption"
+  },
+  "resource_relationship": {
+    "wealth_perspective": "tool for impact",
+    "resource_allocation_priority": "long-term investment",
+    "generosity_pattern": "strategic philanthropist",
+    "financial_risk_appetite": "high risk tolerance",
+    "resource_transparency": "private"
+  },
+  "time_orientation": {
+    "time_horizon": "decade",
+    "legacy_concern": "obsessed with immortality",
+    "present_vs_future_balance": "sacrifice present for future",
+    "intergenerational_thinking": "multi-generational",
+    "urgency_vs_patience": "impatient"
+  },
+  "collaboration_enhancement": {
+    "conflict_resolution_style": "confrontational",
+    "credit_sharing_behavior": "credit-seeking",
+    "mentorship_inclination": "selective mentor",
+    "feedback_style": "direct and immediate",
+    "delegation_approach": "micromanages"
   }
 }
