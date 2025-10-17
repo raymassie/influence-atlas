@@ -184,80 +184,221 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 
 /* Desktop Navigation - Enhanced */
 .desktop-nav {
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 2px;
+    outline: 1px solid rgba(40, 54, 24, 0.66);
+    outline-offset: -1px;
+    justify-content: flex-start;
     align-items: center;
-    background: #ccd5ae;
-    padding: 16px 20px;
-    border-radius: 4px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    gap: 16px;
+    display: inline-flex;
     margin-bottom: 20px;
 }
 
-/* Format Toggles in Desktop Nav */
-.desktop-nav .format-toggles {
+/* Selection Counter */
+.desktop-nav .selection-counter {
+    align-self: stretch;
+    padding: 8px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
     display: flex;
+}
+
+.desktop-nav .count-badge {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: rgba(0, 0, 0, 0.05);
+    background-blend-mode: multiply;
+    border-radius: 2px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+}
+
+.desktop-nav .count-text {
+    color: #283618;
+    font-size: 10px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.desktop-nav .count-badge span {
+    color: #283618;
+    font-size: 10px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* Clear Button */
+.desktop-nav .btn-clear {
+    align-self: stretch;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0);
+    overflow: hidden;
+    border-radius: 2px;
+    outline: 1px solid rgba(255, 255, 255, 0);
+    outline-offset: -1px;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    display: flex;
+    color: rgba(96, 108, 56, 0.33);
+    font-size: 10px;
+    font-family: Inter;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 16px;
+    word-wrap: break-word;
+    border: none;
+    cursor: pointer;
+}
+
+.desktop-nav .btn-clear:not(:disabled) {
+    color: rgba(10, 13, 6, 0.66);
+}
+
+/* Format Toggles */
+.desktop-nav .format-toggles {
+    padding: 8px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    display: flex;
+}
+
+.desktop-nav .format-toggles > div {
+    align-self: stretch;
+    justify-content: center;
     align-items: center;
     gap: 20px;
+    display: flex;
 }
 
 .desktop-nav .format-option {
-    display: flex;
+    justify-content: center;
     align-items: center;
     gap: 2px;
+    display: flex;
 }
 
-.desktop-nav .format-option input[type="radio"] {
+.desktop-nav .radio-button {
     width: 10px;
     height: 10px;
-    margin: 0;
-    border-radius: 50%;
-    border: 0.67px solid #606C38;
-    background: #FEFAE0;
-    cursor: pointer;
-    appearance: none;
-    -webkit-appearance: none;
-}
-
-.desktop-nav .format-option input[type="radio"]:checked {
-    background: #606C38;
-    border-color: #606C38;
     position: relative;
 }
 
-.desktop-nav .format-option input[type="radio"]:checked::before {
-    content: '';
+.desktop-nav .radio-outer {
+    width: 10px;
+    height: 10px;
+    left: 0px;
+    top: 0px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background: #FEFAE0;
+    border-radius: 9999px;
+    border: 0.67px solid rgba(96, 108, 56, 0.66);
+}
+
+.desktop-nav .radio-button.checked .radio-outer {
+    border: 0.67px solid #606C38;
+}
+
+.desktop-nav .radio-inner {
     width: 4px;
     height: 4px;
-    border-radius: 50%;
-    background: #FEFAE0;
+    left: 3px;
+    top: 3px;
+    position: absolute;
+    background: #606C38;
+    border-radius: 9999px;
 }
 
-/* Action Buttons in Desktop Nav */
-.desktop-nav .btn {
+.desktop-nav .format-option label {
+    opacity: 0.66;
+    color: #0A0D06;
+    font-size: 10px;
+    font-family: Inter;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 24px;
+    letter-spacing: 0.30px;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+/* Action Buttons */
+.desktop-nav .btn-action {
+    align-self: stretch;
     padding: 8px;
     background: rgba(255, 255, 255, 0);
-    border: 1px solid rgba(255, 255, 255, 0);
+    overflow: hidden;
     border-radius: 2px;
+    outline: 1px solid rgba(255, 255, 255, 0);
+    outline-offset: -1px;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    display: flex;
     color: rgba(10, 13, 6, 0.66);
     font-size: 10px;
+    font-family: Inter;
     font-weight: 500;
     text-transform: uppercase;
+    line-height: 16px;
+    word-wrap: break-word;
+    border: none;
     cursor: pointer;
-    transition: all 0.2s ease;
 }
 
-.desktop-nav .btn:not(:disabled):hover {
-    background: rgba(255, 255, 255, 0.1);
-}
-
-.desktop-nav .btn:disabled {
+.desktop-nav .btn-action:disabled {
     color: rgba(96, 108, 56, 0.33);
     cursor: not-allowed;
+}
+
+/* Search Container */
+.desktop-nav .search-container {
+    align-self: stretch;
+    padding: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+}
+
+.desktop-nav .search-container input {
+    width: 179px;
+    flex: 1 1 0;
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.05);
+    background-blend-mode: multiply;
+    border-radius: 2px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+    color: rgba(10, 13, 6, 0.66);
+    font-size: 10px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+    border: none;
+}
+
+.desktop-nav .search-container input::placeholder {
+    color: rgba(10, 13, 6, 0.66);
 }
 
 .nav-left {

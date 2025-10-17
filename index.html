@@ -21,31 +21,47 @@
         <!-- Desktop Navigation - Enhanced -->
         <div class="desktop-nav">
             <div class="nav-left">
-                <span id="selected-count">0</span> of <span id="total-count">256</span> SELECTED
-                <button id="clear-selections-btn" class="btn btn-outline" onclick="clearSelections()" disabled>CLEAR</button>
+                <div class="selection-counter">
+                    <div class="count-badge">
+                        <span id="selected-count">0</span>
+                    </div>
+                    <span class="count-text">of</span>
+                    <div class="count-badge">
+                        <span id="total-count">256</span>
+                    </div>
+                    <span class="count-text">SELECTED</span>
+                </div>
+                <button id="clear-selections-btn" class="btn-clear" onclick="clearSelections()" disabled>CLEAR</button>
             </div>
             
             <div class="nav-center">
                 <!-- Format Toggles -->
                 <div class="format-toggles">
                     <div class="format-option">
-                        <input type="radio" id="format-markdown" name="export-format" value="markdown" checked>
+                        <div class="radio-button checked">
+                            <div class="radio-outer"></div>
+                            <div class="radio-inner"></div>
+                        </div>
                         <label for="format-markdown">MARKDOWN</label>
                     </div>
                     <div class="format-option">
-                        <input type="radio" id="format-json" name="export-format" value="json">
+                        <div class="radio-button">
+                            <div class="radio-outer"></div>
+                        </div>
                         <label for="format-json">JSON</label>
                     </div>
                     <div class="format-option">
-                        <input type="radio" id="format-agent" name="export-format" value="agent">
+                        <div class="radio-button">
+                            <div class="radio-outer"></div>
+                        </div>
                         <label for="format-agent">AGENT</label>
                     </div>
                 </div>
             </div>
             
             <div class="nav-right">
-                <button id="copy-selected-btn" class="btn btn-secondary" onclick="copySelected()" disabled>COPY</button>
-                <button id="download-selected-btn" class="btn btn-secondary" onclick="downloadSelected()" disabled>DOWNLOAD</button>
+                <button id="copy-selected-btn" class="btn-action" onclick="copySelected()" disabled>COPY</button>
+                <button id="download-selected-btn" class="btn-action" onclick="downloadSelected()" disabled>DOWNLOAD</button>
                 <div class="search-container">
                     <input type="text" id="search-filter" placeholder="Search Profiles" onkeyup="debouncedFilterProfiles()">
                 </div>
