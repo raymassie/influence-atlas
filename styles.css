@@ -388,7 +388,6 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 .desktop-nav .search-container input {
     width: 179px;
     flex: 1 1 0;
-    padding: 4px;
     background: rgba(0, 0, 0, 0.05);
     background-blend-mode: multiply;
     border-radius: 2px;
