@@ -220,7 +220,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 }
 
 .desktop-nav .count-badge {
-    padding: 2px 4px;
+    padding: 4px 8px;
     background: rgba(0, 0, 0, 0.05);
     background-blend-mode: multiply;
     border-radius: 2px;
