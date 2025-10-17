@@ -148,7 +148,7 @@ This project is licensed under the **Influence Atlas License** - see the [LICENS
 **Quick Summary:**
 - ✅ **Permitted**: Educational, research, personal, and non-commercial use
 - ❌ **Prohibited**: Commercial use without written permission
-- 📧 **Commercial Licensing**: Contact raymassie@gmail.com for commercial use permissions
+- 📧 **Commercial Licensing**: Contact via GitHub Issues for commercial use permissions
 
 This license protects the dataset from commercial exploitation while keeping it open for legitimate educational and research purposes.
 
