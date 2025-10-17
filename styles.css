@@ -939,7 +939,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     box-shadow: 0 2px 8px rgba(40, 54, 24, 0.3);
 }
 .btn-details {
-    width: 100%;
+    flex: 1;
     padding: 16px;
     border: none;
     border-radius: 4px;
