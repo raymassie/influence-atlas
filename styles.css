@@ -940,12 +940,12 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 }
 .btn-details {
     width: 100%;
-    padding: 8px;
+    padding: 16px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     line-height: 16px;
     text-decoration: none;
     display: flex;
@@ -955,7 +955,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     transition: all 0.2s ease;
     opacity: 0.8;
     color: #0A0D06;
-    background: transparent;
+    background: rgb(0, 0, 0, 0.1);
 }
 
 .btn-details:hover {
