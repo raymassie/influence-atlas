@@ -143,7 +143,14 @@ All profile data follows strict quality guidelines:
 
 ## License
 
-This project contains profiles of public figures based on publicly available information.
+This project is licensed under the **Influence Atlas License** - see the [LICENSE](LICENSE) file for details.
+
+**Quick Summary:**
+- ✅ **Permitted**: Educational, research, personal, and non-commercial use
+- ❌ **Prohibited**: Commercial use without written permission
+- 📧 **Commercial Licensing**: Contact raymassie@gmail.com for commercial use permissions
+
+This license protects the dataset from commercial exploitation while keeping it open for legitimate educational and research purposes.
 
 ## Contributing
 
