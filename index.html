@@ -2715,15 +2715,42 @@
             loadProfiles();
             
             // Add event listeners after DOM is ready
-            document.getElementById('compare-btn').addEventListener('click', showComparison);
-            document.getElementById('clear-comparison-btn').addEventListener('click', clearComparison);
-            document.getElementById('close-comparison-btn').addEventListener('click', hideComparison);
+            const compareBtn = document.getElementById('compare-btn');
+            const clearComparisonBtn = document.getElementById('clear-comparison-btn');
+            const closeComparisonBtn = document.getElementById('close-comparison-btn');
+            
+            if (compareBtn) compareBtn.addEventListener('click', showComparison);
+            if (clearComparisonBtn) clearComparisonBtn.addEventListener('click', clearComparison);
+            if (closeComparisonBtn) closeComparisonBtn.addEventListener('click', hideComparison);
             
             // Add colophon button listener
             const colophonBtn = document.getElementById('colophon-btn');
             if (colophonBtn) {
                 colophonBtn.addEventListener('click', openColophon);
             }
+            
+            // Add format radio button listeners
+            const formatOptions = document.querySelectorAll('.format-option');
+            formatOptions.forEach((option, index) => {
+                option.addEventListener('click', () => {
+                    // Remove checked class from all radio buttons
+                    formatOptions.forEach(opt => {
+                        const radioBtn = opt.querySelector('.radio-button');
+                        const radioInner = opt.querySelector('.radio-inner');
+                        radioBtn.classList.remove('checked');
+                        if (radioInner) radioInner.remove();
+                    });
+                    
+                    // Add checked class to clicked radio button
+                    const radioBtn = option.querySelector('.radio-button');
+                    radioBtn.classList.add('checked');
+                    
+                    // Add inner circle
+                    const radioInner = document.createElement('div');
+                    radioInner.className = 'radio-inner';
+                    radioBtn.appendChild(radioInner);
+                });
+            });
         });
 
         function clearAllFilters() {
@@ -2872,17 +2899,39 @@
 
         function updateComparisonUI() {
             const count = selectedProfiles.length;
-            document.getElementById('comparison-count').textContent = count;
-            document.getElementById('compare-btn').disabled = count < 2;
+            const totalCount = allProfiles.length;
             
-            // Update download and clear button states
-            document.getElementById('download-btn').disabled = count === 0;
-            document.getElementById('clear-btn').disabled = count === 0;
+            // Update new nav bar elements
+            const selectedCountEl = document.getElementById('selected-count');
+            const totalCountEl = document.getElementById('total-count');
+            const clearBtn = document.getElementById('clear-selections-btn');
+            const copyBtn = document.getElementById('copy-selected-btn');
+            const downloadBtn = document.getElementById('download-selected-btn');
             
-            if (count > 0) {
-                document.getElementById('comparison-panel').classList.add('show');
-            } else {
-                document.getElementById('comparison-panel').classList.remove('show');
+            if (selectedCountEl) selectedCountEl.textContent = count;
+            if (totalCountEl) totalCountEl.textContent = totalCount;
+            if (clearBtn) clearBtn.disabled = count === 0;
+            if (copyBtn) copyBtn.disabled = count === 0;
+            if (downloadBtn) downloadBtn.disabled = count === 0;
+            
+            // Update legacy comparison UI if it exists
+            const comparisonCount = document.getElementById('comparison-count');
+            const compareBtn = document.getElementById('compare-btn');
+            const downloadBtnLegacy = document.getElementById('download-btn');
+            const clearBtnLegacy = document.getElementById('clear-btn');
+            const comparisonPanel = document.getElementById('comparison-panel');
+            
+            if (comparisonCount) comparisonCount.textContent = count;
+            if (compareBtn) compareBtn.disabled = count < 2;
+            if (downloadBtnLegacy) downloadBtnLegacy.disabled = count === 0;
+            if (clearBtnLegacy) clearBtnLegacy.disabled = count === 0;
+            
+            if (comparisonPanel) {
+                if (count > 0) {
+                    comparisonPanel.classList.add('show');
+                } else {
+                    comparisonPanel.classList.remove('show');
+                }
             }
         }
 
@@ -2965,8 +3014,112 @@
             clearComparison();
         }
 
+        function getSelectedFormat() {
+            // Check which radio button is selected
+            const formatOptions = document.querySelectorAll('.format-option');
+            for (let i = 0; i < formatOptions.length; i++) {
+                const option = formatOptions[i];
+                if (option.querySelector('.radio-button').classList.contains('checked')) {
+                    const label = option.querySelector('label').textContent.toLowerCase();
+                    return label;
+                }
+            }
+            return 'markdown'; // default
+        }
+
+        function formatProfileForExport(profile, format) {
+            if (format === 'json') {
+                return JSON.stringify(profile, null, 2);
+            } else if (format === 'agent') {
+                // Agent format - simplified text format for AI agents
+                let output = `# ${profile.name}\n\n`;
+                output += `**Archetype:** ${profile.archetype}\n`;
+                output += `**Domain:** ${profile.domain}\n`;
+                if (profile.sub_domain) output += `**Subdomain:** ${profile.sub_domain}\n`;
+                output += `\n## Profile Data\n\n`;
+                output += '```json\n';
+                output += JSON.stringify(profile, null, 2);
+                output += '\n```\n';
+                return output;
+            } else {
+                // Markdown format (default)
+                let output = `# ${profile.name}\n\n`;
+                output += `**Archetype:** ${profile.archetype}\n`;
+                output += `**Domain:** ${profile.domain}\n`;
+                if (profile.sub_domain) output += `**Subdomain:** ${profile.sub_domain}\n`;
+                
+                // Add primary traits if available
+                const traits = profile.primary_traits || profile.psychological_profile?.primary_traits;
+                if (traits) {
+                    const traitArray = Array.isArray(traits) ? traits : traits.split(',').map(t => t.trim());
+                    output += `\n**Primary Traits:** ${traitArray.join(', ')}\n`;
+                }
+                
+                return output;
+            }
+        }
+
+        function copySelected() {
+            if (selectedProfiles.length === 0) return;
+            
+            const format = getSelectedFormat();
+            let content = '';
+            
+            if (format === 'json') {
+                // For JSON, export as array
+                content = JSON.stringify(selectedProfiles, null, 2);
+            } else {
+                // For markdown and agent, concatenate individual profiles
+                content = selectedProfiles.map(p => formatProfileForExport(p, format)).join('\n\n---\n\n');
+            }
+            
+            // Copy to clipboard
+            navigator.clipboard.writeText(content).then(() => {
+                // Show feedback
+                const copyBtn = document.getElementById('copy-selected-btn');
+                const originalText = copyBtn.textContent;
+                copyBtn.textContent = 'COPIED!';
+                setTimeout(() => {
+                    copyBtn.textContent = originalText;
+                }, 2000);
+            }).catch(err => {
+                console.error('Failed to copy:', err);
+                alert('Failed to copy to clipboard');
+            });
+        }
+
         function downloadSelected() {
-            exportFilteredProfiles();
+            if (selectedProfiles.length === 0) return;
+            
+            const format = getSelectedFormat();
+            let content = '';
+            let filename = '';
+            let mimeType = 'text/plain';
+            
+            if (format === 'json') {
+                content = JSON.stringify(selectedProfiles, null, 2);
+                filename = `selected-profiles-${selectedProfiles.length}.json`;
+                mimeType = 'application/json';
+            } else if (format === 'agent') {
+                content = selectedProfiles.map(p => formatProfileForExport(p, format)).join('\n\n---\n\n');
+                filename = `selected-profiles-${selectedProfiles.length}-agent.md`;
+                mimeType = 'text/markdown';
+            } else {
+                content = selectedProfiles.map(p => formatProfileForExport(p, format)).join('\n\n---\n\n');
+                filename = `selected-profiles-${selectedProfiles.length}.md`;
+                mimeType = 'text/markdown';
+            }
+            
+            // Create blob and download
+            const blob = new Blob([content], { type: mimeType });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
         }
     </script>
 </body>
