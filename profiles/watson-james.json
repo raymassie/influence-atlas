@@ -1,9 +1,9 @@
 {
   "profile_id": "watson-james",
   "name": "James Watson",
-  "archetype": "Molecular Biologist",
+  "archetype": "Biologist",
   "domain": "Science",
-  "sub_domain": "Molecular Biology",
+  "sub_domain": "Biology",
   "era": "Modern",
   "birth_year": 1928,
   "death_year": null,

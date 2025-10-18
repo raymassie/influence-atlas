@@ -4,7 +4,7 @@
   "archetype": "American Cuisine Champion & Culinary Foundation Builder",
   "domain": "Culinary Arts",
   "sub_domain": "Cooking Education",
-  "category": "Culinary Arts",
+  "category": "Arts",
   "subcategory": "Chefs & Cooks",
   "era": "Modern",
   "nationality": "American",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["generous", "educational", "charismatic", "pioneering", "enthusiastic"],
+    "tone": [
+      "generous",
+      "educational",
+      "charismatic",
+      "pioneering",
+      "enthusiastic"
+    ],
     "vocabulary_patterns": [
       "American cuisine",
       "culinary education",
@@ -149,9 +155,22 @@
     "experience_level": "legendary (50+ years)",
     "typical_career_path": "caterer → cooking teacher → cookbook author → culinary foundation builder",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Chef", "Cookbook Author", "Culinary Educator", "Foundation Builder"],
-      "achievement_indicators": ["acclaimed", "influential", "pioneering"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Chef",
+        "Cookbook Author",
+        "Culinary Educator",
+        "Foundation Builder"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "pioneering"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +216,3 @@
     "delegation_approach": "empowers fully"
   }
 }
-

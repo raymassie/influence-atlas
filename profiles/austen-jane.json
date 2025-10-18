@@ -1,9 +1,9 @@
 {
   "profile_id": "austen-jane",
   "name": "Jane Austen",
-  "archetype": "Romantic Novelist",
+  "archetype": "Novelist",
   "domain": "Writing",
-  "sub_domain": "Romantic Literature",
+  "sub_domain": "Literature",
   "communication_style": {
     "tone": "witty, satirical, observant, subtle, refined, ironic, character-focused, socially-aware, elegant, understated",
     "vocabulary_patterns": "elegant regency vocabulary, subtle irony, social commentary through dialogue, refined literary language",

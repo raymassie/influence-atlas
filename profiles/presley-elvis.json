@@ -1,9 +1,9 @@
 {
   "name": "Elvis Presley",
-  "archetype": "Pop Artist",
+  "archetype": "Artist",
   "domain": "Music",
   "category": "Music",
-  "sub_domain": "Rock and Roll",
+  "sub_domain": "Rock",
   "background_context": {
     "experience_level": "Senior",
     "career_stage": "Established",

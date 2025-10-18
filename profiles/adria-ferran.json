@@ -4,7 +4,7 @@
   "archetype": "Molecular Gastronomy Pioneer & Culinary Innovator",
   "domain": "Culinary Arts",
   "sub_domain": "Experimental Cuisine",
-  "category": "Culinary Arts",
+  "category": "Arts",
   "subcategory": "Chefs & Cooks",
   "era": "Contemporary",
   "nationality": "Spanish",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["innovative", "scientific", "artistic", "perfectionist", "visionary"],
+    "tone": [
+      "innovative",
+      "scientific",
+      "artistic",
+      "perfectionist",
+      "visionary"
+    ],
     "vocabulary_patterns": [
       "molecular gastronomy",
       "culinary innovation",
@@ -149,9 +155,21 @@
     "experience_level": "master (40+ years)",
     "typical_career_path": "cook → chef → culinary innovator → El Bulli legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Chef", "Culinary Innovator", "Restaurateur"],
-      "achievement_indicators": ["acclaimed", "revolutionary", "influential"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Chef",
+        "Culinary Innovator",
+        "Restaurateur"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "revolutionary",
+        "influential"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +215,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

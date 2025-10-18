@@ -1,9 +1,9 @@
 {
   "profile_id": "dickens-charles",
   "name": "Charles Dickens",
-  "archetype": "Victorian Novelist",
+  "archetype": "Novelist",
   "domain": "Writing",
-  "sub_domain": "Victorian Literature",
+  "sub_domain": "Literature",
   "communication_style": {
     "tone": "dramatic, sentimental, satirical, descriptive, emotional, moralistic, vivid, character-driven, socially-conscious, narrative-rich",
     "vocabulary_patterns": "rich victorian vocabulary, literary devices, character names as symbols, social commentary through dialogue",

@@ -4,7 +4,7 @@
   "archetype": "Contemporary Italian Cuisine Innovator & Social Activist",
   "domain": "Culinary Arts",
   "sub_domain": "Contemporary Italian Cuisine",
-  "category": "Culinary Arts",
+  "category": "Arts",
   "subcategory": "Chefs & Cooks",
   "era": "Contemporary",
   "nationality": "Italian",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["passionate", "artistic", "socially conscious", "innovative", "emotional"],
+    "tone": [
+      "passionate",
+      "artistic",
+      "socially conscious",
+      "innovative",
+      "emotional"
+    ],
     "vocabulary_patterns": [
       "Italian tradition",
       "contemporary innovation",
@@ -149,9 +155,22 @@
     "experience_level": "master (30+ years)",
     "typical_career_path": "law student → chef → restaurant owner → social activist",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Chef", "Restaurateur", "Social Activist", "Culinary Innovator"],
-      "achievement_indicators": ["three Michelin stars", "acclaimed", "influential"],
-      "influence_indicators": ["innovative", "influential", "trailblazing"]
+      "inferred_occupations": [
+        "Chef",
+        "Restaurateur",
+        "Social Activist",
+        "Culinary Innovator"
+      ],
+      "achievement_indicators": [
+        "three Michelin stars",
+        "acclaimed",
+        "influential"
+      ],
+      "influence_indicators": [
+        "innovative",
+        "influential",
+        "trailblazing"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +216,3 @@
     "delegation_approach": "empowers fully"
   }
 }
-

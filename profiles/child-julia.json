@@ -4,7 +4,7 @@
   "archetype": "Culinary Educator & French Cuisine Ambassador",
   "domain": "Culinary Arts",
   "sub_domain": "Cooking Education",
-  "category": "Culinary Arts",
+  "category": "Arts",
   "subcategory": "Chefs & Cooks",
   "era": "Modern",
   "nationality": "American",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["enthusiastic", "educational", "charismatic", "passionate", "encouraging"],
+    "tone": [
+      "enthusiastic",
+      "educational",
+      "charismatic",
+      "passionate",
+      "encouraging"
+    ],
     "vocabulary_patterns": [
       "bon appétit",
       "culinary technique",
@@ -149,9 +155,22 @@
     "experience_level": "legendary (40+ years)",
     "typical_career_path": "government worker → culinary student → cookbook author → television chef",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Chef", "Author", "Television Personality", "Culinary Educator"],
-      "achievement_indicators": ["acclaimed", "influential", "pioneering"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Chef",
+        "Author",
+        "Television Personality",
+        "Culinary Educator"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "pioneering"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +216,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

@@ -4,7 +4,7 @@
   "archetype": "Sustainable Food Advocate & Farm-to-Table Pioneer",
   "domain": "Culinary Arts",
   "sub_domain": "Sustainable Cuisine",
-  "category": "Culinary Arts",
+  "category": "Arts",
   "subcategory": "Chefs & Cooks",
   "era": "Contemporary",
   "nationality": "American",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["passionate", "educational", "sustainable-focused", "visionary", "persistent"],
+    "tone": [
+      "passionate",
+      "educational",
+      "sustainable-focused",
+      "visionary",
+      "persistent"
+    ],
     "vocabulary_patterns": [
       "sustainable food",
       "local ingredients",
@@ -149,9 +155,22 @@
     "experience_level": "master (50+ years)",
     "typical_career_path": "culinary student → restaurant founder → sustainable food advocate → educational leader",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Chef", "Restaurateur", "Environmental Advocate", "Educator"],
-      "achievement_indicators": ["acclaimed", "influential", "pioneering"],
-      "influence_indicators": ["trailblazing", "influential", "essential"]
+      "inferred_occupations": [
+        "Chef",
+        "Restaurateur",
+        "Environmental Advocate",
+        "Educator"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "pioneering"
+      ],
+      "influence_indicators": [
+        "trailblazing",
+        "influential",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +216,3 @@
     "delegation_approach": "empowers fully"
   }
 }
-

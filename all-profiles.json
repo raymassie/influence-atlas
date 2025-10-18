@@ -488,7 +488,7 @@
     "name": "Adam Smith",
     "archetype": "Economist",
     "domain": "Economics",
-    "sub_domain": "Classical Economics",
+    "sub_domain": "Classical",
     "category": "Economics",
     "subcategory": "Economists",
     "era": "Enlightenment",
@@ -715,7 +715,7 @@
   },
   {
     "name": "Adam Smith",
-    "archetype": "Political Economist",
+    "archetype": "Economist",
     "domain": "Public Policy",
     "sub_domain": "Political Economy",
     "category": "Public Policy",
@@ -942,7 +942,7 @@
   },
   {
     "name": "Adele",
-    "archetype": "Pop Artist",
+    "archetype": "Artist",
     "domain": "Music",
     "category": "Music",
     "sub_domain": "Pop",
@@ -2434,7 +2434,7 @@
   {
     "profile_id": "einstein-albert",
     "name": "Albert Einstein",
-    "archetype": "Theoretical Physicist & Scientific Genius",
+    "archetype": "Physicist",
     "domain": "Trades & Technical Services",
     "sub_domain": "Scientific Research",
     "category": "Trades & Technical Services",
@@ -2653,7 +2653,7 @@
     "archetype": "Environmental Scientist",
     "domain": "Environmental",
     "category": "Environmental",
-    "sub_domain": "Conservation",
+    "sub_domain": "Conservation Biology",
     "background_context": {
       "experience_level": "Senior",
       "career_stage": "Established",
@@ -3117,7 +3117,7 @@
     "name": "Alexander Fleming",
     "archetype": "Microbiologist",
     "domain": "Medicine",
-    "sub_domain": "Microbiology",
+    "sub_domain": "Biology",
     "category": "Medicine",
     "subcategory": "Microbiologists",
     "era": "Modern",
@@ -3352,7 +3352,7 @@
     "name": "Alfred Marshall",
     "archetype": "Economist",
     "domain": "Economics",
-    "sub_domain": "Microeconomics",
+    "sub_domain": "Economics",
     "category": "Economics",
     "subcategory": "Economists",
     "era": "Modern",
@@ -3574,7 +3574,7 @@
     "archetype": "Business Leader",
     "domain": "Business",
     "category": "Business",
-    "sub_domain": "Corporate Management",
+    "sub_domain": "Management",
     "background_context": {
       "experience_level": "Executive",
       "career_stage": "Established",
@@ -3784,7 +3784,7 @@
     "archetype": "Sustainable Food Advocate & Farm-to-Table Pioneer",
     "domain": "Culinary Arts",
     "sub_domain": "Sustainable Cuisine",
-    "category": "Culinary Arts",
+    "category": "Arts",
     "subcategory": "Chefs & Cooks",
     "era": "Contemporary",
     "nationality": "American",
@@ -4235,7 +4235,7 @@
     "name": "Amy Porterfield",
     "archetype": "Online Course Queen & Digital Marketing Educator",
     "domain": "Entrepreneurship",
-    "sub_domain": "Online Education & Digital Marketing",
+    "sub_domain": "Digital Marketing",
     "psychological_profile": {
       "primary_traits": [
         "systematic",
@@ -4745,7 +4745,7 @@
     "archetype": "Business Leader",
     "domain": "Business",
     "category": "Business",
-    "sub_domain": "Technology Management",
+    "sub_domain": "Management",
     "background_context": {
       "experience_level": "Executive",
       "career_stage": "Established",
@@ -5381,7 +5381,7 @@
     "archetype": "Culinary Storyteller & Cultural Explorer",
     "domain": "Culinary Arts",
     "sub_domain": "Culinary Media",
-    "category": "Culinary Arts",
+    "category": "Arts",
     "subcategory": "Chefs & Cooks",
     "era": "Contemporary",
     "nationality": "American",
@@ -7769,7 +7769,7 @@
   },
   {
     "name": "Beyoncé",
-    "archetype": "Pop Artist",
+    "archetype": "Artist",
     "domain": "Music",
     "category": "Music",
     "sub_domain": "Pop",
@@ -8637,7 +8637,7 @@
     "name": "Bill Gross",
     "archetype": "Bond King",
     "domain": "Investment",
-    "sub_domain": "Fixed Income Management",
+    "sub_domain": "Management",
     "era": "Modern",
     "birth_year": 1944,
     "death_year": null,
@@ -9054,7 +9054,7 @@
     "archetype": "Singer",
     "domain": "Music",
     "category": "Music",
-    "sub_domain": "Folk Rock",
+    "sub_domain": "Rock",
     "background_context": {
       "experience_level": "Senior",
       "career_stage": "Established",
@@ -11981,9 +11981,9 @@
   {
     "profile_id": "dickens-charles",
     "name": "Charles Dickens",
-    "archetype": "Victorian Novelist",
+    "archetype": "Novelist",
     "domain": "Writing",
-    "sub_domain": "Victorian Literature",
+    "sub_domain": "Literature",
     "communication_style": {
       "tone": "dramatic, sentimental, satirical, descriptive, emotional, moralistic, vivid, character-driven, socially-conscious, narrative-rich",
       "vocabulary_patterns": "rich victorian vocabulary, literary devices, character names as symbols, social commentary through dialogue",
@@ -14497,7 +14497,7 @@
   {
     "profile_id": "confucius",
     "name": "Confucius",
-    "archetype": "Moral Philosopher",
+    "archetype": "Philosopher",
     "domain": "Philosophy",
     "sub_domain": "Ethics",
     "era": "Ancient",
@@ -14903,7 +14903,7 @@
   {
     "profile_id": "ariely-dan",
     "name": "Dan Ariely",
-    "archetype": "Behavioral Economist",
+    "archetype": "Economist",
     "domain": "Psychology",
     "sub_domain": "Behavioral Economics",
     "psychological_profile": {
@@ -15401,7 +15401,7 @@
   {
     "profile_id": "kenny-dan",
     "name": "Dan Kenny",
-    "archetype": "Performance Marketing Expert",
+    "archetype": "Marketing Expert",
     "domain": "Marketing",
     "sub_domain": "Performance Marketing",
     "era": "Modern",
@@ -16535,7 +16535,7 @@
     "name": "David Carson",
     "archetype": "Experimental Typographer",
     "domain": "Design",
-    "sub_domain": "Experimental Typography",
+    "sub_domain": "Typography",
     "communication_style": {
       "tone": "experimental, rebellious, intuitive, expressive, unconventional, emotional, raw, authentic, innovative, disruptive",
       "vocabulary_patterns": "experimental design language, intuitive expression, unconventional terminology, emotional design concepts",
@@ -17149,7 +17149,7 @@
   {
     "profile_id": "hume-david",
     "name": "David Hume",
-    "archetype": "Empiricist Philosopher",
+    "archetype": "Philosopher",
     "domain": "Philosophy",
     "sub_domain": "Empiricist Philosophy",
     "category": "Philosophy",
@@ -18630,10 +18630,10 @@
   {
     "profile_id": "knuth-donald",
     "name": "Donald Knuth",
-    "archetype": "Computer Scientist & Algorithm Pioneer",
+    "archetype": "Computer Scientist",
     "domain": "Technology",
     "sub_domain": "Computer Science",
-    "category": "Technology Services",
+    "category": "Technology",
     "subcategory": "Computer Scientists",
     "era": "Contemporary",
     "nationality": "American",
@@ -19632,7 +19632,7 @@
     "archetype": "Philosophical Historian",
     "domain": "History",
     "category": "History",
-    "sub_domain": "Classical History",
+    "sub_domain": "Classical",
     "background_context": {
       "experience_level": "Senior",
       "career_stage": "Established",
@@ -19815,7 +19815,7 @@
     "name": "Edward O. Wilson",
     "archetype": "Biologist",
     "domain": "Environmental",
-    "sub_domain": "Conservation Biology",
+    "sub_domain": "Biology",
     "category": "Environmental",
     "subcategory": "Biologists",
     "era": "Contemporary",
@@ -20539,10 +20539,10 @@
   },
   {
     "name": "Elvis Presley",
-    "archetype": "Pop Artist",
+    "archetype": "Artist",
     "domain": "Music",
     "category": "Music",
-    "sub_domain": "Rock and Roll",
+    "sub_domain": "Rock",
     "background_context": {
       "experience_level": "Senior",
       "career_stage": "Established",
@@ -20726,7 +20726,7 @@
   {
     "profile_id": "epicurus",
     "name": "Epicurus",
-    "archetype": "Hedonist Philosopher",
+    "archetype": "Philosopher",
     "domain": "Philosophy",
     "sub_domain": "Ancient Philosophy",
     "category": "Philosophy",
@@ -22111,7 +22111,7 @@
     "name": "Eugene Schwartz",
     "archetype": "Direct Response Copywriter",
     "domain": "Marketing",
-    "sub_domain": "Direct Response Copywriting",
+    "sub_domain": "Copywriting",
     "era": "Modern",
     "birth_year": 1927,
     "death_year": 1995,
@@ -22711,7 +22711,7 @@
     "archetype": "Molecular Gastronomy Pioneer & Culinary Innovator",
     "domain": "Culinary Arts",
     "sub_domain": "Experimental Cuisine",
-    "category": "Culinary Arts",
+    "category": "Arts",
     "subcategory": "Chefs & Cooks",
     "era": "Contemporary",
     "nationality": "Spanish",
@@ -24042,7 +24042,7 @@
     "name": "Gary Halbert",
     "archetype": "Sales Copywriter",
     "domain": "Marketing",
-    "sub_domain": "Sales Copywriting",
+    "sub_domain": "Copywriting",
     "era": "Modern",
     "birth_year": 1939,
     "death_year": 2007,
@@ -24219,7 +24219,7 @@
   {
     "profile_id": "vaynerchuk-gary",
     "name": "Gary Vaynerchuk",
-    "archetype": "Social Media Marketing Expert",
+    "archetype": "Marketing Expert",
     "domain": "Marketing",
     "sub_domain": "Social Media Marketing",
     "era": "Modern",
@@ -24625,7 +24625,7 @@
   {
     "profile_id": "hegel-georg-wilhelm",
     "name": "Georg Wilhelm Friedrich Hegel",
-    "archetype": "Idealist Philosopher",
+    "archetype": "Philosopher",
     "domain": "Philosophy",
     "sub_domain": "German Idealism",
     "era": "Modern",
@@ -25044,7 +25044,7 @@
     "name": "George Soros",
     "archetype": "Hedge Fund Manager",
     "domain": "Investment",
-    "sub_domain": "Hedge Fund Management",
+    "sub_domain": "Management",
     "era": "Modern",
     "birth_year": 1930,
     "death_year": null,
@@ -25884,7 +25884,7 @@
     "archetype": "Classical Musician",
     "domain": "Music",
     "category": "Music",
-    "sub_domain": "Contemporary Classical",
+    "sub_domain": "Classical",
     "background_context": {
       "experience_level": "Senior",
       "career_stage": "Established",
@@ -26081,7 +26081,7 @@
   },
   {
     "name": "Hannah Arendt",
-    "archetype": "Political Philosopher",
+    "archetype": "Philosopher",
     "domain": "Public Policy",
     "sub_domain": "Political Theory",
     "category": "Public Policy",
@@ -27375,7 +27375,7 @@
   {
     "profile_id": "sidgwick-henry",
     "name": "Henry Sidgwick",
-    "archetype": "Utilitarian Philosopher",
+    "archetype": "Philosopher",
     "domain": "Philosophy",
     "sub_domain": "Moral Philosophy",
     "category": "Philosophy",
@@ -28039,7 +28039,7 @@
   {
     "profile_id": "marks-howard",
     "name": "Howard Marks",
-    "archetype": "Investment Philosopher",
+    "archetype": "Philosopher",
     "domain": "Finance",
     "sub_domain": "Value Investing",
     "psychological_profile": {
@@ -28464,7 +28464,7 @@
     "archetype": "Classical Musician",
     "domain": "Music",
     "category": "Music",
-    "sub_domain": "Modern Classical",
+    "sub_domain": "Classical",
     "background_context": {
       "experience_level": "Senior",
       "career_stage": "Established",
@@ -28663,7 +28663,7 @@
     "name": "Iman Gadzhi",
     "archetype": "Social Media Agency & Course Creation Mogul",
     "domain": "Thought Leadership",
-    "sub_domain": "Digital Marketing & Education",
+    "sub_domain": "Digital Marketing",
     "psychological_profile": {
       "primary_traits": [
         "ambitious",
@@ -28936,7 +28936,7 @@
   {
     "profile_id": "kant-immanuel",
     "name": "Immanuel Kant",
-    "archetype": "Enlightenment Philosopher",
+    "archetype": "Philosopher",
     "domain": "Philosophy",
     "sub_domain": "Moral Philosophy",
     "category": "Philosophy",
@@ -30786,7 +30786,7 @@
     "archetype": "French Technique Master & Culinary Educator",
     "domain": "Culinary Arts",
     "sub_domain": "Cooking Education",
-    "category": "Culinary Arts",
+    "category": "Arts",
     "subcategory": "Chefs & Cooks",
     "era": "Contemporary",
     "nationality": "French-American",
@@ -31831,7 +31831,7 @@
     "archetype": "American Cuisine Champion & Culinary Foundation Builder",
     "domain": "Culinary Arts",
     "sub_domain": "Cooking Education",
-    "category": "Culinary Arts",
+    "category": "Arts",
     "subcategory": "Chefs & Cooks",
     "era": "Modern",
     "nationality": "American",
@@ -32701,9 +32701,9 @@
   {
     "profile_id": "watson-james",
     "name": "James Watson",
-    "archetype": "Molecular Biologist",
+    "archetype": "Biologist",
     "domain": "Science",
-    "sub_domain": "Molecular Biology",
+    "sub_domain": "Biology",
     "era": "Modern",
     "birth_year": 1928,
     "death_year": null,
@@ -32912,9 +32912,9 @@
   {
     "profile_id": "austen-jane",
     "name": "Jane Austen",
-    "archetype": "Romantic Novelist",
+    "archetype": "Novelist",
     "domain": "Writing",
-    "sub_domain": "Romantic Literature",
+    "sub_domain": "Literature",
     "communication_style": {
       "tone": "witty, satirical, observant, subtle, refined, ironic, character-focused, socially-aware, elegant, understated",
       "vocabulary_patterns": "elegant regency vocabulary, subtle irony, social commentary through dialogue, refined literary language",
@@ -33491,7 +33491,7 @@
   {
     "profile_id": "rousseau-jean-jacques",
     "name": "Jean-Jacques Rousseau",
-    "archetype": "Enlightenment Philosopher",
+    "archetype": "Philosopher",
     "domain": "Philosophy",
     "sub_domain": "Political Philosophy",
     "era": "Enlightenment",
@@ -33679,7 +33679,7 @@
   },
   {
     "name": "Jean-Jacques Rousseau",
-    "archetype": "Political Philosopher",
+    "archetype": "Philosopher",
     "domain": "Public Policy",
     "sub_domain": "Political Theory",
     "category": "Public Policy",
@@ -33894,7 +33894,7 @@
   {
     "profile_id": "sartre-jean-paul",
     "name": "Jean-Paul Sartre",
-    "archetype": "Existentialist Philosopher",
+    "archetype": "Philosopher",
     "domain": "Philosophy",
     "sub_domain": "Existentialism",
     "era": "Modern",
@@ -34344,7 +34344,7 @@
     "archetype": "Business Leader",
     "domain": "Business",
     "category": "Business",
-    "sub_domain": "Industrial Management",
+    "sub_domain": "Management",
     "background_context": {
       "experience_level": "Executive",
       "career_stage": "Established",
@@ -34545,7 +34545,7 @@
   },
   {
     "name": "Jeremy Bentham",
-    "archetype": "Political Philosopher",
+    "archetype": "Philosopher",
     "domain": "Public Policy",
     "sub_domain": "Political Theory",
     "category": "Public Policy",
@@ -34968,7 +34968,7 @@
     "archetype": "Rock Musician",
     "domain": "Music",
     "category": "Music",
-    "sub_domain": "Psychedelic Rock",
+    "sub_domain": "Rock",
     "background_context": {
       "experience_level": "Senior",
       "career_stage": "Established",
@@ -35857,7 +35857,7 @@
     "name": "John Carlton",
     "archetype": "Sales Copywriter",
     "domain": "Marketing",
-    "sub_domain": "Sales Copywriting",
+    "sub_domain": "Copywriting",
     "era": "Modern",
     "birth_year": 1952,
     "death_year": null,
@@ -36907,7 +36907,7 @@
   },
   {
     "name": "John Locke",
-    "archetype": "Political Philosopher",
+    "archetype": "Philosopher",
     "domain": "Public Policy",
     "sub_domain": "Political Theory",
     "category": "Public Policy",
@@ -37366,7 +37366,7 @@
     "name": "John Maynard Keynes",
     "archetype": "Economist",
     "domain": "Economics",
-    "sub_domain": "Macroeconomics, Economic Policy",
+    "sub_domain": "Macroeconomics",
     "background_context": {
       "experience_level": "Expert",
       "career_stage": "Academic Pioneer",
@@ -37592,7 +37592,7 @@
     "name": "John Muir",
     "archetype": "Environmentalist",
     "domain": "Environmental",
-    "sub_domain": "Conservation",
+    "sub_domain": "Conservation Biology",
     "category": "Environmental",
     "subcategory": "Conservationists",
     "era": "Modern",
@@ -37809,7 +37809,7 @@
   },
   {
     "name": "John Rawls",
-    "archetype": "Political Philosopher",
+    "archetype": "Philosopher",
     "domain": "Public Policy",
     "sub_domain": "Political Theory",
     "category": "Public Policy",
@@ -38265,7 +38265,7 @@
   {
     "profile_id": "mill-john-stuart",
     "name": "John Stuart Mill",
-    "archetype": "Utilitarian Philosopher",
+    "archetype": "Philosopher",
     "domain": "Philosophy",
     "sub_domain": "Political Philosophy",
     "category": "Philosophy",
@@ -39857,7 +39857,7 @@
     "archetype": "Culinary Educator & French Cuisine Ambassador",
     "domain": "Culinary Arts",
     "sub_domain": "Cooking Education",
-    "category": "Culinary Arts",
+    "category": "Arts",
     "subcategory": "Chefs & Cooks",
     "era": "Modern",
     "nationality": "American",
@@ -41661,7 +41661,7 @@
     "name": "Lewis Howes",
     "archetype": "Vulnerability-Driven Success Coach & Masculine Leadership Mentor",
     "domain": "Entrepreneurship",
-    "sub_domain": "Personal Development & Masculine Leadership",
+    "sub_domain": "Leadership",
     "psychological_profile": {
       "primary_traits": "vulnerable, athletic-minded, growth-oriented, relationship-oriented",
       "cognitive_style": "vulnerability integration with achievement focus",
@@ -42178,7 +42178,7 @@
     "archetype": "Software Developer & Open Source Pioneer",
     "domain": "Technology",
     "sub_domain": "Software Development",
-    "category": "Technology Services",
+    "category": "Technology",
     "subcategory": "Software Developers",
     "era": "Contemporary",
     "nationality": "Finnish-American",
@@ -43267,7 +43267,7 @@
   },
   {
     "name": "Madonna",
-    "archetype": "Pop Artist",
+    "archetype": "Artist",
     "domain": "Music",
     "category": "Music",
     "sub_domain": "Pop",
@@ -43650,7 +43650,7 @@
     "archetype": "Environmental Activist",
     "domain": "Environmental",
     "category": "Environmental",
-    "sub_domain": "Environmental Literature",
+    "sub_domain": "Literature",
     "background_context": {
       "experience_level": "Senior",
       "career_stage": "Established",
@@ -44267,7 +44267,7 @@
   },
   {
     "name": "Marie Forleo",
-    "archetype": "Multi-passionate Entrepreneur & Everything is Figureoutable Philosopher",
+    "archetype": "Philosopher",
     "domain": "Entrepreneurship",
     "sub_domain": "Online Education & Multi-passionate Business",
     "psychological_profile": {
@@ -44552,7 +44552,7 @@
     "name": "Marissa Mayer",
     "archetype": "Product Innovation Leader",
     "domain": "Technology",
-    "sub_domain": "Product Management",
+    "sub_domain": "Management",
     "communication_style": {
       "tone": "analytical, data-driven, innovative, systematic, user-focused, methodical, strategic, precise, collaborative, product-oriented",
       "vocabulary_patterns": "product development terminology, user experience language, data-driven design concepts, systematic innovation insights",
@@ -44762,7 +44762,7 @@
   {
     "profile_id": "rothko-mark",
     "name": "Mark Rothko",
-    "archetype": "Color Field Painter",
+    "archetype": "Painter",
     "domain": "Arts",
     "sub_domain": "Abstract Expressionism",
     "era": "Modern",
@@ -45458,7 +45458,7 @@
   {
     "profile_id": "heidegger-martin",
     "name": "Martin Heidegger",
-    "archetype": "Existentialist Philosopher",
+    "archetype": "Philosopher",
     "domain": "Philosophy",
     "sub_domain": "Existential Philosophy",
     "category": "Philosophy",
@@ -45926,7 +45926,7 @@
     "archetype": "Contemporary Italian Cuisine Innovator & Social Activist",
     "domain": "Culinary Arts",
     "sub_domain": "Contemporary Italian Cuisine",
-    "category": "Culinary Arts",
+    "category": "Arts",
     "subcategory": "Chefs & Cooks",
     "era": "Contemporary",
     "nationality": "Italian",
@@ -47409,7 +47409,7 @@
   },
   {
     "name": "Montesquieu",
-    "archetype": "Political Philosopher",
+    "archetype": "Philosopher",
     "domain": "Public Policy",
     "sub_domain": "Political Theory",
     "category": "Public Policy",
@@ -48813,7 +48813,7 @@
     "name": "Nir Eyal",
     "archetype": "Marketing Expert",
     "domain": "Marketing",
-    "sub_domain": "Behavioral Psychology, Product Design",
+    "sub_domain": "Behavioral Psychology",
     "background_context": {
       "experience_level": "Expert",
       "career_stage": "Thought Leader",
@@ -49459,7 +49459,7 @@
     "archetype": "Classical Musician",
     "domain": "Music",
     "category": "Music",
-    "sub_domain": "Modern Classical",
+    "sub_domain": "Classical",
     "background_context": {
       "experience_level": "Senior",
       "career_stage": "Established",
@@ -52507,7 +52507,7 @@
     "name": "Peter Lynch",
     "archetype": "Mutual Fund Manager",
     "domain": "Investment",
-    "sub_domain": "Mutual Fund Management",
+    "sub_domain": "Management",
     "era": "Modern",
     "birth_year": 1944,
     "death_year": null,
@@ -52696,7 +52696,7 @@
     "name": "Peter Singer",
     "archetype": "Applied Ethicist",
     "domain": "Philosophy",
-    "sub_domain": "Applied Ethics",
+    "sub_domain": "Ethics",
     "category": "Philosophy",
     "subcategory": "Philosophers",
     "era": "Contemporary",
@@ -53249,7 +53249,7 @@
   },
   {
     "name": "Philippe Starck",
-    "archetype": "Industrial Design Visionary",
+    "archetype": "Design Visionary",
     "domain": "Design",
     "sub_domain": "Industrial Design",
     "category": "Design",
@@ -53938,7 +53938,7 @@
     "archetype": "Environmental Scientist",
     "domain": "Environmental",
     "category": "Environmental",
-    "sub_domain": "Environmental Literature",
+    "sub_domain": "Literature",
     "background_context": {
       "experience_level": "Senior",
       "career_stage": "Established",
@@ -54338,7 +54338,7 @@
     "name": "Ramit Sethi",
     "archetype": "Personal Finance Psychology Expert & Systems-Based Wealth Builder",
     "domain": "Authors",
-    "sub_domain": "Personal Finance & Behavioral Psychology",
+    "sub_domain": "Behavioral Psychology",
     "psychological_profile": {
       "primary_traits": [
         "systematic",
@@ -55614,7 +55614,7 @@
     "archetype": "Contemplative Scientist",
     "domain": "Contemplative Practice",
     "sub_domain": "Contemplative Psychology",
-    "category": "Contemplative Psychology",
+    "category": "Psychology",
     "subcategory": "Contemplative Scientists",
     "era": "Contemporary",
     "nationality": "American",
@@ -55842,7 +55842,7 @@
   },
   {
     "name": "Richard Feynman",
-    "archetype": "Theoretical Physicist",
+    "archetype": "Physicist",
     "domain": "Math",
     "sub_domain": "Physics",
     "category": "Math",
@@ -56118,7 +56118,7 @@
     "archetype": "Software Freedom Activist & Free Software Pioneer",
     "domain": "Technology",
     "sub_domain": "Software Development",
-    "category": "Technology Services",
+    "category": "Technology",
     "subcategory": "Software Developers",
     "era": "Contemporary",
     "nationality": "American",
@@ -56627,7 +56627,7 @@
     "name": "Robert Koch",
     "archetype": "Microbiologist",
     "domain": "Medicine",
-    "sub_domain": "Microbiology",
+    "sub_domain": "Biology",
     "category": "Medicine",
     "subcategory": "Microbiologists",
     "era": "Modern",
@@ -57098,7 +57098,7 @@
     "name": "Russell Brunson",
     "archetype": "Sales Funnel Master & Direct Response Digital Strategist",
     "domain": "Entrepreneurship",
-    "sub_domain": "Digital Marketing & Sales Funnel Optimization",
+    "sub_domain": "Digital Marketing",
     "psychological_profile": {
       "primary_traits": "systematic, funnel-obsessed, storytelling-focused, results-oriented",
       "cognitive_style": "funnel-thinking with direct response methodology",
@@ -58092,7 +58092,7 @@
   {
     "profile_id": "dali-salvador",
     "name": "Salvador Dalí",
-    "archetype": "Surrealist Artist",
+    "archetype": "Artist",
     "domain": "Arts",
     "sub_domain": "Surrealism",
     "era": "Modern",
@@ -58628,7 +58628,7 @@
     "name": "Samuel Beckett",
     "archetype": "Absurdist Playwright",
     "domain": "Writing",
-    "sub_domain": "Absurdist Literature",
+    "sub_domain": "Literature",
     "communication_style": {
       "tone": "minimalist, absurdist, existential, darkly-comic, philosophical, experimental, sparse, profound, enigmatic, innovative",
       "vocabulary_patterns": "minimalist language, repetitive phrases, existential vocabulary, absurdist dialogue, philosophical terminology",
@@ -60193,7 +60193,7 @@
     "name": "Simon Sinek",
     "archetype": "Purpose-Driven Leadership Expert & Why-Focused Strategist",
     "domain": "Authors",
-    "sub_domain": "Leadership & Organizational Purpose",
+    "sub_domain": "Leadership",
     "psychological_profile": {
       "primary_traits": "purpose-driven, inspiring, empathetic, optimistic",
       "cognitive_style": "purpose-first thinking with leadership development focus",
@@ -61121,7 +61121,7 @@
     "name": "Stephen Covey",
     "archetype": "Leadership Coach",
     "domain": "Motivation Coaching",
-    "sub_domain": "Leadership Coaching",
+    "sub_domain": "Leadership",
     "era": "Modern",
     "birth_year": 1932,
     "death_year": 2012,
@@ -61315,7 +61315,7 @@
   {
     "profile_id": "hawking-stephen",
     "name": "Stephen Hawking",
-    "archetype": "Theoretical Physicist & Cosmology Pioneer",
+    "archetype": "Physicist",
     "domain": "Trades & Technical Services",
     "sub_domain": "Scientific Research",
     "category": "Trades & Technical Services",
@@ -61726,7 +61726,7 @@
   {
     "profile_id": "balmer-steve",
     "name": "Steve Ballmer",
-    "archetype": "Business Operations Leader",
+    "archetype": "Operations Leader",
     "domain": "Technology",
     "sub_domain": "Business Operations",
     "communication_style": {
@@ -62946,7 +62946,7 @@
   {
     "profile_id": "kierkegaard-soren",
     "name": "Søren Kierkegaard",
-    "archetype": "Existentialist Philosopher",
+    "archetype": "Philosopher",
     "domain": "Philosophy",
     "sub_domain": "Existential Philosophy",
     "category": "Philosophy",
@@ -63186,7 +63186,7 @@
   {
     "profile_id": "scanlon-tm",
     "name": "T.M. Scanlon",
-    "archetype": "Contractualist Philosopher",
+    "archetype": "Philosopher",
     "domain": "Philosophy",
     "sub_domain": "Moral Philosophy",
     "category": "Philosophy",
@@ -64729,7 +64729,7 @@
     "name": "Tibor Kalman",
     "archetype": "Socially Conscious Design Provocateur & Content-First Visual Communicator",
     "domain": "Design",
-    "sub_domain": "Graphic Design & Social Commentary",
+    "sub_domain": "Graphic Design",
     "psychological_profile": {
       "primary_traits": [
         "provocative",
@@ -65297,7 +65297,7 @@
     "name": "Tim Cook",
     "archetype": "Operations Leader",
     "domain": "Technology",
-    "sub_domain": "Operations Management",
+    "sub_domain": "Management",
     "communication_style": {
       "tone": "operational, systematic, values-driven, inclusive, strategic, methodical, ethical, customer-focused, sustainable, transformative",
       "vocabulary_patterns": "operational excellence terminology, values-based leadership language, sustainability concepts, systematic improvement insights",
@@ -66609,7 +66609,7 @@
   {
     "profile_id": "voltaire-francois-marie",
     "name": "Voltaire",
-    "archetype": "Enlightenment Philosopher",
+    "archetype": "Philosopher",
     "domain": "Philosophy",
     "sub_domain": "Enlightenment Philosophy",
     "era": "Enlightenment",
@@ -67499,7 +67499,7 @@
   {
     "profile_id": "kandinsky-wassily",
     "name": "Wassily Kandinsky",
-    "archetype": "Abstract Artist",
+    "archetype": "Artist",
     "domain": "Arts",
     "sub_domain": "Abstract Art",
     "era": "Modern",
@@ -67710,7 +67710,7 @@
   },
   {
     "name": "Whitney Wolfe Herd",
-    "archetype": "Female Empowerment Tech Entrepreneur & Social Impact CEO",
+    "archetype": "Tech Entrepreneur",
     "domain": "Entrepreneurship",
     "sub_domain": "Social Technology & Female Empowerment",
     "psychological_profile": {

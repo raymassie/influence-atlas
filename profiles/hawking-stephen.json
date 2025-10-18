@@ -1,7 +1,7 @@
 {
   "profile_id": "hawking-stephen",
   "name": "Stephen Hawking",
-  "archetype": "Theoretical Physicist & Cosmology Pioneer",
+  "archetype": "Physicist",
   "domain": "Trades & Technical Services",
   "sub_domain": "Scientific Research",
   "category": "Trades & Technical Services",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["theoretical", "persistent", "analytical", "innovative", "resilient"],
+    "tone": [
+      "theoretical",
+      "persistent",
+      "analytical",
+      "innovative",
+      "resilient"
+    ],
     "vocabulary_patterns": [
       "cosmological discovery",
       "theoretical innovation",
@@ -149,9 +155,21 @@
     "experience_level": "legendary (50+ years)",
     "typical_career_path": "physics student → theoretical physicist → cosmology pioneer → scientific legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Theoretical Physicist", "Cosmologist", "Scientist"],
-      "achievement_indicators": ["acclaimed", "influential", "revolutionary"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Theoretical Physicist",
+        "Cosmologist",
+        "Scientist"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "revolutionary"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {

@@ -4,7 +4,7 @@
   "archetype": "French Technique Master & Culinary Educator",
   "domain": "Culinary Arts",
   "sub_domain": "Cooking Education",
-  "category": "Culinary Arts",
+  "category": "Arts",
   "subcategory": "Chefs & Cooks",
   "era": "Contemporary",
   "nationality": "French-American",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["patient", "technical", "educational", "humble", "precise"],
+    "tone": [
+      "patient",
+      "technical",
+      "educational",
+      "humble",
+      "precise"
+    ],
     "vocabulary_patterns": [
       "French technique",
       "professional method",
@@ -149,9 +155,22 @@
     "experience_level": "master (60+ years)",
     "typical_career_path": "apprentice → French chef → culinary educator → television personality",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Chef", "Culinary Educator", "Television Personality", "Cookbook Author"],
-      "achievement_indicators": ["acclaimed", "influential", "master"],
-      "influence_indicators": ["legendary", "essential", "master"]
+      "inferred_occupations": [
+        "Chef",
+        "Culinary Educator",
+        "Television Personality",
+        "Cookbook Author"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "master"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "essential",
+        "master"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +216,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-
