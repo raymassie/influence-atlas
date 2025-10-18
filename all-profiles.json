@@ -7,7 +7,6 @@
     "sub_domain": "Activist Investing",
     "era": "Modern",
     "birth_year": 1966,
-    "death_year": null,
     "nationality": "American",
     "gender": "Male",
     "occupation": "Investor, Hedge Fund Manager, Activist",
@@ -105,11 +104,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": "achievement-oriented growth mindset",
@@ -283,26 +277,6 @@
         "value-aligned decisions"
       ]
     },
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "strong integrity-based ethical framework",
@@ -384,7 +358,6 @@
     "era": "Contemporary",
     "nationality": "Spanish",
     "birth_year": 1962,
-    "death_year": null,
     "description": "Spanish chef known for revolutionizing cuisine through molecular gastronomy, deconstructivist techniques, and transforming El Bulli into the world's most influential restaurant.",
     "notable_works": [
       "El Bulli",
@@ -599,13 +572,6 @@
     "archetype": "Athlete",
     "quality_tier": "Tier 1: Legend",
     "summary": "Three-time world heavyweight boxing champion and cultural icon known for his charisma, social activism, and revolutionary impact on sports.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
     "status": "placeholder - needs full evaluation",
     "data_completeness": "10%"
   },
@@ -620,7 +586,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1941,
-    "death_year": null,
     "description": "American lawyer known for representing women in high-profile sexual harassment and discrimination cases, combining legal advocacy with media strategy to advance women's rights.",
     "notable_works": [
       "Women's rights advocacy",
@@ -835,7 +800,6 @@
     "sub_domain": "Artificial Intelligence",
     "era": "Modern",
     "birth_year": 1985,
-    "death_year": null,
     "nationality": "American",
     "primary_occupation": "CEO of OpenAI",
     "notable_achievements": [
@@ -1711,16 +1675,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "n/a",
@@ -1968,16 +1922,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "strong integrity-based ethical framework",
@@ -2209,16 +2153,6 @@
         "natural curiosity",
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -2592,26 +2526,6 @@
       "priority_framework": [
         "quality over quantity"
       ]
-    },
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -3173,31 +3087,6 @@
     ],
     "influence_scope": "Global - Literature and civil rights",
     "legacy": "Became a leading voice in American literature and civil rights, writing powerfully about race, sexuality, and social justice issues that continue to resonate today.",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -3387,22 +3276,12 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": [
         "strategic pivots"
       ],
       "resilience_indicators": "achievement-oriented growth mindset",
       "feedback_integration": "achievement-oriented growth mindset"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -3594,16 +3473,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -4859,16 +4728,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "n/a",
@@ -5449,7 +5308,6 @@
     "era": "Contemporary",
     "nationality": "British",
     "birth_year": 1955,
-    "death_year": null,
     "description": "British computer scientist who invented the World Wide Web and is considered one of the most influential figures in internet history.",
     "notable_works": [
       "World Wide Web",
@@ -6010,20 +5868,10 @@
       "bias_mitigation_strategies": "creative problem-solving with intuitive bias recognition",
       "decision_making_style": "Creative problem-solving with intuitive bias recognition"
     },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
     "self_actualization_indicators": {
       "peak_experiences": "creative self-expression and innovation",
       "autonomy_expression": "creative self-expression and innovation",
       "purpose_alignment": "creative self-expression and innovation"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -6542,20 +6390,10 @@
       "bias_mitigation_strategies": "creative problem-solving with intuitive bias recognition",
       "decision_making_style": "Creative problem-solving with intuitive bias recognition"
     },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
     "self_actualization_indicators": {
       "peak_experiences": "creative self-expression and innovation",
       "autonomy_expression": "creative self-expression and innovation",
       "purpose_alignment": "creative self-expression and innovation"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "customer-focused empathy and understanding",
@@ -6635,7 +6473,6 @@
     "era": "Contemporary",
     "nationality": "Italian",
     "birth_year": 1962,
-    "death_year": null,
     "description": "Italian chef known for reinterpreting traditional Italian cuisine with contemporary techniques, founding Osteria Francescana, and creating Food for Soul to fight food waste and social exclusion.",
     "notable_works": [
       "Osteria Francescana",
@@ -7486,20 +7323,10 @@
       "bias_mitigation_strategies": "creative problem-solving with intuitive bias recognition",
       "decision_making_style": "Creative problem-solving with intuitive bias recognition"
     },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
     "self_actualization_indicators": {
       "peak_experiences": "creative self-expression and innovation",
       "autonomy_expression": "creative self-expression and innovation",
       "purpose_alignment": "creative self-expression and innovation"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "customer-focused empathy and understanding",
@@ -7671,16 +7498,6 @@
         "interdisciplinary interests",
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -8050,11 +7867,6 @@
       ]
     },
     "category": "Motivation Coaching",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
     "growth_motivation": {
       "intrinsic_drivers": "continuous learning and development focus",
       "challenge_seeking": "Continuous learning and development focus",
@@ -8063,11 +7875,6 @@
         "continuous learning drive",
         "experimental exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
@@ -8356,11 +8163,6 @@
       ]
     },
     "category": "Motivation Coaching",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
     "growth_motivation": {
       "intrinsic_drivers": "continuous learning and development focus",
       "challenge_seeking": "Continuous learning and development focus",
@@ -8369,20 +8171,10 @@
         "continuous learning drive"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
       "resilience_indicators": "continuous learning and development focus",
       "feedback_integration": "continuous learning and development focus"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "trait_constellations": {
       "constellation_details": {
@@ -8652,11 +8444,6 @@
         "continuous learning drive"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
       "resilience_indicators": "continuous learning and development focus",
@@ -8879,11 +8666,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
@@ -9161,20 +8943,10 @@
         "continuous learning drive"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
       "resilience_indicators": "continuous learning and development focus",
       "feedback_integration": "continuous learning and development focus"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "trait_constellations": {
       "constellation_details": {
@@ -9432,26 +9204,6 @@
       "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
       "decision_making_style": "Systematic approach to decision-making with bias awareness"
     },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "trait_constellations": {
       "constellation_details": {
         "intellectual_depth": {},
@@ -9614,9 +9366,6 @@
         "Wealth Focus"
       ]
     },
-    "temporal_context": {},
-    "cultural_context": {},
-    "practical_application": {},
     "learning": {
       "knowledge_sharing": [
         "knowledge transfer"
@@ -9624,7 +9373,6 @@
       "adaptation_speed": "achievement-oriented growth mindset",
       "failure_response": "achievement-oriented growth mindset"
     },
-    "communication": {},
     "values": {
       "priority_framework": [
         "value-aligned decisions"
@@ -9643,11 +9391,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": "achievement-oriented growth mindset",
@@ -9735,7 +9478,6 @@
     "sub_domain": "Copywriting",
     "era": "Modern",
     "birth_year": 1952,
-    "death_year": null,
     "nationality": "American",
     "gender": "Male",
     "occupation": "Copywriter, Marketing Consultant",
@@ -9824,31 +9566,6 @@
       ]
     },
     "category": "Marketing",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "trait_constellations": {
       "constellation_details": {
         "intellectual_depth": {},
@@ -10016,16 +9733,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -10387,26 +10094,6 @@
         "quality over quantity"
       ]
     },
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "strong integrity-based ethical framework",
@@ -10703,13 +10390,6 @@
     "archetype": "Composer/Musician",
     "quality_tier": "Tier 1: Legend",
     "summary": "The Man in Black, legendary country singer-songwriter who transcended genres with his deep baritone voice and outlaw persona.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
     "status": "placeholder - needs full evaluation",
     "data_completeness": "10%"
   },
@@ -10721,13 +10401,6 @@
     "archetype": "Visionary",
     "quality_tier": "Tier 1: Legend",
     "summary": "Revolutionary fashion designer who liberated women from corseted clothing and created timeless elegance with the little black dress and Chanel suit.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
     "status": "placeholder - needs full evaluation",
     "data_completeness": "10%"
   },
@@ -10932,26 +10605,6 @@
       ]
     },
     "category": "Technology",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "customer-focused empathy and understanding",
       "ethical_framework": "n/a",
@@ -11578,16 +11231,6 @@
       "bias_mitigation_strategies": "n/a",
       "decision_making_style": "Systematic with bias checks"
     },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": [
         "strategic pivots"
@@ -11787,20 +11430,10 @@
         "experimental exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
       "resilience_indicators": "continuous learning and development focus",
       "feedback_integration": "continuous learning and development focus"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -11993,22 +11626,12 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": [
         "strategic pivots"
       ],
       "resilience_indicators": "achievement-oriented growth mindset",
       "feedback_integration": "achievement-oriented growth mindset"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -12635,31 +12258,6 @@
       "audience_adaptation": "educational audiences, moral discourse, practical wisdom communication"
     },
     "category": "Philosophy",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -12841,11 +12439,6 @@
         "experimental exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": [
         "strategic pivots"
@@ -12955,13 +12548,6 @@
     "archetype": "Visionary",
     "quality_tier": "Tier 1: Legend",
     "summary": "Pioneer of modern architecture, developed International Style and revolutionary urban planning theories.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
     "status": "placeholder - needs full evaluation",
     "data_completeness": "10%"
   },
@@ -13069,20 +12655,10 @@
         "continuous learning drive"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
       "resilience_indicators": "continuous learning and development focus",
       "feedback_integration": "continuous learning and development focus"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -13866,7 +13442,6 @@
     "era": "Contemporary",
     "nationality": "Tibetan",
     "birth_year": 1935,
-    "death_year": null,
     "description": "The 14th Dalai Lama, spiritual leader of Tibet and global advocate for compassion, non-violence, and the integration of Buddhist wisdom with modern science and ethics.",
     "notable_works": [
       "The Art of Happiness",
@@ -13953,11 +13528,6 @@
       "Buddhist philosophy"
     ],
     "influence_scope": "Global - Buddhist wisdom and universal compassion",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
     "growth_motivation": {
       "intrinsic_drivers": "n/a",
       "challenge_seeking": "N/A",
@@ -13965,21 +13535,6 @@
       "curiosity_indicators": [
         "natural curiosity"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -14195,11 +13750,6 @@
       ],
       "resilience_indicators": "n/a",
       "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -14493,11 +14043,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
@@ -15019,7 +14564,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1951,
-    "death_year": null,
     "description": "American neuroscientist and founder of the Center for Healthy Minds, pioneering research on the neuroscience of meditation, mindfulness, and emotional well-being.",
     "notable_works": [
       "The Emotional Life of Your Brain",
@@ -15252,7 +14796,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1938,
-    "death_year": null,
     "description": "American lawyer and legal scholar known for controversial high-profile cases, constitutional defense work, and provocative legal commentary on civil liberties.",
     "notable_works": [
       "O.J. Simpson defense",
@@ -15593,16 +15136,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -16104,8 +15637,6 @@
     "subcategory": "Fictional Characters",
     "era": "Contemporary",
     "nationality": "Universal",
-    "birth_year": null,
-    "death_year": null,
     "description": "A fictional character from The Good Place who represents an alternative philosophical perspective on existence, morality, and the nature of reality through the lens of disco culture and eternal party.",
     "notable_works": [
       "Disco Philosophy",
@@ -16225,31 +15756,6 @@
         "philosophical dancing",
         "groove-based everything"
       ]
-    },
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -16480,11 +15986,6 @@
       ],
       "resilience_indicators": "continuous learning and development focus",
       "feedback_integration": "continuous learning and development focus"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -16790,11 +16291,6 @@
       ]
     },
     "category": "Technology",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
     "growth_motivation": {
       "intrinsic_drivers": "continuous learning and development focus",
       "challenge_seeking": "Continuous learning and development focus",
@@ -16802,11 +16298,6 @@
       "curiosity_indicators": [
         "continuous learning drive"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
@@ -16976,11 +16467,6 @@
         "experimental exploration",
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
@@ -17172,16 +16658,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "high emotional intelligence in team leadership",
       "ethical_framework": "n/a",
@@ -17275,7 +16751,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1972,
-    "death_year": null,
     "description": "American director, producer, and screenwriter known for powerful social justice narratives, industry advocacy, and amplifying underrepresented voices in cinema.",
     "notable_works": [
       "Selma",
@@ -18869,9 +18344,6 @@
         "Brand Positioning"
       ]
     },
-    "temporal_context": {},
-    "cultural_context": {},
-    "practical_application": {},
     "learning": {
       "knowledge_sharing": [
         "knowledge transfer"
@@ -18882,7 +18354,6 @@
       ],
       "failure_response": "n/a"
     },
-    "communication": {},
     "values": {
       "priority_framework": [
         "long-term legacy focus",
@@ -18917,11 +18388,6 @@
       ],
       "resilience_indicators": "n/a",
       "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "humanistic_cognition": {
       "creative_problem_solving": "design thinking with user empathy"
@@ -19002,13 +18468,6 @@
     "archetype": "Innovator",
     "quality_tier": "Tier 1: Legend",
     "summary": "Pioneer of ambient music and influential producer who shaped modern electronic music and production techniques.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
     "status": "placeholder - needs full evaluation",
     "data_completeness": "10%"
   },
@@ -19143,31 +18602,6 @@
         "wrote only 3 surviving letters",
         "lived simply and peacefully"
       ]
-    },
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -19365,9 +18799,6 @@
         "Educational Logic"
       ]
     },
-    "temporal_context": {},
-    "cultural_context": {},
-    "practical_application": {},
     "learning": {
       "knowledge_sharing": [
         "knowledge transfer"
@@ -19375,7 +18806,6 @@
       "adaptation_speed": "n/a",
       "failure_response": "n/a"
     },
-    "communication": {},
     "values": {
       "priority_framework": [
         "value-aligned decisions"
@@ -19394,16 +18824,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -19823,9 +19243,6 @@
         "Attention Design"
       ]
     },
-    "temporal_context": {},
-    "cultural_context": {},
-    "practical_application": {},
     "learning": {
       "knowledge_sharing": [
         "knowledge transfer"
@@ -19833,7 +19250,6 @@
       "adaptation_speed": "n/a",
       "failure_response": "n/a"
     },
-    "communication": {},
     "values": {
       "priority_framework": [
         "long-term legacy focus"
@@ -19852,16 +19268,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -20045,9 +19451,6 @@
         "Patient-Centered Care"
       ]
     },
-    "temporal_context": {},
-    "cultural_context": {},
-    "practical_application": {},
     "learning": {
       "knowledge_sharing": [
         "knowledge transfer"
@@ -20055,7 +19458,6 @@
       "adaptation_speed": "n/a",
       "failure_response": "n/a"
     },
-    "communication": {},
     "values": {
       "priority_framework": [
         "value-aligned decisions"
@@ -20074,16 +19476,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -20293,11 +19685,6 @@
       "resilience_indicators": "n/a",
       "feedback_integration": "n/a"
     },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -20410,7 +19797,6 @@
     "sub_domain": "Applied Psychology",
     "era": "Modern",
     "birth_year": 1977,
-    "death_year": null,
     "nationality": "American",
     "gender": "Male",
     "occupation": "Author, Entrepreneur, Podcast Host, Coach",
@@ -20507,21 +19893,6 @@
       "curiosity_indicators": [
         "experimental exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -20971,31 +20342,6 @@
     ],
     "influence_scope": "Global - Literature and American culture",
     "legacy": "Was a leading figure in the Jazz Age and wrote 'The Great Gatsby', one of the greatest American novels, capturing the spirit and disillusionment of the American dream.",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -21513,26 +20859,6 @@
       "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
       "decision_making_style": "Systematic approach to decision-making with bias awareness"
     },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "trait_constellations": {
       "constellation_details": {
         "intellectual_depth": {},
@@ -22030,11 +21356,6 @@
       "resilience_indicators": "continuous learning and development focus",
       "feedback_integration": "continuous learning and development focus"
     },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "trait_constellations": {
       "constellation_details": {
         "intellectual_depth": {},
@@ -22446,11 +21767,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
       "resilience_indicators": "continuous learning and development focus",
@@ -22649,16 +21965,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -22952,16 +22258,6 @@
       "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
       "decision_making_style": "Systematic with bias checks"
     },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": [
         "strategic pivots"
@@ -23156,16 +22452,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -23431,11 +22717,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": [
@@ -23777,7 +23058,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1965,
-    "death_year": null,
     "description": "American surgeon, writer, and public health researcher known for examining healthcare systems, medical errors, and the intersection of medicine with broader social issues through accessible writing.",
     "notable_works": [
       "The Checklist Manifesto",
@@ -24108,11 +23388,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": [
         "strategic pivots"
@@ -24298,16 +23573,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -24692,16 +23957,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "high emotional intelligence in team leadership",
       "ethical_framework": "n/a",
@@ -24793,7 +24048,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1960,
-    "death_year": null,
     "description": "American author and marketing guru known for his insights on digital marketing, permission marketing, and the concept of 'purple cows' and 'tribes'.",
     "notable_works": [
       "Purple Cow",
@@ -25024,7 +24278,6 @@
     "sub_domain": "Applied Psychology",
     "era": "Modern",
     "birth_year": 1975,
-    "death_year": null,
     "nationality": "American",
     "gender": "Male",
     "occupation": "Ultra-endurance Athlete, Motivational Speaker, Author",
@@ -25110,31 +24363,6 @@
       ]
     },
     "category": "Motivation Coaching",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -25216,7 +24444,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1946,
-    "death_year": null,
     "description": "American psychologist and science journalist who popularized emotional intelligence and integrated mindfulness with cognitive science research.",
     "notable_works": [
       "Emotional Intelligence",
@@ -25319,16 +24546,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "strong integrity-based ethical framework",
@@ -25429,7 +24646,6 @@
     "sub_domain": "Primatology",
     "era": "Modern",
     "birth_year": 1934,
-    "death_year": null,
     "nationality": "British",
     "gender": "Female",
     "occupation": "Primatologist, Anthropologist, Conservationist",
@@ -25531,20 +24747,10 @@
       "challenge_seeking": "N/A",
       "learning_orientation": "N/A"
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": "n/a",
       "resilience_indicators": "n/a",
       "feedback_integration": "evidence-based learning and adaptation"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -25636,7 +24842,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1948,
-    "death_year": null,
     "description": "American politician and environmental activist who won the Nobel Peace Prize for his work on climate change awareness and advocacy.",
     "notable_works": [
       "An Inconvenient Truth",
@@ -25734,26 +24939,6 @@
       "primary_biases": "systematic approach to decision-making with bias awareness",
       "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
       "decision_making_style": "Systematic approach to decision-making with bias awareness"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -25967,16 +25152,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "n/a",
@@ -26064,7 +25239,6 @@
     "sub_domain": "Organizational Behavior",
     "era": "Modern",
     "birth_year": 1981,
-    "death_year": null,
     "nationality": "American",
     "primary_occupation": "Professor, Author, Speaker",
     "notable_achievements": [
@@ -26256,16 +25430,6 @@
         "natural curiosity",
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "high emotional intelligence in teamwork",
@@ -26545,11 +25709,6 @@
       ]
     },
     "category": "Entrepreneurial",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
     "growth_motivation": {
       "intrinsic_drivers": "achievement-oriented growth mindset",
       "challenge_seeking": "Achievement-oriented growth mindset",
@@ -26558,20 +25717,10 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": "achievement-oriented growth mindset",
       "resilience_indicators": "achievement-oriented growth mindset",
       "feedback_integration": "achievement-oriented growth mindset"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "trait_constellations": {
       "constellation_details": {
@@ -26845,11 +25994,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": [
         "strategic pivots"
@@ -26938,7 +26082,6 @@
     "sub_domain": "Management",
     "era": "Modern",
     "birth_year": 1944,
-    "death_year": null,
     "nationality": "American",
     "gender": "Male",
     "occupation": "Investor, Fund Manager, Bond Strategist",
@@ -27041,11 +26184,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": [
@@ -27257,11 +26395,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": [
         "strategic pivots"
@@ -27350,13 +26483,6 @@
     "archetype": "Designer",
     "quality_tier": "Tier 1: Legend",
     "summary": "First woman to win the Pritzker Architecture Prize, known for neo-futuristic designs and radical deconstructivist forms.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
     "status": "placeholder - needs full evaluation",
     "data_completeness": "10%"
   },
@@ -27458,31 +26584,6 @@
       ]
     },
     "category": "Marketing",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "trait_constellations": {
       "constellation_details": {
         "intellectual_depth": {},
@@ -27550,7 +26651,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1941,
-    "death_year": null,
     "description": "American climate scientist who was among the first to warn about global warming and became a leading voice in climate science and advocacy.",
     "notable_works": [
       "Climate science",
@@ -27656,16 +26756,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -27775,7 +26865,6 @@
     "sub_domain": "Human Development",
     "era": "Modern",
     "birth_year": 1976,
-    "death_year": null,
     "nationality": "Israeli",
     "primary_occupation": "Historian, Author, Professor",
     "notable_achievements": [
@@ -27964,16 +27053,6 @@
         "interdisciplinary interests",
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -28629,16 +27708,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "n/a",
@@ -28751,7 +27820,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1940,
-    "death_year": null,
     "description": "American divorce mediator and conflict resolution specialist who pioneered collaborative divorce mediation, helping couples resolve disputes amicably while protecting children and family relationships.",
     "notable_works": [
       "Divorce mediation",
@@ -29063,16 +28131,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "n/a",
@@ -29302,16 +28360,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "n/a",
@@ -29514,31 +28562,6 @@
     ],
     "influence_scope": "Global - Literature and writing style",
     "legacy": "Won the Nobel Prize in Literature and revolutionized American literature with his distinctive minimalist style and adventurous themes.",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -29644,7 +28667,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1935,
-    "death_year": null,
     "description": "American relationship coach and therapist who developed Imago Relationship Therapy, focusing on healing childhood wounds through conscious partnership and transforming romantic relationships.",
     "notable_works": [
       "Imago Relationship Therapy",
@@ -29977,11 +28999,6 @@
       ],
       "resilience_indicators": "n/a",
       "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "humanistic_cognition": {
       "creative_problem_solving": "innovative approaches with user empathy"
@@ -30470,16 +29487,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "n/a",
@@ -30692,26 +29699,6 @@
       "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
       "decision_making_style": "Systematic approach to decision-making with bias awareness"
     },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -30909,16 +29896,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "strong integrity-based ethical framework",
@@ -30995,7 +29972,6 @@
     "sub_domain": "Social Technology",
     "era": "Modern",
     "birth_year": 1967,
-    "death_year": null,
     "nationality": "American",
     "gender": "Male",
     "occupation": "Entrepreneur, Investor, Author",
@@ -31097,22 +30073,12 @@
         "continuous learning drive"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": [
         "strategic pivots"
       ],
       "resilience_indicators": "continuous learning and development focus",
       "feedback_integration": "continuous learning and development focus"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -31387,26 +30353,6 @@
       "primary_biases": "systematic approach to decision-making with bias awareness",
       "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
       "decision_making_style": "Systematic approach to decision-making with bias awareness"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "trait_constellations": {
       "constellation_details": {
@@ -31876,26 +30822,6 @@
       "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
       "decision_making_style": "Systematic approach to decision-making with bias awareness"
     },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "trait_constellations": {
       "constellation_details": {
         "intellectual_depth": {},
@@ -32158,21 +31084,6 @@
       "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
       "decision_making_style": "Systematic approach to decision-making with bias awareness"
     },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "strong integrity-based ethical framework",
@@ -32432,11 +31343,6 @@
       ]
     },
     "category": "Entrepreneurial",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
     "growth_motivation": {
       "intrinsic_drivers": "continuous learning and development focus",
       "challenge_seeking": "Continuous learning and development focus",
@@ -32445,20 +31351,10 @@
         "continuous learning drive"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
       "resilience_indicators": "continuous learning and development focus",
       "feedback_integration": "continuous learning and development focus"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "trait_constellations": {
       "constellation_details": {
@@ -32668,32 +31564,10 @@
         "growth-oriented exploration"
       ]
     },
-    "human_needs_hierarchy": {
-      "physiological_focus": "N/A",
-      "safety_concerns": "N/A",
-      "belonging_expression": "N/A",
-      "esteem_sources": "N/A",
-      "self_actualization_pursuit": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "n/a",
       "human_centered_thinking": "Always considers human impact"
-    },
-    "humanistic_cognition": {
-      "holistic_perspective": "n/a",
-      "creative_problem_solving": "n/a",
-      "collaborative_intelligence": "n/a"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -32922,11 +31796,6 @@
       "resilience_indicators": "n/a",
       "feedback_integration": "n/a"
     },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -33144,11 +32013,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": [
@@ -33475,13 +32339,6 @@
     "archetype": "Entrepreneur",
     "quality_tier": "Tier 1: Legend",
     "summary": "One of the greatest rappers and most successful hip-hop entrepreneurs, built a business empire while maintaining artistic credibility.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
     "status": "placeholder - needs full evaluation",
     "data_completeness": "10%"
   },
@@ -33704,11 +32561,6 @@
       ]
     },
     "category": "Entrepreneurial",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
     "growth_motivation": {
       "intrinsic_drivers": "continuous learning and development focus",
       "challenge_seeking": "High - actively seeks complex problems",
@@ -33717,11 +32569,6 @@
         "continuous learning drive",
         "experimental exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": [
@@ -33808,7 +32655,6 @@
     "era": "Contemporary",
     "nationality": "Canadian",
     "birth_year": 1947,
-    "death_year": null,
     "description": "Canadian psychologist and marriage counselor known for developing Emotionally Focused Therapy (EFT), revolutionizing couples therapy through attachment-based approaches and emotional connection.",
     "notable_works": [
       "Emotionally Focused Therapy",
@@ -34024,13 +32870,6 @@
     "archetype": "Athlete",
     "quality_tier": "Tier 1: Legend",
     "summary": "Six-time NBA champion, considered the greatest basketball player of all time, transformed sports marketing and global basketball culture.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
     "status": "placeholder - needs full evaluation",
     "data_completeness": "10%"
   },
@@ -34042,13 +32881,6 @@
     "archetype": "Visionary",
     "quality_tier": "Tier 1: Legend",
     "summary": "Baptist minister and civil rights leader whose nonviolent activism transformed American society and inspired global human rights movements.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
     "status": "placeholder - needs full evaluation",
     "data_completeness": "10%"
   },
@@ -34160,16 +32992,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "n/a",
@@ -34264,7 +33086,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1944,
-    "death_year": null,
     "description": "American professor emeritus of medicine and creator of Mindfulness-Based Stress Reduction (MBSR), bringing mindfulness meditation into mainstream medicine and healthcare.",
     "notable_works": [
       "Full Catastrophe Living",
@@ -34355,26 +33176,6 @@
       "primary_biases": "systematic approach to decision-making with bias awareness",
       "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
       "decision_making_style": "Systematic approach to decision-making with bias awareness"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -34471,7 +33272,6 @@
     "sub_domain": "Economics",
     "era": "Modern",
     "birth_year": 1934,
-    "death_year": null,
     "nationality": "Israeli-American",
     "primary_occupation": "Psychologist, Nobel Prize Winner",
     "notable_achievements": [
@@ -34663,16 +33463,6 @@
         "experimental exploration",
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "high emotional intelligence in team leadership",
@@ -34983,26 +33773,6 @@
       ]
     },
     "category": "Design",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "high emotional intelligence in team leadership",
       "ethical_framework": "n/a",
@@ -35429,16 +34199,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "n/a",
@@ -35733,26 +34493,6 @@
       "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
       "decision_making_style": "Systematic approach to decision-making with bias awareness"
     },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "trait_constellations": {
       "constellation_details": {
         "intellectual_depth": {},
@@ -35824,7 +34564,6 @@
     "sub_domain": "Performance Marketing",
     "era": "Modern",
     "birth_year": 1980,
-    "death_year": null,
     "nationality": "American",
     "gender": "Male",
     "occupation": "Marketing Strategist, Entrepreneur",
@@ -35924,11 +34663,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": [
@@ -36117,9 +34851,6 @@
         "Policy Innovation"
       ]
     },
-    "temporal_context": {},
-    "cultural_context": {},
-    "practical_application": {},
     "learning": {
       "knowledge_sharing": [
         "knowledge transfer"
@@ -36130,7 +34861,6 @@
       ],
       "failure_response": "n/a"
     },
-    "communication": {},
     "values": {
       "priority_framework": [
         "value-aligned decisions"
@@ -36373,31 +35103,6 @@
         "died at age 42"
       ]
     },
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -36490,7 +35195,6 @@
     "sub_domain": "Horror Fiction",
     "era": "Modern",
     "birth_year": 1947,
-    "death_year": null,
     "nationality": "American",
     "gender": "Male",
     "occupation": "Novelist, Short Story Writer, Screenwriter",
@@ -36575,11 +35279,6 @@
       "audience_adaptation": "horror audiences, character-driven discourse, atmospheric communication"
     },
     "category": "Writers",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
     "growth_motivation": {
       "intrinsic_drivers": "continuous learning and development focus",
       "challenge_seeking": "Continuous learning and development focus",
@@ -36588,20 +35287,10 @@
         "continuous learning drive"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
       "resilience_indicators": "continuous learning and development focus",
       "feedback_integration": "continuous learning and development focus"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -36688,7 +35377,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1938,
-    "death_year": null,
     "description": "American computer scientist and mathematician who wrote 'The Art of Computer Programming' and created TeX typesetting system, revolutionizing computer science education and algorithmic thinking.",
     "notable_works": [
       "The Art of Computer Programming",
@@ -37151,7 +35839,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1945,
-    "death_year": null,
     "description": "American meditation teacher and psychologist who co-founded the Insight Meditation Society, bringing Vipassana meditation to the West.",
     "notable_works": [
       "A Path with Heart",
@@ -37244,31 +35931,6 @@
       "Community building"
     ],
     "influence_scope": "Global - Vipassana meditation and Buddhist psychology",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -37371,7 +36033,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1953,
-    "death_year": null,
     "description": "American economist who won the Nobel Prize in Economics and is known for his work in international economics and his influential economic commentary.",
     "notable_works": [
       "The Return of Depression Economics",
@@ -37477,16 +36138,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -38034,13 +36685,6 @@
     "archetype": "Composer/Musician",
     "quality_tier": "Tier 2: Pioneer",
     "summary": "Pulitzer Prize-winning rapper known for complex lyricism, social commentary, and pushing the boundaries of hip-hop as an art form.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
     "status": "placeholder - needs full evaluation",
     "data_completeness": "10%"
   },
@@ -38052,13 +36696,6 @@
     "archetype": "Designer",
     "quality_tier": "Tier 1: Legend",
     "summary": "Legendary fashion designer who brought high fashion to the streets with ready-to-wear and the iconic Le Smoking tuxedo suit for women.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
     "status": "placeholder - needs full evaluation",
     "data_completeness": "10%"
   },
@@ -38169,31 +36806,6 @@
     ],
     "influence_scope": "Global - Literature and social justice",
     "legacy": "Wrote 'To Kill a Mockingbird', one of the most influential novels in American literature, addressing racial injustice and moral courage with profound impact.",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -38386,21 +36998,6 @@
       "primary_biases": "systematic approach to decision-making with bias awareness",
       "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
       "decision_making_style": "Systematic approach to decision-making with bias awareness"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -39023,16 +37620,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "n/a",
@@ -39585,7 +38172,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1946,
-    "death_year": null,
     "description": "American director, artist, and musician known for surreal narratives, dreamlike imagery, and exploration of the dark underbelly of American life.",
     "notable_works": [
       "Twin Peaks",
@@ -39801,7 +38387,6 @@
     "sub_domain": "Management",
     "era": "Modern",
     "birth_year": 1944,
-    "death_year": null,
     "nationality": "American",
     "gender": "Male",
     "occupation": "Investor, Fund Manager, Author",
@@ -39889,11 +38474,6 @@
       "audience_adaptation": "individual investors, educational audiences, practical communication"
     },
     "category": "Investment",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
     "growth_motivation": {
       "intrinsic_drivers": "achievement-oriented growth mindset",
       "challenge_seeking": "Achievement-oriented growth mindset",
@@ -39902,20 +38482,10 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": "achievement-oriented growth mindset",
       "resilience_indicators": "achievement-oriented growth mindset",
       "feedback_integration": "achievement-oriented growth mindset"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -40103,11 +38673,6 @@
       ],
       "resilience_indicators": "n/a",
       "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "humanistic_cognition": {
       "creative_problem_solving": "design thinking with user empathy"
@@ -40307,16 +38872,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "strong integrity-based ethical framework",
@@ -40501,16 +39056,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -40916,11 +39461,6 @@
       "audience_adaptation": "psychological audiences, motivational discourse, humanistic communication"
     },
     "category": "Psychology",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
     "growth_motivation": {
       "intrinsic_drivers": "continuous learning and development focus",
       "challenge_seeking": "Continuous learning and development focus",
@@ -40929,20 +39469,10 @@
         "continuous learning drive"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
       "resilience_indicators": "continuous learning and development focus",
       "feedback_integration": "continuous learning and development focus"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -42024,16 +40554,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "n/a",
@@ -42249,16 +40769,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "strong integrity-based ethical framework",
@@ -42465,11 +40975,6 @@
       ],
       "resilience_indicators": "n/a",
       "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -42684,16 +41189,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "n/a",
@@ -42894,31 +41389,6 @@
     ],
     "influence_scope": "Global - Literature and cultural expression",
     "legacy": "Won the Nobel Prize in Literature and became the first African American woman to win the prize, revolutionizing American literature with her profound exploration of history, culture, and social justice.",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -43360,26 +41830,6 @@
       "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
       "decision_making_style": "Systematic approach to decision-making with bias awareness"
     },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -43582,31 +42032,6 @@
     ],
     "influence_scope": "Global - Environmental conservation and national parks",
     "legacy": "Founded the Sierra Club and was instrumental in establishing the national park system, becoming one of the most influential conservationists in American history.",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -43884,11 +42309,6 @@
       ]
     },
     "category": "Investment",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
     "growth_motivation": {
       "intrinsic_drivers": "continuous learning and development focus",
       "challenge_seeking": "Continuous learning and development focus",
@@ -43897,20 +42317,10 @@
         "continuous learning drive"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
       "resilience_indicators": "continuous learning and development focus",
       "feedback_integration": "continuous learning and development focus"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "trait_constellations": {
       "constellation_details": {
@@ -44204,7 +42614,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1971,
-    "death_year": null,
     "description": "American technology entrepreneur who founded SpaceX, Tesla, and other companies, revolutionizing space exploration, electric vehicles, and sustainable energy.",
     "notable_works": [
       "SpaceX",
@@ -44360,11 +42769,6 @@
       ],
       "resilience_indicators": "n/a",
       "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -44895,16 +43299,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "n/a",
@@ -45126,11 +43520,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": "n/a",
@@ -45426,20 +43815,10 @@
       "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
       "decision_making_style": "Systematic approach to decision-making with bias awareness"
     },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
     "self_actualization_indicators": {
       "peak_experiences": "creative self-expression and innovation",
       "autonomy_expression": "creative self-expression and innovation",
       "purpose_alignment": "creative self-expression and innovation"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "high emotional intelligence in team leadership",
@@ -45656,16 +44035,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "strong integrity-based ethical framework",
@@ -45856,16 +44225,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "n/a",
@@ -45979,7 +44338,6 @@
     "era": "Contemporary",
     "nationality": "British-American",
     "birth_year": 1970,
-    "death_year": null,
     "description": "British-American director known for complex narratives, practical effects, time manipulation themes, and balancing intellectual depth with blockbuster entertainment.",
     "notable_works": [
       "Inception",
@@ -46295,9 +44653,6 @@
         "Inclusive Governance"
       ]
     },
-    "temporal_context": {},
-    "cultural_context": {},
-    "practical_application": {},
     "learning": {
       "knowledge_sharing": [
         "knowledge transfer"
@@ -46307,7 +44662,6 @@
       ],
       "failure_response": "n/a"
     },
-    "communication": {},
     "values": {
       "priority_framework": [
         "value-aligned decisions"
@@ -46326,11 +44680,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": [
@@ -46745,26 +45094,6 @@
       "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
       "decision_making_style": "Systematic approach to decision-making with bias awareness"
     },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -46963,11 +45292,6 @@
       "peak_experiences": "creative self-expression and innovation",
       "autonomy_expression": "creative self-expression and innovation",
       "purpose_alignment": "creative self-expression and innovation"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -47497,13 +45821,6 @@
     "archetype": "Composer/Musician",
     "quality_tier": "Tier 1: Legend",
     "summary": "Iconic country music star, prolific songwriter, actress, and philanthropist known for business acumen and cultural impact.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
     "status": "placeholder - needs full evaluation",
     "data_completeness": "10%"
   },
@@ -47765,7 +46082,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1936,
-    "death_year": null,
     "description": "American Tibetan Buddhist nun and teacher known for her accessible teachings on meditation, compassion, and working with difficult emotions.",
     "notable_works": [
       "When Things Fall Apart",
@@ -47858,31 +46174,6 @@
       "Community teaching"
     ],
     "influence_scope": "Global - Compassion meditation and authentic spirituality",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -47978,7 +46269,6 @@
     "era": "Contemporary",
     "nationality": "French-American",
     "birth_year": 1935,
-    "death_year": null,
     "description": "French-American chef known for mastering and teaching classic French technique, demystifying professional cooking for home cooks, and bridging French and American culinary traditions.",
     "notable_works": [
       "French technique education",
@@ -48299,11 +46589,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
       "resilience_indicators": "continuous learning and development focus",
@@ -48544,11 +46829,6 @@
       "resilience_indicators": "n/a",
       "feedback_integration": "n/a"
     },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -48751,11 +47031,6 @@
         "experimental exploration",
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
@@ -48996,16 +47271,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "strong integrity-based ethical framework",
@@ -49207,11 +47472,6 @@
       ],
       "resilience_indicators": "n/a",
       "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -49491,11 +47751,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": "achievement-oriented growth mindset",
       "resilience_indicators": "achievement-oriented growth mindset",
@@ -49663,26 +47918,6 @@
       "priority_framework": [
         "value-aligned decisions"
       ]
-    },
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -49858,31 +48093,6 @@
       "Community building"
     ],
     "influence_scope": "Global - Spiritual awakening and conscious aging",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -50103,11 +48313,6 @@
       ],
       "resilience_indicators": "n/a",
       "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -50814,31 +49019,6 @@
       ]
     },
     "category": "Motivation Coaching",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "trait_constellations": {
       "constellation_details": {
         "intellectual_depth": {}
@@ -51016,16 +49196,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -51251,11 +49421,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": [
@@ -51505,11 +49670,6 @@
       "resilience_indicators": "continuous learning and development focus",
       "feedback_integration": "continuous learning and development focus"
     },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -51627,7 +49787,6 @@
     "sub_domain": "Applied Psychology",
     "era": "Modern",
     "birth_year": 1968,
-    "death_year": null,
     "nationality": "American",
     "gender": "Female",
     "occupation": "Author, Speaker, Coach, Podcast Host",
@@ -51714,31 +49873,6 @@
       ]
     },
     "category": "Motivation Coaching",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -51812,7 +49946,6 @@
     "sub_domain": "Applied Psychology",
     "era": "Modern",
     "birth_year": 1960,
-    "death_year": null,
     "nationality": "American",
     "gender": "Male",
     "occupation": "Life Coach, Author, Speaker, Entrepreneur",
@@ -51896,11 +50029,6 @@
       "audience_adaptation": "motivational audiences, energetic discourse, passionate communication"
     },
     "category": "Motivation Coaching",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
     "growth_motivation": {
       "intrinsic_drivers": "continuous learning and development focus",
       "challenge_seeking": "Continuous learning and development focus",
@@ -51909,20 +50037,10 @@
         "continuous learning drive"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
       "resilience_indicators": "continuous learning and development focus",
       "feedback_integration": "continuous learning and development focus"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -52103,27 +50221,12 @@
       "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
       "decision_making_style": "Systematic with bias checks"
     },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": [
         "strategic pivots"
       ],
       "resilience_indicators": "n/a",
       "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -52315,26 +50418,6 @@
         "quality over quantity"
       ]
     },
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "strong integrity-based ethical framework",
@@ -52506,26 +50589,6 @@
     ],
     "influence_scope": "Global - Political leadership and social reform",
     "legacy": "Led America through the Great Depression and World War II, implementing the New Deal and establishing modern social welfare policies.",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "values-driven ethical decision making",
@@ -52715,31 +50778,6 @@
       ]
     },
     "category": "Arts",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -52905,25 +50943,10 @@
       "bias_mitigation_strategies": "creative problem-solving with intuitive bias recognition",
       "decision_making_style": "Creative problem-solving with intuitive bias recognition"
     },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
     "self_actualization_indicators": {
       "peak_experiences": "creative self-expression and innovation",
       "autonomy_expression": "creative self-expression and innovation",
       "purpose_alignment": "creative self-expression and innovation"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -53545,11 +51568,6 @@
       "resilience_indicators": "continuous learning and development focus",
       "feedback_integration": "continuous learning and development focus"
     },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -53658,7 +51676,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1952,
-    "death_year": null,
     "description": "American meditation teacher and co-founder of the Insight Meditation Society, specializing in loving-kindness meditation and mindfulness practices.",
     "notable_works": [
       "Lovingkindness",
@@ -53751,11 +51768,6 @@
       "Community building"
     ],
     "influence_scope": "Global - Loving-kindness meditation and mindfulness",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
     "growth_motivation": {
       "intrinsic_drivers": "continuous learning and development focus",
       "challenge_seeking": "Continuous learning and development focus",
@@ -53764,20 +51776,10 @@
         "continuous learning drive"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
       "resilience_indicators": "continuous learning and development focus",
       "feedback_integration": "continuous learning and development focus"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -54220,16 +52222,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "n/a",
@@ -54329,7 +52321,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1940,
-    "death_year": null,
     "description": "American philosopher known for his work on contractualist moral theory and his influential book 'What We Owe To Each Other'.",
     "notable_works": [
       "What We Owe To Each Other",
@@ -54464,16 +52455,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -54901,11 +52882,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
@@ -55335,11 +53311,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": [
         "strategic pivots"
@@ -55433,7 +53404,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1942,
-    "death_year": null,
     "description": "American film director, historian, and preservationist known for visceral storytelling, moral complexity, and deep knowledge of cinema history.",
     "notable_works": [
       "Taxi Driver",
@@ -55649,7 +53619,6 @@
     "era": "Contemporary",
     "nationality": "Indian",
     "birth_year": 1933,
-    "death_year": null,
     "description": "Indian economist who won the Nobel Prize in Economics and is known for his work on development economics, social choice theory, and welfare economics.",
     "notable_works": [
       "Development as Freedom",
@@ -55755,11 +53724,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
@@ -56076,26 +54040,6 @@
       "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
       "decision_making_style": "Systematic approach to decision-making with bias awareness"
     },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "trait_constellations": {
       "constellation_details": {
         "intellectual_depth": {},
@@ -56166,13 +54110,6 @@
     "archetype": "Writer",
     "quality_tier": "Tier 1: Legend",
     "summary": "Greatest playwright in the English language, whose works transformed literature and continue to define Western culture.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
     "status": "placeholder - needs full evaluation",
     "data_completeness": "10%"
   },
@@ -56184,13 +54121,6 @@
     "archetype": "Composer/Musician",
     "quality_tier": "Tier 1: Legend",
     "summary": "Revolutionary rapper, poet, and actor whose socially conscious lyrics and cultural impact made him one of the most influential musicians in hip-hop history.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
     "status": "placeholder - needs full evaluation",
     "data_completeness": "10%"
   },
@@ -56338,16 +54268,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "n/a",
@@ -56461,7 +54381,6 @@
     "sub_domain": "Quantitative Investing",
     "era": "Modern",
     "birth_year": 1938,
-    "death_year": null,
     "nationality": "American",
     "gender": "Male",
     "occupation": "Investor, Mathematician, Philanthropist",
@@ -56551,26 +54470,6 @@
       "primary_biases": "systematic approach to decision-making with bias awareness",
       "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
       "decision_making_style": "Systematic approach to decision-making with bias awareness"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -56834,11 +54733,6 @@
       ]
     },
     "category": "Writers",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
     "growth_motivation": {
       "intrinsic_drivers": "continuous learning and development focus",
       "challenge_seeking": "Continuous learning and development focus",
@@ -56937,7 +54831,6 @@
     "era": "Contemporary",
     "nationality": "Australian",
     "birth_year": 1946,
-    "death_year": null,
     "description": "Australian philosopher known for his work in applied ethics, particularly animal rights, effective altruism, and global poverty.",
     "notable_works": [
       "The Most Good You Can Do?",
@@ -57070,16 +54963,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -57308,16 +55191,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "strong integrity-based ethical framework",
@@ -57507,11 +55380,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": [
@@ -57713,16 +55581,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "n/a",
@@ -57834,7 +55692,6 @@
     "sub_domain": "Management",
     "era": "Modern",
     "birth_year": 1930,
-    "death_year": null,
     "nationality": "Hungarian-American",
     "gender": "Male",
     "occupation": "Investor, Philanthropist, Political Activist",
@@ -57932,11 +55789,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": "achievement-oriented growth mindset",
@@ -58338,26 +56190,6 @@
         "value-aligned decisions"
       ]
     },
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "strong integrity-based ethical framework",
@@ -58440,7 +56272,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1953,
-    "death_year": null,
     "description": "American software developer and activist who founded the Free Software Foundation and GNU Project, advocating for software freedom and creating the GNU General Public License (GPL).",
     "notable_works": [
       "GNU Project",
@@ -58657,7 +56488,6 @@
     "era": "Contemporary",
     "nationality": "French",
     "birth_year": 1949,
-    "death_year": null,
     "description": "French industrial designer known for his innovative and often whimsical designs across furniture, interior design, and consumer products.",
     "notable_works": [
       "Juicy Salif",
@@ -58781,11 +56611,6 @@
       ],
       "resilience_indicators": "n/a",
       "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -58991,31 +56816,6 @@
     ],
     "influence_scope": "Global - Literature and social justice",
     "legacy": "Won the Nobel Prize in Literature and wrote powerful novels about social issues and the American experience, including 'The Grapes of Wrath', becoming one of America's greatest realist writers.",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -59120,7 +56920,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1959,
-    "death_year": null,
     "description": "American lawyer and social justice activist known for criminal justice reform, death penalty abolition work, and founding the Equal Justice Initiative to address racial and economic injustice.",
     "notable_works": [
       "Just Mercy",
@@ -59742,7 +57541,6 @@
     "sub_domain": "Risk Theory",
     "era": "Modern",
     "birth_year": 1960,
-    "death_year": null,
     "nationality": "Lebanese-American",
     "primary_occupation": "Scholar, Risk Analyst, Author",
     "notable_achievements": [
@@ -59929,16 +57727,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "high emotional intelligence in team leadership",
       "ethical_framework": "strong integrity-based ethical framework",
@@ -60034,7 +57822,6 @@
     "era": "Modern",
     "nationality": "American",
     "birth_year": 1932,
-    "death_year": null,
     "description": "American journalist and author known for pioneering literary journalism, meticulous observation, and transforming nonfiction writing with novelistic techniques and immersive reporting.",
     "notable_works": [
       "Honor Thy Father",
@@ -60252,7 +58039,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1963,
-    "death_year": null,
     "description": "American director and screenwriter known for stylized violence, nonlinear narratives, cinematic references, and sharp dialogue influenced by exploitation cinema.",
     "notable_works": [
       "Pulp Fiction",
@@ -60783,9 +58569,6 @@
         "Strong Governance"
       ]
     },
-    "temporal_context": {},
-    "cultural_context": {},
-    "practical_application": {},
     "learning": {
       "knowledge_sharing": [
         "knowledge transfer"
@@ -60793,7 +58576,6 @@
       "adaptation_speed": "n/a",
       "failure_response": "n/a"
     },
-    "communication": {},
     "values": {
       "priority_framework": [
         "value-aligned decisions"
@@ -60812,16 +58594,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
     },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
@@ -60997,31 +58769,6 @@
       "Community building"
     ],
     "influence_scope": "Global - Mindfulness and engaged Buddhism",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -61323,11 +59070,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": [
         "strategic pivots"
@@ -61604,11 +59346,6 @@
       ]
     },
     "category": "Motivation Coaching",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
     "growth_motivation": {
       "intrinsic_drivers": "achievement-oriented growth mindset",
       "challenge_seeking": "Achievement-oriented growth mindset",
@@ -61617,20 +59354,10 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": "achievement-oriented growth mindset",
       "resilience_indicators": "achievement-oriented growth mindset",
       "feedback_integration": "achievement-oriented growth mindset"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "trait_constellations": {
       "constellation_details": {
@@ -61923,7 +59650,6 @@
     "era": "Contemporary",
     "nationality": "Swedish",
     "birth_year": 2003,
-    "death_year": null,
     "description": "Swedish environmental activist who became a leading voice in climate change activism, inspiring global youth climate movements.",
     "notable_works": [
       "Climate activism",
@@ -62017,31 +59743,6 @@
     ],
     "influence_scope": "Global - Climate activism and youth movements",
     "legacy": "Became a leading voice in climate change activism, inspiring global youth climate movements and raising awareness about environmental issues.",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -62143,7 +59844,6 @@
     "era": "Contemporary",
     "nationality": "Finnish-American",
     "birth_year": 1969,
-    "death_year": null,
     "description": "Finnish-American software engineer who created the Linux kernel and Git version control system, revolutionizing open source software development and collaborative programming practices.",
     "notable_works": [
       "Linux kernel",
@@ -62463,16 +60163,6 @@
         "growth-oriented exploration"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "strong integrity-based ethical framework",
@@ -62660,11 +60350,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": [
@@ -63104,31 +60789,6 @@
     ],
     "influence_scope": "Global - Literature and humor writing",
     "legacy": "Wrote iconic American novels including 'Huckleberry Finn' and 'Tom Sawyer', becoming one of the greatest American humorists and social critics in literature.",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -63379,11 +61039,6 @@
       "resilience_indicators": "n/a",
       "feedback_integration": "n/a"
     },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -63491,7 +61146,6 @@
     "sub_domain": "Social Technology",
     "era": "Modern",
     "birth_year": 1975,
-    "death_year": null,
     "nationality": "American",
     "gender": "Male",
     "occupation": "Entrepreneur, Social Media Expert, Investor",
@@ -63577,31 +61231,6 @@
       ]
     },
     "category": "Marketing",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -63780,31 +61409,6 @@
     ],
     "influence_scope": "Global - Architecture and design theory",
     "legacy": "Pioneered postmodern architecture and challenged modernist principles, influencing architectural theory and practice.",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -64031,11 +61635,6 @@
       "resilience_indicators": "n/a",
       "feedback_integration": "n/a"
     },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -64228,26 +61827,6 @@
       "audience_adaptation": "intellectual audiences, satirical discourse, critical communication"
     },
     "category": "Philosophy",
-    "bias_awareness": {
-      "primary_biases": "n/a",
-      "bias_mitigation_strategies": "n/a",
-      "decision_making_style": "N/A"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
     "cognitive_humanism": {
       "empathy_expression": "n/a",
       "ethical_framework": "strong integrity-based ethical framework",
@@ -64428,11 +62007,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": "continuous learning and development focus",
@@ -64754,7 +62328,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1944,
-    "death_year": null,
     "description": "American chef and restaurateur known for pioneering the farm-to-table movement, sustainable cuisine, and advocating for local, organic, and seasonal ingredients.",
     "notable_works": [
       "Chez Panisse",
@@ -64970,7 +62543,6 @@
     "sub_domain": "Biology",
     "era": "Modern",
     "birth_year": 1928,
-    "death_year": null,
     "nationality": "American",
     "gender": "Male",
     "occupation": "Molecular Biologist, Geneticist",
@@ -65084,11 +62656,6 @@
       "adaptation_patterns": "achievement-oriented growth mindset",
       "resilience_indicators": "achievement-oriented growth mindset",
       "feedback_integration": "evidence-based learning and adaptation"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -65292,11 +62859,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": "achievement-oriented growth mindset",
@@ -66004,13 +63566,6 @@
     "archetype": "Athlete",
     "quality_tier": "Tier 1: Legend",
     "summary": "23 Grand Slam singles titles, dominated women's tennis for two decades, advocate for equality in sports and beyond.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
     "status": "placeholder - needs full evaluation",
     "data_completeness": "10%"
   },
@@ -66022,13 +63577,6 @@
     "archetype": "Writer",
     "quality_tier": "Tier 1: Legend",
     "summary": "Pulitzer Prize-winning playwright known for his Pittsburgh Cycle, chronicling African American experience through the 20th century.",
-    "bias_awareness": [],
-    "growth_motivation": [],
-    "cognitive_humanism": [],
-    "humanistic_cognition": [],
-    "human_needs_hierarchy": [],
-    "self_actualization": [],
-    "behavioral_growth": [],
     "status": "placeholder - needs full evaluation",
     "data_completeness": "10%"
   },
@@ -66140,26 +63688,6 @@
       "primary_biases": "systematic approach to decision-making with bias awareness",
       "bias_mitigation_strategies": "systematic approach to decision-making with bias awareness",
       "decision_making_style": "Systematic approach to decision-making with bias awareness"
-    },
-    "growth_motivation": {
-      "intrinsic_drivers": "n/a",
-      "challenge_seeking": "N/A",
-      "learning_orientation": "N/A"
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
-    "behavioral_growth": {
-      "adaptation_patterns": "n/a",
-      "resilience_indicators": "n/a",
-      "feedback_integration": "n/a"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -66370,20 +63898,10 @@
         "interdisciplinary interests"
       ]
     },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
-    },
     "behavioral_growth": {
       "adaptation_patterns": "n/a",
       "resilience_indicators": "n/a",
       "feedback_integration": "evidence-based learning and adaptation"
-    },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
     },
     "background_context": {
       "wikipedia_enrichment": {
@@ -66697,11 +64215,6 @@
       "resilience_indicators": "continuous learning and development focus",
       "feedback_integration": "continuous learning and development focus"
     },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "trait_constellations": {
       "constellation_details": {
         "intellectual_depth": {},
@@ -66906,11 +64419,6 @@
       "curiosity_indicators": [
         "growth-oriented exploration"
       ]
-    },
-    "self_actualization_indicators": {
-      "peak_experiences": "n/a",
-      "autonomy_expression": "n/a",
-      "purpose_alignment": "n/a"
     },
     "behavioral_growth": {
       "adaptation_patterns": [
@@ -67230,7 +64738,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1943,
-    "death_year": null,
     "description": "American investigative journalist known for breaking the Watergate scandal, decades of presidential reporting, and meticulous source-driven investigation of government power.",
     "notable_works": [
       "Watergate investigation",
@@ -67571,11 +65078,6 @@
       "resilience_indicators": "n/a",
       "feedback_integration": "n/a"
     },
-    "cognitive_humanism": {
-      "empathy_expression": "n/a",
-      "ethical_framework": "n/a",
-      "human_centered_thinking": "N/A"
-    },
     "background_context": {
       "wikipedia_enrichment": {
         "inferred_occupations": [
@@ -67683,7 +65185,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1950,
-    "death_year": null,
     "description": "American computer engineer who co-founded Apple Inc. and designed the Apple I and Apple II computers, revolutionizing personal computing.",
     "notable_works": [
       "Apple I",
@@ -68167,7 +65668,6 @@
     "era": "Contemporary",
     "nationality": "American",
     "birth_year": 1931,
-    "death_year": null,
     "description": "American psychiatrist and psychotherapist known for pioneering existential psychotherapy, group therapy techniques, and exploring death anxiety, meaning, and human connection through therapeutic practice.",
     "notable_works": [
       "The Theory and Practice of Group Psychotherapy",
