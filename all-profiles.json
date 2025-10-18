@@ -1352,7 +1352,7 @@
   },
   {
     "name": "Archimedes",
-    "archetype": "Mathematician",
+    "archetype": "Scholar",
     "domain": "Math",
     "sub_domain": "Applied Mathematics",
     "category": "Math",
@@ -1829,7 +1829,7 @@
   {
     "profile_id": "ariely-dan",
     "name": "Dan Ariely",
-    "archetype": "Economist",
+    "archetype": "Researcher",
     "domain": "Psychology",
     "sub_domain": "Economics",
     "psychological_profile": {
@@ -2049,7 +2049,7 @@
   {
     "profile_id": "aristotle",
     "name": "Aristotle",
-    "archetype": "Philosopher",
+    "archetype": "Scholar",
     "domain": "Philosophy",
     "sub_domain": "Ancient Philosophy",
     "psychological_profile": {
@@ -3490,7 +3490,7 @@
   {
     "profile_id": "bandura-albert",
     "name": "Albert Bandura",
-    "archetype": "Psychologist",
+    "archetype": "Researcher",
     "domain": "Psychology",
     "sub_domain": "Social Cognitive Psychology",
     "era": "Modern",
@@ -12548,7 +12548,7 @@
   {
     "profile_id": "confucius",
     "name": "Confucius",
-    "archetype": "Philosopher",
+    "archetype": "Scholar",
     "domain": "Philosophy",
     "sub_domain": "Ethics",
     "era": "Ancient",
@@ -15244,7 +15244,7 @@
   {
     "profile_id": "dershowitz-alan",
     "name": "Alan Dershowitz",
-    "archetype": "Scholar",
+    "archetype": "Advocate",
     "domain": "Legal",
     "sub_domain": "Constitutional Law",
     "category": "Legal",
@@ -15463,7 +15463,7 @@
   {
     "profile_id": "descartes-rene",
     "name": "René Descartes",
-    "archetype": "Philosopher",
+    "archetype": "Scholar",
     "domain": "Philosophy",
     "sub_domain": "Modern Philosophy",
     "psychological_profile": {
@@ -19015,7 +19015,7 @@
   {
     "profile_id": "epicurus",
     "name": "Epicurus",
-    "archetype": "Philosopher",
+    "archetype": "Scholar",
     "domain": "Philosophy",
     "sub_domain": "Ancient Philosophy",
     "category": "Philosophy",
@@ -19262,7 +19262,7 @@
   {
     "profile_id": "euclid",
     "name": "Euclid",
-    "archetype": "Mathematician",
+    "archetype": "Scholar",
     "domain": "Math",
     "sub_domain": "Geometry, Mathematical Proofs",
     "background_context": {
@@ -19478,7 +19478,7 @@
   },
   {
     "name": "Leonhard Euler",
-    "archetype": "Mathematician",
+    "archetype": "Scholar",
     "domain": "Math",
     "sub_domain": "Pure Mathematics",
     "category": "Math",
@@ -19941,7 +19941,7 @@
   {
     "profile_id": "fauci-anthony",
     "name": "Anthony Fauci",
-    "archetype": "Scientist",
+    "archetype": "Practitioner",
     "domain": "Medicine",
     "sub_domain": "Infectious Diseases, Public Health",
     "background_context": {
@@ -21084,7 +21084,7 @@
   },
   {
     "name": "Alexander Fleming",
-    "archetype": "Scientist",
+    "archetype": "Practitioner",
     "domain": "Medicine",
     "sub_domain": "Biology",
     "category": "Medicine",
@@ -22535,7 +22535,7 @@
   },
   {
     "name": "Milton Friedman",
-    "archetype": "Economist",
+    "archetype": "Researcher",
     "domain": "Economics",
     "sub_domain": "Monetarism",
     "category": "Economics",
@@ -23042,7 +23042,7 @@
   },
   {
     "name": "John Kenneth Galbraith",
-    "archetype": "Economist",
+    "archetype": "Researcher",
     "domain": "Economics",
     "sub_domain": "Institutional Economics",
     "category": "Economics",
@@ -24381,7 +24381,7 @@
   {
     "profile_id": "ginsburg-ruth-bader",
     "name": "Ruth Bader Ginsburg",
-    "archetype": "Strategist",
+    "archetype": "Advocate",
     "domain": "Legal",
     "sub_domain": "Constitutional Law",
     "category": "Legal",
@@ -24599,7 +24599,7 @@
   {
     "profile_id": "gladwell-malcolm",
     "name": "Malcolm Gladwell",
-    "archetype": "Storyteller",
+    "archetype": "Writer",
     "domain": "Writing",
     "sub_domain": "Nonfiction",
     "communication_style": {
@@ -26637,8 +26637,8 @@
   },
   {
     "name": "Robert Greene",
-    "archetype": "Strategist",
-    "domain": "Authors",
+    "archetype": "Writer",
+    "domain": "Writing",
     "sub_domain": "Strategy & Human Nature",
     "psychological_profile": {
       "primary_traits": [
@@ -28514,7 +28514,7 @@
   },
   {
     "name": "Friedrich Hayek",
-    "archetype": "Economist",
+    "archetype": "Researcher",
     "domain": "Economics",
     "sub_domain": "Austrian Economics",
     "category": "Economics",
@@ -28961,7 +28961,7 @@
   {
     "profile_id": "hegel-georg-wilhelm",
     "name": "Georg Wilhelm Friedrich Hegel",
-    "archetype": "Philosopher",
+    "archetype": "Scholar",
     "domain": "Philosophy",
     "sub_domain": "German Idealism",
     "era": "Modern",
@@ -29160,7 +29160,7 @@
   {
     "profile_id": "heidegger-martin",
     "name": "Martin Heidegger",
-    "archetype": "Philosopher",
+    "archetype": "Scholar",
     "domain": "Philosophy",
     "sub_domain": "Existential Philosophy",
     "category": "Philosophy",
@@ -31193,8 +31193,8 @@
   },
   {
     "name": "Ryan Holiday",
-    "archetype": "Educator",
-    "domain": "Authors",
+    "archetype": "Writer",
+    "domain": "Writing",
     "sub_domain": "Philosophy & Personal Development",
     "psychological_profile": {
       "primary_traits": [
@@ -31473,7 +31473,7 @@
   {
     "profile_id": "holmes-oliver-wendell",
     "name": "Oliver Wendell Holmes Jr.",
-    "archetype": "Scholar",
+    "archetype": "Advocate",
     "domain": "Legal",
     "sub_domain": "Constitutional Law",
     "category": "Legal",
@@ -34466,7 +34466,7 @@
   {
     "profile_id": "kahneman-daniel",
     "name": "Daniel Kahneman",
-    "archetype": "Scientist",
+    "archetype": "Researcher",
     "domain": "Psychology",
     "sub_domain": "Economics",
     "era": "Modern",
@@ -35287,7 +35287,7 @@
   {
     "profile_id": "kant-immanuel",
     "name": "Immanuel Kant",
-    "archetype": "Philosopher",
+    "archetype": "Scholar",
     "domain": "Philosophy",
     "sub_domain": "Moral Philosophy",
     "category": "Philosophy",
@@ -36016,7 +36016,7 @@
   {
     "profile_id": "keynes-john-maynard",
     "name": "John Maynard Keynes",
-    "archetype": "Economist",
+    "archetype": "Researcher",
     "domain": "Economics",
     "sub_domain": "Macroeconomics",
     "background_context": {
@@ -36244,7 +36244,7 @@
   {
     "profile_id": "kierkegaard-soren",
     "name": "Søren Kierkegaard",
-    "archetype": "Philosopher",
+    "archetype": "Scholar",
     "domain": "Philosophy",
     "sub_domain": "Existential Philosophy",
     "category": "Philosophy",
@@ -36898,7 +36898,7 @@
   },
   {
     "name": "Robert Koch",
-    "archetype": "Scientist",
+    "archetype": "Practitioner",
     "domain": "Medicine",
     "sub_domain": "Biology",
     "category": "Medicine",
@@ -37363,7 +37363,7 @@
   },
   {
     "name": "Paul Krugman",
-    "archetype": "Economist",
+    "archetype": "Researcher",
     "domain": "Economics",
     "sub_domain": "International Economics",
     "category": "Economics",
@@ -37813,7 +37813,7 @@
   {
     "profile_id": "kurosawa-akira",
     "name": "Akira Kurosawa",
-    "archetype": "Storyteller",
+    "archetype": "Performer",
     "domain": "Film",
     "sub_domain": "Cinematic Direction",
     "category": "Film",
@@ -38473,7 +38473,7 @@
   },
   {
     "name": "Theodore Levitt",
-    "archetype": "Theorist",
+    "archetype": "Marketer",
     "domain": "Marketing",
     "sub_domain": "Marketing Strategy",
     "category": "Marketing",
@@ -40610,7 +40610,7 @@
   {
     "profile_id": "marshall-thurgood",
     "name": "Thurgood Marshall",
-    "archetype": "Strategist",
+    "archetype": "Advocate",
     "domain": "Legal",
     "sub_domain": "Constitutional Law",
     "category": "Legal",
@@ -41882,7 +41882,7 @@
   {
     "profile_id": "mill-john-stuart",
     "name": "John Stuart Mill",
-    "archetype": "Philosopher",
+    "archetype": "Scholar",
     "domain": "Philosophy",
     "sub_domain": "Political Philosophy",
     "category": "Philosophy",
@@ -44686,8 +44686,8 @@
   },
   {
     "name": "Cal Newport",
-    "archetype": "Pioneer",
-    "domain": "Authors",
+    "archetype": "Writer",
+    "domain": "Writing",
     "sub_domain": "Productivity & Technology Philosophy",
     "psychological_profile": {
       "primary_traits": [
@@ -45514,7 +45514,7 @@
   {
     "profile_id": "nietzsche-friedrich",
     "name": "Friedrich Nietzsche",
-    "archetype": "Philosopher",
+    "archetype": "Scholar",
     "domain": "Philosophy",
     "sub_domain": "Modern Philosophy",
     "psychological_profile": {
@@ -48188,7 +48188,7 @@
   },
   {
     "name": "Jean Piaget",
-    "archetype": "Psychologist",
+    "archetype": "Researcher",
     "domain": "Psychology",
     "category": "Psychology",
     "sub_domain": "Cognitive Development",
@@ -48846,7 +48846,7 @@
   {
     "profile_id": "plato",
     "name": "Plato",
-    "archetype": "Philosopher",
+    "archetype": "Scholar",
     "domain": "Philosophy",
     "sub_domain": "Ancient Philosophy",
     "psychological_profile": {
@@ -49975,7 +49975,7 @@
   },
   {
     "name": "Srinivasa Ramanujan",
-    "archetype": "Mathematician",
+    "archetype": "Scholar",
     "domain": "Math",
     "sub_domain": "Number Theory",
     "category": "Math",
@@ -52810,7 +52810,7 @@
   {
     "profile_id": "rousseau-jean-jacques",
     "name": "Jean-Jacques Rousseau",
-    "archetype": "Philosopher",
+    "archetype": "Scholar",
     "domain": "Philosophy",
     "sub_domain": "Political Philosophy",
     "era": "Enlightenment",
@@ -53416,7 +53416,7 @@
   },
   {
     "name": "Jonas Salk",
-    "archetype": "Scientist",
+    "archetype": "Practitioner",
     "domain": "Medicine",
     "sub_domain": "Virology",
     "category": "Medicine",
@@ -53874,7 +53874,7 @@
   },
   {
     "name": "Paul Samuelson",
-    "archetype": "Economist",
+    "archetype": "Researcher",
     "domain": "Economics",
     "sub_domain": "Mathematical Economics",
     "category": "Economics",
@@ -54115,7 +54115,7 @@
   {
     "profile_id": "sartre-jean-paul",
     "name": "Jean-Paul Sartre",
-    "archetype": "Philosopher",
+    "archetype": "Scholar",
     "domain": "Philosophy",
     "sub_domain": "Existentialism",
     "era": "Modern",
@@ -54321,7 +54321,7 @@
   {
     "profile_id": "scanlon-tm",
     "name": "T.M. Scanlon",
-    "archetype": "Philosopher",
+    "archetype": "Scholar",
     "domain": "Philosophy",
     "sub_domain": "Moral Philosophy",
     "category": "Philosophy",
@@ -54983,7 +54983,7 @@
   },
   {
     "name": "Joseph Schumpeter",
-    "archetype": "Economist",
+    "archetype": "Researcher",
     "domain": "Economics",
     "sub_domain": "Innovation Economics",
     "category": "Economics",
@@ -55425,7 +55425,7 @@
   {
     "profile_id": "scorsese-martin",
     "name": "Martin Scorsese",
-    "archetype": "Storyteller",
+    "archetype": "Performer",
     "domain": "Film",
     "sub_domain": "Cinematic Direction",
     "category": "Film",
@@ -55877,8 +55877,8 @@
   },
   {
     "name": "Ramit Sethi",
-    "archetype": "Builder",
-    "domain": "Authors",
+    "archetype": "Writer",
+    "domain": "Writing",
     "sub_domain": "Psychology",
     "psychological_profile": {
       "primary_traits": [
@@ -56649,8 +56649,8 @@
   },
   {
     "name": "Simon Sinek",
-    "archetype": "Strategist",
-    "domain": "Authors",
+    "archetype": "Writer",
+    "domain": "Writing",
     "sub_domain": "Leadership",
     "psychological_profile": {
       "primary_traits": "purpose-driven, inspiring, empathetic, optimistic",
@@ -57188,7 +57188,7 @@
   },
   {
     "name": "B.F. Skinner",
-    "archetype": "Psychologist",
+    "archetype": "Researcher",
     "domain": "Psychology",
     "category": "Psychology",
     "sub_domain": "Psychology",
@@ -57598,7 +57598,7 @@
   },
   {
     "name": "Adam Smith",
-    "archetype": "Economist",
+    "archetype": "Researcher",
     "domain": "Economics",
     "sub_domain": "Classical",
     "category": "Economics",
@@ -60244,7 +60244,7 @@
   {
     "profile_id": "tarantino-quentin",
     "name": "Quentin Tarantino",
-    "archetype": "Writer",
+    "archetype": "Performer",
     "domain": "Film",
     "sub_domain": "Cinematic Direction",
     "category": "Film",
@@ -64135,7 +64135,7 @@
   {
     "profile_id": "voltaire-francois-marie",
     "name": "Voltaire",
-    "archetype": "Philosopher",
+    "archetype": "Scholar",
     "domain": "Philosophy",
     "sub_domain": "Enlightenment Philosophy",
     "era": "Enlightenment",
@@ -64327,7 +64327,7 @@
   },
   {
     "name": "Lev Vygotsky",
-    "archetype": "Psychologist",
+    "archetype": "Researcher",
     "domain": "Psychology",
     "category": "Psychology",
     "sub_domain": "Cognitive Development",

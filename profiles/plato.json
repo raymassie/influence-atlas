@@ -1,7 +1,7 @@
 {
   "profile_id": "plato",
   "name": "Plato",
-  "archetype": "Philosopher",
+  "archetype": "Scholar",
   "domain": "Philosophy",
   "sub_domain": "Ancient Philosophy",
   "psychological_profile": {

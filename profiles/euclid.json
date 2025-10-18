@@ -1,7 +1,7 @@
 {
   "profile_id": "euclid",
   "name": "Euclid",
-  "archetype": "Mathematician",
+  "archetype": "Scholar",
   "domain": "Math",
   "sub_domain": "Geometry, Mathematical Proofs",
   "background_context": {
