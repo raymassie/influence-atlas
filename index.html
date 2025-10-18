@@ -1474,6 +1474,14 @@ Contact: raymassie@gmail.com for commercial licensing
                 searchFilter.value = '';
             }
             
+            // Clear active filter variables
+            activeSuperFilter = null;
+            activeQualityFilter = null;
+            
+            // Update filter button states
+            updateSuperFilterButtons();
+            updateQualityFilterButtons();
+            
             // Update cascading filters and apply
             updateCascadingFilters();
             filterProfiles();
@@ -1515,6 +1523,56 @@ Contact: raymassie@gmail.com for commercial licensing
             updateSuperFilterButtons();
             
             console.log(`✅ Applied ${category} super filter - found ${filteredProfiles.length} profiles`);
+        }
+
+        function applyQualityFilter(qualityTier) {
+            console.log(`🎯 Applying quality filter: ${qualityTier}`);
+            
+            // Check if clicking the same quality tier (deselection)
+            if (activeQualityFilter === qualityTier) {
+                console.log(`🔄 Deselecting quality filter: ${qualityTier}`);
+                clearAllFilters();
+                activeQualityFilter = null;
+                updateQualityFilterButtons();
+                return;
+            }
+            
+            // Clear all existing filters first
+            clearAllFilters();
+            
+            // Filter profiles by quality tier
+            filteredProfiles = allProfiles.filter(profile => {
+                return profile.quality_tier === qualityTier;
+            });
+            
+            // Sort filtered results alphabetically by last name
+            filteredProfiles.sort((a, b) => getLastName(a.name).localeCompare(getLastName(b.name)));
+            
+            // Update quick navigation stats
+            updateQuickNavigationStats();
+            
+            // Display results
+            displayProfiles();
+            
+            // Set active quality filter
+            activeQualityFilter = qualityTier;
+            updateQualityFilterButtons();
+            
+            console.log(`✅ Applied ${qualityTier} quality filter - found ${filteredProfiles.length} profiles`);
+        }
+
+        function updateQualityFilterButtons() {
+            const buttons = document.querySelectorAll('.super-filter-btn');
+            buttons.forEach(button => {
+                const buttonText = button.textContent.trim();
+                if (buttonText.includes('Legends') || buttonText.includes('Pioneers') || buttonText.includes('Contemporary')) {
+                    if (activeQualityFilter && buttonText.includes(activeQualityFilter.split(':')[1].trim())) {
+                        button.classList.add('active');
+                    } else {
+                        button.classList.remove('active');
+                    }
+                }
+            });
         }
 
         function updateSuperFilterButtons() {
@@ -3140,6 +3198,7 @@ Contact: raymassie@gmail.com for commercial licensing
 
         let selectedProfiles = [];
         let activeSuperFilter = null;
+        let activeQualityFilter = null;
 
         // Initialize button states on page load
         updateComparisonUI();
