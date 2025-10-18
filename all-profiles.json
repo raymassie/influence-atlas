@@ -596,7 +596,7 @@
     "category": "Sports",
     "domain": "Sports",
     "sub_domain": "Boxing",
-    "archetype": "Visionary",
+    "archetype": "Performer",
     "quality_tier": "Tier 1: Legend",
     "summary": "Three-time world heavyweight boxing champion and cultural icon known for his charisma, social activism, and revolutionary impact on sports.",
     "bias_awareness": [],
@@ -830,7 +830,7 @@
   {
     "profile_id": "altman-sam",
     "name": "Sam Altman",
-    "archetype": "Visionary",
+    "archetype": "Innovator",
     "domain": "Technology",
     "sub_domain": "Artificial Intelligence",
     "era": "Modern",
@@ -3686,7 +3686,7 @@
   {
     "profile_id": "bass-saul",
     "name": "Saul Bass",
-    "archetype": "Visionary",
+    "archetype": "Designer",
     "domain": "Design",
     "sub_domain": "Film",
     "communication_style": {
@@ -10098,7 +10098,7 @@
   {
     "profile_id": "carson-david",
     "name": "David Carson",
-    "archetype": "Visionary",
+    "archetype": "Designer",
     "domain": "Design",
     "sub_domain": "Typography",
     "communication_style": {
@@ -33233,7 +33233,7 @@
   {
     "profile_id": "ive-jony",
     "name": "Jony Ive",
-    "archetype": "Visionary",
+    "archetype": "Designer",
     "domain": "Design",
     "sub_domain": "Industrial Design",
     "psychological_profile": {
@@ -34021,7 +34021,7 @@
     "category": "Sports",
     "domain": "Sports",
     "sub_domain": "Basketball",
-    "archetype": "Visionary",
+    "archetype": "Performer",
     "quality_tier": "Tier 1: Legend",
     "summary": "Six-time NBA champion, considered the greatest basketball player of all time, transformed sports marketing and global basketball culture.",
     "bias_awareness": [],
@@ -38049,7 +38049,7 @@
     "category": "Design",
     "domain": "Design",
     "sub_domain": "Fashion Design",
-    "archetype": "Visionary",
+    "archetype": "Designer",
     "quality_tier": "Tier 1: Legend",
     "summary": "Legendary fashion designer who brought high fashion to the streets with ready-to-wear and the iconic Le Smoking tuxedo suit for women.",
     "bias_awareness": [],
@@ -58649,7 +58649,7 @@
   },
   {
     "name": "Philippe Starck",
-    "archetype": "Visionary",
+    "archetype": "Designer",
     "domain": "Design",
     "sub_domain": "Industrial Design",
     "category": "Design",
@@ -66001,7 +66001,7 @@
     "category": "Sports",
     "domain": "Sports",
     "sub_domain": "Tennis",
-    "archetype": "Visionary",
+    "archetype": "Performer",
     "quality_tier": "Tier 1: Legend",
     "summary": "23 Grand Slam singles titles, dominated women's tennis for two decades, advocate for equality in sports and beyond.",
     "bias_awareness": [],
@@ -68377,7 +68377,7 @@
   },
   {
     "name": "Mark Zuckerberg",
-    "archetype": "Visionary",
+    "archetype": "Entrepreneur",
     "domain": "Entrepreneurship",
     "sub_domain": "Social Technology",
     "psychological_profile": {
