@@ -611,12 +611,28 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     color: #283618;
 }
 
-.super-filter-btn:last-child {
+/* Domain group section styling */
+.domain-group-section {
+    margin-bottom: 16px;
+}
+
+.domain-group-header {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(40, 54, 24, 0.66);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+    padding-left: 4px;
+}
+
+/* Clear All button specific styling - only when in standalone container */
+.super-filter-buttons[style*="border-top"] .super-filter-btn {
     background: #6c757d;
     border-color: #283618;
 }
 
-.super-filter-btn:last-child:hover {
+.super-filter-buttons[style*="border-top"] .super-filter-btn:hover {
     background: #e9edc9;
     border-color: #283618;
     color: #606c38;
