@@ -5206,7 +5206,7 @@
   },
   {
     "name": "Bill Bernbach",
-    "archetype": "Marketer",
+    "archetype": "Pioneer",
     "domain": "Marketing",
     "sub_domain": "Creative Advertising",
     "category": "Marketing",
@@ -9518,7 +9518,7 @@
   {
     "profile_id": "cardone-grant",
     "name": "Grant Cardone",
-    "archetype": "Marketer",
+    "archetype": "Coach",
     "domain": "Marketing",
     "sub_domain": "Sales Training, Real Estate",
     "background_context": {
@@ -19727,7 +19727,7 @@
   {
     "profile_id": "eyal-nir",
     "name": "Nir Eyal",
-    "archetype": "Marketer",
+    "archetype": "Researcher",
     "domain": "Marketing",
     "sub_domain": "Psychology",
     "background_context": {
@@ -26059,7 +26059,7 @@
   {
     "profile_id": "grant-adam",
     "name": "Adam Grant",
-    "archetype": "Psychologist",
+    "archetype": "Researcher",
     "domain": "Psychology",
     "sub_domain": "Organizational Behavior",
     "era": "Modern",
@@ -34055,7 +34055,7 @@
   {
     "profile_id": "jung-carl",
     "name": "Carl Jung",
-    "archetype": "Psychologist",
+    "archetype": "Scholar",
     "domain": "Psychology",
     "sub_domain": "Analytical Psychology",
     "era": "Modern",
@@ -38473,7 +38473,7 @@
   },
   {
     "name": "Theodore Levitt",
-    "archetype": "Marketer",
+    "archetype": "Theorist",
     "domain": "Marketing",
     "sub_domain": "Marketing Strategy",
     "category": "Marketing",
@@ -40387,7 +40387,7 @@
   },
   {
     "name": "Alfred Marshall",
-    "archetype": "Economist",
+    "archetype": "Scholar",
     "domain": "Economics",
     "sub_domain": "Economics",
     "category": "Economics",
@@ -40828,7 +40828,7 @@
   {
     "profile_id": "maslow-abraham",
     "name": "Abraham Maslow",
-    "archetype": "Psychologist",
+    "archetype": "Scholar",
     "domain": "Psychology",
     "sub_domain": "Humanistic Psychology",
     "era": "Modern",
@@ -52221,7 +52221,7 @@
   },
   {
     "name": "Carl Rogers",
-    "archetype": "Psychologist",
+    "archetype": "Scholar",
     "domain": "Psychology",
     "category": "Psychology",
     "sub_domain": "Humanistic Psychology",
@@ -55641,7 +55641,7 @@
   },
   {
     "name": "Amartya Sen",
-    "archetype": "Economist",
+    "archetype": "Scholar",
     "domain": "Economics",
     "sub_domain": "Development Economics",
     "category": "Economics",
@@ -63486,7 +63486,7 @@
   {
     "profile_id": "vaynerchuk-gary",
     "name": "Gary Vaynerchuk",
-    "archetype": "Marketer",
+    "archetype": "Entrepreneur",
     "domain": "Marketing",
     "sub_domain": "Social Technology",
     "era": "Modern",
