@@ -6097,7 +6097,7 @@
   },
   {
     "name": "Jeff Bezos",
-    "archetype": "Executive",
+    "archetype": "Entrepreneur",
     "domain": "Business",
     "category": "Business",
     "sub_domain": "E-commerce",
@@ -8162,7 +8162,7 @@
   },
   {
     "name": "Les Brown",
-    "archetype": "Facilitator",
+    "archetype": "Coach",
     "domain": "Psychology",
     "sub_domain": "Applied Psychology",
     "psychological_profile": {
@@ -8448,7 +8448,7 @@
   },
   {
     "name": "Russell Brunson",
-    "archetype": "Strategist",
+    "archetype": "Entrepreneur",
     "domain": "Entrepreneurship",
     "sub_domain": "Digital Marketing",
     "psychological_profile": {
@@ -8965,7 +8965,7 @@
   },
   {
     "name": "Brendon Burchard",
-    "archetype": "Strategist",
+    "archetype": "Coach",
     "domain": "Psychology",
     "sub_domain": "Applied Psychology",
     "psychological_profile": {
@@ -11696,7 +11696,7 @@
   {
     "profile_id": "clear-james",
     "name": "James Clear",
-    "archetype": "Thought Leader",
+    "archetype": "Coach",
     "domain": "Psychology",
     "sub_domain": "Behavioral Science",
     "communication_style": {
@@ -14284,7 +14284,7 @@
   },
   {
     "name": "Ray Dalio",
-    "archetype": "Strategist",
+    "archetype": "Investor",
     "domain": "Investment",
     "sub_domain": "Macro Investing & Systematic Principles",
     "psychological_profile": {
@@ -15878,7 +15878,7 @@
   {
     "profile_id": "didion-joan",
     "name": "Joan Didion",
-    "archetype": "Writer",
+    "archetype": "Journalist",
     "domain": "Journalism",
     "sub_domain": "Literary Journalism",
     "category": "Journalism",
@@ -16097,7 +16097,7 @@
   {
     "profile_id": "disco-janet",
     "name": "Disco Janet",
-    "archetype": "Philosopher",
+    "archetype": "Scholar",
     "domain": "Philosophy",
     "sub_domain": "Fictional Philosophy",
     "category": "Philosophy",
@@ -19941,7 +19941,7 @@
   {
     "profile_id": "fauci-anthony",
     "name": "Anthony Fauci",
-    "archetype": "Practitioner",
+    "archetype": "Scientist",
     "domain": "Medicine",
     "sub_domain": "Infectious Diseases, Public Health",
     "background_context": {
@@ -20593,7 +20593,7 @@
   },
   {
     "name": "Richard Feynman",
-    "archetype": "Scientist",
+    "archetype": "Scholar",
     "domain": "Math",
     "sub_domain": "Physics",
     "category": "Math",
@@ -21084,7 +21084,7 @@
   },
   {
     "name": "Alexander Fleming",
-    "archetype": "Practitioner",
+    "archetype": "Scientist",
     "domain": "Medicine",
     "sub_domain": "Biology",
     "category": "Medicine",
@@ -21320,7 +21320,7 @@
   },
   {
     "name": "Pat Flynn",
-    "archetype": "Pioneer",
+    "archetype": "Entrepreneur",
     "domain": "Entrepreneurship",
     "sub_domain": "Passive Income & Authentic Marketing",
     "psychological_profile": {
@@ -21816,7 +21816,7 @@
   },
   {
     "name": "Marie Forleo",
-    "archetype": "Philosopher",
+    "archetype": "Entrepreneur",
     "domain": "Entrepreneurship",
     "sub_domain": "Online Education",
     "psychological_profile": {
@@ -22535,7 +22535,7 @@
   },
   {
     "name": "Milton Friedman",
-    "archetype": "Researcher",
+    "archetype": "Scholar",
     "domain": "Economics",
     "sub_domain": "Monetarism",
     "category": "Economics",
@@ -23042,7 +23042,7 @@
   },
   {
     "name": "John Kenneth Galbraith",
-    "archetype": "Researcher",
+    "archetype": "Scholar",
     "domain": "Economics",
     "sub_domain": "Institutional Economics",
     "category": "Economics",
@@ -23520,7 +23520,7 @@
   },
   {
     "name": "Carl Friedrich Gauss",
-    "archetype": "Thought Leader",
+    "archetype": "Scholar",
     "domain": "Math",
     "sub_domain": "Pure Mathematics",
     "category": "Math",
@@ -26355,7 +26355,7 @@
   },
   {
     "name": "Dean Graziosi",
-    "archetype": "Coach",
+    "archetype": "Entrepreneur",
     "domain": "Entrepreneurship",
     "sub_domain": "Real Estate & Wealth Building",
     "psychological_profile": {
@@ -28514,7 +28514,7 @@
   },
   {
     "name": "Friedrich Hayek",
-    "archetype": "Researcher",
+    "archetype": "Scholar",
     "domain": "Economics",
     "sub_domain": "Austrian Economics",
     "category": "Economics",
@@ -30352,7 +30352,7 @@
   },
   {
     "name": "David Hilbert",
-    "archetype": "Thought Leader",
+    "archetype": "Scholar",
     "domain": "Math",
     "sub_domain": "Pure Mathematics",
     "category": "Math",
@@ -32241,7 +32241,7 @@
   },
   {
     "name": "Lewis Howes",
-    "archetype": "Coach",
+    "archetype": "Entrepreneur",
     "domain": "Entrepreneurship",
     "sub_domain": "Leadership",
     "psychological_profile": {
@@ -32526,7 +32526,7 @@
   {
     "profile_id": "hume-david",
     "name": "David Hume",
-    "archetype": "Philosopher",
+    "archetype": "Scholar",
     "domain": "Philosophy",
     "sub_domain": "Empiricist Philosophy",
     "category": "Philosophy",
@@ -36016,7 +36016,7 @@
   {
     "profile_id": "keynes-john-maynard",
     "name": "John Maynard Keynes",
-    "archetype": "Researcher",
+    "archetype": "Scholar",
     "domain": "Economics",
     "sub_domain": "Macroeconomics",
     "background_context": {
@@ -36898,7 +36898,7 @@
   },
   {
     "name": "Robert Koch",
-    "archetype": "Practitioner",
+    "archetype": "Scientist",
     "domain": "Medicine",
     "sub_domain": "Biology",
     "category": "Medicine",
@@ -37363,7 +37363,7 @@
   },
   {
     "name": "Paul Krugman",
-    "archetype": "Researcher",
+    "archetype": "Scholar",
     "domain": "Economics",
     "sub_domain": "International Economics",
     "category": "Economics",
@@ -40181,7 +40181,7 @@
   {
     "profile_id": "marks-howard",
     "name": "Howard Marks",
-    "archetype": "Philosopher",
+    "archetype": "Investor",
     "domain": "Finance",
     "sub_domain": "Value Investing",
     "psychological_profile": {
@@ -43700,7 +43700,7 @@
   },
   {
     "name": "Charlie Munger",
-    "archetype": "Analyst",
+    "archetype": "Investor",
     "domain": "Investment",
     "sub_domain": "Decision Science",
     "psychological_profile": {
@@ -43979,7 +43979,7 @@
   {
     "profile_id": "murrow-edward-r",
     "name": "Edward R. Murrow",
-    "archetype": "Pioneer",
+    "archetype": "Journalist",
     "domain": "Journalism",
     "sub_domain": "Broadcast Journalism",
     "category": "Journalism",
@@ -49290,7 +49290,7 @@
   },
   {
     "name": "Amy Porterfield",
-    "archetype": "Educator",
+    "archetype": "Entrepreneur",
     "domain": "Entrepreneurship",
     "sub_domain": "Digital Marketing",
     "psychological_profile": {
@@ -53416,7 +53416,7 @@
   },
   {
     "name": "Jonas Salk",
-    "archetype": "Practitioner",
+    "archetype": "Scientist",
     "domain": "Medicine",
     "sub_domain": "Virology",
     "category": "Medicine",
@@ -53874,7 +53874,7 @@
   },
   {
     "name": "Paul Samuelson",
-    "archetype": "Researcher",
+    "archetype": "Scholar",
     "domain": "Economics",
     "sub_domain": "Mathematical Economics",
     "category": "Economics",
@@ -54983,7 +54983,7 @@
   },
   {
     "name": "Joseph Schumpeter",
-    "archetype": "Researcher",
+    "archetype": "Scholar",
     "domain": "Economics",
     "sub_domain": "Innovation Economics",
     "category": "Economics",
@@ -56197,7 +56197,7 @@
   {
     "profile_id": "sidgwick-henry",
     "name": "Henry Sidgwick",
-    "archetype": "Philosopher",
+    "archetype": "Scholar",
     "domain": "Philosophy",
     "sub_domain": "Moral Philosophy",
     "category": "Philosophy",
@@ -56929,7 +56929,7 @@
   {
     "profile_id": "singer-peter",
     "name": "Peter Singer",
-    "archetype": "Philosopher",
+    "archetype": "Scholar",
     "domain": "Philosophy",
     "sub_domain": "Ethics",
     "category": "Philosophy",
@@ -57598,7 +57598,7 @@
   },
   {
     "name": "Adam Smith",
-    "archetype": "Researcher",
+    "archetype": "Scholar",
     "domain": "Economics",
     "sub_domain": "Classical",
     "category": "Economics",
@@ -59737,7 +59737,7 @@
   {
     "profile_id": "taleb-nassim",
     "name": "Nassim Nicholas Taleb",
-    "archetype": "Analyst",
+    "archetype": "Scholar",
     "domain": "Economics",
     "sub_domain": "Risk Theory",
     "era": "Modern",
@@ -60026,7 +60026,7 @@
   {
     "profile_id": "talese-gay",
     "name": "Gay Talese",
-    "archetype": "Pioneer",
+    "archetype": "Journalist",
     "domain": "Journalism",
     "sub_domain": "Literary Journalism",
     "category": "Journalism",
@@ -61113,7 +61113,7 @@
   },
   {
     "name": "Peter Thiel",
-    "archetype": "Strategist",
+    "archetype": "Investor",
     "domain": "Investment",
     "sub_domain": "Venture Capital & Monopoly Strategy",
     "psychological_profile": {
@@ -61698,7 +61698,7 @@
   {
     "profile_id": "thompson-hunter-s",
     "name": "Hunter S. Thompson",
-    "archetype": "Pioneer",
+    "archetype": "Journalist",
     "domain": "Journalism",
     "sub_domain": "Gonzo Journalism",
     "category": "Journalism",
@@ -62775,7 +62775,7 @@
   {
     "profile_id": "turing-alan",
     "name": "Alan Turing",
-    "archetype": "Thought Leader",
+    "archetype": "Scientist",
     "domain": "Science",
     "sub_domain": "Computer Science",
     "era": "Modern",
@@ -64965,7 +64965,7 @@
   {
     "profile_id": "watson-james",
     "name": "James Watson",
-    "archetype": "Thought Leader",
+    "archetype": "Scientist",
     "domain": "Science",
     "sub_domain": "Biology",
     "era": "Modern",
@@ -66471,7 +66471,7 @@
   },
   {
     "name": "Oprah Winfrey",
-    "archetype": "Thought Leader",
+    "archetype": "Entrepreneur",
     "domain": "Entrepreneurship",
     "sub_domain": "Media & Personal Development",
     "psychological_profile": {
