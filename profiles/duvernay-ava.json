@@ -1,7 +1,7 @@
 {
   "profile_id": "duvernay-ava",
   "name": "Ava DuVernay",
-  "archetype": "Social Justice Storyteller & Industry Disruptor",
+  "archetype": "Change Agent",
   "domain": "Film",
   "sub_domain": "Cinematic Direction",
   "category": "Film",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["passionate", "inclusive", "determined", "empathetic", "advocacy-focused"],
+    "tone": [
+      "passionate",
+      "inclusive",
+      "determined",
+      "empathetic",
+      "advocacy-focused"
+    ],
     "vocabulary_patterns": [
       "representation",
       "social justice",
@@ -147,9 +153,22 @@
     "experience_level": "master (15+ years)",
     "typical_career_path": "publicist → independent filmmaker → industry advocate → major studio director",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Director", "Producer", "Screenwriter", "Advocate"],
-      "achievement_indicators": ["Academy Award", "Emmy", "acclaimed"],
-      "influence_indicators": ["groundbreaking", "influential", "trailblazing"]
+      "inferred_occupations": [
+        "Director",
+        "Producer",
+        "Screenwriter",
+        "Advocate"
+      ],
+      "achievement_indicators": [
+        "Academy Award",
+        "Emmy",
+        "acclaimed"
+      ],
+      "influence_indicators": [
+        "groundbreaking",
+        "influential",
+        "trailblazing"
+      ]
     }
   },
   "technology_relationship": {
@@ -195,4 +214,3 @@
     "delegation_approach": "empowers fully"
   }
 }
-

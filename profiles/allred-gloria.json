@@ -1,7 +1,7 @@
 {
   "profile_id": "allred-gloria",
   "name": "Gloria Allred",
-  "archetype": "Women's Rights Advocate & Media-Savvy Litigator",
+  "archetype": "Advocate",
   "domain": "Legal",
   "sub_domain": "Civil Rights",
   "category": "Legal",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["passionate", "media-savvy", "strategic", "advocacy-focused", "determined"],
+    "tone": [
+      "passionate",
+      "media-savvy",
+      "strategic",
+      "advocacy-focused",
+      "determined"
+    ],
     "vocabulary_patterns": [
       "women's rights",
       "gender equality",
@@ -149,9 +155,21 @@
     "experience_level": "master (40+ years)",
     "typical_career_path": "law student → women's rights lawyer → media-savvy advocate → high-profile litigator",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Lawyer", "Women's Rights Advocate", "Media Commentator"],
-      "achievement_indicators": ["acclaimed", "influential", "high-profile"],
-      "influence_indicators": ["trailblazing", "influential", "essential"]
+      "inferred_occupations": [
+        "Lawyer",
+        "Women's Rights Advocate",
+        "Media Commentator"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "high-profile"
+      ],
+      "influence_indicators": [
+        "trailblazing",
+        "influential",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +215,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

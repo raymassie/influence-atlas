@@ -1,7 +1,7 @@
 {
   "profile_id": "cartier-bresson-henri",
   "name": "Henri Cartier-Bresson",
-  "archetype": "Street Photographer & Photojournalism Pioneer",
+  "archetype": "Pioneer",
   "domain": "Creative Services",
   "sub_domain": "Photography",
   "category": "Creative Services",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["observant", "compositional", "artistic", "decisive", "patient"],
+    "tone": [
+      "observant",
+      "compositional",
+      "artistic",
+      "decisive",
+      "patient"
+    ],
     "vocabulary_patterns": [
       "decisive moments",
       "compositional excellence",
@@ -149,9 +155,22 @@
     "experience_level": "legendary (60+ years)",
     "typical_career_path": "art student → photographer → street photography pioneer → photojournalism legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Photographer", "Photojournalist", "Street Photographer", "Artist"],
-      "achievement_indicators": ["acclaimed", "influential", "pioneering"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Photographer",
+        "Photojournalist",
+        "Street Photographer",
+        "Artist"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "pioneering"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +216,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

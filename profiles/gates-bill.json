@@ -1,10 +1,10 @@
 {
   "profile_id": "gates-bill",
   "name": "Bill Gates",
-  "archetype": "Business Leader",
+  "archetype": "Executive",
   "domain": "Business",
   "category": "Business",
-  "sub_domain": "Technology Business",
+  "sub_domain": "Technology Strategy",
   "background_context": {
     "experience_level": "Executive",
     "career_stage": "Established",

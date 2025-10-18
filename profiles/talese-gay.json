@@ -1,7 +1,7 @@
 {
   "profile_id": "talese-gay",
   "name": "Gay Talese",
-  "archetype": "Literary Journalist & New Journalism Pioneer",
+  "archetype": "Pioneer",
   "domain": "Journalism",
   "sub_domain": "Literary Journalism",
   "category": "Journalism",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["literary", "observational", "patient", "meticulous", "immersive"],
+    "tone": [
+      "literary",
+      "observational",
+      "patient",
+      "meticulous",
+      "immersive"
+    ],
     "vocabulary_patterns": [
       "literary observation",
       "immersive detail",
@@ -149,9 +155,21 @@
     "experience_level": "legendary (60+ years)",
     "typical_career_path": "newspaper reporter → literary journalist → New Journalism pioneer → literary legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Journalist", "Author", "Literary Journalist"],
-      "achievement_indicators": ["acclaimed", "influential", "pioneering"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Journalist",
+        "Author",
+        "Literary Journalist"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "pioneering"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +215,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

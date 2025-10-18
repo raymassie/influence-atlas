@@ -1,7 +1,7 @@
 {
   "profile_id": "curie-marie",
   "name": "Marie Curie",
-  "archetype": "Research Scientist & Scientific Pioneer",
+  "archetype": "Scientist",
   "domain": "Trades & Technical Services",
   "sub_domain": "Scientific Research",
   "category": "Trades & Technical Services",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["systematic", "persistent", "analytical", "dedicated", "innovative"],
+    "tone": [
+      "systematic",
+      "persistent",
+      "analytical",
+      "dedicated",
+      "innovative"
+    ],
     "vocabulary_patterns": [
       "scientific discovery",
       "systematic research",
@@ -149,9 +155,21 @@
     "experience_level": "legendary (40+ years)",
     "typical_career_path": "physics student → research scientist → radioactivity pioneer → Nobel legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Physicist", "Chemist", "Research Scientist"],
-      "achievement_indicators": ["acclaimed", "influential", "pioneering"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Physicist",
+        "Chemist",
+        "Research Scientist"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "pioneering"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {

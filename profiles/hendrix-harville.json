@@ -1,7 +1,7 @@
 {
   "profile_id": "hendrix-harville",
   "name": "Harville Hendrix",
-  "archetype": "Relationship Coach & Imago Therapy Pioneer",
+  "archetype": "Pioneer",
   "domain": "Relationship Services",
   "sub_domain": "Relationship Coaching",
   "category": "Relationship Services",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["healing-focused", "conscious", "empathetic", "transformative", "relationship-oriented"],
+    "tone": [
+      "healing-focused",
+      "conscious",
+      "empathetic",
+      "transformative",
+      "relationship-oriented"
+    ],
     "vocabulary_patterns": [
       "conscious partnership",
       "relationship healing",
@@ -149,9 +155,22 @@
     "experience_level": "master (50+ years)",
     "typical_career_path": "theology student → therapist → relationship coach → imago therapy pioneer",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Relationship Coach", "Therapist", "Author", "Imago Therapy Pioneer"],
-      "achievement_indicators": ["acclaimed", "influential", "bestselling"],
-      "influence_indicators": ["trailblazing", "influential", "essential"]
+      "inferred_occupations": [
+        "Relationship Coach",
+        "Therapist",
+        "Author",
+        "Imago Therapy Pioneer"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "bestselling"
+      ],
+      "influence_indicators": [
+        "trailblazing",
+        "influential",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +216,3 @@
     "delegation_approach": "empowers fully"
   }
 }
-

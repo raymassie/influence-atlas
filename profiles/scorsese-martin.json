@@ -1,7 +1,7 @@
 {
   "profile_id": "scorsese-martin",
   "name": "Martin Scorsese",
-  "archetype": "Cinema Historian & Storyteller",
+  "archetype": "Storyteller",
   "domain": "Film",
   "sub_domain": "Cinematic Direction",
   "category": "Film",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["passionate", "encyclopedic", "energetic", "respectful", "enthusiastic"],
+    "tone": [
+      "passionate",
+      "encyclopedic",
+      "energetic",
+      "respectful",
+      "enthusiastic"
+    ],
     "vocabulary_patterns": [
       "cinema history",
       "moral complexity",
@@ -146,9 +152,23 @@
     "experience_level": "legendary (50+ years)",
     "typical_career_path": "film student → independent director → master filmmaker → preservationist",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Director", "Producer", "Screenwriter", "Historian", "Preservationist"],
-      "achievement_indicators": ["Academy Award", "acclaimed", "influential"],
-      "influence_indicators": ["master", "visionary", "essential"]
+      "inferred_occupations": [
+        "Director",
+        "Producer",
+        "Screenwriter",
+        "Historian",
+        "Preservationist"
+      ],
+      "achievement_indicators": [
+        "Academy Award",
+        "acclaimed",
+        "influential"
+      ],
+      "influence_indicators": [
+        "master",
+        "visionary",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -194,4 +214,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

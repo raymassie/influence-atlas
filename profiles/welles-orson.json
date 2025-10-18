@@ -1,7 +1,7 @@
 {
   "profile_id": "welles-orson",
   "name": "Orson Welles",
-  "archetype": "Maverick Innovator & Renaissance Filmmaker",
+  "archetype": "Innovator",
   "domain": "Film",
   "sub_domain": "Cinematic Direction",
   "category": "Film",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["charismatic", "eloquent", "theatrical", "commanding", "witty"],
+    "tone": [
+      "charismatic",
+      "eloquent",
+      "theatrical",
+      "commanding",
+      "witty"
+    ],
     "vocabulary_patterns": [
       "theatrical references",
       "literary allusions",
@@ -147,9 +153,23 @@
     "experience_level": "legendary (40+ years)",
     "typical_career_path": "theater prodigy → radio star → revolutionary filmmaker → independent maverick",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Director", "Actor", "Writer", "Producer", "Radio Personality"],
-      "achievement_indicators": ["revolutionary", "acclaimed", "influential"],
-      "influence_indicators": ["genius", "pioneering", "legendary"]
+      "inferred_occupations": [
+        "Director",
+        "Actor",
+        "Writer",
+        "Producer",
+        "Radio Personality"
+      ],
+      "achievement_indicators": [
+        "revolutionary",
+        "acclaimed",
+        "influential"
+      ],
+      "influence_indicators": [
+        "genius",
+        "pioneering",
+        "legendary"
+      ]
     }
   },
   "technology_relationship": {
@@ -195,4 +215,3 @@
     "delegation_approach": "reluctant to delegate"
   }
 }
-

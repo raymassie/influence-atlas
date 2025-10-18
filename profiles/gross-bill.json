@@ -1,7 +1,7 @@
 {
   "profile_id": "gross-bill",
   "name": "Bill Gross",
-  "archetype": "Bond King",
+  "archetype": "Investor",
   "domain": "Investment",
   "sub_domain": "Management",
   "era": "Modern",

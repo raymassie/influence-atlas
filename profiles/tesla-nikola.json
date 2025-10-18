@@ -1,7 +1,7 @@
 {
   "profile_id": "tesla-nikola",
   "name": "Nikola Tesla",
-  "archetype": "Electrical Engineer & Innovation Pioneer",
+  "archetype": "Pioneer",
   "domain": "Trades & Technical Services",
   "sub_domain": "Electrical Engineering",
   "category": "Trades & Technical Services",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["innovative", "visionary", "systematic", "experimental", "persistent"],
+    "tone": [
+      "innovative",
+      "visionary",
+      "systematic",
+      "experimental",
+      "persistent"
+    ],
     "vocabulary_patterns": [
       "electrical innovation",
       "systematic experimentation",
@@ -149,9 +155,21 @@
     "experience_level": "legendary (60+ years)",
     "typical_career_path": "engineering student → electrical engineer → AC pioneer → innovation legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Electrical Engineer", "Inventor", "Innovation Pioneer"],
-      "achievement_indicators": ["acclaimed", "influential", "revolutionary"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Electrical Engineer",
+        "Inventor",
+        "Innovation Pioneer"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "revolutionary"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {

@@ -1,7 +1,7 @@
 {
   "profile_id": "kurosawa-akira",
   "name": "Akira Kurosawa",
-  "archetype": "Visual Master & Humanist Storyteller",
+  "archetype": "Storyteller",
   "domain": "Film",
   "sub_domain": "Cinematic Direction",
   "category": "Film",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["disciplined", "respectful", "philosophical", "demanding", "thoughtful"],
+    "tone": [
+      "disciplined",
+      "respectful",
+      "philosophical",
+      "demanding",
+      "thoughtful"
+    ],
     "vocabulary_patterns": [
       "human dignity",
       "visual composition",
@@ -146,9 +152,22 @@
     "experience_level": "legendary (50+ years)",
     "typical_career_path": "painter → assistant director → master filmmaker → global influence",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Director", "Screenwriter", "Producer", "Painter"],
-      "achievement_indicators": ["acclaimed", "masterwork", "influential"],
-      "influence_indicators": ["legendary", "essential", "master"]
+      "inferred_occupations": [
+        "Director",
+        "Screenwriter",
+        "Producer",
+        "Painter"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "masterwork",
+        "influential"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "essential",
+        "master"
+      ]
     }
   },
   "technology_relationship": {
@@ -194,4 +213,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

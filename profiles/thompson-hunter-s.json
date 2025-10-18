@@ -1,7 +1,7 @@
 {
   "profile_id": "thompson-hunter-s",
   "name": "Hunter S. Thompson",
-  "archetype": "Gonzo Journalism Pioneer & Counterculture Icon",
+  "archetype": "Pioneer",
   "domain": "Journalism",
   "sub_domain": "Gonzo Journalism",
   "category": "Journalism",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["rebellious", "chaotic", "fearless", "experimental", "visionary"],
+    "tone": [
+      "rebellious",
+      "chaotic",
+      "fearless",
+      "experimental",
+      "visionary"
+    ],
     "vocabulary_patterns": [
       "gonzo journalism",
       "counterculture",
@@ -149,9 +155,21 @@
     "experience_level": "legendary (40+ years)",
     "typical_career_path": "freelance writer → gonzo journalist → counterculture icon → literary legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Journalist", "Author", "Gonzo Journalist"],
-      "achievement_indicators": ["acclaimed", "influential", "pioneering"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Journalist",
+        "Author",
+        "Gonzo Journalist"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "pioneering"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +215,3 @@
     "delegation_approach": "reluctant to delegate"
   }
 }
-

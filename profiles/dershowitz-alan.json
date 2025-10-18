@@ -1,7 +1,7 @@
 {
   "profile_id": "dershowitz-alan",
   "name": "Alan Dershowitz",
-  "archetype": "Controversial Legal Scholar & Constitutional Defender",
+  "archetype": "Scholar",
   "domain": "Legal",
   "sub_domain": "Constitutional Law",
   "category": "Legal",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["provocative", "intellectual", "defiant", "analytical", "controversial"],
+    "tone": [
+      "provocative",
+      "intellectual",
+      "defiant",
+      "analytical",
+      "controversial"
+    ],
     "vocabulary_patterns": [
       "constitutional rights",
       "civil liberties",
@@ -149,9 +155,22 @@
     "experience_level": "master (50+ years)",
     "typical_career_path": "law student → professor → constitutional lawyer → controversial advocate",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Lawyer", "Professor", "Legal Scholar", "Commentator"],
-      "achievement_indicators": ["acclaimed", "controversial", "influential"],
-      "influence_indicators": ["provocative", "influential", "controversial"]
+      "inferred_occupations": [
+        "Lawyer",
+        "Professor",
+        "Legal Scholar",
+        "Commentator"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "controversial",
+        "influential"
+      ],
+      "influence_indicators": [
+        "provocative",
+        "influential",
+        "controversial"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +216,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

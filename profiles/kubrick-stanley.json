@@ -1,7 +1,7 @@
 {
   "profile_id": "kubrick-stanley",
   "name": "Stanley Kubrick",
-  "archetype": "Perfectionist Auteur Director",
+  "archetype": "Performer",
   "domain": "Film",
   "sub_domain": "Cinematic Direction",
   "category": "Film",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["precise", "intellectual", "demanding", "controlled", "private"],
+    "tone": [
+      "precise",
+      "intellectual",
+      "demanding",
+      "controlled",
+      "private"
+    ],
     "vocabulary_patterns": [
       "visual composition",
       "technical precision",
@@ -146,9 +152,22 @@
     "experience_level": "legendary (50+ years)",
     "typical_career_path": "photographer → documentary filmmaker → feature director → auteur",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Director", "Screenwriter", "Producer", "Photographer"],
-      "achievement_indicators": ["acclaimed", "influential", "innovative"],
-      "influence_indicators": ["revolutionary", "visionary", "master"]
+      "inferred_occupations": [
+        "Director",
+        "Screenwriter",
+        "Producer",
+        "Photographer"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "innovative"
+      ],
+      "influence_indicators": [
+        "revolutionary",
+        "visionary",
+        "master"
+      ]
     }
   },
   "technology_relationship": {
@@ -194,4 +213,3 @@
     "delegation_approach": "micromanages"
   }
 }
-

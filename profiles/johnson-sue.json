@@ -1,7 +1,7 @@
 {
   "profile_id": "johnson-sue",
   "name": "Sue Johnson",
-  "archetype": "Marriage Counselor & Emotionally Focused Therapy Pioneer",
+  "archetype": "Pioneer",
   "domain": "Relationship Services",
   "sub_domain": "Marriage Counseling",
   "category": "Relationship Services",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["empathetic", "attachment-focused", "therapeutic", "healing-centered", "relationship-oriented"],
+    "tone": [
+      "empathetic",
+      "attachment-focused",
+      "therapeutic",
+      "healing-centered",
+      "relationship-oriented"
+    ],
     "vocabulary_patterns": [
       "emotional connection",
       "attachment security",
@@ -149,9 +155,22 @@
     "experience_level": "master (40+ years)",
     "typical_career_path": "psychology student → therapist → couples counselor → EFT pioneer",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Psychologist", "Marriage Counselor", "Therapist", "Author"],
-      "achievement_indicators": ["acclaimed", "influential", "pioneering"],
-      "influence_indicators": ["trailblazing", "influential", "essential"]
+      "inferred_occupations": [
+        "Psychologist",
+        "Marriage Counselor",
+        "Therapist",
+        "Author"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "pioneering"
+      ],
+      "influence_indicators": [
+        "trailblazing",
+        "influential",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +216,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

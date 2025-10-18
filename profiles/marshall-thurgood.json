@@ -1,7 +1,7 @@
 {
   "profile_id": "marshall-thurgood",
   "name": "Thurgood Marshall",
-  "archetype": "Civil Rights Legal Strategist & Constitutional Champion",
+  "archetype": "Strategist",
   "domain": "Legal",
   "sub_domain": "Constitutional Law",
   "category": "Legal",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["strategic", "persistent", "courageous", "analytical", "determined"],
+    "tone": [
+      "strategic",
+      "persistent",
+      "courageous",
+      "analytical",
+      "determined"
+    ],
     "vocabulary_patterns": [
       "equal protection",
       "constitutional rights",
@@ -149,9 +155,21 @@
     "experience_level": "legendary (50+ years)",
     "typical_career_path": "law student → NAACP lawyer → Supreme Court advocate → Supreme Court Justice",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Supreme Court Justice", "Civil Rights Lawyer", "NAACP Legal Director"],
-      "achievement_indicators": ["Supreme Court", "Brown v. Board", "acclaimed"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Supreme Court Justice",
+        "Civil Rights Lawyer",
+        "NAACP Legal Director"
+      ],
+      "achievement_indicators": [
+        "Supreme Court",
+        "Brown v. Board",
+        "acclaimed"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +215,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

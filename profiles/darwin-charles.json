@@ -1,7 +1,7 @@
 {
   "profile_id": "darwin-charles",
   "name": "Charles Darwin",
-  "archetype": "Naturalist & Evolutionary Biology Pioneer",
+  "archetype": "Scientist",
   "domain": "Trades & Technical Services",
   "sub_domain": "Scientific Research",
   "category": "Trades & Technical Services",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["observant", "systematic", "analytical", "persistent", "innovative"],
+    "tone": [
+      "observant",
+      "systematic",
+      "analytical",
+      "persistent",
+      "innovative"
+    ],
     "vocabulary_patterns": [
       "scientific discovery",
       "systematic observation",
@@ -149,9 +155,21 @@
     "experience_level": "legendary (50+ years)",
     "typical_career_path": "natural history student → naturalist → evolutionary biology pioneer → scientific legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Naturalist", "Biologist", "Research Scientist"],
-      "achievement_indicators": ["acclaimed", "influential", "revolutionary"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Naturalist",
+        "Biologist",
+        "Research Scientist"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "revolutionary"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {

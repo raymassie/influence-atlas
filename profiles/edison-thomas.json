@@ -1,7 +1,7 @@
 {
   "profile_id": "edison-thomas",
   "name": "Thomas Edison",
-  "archetype": "Inventor & Innovation Pioneer",
+  "archetype": "Pioneer",
   "domain": "Trades & Technical Services",
   "sub_domain": "Invention",
   "category": "Trades & Technical Services",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["innovative", "persistent", "systematic", "experimental", "practical"],
+    "tone": [
+      "innovative",
+      "persistent",
+      "systematic",
+      "experimental",
+      "practical"
+    ],
     "vocabulary_patterns": [
       "systematic innovation",
       "practical solutions",
@@ -149,9 +155,21 @@
     "experience_level": "legendary (60+ years)",
     "typical_career_path": "telegraph operator → inventor → systematic innovation pioneer → patent legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Inventor", "Businessman", "Innovation Pioneer"],
-      "achievement_indicators": ["acclaimed", "influential", "revolutionary"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Inventor",
+        "Businessman",
+        "Innovation Pioneer"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "revolutionary"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +215,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

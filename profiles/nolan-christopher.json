@@ -1,7 +1,7 @@
 {
   "profile_id": "nolan-christopher",
   "name": "Christopher Nolan",
-  "archetype": "Intellectual Blockbuster Architect",
+  "archetype": "Designer",
   "domain": "Film",
   "sub_domain": "Cinematic Direction",
   "category": "Film",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["intellectual", "precise", "methodical", "ambitious", "analytical"],
+    "tone": [
+      "intellectual",
+      "precise",
+      "methodical",
+      "ambitious",
+      "analytical"
+    ],
     "vocabulary_patterns": [
       "temporal mechanics",
       "practical effects",
@@ -148,9 +154,21 @@
     "experience_level": "master (25+ years)",
     "typical_career_path": "independent filmmaker → blockbuster director → auteur",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Director", "Screenwriter", "Producer"],
-      "achievement_indicators": ["Academy Award", "acclaimed", "blockbuster"],
-      "influence_indicators": ["influential", "innovative", "master"]
+      "inferred_occupations": [
+        "Director",
+        "Screenwriter",
+        "Producer"
+      ],
+      "achievement_indicators": [
+        "Academy Award",
+        "acclaimed",
+        "blockbuster"
+      ],
+      "influence_indicators": [
+        "influential",
+        "innovative",
+        "master"
+      ]
     }
   },
   "technology_relationship": {
@@ -196,4 +214,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

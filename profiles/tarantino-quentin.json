@@ -1,7 +1,7 @@
 {
   "profile_id": "tarantino-quentin",
   "name": "Quentin Tarantino",
-  "archetype": "Genre-Bending Dialogue Master",
+  "archetype": "Writer",
   "domain": "Film",
   "sub_domain": "Cinematic Direction",
   "category": "Film",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["energetic", "pop-culture", "confident", "provocative", "enthusiastic"],
+    "tone": [
+      "energetic",
+      "pop-culture",
+      "confident",
+      "provocative",
+      "enthusiastic"
+    ],
     "vocabulary_patterns": [
       "film references",
       "pop culture",
@@ -148,9 +154,22 @@
     "experience_level": "master (30+ years)",
     "typical_career_path": "video store clerk → independent screenwriter → auteur director",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Director", "Screenwriter", "Actor", "Producer"],
-      "achievement_indicators": ["acclaimed", "influential", "Academy Award"],
-      "influence_indicators": ["iconic", "groundbreaking", "distinctive"]
+      "inferred_occupations": [
+        "Director",
+        "Screenwriter",
+        "Actor",
+        "Producer"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "Academy Award"
+      ],
+      "influence_indicators": [
+        "iconic",
+        "groundbreaking",
+        "distinctive"
+      ]
     }
   },
   "technology_relationship": {
@@ -196,4 +215,3 @@
     "delegation_approach": "micromanages"
   }
 }
-

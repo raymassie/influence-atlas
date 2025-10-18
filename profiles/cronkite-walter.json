@@ -1,7 +1,7 @@
 {
   "profile_id": "cronkite-walter",
   "name": "Walter Cronkite",
-  "archetype": "Trusted News Anchor & Broadcast Journalism Icon",
+  "archetype": "Journalist",
   "domain": "Journalism",
   "sub_domain": "Broadcast Journalism",
   "category": "Journalism",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["authoritative", "calm", "professional", "trustworthy", "integrity-focused"],
+    "tone": [
+      "authoritative",
+      "calm",
+      "professional",
+      "trustworthy",
+      "integrity-focused"
+    ],
     "vocabulary_patterns": [
       "journalistic integrity",
       "professional standards",
@@ -149,9 +155,21 @@
     "experience_level": "legendary (50+ years)",
     "typical_career_path": "wire service reporter → radio journalist → television anchor → broadcast legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Broadcast Journalist", "News Anchor", "Television Personality"],
-      "achievement_indicators": ["acclaimed", "trusted", "influential"],
-      "influence_indicators": ["legendary", "essential", "iconic"]
+      "inferred_occupations": [
+        "Broadcast Journalist",
+        "News Anchor",
+        "Television Personality"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "trusted",
+        "influential"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "essential",
+        "iconic"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +215,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

@@ -1,7 +1,7 @@
 {
   "profile_id": "woodward-bob",
   "name": "Bob Woodward",
-  "archetype": "Investigative Journalism Legend & Washington Insider",
+  "archetype": "Journalist",
   "domain": "Journalism",
   "sub_domain": "Investigative Journalism",
   "category": "Journalism",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["methodical", "discreet", "analytical", "persistent", "measured"],
+    "tone": [
+      "methodical",
+      "discreet",
+      "analytical",
+      "persistent",
+      "measured"
+    ],
     "vocabulary_patterns": [
       "investigative rigor",
       "source verification",
@@ -149,9 +155,21 @@
     "experience_level": "legendary (50+ years)",
     "typical_career_path": "reporter → Watergate investigator → investigative legend → presidential chronicler",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Journalist", "Author", "Investigative Reporter"],
-      "achievement_indicators": ["Pulitzer Prize", "Watergate", "acclaimed"],
-      "influence_indicators": ["legendary", "influential", "essential"]
+      "inferred_occupations": [
+        "Journalist",
+        "Author",
+        "Investigative Reporter"
+      ],
+      "achievement_indicators": [
+        "Pulitzer Prize",
+        "Watergate",
+        "acclaimed"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "influential",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +215,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

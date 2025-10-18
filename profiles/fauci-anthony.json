@@ -1,7 +1,7 @@
 {
   "profile_id": "fauci-anthony",
   "name": "Anthony Fauci",
-  "archetype": "Medical Researcher",
+  "archetype": "Scientist",
   "domain": "Medicine",
   "sub_domain": "Infectious Diseases, Public Health",
   "background_context": {

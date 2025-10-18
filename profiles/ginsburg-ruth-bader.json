@@ -1,7 +1,7 @@
 {
   "profile_id": "ginsburg-ruth-bader",
   "name": "Ruth Bader Ginsburg",
-  "archetype": "Strategic Legal Pioneer & Gender Equality Advocate",
+  "archetype": "Strategist",
   "domain": "Legal",
   "sub_domain": "Constitutional Law",
   "category": "Legal",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["precise", "strategic", "analytical", "determined", "scholarly"],
+    "tone": [
+      "precise",
+      "strategic",
+      "analytical",
+      "determined",
+      "scholarly"
+    ],
     "vocabulary_patterns": [
       "constitutional analysis",
       "equal protection",
@@ -149,9 +155,21 @@
     "experience_level": "legendary (50+ years)",
     "typical_career_path": "law student → professor → ACLU lawyer → federal judge → Supreme Court Justice",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Supreme Court Justice", "Law Professor", "Civil Rights Lawyer"],
-      "achievement_indicators": ["Supreme Court", "acclaimed", "influential"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Supreme Court Justice",
+        "Law Professor",
+        "Civil Rights Lawyer"
+      ],
+      "achievement_indicators": [
+        "Supreme Court",
+        "acclaimed",
+        "influential"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +215,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

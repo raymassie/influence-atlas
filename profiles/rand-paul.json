@@ -1,7 +1,7 @@
 {
   "profile_id": "rand-paul",
   "name": "Paul Rand",
-  "archetype": "Graphic Design Pioneer & Corporate Identity Master",
+  "archetype": "Pioneer",
   "domain": "Creative Services",
   "sub_domain": "Graphic Design",
   "category": "Creative Services",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["systematic", "minimalist", "theoretical", "perfectionist", "innovative"],
+    "tone": [
+      "systematic",
+      "minimalist",
+      "theoretical",
+      "perfectionist",
+      "innovative"
+    ],
     "vocabulary_patterns": [
       "design excellence",
       "visual communication",
@@ -149,9 +155,21 @@
     "experience_level": "legendary (60+ years)",
     "typical_career_path": "art student → graphic designer → corporate identity pioneer → design legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Graphic Designer", "Corporate Identity Designer", "Design Theorist"],
-      "achievement_indicators": ["acclaimed", "influential", "pioneering"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Graphic Designer",
+        "Corporate Identity Designer",
+        "Design Theorist"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "pioneering"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {

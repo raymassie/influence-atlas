@@ -1,9 +1,9 @@
 {
   "profile_id": "stevenson-bryan",
   "name": "Bryan Stevenson",
-  "archetype": "Criminal Justice Reformer & Equal Justice Advocate",
+  "archetype": "Change Agent",
   "domain": "Legal",
-  "sub_domain": "Criminal Justice",
+  "sub_domain": "Criminal Law",
   "category": "Legal",
   "subcategory": "Civil Rights Lawyers",
   "era": "Contemporary",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["compassionate", "persistent", "empathetic", "strategic", "inspiring"],
+    "tone": [
+      "compassionate",
+      "persistent",
+      "empathetic",
+      "strategic",
+      "inspiring"
+    ],
     "vocabulary_patterns": [
       "compassionate justice",
       "systemic reform",
@@ -149,9 +155,22 @@
     "experience_level": "master (30+ years)",
     "typical_career_path": "law student → public defender → civil rights lawyer → criminal justice reformer",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Lawyer", "Author", "Activist", "Professor"],
-      "achievement_indicators": ["acclaimed", "influential", "award-winning"],
-      "influence_indicators": ["trailblazing", "influential", "essential"]
+      "inferred_occupations": [
+        "Lawyer",
+        "Author",
+        "Activist",
+        "Professor"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "award-winning"
+      ],
+      "influence_indicators": [
+        "trailblazing",
+        "influential",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +216,3 @@
     "delegation_approach": "empowers fully"
   }
 }
-

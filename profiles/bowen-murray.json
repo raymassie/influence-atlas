@@ -1,7 +1,7 @@
 {
   "profile_id": "bowen-murray",
   "name": "Murray Bowen",
-  "archetype": "Family Systems Therapist & Differentiation Pioneer",
+  "archetype": "Pioneer",
   "domain": "Relationship Services",
   "sub_domain": "Family Therapy",
   "category": "Relationship Services",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["systematic", "analytical", "theoretical", "family-focused", "differentiation-oriented"],
+    "tone": [
+      "systematic",
+      "analytical",
+      "theoretical",
+      "family-focused",
+      "differentiation-oriented"
+    ],
     "vocabulary_patterns": [
       "family systems",
       "differentiation",
@@ -149,9 +155,21 @@
     "experience_level": "legendary (50+ years)",
     "typical_career_path": "medical student → psychiatrist → family therapist → systems theory pioneer",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Psychiatrist", "Family Therapist", "Theorist"],
-      "achievement_indicators": ["acclaimed", "influential", "pioneering"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Psychiatrist",
+        "Family Therapist",
+        "Theorist"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "pioneering"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +215,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

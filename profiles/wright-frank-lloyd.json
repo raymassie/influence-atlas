@@ -1,7 +1,7 @@
 {
   "profile_id": "wright-frank-lloyd",
   "name": "Frank Lloyd Wright",
-  "archetype": "Architect & Organic Design Pioneer",
+  "archetype": "Pioneer",
   "domain": "Trades & Technical Services",
   "sub_domain": "Architecture",
   "category": "Trades & Technical Services",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["innovative", "organic", "visionary", "artistic", "systematic"],
+    "tone": [
+      "innovative",
+      "organic",
+      "visionary",
+      "artistic",
+      "systematic"
+    ],
     "vocabulary_patterns": [
       "organic design",
       "architectural innovation",
@@ -149,9 +155,22 @@
     "experience_level": "legendary (70+ years)",
     "typical_career_path": "architecture student → architect → Prairie School pioneer → organic architecture legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Architect", "Designer", "Artist", "Organic Architecture Pioneer"],
-      "achievement_indicators": ["acclaimed", "influential", "pioneering"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Architect",
+        "Designer",
+        "Artist",
+        "Organic Architecture Pioneer"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "pioneering"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +216,3 @@
     "delegation_approach": "empowers fully"
   }
 }
-

@@ -22,10 +22,10 @@ This application provides rich, searchable profiles of 308+ influential figures 
 ## Data Structure
 
 - **308 Profiles**: Industry leaders, innovators, and influential thinkers
-- **37 Categories**: Broad classifications (Business, Technology, Psychology, Film, Legal, Culinary Arts, etc.)
-- **200+ Archetypes**: Specific role types and professional identities
-- **37 Domains**: Primary fields of work including new service industries
-- **200+ Subdomains**: Specialized areas within domains
+- **28 Categories**: Broad classifications (Psychology, Arts, Business, Technology, etc.)
+- **40 Role-Based Archetypes**: Clean professional roles (Pioneer, Strategist, Scientist, Writer, etc.)
+- **30 Domains**: Primary fields of work (Technology, Marketing, Philosophy, Music, etc.)
+- **164 Subdomains**: Specialized areas within domains
 - **23 Behavioral Categories**: Comprehensive framework including Behavioral Humanism + Tier 1/2
 - **320+ Standardized Traits**: Consolidated and verified characteristics
 - **170 Data Fields**: Comprehensive profile attributes with 90%+ coverage (added 15 Tier 2 fields)

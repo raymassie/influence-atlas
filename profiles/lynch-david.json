@@ -1,7 +1,7 @@
 {
   "profile_id": "lynch-david",
   "name": "David Lynch",
-  "archetype": "Surrealist Dream Weaver",
+  "archetype": "Performer",
   "domain": "Film",
   "sub_domain": "Cinematic Direction",
   "category": "Film",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["mysterious", "artistic", "introspective", "surreal", "contemplative"],
+    "tone": [
+      "mysterious",
+      "artistic",
+      "introspective",
+      "surreal",
+      "contemplative"
+    ],
     "vocabulary_patterns": [
       "dream imagery",
       "subconscious exploration",
@@ -148,9 +154,23 @@
     "experience_level": "master (40+ years)",
     "typical_career_path": "art student → experimental filmmaker → television innovator → cult auteur",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Director", "Screenwriter", "Producer", "Artist", "Musician"],
-      "achievement_indicators": ["acclaimed", "cult following", "influential"],
-      "influence_indicators": ["visionary", "groundbreaking", "unique"]
+      "inferred_occupations": [
+        "Director",
+        "Screenwriter",
+        "Producer",
+        "Artist",
+        "Musician"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "cult following",
+        "influential"
+      ],
+      "influence_indicators": [
+        "visionary",
+        "groundbreaking",
+        "unique"
+      ]
     }
   },
   "technology_relationship": {
@@ -196,4 +216,3 @@
     "delegation_approach": "reluctant to delegate"
   }
 }
-

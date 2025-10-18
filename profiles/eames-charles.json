@@ -1,7 +1,7 @@
 {
   "profile_id": "eames-charles",
   "name": "Charles Eames",
-  "archetype": "Interior Designer & Furniture Design Pioneer",
+  "archetype": "Pioneer",
   "domain": "Creative Services",
   "sub_domain": "Interior Design",
   "category": "Creative Services",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["democratic", "innovative", "ergonomic", "collaborative", "experimental"],
+    "tone": [
+      "democratic",
+      "innovative",
+      "ergonomic",
+      "collaborative",
+      "experimental"
+    ],
     "vocabulary_patterns": [
       "democratic design",
       "ergonomic excellence",
@@ -149,9 +155,22 @@
     "experience_level": "legendary (40+ years)",
     "typical_career_path": "architecture student → furniture designer → interior designer → design legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Designer", "Architect", "Furniture Designer", "Interior Designer"],
-      "achievement_indicators": ["acclaimed", "influential", "iconic"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Designer",
+        "Architect",
+        "Furniture Designer",
+        "Interior Designer"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "iconic"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +216,3 @@
     "delegation_approach": "empowers fully"
   }
 }
-

@@ -1,7 +1,7 @@
 {
   "profile_id": "holmes-oliver-wendell",
   "name": "Oliver Wendell Holmes Jr.",
-  "archetype": "Legal Realist & Constitutional Pragmatist",
+  "archetype": "Scholar",
   "domain": "Legal",
   "sub_domain": "Constitutional Law",
   "category": "Legal",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["intellectual", "pragmatic", "realistic", "analytical", "independent"],
+    "tone": [
+      "intellectual",
+      "pragmatic",
+      "realistic",
+      "analytical",
+      "independent"
+    ],
     "vocabulary_patterns": [
       "legal realism",
       "pragmatic analysis",
@@ -148,9 +154,21 @@
     "experience_level": "legendary (50+ years)",
     "typical_career_path": "law student → Civil War veteran → lawyer → Supreme Court Justice",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Supreme Court Justice", "Legal Scholar", "Civil War Veteran"],
-      "achievement_indicators": ["Supreme Court", "influential", "acclaimed"],
-      "influence_indicators": ["legendary", "influential", "essential"]
+      "inferred_occupations": [
+        "Supreme Court Justice",
+        "Legal Scholar",
+        "Civil War Veteran"
+      ],
+      "achievement_indicators": [
+        "Supreme Court",
+        "influential",
+        "acclaimed"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "influential",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -196,4 +214,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

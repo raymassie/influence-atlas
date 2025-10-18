@@ -1,7 +1,7 @@
 {
   "profile_id": "da-vinci-leonardo",
   "name": "Leonardo da Vinci",
-  "archetype": "Renaissance Master",
+  "archetype": "Artist",
   "domain": "Arts",
   "sub_domain": "Visual Arts",
   "psychological_profile": {

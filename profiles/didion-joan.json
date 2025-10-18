@@ -1,7 +1,7 @@
 {
   "profile_id": "didion-joan",
   "name": "Joan Didion",
-  "archetype": "Literary Essayist & Cultural Observer",
+  "archetype": "Writer",
   "domain": "Journalism",
   "sub_domain": "Literary Journalism",
   "category": "Journalism",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["precise", "observational", "introspective", "literary", "melancholic"],
+    "tone": [
+      "precise",
+      "observational",
+      "introspective",
+      "literary",
+      "melancholic"
+    ],
     "vocabulary_patterns": [
       "precise observation",
       "literary introspection",
@@ -149,9 +155,22 @@
     "experience_level": "legendary (60+ years)",
     "typical_career_path": "magazine editor → literary journalist → cultural critic → literary legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Writer", "Journalist", "Cultural Critic", "Novelist"],
-      "achievement_indicators": ["acclaimed", "influential", "award-winning"],
-      "influence_indicators": ["legendary", "essential", "master"]
+      "inferred_occupations": [
+        "Writer",
+        "Journalist",
+        "Cultural Critic",
+        "Novelist"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "award-winning"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "essential",
+        "master"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +216,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

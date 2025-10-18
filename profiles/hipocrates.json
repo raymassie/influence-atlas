@@ -1,6 +1,6 @@
 {
   "name": "Hippocrates",
-  "archetype": "Physician",
+  "archetype": "Practitioner",
   "domain": "Medicine",
   "sub_domain": "Clinical Medicine",
   "category": "Medicine",

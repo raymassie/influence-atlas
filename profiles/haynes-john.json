@@ -1,7 +1,7 @@
 {
   "profile_id": "haynes-john",
   "name": "John Haynes",
-  "archetype": "Divorce Mediator & Conflict Resolution Specialist",
+  "archetype": "Thought Leader",
   "domain": "Relationship Services",
   "sub_domain": "Divorce Mediation",
   "category": "Relationship Services",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["collaborative", "mediating", "child-focused", "conflict-resolution", "empathetic"],
+    "tone": [
+      "collaborative",
+      "mediating",
+      "child-focused",
+      "conflict-resolution",
+      "empathetic"
+    ],
     "vocabulary_patterns": [
       "collaborative solutions",
       "child protection",
@@ -149,9 +155,21 @@
     "experience_level": "master (40+ years)",
     "typical_career_path": "social worker → mediator → divorce specialist → collaborative divorce pioneer",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Divorce Mediator", "Conflict Resolution Specialist", "Social Worker"],
-      "achievement_indicators": ["acclaimed", "influential", "pioneering"],
-      "influence_indicators": ["trailblazing", "influential", "essential"]
+      "inferred_occupations": [
+        "Divorce Mediator",
+        "Conflict Resolution Specialist",
+        "Social Worker"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "pioneering"
+      ],
+      "influence_indicators": [
+        "trailblazing",
+        "influential",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +215,3 @@
     "delegation_approach": "empowers fully"
   }
 }
-

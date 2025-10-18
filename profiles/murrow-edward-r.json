@@ -1,7 +1,7 @@
 {
   "profile_id": "murrow-edward-r",
   "name": "Edward R. Murrow",
-  "archetype": "Broadcast Journalism Pioneer & Truth Advocate",
+  "archetype": "Pioneer",
   "domain": "Journalism",
   "sub_domain": "Broadcast Journalism",
   "category": "Journalism",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["courageous", "principled", "authoritative", "truthful", "defiant"],
+    "tone": [
+      "courageous",
+      "principled",
+      "authoritative",
+      "truthful",
+      "defiant"
+    ],
     "vocabulary_patterns": [
       "truth advocacy",
       "journalistic courage",
@@ -149,9 +155,21 @@
     "experience_level": "legendary (30+ years)",
     "typical_career_path": "radio reporter → war correspondent → television pioneer → journalism legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Broadcast Journalist", "War Correspondent", "Television Pioneer"],
-      "achievement_indicators": ["acclaimed", "courageous", "influential"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Broadcast Journalist",
+        "War Correspondent",
+        "Television Pioneer"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "courageous",
+        "influential"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +215,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

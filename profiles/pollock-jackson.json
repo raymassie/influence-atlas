@@ -1,9 +1,9 @@
 {
   "profile_id": "pollock-jackson",
   "name": "Jackson Pollock",
-  "archetype": "Abstract Expressionist",
+  "archetype": "Artist",
   "domain": "Arts",
-  "sub_domain": "Abstract Expressionism",
+  "sub_domain": "Abstract Art",
   "era": "Modern",
   "birth_year": 1912,
   "death_year": 1956,

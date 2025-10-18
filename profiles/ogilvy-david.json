@@ -1,7 +1,7 @@
 {
   "profile_id": "ogilvy-david",
   "name": "David Ogilvy",
-  "archetype": "Copywriter & Advertising Legend",
+  "archetype": "Writer",
   "domain": "Creative Services",
   "sub_domain": "Copywriting",
   "category": "Creative Services",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["persuasive", "research-driven", "creative", "systematic", "brand-focused"],
+    "tone": [
+      "persuasive",
+      "research-driven",
+      "creative",
+      "systematic",
+      "brand-focused"
+    ],
     "vocabulary_patterns": [
       "persuasive communication",
       "brand building",
@@ -149,9 +155,21 @@
     "experience_level": "legendary (50+ years)",
     "typical_career_path": "salesman → copywriter → advertising executive → industry legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Copywriter", "Advertising Executive", "Brand Strategist"],
-      "achievement_indicators": ["acclaimed", "influential", "legendary"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Copywriter",
+        "Advertising Executive",
+        "Brand Strategist"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "legendary"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {

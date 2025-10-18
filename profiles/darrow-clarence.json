@@ -1,9 +1,9 @@
 {
   "profile_id": "darrow-clarence",
   "name": "Clarence Darrow",
-  "archetype": "Champion of the Underdog & Criminal Defense Legend",
+  "archetype": "Advocate",
   "domain": "Legal",
-  "sub_domain": "Criminal Defense",
+  "sub_domain": "Criminal Law",
   "category": "Legal",
   "subcategory": "Criminal Defense Lawyers",
   "era": "Historical",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["passionate", "eloquent", "compassionate", "defiant", "inspiring"],
+    "tone": [
+      "passionate",
+      "eloquent",
+      "compassionate",
+      "defiant",
+      "inspiring"
+    ],
     "vocabulary_patterns": [
       "compassionate defense",
       "human dignity",
@@ -149,9 +155,21 @@
     "experience_level": "legendary (50+ years)",
     "typical_career_path": "law student → corporate lawyer → labor lawyer → criminal defense legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Lawyer", "Labor Advocate", "Criminal Defense Attorney"],
-      "achievement_indicators": ["legendary", "acclaimed", "influential"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Lawyer",
+        "Labor Advocate",
+        "Criminal Defense Attorney"
+      ],
+      "achievement_indicators": [
+        "legendary",
+        "acclaimed",
+        "influential"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
@@ -197,4 +215,3 @@
     "delegation_approach": "structured delegation"
   }
 }
-

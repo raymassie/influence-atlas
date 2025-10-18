@@ -1,7 +1,7 @@
 {
   "profile_id": "ford-henry",
   "name": "Henry Ford",
-  "archetype": "Industrial Engineer & Manufacturing Pioneer",
+  "archetype": "Pioneer",
   "domain": "Trades & Technical Services",
   "sub_domain": "Industrial Engineering",
   "category": "Trades & Technical Services",
@@ -46,7 +46,13 @@
     ]
   },
   "communication_style": {
-    "tone": ["systematic", "efficient", "innovative", "practical", "persistent"],
+    "tone": [
+      "systematic",
+      "efficient",
+      "innovative",
+      "practical",
+      "persistent"
+    ],
     "vocabulary_patterns": [
       "manufacturing efficiency",
       "systematic innovation",
@@ -149,9 +155,21 @@
     "experience_level": "legendary (60+ years)",
     "typical_career_path": "mechanic → industrial engineer → manufacturing pioneer → efficiency legend",
     "wikipedia_enrichment": {
-      "inferred_occupations": ["Industrial Engineer", "Manufacturing Pioneer", "Businessman"],
-      "achievement_indicators": ["acclaimed", "influential", "revolutionary"],
-      "influence_indicators": ["legendary", "trailblazing", "essential"]
+      "inferred_occupations": [
+        "Industrial Engineer",
+        "Manufacturing Pioneer",
+        "Businessman"
+      ],
+      "achievement_indicators": [
+        "acclaimed",
+        "influential",
+        "revolutionary"
+      ],
+      "influence_indicators": [
+        "legendary",
+        "trailblazing",
+        "essential"
+      ]
     }
   },
   "technology_relationship": {
