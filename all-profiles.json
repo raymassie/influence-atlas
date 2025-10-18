@@ -189,7 +189,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Adele",
@@ -369,7 +370,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "adria-ferran",
@@ -586,7 +588,26 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
+  },
+  {
+    "name": "Muhammad Ali",
+    "category": "Sports",
+    "domain": "Sports",
+    "sub_domain": "Boxing",
+    "archetype": "Performer",
+    "quality_tier": "Tier 1: Legend",
+    "summary": "Three-time world heavyweight boxing champion and cultural icon known for his charisma, social activism, and revolutionary impact on sports.",
+    "bias_awareness": [],
+    "growth_motivation": [],
+    "cognitive_humanism": [],
+    "humanistic_cognition": [],
+    "human_needs_hierarchy": [],
+    "self_actualization": [],
+    "behavioral_growth": [],
+    "status": "placeholder - needs full evaluation",
+    "data_completeness": "10%"
   },
   {
     "profile_id": "allred-gloria",
@@ -803,7 +824,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "altman-sam",
@@ -1123,7 +1145,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "empowers fully"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "angelou-maya",
@@ -1324,7 +1347,8 @@
       "mentorship_inclination": "lone wolf",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Archimedes",
@@ -1567,7 +1591,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Hannah Arendt",
@@ -1798,7 +1823,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "reluctant to delegate"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "ariely-dan",
@@ -2017,7 +2043,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "aristotle",
@@ -2261,7 +2288,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Louis Armstrong",
@@ -2464,7 +2492,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Margaret Atwood",
@@ -2651,7 +2680,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "austen-jane",
@@ -2835,7 +2865,8 @@
       "mentorship_inclination": "lone wolf",
       "feedback_style": "constructive and structured",
       "delegation_approach": "reluctant to delegate"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Johann Sebastian Bach",
@@ -3032,7 +3063,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "James Baldwin",
@@ -3255,7 +3287,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "balmer-steve",
@@ -3451,7 +3484,8 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "bandura-albert",
@@ -3646,7 +3680,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "bass-saul",
@@ -3848,7 +3883,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "beard-james",
@@ -4066,7 +4102,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "empowers fully"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "The Beatles",
@@ -4281,7 +4318,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "micromanages"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "beckett-samuel",
@@ -4481,7 +4519,8 @@
       "mentorship_inclination": "lone wolf",
       "feedback_style": "constructive and structured",
       "delegation_approach": "micromanages"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Ludwig van Beethoven",
@@ -4700,7 +4739,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Jeremy Bentham",
@@ -4927,7 +4967,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Claude Bernard",
@@ -5160,7 +5201,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Bill Bernbach",
@@ -5394,7 +5436,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Tim Berners-Lee",
@@ -5658,7 +5701,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Leonard Bernstein",
@@ -5858,7 +5902,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Beyoncé",
@@ -6047,7 +6092,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Jeff Bezos",
@@ -6290,7 +6336,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Sara Blakely",
@@ -6574,7 +6621,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "bottura-massimo",
@@ -6792,7 +6840,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "empowers fully"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "bourdain-anthony",
@@ -7010,7 +7059,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "bowen-murray",
@@ -7227,7 +7277,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Richard Branson",
@@ -7513,7 +7564,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Fernand Braudel",
@@ -7696,7 +7748,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "brin-sergey",
@@ -7916,14 +7969,15 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "brown-brené",
     "name": "Brené Brown",
     "archetype": "Researcher",
-    "domain": "Thought Leadership",
-    "sub_domain": "Psychology",
+    "domain": "Psychology",
+    "sub_domain": "Social Psychology",
     "communication_style": {
       "tone": "empathetic, authentic, vulnerable, research-based, emotionally-intelligent, transformative, insightful, compassionate, courageous, healing-focused",
       "vocabulary_patterns": "emotional intelligence terminology, vulnerability research language, authentic connection concepts, healing and courage insights",
@@ -8103,13 +8157,14 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Les Brown",
     "archetype": "Facilitator",
-    "domain": "Motivation Coaching",
-    "sub_domain": "Possibility Thinking & Dream Achievement",
+    "domain": "Psychology",
+    "sub_domain": "Applied Psychology",
     "psychological_profile": {
       "primary_traits": [
         "inspiring",
@@ -8388,7 +8443,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 3: Contemporary"
   },
   {
     "name": "Russell Brunson",
@@ -8670,7 +8726,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 3: Contemporary"
   },
   {
     "name": "Warren Buffett",
@@ -8903,13 +8960,14 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Brendon Burchard",
     "archetype": "Strategist",
-    "domain": "Motivation Coaching",
-    "sub_domain": "High Performance & Personal Development",
+    "domain": "Psychology",
+    "sub_domain": "Applied Psychology",
     "psychological_profile": {
       "primary_traits": "systematic, high-energy, research-oriented, performance-oriented",
       "cognitive_style": "systematic performance optimization with research-backed approach",
@@ -9178,7 +9236,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 3: Contemporary"
   },
   {
     "name": "John Caples",
@@ -9453,7 +9512,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "cardone-grant",
@@ -9664,7 +9724,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 3: Contemporary"
   },
   {
     "profile_id": "carlton-john",
@@ -9843,7 +9904,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "E.H. Carr",
@@ -10030,7 +10092,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "carson-david",
@@ -10225,7 +10288,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Rachel Carson",
@@ -10409,7 +10473,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "cartier-bresson-henri",
@@ -10627,7 +10692,44 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
+  },
+  {
+    "name": "Johnny Cash",
+    "category": "Music",
+    "domain": "Music",
+    "sub_domain": "Country",
+    "archetype": "Composer/Musician",
+    "quality_tier": "Tier 1: Legend",
+    "summary": "The Man in Black, legendary country singer-songwriter who transcended genres with his deep baritone voice and outlaw persona.",
+    "bias_awareness": [],
+    "growth_motivation": [],
+    "cognitive_humanism": [],
+    "humanistic_cognition": [],
+    "human_needs_hierarchy": [],
+    "self_actualization": [],
+    "behavioral_growth": [],
+    "status": "placeholder - needs full evaluation",
+    "data_completeness": "10%"
+  },
+  {
+    "name": "Coco Chanel",
+    "category": "Design",
+    "domain": "Design",
+    "sub_domain": "Fashion Design",
+    "archetype": "Designer",
+    "quality_tier": "Tier 1: Legend",
+    "summary": "Revolutionary fashion designer who liberated women from corseted clothing and created timeless elegance with the little black dress and Chanel suit.",
+    "bias_awareness": [],
+    "growth_motivation": [],
+    "cognitive_humanism": [],
+    "humanistic_cognition": [],
+    "human_needs_hierarchy": [],
+    "self_actualization": [],
+    "behavioral_growth": [],
+    "status": "placeholder - needs full evaluation",
+    "data_completeness": "10%"
   },
   {
     "name": "Brian Chesky",
@@ -10914,7 +11016,8 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "child-julia",
@@ -11132,7 +11235,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "christensen-clayton",
@@ -11362,7 +11466,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Winston Churchill",
@@ -11585,14 +11690,15 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "clear-james",
     "name": "James Clear",
     "archetype": "Thought Leader",
-    "domain": "Thought Leadership",
-    "sub_domain": "Habit Formation",
+    "domain": "Psychology",
+    "sub_domain": "Behavioral Science",
     "communication_style": {
       "tone": "systematic, evidence-based, practical, actionable, clear, methodical, research-driven, accessible, transformative, habit-focused",
       "vocabulary_patterns": "habit formation terminology, systematic improvement language, evidence-based behavior concepts, practical optimization insights",
@@ -11767,7 +11873,8 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 3: Contemporary"
   },
   {
     "name": "Cleopatra",
@@ -11993,7 +12100,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "collison-patrick",
@@ -12229,7 +12337,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "John Coltrane",
@@ -12433,7 +12542,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "confucius",
@@ -12629,7 +12739,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "cook-tim",
@@ -12833,14 +12944,33 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
+  },
+  {
+    "name": "Le Corbusier",
+    "category": "Design",
+    "domain": "Engineering & Architecture",
+    "sub_domain": "Architecture",
+    "archetype": "Designer",
+    "quality_tier": "Tier 1: Legend",
+    "summary": "Pioneer of modern architecture, developed International Style and revolutionary urban planning theories.",
+    "bias_awareness": [],
+    "growth_motivation": [],
+    "cognitive_humanism": [],
+    "humanistic_cognition": [],
+    "human_needs_hierarchy": [],
+    "self_actualization": [],
+    "behavioral_growth": [],
+    "status": "placeholder - needs full evaluation",
+    "data_completeness": "10%"
   },
   {
     "profile_id": "covey-stephen",
     "name": "Stephen Covey",
     "archetype": "Coach",
-    "domain": "Motivation Coaching",
-    "sub_domain": "Leadership",
+    "domain": "Psychology",
+    "sub_domain": "Applied Psychology",
     "era": "Modern",
     "birth_year": 1932,
     "death_year": 2012,
@@ -13029,7 +13159,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "cronkite-walter",
@@ -13246,14 +13377,15 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "curie-marie",
     "name": "Marie Curie",
     "archetype": "Scientist",
-    "domain": "Trades & Technical Services",
-    "sub_domain": "Scientific Research",
+    "domain": "Science",
+    "sub_domain": "Physics & Chemistry",
     "category": "Trades & Technical Services",
     "subcategory": "Research Scientists",
     "era": "Modern",
@@ -13463,7 +13595,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "da-vinci-leonardo",
@@ -13720,7 +13853,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Dalai Lama",
@@ -13930,7 +14064,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "dali-salvador",
@@ -14144,7 +14279,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Ray Dalio",
@@ -14434,7 +14570,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "darrow-clarence",
@@ -14651,14 +14788,15 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "darwin-charles",
     "name": "Charles Darwin",
     "archetype": "Scientist",
-    "domain": "Trades & Technical Services",
-    "sub_domain": "Scientific Research",
+    "domain": "Science",
+    "sub_domain": "Evolutionary Biology",
     "category": "Trades & Technical Services",
     "subcategory": "Research Scientists",
     "era": "Modern",
@@ -14868,7 +15006,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Richard Davidson",
@@ -15099,7 +15238,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "dershowitz-alan",
@@ -15317,7 +15457,8 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "descartes-rene",
@@ -15531,7 +15672,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "dickens-charles",
@@ -15730,7 +15872,8 @@
       "mentorship_inclination": "lone wolf",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "didion-joan",
@@ -15948,7 +16091,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "disco-janet",
@@ -16195,7 +16339,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Walt Disney",
@@ -16443,7 +16588,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Jack Dorsey",
@@ -16731,14 +16877,15 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "duckworth-angela",
     "name": "Angela Duckworth",
     "archetype": "Researcher",
-    "domain": "Thought Leadership",
-    "sub_domain": "Psychology",
+    "domain": "Psychology",
+    "sub_domain": "Personality Psychology",
     "communication_style": {
       "tone": "scientific, evidence-based, motivational, research-driven, insightful, accessible, inspiring, analytical, transformative, evidence-focused",
       "vocabulary_patterns": "psychological research terminology, grit and resilience language, evidence-based motivation concepts, scientific behavioral insights",
@@ -16923,13 +17070,14 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "duhigg-charles",
     "name": "Charles Duhigg",
     "archetype": "Researcher",
-    "domain": "Thought Leadership",
+    "domain": "Psychology",
     "sub_domain": "Behavioral Science",
     "communication_style": {
       "tone": "investigative, evidence-based, narrative-driven, insightful, accessible, data-driven, storytelling, analytical, transformative, research-focused",
@@ -17113,7 +17261,8 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "duvernay-ava",
@@ -17329,7 +17478,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "empowers fully"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Bob Dylan",
@@ -17531,7 +17681,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "reluctant to delegate"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "eames-charles",
@@ -17749,14 +17900,15 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "empowers fully"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "edison-thomas",
     "name": "Thomas Edison",
     "archetype": "Pioneer",
-    "domain": "Trades & Technical Services",
-    "sub_domain": "Invention",
+    "domain": "Science",
+    "sub_domain": "Applied Science & Invention",
     "category": "Trades & Technical Services",
     "subcategory": "Inventors",
     "era": "Modern",
@@ -17966,14 +18118,15 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "einstein-albert",
     "name": "Albert Einstein",
     "archetype": "Scientist",
-    "domain": "Trades & Technical Services",
-    "sub_domain": "Scientific Research",
+    "domain": "Science",
+    "sub_domain": "Theoretical Physics",
     "category": "Trades & Technical Services",
     "subcategory": "Research Scientists",
     "era": "Modern",
@@ -18183,7 +18336,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "ek-daniel",
@@ -18412,7 +18566,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Duke Ellington",
@@ -18610,7 +18765,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "ellis-perry",
@@ -18835,7 +18991,26 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
+  },
+  {
+    "name": "Brian Eno",
+    "category": "Music",
+    "domain": "Music",
+    "sub_domain": "Electronic",
+    "archetype": "Innovator",
+    "quality_tier": "Tier 1: Legend",
+    "summary": "Pioneer of ambient music and influential producer who shaped modern electronic music and production techniques.",
+    "bias_awareness": [],
+    "growth_motivation": [],
+    "cognitive_humanism": [],
+    "humanistic_cognition": [],
+    "human_needs_hierarchy": [],
+    "self_actualization": [],
+    "behavioral_growth": [],
+    "status": "placeholder - needs full evaluation",
+    "data_completeness": "10%"
   },
   {
     "profile_id": "epicurus",
@@ -19081,7 +19256,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "euclid",
@@ -19297,7 +19473,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Leonhard Euler",
@@ -19544,7 +19721,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "eyal-nir",
@@ -19757,7 +19935,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "fauci-anthony",
@@ -19975,7 +20154,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "William Faulkner",
@@ -20219,14 +20399,15 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "ferriss-tim",
     "name": "Tim Ferriss",
     "archetype": "Coach",
-    "domain": "Motivation Coaching",
-    "sub_domain": "Lifestyle Coaching",
+    "domain": "Psychology",
+    "sub_domain": "Applied Psychology",
     "era": "Modern",
     "birth_year": 1977,
     "death_year": null,
@@ -20407,7 +20588,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Richard Feynman",
@@ -20679,7 +20861,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "F. Scott Fitzgerald",
@@ -20896,7 +21079,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Alexander Fleming",
@@ -21131,7 +21315,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Pat Flynn",
@@ -21408,13 +21593,14 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 3: Contemporary"
   },
   {
     "profile_id": "ford-henry",
     "name": "Henry Ford",
     "archetype": "Pioneer",
-    "domain": "Trades & Technical Services",
+    "domain": "Engineering & Architecture",
     "sub_domain": "Industrial Engineering",
     "category": "Trades & Technical Services",
     "subcategory": "Industrial Engineers",
@@ -21625,7 +21811,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Marie Forleo",
@@ -21907,7 +22094,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 3: Contemporary"
   },
   {
     "name": "Michel Foucault",
@@ -22109,7 +22297,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "fridman-lex",
@@ -22341,7 +22530,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 3: Contemporary"
   },
   {
     "name": "Milton Friedman",
@@ -22572,12 +22762,13 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Iman Gadzhi",
     "archetype": "Builder",
-    "domain": "Thought Leadership",
+    "domain": "Marketing",
     "sub_domain": "Digital Marketing",
     "psychological_profile": {
       "primary_traits": [
@@ -22846,7 +23037,8 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 3: Contemporary"
   },
   {
     "name": "John Kenneth Galbraith",
@@ -23072,7 +23264,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "gates-bill",
@@ -23322,7 +23515,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Carl Friedrich Gauss",
@@ -23569,7 +23763,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "gawande-atul",
@@ -23787,7 +23982,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Lou Gerstner",
@@ -23994,7 +24190,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Edward Gibbon",
@@ -24178,7 +24375,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "ginsburg-ruth-bader",
@@ -24395,14 +24593,15 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "gladwell-malcolm",
     "name": "Malcolm Gladwell",
     "archetype": "Storyteller",
-    "domain": "Thought Leadership",
-    "sub_domain": "Social Science Storytelling",
+    "domain": "Writing",
+    "sub_domain": "Nonfiction",
     "communication_style": {
       "tone": "narrative-driven, counterintuitive, storytelling, insightful, accessible, thought-provoking, research-based, engaging, analytical, transformative",
       "vocabulary_patterns": "social science terminology, counterintuitive insights language, narrative storytelling concepts, research-based social analysis",
@@ -24581,7 +24780,8 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Seth Godin",
@@ -24813,14 +25013,15 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "goggins-david",
     "name": "David Goggins",
     "archetype": "Coach",
-    "domain": "Motivation Coaching",
-    "sub_domain": "Coaching",
+    "domain": "Psychology",
+    "sub_domain": "Applied Psychology",
     "era": "Modern",
     "birth_year": 1975,
     "death_year": null,
@@ -25002,7 +25203,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Daniel Goleman",
@@ -25216,7 +25418,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "goodall-jane",
@@ -25420,7 +25623,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Al Gore",
@@ -25649,7 +25853,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "graham-benjamin",
@@ -25848,7 +26053,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "grant-adam",
@@ -26144,7 +26350,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "empowers fully"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Dean Graziosi",
@@ -26425,7 +26632,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 3: Contemporary"
   },
   {
     "name": "Robert Greene",
@@ -26719,7 +26927,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "gross-bill",
@@ -26920,7 +27129,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Andy Grove",
@@ -27129,7 +27339,26 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
+  },
+  {
+    "name": "Zaha Hadid",
+    "category": "Design",
+    "domain": "Engineering & Architecture",
+    "sub_domain": "Architecture",
+    "archetype": "Designer",
+    "quality_tier": "Tier 1: Legend",
+    "summary": "First woman to win the Pritzker Architecture Prize, known for neo-futuristic designs and radical deconstructivist forms.",
+    "bias_awareness": [],
+    "growth_motivation": [],
+    "cognitive_humanism": [],
+    "humanistic_cognition": [],
+    "human_needs_hierarchy": [],
+    "self_actualization": [],
+    "behavioral_growth": [],
+    "status": "placeholder - needs full evaluation",
+    "data_completeness": "10%"
   },
   {
     "profile_id": "halbert-gary",
@@ -27308,7 +27537,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "James Hansen",
@@ -27534,7 +27764,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "harari-yuval",
@@ -27826,7 +28057,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "William Harvey",
@@ -28059,14 +28291,15 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "hawking-stephen",
     "name": "Stephen Hawking",
     "archetype": "Scientist",
-    "domain": "Trades & Technical Services",
-    "sub_domain": "Scientific Research",
+    "domain": "Science",
+    "sub_domain": "Theoretical Physics",
     "category": "Trades & Technical Services",
     "subcategory": "Research Scientists",
     "era": "Contemporary",
@@ -28276,7 +28509,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Friedrich Hayek",
@@ -28503,7 +28737,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "haynes-john",
@@ -28720,7 +28955,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "empowers fully"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "hegel-georg-wilhelm",
@@ -28918,7 +29154,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "heidegger-martin",
@@ -29167,7 +29404,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Ernest Hemingway",
@@ -29392,7 +29630,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "hendrix-harville",
@@ -29610,7 +29849,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "empowers fully"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Jimi Hendrix",
@@ -29809,7 +30049,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Whitney Wolfe Herd",
@@ -30106,7 +30347,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "David Hilbert",
@@ -30338,7 +30580,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Hippocrates",
@@ -30548,7 +30791,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Eric Hobsbawm",
@@ -30740,7 +30984,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "hoffman-reid",
@@ -30943,7 +31188,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "hoffman-ryan",
@@ -31161,7 +31407,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Ryan Holiday",
@@ -31439,7 +31686,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "holmes-oliver-wendell",
@@ -31655,7 +31903,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Claude Hopkins",
@@ -31926,12 +32175,13 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Alex Hormozi",
     "archetype": "Consultant",
-    "domain": "Thought Leadership",
+    "domain": "Business",
     "sub_domain": "Business Strategy",
     "psychological_profile": {
       "primary_traits": [
@@ -32205,7 +32455,8 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 3: Contemporary"
   },
   {
     "name": "Lewis Howes",
@@ -32488,7 +32739,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 3: Contemporary"
   },
   {
     "profile_id": "hume-david",
@@ -32751,7 +33003,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Zora Neale Hurston",
@@ -32988,7 +33241,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "reluctant to delegate"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Jeff Immelt",
@@ -33192,7 +33446,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "ive-jony",
@@ -33428,7 +33683,26 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "micromanages"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
+  },
+  {
+    "name": "Jay-Z",
+    "category": "Music",
+    "domain": "Music",
+    "sub_domain": "Hip-Hop",
+    "archetype": "Entrepreneur",
+    "quality_tier": "Tier 1: Legend",
+    "summary": "One of the greatest rappers and most successful hip-hop entrepreneurs, built a business empire while maintaining artistic credibility.",
+    "bias_awareness": [],
+    "growth_motivation": [],
+    "cognitive_humanism": [],
+    "humanistic_cognition": [],
+    "human_needs_hierarchy": [],
+    "self_actualization": [],
+    "behavioral_growth": [],
+    "status": "placeholder - needs full evaluation",
+    "data_completeness": "10%"
   },
   {
     "profile_id": "jobs-steve",
@@ -33739,7 +34013,8 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "micromanages"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "johnson-sue",
@@ -33957,7 +34232,44 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
+  },
+  {
+    "name": "Michael Jordan",
+    "category": "Sports",
+    "domain": "Sports",
+    "sub_domain": "Basketball",
+    "archetype": "Performer",
+    "quality_tier": "Tier 1: Legend",
+    "summary": "Six-time NBA champion, considered the greatest basketball player of all time, transformed sports marketing and global basketball culture.",
+    "bias_awareness": [],
+    "growth_motivation": [],
+    "cognitive_humanism": [],
+    "humanistic_cognition": [],
+    "human_needs_hierarchy": [],
+    "self_actualization": [],
+    "behavioral_growth": [],
+    "status": "placeholder - needs full evaluation",
+    "data_completeness": "10%"
+  },
+  {
+    "name": "Martin Luther King Jr.",
+    "category": "Public Policy",
+    "domain": "Public Policy",
+    "sub_domain": "Civil Rights",
+    "archetype": "Advocate",
+    "quality_tier": "Tier 1: Legend",
+    "summary": "Baptist minister and civil rights leader whose nonviolent activism transformed American society and inspired global human rights movements.",
+    "bias_awareness": [],
+    "growth_motivation": [],
+    "cognitive_humanism": [],
+    "humanistic_cognition": [],
+    "human_needs_hierarchy": [],
+    "self_actualization": [],
+    "behavioral_growth": [],
+    "status": "placeholder - needs full evaluation",
+    "data_completeness": "10%"
   },
   {
     "profile_id": "jung-carl",
@@ -34158,7 +34470,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Jon Kabat-Zinn",
@@ -34366,7 +34679,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "kahneman-daniel",
@@ -34668,7 +34982,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "51",
@@ -34972,7 +35287,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "kandinsky-wassily",
@@ -35184,7 +35500,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "kant-immanuel",
@@ -35435,7 +35752,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Dan Kennedy",
@@ -35714,7 +36032,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "kenny-dan",
@@ -35910,7 +36229,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "keynes-john-maynard",
@@ -36137,7 +36457,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "John Maynard Keynes",
@@ -36371,7 +36692,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "kierkegaard-soren",
@@ -36611,7 +36933,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "king-stephen",
@@ -36805,7 +37128,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "knuth-donald",
@@ -37023,7 +37347,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Robert Koch",
@@ -37267,7 +37592,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Jack Kornfield",
@@ -37486,7 +37812,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Paul Krugman",
@@ -37718,7 +38045,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "kubrick-stanley",
@@ -37933,7 +38261,8 @@
       "mentorship_inclination": "reluctant to delegate",
       "feedback_style": "direct and immediate",
       "delegation_approach": "micromanages"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "kurosawa-akira",
@@ -38148,7 +38477,44 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
+  },
+  {
+    "name": "Kendrick Lamar",
+    "category": "Music",
+    "domain": "Music",
+    "sub_domain": "Hip-Hop",
+    "archetype": "Composer/Musician",
+    "quality_tier": "Tier 2: Pioneer",
+    "summary": "Pulitzer Prize-winning rapper known for complex lyricism, social commentary, and pushing the boundaries of hip-hop as an art form.",
+    "bias_awareness": [],
+    "growth_motivation": [],
+    "cognitive_humanism": [],
+    "humanistic_cognition": [],
+    "human_needs_hierarchy": [],
+    "self_actualization": [],
+    "behavioral_growth": [],
+    "status": "placeholder - needs full evaluation",
+    "data_completeness": "10%"
+  },
+  {
+    "name": "Yves Saint Laurent",
+    "category": "Design",
+    "domain": "Design",
+    "sub_domain": "Fashion Design",
+    "archetype": "Designer",
+    "quality_tier": "Tier 1: Legend",
+    "summary": "Legendary fashion designer who brought high fashion to the streets with ready-to-wear and the iconic Le Smoking tuxedo suit for women.",
+    "bias_awareness": [],
+    "growth_motivation": [],
+    "cognitive_humanism": [],
+    "humanistic_cognition": [],
+    "human_needs_hierarchy": [],
+    "self_actualization": [],
+    "behavioral_growth": [],
+    "status": "placeholder - needs full evaluation",
+    "data_completeness": "10%"
   },
   {
     "name": "Harper Lee",
@@ -38369,7 +38735,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Aldo Leopold",
@@ -38555,7 +38922,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Theodore Levitt",
@@ -38788,7 +39156,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "György Ligeti",
@@ -38988,7 +39357,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "John Locke",
@@ -39210,7 +39580,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "James Lovelock",
@@ -39457,7 +39828,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "lubalin-herb",
@@ -39653,7 +40025,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "lynch-david",
@@ -39871,7 +40244,8 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "reluctant to delegate"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "lynch-peter",
@@ -40060,7 +40434,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Madonna",
@@ -40254,7 +40629,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "marks-howard",
@@ -40460,7 +40836,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Alfred Marshall",
@@ -40681,7 +41058,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "marshall-thurgood",
@@ -40898,7 +41276,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "maslow-abraham",
@@ -41087,7 +41466,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "mayer-marissa",
@@ -41299,7 +41679,8 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Olivier Messiaen",
@@ -41496,7 +41877,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "michelangelo-buonarroti",
@@ -41747,7 +42129,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Miles Davis",
@@ -41947,7 +42330,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "mill-john-stuart",
@@ -42203,7 +42587,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Theodor Mommsen",
@@ -42393,7 +42778,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Claude Monet",
@@ -42632,7 +43018,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Montesquieu",
@@ -42851,7 +43238,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Toni Morrison",
@@ -43083,7 +43471,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Wolfgang Amadeus Mozart",
@@ -43310,7 +43699,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Josef Müller-Brockmann",
@@ -43539,7 +43929,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "John Muir",
@@ -43758,7 +44149,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "muller-brockmann-josef",
@@ -43945,7 +44337,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Charlie Munger",
@@ -44222,7 +44615,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "murrow-edward-r",
@@ -44439,7 +44833,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Elon Musk",
@@ -44722,7 +45117,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "nadella-satya",
@@ -44927,7 +45323,8 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Cal Newport",
@@ -45215,7 +45612,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "newton-isaac",
@@ -45449,7 +45847,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "52",
@@ -45751,7 +46150,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "52",
@@ -46053,7 +46453,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "nietzsche-friedrich",
@@ -46277,7 +46678,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Florence Nightingale",
@@ -46508,7 +46910,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "nolan-christopher",
@@ -46724,7 +47127,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "obama-barack",
@@ -46953,7 +47357,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "ogilvy-david",
@@ -47170,7 +47575,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "George Orwell",
@@ -47389,7 +47795,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Niccolò Paganini",
@@ -47575,7 +47982,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "micromanages"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "page-larry",
@@ -47788,7 +48196,8 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Paracelsus",
@@ -48022,7 +48431,26 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
+  },
+  {
+    "name": "Dolly Parton",
+    "category": "Music",
+    "domain": "Music",
+    "sub_domain": "Country",
+    "archetype": "Entrepreneur",
+    "quality_tier": "Tier 1: Legend",
+    "summary": "Iconic country music star, prolific songwriter, actress, and philanthropist known for business acumen and cultural impact.",
+    "bias_awareness": [],
+    "growth_motivation": [],
+    "cognitive_humanism": [],
+    "humanistic_cognition": [],
+    "human_needs_hierarchy": [],
+    "self_actualization": [],
+    "behavioral_growth": [],
+    "status": "placeholder - needs full evaluation",
+    "data_completeness": "10%"
   },
   {
     "name": "Louis Pasteur",
@@ -48269,7 +48697,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Pema Chödrön",
@@ -48480,7 +48909,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "pepin-jacques",
@@ -48698,7 +49128,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Jean Piaget",
@@ -48889,7 +49320,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Pablo Picasso",
@@ -49161,13 +49593,14 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "pink-daniel",
     "name": "Daniel Pink",
     "archetype": "Researcher",
-    "domain": "Thought Leadership",
+    "domain": "Psychology",
     "sub_domain": "Behavioral Science",
     "communication_style": {
       "tone": "research-based, insightful, motivational, data-driven, accessible, thought-provoking, evidence-based, inspiring, analytical, transformative",
@@ -49352,7 +49785,8 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "plato",
@@ -49585,7 +50019,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "pollock-jackson",
@@ -49795,7 +50230,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Amy Porterfield",
@@ -50074,7 +50510,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 3: Contemporary"
   },
   {
     "name": "Elvis Presley",
@@ -50260,7 +50697,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Ram Dass",
@@ -50477,7 +50915,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Srinivasa Ramanujan",
@@ -50713,7 +51152,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "rand-paul",
@@ -50930,7 +51370,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Otto Rank",
@@ -51126,13 +51567,14 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Naval Ravikant",
     "archetype": "Investor",
-    "domain": "Thought Leadership",
-    "sub_domain": "Startup Philosophy & Wealth Creation",
+    "domain": "Philosophy",
+    "sub_domain": "Modern Philosophy",
     "psychological_profile": {
       "primary_traits": [
         "philosophical",
@@ -51400,7 +51842,8 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 3: Contemporary"
   },
   {
     "name": "John Rawls",
@@ -51631,7 +52074,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Al Ries",
@@ -51861,7 +52305,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Dennis Ritchie",
@@ -52116,14 +52561,15 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "robbins-mel",
     "name": "Mel Robbins",
     "archetype": "Coach",
-    "domain": "Motivation Coaching",
-    "sub_domain": "Action Coaching",
+    "domain": "Psychology",
+    "sub_domain": "Applied Psychology",
     "era": "Modern",
     "birth_year": 1968,
     "death_year": null,
@@ -52300,14 +52746,15 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 3: Contemporary"
   },
   {
     "profile_id": "robbins-tony",
     "name": "Tony Robbins",
     "archetype": "Coach",
-    "domain": "Motivation Coaching",
-    "sub_domain": "Life Coaching",
+    "domain": "Psychology",
+    "sub_domain": "Applied Psychology",
     "era": "Modern",
     "birth_year": 1960,
     "death_year": null,
@@ -52486,7 +52933,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "John D. Rockefeller",
@@ -52713,7 +53161,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Carl Rogers",
@@ -52895,7 +53344,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Franklin D. Roosevelt",
@@ -53110,7 +53560,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "rothko-mark",
@@ -53298,7 +53749,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "rousseau-jean-jacques",
@@ -53487,7 +53939,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Jean-Jacques Rousseau",
@@ -53701,7 +54154,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "sacks-oliver",
@@ -53918,7 +54372,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "sagmeister-stefan",
@@ -54116,7 +54571,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Jonas Salk",
@@ -54349,7 +54805,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Sharon Salzberg",
@@ -54572,7 +55029,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Paul Samuelson",
@@ -54811,7 +55269,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "sartre-jean-paul",
@@ -55016,7 +55475,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "scanlon-tm",
@@ -55269,7 +55729,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "schmidt-eric",
@@ -55488,7 +55949,8 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "E.F. Schumacher",
@@ -55676,7 +56138,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Joseph Schumpeter",
@@ -55916,7 +56379,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "schwartz-eugene",
@@ -56115,7 +56579,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "scorsese-martin",
@@ -56331,7 +56796,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Amartya Sen",
@@ -56566,7 +57032,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Ramit Sethi",
@@ -56848,7 +57315,44 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
+  },
+  {
+    "name": "William Shakespeare",
+    "category": "Writing",
+    "domain": "Writing",
+    "sub_domain": "Theater",
+    "archetype": "Writer",
+    "quality_tier": "Tier 1: Legend",
+    "summary": "Greatest playwright in the English language, whose works transformed literature and continue to define Western culture.",
+    "bias_awareness": [],
+    "growth_motivation": [],
+    "cognitive_humanism": [],
+    "humanistic_cognition": [],
+    "human_needs_hierarchy": [],
+    "self_actualization": [],
+    "behavioral_growth": [],
+    "status": "placeholder - needs full evaluation",
+    "data_completeness": "10%"
+  },
+  {
+    "name": "Tupac Shakur",
+    "category": "Music",
+    "domain": "Music",
+    "sub_domain": "Hip-Hop",
+    "archetype": "Composer/Musician",
+    "quality_tier": "Tier 1: Legend",
+    "summary": "Revolutionary rapper, poet, and actor whose socially conscious lyrics and cultural impact made him one of the most influential musicians in hip-hop history.",
+    "bias_awareness": [],
+    "growth_motivation": [],
+    "cognitive_humanism": [],
+    "humanistic_cognition": [],
+    "human_needs_hierarchy": [],
+    "self_actualization": [],
+    "behavioral_growth": [],
+    "status": "placeholder - needs full evaluation",
+    "data_completeness": "10%"
   },
   {
     "profile_id": "sidgwick-henry",
@@ -57106,7 +57610,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "simons-jim",
@@ -57299,7 +57804,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Simon Sinek",
@@ -57577,7 +58083,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "singer-peter",
@@ -57836,7 +58343,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "empowers fully"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "B.F. Skinner",
@@ -58035,7 +58543,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Alfred Sloan",
@@ -58244,7 +58753,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Adam Smith",
@@ -58471,7 +58981,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Adam Smith",
@@ -58700,7 +59211,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "soros-george",
@@ -58894,7 +59406,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "spock-benjamin",
@@ -59112,7 +59625,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "empowers fully"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Bruce Springsteen",
@@ -59300,7 +59814,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "stallman-richard",
@@ -59517,7 +60032,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "empowers fully"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Philippe Starck",
@@ -59753,7 +60269,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "John Steinbeck",
@@ -59977,7 +60494,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "stevenson-bryan",
@@ -60195,7 +60713,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "empowers fully"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Karlheinz Stockhausen",
@@ -60399,7 +60918,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Igor Stravinsky",
@@ -60599,7 +61119,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "taleb-nassim",
@@ -60887,7 +61408,8 @@
       "mentorship_inclination": "lone wolf",
       "feedback_style": "direct and immediate",
       "delegation_approach": "reluctant to delegate"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "talese-gay",
@@ -61104,7 +61626,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "tarantino-quentin",
@@ -61321,14 +61844,15 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "micromanages"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "tesla-nikola",
     "name": "Nikola Tesla",
     "archetype": "Pioneer",
-    "domain": "Trades & Technical Services",
-    "sub_domain": "Electrical Engineering",
+    "domain": "Science",
+    "sub_domain": "Electrical Engineering & Physics",
     "category": "Trades & Technical Services",
     "subcategory": "Electrical Engineers",
     "era": "Modern",
@@ -61538,7 +62062,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "empowers fully"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "thatcher-margaret",
@@ -61754,7 +62279,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Thich Nhat Hanh",
@@ -61970,7 +62496,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Peter Thiel",
@@ -62267,13 +62794,14 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Eric Thomas",
     "archetype": "Speaker",
-    "domain": "Motivation Coaching",
-    "sub_domain": "Street Motivation & Success Psychology",
+    "domain": "Psychology",
+    "sub_domain": "Applied Psychology",
     "psychological_profile": {
       "primary_traits": [
         "passionate",
@@ -62552,7 +63080,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 3: Contemporary"
   },
   {
     "profile_id": "thompson-hunter-s",
@@ -62769,7 +63298,8 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "reluctant to delegate"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Greta Thunberg",
@@ -62987,7 +63517,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 3: Contemporary"
   },
   {
     "profile_id": "torvalds-linus",
@@ -63204,7 +63735,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Arnold Toynbee",
@@ -63394,7 +63926,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Jack Trout",
@@ -63624,7 +64157,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "turing-alan",
@@ -63848,7 +64382,8 @@
       "mentorship_inclination": "lone wolf",
       "feedback_style": "constructive and structured",
       "delegation_approach": "reluctant to delegate"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Mark Twain",
@@ -64063,7 +64598,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Vincent van Gogh",
@@ -64332,7 +64868,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "vaynerchuk-gary",
@@ -64521,7 +65058,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 3: Contemporary"
   },
   {
     "name": "Robert Venturi",
@@ -64748,7 +65286,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Andreas Vesalius",
@@ -64978,7 +65517,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "voltaire-francois-marie",
@@ -65170,7 +65710,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Lev Vygotsky",
@@ -65352,7 +65893,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "warhol-andy",
@@ -65586,7 +66128,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "waters-alice",
@@ -65804,7 +66347,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "empowers fully"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "watson-james",
@@ -66015,7 +66559,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Jack Welch",
@@ -66212,7 +66757,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "micromanages"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "welles-orson",
@@ -66429,7 +66975,8 @@
       "mentorship_inclination": "selective mentor",
       "feedback_style": "direct and immediate",
       "delegation_approach": "reluctant to delegate"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "name": "Hayden White",
@@ -66617,7 +67164,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "wilder-billy",
@@ -66833,7 +67381,44 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
+  },
+  {
+    "name": "Serena Williams",
+    "category": "Sports",
+    "domain": "Sports",
+    "sub_domain": "Tennis",
+    "archetype": "Performer",
+    "quality_tier": "Tier 1: Legend",
+    "summary": "23 Grand Slam singles titles, dominated women's tennis for two decades, advocate for equality in sports and beyond.",
+    "bias_awareness": [],
+    "growth_motivation": [],
+    "cognitive_humanism": [],
+    "humanistic_cognition": [],
+    "human_needs_hierarchy": [],
+    "self_actualization": [],
+    "behavioral_growth": [],
+    "status": "placeholder - needs full evaluation",
+    "data_completeness": "10%"
+  },
+  {
+    "name": "August Wilson",
+    "category": "Writing",
+    "domain": "Writing",
+    "sub_domain": "Theater",
+    "archetype": "Writer",
+    "quality_tier": "Tier 1: Legend",
+    "summary": "Pulitzer Prize-winning playwright known for his Pittsburgh Cycle, chronicling African American experience through the 20th century.",
+    "bias_awareness": [],
+    "growth_motivation": [],
+    "cognitive_humanism": [],
+    "humanistic_cognition": [],
+    "human_needs_hierarchy": [],
+    "self_actualization": [],
+    "behavioral_growth": [],
+    "status": "placeholder - needs full evaluation",
+    "data_completeness": "10%"
   },
   {
     "name": "Edward O. Wilson",
@@ -67059,7 +67644,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "wilson-eo",
@@ -67268,7 +67854,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Oprah Winfrey",
@@ -67563,7 +68150,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "empowers fully"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "wojcicki-susan",
@@ -67795,7 +68383,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "gentle and encouraging",
       "delegation_approach": "empowers fully"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "wood-cathie",
@@ -68015,7 +68604,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "woodward-bob",
@@ -68232,7 +68822,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Virginia Woolf",
@@ -68467,7 +69058,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Steve Wozniak",
@@ -68730,13 +69322,14 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "profile_id": "wright-frank-lloyd",
     "name": "Frank Lloyd Wright",
     "archetype": "Pioneer",
-    "domain": "Trades & Technical Services",
+    "domain": "Engineering & Architecture",
     "sub_domain": "Architecture",
     "category": "Trades & Technical Services",
     "subcategory": "Architects",
@@ -68948,7 +69541,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "empowers fully"
-    }
+    },
+    "quality_tier": "Tier 1: Legend"
   },
   {
     "profile_id": "yalom-irvin",
@@ -69166,7 +69760,8 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   },
   {
     "name": "Mark Zuckerberg",
@@ -69459,6 +70054,7 @@
       "mentorship_inclination": "natural mentor",
       "feedback_style": "constructive and structured",
       "delegation_approach": "structured delegation"
-    }
+    },
+    "quality_tier": "Tier 2: Pioneer"
   }
 ]

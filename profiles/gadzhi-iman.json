@@ -1,7 +1,7 @@
 {
   "name": "Iman Gadzhi",
   "archetype": "Builder",
-  "domain": "Thought Leadership",
+  "domain": "Marketing",
   "sub_domain": "Digital Marketing",
   "psychological_profile": {
     "primary_traits": [
@@ -270,5 +270,6 @@
     "mentorship_inclination": "selective mentor",
     "feedback_style": "constructive and structured",
     "delegation_approach": "structured delegation"
-  }
+  },
+  "quality_tier": "Tier 3: Contemporary"
 }

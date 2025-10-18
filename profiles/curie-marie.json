@@ -2,8 +2,8 @@
   "profile_id": "curie-marie",
   "name": "Marie Curie",
   "archetype": "Scientist",
-  "domain": "Trades & Technical Services",
-  "sub_domain": "Scientific Research",
+  "domain": "Science",
+  "sub_domain": "Physics & Chemistry",
   "category": "Trades & Technical Services",
   "subcategory": "Research Scientists",
   "era": "Modern",
@@ -213,5 +213,6 @@
     "mentorship_inclination": "natural mentor",
     "feedback_style": "constructive and structured",
     "delegation_approach": "structured delegation"
-  }
+  },
+  "quality_tier": "Tier 1: Legend"
 }

@@ -97,43 +97,98 @@ Contact: raymassie@gmail.com for commercial licensing
                 <div class="filters">
                 <!-- Super Filters - Broad Categories -->
                 <div class="filter-item super-filters">
-                    <div class="filter-header" onclick="toggleFilter('super-filters')">
-                        <span>Quick Categories</span>
+                    <div class="filter-header" onclick="toggleFilter('quality-tier')">
+                        <span>Quality Tier</span>
                         <span class="filter-icon">+</span>
                     </div>
-                    <div id="super-filters-content" class="filter-content super-filter-content">
+                    <div id="quality-tier-content" class="filter-content super-filter-content">
                         <div class="super-filter-buttons">
-                            <button class="super-filter-btn" onclick="applySuperFilter('Arts')">Arts</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Authors')">Authors</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Business')">Business</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Contemplative Practice')">Contemplative Practice</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Creative Services')">Creative Services</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Culinary Arts')">Culinary Arts</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Design')">Design</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Economics')">Economics</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Entrepreneurship')">Entrepreneurship</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Environmental')">Environmental</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Film')">Film</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Finance')">Finance</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('History')">History</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Investment')">Investment</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Journalism')">Journalism</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Legal')">Legal</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Marketing')">Marketing</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Math')">Math</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Medicine')">Medicine</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Motivation Coaching')">Motivation Coaching</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Music')">Music</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Philosophy')">Philosophy</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Psychology')">Psychology</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Public Policy')">Public Policy</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Relationship Services')">Relationship Services</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Science')">Science</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Technology')">Technology</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Thought Leadership')">Thought Leadership</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Trades & Technical Services')">Trades & Technical Services</button>
-                            <button class="super-filter-btn" onclick="applySuperFilter('Writing')">Writing</button>
-                            <button class="super-filter-btn" onclick="clearAllFilters()">Clear All</button>
+                            <button class="super-filter-btn" onclick="applyQualityFilter('Tier 1: Legend')">
+                                <strong>Legends</strong> (70)
+                            </button>
+                            <button class="super-filter-btn" onclick="applyQualityFilter('Tier 2: Pioneer')">
+                                <strong>Pioneers</strong> (236)
+                            </button>
+                            <button class="super-filter-btn" onclick="applyQualityFilter('Tier 3: Contemporary')">
+                                <strong>Contemporary</strong> (18)
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-item">
+                    <div class="filter-header" onclick="toggleFilter('domain-groups')">
+                        <span>Domain Groups</span>
+                        <span class="filter-icon">+</span>
+                    </div>
+                    <div id="domain-groups-content" class="filter-content super-filter-content">
+                        <div class="domain-group-section">
+                            <div class="domain-group-header">Creative Arts</div>
+                            <div class="super-filter-buttons">
+                                <button class="super-filter-btn" onclick="applySuperFilter('Arts')">Arts (10)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Design')">Design (14)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Film')">Film (9)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Music')">Music (27)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Writing')">Writing (18)</button>
+                            </div>
+                        </div>
+
+                        <div class="domain-group-section">
+                            <div class="domain-group-header">Business & Commerce</div>
+                            <div class="super-filter-buttons">
+                                <button class="super-filter-btn" onclick="applySuperFilter('Business')">Business (10)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Economics')">Economics (12)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Entrepreneurship')">Entrepreneurship (14)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Finance')">Finance (2)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Investment')">Investment (9)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Marketing')">Marketing (19)</button>
+                            </div>
+                        </div>
+
+                        <div class="domain-group-section">
+                            <div class="domain-group-header">Science & Technology</div>
+                            <div class="super-filter-buttons">
+                                <button class="super-filter-btn" onclick="applySuperFilter('Engineering & Architecture')">Engineering & Architecture (4)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Math')">Math (7)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Medicine')">Medicine (14)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Science')">Science (12)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Technology')">Technology (21)</button>
+                            </div>
+                        </div>
+
+                        <div class="domain-group-section">
+                            <div class="domain-group-header">Social Sciences & Humanities</div>
+                            <div class="super-filter-buttons">
+                                <button class="super-filter-btn" onclick="applySuperFilter('History')">History (10)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Philosophy')">Philosophy (20)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Psychology')">Psychology (23)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Public Policy')">Public Policy (13)</button>
+                            </div>
+                        </div>
+
+                        <div class="domain-group-section">
+                            <div class="domain-group-header">Services & Professions</div>
+                            <div class="super-filter-buttons">
+                                <button class="super-filter-btn" onclick="applySuperFilter('Contemplative Practice')">Contemplative Practice (9)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Creative Services')">Creative Services (4)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Culinary Arts')">Culinary Arts (7)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Environmental')">Environmental (10)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Journalism')">Journalism (6)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Legal')">Legal (7)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Relationship Services')">Relationship Services (4)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Sports')">Sports (3)</button>
+                            </div>
+                        </div>
+
+                        <div class="domain-group-section">
+                            <div class="domain-group-header">Literary</div>
+                            <div class="super-filter-buttons">
+                                <button class="super-filter-btn" onclick="applySuperFilter('Authors')">Authors (6)</button>
+                            </div>
+                        </div>
+
+                        <div class="super-filter-buttons" style="margin-top: 16px; border-top: 1px solid rgba(40, 54, 24, 0.2); padding-top: 12px;">
+                            <button class="super-filter-btn" onclick="clearAllFilters()">Clear All Filters</button>
                         </div>
                     </div>
                 </div>

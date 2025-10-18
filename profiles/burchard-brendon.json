@@ -1,8 +1,8 @@
 {
   "name": "Brendon Burchard",
   "archetype": "Strategist",
-  "domain": "Motivation Coaching",
-  "sub_domain": "High Performance & Personal Development",
+  "domain": "Psychology",
+  "sub_domain": "Applied Psychology",
   "psychological_profile": {
     "primary_traits": "systematic, high-energy, research-oriented, performance-oriented",
     "cognitive_style": "systematic performance optimization with research-backed approach",
@@ -271,5 +271,6 @@
     "mentorship_inclination": "natural mentor",
     "feedback_style": "constructive and structured",
     "delegation_approach": "structured delegation"
-  }
+  },
+  "quality_tier": "Tier 3: Contemporary"
 }

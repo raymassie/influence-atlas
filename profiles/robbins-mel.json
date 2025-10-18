@@ -2,8 +2,8 @@
   "profile_id": "robbins-mel",
   "name": "Mel Robbins",
   "archetype": "Coach",
-  "domain": "Motivation Coaching",
-  "sub_domain": "Action Coaching",
+  "domain": "Psychology",
+  "sub_domain": "Applied Psychology",
   "era": "Modern",
   "birth_year": 1968,
   "death_year": null,
@@ -180,5 +180,6 @@
     "mentorship_inclination": "natural mentor",
     "feedback_style": "direct and immediate",
     "delegation_approach": "structured delegation"
-  }
+  },
+  "quality_tier": "Tier 3: Contemporary"
 }

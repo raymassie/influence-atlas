@@ -2,8 +2,8 @@
   "profile_id": "darwin-charles",
   "name": "Charles Darwin",
   "archetype": "Scientist",
-  "domain": "Trades & Technical Services",
-  "sub_domain": "Scientific Research",
+  "domain": "Science",
+  "sub_domain": "Evolutionary Biology",
   "category": "Trades & Technical Services",
   "subcategory": "Research Scientists",
   "era": "Modern",
@@ -213,5 +213,6 @@
     "mentorship_inclination": "natural mentor",
     "feedback_style": "constructive and structured",
     "delegation_approach": "structured delegation"
-  }
+  },
+  "quality_tier": "Tier 1: Legend"
 }

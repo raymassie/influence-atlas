@@ -1,8 +1,8 @@
 {
   "name": "Les Brown",
   "archetype": "Facilitator",
-  "domain": "Motivation Coaching",
-  "sub_domain": "Possibility Thinking & Dream Achievement",
+  "domain": "Psychology",
+  "sub_domain": "Applied Psychology",
   "psychological_profile": {
     "primary_traits": [
       "inspiring",
@@ -281,5 +281,6 @@
     "mentorship_inclination": "natural mentor",
     "feedback_style": "constructive and structured",
     "delegation_approach": "structured delegation"
-  }
+  },
+  "quality_tier": "Tier 3: Contemporary"
 }

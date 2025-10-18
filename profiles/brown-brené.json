@@ -2,8 +2,8 @@
   "profile_id": "brown-brené",
   "name": "Brené Brown",
   "archetype": "Researcher",
-  "domain": "Thought Leadership",
-  "sub_domain": "Psychology",
+  "domain": "Psychology",
+  "sub_domain": "Social Psychology",
   "communication_style": {
     "tone": "empathetic, authentic, vulnerable, research-based, emotionally-intelligent, transformative, insightful, compassionate, courageous, healing-focused",
     "vocabulary_patterns": "emotional intelligence terminology, vulnerability research language, authentic connection concepts, healing and courage insights",
@@ -183,5 +183,6 @@
     "mentorship_inclination": "selective mentor",
     "feedback_style": "gentle and encouraging",
     "delegation_approach": "structured delegation"
-  }
+  },
+  "quality_tier": "Tier 2: Pioneer"
 }

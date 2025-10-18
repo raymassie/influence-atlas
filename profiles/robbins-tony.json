@@ -2,8 +2,8 @@
   "profile_id": "robbins-tony",
   "name": "Tony Robbins",
   "archetype": "Coach",
-  "domain": "Motivation Coaching",
-  "sub_domain": "Life Coaching",
+  "domain": "Psychology",
+  "sub_domain": "Applied Psychology",
   "era": "Modern",
   "birth_year": 1960,
   "death_year": null,
@@ -182,5 +182,6 @@
     "mentorship_inclination": "natural mentor",
     "feedback_style": "constructive and structured",
     "delegation_approach": "structured delegation"
-  }
+  },
+  "quality_tier": "Tier 2: Pioneer"
 }

@@ -2,7 +2,7 @@
   "profile_id": "ford-henry",
   "name": "Henry Ford",
   "archetype": "Pioneer",
-  "domain": "Trades & Technical Services",
+  "domain": "Engineering & Architecture",
   "sub_domain": "Industrial Engineering",
   "category": "Trades & Technical Services",
   "subcategory": "Industrial Engineers",
@@ -213,5 +213,6 @@
     "mentorship_inclination": "natural mentor",
     "feedback_style": "constructive and structured",
     "delegation_approach": "structured delegation"
-  }
+  },
+  "quality_tier": "Tier 1: Legend"
 }

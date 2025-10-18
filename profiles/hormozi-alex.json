@@ -1,7 +1,7 @@
 {
   "name": "Alex Hormozi",
   "archetype": "Consultant",
-  "domain": "Thought Leadership",
+  "domain": "Business",
   "sub_domain": "Business Strategy",
   "psychological_profile": {
     "primary_traits": [
@@ -275,5 +275,6 @@
     "mentorship_inclination": "selective mentor",
     "feedback_style": "direct and immediate",
     "delegation_approach": "structured delegation"
-  }
+  },
+  "quality_tier": "Tier 3: Contemporary"
 }

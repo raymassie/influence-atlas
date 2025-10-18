@@ -2,8 +2,8 @@
   "profile_id": "tesla-nikola",
   "name": "Nikola Tesla",
   "archetype": "Pioneer",
-  "domain": "Trades & Technical Services",
-  "sub_domain": "Electrical Engineering",
+  "domain": "Science",
+  "sub_domain": "Electrical Engineering & Physics",
   "category": "Trades & Technical Services",
   "subcategory": "Electrical Engineers",
   "era": "Modern",
@@ -213,5 +213,6 @@
     "mentorship_inclination": "natural mentor",
     "feedback_style": "direct and immediate",
     "delegation_approach": "empowers fully"
-  }
+  },
+  "quality_tier": "Tier 1: Legend"
 }

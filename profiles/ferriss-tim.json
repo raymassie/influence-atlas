@@ -2,8 +2,8 @@
   "profile_id": "ferriss-tim",
   "name": "Tim Ferriss",
   "archetype": "Coach",
-  "domain": "Motivation Coaching",
-  "sub_domain": "Lifestyle Coaching",
+  "domain": "Psychology",
+  "sub_domain": "Applied Psychology",
   "era": "Modern",
   "birth_year": 1977,
   "death_year": null,
@@ -184,5 +184,6 @@
     "mentorship_inclination": "natural mentor",
     "feedback_style": "constructive and structured",
     "delegation_approach": "structured delegation"
-  }
+  },
+  "quality_tier": "Tier 2: Pioneer"
 }

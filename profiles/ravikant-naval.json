@@ -1,8 +1,8 @@
 {
   "name": "Naval Ravikant",
   "archetype": "Investor",
-  "domain": "Thought Leadership",
-  "sub_domain": "Startup Philosophy & Wealth Creation",
+  "domain": "Philosophy",
+  "sub_domain": "Modern Philosophy",
   "psychological_profile": {
     "primary_traits": [
       "philosophical",
@@ -270,5 +270,6 @@
     "mentorship_inclination": "selective mentor",
     "feedback_style": "constructive and structured",
     "delegation_approach": "structured delegation"
-  }
+  },
+  "quality_tier": "Tier 3: Contemporary"
 }

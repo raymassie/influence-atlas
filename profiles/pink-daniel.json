@@ -2,7 +2,7 @@
   "profile_id": "pink-daniel",
   "name": "Daniel Pink",
   "archetype": "Researcher",
-  "domain": "Thought Leadership",
+  "domain": "Psychology",
   "sub_domain": "Behavioral Science",
   "communication_style": {
     "tone": "research-based, insightful, motivational, data-driven, accessible, thought-provoking, evidence-based, inspiring, analytical, transformative",
@@ -187,5 +187,6 @@
     "mentorship_inclination": "selective mentor",
     "feedback_style": "constructive and structured",
     "delegation_approach": "structured delegation"
-  }
+  },
+  "quality_tier": "Tier 2: Pioneer"
 }

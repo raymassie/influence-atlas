@@ -2,8 +2,8 @@
   "profile_id": "covey-stephen",
   "name": "Stephen Covey",
   "archetype": "Coach",
-  "domain": "Motivation Coaching",
-  "sub_domain": "Leadership",
+  "domain": "Psychology",
+  "sub_domain": "Applied Psychology",
   "era": "Modern",
   "birth_year": 1932,
   "death_year": 2012,
@@ -192,5 +192,6 @@
     "mentorship_inclination": "natural mentor",
     "feedback_style": "constructive and structured",
     "delegation_approach": "structured delegation"
-  }
+  },
+  "quality_tier": "Tier 2: Pioneer"
 }

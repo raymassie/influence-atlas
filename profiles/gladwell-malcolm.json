@@ -2,8 +2,8 @@
   "profile_id": "gladwell-malcolm",
   "name": "Malcolm Gladwell",
   "archetype": "Storyteller",
-  "domain": "Thought Leadership",
-  "sub_domain": "Social Science Storytelling",
+  "domain": "Writing",
+  "sub_domain": "Nonfiction",
   "communication_style": {
     "tone": "narrative-driven, counterintuitive, storytelling, insightful, accessible, thought-provoking, research-based, engaging, analytical, transformative",
     "vocabulary_patterns": "social science terminology, counterintuitive insights language, narrative storytelling concepts, research-based social analysis",
@@ -182,5 +182,6 @@
     "mentorship_inclination": "selective mentor",
     "feedback_style": "constructive and structured",
     "delegation_approach": "structured delegation"
-  }
+  },
+  "quality_tier": "Tier 2: Pioneer"
 }

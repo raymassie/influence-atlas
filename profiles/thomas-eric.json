@@ -1,8 +1,8 @@
 {
   "name": "Eric Thomas",
   "archetype": "Speaker",
-  "domain": "Motivation Coaching",
-  "sub_domain": "Street Motivation & Success Psychology",
+  "domain": "Psychology",
+  "sub_domain": "Applied Psychology",
   "psychological_profile": {
     "primary_traits": [
       "passionate",
@@ -281,5 +281,6 @@
     "mentorship_inclination": "natural mentor",
     "feedback_style": "constructive and structured",
     "delegation_approach": "structured delegation"
-  }
+  },
+  "quality_tier": "Tier 3: Contemporary"
 }
