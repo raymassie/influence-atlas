@@ -126,10 +126,10 @@ Contact: raymassie@gmail.com for commercial licensing
                             <div class="domain-group-header">Creative Arts</div>
                             <div class="super-filter-buttons">
                                 <button class="super-filter-btn" onclick="applySuperFilter('Arts')">Arts (10)</button>
-                                <button class="super-filter-btn" onclick="applySuperFilter('Design')">Design (14)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Design')">Design (12)</button>
                                 <button class="super-filter-btn" onclick="applySuperFilter('Film')">Film (9)</button>
                                 <button class="super-filter-btn" onclick="applySuperFilter('Music')">Music (27)</button>
-                                <button class="super-filter-btn" onclick="applySuperFilter('Writing')">Writing (18)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Writing')">Writing (23)</button>
                             </div>
                         </div>
 
@@ -137,11 +137,11 @@ Contact: raymassie@gmail.com for commercial licensing
                             <div class="domain-group-header">Business & Commerce</div>
                             <div class="super-filter-buttons">
                                 <button class="super-filter-btn" onclick="applySuperFilter('Business')">Business (10)</button>
-                                <button class="super-filter-btn" onclick="applySuperFilter('Economics')">Economics (12)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Economics')">Economics (11)</button>
                                 <button class="super-filter-btn" onclick="applySuperFilter('Entrepreneurship')">Entrepreneurship (14)</button>
                                 <button class="super-filter-btn" onclick="applySuperFilter('Finance')">Finance (2)</button>
                                 <button class="super-filter-btn" onclick="applySuperFilter('Investment')">Investment (9)</button>
-                                <button class="super-filter-btn" onclick="applySuperFilter('Marketing')">Marketing (19)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Marketing')">Marketing (18)</button>
                             </div>
                         </div>
 
@@ -162,7 +162,7 @@ Contact: raymassie@gmail.com for commercial licensing
                                 <button class="super-filter-btn" onclick="applySuperFilter('History')">History (10)</button>
                                 <button class="super-filter-btn" onclick="applySuperFilter('Philosophy')">Philosophy (20)</button>
                                 <button class="super-filter-btn" onclick="applySuperFilter('Psychology')">Psychology (23)</button>
-                                <button class="super-filter-btn" onclick="applySuperFilter('Public Policy')">Public Policy (13)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Public Policy')">Public Policy (11)</button>
                             </div>
                         </div>
 
@@ -183,7 +183,7 @@ Contact: raymassie@gmail.com for commercial licensing
                         <div class="domain-group-section">
                             <div class="domain-group-header">Literary</div>
                             <div class="super-filter-buttons">
-                                <button class="super-filter-btn" onclick="applySuperFilter('Authors')">Authors (6)</button>
+                                <button class="super-filter-btn" onclick="applySuperFilter('Authors')">Authors (1)</button>
                             </div>
                         </div>
 
@@ -1489,12 +1489,12 @@ Contact: raymassie@gmail.com for commercial licensing
             console.log('✅ All filters cleared');
         }
 
-        function applySuperFilter(category) {
-            console.log(`🎯 Applying super filter: ${category}`);
+        function applySuperFilter(domain) {
+            console.log(`🎯 Applying super filter: ${domain}`);
             
-            // Check if clicking the same category (deselection)
-            if (activeSuperFilter === category) {
-                console.log(`🔄 Deselecting super filter: ${category}`);
+            // Check if clicking the same domain (deselection)
+            if (activeSuperFilter === domain) {
+                console.log(`🔄 Deselecting super filter: ${domain}`);
                 clearAllFilters();
                 activeSuperFilter = null;
                 updateSuperFilterButtons();
@@ -1504,9 +1504,9 @@ Contact: raymassie@gmail.com for commercial licensing
             // Clear all existing filters first
             clearAllFilters();
             
-            // Filter profiles by category directly
+            // Filter profiles by domain directly
             filteredProfiles = allProfiles.filter(profile => {
-                return profile.category === category;
+                return profile.domain === domain;
             });
             
             // Sort filtered results alphabetically by last name
@@ -1519,10 +1519,10 @@ Contact: raymassie@gmail.com for commercial licensing
             displayProfiles();
             
             // Set active super filter
-            activeSuperFilter = category;
+            activeSuperFilter = domain;
             updateSuperFilterButtons();
             
-            console.log(`✅ Applied ${category} super filter - found ${filteredProfiles.length} profiles`);
+            console.log(`✅ Applied ${domain} super filter - found ${filteredProfiles.length} profiles`);
         }
 
         function applyQualityFilter(qualityTier) {
