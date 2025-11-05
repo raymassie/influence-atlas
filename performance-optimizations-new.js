@@ -7,6 +7,7 @@
 // Global variables for performance
 let profileIndexes = {};
 let searchCache = {};
+let searchTimeout;
 // Note: filterCache is declared in index.html as a Map
 
 // Load indexes for faster filtering

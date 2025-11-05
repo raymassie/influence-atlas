@@ -104,7 +104,7 @@ Contact: raymassie@gmail.com for commercial licensing
             
             <div class="nav-right">
                 <div class="search-container">
-                    <input type="text" id="search-filter" placeholder="Search Profiles" onkeyup="debouncedFilterProfiles()">
+                    <input type="text" id="search-filter" placeholder="Search Profiles">
                 </div>
             </div>
         </div>
@@ -1696,6 +1696,23 @@ Contact: raymassie@gmail.com for commercial licensing
             if (visibleCountNav) visibleCountNav.textContent = filteredProfiles.length;
         }
 
+        // Helper function for word-boundary prefix search
+        function matchesSearchTerm(text, searchTerm) {
+            if (!text || !searchTerm) return false;
+            
+            // Ensure text is a string
+            if (typeof text !== 'string') {
+                text = String(text);
+            }
+            
+            const textLower = text.toLowerCase();
+            const searchLower = searchTerm.toLowerCase();
+            
+            // Split into words and check if any word STARTS with the search term
+            const words = textLower.split(/[\s,;:.!?()[\]{}'"\/\\-]+/).filter(w => w.length > 0);
+            return words.some(word => word.startsWith(searchLower));
+        }
+
         // Debounced search for better performance
         let searchTimeout;
         function debouncedFilterProfiles() {
@@ -1787,7 +1804,8 @@ Contact: raymassie@gmail.com for commercial licensing
 
         function filterProfiles() {
             console.time('⚡ filterProfiles');
-            const searchTerm = document.getElementById('search-filter').value.toLowerCase();
+            const searchTermRaw = document.getElementById('search-filter').value;
+            const searchTerm = searchTermRaw.toLowerCase().trim();
             const selectedArchetypes = Array.from(document.getElementById('archetype-filter').selectedOptions).map(option => option.value);
             const selectedDomains = Array.from(document.getElementById('domain-filter').selectedOptions).map(option => option.value);
             const selectedSubDomains = Array.from(document.getElementById('subdomain-filter').selectedOptions).map(option => option.value);
@@ -1922,66 +1940,66 @@ Contact: raymassie@gmail.com for commercial licensing
             }
 
             filteredProfiles = allProfiles.filter(profile => {
-                // Enhanced text search across all fields
+                // Enhanced text search across all fields with word-boundary matching
                 const matchesSearch = !searchTerm || 
-                    profile.name.toLowerCase().includes(searchTerm) ||
-                    profile.archetype.toLowerCase().includes(searchTerm) ||
-                    profile.domain.toLowerCase().includes(searchTerm) ||
-                    (profile.sub_domain && profile.sub_domain.toLowerCase().includes(searchTerm)) ||
-                    (profile.psychological_profile?.cognitive_style && profile.psychological_profile.cognitive_style.toLowerCase().includes(searchTerm)) ||
-                    (profile.psychological_profile?.decision_making_framework && profile.psychological_profile.decision_making_framework.toLowerCase().includes(searchTerm)) ||
-                    (profile.communication_style?.tone && typeof profile.communication_style.tone === 'string' && profile.communication_style.tone.toLowerCase().includes(searchTerm)) ||
-                    (profile.communication_style?.tone_parsed && profile.communication_style.tone_parsed.some(term => term.toLowerCase().includes(searchTerm))) ||
-                    (profile.communication_style?.sentence_structure && typeof profile.communication_style.sentence_structure === 'string' && profile.communication_style.sentence_structure.toLowerCase().includes(searchTerm)) ||
-                    (profile.communication_style?.sentence_structure_parsed && profile.communication_style.sentence_structure_parsed.some(structure => structure.toLowerCase().includes(searchTerm))) ||
-                    (profile.domain_expertise?.core_competencies && Array.isArray(profile.domain_expertise.core_competencies) && profile.domain_expertise.core_competencies.some(comp => comp.toLowerCase().includes(searchTerm))) ||
-                    (profile.background_context?.experience_level && typeof profile.background_context.experience_level === 'string' && profile.background_context.experience_level.toLowerCase().includes(searchTerm)) ||
-                    (profile.background_context?.typical_career_path && profile.background_context.typical_career_path.toLowerCase().includes(searchTerm)) ||
-                    (profile.behavioral_patterns?.work_style && profile.behavioral_patterns.work_style.toLowerCase().includes(searchTerm)) ||
-                    (profile.behavioral_patterns?.work_style_parsed && profile.behavioral_patterns.work_style_parsed.some(style => style.toLowerCase().includes(searchTerm))) ||
-                    (profile.behavioral_patterns?.problem_solving_approach && profile.behavioral_patterns.problem_solving_approach.toLowerCase().includes(searchTerm)) ||
-                    (profile.behavioral_patterns?.problem_solving_approach_parsed && profile.behavioral_patterns.problem_solving_approach_parsed.some(approach => approach.toLowerCase().includes(searchTerm))) ||
-                    (profile.unique_identifiers?.signature_methodologies && Array.isArray(profile.unique_identifiers.signature_methodologies) && profile.unique_identifiers.signature_methodologies.some(method => method.toLowerCase().includes(searchTerm))) ||
-                    (profile.unique_identifiers?.contrarian_beliefs && Array.isArray(profile.unique_identifiers.contrarian_beliefs) && profile.unique_identifiers.contrarian_beliefs.some(belief => belief.toLowerCase().includes(searchTerm))) ||
-                    (profile.unique_identifiers?.pet_peeves && Array.isArray(profile.unique_identifiers.pet_peeves) && profile.unique_identifiers.pet_peeves.some(peeve => peeve.toLowerCase().includes(searchTerm))) ||
-                    (profile.unique_identifiers?.aspirational_references && Array.isArray(profile.unique_identifiers.aspirational_references) && profile.unique_identifiers.aspirational_references.some(ref => ref.toLowerCase().includes(searchTerm))) ||
-                    (profile.unique_identifiers?.distinctive_quirks && Array.isArray(profile.unique_identifiers.distinctive_quirks) && profile.unique_identifiers.distinctive_quirks.some(quirk => quirk.toLowerCase().includes(searchTerm))) ||
+                    matchesSearchTerm(profile.name, searchTerm) ||
+                    matchesSearchTerm(profile.archetype, searchTerm) ||
+                    matchesSearchTerm(profile.domain, searchTerm) ||
+                    matchesSearchTerm(profile.sub_domain, searchTerm) ||
+                    matchesSearchTerm(profile.psychological_profile?.cognitive_style, searchTerm) ||
+                    matchesSearchTerm(profile.psychological_profile?.decision_making_framework, searchTerm) ||
+                    matchesSearchTerm(profile.communication_style?.tone, searchTerm) ||
+                    (profile.communication_style?.tone_parsed && profile.communication_style.tone_parsed.some(term => matchesSearchTerm(term, searchTerm))) ||
+                    matchesSearchTerm(profile.communication_style?.sentence_structure, searchTerm) ||
+                    (profile.communication_style?.sentence_structure_parsed && profile.communication_style.sentence_structure_parsed.some(structure => matchesSearchTerm(structure, searchTerm))) ||
+                    (profile.domain_expertise?.core_competencies && Array.isArray(profile.domain_expertise.core_competencies) && profile.domain_expertise.core_competencies.some(comp => matchesSearchTerm(comp, searchTerm))) ||
+                    matchesSearchTerm(profile.background_context?.experience_level, searchTerm) ||
+                    matchesSearchTerm(profile.background_context?.typical_career_path, searchTerm) ||
+                    matchesSearchTerm(profile.behavioral_patterns?.work_style, searchTerm) ||
+                    (profile.behavioral_patterns?.work_style_parsed && profile.behavioral_patterns.work_style_parsed.some(style => matchesSearchTerm(style, searchTerm))) ||
+                    matchesSearchTerm(profile.behavioral_patterns?.problem_solving_approach, searchTerm) ||
+                    (profile.behavioral_patterns?.problem_solving_approach_parsed && profile.behavioral_patterns.problem_solving_approach_parsed.some(approach => matchesSearchTerm(approach, searchTerm))) ||
+                    (profile.unique_identifiers?.signature_methodologies && Array.isArray(profile.unique_identifiers.signature_methodologies) && profile.unique_identifiers.signature_methodologies.some(method => matchesSearchTerm(method, searchTerm))) ||
+                    (profile.unique_identifiers?.contrarian_beliefs && Array.isArray(profile.unique_identifiers.contrarian_beliefs) && profile.unique_identifiers.contrarian_beliefs.some(belief => matchesSearchTerm(belief, searchTerm))) ||
+                    (profile.unique_identifiers?.pet_peeves && Array.isArray(profile.unique_identifiers.pet_peeves) && profile.unique_identifiers.pet_peeves.some(peeve => matchesSearchTerm(peeve, searchTerm))) ||
+                    (profile.unique_identifiers?.aspirational_references && Array.isArray(profile.unique_identifiers.aspirational_references) && profile.unique_identifiers.aspirational_references.some(ref => matchesSearchTerm(ref, searchTerm))) ||
+                    (profile.unique_identifiers?.distinctive_quirks && Array.isArray(profile.unique_identifiers.distinctive_quirks) && profile.unique_identifiers.distinctive_quirks.some(quirk => matchesSearchTerm(quirk, searchTerm))) ||
                     // New category search fields
-                    (profile.temporal_context?.career_evolution && profile.temporal_context.career_evolution.toLowerCase().includes(searchTerm)) ||
-                    (profile.temporal_context?.career_evolution_parsed && profile.temporal_context.career_evolution_parsed.some(evolution => evolution.toLowerCase().includes(searchTerm))) ||
-                    (profile.temporal_context?.influence_timeline && profile.temporal_context.influence_timeline.toLowerCase().includes(searchTerm)) ||
-                    (profile.temporal_context?.influence_timeline_parsed && profile.temporal_context.influence_timeline_parsed.some(timeline => timeline.toLowerCase().includes(searchTerm))) ||
-                    (profile.temporal_context?.legacy_impact && profile.temporal_context.legacy_impact.toLowerCase().includes(searchTerm)) ||
-                    (profile.temporal_context?.legacy_impact_parsed && profile.temporal_context.legacy_impact_parsed.some(impact => impact.toLowerCase().includes(searchTerm))) ||
-                    (profile.collaboration?.leadership_style && profile.collaboration.leadership_style.toLowerCase().includes(searchTerm)) ||
-                    (profile.collaboration?.leadership_style_parsed && profile.collaboration.leadership_style_parsed.some(style => style.toLowerCase().includes(searchTerm))) ||
-                    (profile.collaboration?.team_dynamics && profile.collaboration.team_dynamics.toLowerCase().includes(searchTerm)) ||
-                    (profile.collaboration?.team_dynamics_parsed && profile.collaboration.team_dynamics_parsed.some(dynamic => dynamic.toLowerCase().includes(searchTerm))) ||
-                    (profile.collaboration?.mentorship_approach && profile.collaboration.mentorship_approach.toLowerCase().includes(searchTerm)) ||
-                    (profile.collaboration?.mentorship_approach_parsed && profile.collaboration.mentorship_approach_parsed.some(approach => approach.toLowerCase().includes(searchTerm))) ||
-                    (profile.collaboration?.conflict_resolution && profile.collaboration.conflict_resolution.toLowerCase().includes(searchTerm)) ||
-                    (profile.collaboration?.conflict_resolution_parsed && profile.collaboration.conflict_resolution_parsed.some(resolution => resolution.toLowerCase().includes(searchTerm))) ||
-                    (profile.cultural_context?.cultural_background && profile.cultural_context.cultural_background.toLowerCase().includes(searchTerm)) ||
-                    (profile.cultural_context?.cultural_background_parsed && profile.cultural_context.cultural_background_parsed.some(background => background.toLowerCase().includes(searchTerm))) ||
-                    (profile.cultural_context?.geographic_influence && profile.cultural_context.geographic_influence.toLowerCase().includes(searchTerm)) ||
-                    (profile.cultural_context?.generational_perspective && profile.cultural_context.generational_perspective.toLowerCase().includes(searchTerm)) ||
-                    (profile.practical_application?.decision_speed && profile.practical_application.decision_speed.toLowerCase().includes(searchTerm)) ||
-                    (profile.practical_application?.decision_speed_parsed && profile.practical_application.decision_speed_parsed.some(speed => speed.toLowerCase().includes(searchTerm))) ||
-                    (profile.practical_application?.risk_tolerance && profile.practical_application.risk_tolerance.toLowerCase().includes(searchTerm)) ||
-                    (profile.practical_application?.innovation_vs_optimization && profile.practical_application.innovation_vs_optimization.toLowerCase().includes(searchTerm)) ||
-                    (profile.practical_application?.scale_preferences && profile.practical_application.scale_preferences.toLowerCase().includes(searchTerm)) ||
-                    (profile.communication?.audience_adaptation && profile.communication.audience_adaptation.toLowerCase().includes(searchTerm)) ||
-                    (profile.communication?.audience_adaptation_parsed && profile.communication.audience_adaptation_parsed.some(adaptation => adaptation.toLowerCase().includes(searchTerm))) ||
-                    (profile.communication?.media_preferences && profile.communication.media_preferences.toLowerCase().includes(searchTerm)) ||
-                    (profile.communication?.influence_strategies && profile.communication.influence_strategies.toLowerCase().includes(searchTerm)) ||
-                    (profile.learning?.learning_style && profile.learning.learning_style.toLowerCase().includes(searchTerm)) ||
-                    (profile.learning?.learning_style_parsed && profile.learning.learning_style_parsed.some(style => style.toLowerCase().includes(searchTerm))) ||
-                    (profile.learning?.adaptation_speed && profile.learning.adaptation_speed.toLowerCase().includes(searchTerm)) ||
-                    (profile.learning?.failure_response && profile.learning.failure_response.toLowerCase().includes(searchTerm)) ||
-                    (profile.values?.core_values && typeof profile.values.core_values === 'string' && profile.values.core_values.toLowerCase().includes(searchTerm)) ||
-                    (profile.values?.core_values_parsed && profile.values.core_values_parsed.some(value => value.toLowerCase().includes(searchTerm))) ||
-                    (profile.values?.ethical_framework && profile.values.ethical_framework.toLowerCase().includes(searchTerm)) ||
-                    (profile.values?.social_responsibility && profile.values.social_responsibility.toLowerCase().includes(searchTerm));
+                    matchesSearchTerm(profile.temporal_context?.career_evolution, searchTerm) ||
+                    (profile.temporal_context?.career_evolution_parsed && profile.temporal_context.career_evolution_parsed.some(evolution => matchesSearchTerm(evolution, searchTerm))) ||
+                    matchesSearchTerm(profile.temporal_context?.influence_timeline, searchTerm) ||
+                    (profile.temporal_context?.influence_timeline_parsed && profile.temporal_context.influence_timeline_parsed.some(timeline => matchesSearchTerm(timeline, searchTerm))) ||
+                    matchesSearchTerm(profile.temporal_context?.legacy_impact, searchTerm) ||
+                    (profile.temporal_context?.legacy_impact_parsed && profile.temporal_context.legacy_impact_parsed.some(impact => matchesSearchTerm(impact, searchTerm))) ||
+                    matchesSearchTerm(profile.collaboration?.leadership_style, searchTerm) ||
+                    (profile.collaboration?.leadership_style_parsed && profile.collaboration.leadership_style_parsed.some(style => matchesSearchTerm(style, searchTerm))) ||
+                    matchesSearchTerm(profile.collaboration?.team_dynamics, searchTerm) ||
+                    (profile.collaboration?.team_dynamics_parsed && profile.collaboration.team_dynamics_parsed.some(dynamic => matchesSearchTerm(dynamic, searchTerm))) ||
+                    matchesSearchTerm(profile.collaboration?.mentorship_approach, searchTerm) ||
+                    (profile.collaboration?.mentorship_approach_parsed && profile.collaboration.mentorship_approach_parsed.some(approach => matchesSearchTerm(approach, searchTerm))) ||
+                    matchesSearchTerm(profile.collaboration?.conflict_resolution, searchTerm) ||
+                    (profile.collaboration?.conflict_resolution_parsed && profile.collaboration.conflict_resolution_parsed.some(resolution => matchesSearchTerm(resolution, searchTerm))) ||
+                    matchesSearchTerm(profile.cultural_context?.cultural_background, searchTerm) ||
+                    (profile.cultural_context?.cultural_background_parsed && profile.cultural_context.cultural_background_parsed.some(background => matchesSearchTerm(background, searchTerm))) ||
+                    matchesSearchTerm(profile.cultural_context?.geographic_influence, searchTerm) ||
+                    matchesSearchTerm(profile.cultural_context?.generational_perspective, searchTerm) ||
+                    matchesSearchTerm(profile.practical_application?.decision_speed, searchTerm) ||
+                    (profile.practical_application?.decision_speed_parsed && profile.practical_application.decision_speed_parsed.some(speed => matchesSearchTerm(speed, searchTerm))) ||
+                    matchesSearchTerm(profile.practical_application?.risk_tolerance, searchTerm) ||
+                    matchesSearchTerm(profile.practical_application?.innovation_vs_optimization, searchTerm) ||
+                    matchesSearchTerm(profile.practical_application?.scale_preferences, searchTerm) ||
+                    matchesSearchTerm(profile.communication?.audience_adaptation, searchTerm) ||
+                    (profile.communication?.audience_adaptation_parsed && profile.communication.audience_adaptation_parsed.some(adaptation => matchesSearchTerm(adaptation, searchTerm))) ||
+                    matchesSearchTerm(profile.communication?.media_preferences, searchTerm) ||
+                    matchesSearchTerm(profile.communication?.influence_strategies, searchTerm) ||
+                    matchesSearchTerm(profile.learning?.learning_style, searchTerm) ||
+                    (profile.learning?.learning_style_parsed && profile.learning.learning_style_parsed.some(style => matchesSearchTerm(style, searchTerm))) ||
+                    matchesSearchTerm(profile.learning?.adaptation_speed, searchTerm) ||
+                    matchesSearchTerm(profile.learning?.failure_response, searchTerm) ||
+                    matchesSearchTerm(profile.values?.core_values, searchTerm) ||
+                    (profile.values?.core_values_parsed && profile.values.core_values_parsed.some(value => matchesSearchTerm(value, searchTerm))) ||
+                    matchesSearchTerm(profile.values?.ethical_framework, searchTerm) ||
+                    matchesSearchTerm(profile.values?.social_responsibility, searchTerm);
 
                 // Filter by archetype
                 let matchesArchetype = selectedArchetypes.length === 0 || selectedArchetypes.includes(profile.archetype);
