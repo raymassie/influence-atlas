@@ -1696,7 +1696,7 @@ Contact: raymassie@gmail.com for commercial licensing
             if (visibleCountNav) visibleCountNav.textContent = filteredProfiles.length;
         }
 
-        // Helper function for word-boundary prefix search
+        // Helper function for character-based substring search
         function matchesSearchTerm(text, searchTerm) {
             if (!text || !searchTerm) return false;
             
@@ -1705,12 +1705,8 @@ Contact: raymassie@gmail.com for commercial licensing
                 text = String(text);
             }
             
-            const textLower = text.toLowerCase();
-            const searchLower = searchTerm.toLowerCase();
-            
-            // Split into words and check if any word STARTS with the search term
-            const words = textLower.split(/[\s,;:.!?()[\]{}'"\/\\-]+/).filter(w => w.length > 0);
-            return words.some(word => word.startsWith(searchLower));
+            // Simple substring match - search anywhere in the text
+            return text.toLowerCase().includes(searchTerm.toLowerCase());
         }
 
         // Debounced search for better performance
