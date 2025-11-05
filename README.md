@@ -18,7 +18,7 @@ This application provides rich, searchable profiles of 324+ influential figures 
 - **Full-Screen Detail View**: Clean category cards with clickable trait chips
 - **Responsive Design**: Works seamlessly across desktop and mobile devices
 - **Cross-Browser Compatible**: Tested on Chrome, Firefox, and Safari
-- **Export Functions**: Download profiles as JSON, Markdown, or YAML format
+- **Comprehensive Export Functions**: Export profiles in JSON (complete data), Markdown (formatted), or YAML (AI persona injection ready) with full behavioral humanism dimensions
 - **Performance Optimized**: 23.6% smaller file size with index-based filtering
 
 ## Data Structure
@@ -111,7 +111,9 @@ Profiles are evaluated through an integrated framework combining:
 - **Medium Coverage (50-69%)**: 12 fields
 - **Critical fields reduced by 68%** (19 → 6)
 
-### ✅ Latest Release (v11.0 - December 2025)
+### ✅ Latest Release (v11.1 - January 2025)
+- **Enhanced search functionality**: Type-safe character-based substring matching with improved reliability
+- **Comprehensive export formats**: Markdown and YAML now include full behavioral humanism dimensions (15+ sections)
 - **Complete archetype system rebuild**: Systematic, role-based taxonomy
 - **Performance optimizations**: 23.6% file size reduction, index-based filtering
 - **Quality tier implementation**: Functional Legend/Pioneer/Contemporary filters
