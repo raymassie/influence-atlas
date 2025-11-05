@@ -3670,17 +3670,90 @@ Contact: raymassie@gmail.com for commercial licensing
                 
                 return yaml;
             } else {
-                // Markdown format (default)
+                // Markdown format (default) - comprehensive export
                 let output = `# ${profile.name}\n\n`;
                 output += `**Archetype:** ${profile.archetype}\n`;
                 output += `**Domain:** ${profile.domain}\n`;
                 if (profile.sub_domain) output += `**Subdomain:** ${profile.sub_domain}\n`;
+                if (profile.quality_tier) output += `**Quality Tier:** ${profile.quality_tier}\n`;
                 
-                // Add primary traits if available
-                const traits = profile.primary_traits || profile.psychological_profile?.primary_traits;
-                if (traits) {
-                    const traitArray = Array.isArray(traits) ? traits : traits.split(',').map(t => t.trim());
-                    output += `\n**Primary Traits:** ${traitArray.join(', ')}\n`;
+                output += `\n---\n\n`;
+                
+                // Psychological Profile
+                if (profile.psychological_profile) {
+                    output += `## Psychological Profile\n\n`;
+                    const psych = profile.psychological_profile;
+                    
+                    if (psych.primary_traits) {
+                        const traits = Array.isArray(psych.primary_traits) ? psych.primary_traits : psych.primary_traits.split(',').map(t => t.trim());
+                        output += `**Primary Traits:** ${traits.join(', ')}\n\n`;
+                    }
+                    if (psych.cognitive_style) output += `**Cognitive Style:** ${psych.cognitive_style}\n\n`;
+                    if (psych.decision_making_framework) output += `**Decision Making:** ${psych.decision_making_framework}\n\n`;
+                }
+                
+                // Communication Style
+                if (profile.communication_style) {
+                    output += `## Communication Style\n\n`;
+                    const comm = profile.communication_style;
+                    
+                    if (comm.tone) {
+                        const tone = Array.isArray(comm.tone) ? comm.tone.join(', ') : comm.tone;
+                        output += `**Tone:** ${tone}\n\n`;
+                    }
+                    if (comm.sentence_structure) output += `**Sentence Structure:** ${comm.sentence_structure}\n\n`;
+                    if (comm.vocabulary) output += `**Vocabulary:** ${comm.vocabulary}\n\n`;
+                    if (comm.typical_phrases && Array.isArray(comm.typical_phrases) && comm.typical_phrases.length > 0) {
+                        output += `**Typical Phrases:**\n${comm.typical_phrases.map(p => `- "${p}"`).join('\n')}\n\n`;
+                    }
+                }
+                
+                // Domain Expertise
+                if (profile.domain_expertise) {
+                    output += `## Domain Expertise\n\n`;
+                    const domain = profile.domain_expertise;
+                    
+                    if (domain.core_competencies && Array.isArray(domain.core_competencies)) {
+                        output += `**Core Competencies:** ${domain.core_competencies.join(', ')}\n\n`;
+                    }
+                    if (domain.notable_achievements && Array.isArray(domain.notable_achievements)) {
+                        output += `**Notable Achievements:**\n${domain.notable_achievements.map(a => `- ${a}`).join('\n')}\n\n`;
+                    }
+                }
+                
+                // Behavioral Patterns
+                if (profile.behavioral_patterns) {
+                    output += `## Behavioral Patterns\n\n`;
+                    const behavior = profile.behavioral_patterns;
+                    
+                    if (behavior.work_style) output += `**Work Style:** ${behavior.work_style}\n\n`;
+                    if (behavior.problem_solving_approach) output += `**Problem Solving:** ${behavior.problem_solving_approach}\n\n`;
+                    if (behavior.risk_tolerance) output += `**Risk Tolerance:** ${behavior.risk_tolerance}\n\n`;
+                }
+                
+                // Values
+                if (profile.values) {
+                    output += `## Values\n\n`;
+                    const vals = profile.values;
+                    
+                    if (vals.core_values) {
+                        const values = Array.isArray(vals.core_values) ? vals.core_values.join(', ') : vals.core_values;
+                        output += `**Core Values:** ${values}\n\n`;
+                    }
+                    if (vals.ethical_framework) output += `**Ethical Framework:** ${vals.ethical_framework}\n\n`;
+                }
+                
+                // Unique Identifiers
+                if (profile.unique_identifiers) {
+                    output += `## Unique Identifiers\n\n`;
+                    const unique = profile.unique_identifiers;
+                    
+                    if (unique.signature_methodologies && Array.isArray(unique.signature_methodologies)) {
+                        output += `**Signature Methodologies:** ${unique.signature_methodologies.join(', ')}\n\n`;
+                    }
+                    if (unique.contrarian_beliefs && Array.isArray(unique.contrarian_beliefs)) {
+                        output += `**Contrarian Beliefs:**\n${unique.contrarian_beliefs.map(b => `- ${b}`).join('\n')}\n\n`;
+                    }
                 }
                 
                 return output;
