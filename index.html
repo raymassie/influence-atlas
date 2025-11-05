@@ -3754,6 +3754,74 @@ Contact: raymassie@gmail.com for commercial licensing
                     if (unique.contrarian_beliefs && Array.isArray(unique.contrarian_beliefs)) {
                         output += `**Contrarian Beliefs:**\n${unique.contrarian_beliefs.map(b => `- ${b}`).join('\n')}\n\n`;
                     }
+                    if (unique.pet_peeves && Array.isArray(unique.pet_peeves)) {
+                        output += `**Pet Peeves:**\n${unique.pet_peeves.map(p => `- ${p}`).join('\n')}\n\n`;
+                    }
+                }
+                
+                // Behavioral Humanism Dimensions
+                
+                // Technology Relationship
+                if (profile.technology_relationship) {
+                    output += `## Technology Relationship\n\n`;
+                    const tech = profile.technology_relationship;
+                    if (tech.technology_adoption) output += `**Adoption Level:** ${tech.technology_adoption}\n\n`;
+                    if (tech.digital_fluency) output += `**Digital Fluency:** ${tech.digital_fluency}\n\n`;
+                    if (tech.ai_perspective) output += `**AI Perspective:** ${tech.ai_perspective}\n\n`;
+                }
+                
+                // Crisis Response
+                if (profile.crisis_response) {
+                    output += `## Crisis Response\n\n`;
+                    const crisis = profile.crisis_response;
+                    if (crisis.stress_response_pattern) output += `**Under Pressure:** ${crisis.stress_response_pattern}\n\n`;
+                    if (crisis.failure_recovery) output += `**After Failure:** ${crisis.failure_recovery}\n\n`;
+                    if (crisis.uncertainty_tolerance) output += `**With Ambiguity:** ${crisis.uncertainty_tolerance}\n\n`;
+                }
+                
+                // Influence Style
+                if (profile.influence_style) {
+                    output += `## Influence Style\n\n`;
+                    const influence = profile.influence_style;
+                    if (influence.persuasion_approach) output += `**Persuasion:** ${influence.persuasion_approach}\n\n`;
+                    if (influence.rhetoric_style) output += `**Rhetoric:** ${influence.rhetoric_style}\n\n`;
+                    if (influence.change_mechanism) output += `**Change Approach:** ${influence.change_mechanism}\n\n`;
+                }
+                
+                // Resource Relationship
+                if (profile.resource_relationship) {
+                    output += `## Resource Relationship\n\n`;
+                    const resource = profile.resource_relationship;
+                    if (resource.wealth_perspective) output += `**Wealth View:** ${resource.wealth_perspective}\n\n`;
+                    if (resource.financial_risk_appetite) output += `**Risk Appetite:** ${resource.financial_risk_appetite}\n\n`;
+                    if (resource.generosity_pattern) output += `**Generosity:** ${resource.generosity_pattern}\n\n`;
+                }
+                
+                // Time Orientation
+                if (profile.time_orientation) {
+                    output += `## Time Orientation\n\n`;
+                    const time = profile.time_orientation;
+                    if (time.time_horizon) output += `**Planning Horizon:** ${time.time_horizon}\n\n`;
+                    if (time.legacy_concern) output += `**Legacy Focus:** ${time.legacy_concern}\n\n`;
+                    if (time.urgency_vs_patience) output += `**Pace:** ${time.urgency_vs_patience}\n\n`;
+                }
+                
+                // Collaboration Enhancement
+                if (profile.collaboration_enhancement) {
+                    output += `## Collaboration Style\n\n`;
+                    const collab = profile.collaboration_enhancement;
+                    if (collab.conflict_resolution_style) output += `**Conflict Resolution:** ${collab.conflict_resolution_style}\n\n`;
+                    if (collab.mentorship_inclination) output += `**Mentorship:** ${collab.mentorship_inclination}\n\n`;
+                    if (collab.feedback_style) output += `**Feedback Style:** ${collab.feedback_style}\n\n`;
+                }
+                
+                // Learning
+                if (profile.learning) {
+                    output += `## Learning Style\n\n`;
+                    const learn = profile.learning;
+                    if (learn.learning_style) output += `**Learning Style:** ${learn.learning_style}\n\n`;
+                    if (learn.adaptation_speed) output += `**Adaptation Speed:** ${learn.adaptation_speed}\n\n`;
+                    if (learn.failure_response) output += `**Failure Response:** ${learn.failure_response}\n\n`;
                 }
                 
                 return output;
